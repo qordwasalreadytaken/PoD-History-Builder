@@ -7,7 +7,7 @@ import urllib.parse
 # --- CONFIG ---
 SNAPSHOT_DIR = "snapshots"
 INDEX_FILE = "index.json"
-CHARACTER_FILE = "all_characters.json"   # or hc_ladder.json
+CHARACTER_FILE = "sc_ladder.json"   # or hc_ladder.json
 #BASE_IMPORT_PATH = "https://build.pathofdiablo.com/"  # change if needed
 BASE_IMPORT_PATH = "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html"
 GAME_VERSION = 2                    # PoD-specific features
