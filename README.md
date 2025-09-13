@@ -1,9 +1,9 @@
 # PoD-History-Builder
 # Saving character data over time via build planner links
 
-# Downloads all ladder character to json file
-
-- Using same functions as the trends site downloads all ladder SC and HC data to one big json file, runs at 45 minutes past the hour, every hour
+## Fetch_laddre_data.py downloads all ladder character to json file
+- Using same functions as the trends site downloads all ladder SC and HC data to one big json file 
+- Runs at 45 minutes past the hour, every hour
 
 
 ## Collect.py looks at downloaded character json file and:
@@ -20,9 +20,9 @@
 
 ## Limitations:
 - We're buiding a url the planner can read, we're not equipping items in the planner. As a result:
--- We cannot import stats of an item, so magic, rare, and crafted items will come across with no stats/properties
--- This will not catch synth items
+    - We cannot import stats of an item, so magic, rare, and crafted items will come across with no stats/properties
+    - This will not catch synth items
 - HC characters that are dead will never change
 - HC character that are dead wear no equipment
--- We could skip dead characters, but this doesn't feel right
--- Maybe add a disclaimer to search page stating the above
+    - We could skip dead characters, but this doesn't feel right
+    - Maybe add a disclaimer to search page stating the above
