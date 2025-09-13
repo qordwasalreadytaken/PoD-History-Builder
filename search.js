@@ -42,7 +42,7 @@ document.getElementById('searchBtn').addEventListener('click', async () => {
     }
 
     // Build table
-    let html = `Snapshots for ${name}<br><br><table><tr><th>Date</th><th>Final URL</th></tr>`;
+    let html = `Snapshots via build planner for <a href="https://beta.pathofdiablo.com/armory?name=${name}" target="_blank">${name}</a><br><br><table><tr><th>Date/Time</th><th>Build Planner URL</th></tr>`;
     for (const entry of allData) {
       html += `<tr><td>${entry.timestamp}</td><td><a href="${entry.url}" target="_blank">${entry.url}</a></td></tr>`;
     }
