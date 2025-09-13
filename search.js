@@ -42,7 +42,7 @@ document.getElementById('searchBtn').addEventListener('click', async () => {
     }
 
     // Build table
-    let html = '<table><tr><th>Date</th><th>Final URL</th></tr>';
+    let html = `Snapshots for ${name}<br><br><table><tr><th>Date</th><th>Final URL</th></tr>`;
     for (const entry of allData) {
       html += `<tr><td>${entry.timestamp}</td><td><a href="${entry.url}" target="_blank">${entry.url}</a></td></tr>`;
     }
