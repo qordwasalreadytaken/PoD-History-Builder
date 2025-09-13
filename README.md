@@ -1,7 +1,7 @@
 # PoD-History-Builder
 # Saving character data over time via build planner links
 
-## Fetch_laddre_data.py downloads all ladder character to json file
+## Fetch_ladder_data.py downloads all ladder character to json file
 - Using same functions as the trends site downloads all ladder SC and HC data to one big json file 
 - Runs at 45 minutes past the hour, every hour
 
@@ -11,7 +11,7 @@
 - Looks at skills and equipment and creates a build planner url that maps those skills and equips
 - Maps that url to timestamp
 - Creates/updates index.json that maps timestamp url's to character names
-- Runs at 1o minutes pas the hour, every hour
+- Runs at 10 minutes past the hour, every hour
 
 ## Search.html
 - Searches index for character names
