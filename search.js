@@ -9,8 +9,12 @@ document.getElementById('searchBtn').addEventListener('click', async () => {
   }
 
   try {
+    // Fetch and preview index.json
     const indexRes = await fetch('index.json');
-    const index = await indexRes.json();
+    const indexText = await indexRes.text(); // raw text preview
+//    console.log("Fetched text:", indexText.slice(0, 200));
+    const index = JSON.parse(indexText); // parsed object
+//    console.log("Parsed JSON:", index);
 
     // normalize keys of index.json once
     const normalizedIndex = {};
@@ -44,7 +48,7 @@ document.getElementById('searchBtn').addEventListener('click', async () => {
     // Build table
     let html = `Snapshots via build planner for <a href="https://beta.pathofdiablo.com/armory?name=${name}" target="_blank">${name}</a><br><br><table><tr><th>Date/Time</th><th>Build Planner URL</th></tr>`;
     for (const entry of allData) {
-      html += `<tr><td>${entry.timestamp}</td><td><a href="${entry.url}" target="_blank">${entry.url}</a></td></tr>`;
+      html += `<tr><td>${entry.timestamp || ""}</td><td><a href="${entry.url}" target="_blank">${entry.url}</a></td></tr>`;
     }
     html += '</table>';
 
