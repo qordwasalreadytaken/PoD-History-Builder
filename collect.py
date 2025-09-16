@@ -534,10 +534,12 @@ def format_equipment_item(item, slot, stats):
     # --- SOCKETS / RUNES / GEMS ---
     if quality in ("q_unique", "q_set"):
         socket_count = int(item.get("SocketCount", 0) or 0)
-        socket_field = "+ Sockets" if socket_count > 0 else "none"
-        parts.append(str(socket_count))
-        parts.append(socket_field)
 
+        # Add sockets as a custom property
+        if socket_count > 0:
+            parts.append(f"sockets:{socket_count}")
+
+        # keep compatibility with runes/gems
         for s in item.get("Sockets", []):
             if is_socket_rune_or_gem(s):
                 parts.append(s.get("Title", ""))
