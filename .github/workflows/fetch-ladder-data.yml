@@ -2,7 +2,7 @@ name: Hourly History builder update- Data fetch
 
 on:
   schedule:
-    - cron: '45 * * * *'  # 45 minutes past the hour, every hour; UTC
+    - cron: '0 5 * * *'  # 45 minutes past the hour, every hour; UTC
   workflow_dispatch:
 
 jobs:
