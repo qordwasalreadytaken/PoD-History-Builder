@@ -11,8 +11,8 @@ import re
 # --- CONFIG ---
 SNAPSHOT_DIR = "snapshots"
 INDEX_FILE = "index.json"
-CHARACTER_FILE = "all_characters.json"   # or hc_ladder.json
-#CHARACTER_FILE = "sorcsallsuck.json"   # or hc_ladder.json
+#CHARACTER_FILE = "all_characters.json"   # or hc_ladder.json
+CHARACTER_FILE = "sorcsallsuck.json"   # or hc_ladder.json
 
 #BASE_IMPORT_PATH = "https://build.pathofdiablo.com/"  # change if needed
 BASE_IMPORT_PATH = "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html"
@@ -531,18 +531,19 @@ def format_equipment_item(item, slot, stats):
 
     parts = [name]
 
-    # --- SOCKETS / RUNES / GEMS ---
     if quality in ("q_unique", "q_set"):
+        name = title
+        parts.append("0")  # dummy tier, will be ignored
         socket_count = int(item.get("SocketCount", 0) or 0)
-
-        # Add sockets as a custom property
         if socket_count > 0:
-            parts.append(f"sockets:{socket_count}")
-
-        # keep compatibility with runes/gems
+            parts.append("Sockets")   # treat as corruption
+        else:
+            parts.append(item.get("Corruption", "none"))
+        parts.append("")  # placeholder
         for s in item.get("Sockets", []):
             if is_socket_rune_or_gem(s):
-                parts.append(s.get("Title", ""))
+                parts.append(s.get("Title", "+"))
+
 
     elif quality == "q_runeword":
         socket_count = int(item.get("SocketCount", 0) or 0)
