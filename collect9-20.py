@@ -15,14 +15,14 @@ import re
 # --- CONFIG ---
 SNAPSHOT_DIR = "snapshots"
 INDEX_FILE = "index.json"
-CHARACTER_FILE = "all_characters.json"   # or hc_ladder.json
-#CHARACTER_FILE = "sorcsallsuck.json"   # or hc_ladder.json
+#CHARACTER_FILE = "new-all_characters.json"   # or hc_ladder.json
+CHARACTER_FILE = "sorcsallsuck.json"   # or hc_ladder.json
 
 #CHARACTER_FILE = "sorcsallsuck.json"   # or hc_ladder.json
 
 #BASE_IMPORT_PATH = "https://build.pathofdiablo.com/"  # change if needed
-BASE_IMPORT_PATH = "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html"
-#BASE_IMPORT_PATH = "file:///home/derek/path-of-diablo-planner/index.html"
+#BASE_IMPORT_PATH = "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html"
+BASE_IMPORT_PATH = "file:///home/derek/path-of-diablo-planner/index.html"
 GAME_VERSION = 2                    # PoD-specific features
 
 # Replace with however you pass global settings in your builder
@@ -523,12 +523,6 @@ def format_stat_line(stat_key, stat_value):
 with open("item_metadata.json") as f:
     stats = json.load(f)
 
-def format_equipment_item(item, slot, stats):
-    """
-    Format a single equipped item for planner URL with correct rules.
-    Includes magic/rare/crafted properties and special multi-props.
-    """
-    multi_props = {"ctc": [], "cskill": []}  # collect arrays here
 
 
 def parseChanceToCast(line):
@@ -653,15 +647,21 @@ def format_equipment_item(item, slot, stats):
     quality = item.get("QualityCode", "")
     title = item.get("Title", "") or ""
     worn = item.get("Worn", "")
-    worn = item.get("Worn", "")
     tag = item.get("Tag", "")
 
-    # Use pretty label for URL
-    # Use pretty label for URL
     display_label = pretty_slot_label(slot or worn)
 
-    # Base name rules
-    # Base name rules
+    # ✅ Special case: Runewords
+    if quality == "q_runeword":
+        runeword_data = {
+            "name": title,             # e.g. "Spirit"
+            "base": tag,               # e.g. "Heraldic Shield"
+            "rarity": "rw",
+            "props": {}                # can be filled if you parse runeword stats later
+        }
+        return f"custom_{slot}={quote_plus(json.dumps(runeword_data, separators=(',',':')))}"
+
+    # --- Base name rules ---
     if quality in ("q_unique", "q_set"):
         name = title
     elif quality == "q_magic":
@@ -687,89 +687,9 @@ def format_equipment_item(item, slot, stats):
             if is_socket_rune_or_gem(s):
                 parts.append(s.get("Title", ""))
 
-    elif quality == "q_runeword":
-        socket_count = int(item.get("SocketCount", 0) or 0)
-        parts.append(str(socket_count))
-        parts.append("none")
-        parts.extend([""] * 6)  # pad
-
-        parts.extend([""] * 6)  # pad
-
     else:
         # non-runewords (magic/rare/crafted/etc)
         parts.extend(["0", "none"])
-
-    # --- PROPERTY LIST PARSING FOR MAGIC/RARE/CRAFTED ---
-    if quality in ("q_magic", "q_rare", "q_crafted") and "PropertyList" in item and item["PropertyList"]:
-        for prop in item["PropertyList"]:
-            parsed = (
-                parseChanceToCast(prop)
-                or parseChargedSkill(prop)
-                or parseAfterKillStat(prop)
-                or parse_damage_property(prop, stats)
-                or parse_generic_property(prop, stats)   # <-- new hook
-            )
-            if not parsed:
-                continue
-
-            if isinstance(parsed, dict):
-                parsed = [parsed]
-
-            for entry in parsed:
-                if "statKey" not in entry:
-                    continue
-                key, value = entry["statKey"], entry.get("value")
-
-                if key in multi_props:
-                    multi_props[key].append(value)
-                else:
-                    if isinstance(value, list):
-                        value = ":".join(map(str, value))
-                    parts.append(f"{key}:{value}")
-
-        # After loop: dump the multi-props as JSON arrays
-        for key, values in multi_props.items():
-            if values:
-                encoded = json.dumps(values, separators=(",", ":"))
-                # **Use colon instead of '='**
-                parts.append(f"{key}:{quote_plus(encoded)}")
-                print(f"  -> appended multi {key}:{encoded}")
-
-    # --- PROPERTY LIST PARSING FOR MAGIC/RARE/CRAFTED ---
-    if quality in ("q_magic", "q_rare", "q_crafted") and "PropertyList" in item and item["PropertyList"]:
-        for prop in item["PropertyList"]:
-            parsed = (
-                parseChanceToCast(prop)
-                or parseChargedSkill(prop)
-                or parseAfterKillStat(prop)
-                or parse_damage_property(prop, stats)
-                or parse_generic_property(prop, stats)   # <-- new hook
-            )
-            if not parsed:
-                continue
-
-            if isinstance(parsed, dict):
-                parsed = [parsed]
-
-            for entry in parsed:
-                if "statKey" not in entry:
-                    continue
-                key, value = entry["statKey"], entry.get("value")
-
-                if key in multi_props:
-                    multi_props[key].append(value)
-                else:
-                    if isinstance(value, list):
-                        value = ":".join(map(str, value))
-                    parts.append(f"{key}:{value}")
-
-        # After loop: dump the multi-props as JSON arrays
-        for key, values in multi_props.items():
-            if values:
-                encoded = json.dumps(values, separators=(",", ":"))
-                # **Use colon instead of '='**
-                parts.append(f"{key}:{quote_plus(encoded)}")
-                print(f"  -> appended multi {key}:{encoded}")
 
     # --- PROPERTY LIST PARSING FOR MAGIC/RARE/CRAFTED ---
     if quality in ("q_magic", "q_rare", "q_crafted") and "PropertyList" in item and item["PropertyList"]:
@@ -821,7 +741,6 @@ def build_equipment_url(equipped_items):
     for slot in EQUIP_ORDER:
         item = slot_map.get(slot)
         if item:
-            segments.append(format_equipment_item(item, slot, stats))
             segments.append(format_equipment_item(item, slot, stats))
     return "&".join(segments)
 
@@ -881,11 +800,12 @@ def save_json(filename, data):
         json.dump(data, f, indent=2)
 
 
-def safe_filename(name: str) -> str:
-    # Normalize: lowercase + replace anything not filename-safe
-    return re.sub(r'[^a-z0-9_-]', '_', name.lower())
-
+# --- Main collector ---
 def main():
+#    DateTime_in_ISOFormat = datetime.datetime.now()
+#    today = DateTime_in_ISOFormat.isoformat("#", "hours")
+#    today = datetime.date.today().isoformat()  # e.g. "2025-09-11"
+#    today = datetime.datetime.now().isoformat()  # e.g. "2025-09-11"
     now = datetime.datetime.now()
     today = now.strftime("%Y-%m-%dT%H")    
     # Load ladder character data
@@ -894,34 +814,34 @@ def main():
     # Make sure output dir exists
     os.makedirs(SNAPSHOT_DIR, exist_ok=True)
 
+    # Build snapshot for today
+    snapshot = {}
     for char in characters:
         name = char.get("Name")
         if not name:
             continue
-
         url = build_final_url(char)
+        snapshot[name] = {
+            "url": url,
+            "timestamp": today
+        }
 
-        # Path for this character’s history file (case-insensitive)
-        char_file = os.path.join(SNAPSHOT_DIR, f"{safe_filename(name)}.json")
+    # Save today's snapshot
+    snap_file = os.path.join(SNAPSHOT_DIR, f"{today}.json")
+    save_json(snap_file, snapshot)
 
-        # Load existing history (if any)
-        if os.path.exists(char_file):
-            history = load_json(char_file)
-        else:
-            history = []
+    # Update index.json
+    index = load_json(INDEX_FILE)
 
-        # Avoid duplicate entry for same timestamp
-        if not any(entry["timestamp"] == today for entry in history):
-            history.append({
-                "timestamp": today,
-                "url": url,
-                "originalName": name  # preserve display casing
-            })
+    for name in snapshot:
+        if name not in index:
+            index[name] = []
+        if today not in index[name]:
+            index[name].append(today)
 
-        # Save back
-        save_json(char_file, history)
+    save_json(INDEX_FILE, index)
 
-    print(f"✅ Updated {len(characters)} character histories at {today}")
+    print(f"✅ Snapshot for {today} saved ({len(snapshot)} characters).")
 
 
 if __name__ == "__main__":
