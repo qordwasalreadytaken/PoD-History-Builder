@@ -1,0 +1,17 @@
+.tooltip {
+  visibility: hidden;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 4px 8px;
+  position: absolute;
+  z-index: 1;
+  font-size: 0.9em;
+  margin-left: 8px;
+}
+
+button:active + .tooltip,
+button:focus + .tooltip {
+  visibility: visible;
+}
