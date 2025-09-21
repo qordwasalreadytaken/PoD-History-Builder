@@ -118,7 +118,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // 🔧 Clean up the URL
     const cleanUrl = window.location.origin + window.location.pathname;
-//    history.replaceState(null, '', cleanUrl);
+    history.replaceState(null, '', cleanUrl);
   }
 });
 
