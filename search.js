@@ -137,3 +137,4 @@ function copyToClipboard(text, tooltipId) {
 
 // Example search url:
 // https://qordwasalreadytaken.github.io/PoD-History-Builder/search.html?search=viggie
+// https://qordwasalreadytaken.github.io/PoD-History-Builder/search.html?search=scplebskeys
