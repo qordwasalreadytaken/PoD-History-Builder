@@ -7,22 +7,17 @@ from pathlib import Path
 import re
 
 
-from pathlib import Path
-import re
-
-
-
 # --- CONFIG ---
 SNAPSHOT_DIR = "snapshots"
 INDEX_FILE = "index.json"
-#CHARACTER_FILE = "all_characters.json"   # or hc_ladder.json
-CHARACTER_FILE = "Verotika.json"   # or hc_ladder.json
-
+CHARACTER_FILE = "all_characters.json"   # or hc_ladder.json
+#CHARACTER_FILE = "Verotika.json"   # or hc_ladder.json
 #CHARACTER_FILE = "sorcsallsuck.json"   # or hc_ladder.json
 
 #BASE_IMPORT_PATH = "https://build.pathofdiablo.com/"  # change if needed
-#BASE_IMPORT_PATH = "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html"
-BASE_IMPORT_PATH = "file:///home/derek/path-of-diablo-planner/index.html"
+BASE_IMPORT_PATH = "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html"
+#BASE_IMPORT_PATH = "file:///home/derek/path-of-diablo-planner/index.html"
+
 GAME_VERSION = 2                    # PoD-specific features
 
 # Replace with however you pass global settings in your builder
@@ -319,9 +314,6 @@ def build_skills_string(character_class, character_skills):
     return "".join(skills)
 
 
-# --- URL BUILDER (real implementation) ---
-from urllib.parse import urlencode
-
 EQUIP_MAPPING = {
     "helmet": "helm",
     "body": "armor",
@@ -349,7 +341,6 @@ EQUIP_ORDER = [
     "offhand",
 ]
 
-from urllib.parse import quote_plus
 
 # Gem name fragments in Path of Diablo
 GEM_KEYWORDS = [
@@ -439,9 +430,6 @@ def format_stat_line(stat_key, stat_value):
 
 with open("item_metadata.json") as f:
     stats = json.load(f)
-
-
-
 
 def format_equipment_item(item, slot, stats):
     """
@@ -579,9 +567,6 @@ def format_equipment_item(item, slot, stats):
 
     return f"{slot}={quote_plus(','.join(parts))}"
 
-
-
-
 def parseChanceToCast(line):
     """Parse '% Chance to cast level X <Skill> when <Trigger>'."""
     match = re.search(r"(\d+)% Chance to cast level (\d+)\s+(.+?)\s+(when .+)$", line)
@@ -689,8 +674,6 @@ def format_stat_line(stat_key, stat_value):
 
 with open("item_metadata.json") as f:
     stats = json.load(f)
-
-
 
 def build_equipment_url(equipped_items):
     """Build equipment string from equipped items in fixed order."""
