@@ -15,14 +15,14 @@ import re
 # --- CONFIG ---
 SNAPSHOT_DIR = "snapshots"
 INDEX_FILE = "index.json"
-CHARACTER_FILE = "all_characters.json"   # or hc_ladder.json
-#CHARACTER_FILE = "LEONNN.json"   # or hc_ladder.json
+#CHARACTER_FILE = "all_characters.json"   # or hc_ladder.json
+CHARACTER_FILE = "Verotika.json"   # or hc_ladder.json
 
 #CHARACTER_FILE = "sorcsallsuck.json"   # or hc_ladder.json
 
 #BASE_IMPORT_PATH = "https://build.pathofdiablo.com/"  # change if needed
-BASE_IMPORT_PATH = "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html"
-#BASE_IMPORT_PATH = "file:///home/derek/path-of-diablo-planner/index.html"
+#BASE_IMPORT_PATH = "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html"
+BASE_IMPORT_PATH = "file:///home/derek/path-of-diablo-planner/index.html"
 GAME_VERSION = 2                    # PoD-specific features
 
 # Replace with however you pass global settings in your builder
@@ -450,6 +450,7 @@ def format_equipment_item(item, slot, stats):
     """
     RUNES_BY_ID = {
         "2693": "Delirium",
+        "-26": "Pattern2"
         # Add more mappings here as needed
     } 
 
