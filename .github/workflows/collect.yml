@@ -2,7 +2,7 @@ name: Hourly History builder update- Collector
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # 10 minutes past the hour, every hour; UTC
+    - cron: '10 * * * *'  # 10 minutes past the hour, every hour; UTC -- 6 am daily: '0 6 * * *'
   workflow_dispatch:
 
 jobs:
