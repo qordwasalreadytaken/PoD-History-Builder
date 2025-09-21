@@ -18,5 +18,7 @@ def GetSingleCharData(char_name):
 
 # Example usage
 if __name__ == "__main__":
-    char_name = "sorcsallsuck"  # Replace with actual character name
+    char_name = "LEONNN"  # Replace with actual character name
+#    char_name = "scabiesnrabies"  # Replace with actual character name
+    
     GetSingleCharData(char_name)

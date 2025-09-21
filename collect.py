@@ -16,7 +16,7 @@ import re
 SNAPSHOT_DIR = "snapshots"
 INDEX_FILE = "index.json"
 CHARACTER_FILE = "all_characters.json"   # or hc_ladder.json
-#CHARACTER_FILE = "sorcsallsuck.json"   # or hc_ladder.json
+#CHARACTER_FILE = "LEONNN.json"   # or hc_ladder.json
 
 #CHARACTER_FILE = "sorcsallsuck.json"   # or hc_ladder.json
 
@@ -375,10 +375,6 @@ def is_socket_rune_or_gem(socket_item):
     
     return False
 
-
-import re
-from urllib.parse import quote_plus
-
 def pretty_slot_label(slot):
     """
     Turn a json-worn or URL slot key into a user-friendly label used in item names.
@@ -410,85 +406,6 @@ def pretty_slot_label(slot):
     s2 = s2.replace('_', ' ').strip()
     return s2.title()
 
-
-def parseChanceToCast(line):
-    """Parse '% Chance to cast level X <Skill> when <Trigger>'."""
-    match = re.search(r"(\d+)% Chance to cast level (\d+)\s+(.+?)\s+(when .+)$", line)
-    if not match:
-        return []
-    percent, level, skill, trigger = match.groups()
-    return [{"statKey": "ctc", "value": [int(percent), int(level), skill.strip(), trigger.strip()]}]
-
-def parseChargedSkill(line):
-    """Parse 'Level X <Skill> (Y/Z Charges)'."""
-    match = re.search(r"Level (\d+)\s+(.+?)\s+\((\d+)/\d+ Charges\)", line)
-    if not match:
-        return []
-    level, skill, charges = match.groups()
-    return [{"statKey": "cskill", "value": [int(level), skill.strip(), int(charges)]}]
-
-def parseAfterKillStat(line):
-    """Parse '+X Mana/Life after each Kill'."""
-    match = re.search(r"\+(\d+)\s+(?:to\s+)?(Mana|Life)\s+after\s+each\s+Kill", line, re.I)
-    if not match:
-        return []
-    value, stat_type = match.groups()
-    return [{"statKey": f"{stat_type.lower()}_after_kill", "value": int(value)}]
-
-def parse_damage_property(line, stats=None):
-    """
-    Parse 'Adds X–Y [Element] Damage' and return min/max stat keys.
-    Returns a list of dicts.
-    """
-    match = re.search(r"Adds (\d+)[–-](\d+)\s*(\w*)\s*Damage", line, re.I)
-    if not match:
-        return []
-    min_val, max_val, element_raw = match.groups()
-    element = element_raw.lower()
-    key_min = key_max = "damage"  # default physical
-    if element == "fire":
-        key_min, key_max = "fDamage_min", "fDamage_max"
-    elif element == "cold":
-        key_min, key_max = "cDamage_min", "cDamage_max"
-    elif element == "lightning":
-        key_min, key_max = "lDamage_min", "lDamage_max"
-    elif element == "poison":
-        key_min, key_max = "pDamage_min", "pDamage_max"
-    return [
-        {"statKey": key_min, "value": int(min_val)},
-        {"statKey": key_max, "value": int(max_val)},
-    ]
-
-
-def parse_generic_property(line, stats):
-    results = []
-
-    for stat_key, stat_data in stats.items():
-        if not isinstance(stat_data, dict):
-            continue  # skip invalid entries
-        if stat_data.get("editable") != 1:
-            continue
-
-        fmt = stat_data.get("format", [])
-        if not fmt:
-            continue
-
-        # build regex pattern
-        pattern = ".*".join(re.escape(p) for p in fmt)
-        match = re.match(pattern, line, re.I)
-        if match:
-            # extract number from first group or fallback
-            nums = re.findall(r"[-+]?\d+", line)
-            value = int(nums[0]) if nums else 1
-            results.append({"statKey": stat_key, "value": value})
-            print(f"✅ MATCH: '{line}' -> {stat_key}:{value} (pattern={pattern})")
-            break
-
-    return results if results else None
-
-
-
-
 def format_stat_line(stat_key, stat_value):
     """Formats a single stat line using stat definitions or fallbacks."""
 
@@ -523,145 +440,79 @@ def format_stat_line(stat_key, stat_value):
 with open("item_metadata.json") as f:
     stats = json.load(f)
 
-def format_equipment_item(item, slot, stats):
-    """
-    Format a single equipped item for planner URL with correct rules.
-    Includes magic/rare/crafted properties and special multi-props.
-    """
-    multi_props = {"ctc": [], "cskill": []}  # collect arrays here
 
 
-def parseChanceToCast(line):
-    """Parse '% Chance to cast level X <Skill> when <Trigger>'."""
-    match = re.search(r"(\d+)% Chance to cast level (\d+)\s+(.+?)\s+(when .+)$", line)
-    if not match:
-        return []
-    percent, level, skill, trigger = match.groups()
-    return [{"statKey": "ctc", "value": [int(percent), int(level), skill.strip(), trigger.strip()]}]
-
-def parseChargedSkill(line):
-    """Parse 'Level X <Skill> (Y/Z Charges)'."""
-    match = re.search(r"Level (\d+)\s+(.+?)\s+\((\d+)/\d+ Charges\)", line)
-    if not match:
-        return []
-    level, skill, charges = match.groups()
-    return [{"statKey": "cskill", "value": [int(level), skill.strip(), int(charges)]}]
-
-def parseAfterKillStat(line):
-    """Parse '+X Mana/Life after each Kill'."""
-    match = re.search(r"\+(\d+)\s+(?:to\s+)?(Mana|Life)\s+after\s+each\s+Kill", line, re.I)
-    if not match:
-        return []
-    value, stat_type = match.groups()
-    return [{"statKey": f"{stat_type.lower()}_after_kill", "value": int(value)}]
-
-def parse_damage_property(line, stats=None):
-    """
-    Parse 'Adds X–Y [Element] Damage' and return min/max stat keys.
-    Returns a list of dicts.
-    """
-    match = re.search(r"Adds (\d+)[–-](\d+)\s*(\w*)\s*Damage", line, re.I)
-    if not match:
-        return []
-    min_val, max_val, element_raw = match.groups()
-    element = element_raw.lower()
-    key_min = key_max = "damage"  # default physical
-    if element == "fire":
-        key_min, key_max = "fDamage_min", "fDamage_max"
-    elif element == "cold":
-        key_min, key_max = "cDamage_min", "cDamage_max"
-    elif element == "lightning":
-        key_min, key_max = "lDamage_min", "lDamage_max"
-    elif element == "poison":
-        key_min, key_max = "pDamage_min", "pDamage_max"
-    return [
-        {"statKey": key_min, "value": int(min_val)},
-        {"statKey": key_max, "value": int(max_val)},
-    ]
-
-
-def parse_generic_property(line, stats):
-    results = []
-
-    for stat_key, stat_data in stats.items():
-        if not isinstance(stat_data, dict):
-            continue  # skip invalid entries
-        if stat_data.get("editable") != 1:
-            continue
-
-        fmt = stat_data.get("format", [])
-        if not fmt:
-            continue
-
-        # build regex pattern
-        pattern = ".*".join(re.escape(p) for p in fmt)
-        match = re.match(pattern, line, re.I)
-        if match:
-            # extract number from first group or fallback
-            nums = re.findall(r"[-+]?\d+", line)
-            value = int(nums[0]) if nums else 1
-            results.append({"statKey": stat_key, "value": value})
-            print(f"✅ MATCH: '{line}' -> {stat_key}:{value} (pattern={pattern})")
-            break
-
-    return results if results else None
-
-
-
-
-def format_stat_line(stat_key, stat_value):
-    """Formats a single stat line using stat definitions or fallbacks."""
-
-    # Handle manual/custom parsers first
-    if stat_key.startswith("chanceToCast"):
-        return parseChanceToCast(stat_key, stat_value)
-    elif stat_key.startswith("chargedSkill"):
-        return parseChargedSkill(stat_key, stat_value)
-    elif stat_key.startswith("afterKill"):
-        return parseAfterKillStat(stat_key, stat_value)
-    elif stat_key.endswith("Damage_min") or stat_key.endswith("Damage_max"):
-        return parse_damage_property(stat_key, stat_value)
-
-    # If in stats.json
-    if stat_key in STAT_DEFS:
-        fmt = STAT_DEFS[stat_key].get("format", [])
-        parts = []
-        for piece in fmt:
-            if piece == "+":
-                parts.append(f"{stat_value}")
-            elif piece == "%":
-                parts.append(f"{stat_value}%")
-            elif "{}" in piece:
-                parts.append(piece.format(stat_value))
-            else:
-                parts.append(piece)
-        return " ".join(parts)
-
-    # Fallback for unknown stats
-    return f"{stat_key}: {stat_value}"
-
-with open("item_metadata.json") as f:
-    stats = json.load(f)
 
 def format_equipment_item(item, slot, stats):
     """
     Format a single equipped item for planner URL with correct rules.
     Includes magic/rare/crafted properties and special multi-props.
     """
+    RUNES_BY_ID = {
+        "2693": "Delirium",
+        # Add more mappings here as needed
+    } 
+
     multi_props = {"ctc": [], "cskill": []}  # collect arrays here
 
     quality = item.get("QualityCode", "")
     title = item.get("Title", "") or ""
     worn = item.get("Worn", "")
-    worn = item.get("Worn", "")
     tag = item.get("Tag", "")
 
-    # Use pretty label for URL
-    # Use pretty label for URL
     display_label = pretty_slot_label(slot or worn)
 
-    # Base name rules
-    # Base name rules
+    # ✅ Special case: Runewords
+    if quality == "q_runeword":
+        if title in RUNES_BY_ID:
+            title = RUNES_BY_ID[title]
+
+        data = {
+            "name": title,  # e.g. "Spirit"
+            "base": tag,    # e.g. "Monarch"
+            "rarity": "rw",
+            "props": {},
+            "sockets": []
+        }
+
+        socket_count = int(item.get("SocketCount", 0) or 0)
+        for s in item.get("Sockets", []):
+            if is_socket_rune_or_gem(s):
+                data["sockets"].append(s.get("Title", ""))
+
+        if "PropertyList" in item and item["PropertyList"]:
+            for prop in item["PropertyList"]:
+                parsed = (
+                    parseChanceToCast(prop)
+                    or parseChargedSkill(prop)
+                    or parseAfterKillStat(prop)
+                    or parse_damage_property(prop, stats)
+                    or parse_generic_property(prop, stats)
+                )
+                if not parsed:
+                    continue
+
+                if isinstance(parsed, dict):
+                    parsed = [parsed]
+
+                for entry in parsed:
+                    if "statKey" not in entry:
+                        continue
+                    key, value = entry["statKey"], entry.get("value")
+
+                    if key in multi_props:
+                        multi_props[key].append(value)
+                    else:
+                        data["props"][key] = value
+
+            for key, values in multi_props.items():
+                if values:
+                    data["props"][key] = values
+
+        return f"custom_{slot}={quote_plus(json.dumps(data, separators=(',',':')))}"
+
+
+    # --- Base name rules ---
     if quality in ("q_unique", "q_set"):
         name = title
     elif quality == "q_magic":
@@ -687,89 +538,9 @@ def format_equipment_item(item, slot, stats):
             if is_socket_rune_or_gem(s):
                 parts.append(s.get("Title", ""))
 
-    elif quality == "q_runeword":
-        socket_count = int(item.get("SocketCount", 0) or 0)
-        parts.append(str(socket_count))
-        parts.append("none")
-        parts.extend([""] * 6)  # pad
-
-        parts.extend([""] * 6)  # pad
-
     else:
         # non-runewords (magic/rare/crafted/etc)
         parts.extend(["0", "none"])
-
-    # --- PROPERTY LIST PARSING FOR MAGIC/RARE/CRAFTED ---
-    if quality in ("q_magic", "q_rare", "q_crafted") and "PropertyList" in item and item["PropertyList"]:
-        for prop in item["PropertyList"]:
-            parsed = (
-                parseChanceToCast(prop)
-                or parseChargedSkill(prop)
-                or parseAfterKillStat(prop)
-                or parse_damage_property(prop, stats)
-                or parse_generic_property(prop, stats)   # <-- new hook
-            )
-            if not parsed:
-                continue
-
-            if isinstance(parsed, dict):
-                parsed = [parsed]
-
-            for entry in parsed:
-                if "statKey" not in entry:
-                    continue
-                key, value = entry["statKey"], entry.get("value")
-
-                if key in multi_props:
-                    multi_props[key].append(value)
-                else:
-                    if isinstance(value, list):
-                        value = ":".join(map(str, value))
-                    parts.append(f"{key}:{value}")
-
-        # After loop: dump the multi-props as JSON arrays
-        for key, values in multi_props.items():
-            if values:
-                encoded = json.dumps(values, separators=(",", ":"))
-                # **Use colon instead of '='**
-                parts.append(f"{key}:{quote_plus(encoded)}")
-                print(f"  -> appended multi {key}:{encoded}")
-
-    # --- PROPERTY LIST PARSING FOR MAGIC/RARE/CRAFTED ---
-    if quality in ("q_magic", "q_rare", "q_crafted") and "PropertyList" in item and item["PropertyList"]:
-        for prop in item["PropertyList"]:
-            parsed = (
-                parseChanceToCast(prop)
-                or parseChargedSkill(prop)
-                or parseAfterKillStat(prop)
-                or parse_damage_property(prop, stats)
-                or parse_generic_property(prop, stats)   # <-- new hook
-            )
-            if not parsed:
-                continue
-
-            if isinstance(parsed, dict):
-                parsed = [parsed]
-
-            for entry in parsed:
-                if "statKey" not in entry:
-                    continue
-                key, value = entry["statKey"], entry.get("value")
-
-                if key in multi_props:
-                    multi_props[key].append(value)
-                else:
-                    if isinstance(value, list):
-                        value = ":".join(map(str, value))
-                    parts.append(f"{key}:{value}")
-
-        # After loop: dump the multi-props as JSON arrays
-        for key, values in multi_props.items():
-            if values:
-                encoded = json.dumps(values, separators=(",", ":"))
-                # **Use colon instead of '='**
-                parts.append(f"{key}:{quote_plus(encoded)}")
-                print(f"  -> appended multi {key}:{encoded}")
 
     # --- PROPERTY LIST PARSING FOR MAGIC/RARE/CRAFTED ---
     if quality in ("q_magic", "q_rare", "q_crafted") and "PropertyList" in item and item["PropertyList"]:
@@ -808,6 +579,118 @@ def format_equipment_item(item, slot, stats):
     return f"{slot}={quote_plus(','.join(parts))}"
 
 
+
+
+def parseChanceToCast(line):
+    """Parse '% Chance to cast level X <Skill> when <Trigger>'."""
+    match = re.search(r"(\d+)% Chance to cast level (\d+)\s+(.+?)\s+(when .+)$", line)
+    if not match:
+        return []
+    percent, level, skill, trigger = match.groups()
+    return [{"statKey": "ctc", "value": [int(percent), int(level), skill.strip(), trigger.strip()]}]
+
+def parseChargedSkill(line):
+    """Parse 'Level X <Skill> (Y/Z Charges)'."""
+    match = re.search(r"Level (\d+)\s+(.+?)\s+\((\d+)/\d+ Charges\)", line)
+    if not match:
+        return []
+    level, skill, charges = match.groups()
+    return [{"statKey": "cskill", "value": [int(level), skill.strip(), int(charges)]}]
+
+def parseAfterKillStat(line):
+    """Parse '+X Mana/Life after each Kill'."""
+    match = re.search(r"\+(\d+)\s+(?:to\s+)?(Mana|Life)\s+after\s+each\s+Kill", line, re.I)
+    if not match:
+        return []
+    value, stat_type = match.groups()
+    return [{"statKey": f"{stat_type.lower()}_after_kill", "value": int(value)}]
+
+def parse_damage_property(line, stats=None):
+    """
+    Parse 'Adds X–Y [Element] Damage' and return min/max stat keys.
+    Returns a list of dicts.
+    """
+    match = re.search(r"Adds (\d+)[–-](\d+)\s*(\w*)\s*Damage", line, re.I)
+    if not match:
+        return []
+    min_val, max_val, element_raw = match.groups()
+    element = element_raw.lower()
+    key_min = key_max = "damage"  # default physical
+    if element == "fire":
+        key_min, key_max = "fDamage_min", "fDamage_max"
+    elif element == "cold":
+        key_min, key_max = "cDamage_min", "cDamage_max"
+    elif element == "lightning":
+        key_min, key_max = "lDamage_min", "lDamage_max"
+    elif element == "poison":
+        key_min, key_max = "pDamage_min", "pDamage_max"
+    return [
+        {"statKey": key_min, "value": int(min_val)},
+        {"statKey": key_max, "value": int(max_val)},
+    ]
+
+def parse_generic_property(line, stats):
+    results = []
+
+    for stat_key, stat_data in stats.items():
+        if not isinstance(stat_data, dict):
+            continue  # skip invalid entries
+        if stat_data.get("editable") != 1:
+            continue
+
+        fmt = stat_data.get("format", [])
+        if not fmt:
+            continue
+
+        # build regex pattern
+        pattern = ".*".join(re.escape(p) for p in fmt)
+        match = re.match(pattern, line, re.I)
+        if match:
+            # extract number from first group or fallback
+            nums = re.findall(r"[-+]?\d+", line)
+            value = int(nums[0]) if nums else 1
+            results.append({"statKey": stat_key, "value": value})
+            print(f"✅ MATCH: '{line}' -> {stat_key}:{value} (pattern={pattern})")
+            break
+
+    return results if results else None
+
+def format_stat_line(stat_key, stat_value):
+    """Formats a single stat line using stat definitions or fallbacks."""
+
+    # Handle manual/custom parsers first
+    if stat_key.startswith("chanceToCast"):
+        return parseChanceToCast(stat_key, stat_value)
+    elif stat_key.startswith("chargedSkill"):
+        return parseChargedSkill(stat_key, stat_value)
+    elif stat_key.startswith("afterKill"):
+        return parseAfterKillStat(stat_key, stat_value)
+    elif stat_key.endswith("Damage_min") or stat_key.endswith("Damage_max"):
+        return parse_damage_property(stat_key, stat_value)
+
+    # If in stats.json
+    if stat_key in STAT_DEFS:
+        fmt = STAT_DEFS[stat_key].get("format", [])
+        parts = []
+        for piece in fmt:
+            if piece == "+":
+                parts.append(f"{stat_value}")
+            elif piece == "%":
+                parts.append(f"{stat_value}%")
+            elif "{}" in piece:
+                parts.append(piece.format(stat_value))
+            else:
+                parts.append(piece)
+        return " ".join(parts)
+
+    # Fallback for unknown stats
+    return f"{stat_key}: {stat_value}"
+
+with open("item_metadata.json") as f:
+    stats = json.load(f)
+
+
+
 def build_equipment_url(equipped_items):
     """Build equipment string from equipped items in fixed order."""
     slot_map = {}
@@ -824,7 +707,6 @@ def build_equipment_url(equipped_items):
             segments.append(format_equipment_item(item, slot, stats))
             segments.append(format_equipment_item(item, slot, stats))
     return "&".join(segments)
-
 
 def build_final_url(character, settings=SETTINGS, game_version=GAME_VERSION, base_path=BASE_IMPORT_PATH):
     class_name = character["Class"].lower()
@@ -875,11 +757,9 @@ def load_json(filename):
     with open(filename, "r", encoding="utf-8") as f:
         return json.load(f)
 
-
 def save_json(filename, data):
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
-
 
 def safe_filename(name: str) -> str:
     # Normalize: lowercase + replace anything not filename-safe
@@ -888,10 +768,8 @@ def safe_filename(name: str) -> str:
 def main():
     now = datetime.datetime.now()
     today = now.strftime("%Y-%m-%dT%H")    
-    # Load ladder character data
-    characters = load_json(CHARACTER_FILE)
 
-    # Make sure output dir exists
+    characters = load_json(CHARACTER_FILE)
     os.makedirs(SNAPSHOT_DIR, exist_ok=True)
 
     for char in characters:
@@ -922,7 +800,6 @@ def main():
         save_json(char_file, history)
 
     print(f"✅ Updated {len(characters)} character histories at {today}")
-
 
 if __name__ == "__main__":
     main()
