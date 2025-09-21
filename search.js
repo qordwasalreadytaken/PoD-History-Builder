@@ -110,6 +110,18 @@ window.addEventListener('DOMContentLoaded', () => {
   }
 });
 
+window.addEventListener('DOMContentLoaded', () => {
+  const autoSearch = getQueryParam('search');
+  if (autoSearch) {
+    document.getElementById('charName').value = autoSearch;
+    performSearch(autoSearch);
+
+    // 🔧 Clean up the URL
+    const cleanUrl = window.location.origin + window.location.pathname;
+//    history.replaceState(null, '', cleanUrl);
+  }
+});
+
 
 function copyToClipboard(text, tooltipId) {
   navigator.clipboard.writeText(text).then(() => {
