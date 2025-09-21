@@ -37,6 +37,14 @@ async function performSearch(name) {
 */
   let html = `Historical snapshots via build planner for character <a href="https://beta.pathofdiablo.com/armory?name=${encodeURIComponent(name)}" target="_blank">${name}</a><br><br><table><tr><th>Build Planner link</th><th>Copy URL</th></tr>`;
 
+    html += `<tr>
+      <td><a href="https://build.pathofdiablo.com/?import=${name}" target="_blank">Currently Equipped</a></td>
+      <td>
+        <button onclick="copyToClipboard('https://build.pathofdiablo.com/?import=${name}')" title="Copy to clipboard">📋</button>
+        <span class="tooltip">Copied!</span>
+      </td>
+    </tr>`;
+  
   for (const entry of history) {
 //    const timestamp = entry.timestamp || "Unknown date";
   let timestamp = "Unknown date";
