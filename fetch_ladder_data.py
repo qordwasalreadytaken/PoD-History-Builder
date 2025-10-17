@@ -49,13 +49,14 @@ def load_existing_characters():
 
 def merge_character_lists(current_ladder_chars, existing_chars):
     """Merge current ladder characters with existing character list."""
-    # Start with existing characters
+    # Start with existing characters (keyed by Name)
     all_chars = existing_chars.copy()
     
-    # Add/update with current ladder characters
+    # Add/update with current ladder characters (keyed by charName)
     for char in current_ladder_chars:
         char_name = char.get("charName", "unknown")
-        all_chars[char_name] = char
+        if char_name != "unknown":  # Only add characters with valid names
+            all_chars[char_name] = char
     
     return list(all_chars.values())
 
@@ -112,7 +113,11 @@ def GetAllCharData():
     # Step 4: Merge current ladder characters with existing characters
     all_ladder_chars = merge_character_lists(current_ladder_chars, existing_characters)
     unique_characters = {char.get("charName") or char.get("Name", "unknown"): char for char in all_ladder_chars}.values()
-    print(f"🔄 Total characters to fetch: {len(list(unique_characters))}")
+    
+    # Count character types for debugging
+    ladder_chars = sum(1 for char in unique_characters if char.get("charName"))
+    existing_chars = sum(1 for char in unique_characters if char.get("Name") and not char.get("charName"))
+    print(f"🔄 Total characters to fetch: {len(list(unique_characters))} (📈 {ladder_chars} from ladder, 💾 {existing_chars} from history)")
 
 #    class_counts = count_classes(unique_characters) # if we wanted a pie chart generated here, i think it's fine to keep in makehome
 #    generate_pie_chart_all(class_counts)
@@ -120,7 +125,8 @@ def GetAllCharData():
     # Step 5: Fetch complete character data
     character_data = []
     for character in unique_characters:
-        char_name = character.get("charName", "unknown")
+        # Handle both ladder format (charName) and existing format (Name)
+        char_name = character.get("charName") or character.get("Name", "unknown")
         char_id = character.get("id", None)
 
         if char_name == "unknown":
@@ -171,11 +177,16 @@ def GetAllHCCharData():
     # Merge current ladder characters with existing characters (some appear in both top 1,000 and top 200 class rankings)
     all_ladder_chars = merge_character_lists(current_ladder_chars, existing_characters)
     unique_characters = {char.get("charName") or char.get("Name", "unknown"): char for char in all_ladder_chars}.values()
-    print(f"🔄 Total HC characters to fetch: {len(list(unique_characters))}")
+    
+    # Count character types for debugging
+    ladder_chars = sum(1 for char in unique_characters if char.get("charName"))
+    existing_chars = sum(1 for char in unique_characters if char.get("Name") and not char.get("charName"))
+    print(f"🔄 Total HC characters to fetch: {len(list(unique_characters))} (📈 {ladder_chars} from ladder, 💾 {existing_chars} from history)")
 
     character_data = []
     for character in unique_characters:
-        char_name = character.get("charName", "unknown")
+        # Handle both ladder format (charName) and existing format (Name)
+        char_name = character.get("charName") or character.get("Name", "unknown")
         char_id = character.get("id", None)
 
         if char_name == "unknown":
