@@ -49,15 +49,30 @@ def load_existing_characters():
 
 def merge_character_lists(current_ladder_chars, existing_chars):
     """Merge current ladder characters with existing character list."""
-    # Start with existing characters (keyed by Name)
-    all_chars = existing_chars.copy()
+    # Start with existing characters, normalize to use actual character names as keys
+    all_chars = {}
     
-    # Add/update with current ladder characters (keyed by charName)
+    # Add existing characters (using their Name field as key)
+    for char_name, char_data in existing_chars.items():
+        if char_name != "unknown":
+            all_chars[char_name] = char_data
+    
+    # Track duplicates for debugging
+    duplicates = 0
+    new_chars = 0
+    
+    # Add/update with current ladder characters (using their charName field as key)
+    # This will overwrite existing chars if they're still on ladder (getting fresh data)
     for char in current_ladder_chars:
         char_name = char.get("charName", "unknown")
         if char_name != "unknown":  # Only add characters with valid names
-            all_chars[char_name] = char
+            if char_name in all_chars:
+                duplicates += 1
+            else:
+                new_chars += 1
+            all_chars[char_name] = char  # Use fresh ladder data
     
+    print(f"📊 Merge stats: {new_chars} new ladder chars, {duplicates} updated (were in history)")
     return list(all_chars.values())
 
 def fetch_char_summaries(characters):
