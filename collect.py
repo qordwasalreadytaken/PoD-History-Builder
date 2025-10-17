@@ -619,9 +619,13 @@ def build_equipment_url(equipped_items, stats):
             base_name = item.get("TextTag") or item.get("Tag") or pretty_slot_label(slot)
             # Handle special cases for arrows/bolts
             if tag in ['Bolts', 'Arrows']:
-                name = f"Imported {quality.replace('q_', '')} {tag}"
+                # Both q_normal and q_high should display as "normal"
+                quality_display = "normal" if quality in ("q_normal", "q_high") else quality.replace('q_', '')
+                name = f"Imported {quality_display} {tag}"
             else:
-                name = f"Imported {quality.replace('q_', '')} {base_name}"
+                # Both q_normal and q_high should display as "normal"
+                quality_display = "normal" if quality in ("q_normal", "q_high") else quality.replace('q_', '')
+                name = f"Imported {quality_display} {base_name}"
             
             # Build comma-separated format matching saveImportedItemToUrl: [title, tier, corruption, ...sockets, props]
             arr = [name, "0", "none"]  # title, tier=0, corruption=none
