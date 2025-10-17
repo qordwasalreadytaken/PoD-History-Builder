@@ -616,7 +616,8 @@ def build_equipment_url(equipped_items, stats):
                     props[k] = v
 
             # Use the actual base item name from TextTag or Tag instead of generic slot names
-            base_name = item.get("TextTag") or item.get("Tag") or pretty_slot_label(slot)
+#            base_name = item.get("TextTag") or item.get("Tag") or pretty_slot_label(slot)
+            base_name = item.get("Tag") or pretty_slot_label(slot)
             # Handle special cases for arrows/bolts
             if tag in ['Bolts', 'Arrows']:
                 # Both q_normal and q_high should display as "normal"
