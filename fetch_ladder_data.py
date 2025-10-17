@@ -38,11 +38,33 @@ def fetch_1kladder_characters(base_ladder_url, pages):
             print(f"⚠️ Failed to fetch page {page}: {response.status_code}")
     return all_characters
 
+def load_existing_characters():
+    """Load the list of characters we've seen before."""
+    if os.path.exists("all_characters.json"):
+        with open("all_characters.json", "r") as file:
+            existing_data = json.load(file)
+            # Extract character names from existing data
+            return {char.get("Name", "unknown"): char for char in existing_data}
+    return {}
+
+def merge_character_lists(current_ladder_chars, existing_chars):
+    """Merge current ladder characters with existing character list."""
+    # Start with existing characters
+    all_chars = existing_chars.copy()
+    
+    # Add/update with current ladder characters
+    for char in current_ladder_chars:
+        char_name = char.get("charName", "unknown")
+        all_chars[char_name] = char
+    
+    return list(all_chars.values())
+
 def fetch_char_summaries(characters):
     char_url = "https://beta.pathofdiablo.com/api/characters/{char_name}/summary"
     final_data = []
     for character in characters:
-        char_name = character.get("charName", "unknown")
+        # Handle both ladder format (charName) and existing format (Name)
+        char_name = character.get("charName") or character.get("Name", "unknown")
         char_id = character.get("id", None)
 
         if char_name == "unknown":
@@ -60,11 +82,16 @@ def GetAllCharData():
     base_ladder_url = "https://beta.pathofdiablo.com/api/ladder/13/0/"  # Softcore
     char_url = "https://beta.pathofdiablo.com/api/characters/{char_name}/summary"
 
+    # Load existing characters we've seen before
+    existing_characters = load_existing_characters()
+    print(f"📋 Found {len(existing_characters)} existing characters")
+
     # Step 1: Fetch top 1,000 characters (pages 0 to 5)
-    all_characters = fetch_ladder_characters(f"{base_ladder_url}0/", start_page=0, end_page=5)
+    # Step 1: Fetch top 1,000 characters (pages 0 to 5)
+    current_ladder_chars = fetch_ladder_characters(f"{base_ladder_url}0/", start_page=0, end_page=5)
 #    all_characters = fetch_ladder_characters(base_ladder_url, start_page=0, end_page=5)
 #    all_characters = fetch_ladder_characters(base_ladder_url, start_page=1, end_page=5)
-    top_1000_characters = {char["charName"]: char for char in all_characters}.values()
+    top_1000_characters = {char["charName"]: char for char in current_ladder_chars}.values()
 
     # Step 3: Continue with class-specific characters
     classes = {
@@ -80,10 +107,12 @@ def GetAllCharData():
     for class_name, api_suffix in classes.items():
         class_ladder_url = f"{base_ladder_url}{api_suffix}"
         class_characters = fetch_ladder_characters(class_ladder_url, 1)
-        all_characters.extend(class_characters)  # Combine lists
+        current_ladder_chars.extend(class_characters)  # Combine lists
 
-    # Step 4: Remove duplicates by character name
-    unique_characters = {char["charName"]: char for char in all_characters}.values()
+    # Step 4: Merge current ladder characters with existing characters
+    all_ladder_chars = merge_character_lists(current_ladder_chars, existing_characters)
+    unique_characters = {char.get("charName") or char.get("Name", "unknown"): char for char in all_ladder_chars}.values()
+    print(f"🔄 Total characters to fetch: {len(list(unique_characters))}")
 
 #    class_counts = count_classes(unique_characters) # if we wanted a pie chart generated here, i think it's fine to keep in makehome
 #    generate_pie_chart_all(class_counts)
@@ -111,12 +140,16 @@ def GetAllCharData():
 
 
 def GetAllHCCharData():
-    base_ladder_url = "https://beta.pathofdiablo.com/api/ladder/13/1/"  # Softcore
+    base_ladder_url = "https://beta.pathofdiablo.com/api/ladder/13/1/"  # Hardcore
     char_url = "https://beta.pathofdiablo.com/api/characters/{char_name}/summary"
+
+    # Load existing characters we've seen before
+    existing_characters = load_existing_characters()
+    print(f"📋 Found {len(existing_characters)} existing HC characters")
 
     # Fetch top 1,000 characters
 #    all_characters = fetch_ladder_characters(f"{base_ladder_url}0/", 5)
-    all_characters = fetch_ladder_characters(base_ladder_url, start_page=0, end_page=5)
+    current_ladder_chars = fetch_ladder_characters(base_ladder_url, start_page=0, end_page=5)
 
     # Fetch top 200 per class
     classes = {
@@ -133,10 +166,12 @@ def GetAllHCCharData():
 #        class_ladder_url = f"{base_ladder_url[:-2]}{api_suffix}"  # Adjusting URL for class-specific calls
         class_ladder_url = f"{base_ladder_url}{api_suffix}"  # Adjusting URL for class-specific calls
         class_characters = fetch_ladder_characters(class_ladder_url, 1)  # Only one page needed
-        all_characters.extend(class_characters)
+        current_ladder_chars.extend(class_characters)
 
-    # Remove duplicates (some characters appear in both top 1,000 and top 200 class rankings)
-    unique_characters = {char["charName"]: char for char in all_characters}.values()
+    # Merge current ladder characters with existing characters (some appear in both top 1,000 and top 200 class rankings)
+    all_ladder_chars = merge_character_lists(current_ladder_chars, existing_characters)
+    unique_characters = {char.get("charName") or char.get("Name", "unknown"): char for char in all_ladder_chars}.values()
+    print(f"🔄 Total HC characters to fetch: {len(list(unique_characters))}")
 
     character_data = []
     for character in unique_characters:
