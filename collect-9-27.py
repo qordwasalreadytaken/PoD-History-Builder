@@ -14,8 +14,8 @@ CHARACTER_FILE = "all_characters.json"   # or hc_ladder.json
 #CHARACTER_FILE = "Verotika.json"   # or hc_ladder.json
 #CHARACTER_FILE = "sorcsallsuck.json"   # or hc_ladder.json
 
-#BASE_IMPORT_PATH = "https://build.pathofdiablo.com/"  # change if needed
-BASE_IMPORT_PATH = "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html"
+BASE_IMPORT_PATH = "https://build.pathofdiablo.com/"  # change if needed
+#BASE_IMPORT_PATH = "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html"
 #BASE_IMPORT_PATH = "file:///home/derek/path-of-diablo-planner/index.html"
 
 GAME_VERSION = 2                    # PoD-specific features
@@ -431,6 +431,141 @@ def format_stat_line(stat_key, stat_value):
 with open("item_metadata.json") as f:
     stats = json.load(f)
 
+def format_equipment_item(item, slot, stats):
+    """
+    Format a single equipped item for planner URL with correct rules.
+    Includes magic/rare/crafted properties and special multi-props.
+    """
+    RUNES_BY_ID = {
+        "2693": "Delirium",
+        "-26": "Pattern2"
+        # Add more mappings here as needed
+    } 
+
+    multi_props = {"ctc": [], "cskill": []}  # collect arrays here
+
+    quality = item.get("QualityCode", "")
+    title = item.get("Title", "") or ""
+    worn = item.get("Worn", "")
+    tag = item.get("Tag", "")
+
+    display_label = pretty_slot_label(slot or worn)
+
+    # ✅ Special case: Runewords
+    if quality == "q_runeword":
+        if title in RUNES_BY_ID:
+            title = RUNES_BY_ID[title]
+
+        data = {
+            "name": title,  # e.g. "Spirit"
+            "base": tag,    # e.g. "Monarch"
+            "rarity": "rw",
+            "props": {},
+            "sockets": []
+        }
+
+        socket_count = int(item.get("SocketCount", 0) or 0)
+        for s in item.get("Sockets", []):
+            if is_socket_rune_or_gem(s):
+                data["sockets"].append(s.get("Title", ""))
+
+        if "PropertyList" in item and item["PropertyList"]:
+            for prop in item["PropertyList"]:
+                parsed = (
+                    parseChanceToCast(prop)
+                    or parseChargedSkill(prop)
+                    or parseAfterKillStat(prop)
+                    or parse_damage_property(prop, stats)
+                    or parse_generic_property(prop, stats)
+                )
+                if not parsed:
+                    continue
+
+                if isinstance(parsed, dict):
+                    parsed = [parsed]
+
+                for entry in parsed:
+                    if "statKey" not in entry:
+                        continue
+                    key, value = entry["statKey"], entry.get("value")
+
+                    if key in multi_props:
+                        multi_props[key].append(value)
+                    else:
+                        data["props"][key] = value
+
+            for key, values in multi_props.items():
+                if values:
+                    data["props"][key] = values
+
+        return f"custom_{slot}={quote_plus(json.dumps(data, separators=(',',':')))}"
+
+
+    # --- Base name rules ---
+    if quality in ("q_unique", "q_set"):
+        name = title
+    elif quality == "q_magic":
+        name = f"Imported magic {display_label}"
+    elif quality == "q_rare":
+        name = f"Imported rare {display_label}"
+    elif quality == "q_crafted":
+        name = f"Imported crafted {display_label}"
+    else:
+        name = title if title else f"Imported {display_label}"
+
+    parts = [name]
+
+    # --- SOCKETS / RUNES / GEMS ---
+    if quality in ("q_unique", "q_set"):
+        parts.append("0")  # dummy tier, will be ignored
+        socket_count = int(item.get("SocketCount", 0) or 0)
+        socket_field = "+ Sockets" if socket_count > 0 else "none"
+        parts.append(str(socket_count))
+        parts.append(socket_field)
+
+        for s in item.get("Sockets", []):
+            if is_socket_rune_or_gem(s):
+                parts.append(s.get("Title", ""))
+
+    else:
+        # non-runewords (magic/rare/crafted/etc)
+        parts.extend(["0", "none"])
+
+    # --- PROPERTY LIST PARSING FOR MAGIC/RARE/CRAFTED ---
+    if quality in ("q_magic", "q_rare", "q_crafted") and "PropertyList" in item and item["PropertyList"]:
+        for prop in item["PropertyList"]:
+            parsed = (
+                parseChanceToCast(prop)
+                or parseChargedSkill(prop)
+                or parseAfterKillStat(prop)
+                or parse_damage_property(prop, stats)
+                or parse_generic_property(prop, stats)
+            )
+            if not parsed:
+                continue
+
+            if isinstance(parsed, dict):
+                parsed = [parsed]
+
+            for entry in parsed:
+                if "statKey" not in entry:
+                    continue
+                key, value = entry["statKey"], entry.get("value")
+
+                if key in multi_props:
+                    multi_props[key].append(value)
+                else:
+                    if isinstance(value, list):
+                        value = ":".join(map(str, value))
+                    parts.append(f"{key}:{value}")
+
+        # After loop: dump the multi-props as JSON arrays
+        for key, values in multi_props.items():
+            if values:
+                encoded = json.dumps(values, separators=(",", ":"))
+                parts.append(f"{key}:{quote_plus(encoded)}")
+
+    return f"{slot}={quote_plus(','.join(parts))}"
 
 def parseChanceToCast(line):
     """Parse '% Chance to cast level X <Skill> when <Trigger>'."""
@@ -540,156 +675,64 @@ def format_stat_line(stat_key, stat_value):
 with open("item_metadata.json") as f:
     stats = json.load(f)
 
-
-def build_equipment_url(equipped_items, stats):
-    """
-    Returns (runewords_dict, eq_segments) for a character's equipped items.
-    Runewords only include name and base. Unique/set items only include names.
-    Only magic/rare/crafted items include properties.
-    """
-    RUNES_BY_ID = {
-        "2693": "Delirium",
-        "-26": "Pattern2"
-    }
-
-    runewords_dict = {}
-    eq_segments = []
-    multi_props_keys = {"ctc", "cskill"}
-
+def build_equipment_url(equipped_items):
+    """Build equipment string from equipped items in fixed order."""
+    slot_map = {}
     for item in equipped_items:
         worn = item.get("Worn")
-        slot = EQUIP_MAPPING.get(worn, worn)
-        if not slot:
-            continue
+        mapped = EQUIP_MAPPING.get(worn, worn)  # translate JSON -> planner slot
+        if mapped in EQUIP_ORDER:
+            slot_map[mapped] = item
 
-        quality = item.get("QualityCode", "")
-        title = item.get("Title", "") or ""
-        tag = item.get("Tag", "")
-        sockets = [s.get("Title") for s in item.get("Sockets", []) if is_socket_rune_or_gem(s)]
+    segments = []
+    for slot in EQUIP_ORDER:
+        item = slot_map.get(slot)
+        if item:
+            segments.append(format_equipment_item(item, slot, stats))
+            segments.append(format_equipment_item(item, slot, stats))
+    return "&".join(segments)
 
-        # Runewords → use regular slot format with name and base
-        if quality == "q_runeword":
-            rw_name = RUNES_BY_ID.get(title, title)
-            # Format: "RunewordName - BaseName"
-            runeword_display = f"{rw_name} - {tag}"
-            eq_segments.append(f"{slot}={quote_plus(runeword_display)}")
-            continue
-
-        # Unique/Set → simple name only
-        if quality in ("q_unique", "q_set"):
-            eq_segments.append(f"{slot}={quote_plus(title or f'Imported {pretty_slot_label(slot)}')}")
-            continue
-
-        # Normal/High/Magic/Rare/Crafted → use comma-separated format matching saveImportedItemToUrl
-        if quality in ("q_normal", "q_high", "q_magic", "q_rare", "q_crafted"):
-            props = {}
-            multi_props = {k: [] for k in multi_props_keys}
-
-            # Collect item properties for all these quality types
-            for prop in item.get("PropertyList", []):
-                parsed = (
-                    parseChanceToCast(prop)
-                    or parseChargedSkill(prop)
-                    or parseAfterKillStat(prop)
-                    or parse_damage_property(prop, stats)
-                    or parse_generic_property(prop, stats)
-                )
-                if not parsed:
-                    continue
-                if isinstance(parsed, dict):
-                    parsed = [parsed]
-                for entry in parsed:
-                    key = entry.get("statKey")
-                    value = entry.get("value")
-                    if not key:
-                        continue
-                    if key in multi_props_keys:
-                        # Prevent duplicates in multi_props
-                        if value not in multi_props[key]:
-                            multi_props[key].append(value)
-                    else:
-                        props[key] = value
-
-            # Merge multi_props into props if any
-            for k, v in multi_props.items():
-                if v:
-                    props[k] = v
-
-            # Use the actual base item name from TextTag or Tag instead of generic slot names
-            base_name = item.get("TextTag") or item.get("Tag") or pretty_slot_label(slot)
-            # Handle special cases for arrows/bolts
-            if tag in ['Bolts', 'Arrows']:
-                name = f"Imported {quality.replace('q_', '')} {tag}"
-            else:
-                name = f"Imported {quality.replace('q_', '')} {base_name}"
-            
-            # Build comma-separated format matching saveImportedItemToUrl: [title, tier, corruption, ...sockets, props]
-            arr = [name, "0", "none"]  # title, tier=0, corruption=none
-            
-            # Add sockets if present (only actual socket names, no "none" padding)
-            if sockets:
-                arr.extend(sockets)
-            
-            # Add properties as single comma-separated token "key:val,key:val,..."
-            if props:
-                prop_pairs = []
-                for key, value in props.items():
-                    if isinstance(value, list):
-                        # For arrays like ctc/cskill, join with | (pipe separator)
-                        prop_pairs.append(f"{key}:{'|'.join(map(str, value))}")
-                    else:
-                        prop_pairs.append(f"{key}:{value}")
-                # Add all props as a single token
-                if prop_pairs:
-                    arr.append(','.join(prop_pairs))
-            
-            eq_segments.append(f"{slot}={quote_plus(','.join(arr))}")
-            continue
-
-        # Fallback → mark as none
-        eq_segments.append(f"{slot}=none")
-
-    return runewords_dict, eq_segments
-
-
-def build_final_url(character, base_path=BASE_IMPORT_PATH):
+def build_final_url(character, settings=SETTINGS, game_version=GAME_VERSION, base_path=BASE_IMPORT_PATH):
     class_name = character["Class"].lower()
     level = character["Stats"]["Level"]
 
-    # Skill string
-    skill_points = {s["Name"]: s.get("Level",0) for tab in character.get("SkillTabs", []) for s in tab.get("Skills", [])}
+    # Flatten SkillTabs into {name: level}
+    skill_points = {}
+    for tab in character.get("SkillTabs", []):
+        for s in tab.get("Skills", []):
+            skill_points[s["Name"]] = s.get("Level", 0)
+
+    # Build skills string
     skills_str = build_skills_string(class_name, skill_points)
 
     # Core params
     params = {
-        "v": 2,
-        "url": 1,
         "class": class_name,
         "level": level,
         "difficulty": 3,
         "quests": 1,
-        "running": 0,
-        "strength": character["Stats"].get("Strength",0),
-        "dexterity": character["Stats"].get("Dexterity",0),
-        "vitality": character["Stats"].get("Vitality",0),
-        "energy": character["Stats"].get("Energy",0),
-        "coupling": 1,
+        "strength": character["Stats"].get("Strength", 0),
+        "dexterity": character["Stats"].get("Dexterity", 0),
+        "vitality": character["Stats"].get("Vitality", 0),
+        "energy": character["Stats"].get("Energy", 0),
+        "url": 1,
+        "coupling": 0,
         "synthwep": 0,
-        "autocast": 1,
+        "running": 0,
+        "autocast": 0,
         "skills": skills_str,
-        "selected": "none,none"
+        "selected": "none,none",
     }
 
-    runewords_dict, eq_segments = build_equipment_url(character.get("Equipped", []), stats)
-
-    # Core URL without eq_segments (no runewords parameter needed)
+    # Encode params
     core_url = f"{base_path}?{urlencode(params, doseq=True)}"
 
-    # Append custom_<slot> segments directly, do NOT urlencode again
-    if eq_segments:
-        return f"{core_url}&{'&'.join(eq_segments)}"
+    # Equipment
+    equipped = character.get("Equipped", [])
+    eq_str = build_equipment_url(equipped)
+    if eq_str:
+        return f"{core_url}&{eq_str}"
     return core_url
-
 
 # --- JSON helpers ---
 def load_json(filename):
@@ -708,7 +751,7 @@ def safe_filename(name: str) -> str:
 
 def main():
     now = datetime.datetime.now()
-    today = now.strftime("%Y-%m-%dT%H:%M")    
+    today = now.strftime("%Y-%m-%dT%H")    
 
     characters = load_json(CHARACTER_FILE)
     os.makedirs(SNAPSHOT_DIR, exist_ok=True)

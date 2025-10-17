@@ -45,7 +45,10 @@ async function performSearch(name) {
       </td>
     </tr>`;
   
-  for (const entry of history) {
+  // Sort history from newest to oldest (reverse chronological order)
+  const sortedHistory = [...history].reverse();
+  
+  for (const entry of sortedHistory) {
 //    const timestamp = entry.timestamp || "Unknown date";
   let timestamp = "Unknown date";
   if (entry.timestamp) {
