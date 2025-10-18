@@ -251,13 +251,10 @@ def save_split_files(sc_data, hc_data):
         json.dump(hc_data, file, indent=2)
     print(f"✅ Saved {len(hc_data)} HC characters to hc_characters.json")
     
-    # Create combined file for backwards compatibility (but it will be large)
-    combined_data = sc_data + hc_data
-    with open("all_characters.json", "w") as file:
-        json.dump(combined_data, file, indent=2)
-    print(f"✅ Saved {len(combined_data)} total characters to all_characters.json")
+    # No longer creating all_characters.json to avoid GitHub file size limits
+    print(f"📊 Total characters: {len(sc_data) + len(hc_data)} (split into separate files)")
     
-    return combined_data
+    return sc_data + hc_data
 
 def main():
     sc_data = GetAllCharData()
@@ -265,9 +262,9 @@ def main():
 
     combined_data = save_split_files(sc_data, hc_data)
     
-    # Show file sizes for monitoring
+    # Show file sizes for monitoring (only split files)
     import os
-    for filename in ["sc_characters.json", "hc_characters.json", "all_characters.json"]:
+    for filename in ["sc_characters.json", "hc_characters.json"]:
         if os.path.exists(filename):
             size_mb = os.path.getsize(filename) / (1024 * 1024)
             print(f"📊 {filename}: {size_mb:.1f} MB")
