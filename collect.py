@@ -10,7 +10,8 @@ import re
 # --- CONFIG ---
 SNAPSHOT_DIR = "snapshots"
 INDEX_FILE = "index.json"
-CHARACTER_FILE = "all_characters.json"   # or hc_ladder.json
+CHARACTER_FILES = ["sc_characters.json", "hc_characters.json"]  # Split files
+FALLBACK_FILE = "all_characters.json"   # Fallback to combined file if splits don't exist
 #CHARACTER_FILE = "Verotika.json"   # or hc_ladder.json
 #CHARACTER_FILE = "sorcsallsuck.json"   # or hc_ladder.json
 
@@ -711,11 +712,37 @@ def safe_filename(name: str) -> str:
     # Normalize: lowercase + replace anything not filename-safe
     return re.sub(r'[^a-z0-9_-]', '_', name.lower())
 
+def load_all_characters():
+    """Load characters from split files or fallback to combined file."""
+    all_characters = []
+    
+    # Try to load from split files first
+    files_loaded = []
+    for char_file in CHARACTER_FILES:
+        if os.path.exists(char_file):
+            characters = load_json(char_file)
+            all_characters.extend(characters)
+            files_loaded.append(char_file)
+            print(f"📋 Loaded {len(characters)} characters from {char_file}")
+    
+    # If no split files found, try fallback
+    if not files_loaded and os.path.exists(FALLBACK_FILE):
+        all_characters = load_json(FALLBACK_FILE)
+        files_loaded.append(FALLBACK_FILE)
+        print(f"📋 Loaded {len(all_characters)} characters from {FALLBACK_FILE} (fallback)")
+    
+    if not files_loaded:
+        print("⚠️ No character files found!")
+        return []
+    
+    print(f"✅ Total characters loaded: {len(all_characters)} from {', '.join(files_loaded)}")
+    return all_characters
+
 def main():
     now = datetime.datetime.now()
     today = now.strftime("%Y-%m-%dT%H:%M")    
 
-    characters = load_json(CHARACTER_FILE)
+    characters = load_all_characters()
     os.makedirs(SNAPSHOT_DIR, exist_ok=True)
 
     for char in characters:

@@ -38,14 +38,32 @@ def fetch_1kladder_characters(base_ladder_url, pages):
             print(f"⚠️ Failed to fetch page {page}: {response.status_code}")
     return all_characters
 
-def load_existing_characters():
-    """Load the list of characters we've seen before."""
-    if os.path.exists("all_characters.json"):
-        with open("all_characters.json", "r") as file:
-            existing_data = json.load(file)
-            # Extract character names from existing data
-            return {char.get("Name", "unknown"): char for char in existing_data}
-    return {}
+def load_existing_characters(league="both"):
+    """Load the list of characters we've seen before from split files."""
+    existing_chars = {}
+    
+    files_to_load = []
+    if league in ("both", "sc"):
+        files_to_load.append("sc_characters.json")
+    if league in ("both", "hc"):  
+        files_to_load.append("hc_characters.json")
+    
+    # Fallback to old combined file if split files don't exist
+    if not any(os.path.exists(f) for f in files_to_load):
+        if os.path.exists("all_characters.json"):
+            files_to_load = ["all_characters.json"]
+    
+    for filename in files_to_load:
+        if os.path.exists(filename):
+            with open(filename, "r") as file:
+                existing_data = json.load(file)
+                # Extract character names from existing data
+                for char in existing_data:
+                    char_name = char.get("Name", "unknown")
+                    if char_name != "unknown":
+                        existing_chars[char_name] = char
+    
+    return existing_chars
 
 def merge_character_lists(current_ladder_chars, existing_chars):
     """Merge current ladder characters with existing character list."""
@@ -99,8 +117,8 @@ def GetAllCharData():
     char_url = "https://beta.pathofdiablo.com/api/characters/{char_name}/summary"
 
     # Load existing characters we've seen before
-    existing_characters = load_existing_characters()
-    print(f"📋 Found {len(existing_characters)} existing characters")
+    existing_characters = load_existing_characters("sc")
+    print(f"📋 Found {len(existing_characters)} existing SC characters")
 
     # Step 1: Fetch top 1,000 characters (pages 0 to 5)
     # Step 1: Fetch top 1,000 characters (pages 0 to 5)
@@ -165,7 +183,7 @@ def GetAllHCCharData():
     char_url = "https://beta.pathofdiablo.com/api/characters/{char_name}/summary"
 
     # Load existing characters we've seen before
-    existing_characters = load_existing_characters()
+    existing_characters = load_existing_characters("hc")
     print(f"📋 Found {len(existing_characters)} existing HC characters")
 
     # Fetch top 1,000 characters
@@ -220,16 +238,39 @@ def GetAllHCCharData():
 #    print(f"✅ Saved {len(character_data)} unique characters to hc_ladder.json")
 
 
+def save_split_files(sc_data, hc_data):
+    """Save character data to separate SC and HC files."""
+    
+    # Save SC characters
+    with open("sc_characters.json", "w") as file:
+        json.dump(sc_data, file, indent=2)
+    print(f"✅ Saved {len(sc_data)} SC characters to sc_characters.json")
+    
+    # Save HC characters  
+    with open("hc_characters.json", "w") as file:
+        json.dump(hc_data, file, indent=2)
+    print(f"✅ Saved {len(hc_data)} HC characters to hc_characters.json")
+    
+    # Create combined file for backwards compatibility (but it will be large)
+    combined_data = sc_data + hc_data
+    with open("all_characters.json", "w") as file:
+        json.dump(combined_data, file, indent=2)
+    print(f"✅ Saved {len(combined_data)} total characters to all_characters.json")
+    
+    return combined_data
+
 def main():
     sc_data = GetAllCharData()
     hc_data = GetAllHCCharData()
 
-    combined_data = sc_data + hc_data
-
-    with open("all_characters.json", "w") as file:
-        json.dump(combined_data, file, indent=2)
-
-    print(f"✅ Saved {len(combined_data)} total characters to all_characters.json")
+    combined_data = save_split_files(sc_data, hc_data)
+    
+    # Show file sizes for monitoring
+    import os
+    for filename in ["sc_characters.json", "hc_characters.json", "all_characters.json"]:
+        if os.path.exists(filename):
+            size_mb = os.path.getsize(filename) / (1024 * 1024)
+            print(f"📊 {filename}: {size_mb:.1f} MB")
 
 
 if __name__ == "__main__":
