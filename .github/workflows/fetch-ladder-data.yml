@@ -2,8 +2,13 @@ name: Hourly History builder update- Data fetch
 
 on:
   schedule:
-    - cron: '45 * * * *'  # 45 minutes past the hour, every hour; UTC -- 5 am daily '0 5 * * *'
+    - cron: '0 5 * * *'  # 45 minutes past the hour, every hour '45 * * * *'; UTC -- 5 am daily '0 5 * * *'
   workflow_dispatch:
+
+# Prevent concurrent runs to avoid race conditions
+concurrency:
+  group: fetch-ladder-data
+  cancel-in-progress: false
 
 jobs:
   fetch-and-commit:
@@ -27,11 +32,19 @@ jobs:
       - name: Run combined ladder fetch script
         run: python fetch_ladder_data.py
 
+      - name: Remove large combined file before commit
+        run: |
+          git rm -f all_characters.json || true
+
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 🔁 Hourly update of all_characters.json
+          commit_message: 🔁 Hourly update of character data (split files)
           commit_user_name: github-actions[bot]
           commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          file_pattern: |
+            sc_characters.json
+            hc_characters.json
+          skip_dirty_check: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -2,8 +2,13 @@ name: Hourly History builder update- Collector
 
 on:
   schedule:
-    - cron: '10 * * * *'  # 10 minutes past the hour, every hour; UTC -- 6 am daily: '0 6 * * *'
+    - cron: '0 6 * * *'  # 10 minutes past the hour, every hour '10 * * * *'; UTC -- 6 am daily: '0 6 * * *'
   workflow_dispatch:
+
+# Prevent concurrent runs to avoid race conditions  
+concurrency:
+  group: collect-snapshots
+  cancel-in-progress: false
 
 jobs:
   fetch-and-commit:
