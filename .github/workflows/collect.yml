@@ -32,10 +32,13 @@ jobs:
       - name: Run combined ladder fetch script
         run: python collect.py
 
+      - name: Generate respec leaderboard
+        run: python track_respecs.py
+
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 🔁 Hourly update snapshots
+          commit_message: 🔁 Hourly update snapshots and respec leaderboard
           commit_user_name: github-actions[bot]
           commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
         env:
