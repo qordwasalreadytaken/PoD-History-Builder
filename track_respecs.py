@@ -12,6 +12,21 @@ from collections import defaultdict
 from datetime import datetime
 
 
+# ============================================================================
+# CONFIGURATION
+# ============================================================================
+# Minimum number of respecs required to appear on leaderboard
+# Examples:
+#   MIN_RESPECS = 1  -> Show everyone (good for early ladder, small datasets)
+#   MIN_RESPECS = 3  -> Only heavy respecers (good for mature ladders)
+#   MIN_RESPECS = 5  -> Only the most frequent respecers
+MIN_RESPECS = 1
+
+# Maximum number of entries in the leaderboard
+TOP_N = 50
+# ============================================================================
+
+
 def extract_skills_from_url(url):
     """Extract the skills parameter from a build planner URL using regex for speed."""
     try:
@@ -212,20 +227,27 @@ def scan_all_characters():
     return character_respecs
 
 
-def generate_leaderboard(character_respecs, top_n=50):
+def generate_leaderboard(character_respecs, top_n=50, min_respecs=1):
     """
     Generate a leaderboard of characters by respec count.
+    
+    Args:
+        character_respecs: dict of character data
+        top_n: maximum number of entries to return
+        min_respecs: minimum number of respecs required to be included
     
     Returns: list of (char_name, respec_count, total_points_removed)
     """
     leaderboard = []
     
     for char_name, data in character_respecs.items():
-        leaderboard.append((
-            char_name,
-            data['total_respecs'],
-            data['total_points_removed']
-        ))
+        # Only include characters with at least min_respecs
+        if data['total_respecs'] >= min_respecs:
+            leaderboard.append((
+                char_name,
+                data['total_respecs'],
+                data['total_points_removed']
+            ))
     
     # Sort by respec count (descending), then by total points removed
     leaderboard.sort(key=lambda x: (x[1], x[2]), reverse=True)
@@ -235,6 +257,7 @@ def generate_leaderboard(character_respecs, top_n=50):
 
 def main():
     print("🔍 Scanning character histories for respec token usage...")
+    print(f"   Configuration: MIN_RESPECS={MIN_RESPECS}, TOP_N={TOP_N}")
     print()
     
     character_respecs = scan_all_characters()
@@ -246,11 +269,17 @@ def main():
     print(f"✅ Found {len(character_respecs)} characters with respecs")
     print()
     
-    # Generate leaderboard
-    leaderboard = generate_leaderboard(character_respecs, top_n=50)
+    # Generate leaderboard with configured filters
+    leaderboard = generate_leaderboard(character_respecs, top_n=TOP_N, min_respecs=MIN_RESPECS)
+    
+    # Show filter info if filtering is active
+    if MIN_RESPECS > 1:
+        filtered_count = len([c for c in character_respecs.values() if c['total_respecs'] >= MIN_RESPECS])
+        print(f"📊 Showing {filtered_count} characters with {MIN_RESPECS}+ respecs (filtered from {len(character_respecs)} total)")
+        print()
     
     print("=" * 80)
-    print("RESPEC TOKEN USAGE LEADERBOARD (Top 50)")
+    print(f"RESPEC TOKEN USAGE LEADERBOARD (Top {TOP_N}, Min {MIN_RESPECS} respecs)")
     print("=" * 80)
     print(f"{'Rank':<6} {'Character':<30} {'Respecs':<10} {'Total Points Reset'}")
     print("-" * 80)
@@ -264,7 +293,12 @@ def main():
     # Save detailed results to JSON
     output = {
         'generated_at': datetime.now().isoformat(),
+        'config': {
+            'min_respecs': MIN_RESPECS,
+            'top_n': TOP_N
+        },
         'total_characters_with_respecs': len(character_respecs),
+        'characters_shown': len(leaderboard),
         'leaderboard': [
             {
                 'rank': rank,
@@ -277,6 +311,7 @@ def main():
         'detailed_data': {
             char_name: data
             for char_name, data in character_respecs.items()
+            if data['total_respecs'] >= MIN_RESPECS  # Only include characters meeting threshold
         }
     }
     
