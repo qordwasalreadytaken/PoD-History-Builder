@@ -1,18 +1,23 @@
 {
-  "generated_at": "2025-11-16T14:48:48.009756",
+  "generated_at": "2025-11-16T15:27:55.064773",
+  "config": {
+    "min_respecs": 1,
+    "top_n": 50
+  },
   "total_characters_with_respecs": 30,
+  "characters_shown": 30,
   "leaderboard": [
     {
       "rank": 1,
-      "character": "pbicb",
+      "character": "versabi",
       "total_respecs": 4,
-      "total_points_removed": 76
+      "total_points_removed": 183
     },
     {
       "rank": 2,
-      "character": "versabi",
-      "total_respecs": 3,
-      "total_points_removed": 183
+      "character": "pbicb",
+      "total_respecs": 4,
+      "total_points_removed": 76
     },
     {
       "rank": 3,
@@ -194,8 +199,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=sorceress&level=95&difficulty=3&quests=1&running=0&strength=86&dexterity=25&vitality=29&energy=425&coupling=1&synthwep=0&autocast=1&skills=0000000000000000000000010020000101010001000001010000200001002020&selected=none%2Cnone&boots=War+Traveler&helm=Harlequin+Crest&armor=Skin+of+the+Vipermagi&gloves=Magefist&amulet=Mara%27s+Kaleidoscope&ring1=The+Stone+of+Jordan&ring2=Bul-Kathos%27+Wedding+Band&belt=Arachnid+Mesh&sweapon1=Memory+-+Cedar+Staff&weapon=Hexfire&offhand=Spirit+-+Monarch",
           "character_name": "KacTpuK",
           "skills_decreased": 7,
+          "stats_decreased": 1,
           "total_points_removed": 79,
-          "details": {
+          "total_stats_removed": 448,
+          "skill_details": {
             "0": {
               "from": 1,
               "to": 0,
@@ -231,11 +238,19 @@
               "to": 1,
               "decrease": 19
             }
+          },
+          "stat_details": {
+            "vitality": {
+              "from": 477,
+              "to": 29,
+              "decrease": 448
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 79
+      "total_points_removed": 79,
+      "total_stats_removed": 448
     },
     "daemona": {
       "respecs": [
@@ -247,8 +262,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=amazon&level=96&difficulty=3&quests=1&running=0&strength=20&dexterity=25&vitality=20&energy=15&coupling=1&synthwep=0&autocast=1&skills=000000000000000000000000000000000000000000000000000000000000&selected=none%2Cnone&sweapon1=Hand+of+Justice+-+Matriarchal+Bow&sweapon2=Imported+crafted+Arrows%2C0%2Cnone%2Clife_leech%3A4%2Clife%3A14%2Cextra_arrows_Fire_Arrow%3A2",
           "character_name": "Daemona",
           "skills_decreased": 18,
+          "stats_decreased": 4,
           "total_points_removed": 107,
-          "details": {
+          "total_stats_removed": 485,
+          "skill_details": {
             "10": {
               "from": 1,
               "to": 0,
@@ -339,11 +356,34 @@
               "to": 0,
               "decrease": 20
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 110,
+              "to": 20,
+              "decrease": 90
+            },
+            "dexterity": {
+              "from": 190,
+              "to": 25,
+              "decrease": 165
+            },
+            "vitality": {
+              "from": 235,
+              "to": 20,
+              "decrease": 215
+            },
+            "energy": {
+              "from": 30,
+              "to": 15,
+              "decrease": 15
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 107
+      "total_points_removed": 107,
+      "total_stats_removed": 485
     },
     "solo_cups": {
       "respecs": [
@@ -355,8 +395,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=amazon&level=80&difficulty=3&quests=1&running=0&strength=75&dexterity=100&vitality=300&energy=15&coupling=1&synthwep=0&autocast=1&skills=012001002000010000200100010101000101010000000000000000000000&selected=none%2Cnone&ring2=Raven+Frost&gloves=Imported+rare+Heavy+Gloves%2C0%2Cnone%2Cias%3A20%2Cdefense%3A57%2Cdexterity%3A3%2CfRes%3A21%2Cctc%3A%5B12%2C+4%2C+%27Nova%27%2C+%27when+struck%27%5D&ring1=Bul-Kathos%27+Wedding+Band&boots=Silkweave&amulet=Mara%27s+Kaleidoscope&belt=Thundergod%27s+Vigor&armor=Chains+of+Honor+-+Archon+Plate&sweapon1=Kuko+Shakaku&sweapon2=Dragonbreath&helm=Kira%27s+Guardian&weapon=Thunderstroke&offhand=Phoenix+-+Monarch",
           "character_name": "SoLO_Cups",
           "skills_decreased": 2,
+          "stats_decreased": 2,
           "total_points_removed": 20,
-          "details": {
+          "total_stats_removed": 75,
+          "skill_details": {
             "5": {
               "from": 19,
               "to": 0,
@@ -367,11 +409,24 @@
               "to": 0,
               "decrease": 1
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 140,
+              "to": 75,
+              "decrease": 65
+            },
+            "dexterity": {
+              "from": 110,
+              "to": 100,
+              "decrease": 10
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 20
+      "total_points_removed": 20,
+      "total_stats_removed": 75
     },
     "minnk": {
       "respecs": [
@@ -383,18 +438,22 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=necromancer&level=95&difficulty=3&quests=1&running=0&strength=86&dexterity=25&vitality=429&energy=25&coupling=1&synthwep=0&autocast=1&skills=00000001000001190120000300012020000000200000000000000000000000&selected=none%2Cnone&ring1=Imported+rare+Ring%2C0%2Cnone%2Cfcr%3A10%2Cstrength%3A2%2CcRes%3A20%2ClRes%3A11%2CfRes%3A7&ring2=Imported+rare+Ring%2C0%2Cnone%2Cfcr%3A10%2Cstrength%3A19%2Cenergy%3A8%2Cmana%3A13%2CcRes%3A23%2Cmana_after_kill%3A1&belt=Arachnid+Mesh&amulet=Imported+rare+Amulet%2C0%2Cnone%2Cskills_necromancer%3A2%2Clife%3A74&boots=Imported+rare+Wyrmhide+Boots%2C0%2Cnone%2Cfrw%3A30%2Cdexterity%3A2%2CcRes%3A26%2CpRes%3A39&sweapon1=Imported+magic+Bone+Wand%2C0%2Cnone%2Cskills_summon_all%3A1%2Cskills_necromancer%3A2%2Cdamage_vs_undead%3A50%2Cskill_Bone_Spear%3A1%2Cskill_Bone_Offering%3A1&sweapon2=Splendor+-+Grim+Shield&gloves=Trang-Oul%27s+Claws&armor=Skin+of+the+Vipermagi&helm=Imported+rare+Circlet%2C0%2Cnone%2Cskills_necromancer%3A2%2Cfrw%3A20%2CpDamage_all%3A37%2Cenemy_pRes%3A-3%2Cdefense%3A55%2Clife%3A6%2Csockets%3A1%2Cctc%3A%5B100%2C+23%2C+%27Venom%27%2C+%27when+you+Level-Up%27%5D&weapon=White+-+Bone+Wand&offhand=Phoenix+-+Monarch",
           "character_name": "Minnk",
           "skills_decreased": 1,
+          "stats_decreased": 0,
           "total_points_removed": 1,
-          "details": {
+          "total_stats_removed": 0,
+          "skill_details": {
             "7": {
               "from": 20,
               "to": 19,
               "decrease": 1
             }
-          }
+          },
+          "stat_details": {}
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 1
+      "total_points_removed": 1,
+      "total_stats_removed": 0
     },
     "fewsorc": {
       "respecs": [
@@ -406,8 +465,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=sorceress&level=93&difficulty=3&quests=1&running=0&strength=130&dexterity=25&vitality=355&energy=35&coupling=1&synthwep=0&autocast=1&skills=2000002000200020000020000001000000010000010000010000000000000000&selected=none%2Cnone&ring2=Imported+rare+Ring%2C0%2Cnone%2Cfcr%3A20%2Car%3A55%2Call_res%3A11%2Cmf%3A13&belt=Arachnid+Mesh&amulet=Imported+crafted+Amulet%2C0%2Cnone%2Cskills_sorceress%3A2%2Cfcr%3A10%2Cmana%3A13%2Cmana_regen%3A7%2ClRes%3A10%2Cdamage_to_mana%3A10%2Cctc%3A%5B10%2C+3%2C+%27Hydra%27%2C+%27when+struck%27%5D&helm=Harlequin+Crest&armor=Skin+of+the+Vipermagi&ring1=Dwarf+Star&boots=War+Traveler&gloves=Trang-Oul%27s+Claws&sweapon1=Ondal%27s+Wisdom&weapon=Death%27s+Fathom&offhand=Phoenix+-+Monarch",
           "character_name": "fewsorc",
           "skills_decreased": 8,
+          "stats_decreased": 1,
           "total_points_removed": 100,
-          "details": {
+          "total_stats_removed": 365,
+          "skill_details": {
             "11": {
               "from": 1,
               "to": 0,
@@ -448,11 +509,19 @@
               "to": 0,
               "decrease": 20
             }
+          },
+          "stat_details": {
+            "energy": {
+              "from": 400,
+              "to": 35,
+              "decrease": 365
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 100
+      "total_points_removed": 100,
+      "total_stats_removed": 365
     },
     "thepolice": {
       "respecs": [
@@ -464,8 +533,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=paladin&level=30&difficulty=3&quests=1&running=0&strength=48&dexterity=20&vitality=25&energy=15&coupling=1&synthwep=0&autocast=1&skills=01000100010001000100000000000000000000000100010100010100000100&selected=none%2Cnone&armor=Stealth+-+Mage+Plate&boots=Sander%27s+Riprap&helm=Lore+-+Death+Mask&amulet=Imported+magic+Amulet%2C0%2Cnone%2Cskills_combat_paladin%3A2%2Clife%3A58&ring1=Imported+rare+Ring%2C0%2Cnone%2Cfcr%3A10%2Car%3A103%2Cenergy%3A5%2Cmana%3A12&ring2=Imported+magic+Ring%2C0%2Cnone%2Cfcr%3A10%2ClRes%3A15&gloves=Magefist&belt=String+of+Ears&weapon=Spirit+-+Crystal+Sword&offhand=Spirit+-+Rondache",
           "character_name": "ThePolice",
           "skills_decreased": 4,
+          "stats_decreased": 3,
           "total_points_removed": 23,
-          "details": {
+          "total_stats_removed": 92,
+          "skill_details": {
             "10": {
               "from": 1,
               "to": 0,
@@ -486,14 +557,52 @@
               "to": 0,
               "decrease": 1
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 59,
+              "to": 48,
+              "decrease": 11
+            },
+            "dexterity": {
+              "from": 35,
+              "to": 20,
+              "decrease": 15
+            },
+            "vitality": {
+              "from": 91,
+              "to": 25,
+              "decrease": 66
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 23
+      "total_points_removed": 23,
+      "total_stats_removed": 92
     },
     "versabi": {
       "respecs": [
+        {
+          "index": 25,
+          "timestamp": "2025-10-18T15:27",
+          "prev_timestamp": "2025-10-18T14:24",
+          "url_before": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=amazon&level=99&difficulty=3&quests=1&running=0&strength=23&dexterity=66&vitality=481&energy=15&coupling=1&synthwep=0&autocast=1&skills=202000010020000020000101010101010101200100000000000000000000&selected=none%2Cnone&amulet=The+Cat%27s+Eye&armor=Enigma+-+Mage+Plate&ring2=Raven+Frost&sweapon1=Breath+of+the+Dying+-+Matriarchal+Spear",
+          "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=amazon&level=99&difficulty=3&quests=1&running=0&strength=20&dexterity=66&vitality=484&energy=15&coupling=1&synthwep=0&autocast=1&skills=202000010020000020000101010101010101200100000000000000000000&selected=none%2Cnone&amulet=The+Cat%27s+Eye&armor=Enigma+-+Mage+Plate&sweapon1=Breath+of+the+Dying+-+Matriarchal+Spear&ring2=Raven+Frost&belt=Razortail",
+          "character_name": "Versabi",
+          "skills_decreased": 0,
+          "stats_decreased": 1,
+          "total_points_removed": 0,
+          "total_stats_removed": 3,
+          "skill_details": {},
+          "stat_details": {
+            "strength": {
+              "from": 23,
+              "to": 20,
+              "decrease": 3
+            }
+          }
+        },
         {
           "index": 39,
           "timestamp": "2025-10-19T09:27",
@@ -502,8 +611,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=amazon&level=99&difficulty=3&quests=1&running=0&strength=20&dexterity=32&vitality=518&energy=15&coupling=1&synthwep=0&autocast=1&skills=012001002020010019200101010101010100000100000000000000000000&selected=none%2Cnone&amulet=The+Cat%27s+Eye&armor=Enigma+-+Mage+Plate&ring2=Raven+Frost&helm=Griffon%27s+Eye&gloves=Imported+magic+Gauntlets%2C0%2Cnone%2Cias%3A20%2Call_res%3A6&boots=Silkweave&belt=Thundergod%27s+Vigor&weapon=Titan%27s+Revenge&offhand=Phoenix+-+Monarch",
           "character_name": "Versabi",
           "skills_decreased": 5,
+          "stats_decreased": 1,
           "total_points_removed": 42,
-          "details": {
+          "total_stats_removed": 34,
+          "skill_details": {
             "0": {
               "from": 20,
               "to": 1,
@@ -529,6 +640,13 @@
               "to": 0,
               "decrease": 20
             }
+          },
+          "stat_details": {
+            "dexterity": {
+              "from": 66,
+              "to": 32,
+              "decrease": 34
+            }
           }
         },
         {
@@ -539,8 +657,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=amazon&level=99&difficulty=3&quests=1&running=0&strength=29&dexterity=43&vitality=498&energy=15&coupling=1&synthwep=0&autocast=1&skills=202001012000011900200101010101010100000100000000000000000000&selected=none%2Cnone&amulet=The+Cat%27s+Eye&armor=Enigma+-+Mage+Plate&ring2=Raven+Frost&helm=Griffon%27s+Eye&gloves=Imported+magic+Gauntlets%2C0%2Cnone%2Cias%3A20%2Call_res%3A6&boots=Silkweave&belt=Thundergod%27s+Vigor&ring1=Wisp+Projector&sweapon1=The+Impaler&weapon=Titan%27s+Revenge&offhand=Phoenix+-+Monarch",
           "character_name": "Versabi",
           "skills_decreased": 2,
+          "stats_decreased": 1,
           "total_points_removed": 39,
-          "details": {
+          "total_stats_removed": 20,
+          "skill_details": {
             "5": {
               "from": 20,
               "to": 0,
@@ -550,6 +670,13 @@
               "from": 19,
               "to": 0,
               "decrease": 19
+            }
+          },
+          "stat_details": {
+            "vitality": {
+              "from": 518,
+              "to": 498,
+              "decrease": 20
             }
           }
         },
@@ -561,8 +688,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=amazon&level=99&difficulty=3&quests=1&running=0&strength=20&dexterity=87&vitality=463&energy=15&coupling=1&synthwep=0&autocast=1&skills=000000000000000000000101020101010100000120010020200020000020&selected=none%2Cnone&ring2=Raven+Frost&amulet=The+Cat%27s+Eye&gloves=Imported+magic+Chain+Gloves%2C0%2Cnone%2Cias%3A20%2Call_res%3A10&belt=Razortail&ring1=Wisp+Projector&armor=Enigma+-+Mage+Plate&boots=Silkweave&helm=Valkyrie+Wing&sweapon1=Phoenix+-+Matriarchal+Bow&sweapon2=Imported+crafted+Arrows%2C0%2Cnone%2Cfrw%3A6%2Cias%3A26%2Clife_leech%3A1%2Clife%3A11%2Call_res%3A9%2Cextra_arrows_Fire_Arrow%3A2&weapon=Ice+-+Matriarchal+Bow&offhand=Imported+crafted+Arrows%2C0%2Cnone%2Call_skills%3A1%2Cias%3A6%2ClDamage_min%3A1%2ClDamage_max%3A87%2Cmana%3A14%2Cmana_regen%3A10%2Cextra_arrows_Ice_Arrow%3A2",
           "character_name": "Versabi",
           "skills_decreased": 8,
+          "stats_decreased": 2,
           "total_points_removed": 102,
-          "details": {
+          "total_stats_removed": 44,
+          "skill_details": {
             "0": {
               "from": 20,
               "to": 0,
@@ -603,11 +732,24 @@
               "to": 0,
               "decrease": 20
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 29,
+              "to": 20,
+              "decrease": 9
+            },
+            "vitality": {
+              "from": 498,
+              "to": 463,
+              "decrease": 35
+            }
           }
         }
       ],
-      "total_respecs": 3,
-      "total_points_removed": 183
+      "total_respecs": 4,
+      "total_points_removed": 183,
+      "total_stats_removed": 101
     },
     "jijinpalla": {
       "respecs": [
@@ -619,8 +761,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=paladin&level=91&difficulty=3&quests=1&running=0&strength=105&dexterity=168&vitality=262&energy=15&coupling=1&synthwep=0&autocast=1&skills=00000000000000000000010000010100000020001620012001000100200000&selected=none%2Cnone&sweapon1=Todesfaelle+Flamme&gloves=Dracul%27s+Grasp&amulet=Highlord%27s+Wrath&ring1=Raven+Frost&ring2=Nature%27s+Peace&belt=Arachnid+Mesh&helm=Andariel%27s+Visage&boots=Infernostride&armor=Guardian+Angel&weapon=Horizon%27s+Tornado&offhand=Spirit+-+Sacred+Targe",
           "character_name": "JIJINpALLA",
           "skills_decreased": 14,
+          "stats_decreased": 1,
           "total_points_removed": 74,
-          "details": {
+          "total_stats_removed": 76,
+          "skill_details": {
             "0": {
               "from": 1,
               "to": 0,
@@ -691,11 +835,19 @@
               "to": 0,
               "decrease": 20
             }
+          },
+          "stat_details": {
+            "vitality": {
+              "from": 338,
+              "to": 262,
+              "decrease": 76
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 74
+      "total_points_removed": 74,
+      "total_stats_removed": 76
     },
     "ovsor": {
       "respecs": [
@@ -707,8 +859,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=sorceress&level=93&difficulty=3&quests=1&running=0&strength=156&dexterity=25&vitality=339&energy=35&coupling=1&synthwep=0&autocast=1&skills=0100010100012000000020000001000000010000000001010000150001002020&selected=none%2Cnone&ring2=Imported+rare+Ring%2C0%2Cnone%2Cfcr%3A10%2Cenergy%3A1%2CfRes%3A29%2CpRes%3A10&helm=Tal+Rasha%27s+Horadric+Crest&ring1=Imported+rare+Ring%2C0%2Cnone%2Cfcr%3A10%2Clife%3A21%2Cmana%3A10%2CpRes%3A25&armor=Tal+Rasha%27s+Guardianship&belt=Tal+Rasha%27s+Fine-Spun+Cloth&gloves=Magefist&amulet=Tal+Rasha%27s+Adjudication&sweapon2=Medusa%27s+Gaze&boots=Sandstorm+Trek&weapon=Tal+Rasha%27s+Lidless+Eye&offhand=Phoenix+-+Monarch",
           "character_name": "ovsor",
           "skills_decreased": 2,
+          "stats_decreased": 0,
           "total_points_removed": 28,
-          "details": {
+          "total_stats_removed": 0,
+          "skill_details": {
             "9": {
               "from": 20,
               "to": 0,
@@ -719,11 +873,13 @@
               "to": 1,
               "decrease": 8
             }
-          }
+          },
+          "stat_details": {}
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 28
+      "total_points_removed": 28,
+      "total_stats_removed": 0
     },
     "level_dead": {
       "respecs": [
@@ -735,8 +891,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=paladin&level=53&difficulty=3&quests=1&running=0&strength=25&dexterity=20&vitality=25&energy=15&coupling=1&synthwep=0&autocast=1&skills=00000000000000000000000000000000000000000001010001000000000000&selected=none%2Cnone&ring1=Cathan%27s+Seal&ring2=Manald+Heal&gloves=Bloodfist&amulet=Nokozan+Relic&boots=Tearhaunch&armor=Darkglow&belt=Gloom%27s+Trap&helm=Rockstopper&weapon=Headstriker&offhand=Spirit+-+Heraldic+Shield",
           "character_name": "Level_Dead",
           "skills_decreased": 7,
+          "stats_decreased": 3,
           "total_points_removed": 56,
-          "details": {
+          "total_stats_removed": 265,
+          "skill_details": {
             "1": {
               "from": 1,
               "to": 0,
@@ -772,11 +930,29 @@
               "to": 0,
               "decrease": 12
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 105,
+              "to": 25,
+              "decrease": 80
+            },
+            "dexterity": {
+              "from": 100,
+              "to": 20,
+              "decrease": 80
+            },
+            "vitality": {
+              "from": 130,
+              "to": 25,
+              "decrease": 105
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 56
+      "total_points_removed": 56,
+      "total_stats_removed": 265
     },
     "diditan": {
       "respecs": [
@@ -788,8 +964,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=assassin&level=94&difficulty=3&quests=1&running=0&strength=20&dexterity=21&vitality=499&energy=25&coupling=1&synthwep=0&autocast=1&skills=00000000000000000101010000000000000020010001200020202000&selected=none%2Cnone&amulet=Imported+crafted+Amulet%2C0%2Cnone%2Call_skills%3A1%2Cskills_assassin%3A2%2Cfrw%3A10%2Clife_leech%3A3%2Cstrength%3A5%2Cenergy%3A2%2Clife%3A15%2Cmana%3A27&ring1=Wisp+Projector&ring2=Bul-Kathos%27+Wedding+Band&boots=War+Traveler&armor=Enigma+-+Dusk+Shroud&gloves=Soul+Drainer&belt=Imported+rare+Mithril+Coil%2C0%2Cnone%2Cfhr%3A24%2Cdefense%3A47%2Cstrength%3A29%2CcRes%3A29%2ClRes%3A16&helm=Imported+rare+Tiara%2C0%2Cnone%2Cmelee_splash%3A1%2Cskills_assassin%3A2%2Cfrw%3A30%2Cfhr%3A21%2Cdamage_bonus%3A27%2CcDamage_min%3A8%2CcDamage_max%3A30%2CcRes%3A10%2ClRes%3A21%2CfRes%3A35%2CpRes%3A26%2Csockets%3A3&sweapon1=Call+to+Arms+-+Flail&sweapon2=Spirit+-+Monarch&weapon=Plague+-+Greater+Claws&offhand=Phoenix+-+Monarch",
           "character_name": "DIDITAN",
           "skills_decreased": 13,
+          "stats_decreased": 2,
           "total_points_removed": 101,
-          "details": {
+          "total_stats_removed": 104,
+          "skill_details": {
             "0": {
               "from": 1,
               "to": 0,
@@ -855,11 +1033,24 @@
               "to": 0,
               "decrease": 20
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 109,
+              "to": 20,
+              "decrease": 89
+            },
+            "dexterity": {
+              "from": 36,
+              "to": 21,
+              "decrease": 15
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 101
+      "total_points_removed": 101,
+      "total_stats_removed": 104
     },
     "sethius": {
       "respecs": [
@@ -871,8 +1062,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=barbarian&level=98&difficulty=3&quests=1&running=0&strength=153&dexterity=20&vitality=402&energy=10&coupling=1&synthwep=0&autocast=1&skills=01010001010017010001200000000101010101000120202000000000000000&selected=none%2Cnone&amulet=Highlord%27s+Wrath&gloves=Steelrend&boots=Gore+Rider&ring2=Wisp+Projector&belt=Verdungo%27s+Hearty+Cord&ring1=Imported+crafted+Ring%2C0%2Cnone%2Car%3A50%2Cmana_leech%3A6%2Clife_leech%3A6%2Clife_per_ranged_hit%3A1%2Clife_per_hit%3A2&armor=Fortitude+-+Sacred+Armor&helm=Arreat%27s+Face&sweapon1=Heart+of+the+Oak+-+Flail&sweapon2=Heart+of+the+Oak+-+Flail&weapon=Grief+-+Berserker+Axe&offhand=Grief+-+Berserker+Axe",
           "character_name": "Sethius",
           "skills_decreased": 2,
+          "stats_decreased": 1,
           "total_points_removed": 20,
-          "details": {
+          "total_stats_removed": 3,
+          "skill_details": {
             "6": {
               "from": 20,
               "to": 17,
@@ -883,11 +1076,19 @@
               "to": 1,
               "decrease": 17
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 156,
+              "to": 153,
+              "decrease": 3
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 20
+      "total_points_removed": 20,
+      "total_stats_removed": 3
     },
     "shlapa": {
       "respecs": [
@@ -899,8 +1100,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=assassin&level=91&difficulty=3&quests=1&running=0&strength=141&dexterity=136&vitality=248&energy=25&coupling=1&synthwep=0&autocast=1&skills=00000000000000000101010101000100001101012001012001002020&selected=none%2Cnone&ring1=Bul-Kathos%27+Wedding+Band&belt=Arachnid+Mesh&boots=Aldur%27s+Advance&gloves=Dracul%27s+Grasp&ring2=Raven+Frost&amulet=Mara%27s+Kaleidoscope&armor=Chains+of+Honor+-+Archon+Plate&helm=Crown+of+Ages&weapon=Destruction+-+Phase+Blade&offhand=Phoenix+-+Monarch",
           "character_name": "shlapa",
           "skills_decreased": 5,
+          "stats_decreased": 2,
           "total_points_removed": 68,
-          "details": {
+          "total_stats_removed": 80,
+          "skill_details": {
             "9": {
               "from": 20,
               "to": 1,
@@ -926,11 +1129,24 @@
               "to": 11,
               "decrease": 9
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 151,
+              "to": 141,
+              "decrease": 10
+            },
+            "vitality": {
+              "from": 318,
+              "to": 248,
+              "decrease": 70
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 68
+      "total_points_removed": 68,
+      "total_stats_removed": 80
     },
     "delta": {
       "respecs": [
@@ -942,8 +1158,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=amazon&level=75&difficulty=3&quests=1&running=0&strength=89&dexterity=101&vitality=155&energy=15&coupling=1&synthwep=0&autocast=1&skills=200000200000002000000001000101010100000000000000000000000000&selected=none%2Cnone&gloves=Imported+rare+Battle+Gauntlets%2C0%2Cnone%2Cias%3A20%2Car%3A12%2Cpoison_length_reduced%3A25%2Cmf%3A5&helm=Guillaume%27s+Face&belt=String+of+Ears&ring1=Raven+Frost&amulet=Highlord%27s+Wrath&ring2=Raven+Frost&boots=Imported+rare+Greaves%2C0%2Cnone%2Cfrw%3A30%2Cdefense%3A72%2ClRes%3A33%2CpRes%3A21%2Cmf%3A19&armor=Chains+of+Honor+-+Archon+Plate&weapon=Stoneraven",
           "character_name": "Delta",
           "skills_decreased": 7,
+          "stats_decreased": 1,
           "total_points_removed": 80,
-          "details": {
+          "total_stats_removed": 105,
+          "skill_details": {
             "1": {
               "from": 20,
               "to": 0,
@@ -979,11 +1197,19 @@
               "to": 1,
               "decrease": 4
             }
+          },
+          "stat_details": {
+            "vitality": {
+              "from": 260,
+              "to": 155,
+              "decrease": 105
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 80
+      "total_points_removed": 80,
+      "total_stats_removed": 105
     },
     "ovnec": {
       "respecs": [
@@ -995,8 +1221,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=necromancer&level=93&difficulty=3&quests=1&running=0&strength=134&dexterity=28&vitality=368&energy=25&coupling=1&synthwep=0&autocast=1&skills=20000001000001180120000100012003000000000000000000000000001000&selected=none%2Cnone&armor=Bone+-+Dusk+Shroud&belt=Arachnid+Mesh&amulet=Mara%27s+Kaleidoscope&gloves=Magefist&boots=Sandstorm+Trek&helm=Harlequin+Crest&sweapon2=Phoenix+-+Monarch&ring1=Imported+rare+Ring%2C0%2Cnone%2Cfcr%3A10%2Clife_leech%3A5%2Cmana%3A47%2CfRes%3A21&ring2=The+Stone+of+Jordan&weapon=Heart+of+the+Oak+-+Flail&offhand=Homunculus",
           "character_name": "ovnec",
           "skills_decreased": 5,
+          "stats_decreased": 1,
           "total_points_removed": 100,
-          "details": {
+          "total_stats_removed": 60,
+          "skill_details": {
             "21": {
               "from": 20,
               "to": 0,
@@ -1022,11 +1250,19 @@
               "to": 0,
               "decrease": 20
             }
+          },
+          "stat_details": {
+            "vitality": {
+              "from": 428,
+              "to": 368,
+              "decrease": 60
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 100
+      "total_points_removed": 100,
+      "total_stats_removed": 60
     },
     "nythera": {
       "respecs": [
@@ -1038,8 +1274,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=amazon&level=97&difficulty=3&quests=1&running=0&strength=31&dexterity=44&vitality=485&energy=15&coupling=1&synthwep=0&autocast=1&skills=202001012000011700200101010101010100000100000000000000000000&selected=none%2Cnone&ring2=Raven+Frost&helm=Griffon%27s+Eye&amulet=The+Cat%27s+Eye&gloves=Imported+magic+Gauntlets%2C0%2Cnone%2Cias%3A20%2Call_res%3A6&armor=Enigma+-+Mage+Plate&belt=Thundergod%27s+Vigor&boots=Silkweave&ring1=Wisp+Projector&sweapon1=The+Impaler&weapon=Titan%27s+Revenge&offhand=Phoenix+-+Monarch",
           "character_name": "Nythera",
           "skills_decreased": 6,
+          "stats_decreased": 1,
           "total_points_removed": 100,
-          "details": {
+          "total_stats_removed": 43,
+          "skill_details": {
             "20": {
               "from": 20,
               "to": 0,
@@ -1070,6 +1308,13 @@
               "to": 0,
               "decrease": 20
             }
+          },
+          "stat_details": {
+            "dexterity": {
+              "from": 87,
+              "to": 44,
+              "decrease": 43
+            }
           }
         },
         {
@@ -1080,12 +1325,21 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=amazon&level=97&difficulty=3&quests=1&running=0&strength=31&dexterity=69&vitality=460&energy=15&coupling=1&synthwep=0&autocast=1&skills=172001012000012000200101010101010100000100000000000000000000&selected=none%2Cnone&ring2=Raven+Frost&helm=Griffon%27s+Eye&gloves=Imported+magic+Gauntlets%2C0%2Cnone%2Cias%3A20%2Call_res%3A6&armor=Enigma+-+Mage+Plate&belt=Thundergod%27s+Vigor&boots=Silkweave&ring1=Wisp+Projector&amulet=Highlord%27s+Wrath&sweapon1=The+Impaler&weapon=Titan%27s+Revenge&offhand=Phoenix+-+Monarch",
           "character_name": "Nythera",
           "skills_decreased": 1,
+          "stats_decreased": 1,
           "total_points_removed": 3,
-          "details": {
+          "total_stats_removed": 25,
+          "skill_details": {
             "0": {
               "from": 20,
               "to": 17,
               "decrease": 3
+            }
+          },
+          "stat_details": {
+            "vitality": {
+              "from": 485,
+              "to": 460,
+              "decrease": 25
             }
           }
         },
@@ -1097,18 +1351,22 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=amazon&level=97&difficulty=3&quests=1&running=0&strength=31&dexterity=69&vitality=460&energy=15&coupling=1&synthwep=0&autocast=1&skills=202001012000011700200101010101010100000100000000000000000000&selected=none%2Cnone&armor=Enigma+-+Mage+Plate&belt=Thundergod%27s+Vigor&gloves=Imported+magic+Gauntlets%2C0%2Cnone%2Cias%3A20%2Call_res%3A6&amulet=Highlord%27s+Wrath&boots=Silkweave&helm=Griffon%27s+Eye&ring1=Wisp+Projector&ring2=Raven+Frost&sweapon1=The+Impaler&weapon=Titan%27s+Revenge&offhand=Phoenix+-+Monarch",
           "character_name": "Nythera",
           "skills_decreased": 1,
+          "stats_decreased": 0,
           "total_points_removed": 3,
-          "details": {
+          "total_stats_removed": 0,
+          "skill_details": {
             "7": {
               "from": 20,
               "to": 17,
               "decrease": 3
             }
-          }
+          },
+          "stat_details": {}
         }
       ],
       "total_respecs": 3,
-      "total_points_removed": 106
+      "total_points_removed": 106,
+      "total_stats_removed": 68
     },
     "brokenarrow": {
       "respecs": [
@@ -1120,8 +1378,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=amazon&level=90&difficulty=3&quests=1&running=0&strength=20&dexterity=25&vitality=20&energy=15&coupling=1&synthwep=0&autocast=1&skills=000000000000000000000000000000000000000000000000000000000000&selected=none%2Cnone&belt=Razortail&helm=Andariel%27s+Visage&amulet=Highlord%27s+Wrath",
           "character_name": "BrokenArrow",
           "skills_decreased": 18,
+          "stats_decreased": 3,
           "total_points_removed": 101,
-          "details": {
+          "total_stats_removed": 455,
+          "skill_details": {
             "10": {
               "from": 1,
               "to": 0,
@@ -1212,11 +1472,29 @@
               "to": 0,
               "decrease": 20
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 28,
+              "to": 20,
+              "decrease": 8
+            },
+            "dexterity": {
+              "from": 129,
+              "to": 25,
+              "decrease": 104
+            },
+            "vitality": {
+              "from": 363,
+              "to": 20,
+              "decrease": 343
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 101
+      "total_points_removed": 101,
+      "total_stats_removed": 455
     },
     "fewcharge": {
       "respecs": [
@@ -1228,8 +1506,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=paladin&level=89&difficulty=3&quests=1&running=0&strength=59&dexterity=170&vitality=296&energy=15&coupling=1&synthwep=0&autocast=1&skills=01000100010020000100010000202000000000000101010101002000010001&selected=none%2Cnone&ring2=Bul-Kathos%27+Wedding+Band&amulet=Imported+crafted+Amulet%2C0%2Cnone%2Call_skills%3A1%2Cskills_paladin%3A1%2Cfcr%3A5%2Clife_replenish%3A6%2Cmana%3A12%2Cmana_regen%3A6%2CcRes%3A38%2ClRes%3A12%2CfRes%3A12%2CpRes%3A12&boots=War+Traveler&helm=Imported+rare+Tiara%2C0%2Cnone%2Cskills_paladin%3A2%2Cmana_leech%3A6%2Cstrength%3A24%2Cenergy%3A15%2Clife%3A30%2Call_res%3A16&gloves=Magefist&armor=Skin+of+the+Vipermagi&sweapon1=Grief+-+Phase+Blade&ring1=Imported+rare+Ring%2C0%2Cnone%2Cfcr%3A10%2Cstrength%3A9%2Cmana%3A51%2CcRes%3A15%2Clight_radius%3A2&belt=Arachnid+Mesh&weapon=Heart+of+the+Oak+-+Flail&offhand=Herald+of+Zakarum",
           "character_name": "fewcharge",
           "skills_decreased": 6,
+          "stats_decreased": 1,
           "total_points_removed": 86,
-          "details": {
+          "total_stats_removed": 8,
+          "skill_details": {
             "3": {
               "from": 20,
               "to": 0,
@@ -1260,11 +1540,19 @@
               "to": 0,
               "decrease": 20
             }
+          },
+          "stat_details": {
+            "dexterity": {
+              "from": 178,
+              "to": 170,
+              "decrease": 8
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 86
+      "total_points_removed": 86,
+      "total_stats_removed": 8
     },
     "eva_one": {
       "respecs": [
@@ -1276,8 +1564,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=sorceress&level=92&difficulty=3&quests=1&running=0&strength=136&dexterity=25&vitality=354&energy=35&coupling=1&synthwep=0&autocast=1&skills=0000000000000000000000200101002020010000200000200000000000000000&selected=none%2Cnone&gloves=Magefist&ring1=Raven+Frost&ring2=Wisp+Projector&boots=War+Traveler&armor=Que-Hegan%27s+Wisdom&helm=Griffon%27s+Eye&belt=Arachnid+Mesh&amulet=Mara%27s+Kaleidoscope&sweapon1=Call+to+Arms+-+Crystal+Sword&sweapon2=Spirit+-+Monarch&weapon=Heart+of+the+Oak+-+Flail&offhand=Spirit+-+Monarch",
           "character_name": "Eva_One",
           "skills_decreased": 3,
+          "stats_decreased": 2,
           "total_points_removed": 19,
-          "details": {
+          "total_stats_removed": 25,
+          "skill_details": {
             "17": {
               "from": 11,
               "to": 1,
@@ -1293,6 +1583,18 @@
               "to": 0,
               "decrease": 8
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 150,
+              "to": 136,
+              "decrease": 14
+            },
+            "energy": {
+              "from": 46,
+              "to": 35,
+              "decrease": 11
+            }
           }
         },
         {
@@ -1303,8 +1605,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=sorceress&level=92&difficulty=3&quests=1&running=0&strength=121&dexterity=25&vitality=369&energy=35&coupling=1&synthwep=0&autocast=1&skills=0000000000000000000000200020002020010001200000010000000000000000&selected=none%2Cnone&gloves=Magefist&ring1=Raven+Frost&boots=War+Traveler&armor=Que-Hegan%27s+Wisdom&helm=Griffon%27s+Eye&belt=Arachnid+Mesh&amulet=Mara%27s+Kaleidoscope&ring2=Wisp+Projector&sweapon1=Call+to+Arms+-+Crystal+Sword&sweapon2=Spirit+-+Monarch&weapon=Heart+of+the+Oak+-+Flail&offhand=Spirit+-+Monarch",
           "character_name": "Eva_One",
           "skills_decreased": 2,
+          "stats_decreased": 1,
           "total_points_removed": 20,
-          "details": {
+          "total_stats_removed": 15,
+          "skill_details": {
             "12": {
               "from": 1,
               "to": 0,
@@ -1315,11 +1619,19 @@
               "to": 1,
               "decrease": 19
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 136,
+              "to": 121,
+              "decrease": 15
+            }
           }
         }
       ],
       "total_respecs": 2,
-      "total_points_removed": 39
+      "total_points_removed": 39,
+      "total_stats_removed": 40
     },
     "keys-organs": {
       "respecs": [
@@ -1331,8 +1643,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=sorceress&level=97&difficulty=3&quests=1&running=0&strength=85&dexterity=25&vitality=263&energy=188&coupling=1&synthwep=0&autocast=1&skills=0700002000200020000014000020000000010000050000010000000000000000&selected=none%2Cnone&belt=Arachnid+Mesh&amulet=Mara%27s+Kaleidoscope&ring1=Bul-Kathos%27+Wedding+Band&boots=Sandstorm+Trek&ring2=Imported+rare+Ring%2C0%2Cnone%2Cfcr%3A10%2Car%3A56%2Cenergy%3A1%2Clife%3A35%2Cmana%3A4%2CfRes%3A8&gloves=Magefist&helm=Nightwing%27s+Veil&armor=Skin+of+the+Vipermagi&sweapon1=Ondal%27s+Wisdom&weapon=Death%27s+Fathom&offhand=Phoenix+-+Monarch",
           "character_name": "Keys-Organs",
           "skills_decreased": 4,
+          "stats_decreased": 2,
           "total_points_removed": 23,
-          "details": {
+          "total_stats_removed": 153,
+          "skill_details": {
             "0": {
               "from": 20,
               "to": 7,
@@ -1353,11 +1667,24 @@
               "to": 14,
               "decrease": 6
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 93,
+              "to": 85,
+              "decrease": 8
+            },
+            "vitality": {
+              "from": 408,
+              "to": 263,
+              "decrease": 145
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 23
+      "total_points_removed": 23,
+      "total_stats_removed": 153
     },
     "popinn": {
       "respecs": [
@@ -1369,8 +1696,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=paladin&level=92&difficulty=3&quests=1&running=0&strength=35&dexterity=80&vitality=425&energy=15&coupling=1&synthwep=0&autocast=1&skills=00200000000000000020200101000001000100180001010006000100110001&selected=none%2Cnone&amulet=Highlord%27s+Wrath&belt=String+of+Ears&gloves=Laying+of+Hands&armor=Dragon+-+Archon+Plate&boots=Sandstorm+Trek&helm=Harlequin+Crest&ring1=Raven+Frost&sweapon1=Imported+normal+War+Scepter%2C0%2Cnone%2CFal+Rune%2CFal+Rune%2CFal+Rune%2Cdamage_vs_undead%3A50%2Cskill_Blessed_Hammer%3A1%2Cskill_Redemption%3A3%2Cskill_Salvation%3A1%2Cstrength%3A30%2Csockets%3A3&sweapon2=Spirit+-+Sacred+Targe&weapon=Hand+of+Justice+-+Phase+Blade&offhand=Dragon+-+Sacred+Rondache",
           "character_name": "popinn",
           "skills_decreased": 2,
+          "stats_decreased": 2,
           "total_points_removed": 8,
-          "details": {
+          "total_stats_removed": 70,
+          "skill_details": {
             "16": {
               "from": 1,
               "to": 0,
@@ -1381,11 +1710,24 @@
               "to": 11,
               "decrease": 7
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 80,
+              "to": 35,
+              "decrease": 45
+            },
+            "dexterity": {
+              "from": 105,
+              "to": 80,
+              "decrease": 25
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 8
+      "total_points_removed": 8,
+      "total_stats_removed": 70
     },
     "wizardlady": {
       "respecs": [
@@ -1397,8 +1739,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=sorceress&level=94&difficulty=3&quests=1&running=0&strength=54&dexterity=25&vitality=46&energy=435&coupling=1&synthwep=0&autocast=1&skills=0000000000000000000000010020001601200001202001010000010001000101&selected=none%2Cnone&gloves=Magefist&belt=Arachnid+Mesh&helm=Griffon%27s+Eye&ring2=The+Stone+of+Jordan&boots=Silkweave&armor=Skin+of+the+Vipermagi&ring1=Wisp+Projector&amulet=Imported+rare+Amulet%2C0%2Cnone%2Call_skills%3A1%2Cskills_sorceress%3A2%2Cfcr%3A10%2Cstrength%3A1%2Call_res%3A4&sweapon1=Memory+-+Gnarled+Staff&weapon=Warpspear",
           "character_name": "WizardLady",
           "skills_decreased": 9,
+          "stats_decreased": 2,
           "total_points_removed": 97,
-          "details": {
+          "total_stats_removed": 400,
+          "skill_details": {
             "0": {
               "from": 20,
               "to": 0,
@@ -1444,11 +1788,24 @@
               "to": 1,
               "decrease": 19
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 112,
+              "to": 54,
+              "decrease": 58
+            },
+            "vitality": {
+              "from": 388,
+              "to": 46,
+              "decrease": 342
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 97
+      "total_points_removed": 97,
+      "total_stats_removed": 400
     },
     "pbicb": {
       "respecs": [
@@ -1460,8 +1817,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=sorceress&level=93&difficulty=3&quests=1&running=0&strength=35&dexterity=25&vitality=10&energy=405&coupling=1&synthwep=0&autocast=1&skills=0100010100010100000401010020000701200001201501010000010001000104&selected=none%2Cnone&belt=Gloom%27s+Trap&ring2=Raven+Frost&amulet=Tal+Rasha%27s+Adjudication&armor=Skin+of+the+Vipermagi&ring1=Imported+rare+Ring%2C0%2Cnone%2Cfcr%3A10%2Cmana%3A64%2Call_res%3A11&helm=Harlequin+Crest&gloves=Frostburn&boots=Tearhaunch&sweapon1=Memory+-+Gnarled+Staff&weapon=Warpspear",
           "character_name": "PbICb",
           "skills_decreased": 3,
+          "stats_decreased": 3,
           "total_points_removed": 50,
-          "details": {
+          "total_stats_removed": 175,
+          "skill_details": {
             "11": {
               "from": 19,
               "to": 1,
@@ -1477,6 +1836,23 @@
               "to": 1,
               "decrease": 19
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 145,
+              "to": 35,
+              "decrease": 110
+            },
+            "dexterity": {
+              "from": 65,
+              "to": 25,
+              "decrease": 40
+            },
+            "vitality": {
+              "from": 35,
+              "to": 10,
+              "decrease": 25
+            }
           }
         },
         {
@@ -1487,8 +1863,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=sorceress&level=93&difficulty=3&quests=1&running=0&strength=50&dexterity=25&vitality=10&energy=410&coupling=1&synthwep=0&autocast=1&skills=0000000000000000000001010020002001200001200801010000010001000107&selected=none%2Cnone&belt=Gloom%27s+Trap&gloves=Frostburn&boots=Tearhaunch&ring1=Raven+Frost&ring2=Wisp+Projector&helm=Harlequin+Crest&armor=Skin+of+the+Vipermagi&amulet=Mara%27s+Kaleidoscope&sweapon1=Memory+-+Gnarled+Staff&weapon=Warpspear",
           "character_name": "PbICb",
           "skills_decreased": 7,
+          "stats_decreased": 0,
           "total_points_removed": 16,
-          "details": {
+          "total_stats_removed": 0,
+          "skill_details": {
             "0": {
               "from": 1,
               "to": 0,
@@ -1524,7 +1902,8 @@
               "to": 8,
               "decrease": 7
             }
-          }
+          },
+          "stat_details": {}
         },
         {
           "index": 50,
@@ -1534,12 +1913,26 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=sorceress&level=94&difficulty=3&quests=1&running=0&strength=10&dexterity=25&vitality=10&energy=515&coupling=1&synthwep=0&autocast=1&skills=0000000000000000000001010020002001200001201001010000010001000106&selected=none%2Cnone&gloves=Frostburn&ring1=Raven+Frost&ring2=Wisp+Projector&helm=Harlequin+Crest&amulet=Mara%27s+Kaleidoscope&armor=Enigma+-+Dusk+Shroud&belt=Arachnid+Mesh&boots=Tearhaunch&sweapon1=Imported+normal+Glowing+Orb%2C0%2Cnone%2Car%3A94%2Cskill_Enflame%3A1%2Coskill_Hydra%3A2%2Cskill_Frozen_Orb%3A2%2Clife%3A38%2Csockets%3A1&sweapon2=Medusa%27s+Gaze&weapon=Warpspear",
           "character_name": "PbICb",
           "skills_decreased": 1,
+          "stats_decreased": 2,
           "total_points_removed": 1,
-          "details": {
+          "total_stats_removed": 100,
+          "skill_details": {
             "31": {
               "from": 7,
               "to": 6,
               "decrease": 1
+            }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 50,
+              "to": 10,
+              "decrease": 40
+            },
+            "vitality": {
+              "from": 70,
+              "to": 10,
+              "decrease": 60
             }
           }
         },
@@ -1551,8 +1944,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=sorceress&level=94&difficulty=3&quests=1&running=0&strength=61&dexterity=25&vitality=10&energy=464&coupling=1&synthwep=0&autocast=1&skills=0000000000000000000001010020002001200001201900010000000000000100&selected=none%2Cnone&boots=Tearhaunch&ring2=The+Stone+of+Jordan&amulet=Mara%27s+Kaleidoscope&gloves=Frostburn&ring1=Wisp+Projector&helm=Harlequin+Crest&armor=Fortitude+-+Archon+Plate&belt=Arachnid+Mesh&sweapon1=Imported+magic+Grim+Wand%2C0%2Cnone%2Cdamage_vs_undead%3A50%2Cskill_Dim_Vision%3A1%2Cskill_Flesh_Offering%3A1%2Ccskill%3A%5B2%2C+%27Lower+Resist%27%2C+54%5D&sweapon2=Medusa%27s+Gaze&weapon=Warpspear",
           "character_name": "PbICb",
           "skills_decreased": 4,
+          "stats_decreased": 1,
           "total_points_removed": 9,
-          "details": {
+          "total_stats_removed": 51,
+          "skill_details": {
             "22": {
               "from": 1,
               "to": 0,
@@ -1573,11 +1968,19 @@
               "to": 0,
               "decrease": 6
             }
+          },
+          "stat_details": {
+            "energy": {
+              "from": 515,
+              "to": 464,
+              "decrease": 51
+            }
           }
         }
       ],
       "total_respecs": 4,
-      "total_points_removed": 76
+      "total_points_removed": 76,
+      "total_stats_removed": 326
     },
     "overproofed": {
       "respecs": [
@@ -1589,8 +1992,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=sorceress&level=95&difficulty=3&quests=1&running=0&strength=110&dexterity=25&vitality=345&energy=35&coupling=1&synthwep=0&autocast=1&skills=0000000000000000000000000001000000010000000000202000000000002000&selected=none%2Cnone&belt=Verdungo%27s+Hearty+Cord&gloves=Magefist&amulet=Mara%27s+Kaleidoscope&boots=Sandstorm+Trek&ring1=Imported+rare+Ring%2C0%2Cnone%2Cfcr%3A20%2Cmana%3A85%2Cmana_after_kill%3A1&helm=Harlequin+Crest&armor=Skin+of+the+Vipermagi&sweapon1=Imported+magic+Grim+Wand%2C0%2Cnone%2Cdamage_vs_undead%3A50%2Ccskill%3A%5B3%2C+%27Lower+Resist%27%2C+80%5D&ring2=Bul-Kathos%27+Wedding+Band&weapon=Heart+of+the+Oak+-+Flail&offhand=Spirit+-+Monarch",
           "character_name": "overproofed",
           "skills_decreased": 7,
+          "stats_decreased": 2,
           "total_points_removed": 83,
-          "details": {
+          "total_stats_removed": 50,
+          "skill_details": {
             "0": {
               "from": 1,
               "to": 0,
@@ -1626,11 +2031,24 @@
               "to": 0,
               "decrease": 1
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 112,
+              "to": 110,
+              "decrease": 2
+            },
+            "vitality": {
+              "from": 393,
+              "to": 345,
+              "decrease": 48
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 83
+      "total_points_removed": 83,
+      "total_stats_removed": 50
     },
     "mehlkor": {
       "respecs": [
@@ -1642,18 +2060,28 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=druid&level=90&difficulty=3&quests=1&running=0&strength=48&dexterity=20&vitality=271&energy=201&coupling=1&synthwep=0&autocast=1&skills=012020010801002000200000000000000000000000010101010101010101&selected=none%2Cnone&ring1=The+Stone+of+Jordan&amulet=Imported+rare+Amulet%2C0%2Cnone%2Cskills_druid%3A2%2Cfcr%3A10%2Clife%3A39%2CcRes%3A9%2ClRes%3A37%2CfRes%3A9%2CpRes%3A9%2Chalf_freeze%3A1&gloves=Magefist&belt=Arachnid+Mesh&ring2=Wisp+Projector&helm=Ravenlore&armor=Enigma+-+Mage+Plate&boots=War+Traveler&sweapon1=Imported+magic+Grim+Wand%2C0%2Cnone%2Cdamage_vs_undead%3A50%2Cskill_Clay_Golem%3A1%2Cskill_Lower_Resist%3A2%2CpRes%3A31%2Ccskill%3A%5B3%2C+%27Lower+Resist%27%2C+78%5D&sweapon2=Phoenix+-+Monarch&weapon=Heart+of+the+Oak+-+Flail&offhand=Stormshield",
           "character_name": "Mehlkor",
           "skills_decreased": 1,
+          "stats_decreased": 1,
           "total_points_removed": 4,
-          "details": {
+          "total_stats_removed": 7,
+          "skill_details": {
             "4": {
               "from": 12,
               "to": 8,
               "decrease": 4
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 55,
+              "to": 48,
+              "decrease": 7
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 4
+      "total_points_removed": 4,
+      "total_stats_removed": 7
     },
     "qood": {
       "respecs": [
@@ -1665,8 +2093,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=druid&level=93&difficulty=3&quests=1&running=0&strength=191&dexterity=20&vitality=319&energy=20&coupling=1&synthwep=0&autocast=1&skills=202000000100000100200001120101010020000000010001010001010000&selected=none%2Cnone&ring1=Imported+rare+Ring%2C0%2Cnone%2Car%3A114%2Clife_leech%3A6%2Clife_replenish%3A6%2CcRes%3A9%2ClRes%3A9%2CfRes%3A9%2CpRes%3A27%2Ccskill%3A%5B4%2C+%27Dim+Vision%27%2C+30%5D&ring2=Raven+Frost&belt=String+of+Ears&helm=Jalal%27s+Mane&boots=Gore+Rider&armor=Chains+of+Honor+-+Archon+Plate&amulet=Mara%27s+Kaleidoscope&gloves=Dracul%27s+Grasp&sweapon1=Islestrike&sweapon2=Spirit+-+Monarch&weapon=Earth+Shifter",
           "character_name": "Qood",
           "skills_decreased": 7,
+          "stats_decreased": 1,
           "total_points_removed": 87,
-          "details": {
+          "total_stats_removed": 70,
+          "skill_details": {
             "11": {
               "from": 14,
               "to": 1,
@@ -1702,11 +2132,19 @@
               "to": 1,
               "decrease": 19
             }
+          },
+          "stat_details": {
+            "dexterity": {
+              "from": 90,
+              "to": 20,
+              "decrease": 70
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 87
+      "total_points_removed": 87,
+      "total_stats_removed": 70
     },
     "sethikeyira": {
       "respecs": [
@@ -1718,8 +2156,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=sorceress&level=93&difficulty=3&quests=1&running=0&strength=108&dexterity=25&vitality=10&energy=412&coupling=1&synthwep=0&autocast=1&skills=0000000000000000000000010020000101030018000000202000000000002000&selected=none%2Cnone&ring2=The+Stone+of+Jordan&belt=Arachnid+Mesh&gloves=Magefist&boots=Silkweave&armor=Skin+of+the+Vipermagi&helm=Harlequin+Crest&ring1=The+Stone+of+Jordan&sweapon1=Memory+-+Gnarled+Staff&amulet=Mara%27s+Kaleidoscope&weapon=Heart+of+the+Oak+-+Flail&offhand=Spirit+-+Monarch",
           "character_name": "Sethikeyira",
           "skills_decreased": 4,
+          "stats_decreased": 1,
           "total_points_removed": 77,
-          "details": {
+          "total_stats_removed": 386,
+          "skill_details": {
             "11": {
               "from": 20,
               "to": 1,
@@ -1740,6 +2180,13 @@
               "to": 0,
               "decrease": 20
             }
+          },
+          "stat_details": {
+            "vitality": {
+              "from": 396,
+              "to": 10,
+              "decrease": 386
+            }
           }
         },
         {
@@ -1750,8 +2197,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=sorceress&level=93&difficulty=3&quests=1&running=0&strength=96&dexterity=25&vitality=399&energy=35&coupling=1&synthwep=0&autocast=1&skills=0000000000000000000000200001002020010000200000200000000000000200&selected=none%2Cnone&ring1=Imported+rare+Ring%2C0%2Cnone%2Cfcr%3A20%2CpDamage_all%3A50%2Cmana%3A66%2CcRes%3A17%2ClRes%3A29&amulet=Imported+crafted+Amulet%2C0%2Cnone%2Cskills_sorceress%3A2%2Cfcr%3A10%2Cmana%3A11%2Cmana_regen%3A10%2Chalf_freeze%3A1&boots=Silkweave&sweapon2=Phoenix+-+Monarch&weapon=Heart+of+the+Oak+-+Flail&offhand=Spirit+-+Monarch",
           "character_name": "Sethikeyira",
           "skills_decreased": 5,
+          "stats_decreased": 2,
           "total_points_removed": 77,
-          "details": {
+          "total_stats_removed": 389,
+          "skill_details": {
             "13": {
               "from": 20,
               "to": 1,
@@ -1777,11 +2226,24 @@
               "to": 2,
               "decrease": 18
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 108,
+              "to": 96,
+              "decrease": 12
+            },
+            "energy": {
+              "from": 412,
+              "to": 35,
+              "decrease": 377
+            }
           }
         }
       ],
       "total_respecs": 2,
-      "total_points_removed": 154
+      "total_points_removed": 154,
+      "total_stats_removed": 775
     },
     "deadartd": {
       "respecs": [
@@ -1793,8 +2255,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=necromancer&level=99&difficulty=3&quests=1&running=0&strength=15&dexterity=25&vitality=15&energy=25&coupling=1&synthwep=0&autocast=1&skills=00000000000000000000000000000000000000000000000000000000000000&selected=none%2Cnone&belt=Trang-Oul%27s+Girth&gloves=Trang-Oul%27s+Claws&ring2=Bul-Kathos%27+Wedding+Band&ring1=Bul-Kathos%27+Wedding+Band&amulet=Imported+crafted+Amulet%2C0%2Cnone%2Call_skills%3A1%2Cskills_summon_all%3A1%2Cskills_necromancer%3A2%2Car%3A99%2Cmana%3A3%2CcRes%3A33%2Cctc%3A%5B5%2C+4%2C+%27Frost+Nova%27%2C+%27when+struck%27%5D&boots=War+Traveler&sweapon1=Death%27s+Web&sweapon2=Medusa%27s+Gaze&weapon=Boneshade&offhand=Trang-Oul%27s+Wing",
           "character_name": "DeadArtD",
           "skills_decreased": 15,
+          "stats_decreased": 2,
           "total_points_removed": 110,
-          "details": {
+          "total_stats_removed": 505,
+          "skill_details": {
             "0": {
               "from": 20,
               "to": 0,
@@ -1870,11 +2334,24 @@
               "to": 0,
               "decrease": 5
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 60,
+              "to": 15,
+              "decrease": 45
+            },
+            "vitality": {
+              "from": 475,
+              "to": 15,
+              "decrease": 460
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 110
+      "total_points_removed": 110,
+      "total_stats_removed": 505
     },
     "necrodream": {
       "respecs": [
@@ -1886,8 +2363,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=necromancer&level=97&difficulty=3&quests=1&running=0&strength=15&dexterity=25&vitality=15&energy=25&coupling=1&synthwep=0&autocast=1&skills=00000000000000000000000000000000000000000000000000000000000000&selected=none%2Cnone",
           "character_name": "NecroDream",
           "skills_decreased": 11,
+          "stats_decreased": 2,
           "total_points_removed": 108,
-          "details": {
+          "total_stats_removed": 495,
+          "skill_details": {
             "0": {
               "from": 1,
               "to": 0,
@@ -1943,11 +2422,24 @@
               "to": 0,
               "decrease": 9
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 70,
+              "to": 15,
+              "decrease": 55
+            },
+            "vitality": {
+              "from": 455,
+              "to": 15,
+              "decrease": 440
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 108
+      "total_points_removed": 108,
+      "total_stats_removed": 495
     },
     "ppsor": {
       "respecs": [
@@ -1959,8 +2451,10 @@
           "url_after": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?v=2&url=1&class=sorceress&level=91&difficulty=3&quests=1&running=0&strength=37&dexterity=25&vitality=10&energy=473&coupling=1&synthwep=0&autocast=1&skills=0000000000000000000000010115012001200101202000010000000000000000&selected=none%2Cnone&gloves=Frostburn&belt=Arachnid+Mesh&armor=Skin+of+the+Vipermagi&ring2=Imported+rare+Ring%2C0%2Cnone%2Cfrw%3A10%2Cfcr%3A10%2Car%3A80%2Cstrength%3A14%2Clife%3A1%2Cmana%3A5%2CcRes%3A20&helm=Harlequin+Crest&amulet=Mara%27s+Kaleidoscope&ring1=Imported+rare+Ring%2C0%2Cnone%2Cfcr%3A10%2Car%3A67%2Cmana%3A7%2ClRes%3A21%2Cmf%3A10&boots=Silkweave&sweapon1=Suicide+Branch&sweapon2=Lidless+Wall&weapon=Warpspear",
           "character_name": "PpSor",
           "skills_decreased": 2,
+          "stats_decreased": 2,
           "total_points_removed": 2,
-          "details": {
+          "total_stats_removed": 438,
+          "skill_details": {
             "13": {
               "from": 16,
               "to": 15,
@@ -1971,11 +2465,24 @@
               "to": 1,
               "decrease": 1
             }
+          },
+          "stat_details": {
+            "strength": {
+              "from": 85,
+              "to": 37,
+              "decrease": 48
+            },
+            "vitality": {
+              "from": 400,
+              "to": 10,
+              "decrease": 390
+            }
           }
         }
       ],
       "total_respecs": 1,
-      "total_points_removed": 2
+      "total_points_removed": 2,
+      "total_stats_removed": 438
     }
   }
 }
