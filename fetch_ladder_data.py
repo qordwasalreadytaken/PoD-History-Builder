@@ -10,6 +10,9 @@ pp = pprint.PrettyPrinter(indent=4)
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 
+# Import sharding helper
+from character_storage import load_characters, save_characters
+
 
 def fetch_ladder_characters(base_ladder_url, start_page=1, end_page=5):
     all_characters = []
@@ -39,31 +42,9 @@ def fetch_1kladder_characters(base_ladder_url, pages):
     return all_characters
 
 def load_existing_characters(league="both"):
-    """Load the list of characters we've seen before from split files."""
-    existing_chars = {}
-    
-    files_to_load = []
-    if league in ("both", "sc"):
-        files_to_load.append("sc_characters.json")
-    if league in ("both", "hc"):  
-        files_to_load.append("hc_characters.json")
-    
-    # Fallback to old combined file if split files don't exist
-    if not any(os.path.exists(f) for f in files_to_load):
-        if os.path.exists("all_characters.json"):
-            files_to_load = ["all_characters.json"]
-    
-    for filename in files_to_load:
-        if os.path.exists(filename):
-            with open(filename, "r") as file:
-                existing_data = json.load(file)
-                # Extract character names from existing data
-                for char in existing_data:
-                    char_name = char.get("Name", "unknown")
-                    if char_name != "unknown":
-                        existing_chars[char_name] = char
-    
-    return existing_chars
+    """Load the list of characters we've seen before from sharded files."""
+    # Use the sharding helper - it returns a dict of char_name -> char_data
+    return load_characters(league)
 
 def merge_character_lists(current_ladder_chars, existing_chars):
     """Merge current ladder characters with existing character list."""
@@ -239,20 +220,15 @@ def GetAllHCCharData():
 
 
 def save_split_files(sc_data, hc_data):
-    """Save character data to separate SC and HC files."""
+    """Save character data to sharded files."""
     
-    # Save SC characters
-    with open("sc_characters.json", "w") as file:
-        json.dump(sc_data, file, indent=2)
-    print(f"✅ Saved {len(sc_data)} SC characters to sc_characters.json")
+    # Save SC characters to sharded files
+    save_characters(sc_data, 'sc')
     
-    # Save HC characters  
-    with open("hc_characters.json", "w") as file:
-        json.dump(hc_data, file, indent=2)
-    print(f"✅ Saved {len(hc_data)} HC characters to hc_characters.json")
+    # Save HC characters to sharded files
+    save_characters(hc_data, 'hc')
     
-    # No longer creating all_characters.json to avoid GitHub file size limits
-    print(f"📊 Total characters: {len(sc_data) + len(hc_data)} (split into separate files)")
+    print(f"📊 Total characters: {len(sc_data) + len(hc_data)} (sharded by name)")
     
     return sc_data + hc_data
 
@@ -262,12 +238,16 @@ def main():
 
     combined_data = save_split_files(sc_data, hc_data)
     
-    # Show file sizes for monitoring (only split files)
-    import os
-    for filename in ["sc_characters.json", "hc_characters.json"]:
+    # Show file sizes for monitoring (all shard files)
+    from character_storage import get_all_shard_names
+    all_shards = get_all_shard_names('both')
+    total_size = 0
+    for filename in all_shards:
         if os.path.exists(filename):
             size_mb = os.path.getsize(filename) / (1024 * 1024)
+            total_size += size_mb
             print(f"📊 {filename}: {size_mb:.1f} MB")
+    print(f"💾 Total storage: {total_size:.1f} MB across {len([f for f in all_shards if os.path.exists(f)])} shard files")
 
 
 if __name__ == "__main__":

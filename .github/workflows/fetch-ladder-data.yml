@@ -32,19 +32,19 @@ jobs:
       - name: Run combined ladder fetch script
         run: python fetch_ladder_data.py
 
-      - name: Remove large combined file before commit
+      - name: Remove large combined files before commit
         run: |
-          git rm -f all_characters.json || true
+          git rm -f all_characters.json sc_characters.json hc_characters.json || true
 
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 🔁 Hourly update of character data (split files)
+          commit_message: 🔁 Hourly update of character data (sharded files)
           commit_user_name: github-actions[bot]
           commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
           file_pattern: |
-            sc_characters.json
-            hc_characters.json
+            sc_*.json
+            hc_*.json
           skip_dirty_check: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

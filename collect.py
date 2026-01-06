@@ -6,6 +6,9 @@ import urllib.parse
 from pathlib import Path
 import re
 
+# Import sharding helper
+from character_storage import load_characters_as_list
+
 
 # --- CONFIG ---
 SNAPSHOT_DIR = "snapshots"
@@ -713,29 +716,14 @@ def safe_filename(name: str) -> str:
     return re.sub(r'[^a-z0-9_-]', '_', name.lower())
 
 def load_all_characters():
-    """Load characters from split files or fallback to combined file."""
-    all_characters = []
+    """Load characters from sharded files using the centralized helper."""
+    all_characters = load_characters_as_list('both')
     
-    # Try to load from split files first
-    files_loaded = []
-    for char_file in CHARACTER_FILES:
-        if os.path.exists(char_file):
-            characters = load_json(char_file)
-            all_characters.extend(characters)
-            files_loaded.append(char_file)
-            print(f"📋 Loaded {len(characters)} characters from {char_file}")
-    
-    # If no split files found, try fallback
-    if not files_loaded and os.path.exists(FALLBACK_FILE):
-        all_characters = load_json(FALLBACK_FILE)
-        files_loaded.append(FALLBACK_FILE)
-        print(f"📋 Loaded {len(all_characters)} characters from {FALLBACK_FILE} (fallback)")
-    
-    if not files_loaded:
+    if not all_characters:
         print("⚠️ No character files found!")
         return []
     
-    print(f"✅ Total characters loaded: {len(all_characters)} from {', '.join(files_loaded)}")
+    print(f"✅ Total characters loaded: {len(all_characters)}")
     return all_characters
 
 def main():
