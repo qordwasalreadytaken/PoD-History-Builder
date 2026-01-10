@@ -9487,21 +9487,21 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 97,
-      "Experience": 2983981725,
+      "Experience": 2983990916,
       "Strength": 109,
       "Dexterity": 25,
-      "Vitality": 96,
-      "Energy": 345,
-      "BaseLife": 416,
-      "Life": 833,
-      "BaseMana": 847,
-      "Mana": 1924,
-      "Gold": 550235,
-      "Stashed": 1922391
+      "Vitality": 281,
+      "Energy": 160,
+      "BaseLife": 786,
+      "Life": 1235,
+      "BaseMana": 477,
+      "Mana": 1295,
+      "Gold": 8035,
+      "Stashed": 2482646
     },
     "Bonus": {
       "Strength": 14,
-      "Dexterity": 0,
+      "Dexterity": 4,
       "Vitality": 0,
       "Energy": 0,
       "FireResistance": 181,
@@ -9513,7 +9513,7 @@
       "PoisonResistance": 136,
       "MaximumPoisonResistance": 0,
       "MagicFind": 50,
-      "GoldFind": 14,
+      "GoldFind": 44,
       "FasterCastRate": 70,
       "FasterHitRecovery": 20,
       "IncreasedAttackSpeed": 0,
@@ -9547,14 +9547,14 @@
         "CooldownReduction": 0
       },
       "WeaponSetOffhand": {
-        "Strength": 0,
+        "Strength": 8,
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
         "FireResistance": 0,
         "MaximumFireResistance": 0,
-        "ColdResistance": 0,
-        "MaximumColdResistance": 0,
+        "ColdResistance": 79,
+        "MaximumColdResistance": 5,
         "LightningResistance": 0,
         "MaximumLightningResistance": 0,
         "PoisonResistance": 0,
@@ -9574,75 +9574,13 @@
     "SkillTabs": [
       {
         "Name": "Fire Skills",
-        "Total": 1,
-        "Skills": [
-          {
-            "ID": 2,
-            "Name": "Warmth",
-            "Level": 1
-          }
-        ]
+        "Total": 0,
+        "Skills": []
       },
       {
         "Name": "Lightning Skills",
-        "Total": 106,
-        "Skills": [
-          {
-            "ID": 3,
-            "Name": "Charged Bolt",
-            "Level": 1
-          },
-          {
-            "ID": 7,
-            "Name": "Static Field",
-            "Level": 1
-          },
-          {
-            "ID": 8,
-            "Name": "Telekinesis",
-            "Level": 20
-          },
-          {
-            "ID": 13,
-            "Name": "Nova",
-            "Level": 20
-          },
-          {
-            "ID": 14,
-            "Name": "Lightning Surge",
-            "Level": 1
-          },
-          {
-            "ID": 18,
-            "Name": "Teleport",
-            "Level": 20
-          },
-          {
-            "ID": 19,
-            "Name": "Chain Lightning",
-            "Level": 1
-          },
-          {
-            "ID": 22,
-            "Name": "Discharge",
-            "Level": 20
-          },
-          {
-            "ID": 23,
-            "Name": "Energy Shield",
-            "Level": 1
-          },
-          {
-            "ID": 28,
-            "Name": "Lightning Mastery",
-            "Level": 20
-          },
-          {
-            "ID": 31,
-            "Name": "Thunder Storm",
-            "Level": 1
-          }
-        ]
+        "Total": 0,
+        "Skills": []
       },
       {
         "Name": "Cold Skills",
@@ -10027,99 +9965,84 @@
       },
       {
         "Quality": "Unique",
-        "ID": "4259616638",
+        "ID": "2381877428",
         "QualityCode": "q_unique",
-        "Title": "Warpspear",
-        "Tag": "Gothic Staff",
-        "TextTag": "Gothic Staff",
+        "Title": "Hand of Blessed Light",
+        "Tag": "Synthesized Divine Scepter",
+        "TextTag": "Synthesized Divine Scepter",
         "Ethereal": "False",
         "Enhanced": "True",
-        "DamageMinimum": "14",
-        "DamageMaximum": "45",
-        "ThrowDamageMaximum": "11",
-        "Durability": "180",
-        "DurabilityMaximum": "180",
-        "ItemLevel": "87",
-        "LevelReq": 39,
-        "Sockets": [
-          {
-            "Quality": "Magic",
-            "ID": "2757381888",
-            "QualityCode": "q_magic",
-            "Title": "Aureolin Jewel",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "AlternateGraphics": "2",
-            "ItemLevel": "88",
-            "LevelReq": 16,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+3 to Mana after each Kill"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Rare",
-            "ID": "3181691172",
-            "QualityCode": "q_rare",
-            "Title": "GhoulRI Talisman",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "AlternateGraphics": "0",
-            "ItemLevel": "88",
-            "LevelReq": 16,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+11 to Maximum Damage",
-              "+3 to Mana after each Kill"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "2",
+        "DamageMinimum": "68",
+        "DamageMaximum": "114",
+        "ThrowDamageMinimum": "20",
+        "Durability": "215",
+        "DurabilityMaximum": "215",
+        "ItemLevel": "88",
+        "LevelReq": 42,
+        "SocketCount": "0",
         "PropertyList": [
-          "\u00ffc1Corrupted",
-          " Thunder Storm Strikes Two Additional Targets",
+          "50% Chance to cast level 20 Holy Bolt when struck",
           "+3 to Sorceress Skill Levels",
-          "+11 to Maximum Damage",
+          "+200% Enhanced Damage",
+          "Adds 20-45 damage",
           "Ignore Target's Defense",
           "+50% Damage to Undead",
-          "+3 to Telekinesis (Sorceress Only)",
+          "+485 to Attack Rating against Undead (Based on Character Level)",
           "+3 to Teleport (Sorceress Only)",
           "+3 to Energy Shield (Sorceress Only)",
-          "+250 Defense vs. Missile",
-          "+6 to Mana after each Kill",
-          "Socketed (2)"
+          "+8 to Strength",
+          "Regenerate Mana 15%"
+        ],
+        "SynthesisedFrom": [
+          "Boneslayer Blade",
+          "Warpspear"
         ],
         "Position": {
           "x": 11,
           "y": 0
         },
         "Size": {
-          "invheight": 4,
-          "invwidth": 1
+          "invheight": 3,
+          "invwidth": 2
         },
         "Worn": "sweapon1"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "893531738",
+        "QualityCode": "q_unique",
+        "Title": "Medusa's Gaze",
+        "Tag": "Aegis",
+        "TextTag": "Aegis",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Block": "54",
+        "Defense": "222",
+        "Durability": "92",
+        "DurabilityMaximum": "92",
+        "ItemLevel": "90",
+        "LevelReq": 76,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+2 to Cold Skills",
+          "10% Increased Chance of Blocking",
+          "-19% to Enemy Cold Resistance",
+          "+2 to Shiver Armor",
+          "+152% Enhanced Defense",
+          "+5% to Maximum Cold Resist",
+          "Cold Resist +79%",
+          "Requirements -50%"
+        ],
+        "Position": {
+          "x": 12,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": "sweapon2"
       },
       {
         "Quality": "Superior",
@@ -10638,111 +10561,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "2047697274",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "90",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "3050456312",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "85",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "3408256496",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm of Shock",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "91",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)",
-          "Adds 1-2 Lightning damage"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1834743791",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "87",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)"
-        ],
-        "Position": {
-          "x": 3,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "654448037",
         "QualityCode": "q_magic",
         "Title": "Sparking Grand Charm",
@@ -10921,24 +10739,108 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Full Rejuvenation Potion",
-        "Tag": "Full Rejuvenation Potion",
-        "TextTag": "Full Rejuv Potion",
+        "Quality": "Magic",
+        "ID": "2866934919",
+        "QualityCode": "q_magic",
+        "Title": "Burning Grand Charm of Life",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 42,
         "SocketCount": "0",
-        "PropertyList": [],
+        "PropertyList": [
+          "+1 to Fire Skills (Sorceress Only)",
+          "+9 to Life"
+        ],
         "Position": {
-          "x": 7,
-          "y": 3
+          "x": 0,
+          "y": 6
         },
         "Size": {
-          "invheight": 1,
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "511805341",
+        "QualityCode": "q_magic",
+        "Title": "Burning Grand Charm of Dexterity",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Fire Skills (Sorceress Only)",
+          "+4 to Dexterity"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "535317796",
+        "QualityCode": "q_magic",
+        "Title": "Burning Grand Charm of Greed",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Fire Skills (Sorceress Only)",
+          "30% Extra Gold from Monsters"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "343717281",
+        "QualityCode": "q_magic",
+        "Title": "Burning Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "81",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Fire Skills (Sorceress Only)"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
           "invwidth": 1
         },
         "Worn": ""
@@ -56503,15 +56405,15 @@
     "Class": "Barbarian",
     "Stats": {
       "Level": 95,
-      "Experience": 2509300756,
+      "Experience": 2509305577,
       "Strength": 117,
       "Dexterity": 109,
       "Vitality": 319,
       "Energy": 10,
       "BaseLife": 1479,
-      "Life": 2829,
+      "Life": 3726,
       "BaseMana": 104,
-      "Mana": 254,
+      "Mana": 325,
       "Gold": 950000,
       "Stashed": 2500000
     },
@@ -59341,7 +59243,7 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 95,
-      "Experience": 2514224933,
+      "Experience": 2522628116,
       "Strength": 109,
       "Dexterity": 25,
       "Vitality": 376,
@@ -59350,7 +59252,7 @@
       "Life": 1619,
       "BaseMana": 223,
       "Mana": 1023,
-      "Gold": 950000,
+      "Gold": 948776,
       "Stashed": 2500000
     },
     "Bonus": {
@@ -59568,7 +59470,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "426",
-        "Durability": "22",
+        "Durability": "20",
         "DurabilityMaximum": "24",
         "ItemLevel": "89",
         "LevelReq": 57,
@@ -61143,62 +61045,16 @@
         "Worn": ""
       },
       {
-        "Quality": "Normal",
-        "ID": "2011449634",
-        "QualityCode": "q_normal",
-        "Title": "Tome of Town Portal",
-        "Tag": "Tome of Town Portal",
-        "TextTag": "Town Portal Book",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "11",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 1,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Full Rejuvenation Potion",
-        "Tag": "Full Rejuvenation Potion",
-        "TextTag": "Full Rejuv Potion",
+        "Title": "Flawless Skull",
+        "Tag": "Flawless Skull",
+        "TextTag": "Flawless Skull",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 2,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Perfect Skull",
-        "Tag": "Perfect Skull",
-        "TextTag": "Perfect Skull",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 18,
+        "LevelReq": 15,
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
@@ -61236,46 +61092,23 @@
       },
       {
         "Quality": "Normal",
-        "ID": "592908180",
+        "ID": "2011449634",
         "QualityCode": "q_normal",
         "Title": "Tome of Town Portal",
         "Tag": "Tome of Town Portal",
         "TextTag": "Town Portal Book",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "99",
+        "ItemLevel": "11",
         "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 2,
-          "y": 0
+          "x": 1,
+          "y": 2
         },
         "Size": {
           "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -61710,7 +61543,7 @@
       "BaseMana": 206,
       "Mana": 252,
       "Gold": 0,
-      "Stashed": 2500000
+      "Stashed": 2450000
     },
     "Bonus": {
       "Strength": 52,
@@ -62023,38 +61856,6 @@
         "Worn": "helmet"
       },
       {
-        "Quality": "Unique",
-        "ID": "3850462633",
-        "QualityCode": "q_unique",
-        "Title": "Carrion Wind",
-        "Tag": "Ring",
-        "TextTag": "ring",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "4",
-        "ItemLevel": "79",
-        "LevelReq": 60,
-        "SocketCount": "0",
-        "PropertyList": [
-          "10% Chance to cast level 10 Poison Nova when struck",
-          "8% Chance to cast level 13 Twister on striking",
-          "8% Life stolen per hit",
-          "+124 Defense vs. Missile",
-          "Poison Resist +55%",
-          "10% Damage Taken Gained as Mana when Hit",
-          "Level 21 Poison Creeper (15/15 Charges)"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": "ring1"
-      },
-      {
         "Quality": "Magic",
         "ID": "2070639423",
         "QualityCode": "q_magic",
@@ -62359,6 +62160,38 @@
           "invwidth": 2
         },
         "Worn": "sweapon2"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3850462633",
+        "QualityCode": "q_unique",
+        "Title": "Carrion Wind",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "4",
+        "ItemLevel": "79",
+        "LevelReq": 60,
+        "SocketCount": "0",
+        "PropertyList": [
+          "10% Chance to cast level 10 Poison Nova when struck",
+          "8% Chance to cast level 13 Twister on striking",
+          "8% Life stolen per hit",
+          "+124 Defense vs. Missile",
+          "Poison Resist +55%",
+          "10% Damage Taken Gained as Mana when Hit",
+          "Level 21 Poison Creeper (15/15 Charges)"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "ring1"
       },
       {
         "Quality": "Normal",
@@ -106611,41 +106444,41 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 94,
-      "Experience": 2289039852,
-      "Strength": 120,
+      "Experience": 2287098463,
+      "Strength": 98,
       "Dexterity": 25,
-      "Vitality": 30,
-      "Energy": 385,
-      "BaseLife": 279,
-      "Life": 781,
-      "BaseMana": 921,
-      "Mana": 1721,
-      "Gold": 679056,
+      "Vitality": 365,
+      "Energy": 35,
+      "BaseLife": 949,
+      "Life": 1755,
+      "BaseMana": 221,
+      "Mana": 599,
+      "Gold": 389495,
       "Stashed": 2500000
     },
     "Bonus": {
-      "Strength": 36,
-      "Dexterity": 0,
-      "Vitality": 0,
-      "Energy": 0,
-      "FireResistance": 152,
+      "Strength": 58,
+      "Dexterity": 2,
+      "Vitality": 12,
+      "Energy": 2,
+      "FireResistance": 147,
       "MaximumFireResistance": 0,
       "ColdResistance": 140,
       "MaximumColdResistance": 0,
-      "LightningResistance": 142,
+      "LightningResistance": 143,
       "MaximumLightningResistance": 0,
       "PoisonResistance": 140,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 40,
+      "MagicFind": 124,
       "GoldFind": 140,
-      "FasterCastRate": 75,
+      "FasterCastRate": 80,
       "FasterHitRecovery": 0,
       "IncreasedAttackSpeed": 0,
       "CrushingBlow": 0,
       "OpenWounds": 0,
       "DeadlyStrike": 0,
-      "DamageReduction": 0,
-      "CooldownReduction": 0,
+      "DamageReduction": 10,
+      "CooldownReduction": 10,
       "WeaponSetMain": {
         "Strength": 0,
         "Dexterity": 10,
@@ -106673,8 +106506,8 @@
       "WeaponSetOffhand": {
         "Strength": 0,
         "Dexterity": 0,
-        "Vitality": 10,
-        "Energy": 10,
+        "Vitality": 0,
+        "Energy": 40,
         "FireResistance": 0,
         "MaximumFireResistance": 0,
         "ColdResistance": 0,
@@ -106685,7 +106518,7 @@
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 0,
-        "FasterCastRate": 33,
+        "FasterCastRate": 45,
         "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
@@ -106698,72 +106531,77 @@
     "SkillTabs": [
       {
         "Name": "Fire Skills",
-        "Total": 1,
+        "Total": 102,
         "Skills": [
+          {
+            "ID": 1,
+            "Name": "Fire Bolt",
+            "Level": 20
+          },
           {
             "ID": 2,
             "Name": "Warmth",
             "Level": 1
+          },
+          {
+            "ID": 6,
+            "Name": "Inferno",
+            "Level": 1
+          },
+          {
+            "ID": 11,
+            "Name": "Immolate",
+            "Level": 1
+          },
+          {
+            "ID": 12,
+            "Name": "Fire Ball",
+            "Level": 20
+          },
+          {
+            "ID": 16,
+            "Name": "Fire Wall",
+            "Level": 1
+          },
+          {
+            "ID": 17,
+            "Name": "Enflame",
+            "Level": 1
+          },
+          {
+            "ID": 21,
+            "Name": "Meteor",
+            "Level": 20
+          },
+          {
+            "ID": 26,
+            "Name": "Fire Mastery",
+            "Level": 20
+          },
+          {
+            "ID": 27,
+            "Name": "Hydra",
+            "Level": 17
           }
         ]
       },
       {
         "Name": "Lightning Skills",
-        "Total": 104,
+        "Total": 3,
         "Skills": [
-          {
-            "ID": 3,
-            "Name": "Charged Bolt",
-            "Level": 1
-          },
-          {
-            "ID": 7,
-            "Name": "Static Field",
-            "Level": 1
-          },
           {
             "ID": 8,
             "Name": "Telekinesis",
-            "Level": 20
-          },
-          {
-            "ID": 13,
-            "Name": "Nova",
-            "Level": 20
-          },
-          {
-            "ID": 14,
-            "Name": "Lightning Surge",
             "Level": 1
           },
           {
             "ID": 18,
             "Name": "Teleport",
-            "Level": 7
-          },
-          {
-            "ID": 19,
-            "Name": "Chain Lightning",
             "Level": 1
-          },
-          {
-            "ID": 22,
-            "Name": "Discharge",
-            "Level": 20
-          },
-          {
-            "ID": 23,
-            "Name": "Energy Shield",
-            "Level": 12
           },
           {
             "ID": 28,
             "Name": "Lightning Mastery",
-            "Level": 20
-          },
-          {
-            "ID": 31,
-            "Name": "Thunder Storm",
             "Level": 1
           }
         ]
@@ -106774,7 +106612,7 @@
         "Skills": []
       }
     ],
-    "MercenaryExperience": 92178638,
+    "MercenaryExperience": 92336312,
     "MercenaryType": "Desert Mercenary",
     "MercenaryName": "Waheed",
     "MercenaryLevel": "91",
@@ -106789,7 +106627,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "63",
-        "Durability": "11",
+        "Durability": "12",
         "DurabilityMaximum": "12",
         "ItemLevel": "87",
         "LevelReq": 80,
@@ -106875,312 +106713,6 @@
       },
       {
         "Quality": "Unique",
-        "ID": "1916406814",
-        "QualityCode": "q_unique",
-        "Title": "Griffon's Eye",
-        "Tag": "Diadem",
-        "TextTag": "Diadem",
-        "RuneTag": "Sur",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "53",
-        "Durability": "17",
-        "DurabilityMaximum": "20",
-        "ItemLevel": "89",
-        "LevelReq": 76,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Sur Rune",
-            "Tag": "Sur Rune",
-            "TextTag": "Sur Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 61,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Increase Maximum Mana 5%"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "1",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+1 to All Skills",
-          "+25% Faster Cast Rate",
-          "-15% to Enemy Lightning Resistance",
-          "+11% Increased Lightning Damage",
-          "+124 Defense",
-          "Increase Maximum Mana 5%",
-          "Socketed (1)"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "helmet"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "3877999357",
-        "QualityCode": "q_unique",
-        "Title": "Frostburn",
-        "Tag": "Gauntlets",
-        "TextTag": "Gaunlets(H)",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "16",
-        "Durability": "23",
-        "DurabilityMaximum": "24",
-        "ItemLevel": "58",
-        "LevelReq": 29,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+5% Enhanced Damage",
-          "Adds 6-12 cold damage",
-          "+15% Enhanced Defense",
-          "+30 Defense",
-          "Increase Maximum Mana 31%",
-          "All Resistances +9"
-        ],
-        "Position": {
-          "x": 10,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "gloves"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "2381949904",
-        "QualityCode": "q_unique",
-        "Title": "Silkweave",
-        "Tag": "Mesh Boots",
-        "TextTag": "Mesh Boots",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "45",
-        "Durability": "16",
-        "DurabilityMaximum": "16",
-        "ItemLevel": "94",
-        "LevelReq": 36,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+30% Faster Run/Walk",
-          "+164% Enhanced Defense",
-          "+200 Defense vs. Missile",
-          "Increase Maximum Mana 10%",
-          "Fire Resist +20%",
-          "+5 to Mana after each Kill"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "boots"
-      },
-      {
-        "Quality": "Magic",
-        "ID": "59740355",
-        "QualityCode": "q_magic",
-        "Title": "Powered Amulet",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 45,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+1 to All Skills",
-          "+3 to Lightning Skills (Sorceress Only)"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": "amulet"
-      },
-      {
-        "Quality": "Normal",
-        "ID": "147265948",
-        "QualityCode": "q_runeword",
-        "Title": "Memory",
-        "Tag": "Rune Staff",
-        "TextTag": "Rune Staff",
-        "RuneTag": "LumIoSolEth",
-        "Ethereal": "True",
-        "Enhanced": "True",
-        "DamageMinimum": "45",
-        "DamageMaximum": "87",
-        "ThrowDamageMinimum": "9",
-        "Durability": "108",
-        "DurabilityMaximum": "108",
-        "ItemLevel": "86",
-        "LevelReq": 37,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Lum Rune",
-            "Tag": "Lum Rune",
-            "TextTag": "Lum Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 37,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+10 to Energy"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Io Rune",
-            "Tag": "Io Rune",
-            "TextTag": "Io Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 35,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+10 to Vitality"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Sol Rune",
-            "Tag": "Sol Rune",
-            "TextTag": "Sol Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 27,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+9 to Minimum Damage"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Eth Rune",
-            "Tag": "Eth Rune",
-            "TextTag": "Eth Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 15,
-            "SocketCount": "0",
-            "PropertyList": [
-              "-25% Target Defense"
-            ],
-            "Position": {
-              "x": 3,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "4",
-        "PropertyList": [
-          "+3 to Sorceress Skill Levels",
-          "+33% Faster Cast Rate",
-          "+9 to Minimum Damage",
-          "-25% Target Defense",
-          "+50% Damage to Undead",
-          "+2 to Static Field (Sorceress Only)",
-          "+3 to Energy Shield (Sorceress Only)",
-          "+2 to Teleport (Sorceress Only)",
-          "+2 to Discharge (Sorceress Only)",
-          "+50% Enhanced Defense",
-          "+10 to Vitality",
-          "+10 to Energy",
-          "Increase Maximum Mana 20%",
-          "Lightning Surge deals 29% extra damage as Physical",
-          "Ethereal (Cannot be Repaired), Socketed (4)"
-        ],
-        "Position": {
-          "x": 11,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 4,
-          "invwidth": 2
-        },
-        "Worn": "sweapon1"
-      },
-      {
-        "Quality": "Unique",
         "ID": "2421187416",
         "QualityCode": "q_unique",
         "Title": "Skin of the Vipermagi",
@@ -107190,7 +106722,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "406",
-        "Durability": "21",
+        "Durability": "22",
         "DurabilityMaximum": "24",
         "ItemLevel": "87",
         "LevelReq": 57,
@@ -107317,6 +106849,238 @@
           "invwidth": 2
         },
         "Worn": "body"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "981184236",
+        "QualityCode": "q_unique",
+        "Title": "Harlequin Crest",
+        "Tag": "Shako",
+        "TextTag": "Shako",
+        "RuneTag": "Fal",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "Defense": "109",
+        "Durability": "12",
+        "DurabilityMaximum": "12",
+        "ItemLevel": "80",
+        "LevelReq": 62,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Fal Rune",
+            "Tag": "Fal Rune",
+            "TextTag": "Fal Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 41,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Strength"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Perfect Ruby",
+            "Tag": "Perfect Ruby",
+            "TextTag": "Perfect Ruby",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 18,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+38 to Life"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "2",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+2 to All Skills",
+          "+12 to Strength",
+          "+2 to Dexterity",
+          "+2 to Vitality",
+          "+2 to Energy",
+          "+38 to Life",
+          "+141 to Life (Based on Character Level)",
+          "+141 to Mana (Based on Character Level)",
+          "Physical Damage Taken Reduced by 10%",
+          "50% Better Chance of Getting Magic Items",
+          "Socketed (2)"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "helmet"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1460947916",
+        "QualityCode": "q_unique",
+        "Title": "War Traveler",
+        "Tag": "Battle Boots",
+        "TextTag": "Battle Boots",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "48",
+        "Durability": "48",
+        "DurabilityMaximum": "18",
+        "ItemLevel": "99",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+25% Faster Run/Walk",
+          "Adds 15-25 damage",
+          "+152% Enhanced Defense",
+          "+10 to Strength",
+          "+10 to Vitality",
+          "40% Slower Stamina Drain",
+          "Attacker Takes Damage of 7",
+          "34% Better Chance of Getting Magic Items",
+          "10% Reduced Skill Cooldown"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "boots"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3051258290",
+        "QualityCode": "q_unique",
+        "Title": "Magefist",
+        "Tag": "Light Gauntlets",
+        "TextTag": "Light Gauntlets",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "12",
+        "Durability": "18",
+        "DurabilityMaximum": "18",
+        "ItemLevel": "85",
+        "LevelReq": 23,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+1 to fire skills",
+          "+20% Faster Cast Rate",
+          "Adds 1-6 Fire damage",
+          "+30% Enhanced Defense",
+          "+10 Defense",
+          "Regenerate Mana 25%",
+          "Cold Resist +17%"
+        ],
+        "Position": {
+          "x": 10,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "gloves"
+      },
+      {
+        "Quality": "Craft",
+        "ID": "1218017359",
+        "QualityCode": "q_crafted",
+        "Title": "Raven Eye",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "90",
+        "LevelReq": 89,
+        "SocketCount": "0",
+        "PropertyList": [
+          "10% Chance to cast level 3 Hydra when struck",
+          "+2 to Sorceress Skill Levels",
+          "+10% Faster Cast Rate",
+          "+13 to Mana",
+          "Regenerate Mana 7%",
+          "Lightning Resist +10%",
+          "10% Damage Taken Gained as Mana when Hit"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "amulet"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1101267931",
+        "QualityCode": "q_unique",
+        "Title": "Ondal's Wisdom",
+        "Tag": "Elder Staff",
+        "TextTag": "Elder Staff",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "DamageMinimum": "80",
+        "DamageMaximum": "93",
+        "Durability": "159",
+        "DurabilityMaximum": "159",
+        "ItemLevel": "91",
+        "LevelReq": 66,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+4 to All Skills",
+          "+45% Faster Cast Rate",
+          "+50% Damage to Undead",
+          "+20 to Ball Lightning",
+          "+459 Defense",
+          "+40 to Energy",
+          "Magic & Elemental Damage Taken Reduced by 6"
+        ],
+        "Position": {
+          "x": 11,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 4,
+          "invwidth": 1
+        },
+        "Worn": "sweapon1"
       },
       {
         "Quality": "Normal",
@@ -107782,221 +107546,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "3681099797",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm of Life",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "91",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)",
-          "+16 to Life"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2231060188",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm of Life",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)",
-          "+17 to Life"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "345936061",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm of Sustenance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "89",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)",
-          "+27 to Life"
-        ],
-        "Position": {
-          "x": 3,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1926723540",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm of Sustenance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)",
-          "+25 to Life"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "3636210834",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm of Life",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "56",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)",
-          "+13 to Life"
-        ],
-        "Position": {
-          "x": 5,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "183249688",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm of Sustenance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "79",
-        "LevelReq": 53,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)",
-          "+32 to Life"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "3004691473",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "86",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "265170725",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm of the Glacier",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "90",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)",
-          "Adds 3-6 cold damage"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "4016564942",
         "QualityCode": "q_magic",
         "Title": "Jade Small Charm of Vita",
@@ -108014,33 +107563,6 @@
         ],
         "Position": {
           "x": 0,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1613799812",
-        "QualityCode": "q_magic",
-        "Title": "Cobalt Small Charm of Sustenance",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "86",
-        "LevelReq": 20,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+15 to Life",
-          "Cold Resist +8%"
-        ],
-        "Position": {
-          "x": 2,
           "y": 5
         },
         "Size": {
@@ -108131,59 +107653,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "1279627495",
-        "QualityCode": "q_magic",
-        "Title": "Small Charm of Vita",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "75",
-        "LevelReq": 39,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+20 to Life"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2723594463",
-        "QualityCode": "q_magic",
-        "Title": "Serpent's Small Charm of Sustenance",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "87",
-        "LevelReq": 40,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+11 to Life",
-          "+15 to Mana"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Rare",
         "ID": "3104383108",
         "QualityCode": "q_rare",
@@ -108239,32 +107708,6 @@
         },
         "Size": {
           "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2903404178",
-        "QualityCode": "q_magic",
-        "Title": "Small Charm of Vita",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "87",
-        "LevelReq": 39,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+19 to Life"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -108427,35 +107870,6 @@
         "Position": {
           "x": 8,
           "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
-        "ID": "846056481",
-        "QualityCode": "q_rare",
-        "Title": "Viper Eye",
-        "Tag": "Abyssal Furnace Relic",
-        "TextTag": "Abyssal Furnace Relic",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "86",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "20% Chance to cast level 8 Amplify Damage on striking",
-          "15% Life stolen per hit",
-          "Fire Resist +50%",
-          "Poison Resist +50%",
-          "Fire Absorb 24%"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 2
         },
         "Size": {
           "invheight": 1,
@@ -108700,26 +108114,567 @@
         "Worn": ""
       },
       {
-        "Quality": "Rare",
-        "ID": "906199587",
-        "QualityCode": "q_rare",
-        "Title": "Rune Eye",
-        "Tag": "Baleful Alcazar Relic",
-        "TextTag": "Baleful Alcazar Relic",
+        "Quality": "Magic",
+        "ID": "2091297238",
+        "QualityCode": "q_magic",
+        "Title": "Burning Grand Charm of Maiming",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
         "Ethereal": "False",
         "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "87",
+        "LevelReq": 63,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Fire Skills (Sorceress Only)",
+          "+3 to Maximum Damage"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1294463812",
+        "QualityCode": "q_magic",
+        "Title": "Burning Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "86",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Fire Skills (Sorceress Only)"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2036751930",
+        "QualityCode": "q_magic",
+        "Title": "Burning Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "86",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Fire Skills (Sorceress Only)"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1748723137",
+        "QualityCode": "q_magic",
+        "Title": "Burning Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "75",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Fire Skills (Sorceress Only)"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3161734949",
+        "QualityCode": "q_magic",
+        "Title": "Burning Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Fire Skills (Sorceress Only)"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1757191919",
+        "QualityCode": "q_magic",
+        "Title": "Jade Small Charm of Vita",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "84",
+        "LevelReq": 39,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+17 to Life",
+          "Poison Resist +9%"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "4074331062",
+        "QualityCode": "q_magic",
+        "Title": "Crimson Small Charm of Vita",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 39,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20 to Life",
+          "Fire Resist +5%"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3639592784",
+        "QualityCode": "q_magic",
+        "Title": "Crimson Small Charm of Vita",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
         "ItemLevel": "85",
+        "LevelReq": 39,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20 to Life",
+          "Fire Resist +4%"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2088246458",
+        "QualityCode": "q_magic",
+        "Title": "Garnet Small Charm of Life",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "67",
+        "LevelReq": 20,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+9 to Life",
+          "Fire Resist +9%"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3798739076",
+        "QualityCode": "q_magic",
+        "Title": "Serpent's Large Charm of Vita",
+        "Tag": "Large Charm",
+        "TextTag": "Charm Medium",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 66,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+34 to Life",
+          "+33 to Mana"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 7
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "848385102",
+        "QualityCode": "q_magic",
+        "Title": "Russet Small Charm of Vita",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "85",
+        "LevelReq": 39,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+19 to Life",
+          "Fire Resist +6%"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1279627495",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm of Vita",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "75",
+        "LevelReq": 39,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20 to Life"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2903404178",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm of Vita",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 39,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+19 to Life"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 7
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3306542892",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm of Vita",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "87",
+        "LevelReq": 39,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+19 to Life"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3699548210",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm of Vita",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "87",
+        "LevelReq": 39,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+19 to Life"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "4053933174",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm of Vita",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 39,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20 to Life"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 7
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3681503205",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm of Vita",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 39,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20 to Life"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1374233719",
+        "QualityCode": "q_rare",
+        "Title": "Beast Eye",
+        "Tag": "Decomposing Settlement Relic",
+        "TextTag": "Decomposing Settlement Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "86",
         "LevelReq": 80,
         "SocketCount": "0",
         "PropertyList": [
-          "Damage +99",
+          "Damage +100",
+          "Adds 99-100 Fire damage",
           "Adds 63-100 Lightning damage",
-          "Poison Resist +50%",
-          "Cannot Be Frozen"
+          "+15% Increased Poison Damage",
+          "Fire Resist +50%",
+          "Magic Absorb 14%",
+          "Damage Absorb 13%"
         ],
         "Position": {
           "x": 7,
           "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "3595182497",
+        "QualityCode": "q_rare",
+        "Title": "Grim Eye",
+        "Tag": "Forgotten Desert Relic",
+        "TextTag": "Forgotten Desert Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "92",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Lightning Absorb 57%",
+          "Damage Absorb 51%",
+          "91% Reduced Curse Duration",
+          "19% chance to Avoid"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "846056481",
+        "QualityCode": "q_rare",
+        "Title": "Viper Eye",
+        "Tag": "Abyssal Furnace Relic",
+        "TextTag": "Abyssal Furnace Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "86",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "20% Chance to cast level 8 Amplify Damage on striking",
+          "15% Life stolen per hit",
+          "Fire Resist +50%",
+          "Poison Resist +50%",
+          "Fire Absorb 24%"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "567441592",
+        "QualityCode": "q_rare",
+        "Title": "Doom Eye",
+        "Tag": "Baleful Alcazar Relic",
+        "TextTag": "Baleful Alcazar Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "99",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Level 12 Redemption Aura When Equipped",
+          "Level 10 Slow Nearby Enemies by 20%% Aura When Equipped",
+          "+24% Piercing Attack",
+          "Adds 20-30 Magic damage",
+          "Poison Absorb 6%",
+          "Physical Damage Taken Reduced by 50%",
+          "Physical Damage Taken Reduced by 50",
+          "Magic & Elemental Damage Taken Reduced by 50"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 3
         },
         "Size": {
           "invheight": 1,
@@ -120675,7 +120630,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 95,
-      "Experience": 2527720918,
+      "Experience": 2538127893,
       "Strength": 61,
       "Dexterity": 444,
       "Vitality": 45,
@@ -120684,8 +120639,8 @@
       "Life": 905,
       "BaseMana": 156,
       "Mana": 207,
-      "Gold": 93510,
-      "Stashed": 2252419
+      "Gold": 0,
+      "Stashed": 753380
     },
     "Bonus": {
       "Strength": 73,
@@ -120911,7 +120866,7 @@
           "+7% Faster Run/Walk",
           "Lightning Absorb 10%",
           "13% Better Chance of Getting Magic Items",
-          "Level 9 Heart of Wolverine (17/17 Charges)"
+          "Level 9 Heart of Wolverine (16/17 Charges)"
         ],
         "Position": {
           "x": 7,
@@ -121261,6 +121216,73 @@
         "Worn": "helmet"
       },
       {
+        "Quality": "Set",
+        "ID": "2990073083",
+        "QualityCode": "q_set",
+        "Title": "Laying of Hands",
+        "Tag": "Bramble Mitts",
+        "TextTag": "Bramble Mitts",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "56",
+        "Durability": "12",
+        "DurabilityMaximum": "12",
+        "ItemLevel": "87",
+        "LevelReq": 63,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "10% Chance to cast level 3 Holy Bolt on striking",
+          "+20% Increased Attack Speed",
+          "+230% Damage to Demons",
+          "+25 Defense",
+          "Cold Resist +18%",
+          "Fire Resist +50%"
+        ],
+        "Position": {
+          "x": 10,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "gloves"
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1192875708",
+        "QualityCode": "q_rare",
+        "Title": "PlagueRI Coil",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "60",
+        "LevelReq": 46,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+32 to Attack Rating",
+          "4% Mana stolen per hit",
+          "+1 to Strength",
+          "Cold Resist +5%",
+          "Lightning Resist +20%",
+          "Fire Resist +5%",
+          "Poison Resist +5%",
+          "Half Freeze Duration"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "ring1"
+      },
+      {
         "Quality": "Normal",
         "ID": "4138056917",
         "QualityCode": "q_runeword",
@@ -121518,73 +121540,6 @@
           "invwidth": 2
         },
         "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Set",
-        "ID": "2990073083",
-        "QualityCode": "q_set",
-        "Title": "Laying of Hands",
-        "Tag": "Bramble Mitts",
-        "TextTag": "Bramble Mitts",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "56",
-        "Durability": "12",
-        "DurabilityMaximum": "12",
-        "ItemLevel": "87",
-        "LevelReq": 63,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "10% Chance to cast level 3 Holy Bolt on striking",
-          "+20% Increased Attack Speed",
-          "+230% Damage to Demons",
-          "+25 Defense",
-          "Cold Resist +18%",
-          "Fire Resist +50%"
-        ],
-        "Position": {
-          "x": 10,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "gloves"
-      },
-      {
-        "Quality": "Rare",
-        "ID": "1192875708",
-        "QualityCode": "q_rare",
-        "Title": "PlagueRI Coil",
-        "Tag": "Ring",
-        "TextTag": "ring",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "60",
-        "LevelReq": 46,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+32 to Attack Rating",
-          "4% Mana stolen per hit",
-          "+1 to Strength",
-          "Cold Resist +5%",
-          "Lightning Resist +20%",
-          "Fire Resist +5%",
-          "Poison Resist +5%",
-          "Half Freeze Duration"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": "ring1"
       },
       {
         "Quality": "Normal",
@@ -122519,21 +122474,149 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Full Rejuvenation Potion",
-        "Tag": "Full Rejuvenation Potion",
-        "TextTag": "Full Rejuv Potion",
+        "Quality": "Rare",
+        "ID": "1771005593",
+        "QualityCode": "q_rare",
+        "Title": "Shadow Eye",
+        "Tag": "Decomposing Settlement Relic",
+        "TextTag": "Decomposing Settlement Relic",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
+        "ItemLevel": "87",
+        "LevelReq": 80,
         "SocketCount": "0",
-        "PropertyList": [],
+        "PropertyList": [
+          "Level 11 Redemption Aura When Equipped",
+          "+19% Faster Run/Walk",
+          "+17% Increased Poison Damage",
+          "+29% Enhanced Defense",
+          "Poison Resist +50%",
+          "60% Reduced Curse Duration"
+        ],
         "Position": {
-          "x": 0,
+          "x": 8,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "214396938",
+        "QualityCode": "q_rare",
+        "Title": "Havoc Eye",
+        "Tag": "Abyssal Furnace Relic",
+        "TextTag": "Abyssal Furnace Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "87",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "15% Chance to cast level 25 Glacial Spike when you Die",
+          "15% Chance to cast level 15 Meteor when you Die",
+          "Level 10 Slow Nearby Enemies by 20%% Aura When Equipped",
+          "Adds 30-40 Magic damage",
+          "+32% Increased Lightning Damage",
+          "Fire Resist +50%",
+          "Poison Resist +50%"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "2298126225",
+        "QualityCode": "q_rare",
+        "Title": "Rune Eye",
+        "Tag": "Baleful Alcazar Relic",
+        "TextTag": "Baleful Alcazar Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "88",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+25% Piercing Attack",
+          "Fire Resist +50%",
+          "Damage Absorb 11%",
+          "Physical Damage Taken Reduced by 53",
+          "Magic & Elemental Damage Taken Reduced by 52",
+          "Attacker Takes Damage of 14"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "4066171509",
+        "QualityCode": "q_rare",
+        "Title": "Beast Eye",
+        "Tag": "Decomposing Settlement Relic",
+        "TextTag": "Decomposing Settlement Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "87",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "10% Chance to cast level 5 Amplify Damage on striking",
+          "+25% Piercing Attack",
+          "Adds 63-100 Lightning damage",
+          "+12% Increased Poison Damage",
+          "Poison Resist +50%",
+          "Lightning Absorb 11%",
+          "53% Reduced Curse Duration"
+        ],
+        "Position": {
+          "x": 8,
           "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "3944022808",
+        "QualityCode": "q_rare",
+        "Title": "Death Eye",
+        "Tag": "Burnt Forest Relic",
+        "TextTag": "Burnt Forest Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "95",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "30% Chance to cast level 13 Weaken on striking",
+          "Adds 63-200 Lightning damage",
+          "Poison Absorb 55%",
+          "98% Reduced Curse Duration",
+          "16% chance to Avoid"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
         },
         "Size": {
           "invheight": 1,
@@ -171108,7 +171191,7 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 92,
-      "Experience": 1958480089,
+      "Experience": 1960795548,
       "Strength": 121,
       "Dexterity": 25,
       "Vitality": 369,
@@ -171116,8 +171199,8 @@
       "BaseLife": 954,
       "Life": 1232,
       "BaseMana": 217,
-      "Mana": 557,
-      "Gold": 0,
+      "Mana": 245,
+      "Gold": 183686,
       "Stashed": 532130
     },
     "Bonus": {
@@ -173086,27 +173169,41 @@
         "Worn": ""
       },
       {
-        "Quality": "Rare",
-        "ID": "2948893358",
-        "QualityCode": "q_rare",
-        "Title": "Skull Eye",
-        "Tag": "Desecrated Temple Relic",
-        "TextTag": "Desecrated Temple Relic",
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Full Rejuvenation Potion",
+        "Tag": "Full Rejuvenation Potion",
+        "TextTag": "Full Rejuv Potion",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "99",
-        "LevelReq": 80,
+        "ItemLevel": "0",
+        "LevelReq": 0,
         "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "15% Chance to cast level 15 Meteor when you Die",
-          "47% Bonus to Attack Rating",
-          "Adds 199-200 Magic damage",
-          "Adds 149-150 Fire damage",
-          "Magic Absorb 30%",
-          "Poison Absorb 29%",
-          "Attacker Takes Damage of 23"
-        ],
+        "PropertyList": [],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Full Rejuvenation Potion",
+        "Tag": "Full Rejuvenation Potion",
+        "TextTag": "Full Rejuv Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
         "Position": {
           "x": 8,
           "y": 1
@@ -208286,39 +208383,39 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 92,
-      "Experience": 2020420996,
+      "Experience": 2014492301,
       "Strength": 115,
       "Dexterity": 245,
       "Vitality": 160,
       "Energy": 15,
       "BaseLife": 757,
-      "Life": 994,
+      "Life": 1016,
       "BaseMana": 151,
-      "Mana": 191,
+      "Mana": 221,
       "Gold": 0,
-      "Stashed": 688199
+      "Stashed": 317773
     },
     "Bonus": {
-      "Strength": 36,
-      "Dexterity": 31,
+      "Strength": 21,
+      "Dexterity": 36,
       "Vitality": 0,
       "Energy": 0,
-      "FireResistance": 173,
+      "FireResistance": 115,
       "MaximumFireResistance": 0,
-      "ColdResistance": 157,
+      "ColdResistance": 119,
       "MaximumColdResistance": 0,
-      "LightningResistance": 166,
+      "LightningResistance": 181,
       "MaximumLightningResistance": 5,
-      "PoisonResistance": 112,
-      "MaximumPoisonResistance": 0,
+      "PoisonResistance": 157,
+      "MaximumPoisonResistance": 5,
       "MagicFind": 39,
-      "GoldFind": 155,
+      "GoldFind": 134,
       "FasterCastRate": 25,
-      "FasterHitRecovery": 35,
-      "IncreasedAttackSpeed": 50,
-      "CrushingBlow": 50,
+      "FasterHitRecovery": 10,
+      "IncreasedAttackSpeed": 60,
+      "CrushingBlow": 20,
       "OpenWounds": 10,
-      "DeadlyStrike": 64,
+      "DeadlyStrike": 49,
       "DamageReduction": 0,
       "CooldownReduction": 0,
       "WeaponSetMain": {
@@ -208332,14 +208429,14 @@
         "MaximumColdResistance": 0,
         "LightningResistance": 15,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 33,
+        "PoisonResistance": 15,
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 75,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 0,
-        "CrushingBlow": 0,
+        "CrushingBlow": 18,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
         "DamageReduction": 0,
@@ -208352,13 +208449,13 @@
         "Energy": 0,
         "FireResistance": 0,
         "MaximumFireResistance": 0,
-        "ColdResistance": 6,
+        "ColdResistance": 0,
         "MaximumColdResistance": 0,
         "LightningResistance": 0,
         "MaximumLightningResistance": 0,
         "PoisonResistance": 0,
         "MaximumPoisonResistance": 0,
-        "MagicFind": 15,
+        "MagicFind": 0,
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
@@ -208469,9 +208566,9 @@
         "Skills": []
       }
     ],
-    "MercenaryExperience": 110206016,
+    "MercenaryExperience": 110201996,
     "MercenaryType": "Barbarian",
-    "MercenaryName": "Hild",
+    "MercenaryName": "Klar",
     "MercenaryLevel": "47",
     "Equipped": [
       {
@@ -208546,7 +208643,7 @@
         "Ethereal": "False",
         "Enhanced": "False",
         "Defense": "63",
-        "Durability": "11",
+        "Durability": "9",
         "DurabilityMaximum": "14",
         "ItemLevel": "90",
         "LevelReq": 51,
@@ -208570,42 +208667,6 @@
         "Worn": "belt"
       },
       {
-        "Quality": "Unique",
-        "ID": "1109115140",
-        "QualityCode": "q_unique",
-        "Title": "Gore Rider",
-        "Tag": "War Boots",
-        "TextTag": "War Boots",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "54",
-        "Durability": "34",
-        "DurabilityMaximum": "24",
-        "ItemLevel": "90",
-        "LevelReq": 47,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+30% Faster Run/Walk",
-          "15% Chance of Crushing Blow",
-          "15% Deadly Strike",
-          "10% Chance of Open Wounds",
-          "+179% Enhanced Defense",
-          "+8 to Dexterity",
-          "+20 Maximum Stamina",
-          "Requirements -25%"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "boots"
-      },
-      {
         "Quality": "Superior",
         "ID": "123836982",
         "QualityCode": "q_runeword",
@@ -208616,7 +208677,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "525",
-        "Durability": "63",
+        "Durability": "58",
         "DurabilityMaximum": "60",
         "ItemLevel": "87",
         "LevelReq": 63,
@@ -208747,6 +208808,232 @@
           "invwidth": 2
         },
         "Worn": "body"
+      },
+      {
+        "Quality": "Set",
+        "ID": "1963432675",
+        "QualityCode": "q_set",
+        "Title": "Tal Rasha's Horadric Crest",
+        "Tag": "Death Mask",
+        "TextTag": "Death Mask",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "81",
+        "Durability": "11",
+        "DurabilityMaximum": "20",
+        "ItemLevel": "89",
+        "LevelReq": 66,
+        "Sockets": [
+          {
+            "Quality": "Magic",
+            "ID": "1902205179",
+            "QualityCode": "q_magic",
+            "Title": "Jewel of Fervor",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "3",
+            "ItemLevel": "86",
+            "LevelReq": 31,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+15% Increased Attack Speed"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unique",
+            "ID": "1535749355",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "5",
+            "ItemLevel": "88",
+            "LevelReq": 49,
+            "SocketCount": "0",
+            "PropertyList": [
+              "100% Chance to cast level 43 Frost Nova when you Level-Up",
+              "Adds 24-38 cold damage",
+              "-3% to Enemy Cold Resistance",
+              "+3% Increased Cold Damage"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Magic",
+            "ID": "1171527238",
+            "QualityCode": "q_magic",
+            "Title": "Ruby Jewel of Fervor",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "0",
+            "ItemLevel": "87",
+            "LevelReq": 58,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+15% Increased Attack Speed",
+              "+31% Enhanced Damage"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "3",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "100% Chance to cast level 43 Frost Nova when you Level-Up",
+          "+30% Increased Attack Speed",
+          "+31% Enhanced Damage",
+          "Adds 24-38 cold damage",
+          "10% Mana stolen per hit",
+          "-3% to Enemy Cold Resistance",
+          "+3% Increased Cold Damage",
+          "10% Life stolen per hit",
+          "+45 Defense",
+          "+60 to Life",
+          "+30 to Mana",
+          "All Resistances +15",
+          "Socketed (3)"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "helmet"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1109115140",
+        "QualityCode": "q_unique",
+        "Title": "Gore Rider",
+        "Tag": "War Boots",
+        "TextTag": "War Boots",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "54",
+        "Durability": "33",
+        "DurabilityMaximum": "24",
+        "ItemLevel": "90",
+        "LevelReq": 47,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+30% Faster Run/Walk",
+          "15% Chance of Crushing Blow",
+          "15% Deadly Strike",
+          "10% Chance of Open Wounds",
+          "+179% Enhanced Defense",
+          "+8 to Dexterity",
+          "+20 Maximum Stamina",
+          "Requirements -25%"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "boots"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3401422295",
+        "QualityCode": "q_unique",
+        "Title": "Venom Grip",
+        "Tag": "Demonhide Gloves",
+        "TextTag": "Demonhide Gloves",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "36",
+        "Durability": "6",
+        "DurabilityMaximum": "12",
+        "ItemLevel": "85",
+        "LevelReq": 29,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+60 poison damage over 4 seconds",
+          "5% Life stolen per hit",
+          "5% Chance of Crushing Blow",
+          "+155% Enhanced Defense",
+          "+16 Defense",
+          "+5% to Maximum Poison Resist",
+          "Poison Resist +30%"
+        ],
+        "Position": {
+          "x": 10,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "gloves"
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1213368324",
+        "QualityCode": "q_rare",
+        "Title": "GhoulRI Turn",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "3",
+        "ItemLevel": "87",
+        "LevelReq": 51,
+        "SocketCount": "0",
+        "PropertyList": [
+          "10% Chance to cast level 3 Charged Bolt when struck",
+          "+7 to Minimum Damage",
+          "+47 to Attack Rating",
+          "5% Life stolen per hit",
+          "+6 Maximum Stamina",
+          "+1 to Mana after each Kill"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "ring1"
       },
       {
         "Quality": "Unique",
@@ -208947,24 +209234,22 @@
       },
       {
         "Quality": "Rare",
-        "ID": "3474019",
+        "ID": "2549506371",
         "QualityCode": "q_rare",
-        "Title": "Stone Eye",
+        "Title": "Grim Eye",
         "Tag": "Arrows",
         "TextTag": "Arrows",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "81",
-        "LevelReq": 37,
+        "ItemLevel": "88",
+        "LevelReq": 63,
         "SocketCount": "0",
         "PropertyList": [
-          "\u00ffc1Corrupted",
+          "+1 to Elemental & Poison Skills",
+          "+3 to Bow and Crossbow Skills (Amazon Only)",
           "+57 to Maximum Damage (Based on Character Level)",
-          "8% Bonus to Attack Rating",
-          "Adds 1-32 Lightning damage",
-          "3% Life stolen per hit",
-          "Cold Resist +6%",
-          "15% Better Chance of Getting Magic Items"
+          "Adds 20-24 Fire damage",
+          "+23 to Mana"
         ],
         "Position": {
           "x": 12,
@@ -208975,102 +209260,6 @@
           "invwidth": 1
         },
         "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Set",
-        "ID": "1081041032",
-        "QualityCode": "q_set",
-        "Title": "Laying of Hands",
-        "Tag": "Bramble Mitts",
-        "TextTag": "Bramble Mitts",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "61",
-        "Durability": "7",
-        "DurabilityMaximum": "12",
-        "ItemLevel": "84",
-        "LevelReq": 63,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "10% Chance to cast level 3 Holy Bolt on striking",
-          "+20% Increased Attack Speed",
-          "+240% Damage to Demons",
-          "+25 Defense",
-          "Fire Resist +50%"
-        ],
-        "Position": {
-          "x": 10,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "gloves"
-      },
-      {
-        "Quality": "Set",
-        "ID": "297162912",
-        "QualityCode": "q_set",
-        "Title": "Guillaume's Face",
-        "Tag": "Winged Helm",
-        "TextTag": "Winged Helm",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "99",
-        "Durability": "34",
-        "DurabilityMaximum": "40",
-        "ItemLevel": "87",
-        "LevelReq": 34,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+30% Faster Hit Recovery",
-          "35% Chance of Crushing Blow",
-          "15% Deadly Strike",
-          "+120% Enhanced Defense",
-          "+15 to Strength"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "helmet"
-      },
-      {
-        "Quality": "Rare",
-        "ID": "3499044954",
-        "QualityCode": "q_rare",
-        "Title": "Beast Finger",
-        "Tag": "Ring",
-        "TextTag": "ring",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "87",
-        "LevelReq": 74,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+5 to Minimum Damage",
-          "+63 to Attack Rating",
-          "6% Mana stolen per hit",
-          "Cold Resist +23%",
-          "Fire Resist +6%",
-          "+3 to Light Radius"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": "ring1"
       },
       {
         "Quality": "Superior",
@@ -209217,24 +209406,22 @@
       },
       {
         "Quality": "Rare",
-        "ID": "2315463390",
+        "ID": "3155180",
         "QualityCode": "q_rare",
-        "Title": "Viper Eye",
+        "Title": "Havoc Eye",
         "Tag": "Arrows",
         "TextTag": "Arrows",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "86",
-        "LevelReq": 56,
+        "ItemLevel": "88",
+        "LevelReq": 64,
         "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "+1 to Bow and Crossbow Skills (Amazon Only)",
-          "Adds 7-12 damage",
           "+57 to Maximum Damage (Based on Character Level)",
-          "+49 poison damage over 2 seconds",
-          "Poison Resist +18%",
-          "+7 Mana Gained on Ranged Hit"
+          "Adds 1-32 Lightning damage",
+          "+15 poison damage over 2 seconds",
+          "18% Chance of Crushing Blow"
         ],
         "Position": {
           "x": 5,
@@ -209326,33 +209513,6 @@
         },
         "Size": {
           "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2001776716",
-        "QualityCode": "q_magic",
-        "Title": "Ruby Small Charm of Balance",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "84",
-        "LevelReq": 32,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+5% Faster Hit Recovery",
-          "Fire Resist +10%"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -209541,86 +209701,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "3661030809",
-        "QualityCode": "q_magic",
-        "Title": "Ruby Small Charm",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "69",
-        "LevelReq": 32,
-        "SocketCount": "0",
-        "PropertyList": [
-          "Fire Resist +11%"
-        ],
-        "Position": {
-          "x": 3,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "384176143",
-        "QualityCode": "q_magic",
-        "Title": "Russet Small Charm of Inertia",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "89",
-        "LevelReq": 27,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+3% Faster Run/Walk",
-          "Fire Resist +6%"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1321208751",
-        "QualityCode": "q_magic",
-        "Title": "Sapphire Grand Charm of Greed",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "84",
-        "LevelReq": 22,
-        "SocketCount": "0",
-        "PropertyList": [
-          "Cold Resist +30%",
-          "21% Extra Gold from Monsters"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "3953786906",
         "QualityCode": "q_normal",
@@ -209639,198 +209719,6 @@
         },
         "Size": {
           "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "3547621694",
-        "QualityCode": "q_normal",
-        "Title": "Horadric Cube",
-        "Tag": "Horadric Cube",
-        "TextTag": "Horadric Cube",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "13",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 0,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "3057856679",
-        "QualityCode": "q_magic",
-        "Title": "Russet Small Charm of Inertia",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 27,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+3% Faster Run/Walk",
-          "Fire Resist +6%"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "21539326",
-        "QualityCode": "q_magic",
-        "Title": "Acrobat's Grand Charm of Vita",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "87",
-        "LevelReq": 69,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Passive and Magic Skills (Amazon Only)",
-          "+38 to Life"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Antidote Potion",
-        "Tag": "Antidote Potion",
-        "TextTag": "Antidote Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 0,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Antidote Potion",
-        "Tag": "Antidote Potion",
-        "TextTag": "Antidote Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Antidote Potion",
-        "Tag": "Antidote Potion",
-        "TextTag": "Antidote Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "4126428892",
-        "QualityCode": "q_normal",
-        "Title": "Key",
-        "Tag": "Key",
-        "TextTag": "Skeleton Key",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "88",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 2,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "3867159115",
-        "QualityCode": "q_normal",
-        "Title": "Tome of Town Portal",
-        "Tag": "Tome of Town Portal",
-        "TextTag": "Town Portal Book",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "97",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 0,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
           "invwidth": 1
         },
         "Worn": ""
@@ -209974,21 +209862,185 @@
         "Worn": ""
       },
       {
-        "Quality": "Rare",
-        "ID": "3254076626",
-        "QualityCode": "q_rare",
-        "Title": "Ring",
-        "Tag": "Ring",
-        "TextTag": "ring",
+        "Quality": "Magic",
+        "ID": "2001776716",
+        "QualityCode": "q_magic",
+        "Title": "Ruby Small Charm of Balance",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
         "Ethereal": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "88",
-        "LevelReq": 60,
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "84",
+        "LevelReq": 32,
+        "SocketCount": "0",
         "PropertyList": [
-          "\u00ffc1Unidentified"
+          "+5% Faster Hit Recovery",
+          "Fire Resist +10%"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3057856679",
+        "QualityCode": "q_magic",
+        "Title": "Russet Small Charm of Inertia",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 27,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+3% Faster Run/Walk",
+          "Fire Resist +6%"
         ],
         "Position": {
           "x": 1,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1218939098",
+        "QualityCode": "q_magic",
+        "Title": "Fine Small Charm of Balance",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "91",
+        "LevelReq": 29,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+5% Faster Hit Recovery",
+          "+3 to Maximum Damage",
+          "+13 to Attack Rating"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2802913621",
+        "QualityCode": "q_magic",
+        "Title": "Sharp Grand Charm of Dexterity",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "87",
+        "LevelReq": 21,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+10 to Maximum Damage",
+          "+71 to Attack Rating",
+          "+5 to Dexterity"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2841928398",
+        "QualityCode": "q_magic",
+        "Title": "Chilling Grand Charm of Maiming",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "87",
+        "LevelReq": 63,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Cold Skills (Sorceress Only)",
+          "+3 to Maximum Damage"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3975875588",
+        "QualityCode": "q_magic",
+        "Title": "Fine Small Charm of Blight",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "81",
+        "LevelReq": 21,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Maximum Damage",
+          "+15 to Attack Rating",
+          "+6 poison damage over 3 seconds"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Super Mana Potion",
+        "Tag": "Super Mana Potion",
+        "TextTag": "Greater Mana Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
           "y": 4
         },
         "Size": {
@@ -209998,104 +210050,122 @@
         "Worn": ""
       },
       {
-        "Quality": "Superior",
-        "ID": "1708421919",
-        "QualityCode": "q_high",
-        "Title": "Thresher",
-        "Tag": "Thresher",
-        "TextTag": "Thresher",
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Super Mana Potion",
+        "Tag": "Super Mana Potion",
+        "TextTag": "Greater Mana Potion",
         "Ethereal": "False",
         "Enhanced": "False",
-        "DamageMinimum": "12",
-        "DamageMaximum": "141",
-        "Durability": "167",
-        "DurabilityMaximum": "215",
-        "ItemLevel": "91",
-        "LevelReq": 53,
+        "ItemLevel": "0",
+        "LevelReq": 0,
         "SocketCount": "0",
-        "PropertyList": [
-          "+92 to Attack Rating (Based on Character Level)"
-        ],
+        "PropertyList": [],
         "Position": {
-          "x": 7,
+          "x": 9,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Super Mana Potion",
+        "Tag": "Super Mana Potion",
+        "TextTag": "Greater Mana Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
           "y": 1
         },
         "Size": {
-          "invheight": 4,
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Super Mana Potion",
+        "Tag": "Super Mana Potion",
+        "TextTag": "Greater Mana Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "3867159115",
+        "QualityCode": "q_normal",
+        "Title": "Tome of Town Portal",
+        "Tag": "Tome of Town Portal",
+        "TextTag": "Town Portal Book",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "97",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "3547621694",
+        "QualityCode": "q_normal",
+        "Title": "Horadric Cube",
+        "Tag": "Horadric Cube",
+        "TextTag": "Horadric Cube",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "13",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 2,
           "invwidth": 2
         },
         "Worn": ""
       }
     ],
     "MercenaryEquipped": [
-      {
-        "Quality": "Unique",
-        "ID": "345365740",
-        "QualityCode": "q_unique",
-        "Title": "Crown of Ages",
-        "Tag": "Corona",
-        "TextTag": "Corona",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "166",
-        "Durability": "47",
-        "DurabilityMaximum": "50",
-        "ItemLevel": "88",
-        "LevelReq": 82,
-        "Sockets": [
-          {
-            "Quality": "Rare",
-            "ID": "3003320528",
-            "QualityCode": "q_rare",
-            "Title": "Eagle Gyre",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "AlternateGraphics": "4",
-            "ItemLevel": "86",
-            "LevelReq": 37,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Melee attacks deal splash damage",
-              "+6 to Minimum Damage",
-              "+8 to Dexterity"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "1",
-        "PropertyList": [
-          "Melee attacks deal splash damage",
-          "Indestructible",
-          "+1 to All Skills",
-          "+30% Faster Hit Recovery",
-          "+6 to Minimum Damage",
-          "+50% Enhanced Defense",
-          "+148 Defense",
-          "+8 to Dexterity",
-          "All Resistances +29",
-          "Physical Damage Taken Reduced by 11%",
-          "Socketed (1)"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "helmet"
-      },
       {
         "Quality": "Superior",
         "ID": "450898742",
@@ -210238,6 +210308,121 @@
           "invwidth": 2
         },
         "Worn": "body"
+      },
+      {
+        "Quality": "Normal",
+        "ID": "2052370381",
+        "QualityCode": "q_runeword",
+        "Title": "Dream",
+        "Tag": "Mask",
+        "TextTag": "Mask",
+        "RuneTag": "IoJahPul",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "23",
+        "Durability": "17",
+        "DurabilityMaximum": "20",
+        "ItemLevel": "88",
+        "LevelReq": 65,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Io Rune",
+            "Tag": "Io Rune",
+            "TextTag": "Io Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 35,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Vitality"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Jah Rune",
+            "Tag": "Jah Rune",
+            "TextTag": "Jah Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 65,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Increase Maximum Life 5%"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Pul Rune",
+            "Tag": "Pul Rune",
+            "TextTag": "Pul Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 45,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+30% Enhanced Defense"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "3",
+        "PropertyList": [
+          "+29% Faster Hit Recovery",
+          "+30% Enhanced Defense",
+          "+183 Defense",
+          "+10 to Vitality",
+          "Increase Maximum Life 5%",
+          "+57 to Mana (Based on Character Level)",
+          "All Resistances +7",
+          "16% Better Chance of Getting Magic Items",
+          "Level 13 Holy Shock Aura When Equipped",
+          "Socketed (3)"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "helmet"
       },
       {
         "Quality": "Normal",
@@ -254107,20 +254292,20 @@
       "Vitality": 377,
       "Energy": 20,
       "BaseLife": 932,
-      "Life": 1331,
+      "Life": 1288,
       "BaseMana": 198,
-      "Mana": 772,
+      "Mana": 588,
       "Gold": 66502,
       "Stashed": 2497207
     },
     "Bonus": {
       "Strength": 37,
       "Dexterity": 2,
-      "Vitality": 0,
-      "Energy": 27,
+      "Vitality": 35,
+      "Energy": 20,
       "FireResistance": 182,
       "MaximumFireResistance": 0,
-      "ColdResistance": 155,
+      "ColdResistance": 145,
       "MaximumColdResistance": 0,
       "LightningResistance": 181,
       "MaximumLightningResistance": 0,
@@ -254128,30 +254313,30 @@
       "MaximumPoisonResistance": 0,
       "MagicFind": 5,
       "GoldFind": 37,
-      "FasterCastRate": 30,
-      "FasterHitRecovery": 35,
+      "FasterCastRate": 0,
+      "FasterHitRecovery": 45,
       "IncreasedAttackSpeed": 0,
       "CrushingBlow": 0,
       "OpenWounds": 0,
       "DeadlyStrike": 0,
-      "DamageReduction": 0,
+      "DamageReduction": 14,
       "CooldownReduction": 0,
       "WeaponSetMain": {
         "Strength": 0,
-        "Dexterity": 10,
+        "Dexterity": 0,
         "Vitality": 22,
         "Energy": 0,
-        "FireResistance": 36,
+        "FireResistance": 0,
         "MaximumFireResistance": 0,
-        "ColdResistance": 71,
+        "ColdResistance": 35,
         "MaximumColdResistance": 0,
-        "LightningResistance": 71,
+        "LightningResistance": 35,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 71,
+        "PoisonResistance": 35,
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 0,
-        "FasterCastRate": 74,
+        "FasterCastRate": 34,
         "FasterHitRecovery": 55,
         "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
@@ -254513,26 +254698,26 @@
       },
       {
         "Quality": "Unique",
-        "ID": "1251496333",
+        "ID": "4214157685",
         "QualityCode": "q_unique",
-        "Title": "Arachnid Mesh",
-        "Tag": "Spiderweb Sash",
-        "TextTag": "Spiderweb Sash",
+        "Title": "Verdungo's Hearty Cord",
+        "Tag": "Mithril Coil",
+        "TextTag": "Mithril Coil",
         "Ethereal": "False",
         "Enhanced": "True",
-        "Defense": "63",
-        "Durability": "12",
-        "DurabilityMaximum": "12",
-        "ItemLevel": "94",
-        "LevelReq": 80,
+        "Defense": "66",
+        "Durability": "15",
+        "DurabilityMaximum": "16",
+        "ItemLevel": "86",
+        "LevelReq": 63,
         "SocketCount": "0",
         "PropertyList": [
-          "+1 to All Skills",
-          "+20% Faster Cast Rate",
-          "Slows Target by 10%",
-          "+108% Enhanced Defense",
-          "Increase Maximum Mana 5%",
-          "Level 3 Venom (8/11 Charges)"
+          "+10% Faster Hit Recovery",
+          "+116% Enhanced Defense",
+          "+35 to Vitality",
+          "Replenish Life 10 per second",
+          "+117 Maximum Stamina",
+          "Physical Damage Taken Reduced by 14%"
         ],
         "Position": {
           "x": 8,
@@ -254543,64 +254728,6 @@
           "invwidth": 2
         },
         "Worn": "belt"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "4268253549",
-        "QualityCode": "q_unique",
-        "Title": "Bul-Kathos' Wedding Band",
-        "Tag": "Ring",
-        "TextTag": "ring",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "86",
-        "LevelReq": 58,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to All Skills",
-          "3% Life stolen per hit",
-          "+45 to Life (Based on Character Level)",
-          "+50 Maximum Stamina"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": "ring1"
-      },
-      {
-        "Quality": "Rare",
-        "ID": "2803086556",
-        "QualityCode": "q_rare",
-        "Title": "Raven Band",
-        "Tag": "Ring",
-        "TextTag": "ring",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "4",
-        "ItemLevel": "81",
-        "LevelReq": 22,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+10% Faster Cast Rate",
-          "+7 to Energy",
-          "+56 to Mana",
-          "Cold Resist +10%"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": "ring2"
       },
       {
         "Quality": "Unique",
@@ -254782,153 +254909,6 @@
           "invwidth": 2
         },
         "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Superior",
-        "ID": "2115665999",
-        "QualityCode": "q_runeword",
-        "Title": "Heart of the Oak",
-        "Tag": "Flail",
-        "TextTag": "Flail",
-        "RuneTag": "KoVexPulThul",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "1",
-        "DamageMaximum": "27",
-        "Durability": "152",
-        "DurabilityMaximum": "135",
-        "ItemLevel": "79",
-        "LevelReq": 55,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Ko Rune",
-            "Tag": "Ko Rune",
-            "TextTag": "Ko Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 39,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+10 to Dexterity"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Vex Rune",
-            "Tag": "Vex Rune",
-            "TextTag": "Vex Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 55,
-            "SocketCount": "0",
-            "PropertyList": [
-              "7% Mana stolen per hit"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Pul Rune",
-            "Tag": "Pul Rune",
-            "TextTag": "Pul Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 45,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+75% Damage to Demons",
-              "+100 to Attack Rating against Demons"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Thul Rune",
-            "Tag": "Thul Rune",
-            "TextTag": "Thul Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 23,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+3 cold damage"
-            ],
-            "Position": {
-              "x": 3,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "4",
-        "PropertyList": [
-          "+3 to All Skills",
-          "+40% Faster Cast Rate",
-          "+13% Enhanced Damage",
-          "+75% Damage to Demons",
-          "+100 to Attack Rating against Demons",
-          "+50% Damage to Undead",
-          "+3 cold damage",
-          "7% Mana stolen per hit",
-          "+10 to Dexterity",
-          "Increase Maximum Life 6%",
-          "Replenish Life 20 per second",
-          "Increase Maximum Mana 15%",
-          "All Resistances +36",
-          "Increase Maximum Durability 13%",
-          "Socketed (4)"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": "weapon1"
       },
       {
         "Quality": "Normal",
@@ -334335,21 +334315,21 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 97,
-      "Experience": 2983981725,
+      "Experience": 2983990916,
       "Strength": 109,
       "Dexterity": 25,
-      "Vitality": 96,
-      "Energy": 345,
-      "BaseLife": 416,
-      "Life": 833,
-      "BaseMana": 847,
-      "Mana": 1924,
-      "Gold": 550235,
-      "Stashed": 1922391
+      "Vitality": 281,
+      "Energy": 160,
+      "BaseLife": 786,
+      "Life": 1235,
+      "BaseMana": 477,
+      "Mana": 1295,
+      "Gold": 8035,
+      "Stashed": 2482646
     },
     "Bonus": {
       "Strength": 14,
-      "Dexterity": 0,
+      "Dexterity": 4,
       "Vitality": 0,
       "Energy": 0,
       "FireResistance": 181,
@@ -334361,7 +334341,7 @@
       "PoisonResistance": 136,
       "MaximumPoisonResistance": 0,
       "MagicFind": 50,
-      "GoldFind": 14,
+      "GoldFind": 44,
       "FasterCastRate": 70,
       "FasterHitRecovery": 20,
       "IncreasedAttackSpeed": 0,
@@ -334395,14 +334375,14 @@
         "CooldownReduction": 0
       },
       "WeaponSetOffhand": {
-        "Strength": 0,
+        "Strength": 8,
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
         "FireResistance": 0,
         "MaximumFireResistance": 0,
-        "ColdResistance": 0,
-        "MaximumColdResistance": 0,
+        "ColdResistance": 79,
+        "MaximumColdResistance": 5,
         "LightningResistance": 0,
         "MaximumLightningResistance": 0,
         "PoisonResistance": 0,
@@ -334422,75 +334402,13 @@
     "SkillTabs": [
       {
         "Name": "Fire Skills",
-        "Total": 1,
-        "Skills": [
-          {
-            "ID": 2,
-            "Name": "Warmth",
-            "Level": 1
-          }
-        ]
+        "Total": 0,
+        "Skills": []
       },
       {
         "Name": "Lightning Skills",
-        "Total": 106,
-        "Skills": [
-          {
-            "ID": 3,
-            "Name": "Charged Bolt",
-            "Level": 1
-          },
-          {
-            "ID": 7,
-            "Name": "Static Field",
-            "Level": 1
-          },
-          {
-            "ID": 8,
-            "Name": "Telekinesis",
-            "Level": 20
-          },
-          {
-            "ID": 13,
-            "Name": "Nova",
-            "Level": 20
-          },
-          {
-            "ID": 14,
-            "Name": "Lightning Surge",
-            "Level": 1
-          },
-          {
-            "ID": 18,
-            "Name": "Teleport",
-            "Level": 20
-          },
-          {
-            "ID": 19,
-            "Name": "Chain Lightning",
-            "Level": 1
-          },
-          {
-            "ID": 22,
-            "Name": "Discharge",
-            "Level": 20
-          },
-          {
-            "ID": 23,
-            "Name": "Energy Shield",
-            "Level": 1
-          },
-          {
-            "ID": 28,
-            "Name": "Lightning Mastery",
-            "Level": 20
-          },
-          {
-            "ID": 31,
-            "Name": "Thunder Storm",
-            "Level": 1
-          }
-        ]
+        "Total": 0,
+        "Skills": []
       },
       {
         "Name": "Cold Skills",
@@ -334875,99 +334793,84 @@
       },
       {
         "Quality": "Unique",
-        "ID": "4259616638",
+        "ID": "2381877428",
         "QualityCode": "q_unique",
-        "Title": "Warpspear",
-        "Tag": "Gothic Staff",
-        "TextTag": "Gothic Staff",
+        "Title": "Hand of Blessed Light",
+        "Tag": "Synthesized Divine Scepter",
+        "TextTag": "Synthesized Divine Scepter",
         "Ethereal": "False",
         "Enhanced": "True",
-        "DamageMinimum": "14",
-        "DamageMaximum": "45",
-        "ThrowDamageMaximum": "11",
-        "Durability": "180",
-        "DurabilityMaximum": "180",
-        "ItemLevel": "87",
-        "LevelReq": 39,
-        "Sockets": [
-          {
-            "Quality": "Magic",
-            "ID": "2757381888",
-            "QualityCode": "q_magic",
-            "Title": "Aureolin Jewel",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "AlternateGraphics": "2",
-            "ItemLevel": "88",
-            "LevelReq": 16,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+3 to Mana after each Kill"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Rare",
-            "ID": "3181691172",
-            "QualityCode": "q_rare",
-            "Title": "GhoulRI Talisman",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "AlternateGraphics": "0",
-            "ItemLevel": "88",
-            "LevelReq": 16,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+11 to Maximum Damage",
-              "+3 to Mana after each Kill"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "2",
+        "DamageMinimum": "68",
+        "DamageMaximum": "114",
+        "ThrowDamageMinimum": "20",
+        "Durability": "215",
+        "DurabilityMaximum": "215",
+        "ItemLevel": "88",
+        "LevelReq": 42,
+        "SocketCount": "0",
         "PropertyList": [
-          "\u00ffc1Corrupted",
-          " Thunder Storm Strikes Two Additional Targets",
+          "50% Chance to cast level 20 Holy Bolt when struck",
           "+3 to Sorceress Skill Levels",
-          "+11 to Maximum Damage",
+          "+200% Enhanced Damage",
+          "Adds 20-45 damage",
           "Ignore Target's Defense",
           "+50% Damage to Undead",
-          "+3 to Telekinesis (Sorceress Only)",
+          "+485 to Attack Rating against Undead (Based on Character Level)",
           "+3 to Teleport (Sorceress Only)",
           "+3 to Energy Shield (Sorceress Only)",
-          "+250 Defense vs. Missile",
-          "+6 to Mana after each Kill",
-          "Socketed (2)"
+          "+8 to Strength",
+          "Regenerate Mana 15%"
+        ],
+        "SynthesisedFrom": [
+          "Boneslayer Blade",
+          "Warpspear"
         ],
         "Position": {
           "x": 11,
           "y": 0
         },
         "Size": {
-          "invheight": 4,
-          "invwidth": 1
+          "invheight": 3,
+          "invwidth": 2
         },
         "Worn": "sweapon1"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "893531738",
+        "QualityCode": "q_unique",
+        "Title": "Medusa's Gaze",
+        "Tag": "Aegis",
+        "TextTag": "Aegis",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Block": "54",
+        "Defense": "222",
+        "Durability": "92",
+        "DurabilityMaximum": "92",
+        "ItemLevel": "90",
+        "LevelReq": 76,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+2 to Cold Skills",
+          "10% Increased Chance of Blocking",
+          "-19% to Enemy Cold Resistance",
+          "+2 to Shiver Armor",
+          "+152% Enhanced Defense",
+          "+5% to Maximum Cold Resist",
+          "Cold Resist +79%",
+          "Requirements -50%"
+        ],
+        "Position": {
+          "x": 12,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": "sweapon2"
       },
       {
         "Quality": "Superior",
@@ -335486,111 +335389,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "2047697274",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "90",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "3050456312",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "85",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "3408256496",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm of Shock",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "91",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)",
-          "Adds 1-2 Lightning damage"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1834743791",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "87",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)"
-        ],
-        "Position": {
-          "x": 3,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "654448037",
         "QualityCode": "q_magic",
         "Title": "Sparking Grand Charm",
@@ -335769,24 +335567,108 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Full Rejuvenation Potion",
-        "Tag": "Full Rejuvenation Potion",
-        "TextTag": "Full Rejuv Potion",
+        "Quality": "Magic",
+        "ID": "2866934919",
+        "QualityCode": "q_magic",
+        "Title": "Burning Grand Charm of Life",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 42,
         "SocketCount": "0",
-        "PropertyList": [],
+        "PropertyList": [
+          "+1 to Fire Skills (Sorceress Only)",
+          "+9 to Life"
+        ],
         "Position": {
-          "x": 7,
-          "y": 3
+          "x": 0,
+          "y": 6
         },
         "Size": {
-          "invheight": 1,
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "511805341",
+        "QualityCode": "q_magic",
+        "Title": "Burning Grand Charm of Dexterity",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Fire Skills (Sorceress Only)",
+          "+4 to Dexterity"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "535317796",
+        "QualityCode": "q_magic",
+        "Title": "Burning Grand Charm of Greed",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Fire Skills (Sorceress Only)",
+          "30% Extra Gold from Monsters"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "343717281",
+        "QualityCode": "q_magic",
+        "Title": "Burning Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "81",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Fire Skills (Sorceress Only)"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
           "invwidth": 1
         },
         "Worn": ""
@@ -376105,7 +375987,7 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 95,
-      "Experience": 2514224933,
+      "Experience": 2522628116,
       "Strength": 109,
       "Dexterity": 25,
       "Vitality": 376,
@@ -376114,7 +375996,7 @@
       "Life": 1619,
       "BaseMana": 223,
       "Mana": 1023,
-      "Gold": 950000,
+      "Gold": 948776,
       "Stashed": 2500000
     },
     "Bonus": {
@@ -376332,7 +376214,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "426",
-        "Durability": "22",
+        "Durability": "20",
         "DurabilityMaximum": "24",
         "ItemLevel": "89",
         "LevelReq": 57,
@@ -377907,62 +377789,16 @@
         "Worn": ""
       },
       {
-        "Quality": "Normal",
-        "ID": "2011449634",
-        "QualityCode": "q_normal",
-        "Title": "Tome of Town Portal",
-        "Tag": "Tome of Town Portal",
-        "TextTag": "Town Portal Book",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "11",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 1,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Full Rejuvenation Potion",
-        "Tag": "Full Rejuvenation Potion",
-        "TextTag": "Full Rejuv Potion",
+        "Title": "Flawless Skull",
+        "Tag": "Flawless Skull",
+        "TextTag": "Flawless Skull",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 2,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Perfect Skull",
-        "Tag": "Perfect Skull",
-        "TextTag": "Perfect Skull",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 18,
+        "LevelReq": 15,
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
@@ -378000,46 +377836,23 @@
       },
       {
         "Quality": "Normal",
-        "ID": "592908180",
+        "ID": "2011449634",
         "QualityCode": "q_normal",
         "Title": "Tome of Town Portal",
         "Tag": "Tome of Town Portal",
         "TextTag": "Town Portal Book",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "99",
+        "ItemLevel": "11",
         "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 2,
-          "y": 0
+          "x": 1,
+          "y": 2
         },
         "Size": {
           "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -380791,15 +380604,15 @@
     "Class": "Barbarian",
     "Stats": {
       "Level": 95,
-      "Experience": 2509300756,
+      "Experience": 2509305577,
       "Strength": 117,
       "Dexterity": 109,
       "Vitality": 319,
       "Energy": 10,
       "BaseLife": 1479,
-      "Life": 2829,
+      "Life": 3726,
       "BaseMana": 104,
-      "Mana": 254,
+      "Mana": 325,
       "Gold": 950000,
       "Stashed": 2500000
     },
@@ -383639,7 +383452,7 @@
       "BaseMana": 206,
       "Mana": 252,
       "Gold": 0,
-      "Stashed": 2500000
+      "Stashed": 2450000
     },
     "Bonus": {
       "Strength": 52,
@@ -383952,38 +383765,6 @@
         "Worn": "helmet"
       },
       {
-        "Quality": "Unique",
-        "ID": "3850462633",
-        "QualityCode": "q_unique",
-        "Title": "Carrion Wind",
-        "Tag": "Ring",
-        "TextTag": "ring",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "4",
-        "ItemLevel": "79",
-        "LevelReq": 60,
-        "SocketCount": "0",
-        "PropertyList": [
-          "10% Chance to cast level 10 Poison Nova when struck",
-          "8% Chance to cast level 13 Twister on striking",
-          "8% Life stolen per hit",
-          "+124 Defense vs. Missile",
-          "Poison Resist +55%",
-          "10% Damage Taken Gained as Mana when Hit",
-          "Level 21 Poison Creeper (15/15 Charges)"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": "ring1"
-      },
-      {
         "Quality": "Magic",
         "ID": "2070639423",
         "QualityCode": "q_magic",
@@ -384288,6 +384069,38 @@
           "invwidth": 2
         },
         "Worn": "sweapon2"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3850462633",
+        "QualityCode": "q_unique",
+        "Title": "Carrion Wind",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "4",
+        "ItemLevel": "79",
+        "LevelReq": 60,
+        "SocketCount": "0",
+        "PropertyList": [
+          "10% Chance to cast level 10 Poison Nova when struck",
+          "8% Chance to cast level 13 Twister on striking",
+          "8% Life stolen per hit",
+          "+124 Defense vs. Missile",
+          "Poison Resist +55%",
+          "10% Damage Taken Gained as Mana when Hit",
+          "Level 21 Poison Creeper (15/15 Charges)"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "ring1"
       },
       {
         "Quality": "Normal",
@@ -462575,7 +462388,7 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 92,
-      "Experience": 1958480089,
+      "Experience": 1960795548,
       "Strength": 121,
       "Dexterity": 25,
       "Vitality": 369,
@@ -462583,8 +462396,8 @@
       "BaseLife": 954,
       "Life": 1232,
       "BaseMana": 217,
-      "Mana": 557,
-      "Gold": 0,
+      "Mana": 245,
+      "Gold": 183686,
       "Stashed": 532130
     },
     "Bonus": {
@@ -464553,27 +464366,41 @@
         "Worn": ""
       },
       {
-        "Quality": "Rare",
-        "ID": "2948893358",
-        "QualityCode": "q_rare",
-        "Title": "Skull Eye",
-        "Tag": "Desecrated Temple Relic",
-        "TextTag": "Desecrated Temple Relic",
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Full Rejuvenation Potion",
+        "Tag": "Full Rejuvenation Potion",
+        "TextTag": "Full Rejuv Potion",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "99",
-        "LevelReq": 80,
+        "ItemLevel": "0",
+        "LevelReq": 0,
         "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "15% Chance to cast level 15 Meteor when you Die",
-          "47% Bonus to Attack Rating",
-          "Adds 199-200 Magic damage",
-          "Adds 149-150 Fire damage",
-          "Magic Absorb 30%",
-          "Poison Absorb 29%",
-          "Attacker Takes Damage of 23"
-        ],
+        "PropertyList": [],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Full Rejuvenation Potion",
+        "Tag": "Full Rejuvenation Potion",
+        "TextTag": "Full Rejuv Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
         "Position": {
           "x": 8,
           "y": 1
@@ -533147,20 +532974,20 @@
       "Vitality": 377,
       "Energy": 20,
       "BaseLife": 932,
-      "Life": 1331,
+      "Life": 1288,
       "BaseMana": 198,
-      "Mana": 772,
+      "Mana": 588,
       "Gold": 66502,
       "Stashed": 2497207
     },
     "Bonus": {
       "Strength": 37,
       "Dexterity": 2,
-      "Vitality": 0,
-      "Energy": 27,
+      "Vitality": 35,
+      "Energy": 20,
       "FireResistance": 182,
       "MaximumFireResistance": 0,
-      "ColdResistance": 155,
+      "ColdResistance": 145,
       "MaximumColdResistance": 0,
       "LightningResistance": 181,
       "MaximumLightningResistance": 0,
@@ -533168,30 +532995,30 @@
       "MaximumPoisonResistance": 0,
       "MagicFind": 5,
       "GoldFind": 37,
-      "FasterCastRate": 30,
-      "FasterHitRecovery": 35,
+      "FasterCastRate": 0,
+      "FasterHitRecovery": 45,
       "IncreasedAttackSpeed": 0,
       "CrushingBlow": 0,
       "OpenWounds": 0,
       "DeadlyStrike": 0,
-      "DamageReduction": 0,
+      "DamageReduction": 14,
       "CooldownReduction": 0,
       "WeaponSetMain": {
         "Strength": 0,
-        "Dexterity": 10,
+        "Dexterity": 0,
         "Vitality": 22,
         "Energy": 0,
-        "FireResistance": 36,
+        "FireResistance": 0,
         "MaximumFireResistance": 0,
-        "ColdResistance": 71,
+        "ColdResistance": 35,
         "MaximumColdResistance": 0,
-        "LightningResistance": 71,
+        "LightningResistance": 35,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 71,
+        "PoisonResistance": 35,
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 0,
-        "FasterCastRate": 74,
+        "FasterCastRate": 34,
         "FasterHitRecovery": 55,
         "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
@@ -533553,26 +533380,26 @@
       },
       {
         "Quality": "Unique",
-        "ID": "1251496333",
+        "ID": "4214157685",
         "QualityCode": "q_unique",
-        "Title": "Arachnid Mesh",
-        "Tag": "Spiderweb Sash",
-        "TextTag": "Spiderweb Sash",
+        "Title": "Verdungo's Hearty Cord",
+        "Tag": "Mithril Coil",
+        "TextTag": "Mithril Coil",
         "Ethereal": "False",
         "Enhanced": "True",
-        "Defense": "63",
-        "Durability": "12",
-        "DurabilityMaximum": "12",
-        "ItemLevel": "94",
-        "LevelReq": 80,
+        "Defense": "66",
+        "Durability": "15",
+        "DurabilityMaximum": "16",
+        "ItemLevel": "86",
+        "LevelReq": 63,
         "SocketCount": "0",
         "PropertyList": [
-          "+1 to All Skills",
-          "+20% Faster Cast Rate",
-          "Slows Target by 10%",
-          "+108% Enhanced Defense",
-          "Increase Maximum Mana 5%",
-          "Level 3 Venom (8/11 Charges)"
+          "+10% Faster Hit Recovery",
+          "+116% Enhanced Defense",
+          "+35 to Vitality",
+          "Replenish Life 10 per second",
+          "+117 Maximum Stamina",
+          "Physical Damage Taken Reduced by 14%"
         ],
         "Position": {
           "x": 8,
@@ -533583,64 +533410,6 @@
           "invwidth": 2
         },
         "Worn": "belt"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "4268253549",
-        "QualityCode": "q_unique",
-        "Title": "Bul-Kathos' Wedding Band",
-        "Tag": "Ring",
-        "TextTag": "ring",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "86",
-        "LevelReq": 58,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to All Skills",
-          "3% Life stolen per hit",
-          "+45 to Life (Based on Character Level)",
-          "+50 Maximum Stamina"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": "ring1"
-      },
-      {
-        "Quality": "Rare",
-        "ID": "2803086556",
-        "QualityCode": "q_rare",
-        "Title": "Raven Band",
-        "Tag": "Ring",
-        "TextTag": "ring",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "4",
-        "ItemLevel": "81",
-        "LevelReq": 22,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+10% Faster Cast Rate",
-          "+7 to Energy",
-          "+56 to Mana",
-          "Cold Resist +10%"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": "ring2"
       },
       {
         "Quality": "Unique",
@@ -533822,153 +533591,6 @@
           "invwidth": 2
         },
         "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Superior",
-        "ID": "2115665999",
-        "QualityCode": "q_runeword",
-        "Title": "Heart of the Oak",
-        "Tag": "Flail",
-        "TextTag": "Flail",
-        "RuneTag": "KoVexPulThul",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "1",
-        "DamageMaximum": "27",
-        "Durability": "152",
-        "DurabilityMaximum": "135",
-        "ItemLevel": "79",
-        "LevelReq": 55,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Ko Rune",
-            "Tag": "Ko Rune",
-            "TextTag": "Ko Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 39,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+10 to Dexterity"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Vex Rune",
-            "Tag": "Vex Rune",
-            "TextTag": "Vex Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 55,
-            "SocketCount": "0",
-            "PropertyList": [
-              "7% Mana stolen per hit"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Pul Rune",
-            "Tag": "Pul Rune",
-            "TextTag": "Pul Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 45,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+75% Damage to Demons",
-              "+100 to Attack Rating against Demons"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Thul Rune",
-            "Tag": "Thul Rune",
-            "TextTag": "Thul Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 23,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+3 cold damage"
-            ],
-            "Position": {
-              "x": 3,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "4",
-        "PropertyList": [
-          "+3 to All Skills",
-          "+40% Faster Cast Rate",
-          "+13% Enhanced Damage",
-          "+75% Damage to Demons",
-          "+100 to Attack Rating against Demons",
-          "+50% Damage to Undead",
-          "+3 cold damage",
-          "7% Mana stolen per hit",
-          "+10 to Dexterity",
-          "Increase Maximum Life 6%",
-          "Replenish Life 20 per second",
-          "Increase Maximum Mana 15%",
-          "All Resistances +36",
-          "Increase Maximum Durability 13%",
-          "Socketed (4)"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": "weapon1"
       },
       {
         "Quality": "Normal",
