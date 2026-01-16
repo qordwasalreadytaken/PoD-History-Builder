@@ -62053,17 +62053,17 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 94,
-      "Experience": 2414158710,
+      "Experience": 2423324990,
       "Strength": 85,
       "Dexterity": 25,
       "Vitality": 425,
       "Energy": 25,
       "BaseLife": 1111,
-      "Life": 1591,
+      "Life": 1328,
       "BaseMana": 211,
       "Mana": 381,
-      "Gold": 0,
-      "Stashed": 2175659
+      "Gold": 805113,
+      "Stashed": 2500000
     },
     "Bonus": {
       "Strength": 45,
@@ -62540,7 +62540,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "414",
-        "Durability": "20",
+        "Durability": "19",
         "DurabilityMaximum": "20",
         "ItemLevel": "83",
         "LevelReq": 61,
@@ -62835,7 +62835,7 @@
         "Enhanced": "False",
         "Block": "42",
         "Defense": "147",
-        "Durability": "91",
+        "Durability": "90",
         "DurabilityMaximum": "86",
         "ItemLevel": "87",
         "LevelReq": 65,
@@ -201990,33 +201990,33 @@
       "Vitality": 350,
       "Energy": 10,
       "BaseLife": 1573,
-      "Life": 2086,
+      "Life": 2158,
       "BaseMana": 99,
-      "Mana": 146,
+      "Mana": 164,
       "Gold": 0,
-      "Stashed": 2415913
+      "Stashed": 2406193
     },
     "Bonus": {
-      "Strength": 63,
+      "Strength": 81,
       "Dexterity": 29,
       "Vitality": 0,
       "Energy": 0,
-      "FireResistance": 121,
+      "FireResistance": 136,
       "MaximumFireResistance": 0,
-      "ColdResistance": 111,
+      "ColdResistance": 126,
       "MaximumColdResistance": 0,
-      "LightningResistance": 157,
+      "LightningResistance": 172,
       "MaximumLightningResistance": 5,
-      "PoisonResistance": 111,
+      "PoisonResistance": 126,
       "MaximumPoisonResistance": 0,
       "MagicFind": 46,
       "GoldFind": 309,
       "FasterCastRate": 25,
       "FasterHitRecovery": 35,
       "IncreasedAttackSpeed": 20,
-      "CrushingBlow": 25,
-      "OpenWounds": 10,
-      "DeadlyStrike": 48,
+      "CrushingBlow": 10,
+      "OpenWounds": 0,
+      "DeadlyStrike": 33,
       "DamageReduction": 14,
       "CooldownReduction": 0,
       "WeaponSetMain": {
@@ -202224,40 +202224,6 @@
           "invwidth": 1
         },
         "Worn": "amulet"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "2313390292",
-        "QualityCode": "q_unique",
-        "Title": "Gore Rider",
-        "Tag": "War Boots",
-        "TextTag": "War Boots",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "54",
-        "Durability": "34",
-        "DurabilityMaximum": "24",
-        "ItemLevel": "87",
-        "LevelReq": 47,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+30% Faster Run/Walk",
-          "15% Chance of Crushing Blow",
-          "15% Deadly Strike",
-          "10% Chance of Open Wounds",
-          "+169% Enhanced Defense",
-          "+20 Maximum Stamina",
-          "Requirements -25%"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "boots"
       },
       {
         "Quality": "Unique",
@@ -202570,6 +202536,40 @@
           "invwidth": 2
         },
         "Worn": "body"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "291465064",
+        "QualityCode": "q_unique",
+        "Title": "Gorefoot",
+        "Tag": "Heavy Boots",
+        "TextTag": "Heavy Boots",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "7",
+        "Durability": "9",
+        "DurabilityMaximum": "14",
+        "ItemLevel": "80",
+        "LevelReq": 9,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20% Faster Run/Walk",
+          "2% Mana stolen per hit",
+          "+2 to Leap Slam (Barbarian Only)",
+          "+26% Enhanced Defense",
+          "+12 Defense",
+          "Attacker Takes Damage of 2",
+          "Extra Blood"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "boots"
       },
       {
         "Quality": "Superior",
@@ -204020,6 +204020,69 @@
         "Size": {
           "invheight": 1,
           "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "555175189",
+        "QualityCode": "q_unique",
+        "Title": "Annihilus",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "99",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to All Skills",
+          "+18 to all Attributes",
+          "All Resistances +15",
+          "+6% to Experience Gained"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2313390292",
+        "QualityCode": "q_unique",
+        "Title": "Gore Rider",
+        "Tag": "War Boots",
+        "TextTag": "War Boots",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "54",
+        "Durability": "34",
+        "DurabilityMaximum": "24",
+        "ItemLevel": "87",
+        "LevelReq": 47,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+30% Faster Run/Walk",
+          "15% Chance of Crushing Blow",
+          "15% Deadly Strike",
+          "10% Chance of Open Wounds",
+          "+169% Enhanced Defense",
+          "+20 Maximum Stamina",
+          "Requirements -25%"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
         },
         "Worn": ""
       }
@@ -305232,17 +305295,17 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 94,
-      "Experience": 2414158710,
+      "Experience": 2423324990,
       "Strength": 85,
       "Dexterity": 25,
       "Vitality": 425,
       "Energy": 25,
       "BaseLife": 1111,
-      "Life": 1591,
+      "Life": 1328,
       "BaseMana": 211,
       "Mana": 381,
-      "Gold": 0,
-      "Stashed": 2175659
+      "Gold": 805113,
+      "Stashed": 2500000
     },
     "Bonus": {
       "Strength": 45,
@@ -305719,7 +305782,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "414",
-        "Durability": "20",
+        "Durability": "19",
         "DurabilityMaximum": "20",
         "ItemLevel": "83",
         "LevelReq": 61,
@@ -306014,7 +306077,7 @@
         "Enhanced": "False",
         "Block": "42",
         "Defense": "147",
-        "Durability": "91",
+        "Durability": "90",
         "DurabilityMaximum": "86",
         "ItemLevel": "87",
         "LevelReq": 65,
@@ -419491,33 +419554,33 @@
       "Vitality": 350,
       "Energy": 10,
       "BaseLife": 1573,
-      "Life": 2086,
+      "Life": 2158,
       "BaseMana": 99,
-      "Mana": 146,
+      "Mana": 164,
       "Gold": 0,
-      "Stashed": 2415913
+      "Stashed": 2406193
     },
     "Bonus": {
-      "Strength": 63,
+      "Strength": 81,
       "Dexterity": 29,
       "Vitality": 0,
       "Energy": 0,
-      "FireResistance": 121,
+      "FireResistance": 136,
       "MaximumFireResistance": 0,
-      "ColdResistance": 111,
+      "ColdResistance": 126,
       "MaximumColdResistance": 0,
-      "LightningResistance": 157,
+      "LightningResistance": 172,
       "MaximumLightningResistance": 5,
-      "PoisonResistance": 111,
+      "PoisonResistance": 126,
       "MaximumPoisonResistance": 0,
       "MagicFind": 46,
       "GoldFind": 309,
       "FasterCastRate": 25,
       "FasterHitRecovery": 35,
       "IncreasedAttackSpeed": 20,
-      "CrushingBlow": 25,
-      "OpenWounds": 10,
-      "DeadlyStrike": 48,
+      "CrushingBlow": 10,
+      "OpenWounds": 0,
+      "DeadlyStrike": 33,
       "DamageReduction": 14,
       "CooldownReduction": 0,
       "WeaponSetMain": {
@@ -419725,40 +419788,6 @@
           "invwidth": 1
         },
         "Worn": "amulet"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "2313390292",
-        "QualityCode": "q_unique",
-        "Title": "Gore Rider",
-        "Tag": "War Boots",
-        "TextTag": "War Boots",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "54",
-        "Durability": "34",
-        "DurabilityMaximum": "24",
-        "ItemLevel": "87",
-        "LevelReq": 47,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+30% Faster Run/Walk",
-          "15% Chance of Crushing Blow",
-          "15% Deadly Strike",
-          "10% Chance of Open Wounds",
-          "+169% Enhanced Defense",
-          "+20 Maximum Stamina",
-          "Requirements -25%"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "boots"
       },
       {
         "Quality": "Unique",
@@ -420071,6 +420100,40 @@
           "invwidth": 2
         },
         "Worn": "body"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "291465064",
+        "QualityCode": "q_unique",
+        "Title": "Gorefoot",
+        "Tag": "Heavy Boots",
+        "TextTag": "Heavy Boots",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "7",
+        "Durability": "9",
+        "DurabilityMaximum": "14",
+        "ItemLevel": "80",
+        "LevelReq": 9,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20% Faster Run/Walk",
+          "2% Mana stolen per hit",
+          "+2 to Leap Slam (Barbarian Only)",
+          "+26% Enhanced Defense",
+          "+12 Defense",
+          "Attacker Takes Damage of 2",
+          "Extra Blood"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "boots"
       },
       {
         "Quality": "Superior",
@@ -421521,6 +421584,69 @@
         "Size": {
           "invheight": 1,
           "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "555175189",
+        "QualityCode": "q_unique",
+        "Title": "Annihilus",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "99",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to All Skills",
+          "+18 to all Attributes",
+          "All Resistances +15",
+          "+6% to Experience Gained"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2313390292",
+        "QualityCode": "q_unique",
+        "Title": "Gore Rider",
+        "Tag": "War Boots",
+        "TextTag": "War Boots",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "54",
+        "Durability": "34",
+        "DurabilityMaximum": "24",
+        "ItemLevel": "87",
+        "LevelReq": 47,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+30% Faster Run/Walk",
+          "15% Chance of Crushing Blow",
+          "15% Deadly Strike",
+          "10% Chance of Open Wounds",
+          "+169% Enhanced Defense",
+          "+20 Maximum Stamina",
+          "Requirements -25%"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
         },
         "Worn": ""
       }
