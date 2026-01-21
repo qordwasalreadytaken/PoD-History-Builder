@@ -2397,17 +2397,17 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 98,
-      "Experience": 3236286244,
+      "Experience": 3236924010,
       "Strength": 47,
       "Dexterity": 25,
       "Vitality": 33,
       "Energy": 475,
       "BaseLife": 291,
-      "Life": 754,
+      "Life": 881,
       "BaseMana": 1109,
       "Mana": 1788,
-      "Gold": 0,
-      "Stashed": 767543
+      "Gold": 27617,
+      "Stashed": 339416
     },
     "Bonus": {
       "Strength": 41,
@@ -2430,7 +2430,7 @@
       "CrushingBlow": 0,
       "OpenWounds": 0,
       "DeadlyStrike": 0,
-      "DamageReduction": 10,
+      "DamageReduction": 16,
       "CooldownReduction": 0,
       "WeaponSetMain": {
         "Strength": 0,
@@ -2987,24 +2987,24 @@
       },
       {
         "Quality": "Unique",
-        "ID": "2647580547",
+        "ID": "817387177",
         "QualityCode": "q_unique",
         "Title": "The Stone of Jordan",
         "Tag": "Ring",
         "TextTag": "ring",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "4",
-        "ItemLevel": "87",
+        "AlternateGraphics": "2",
+        "ItemLevel": "89",
         "LevelReq": 29,
         "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
           "+1 to All Skills",
-          "+10% Faster Run/Walk",
           "Adds 1-12 Lightning damage",
           "+20 to Mana",
-          "Increase Maximum Mana 25%"
+          "Increase Maximum Mana 25%",
+          "Physical Damage Taken Reduced by 6%"
         ],
         "Position": {
           "x": 7,
@@ -3718,33 +3718,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "996328077",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm of Balance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "52",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)",
-          "+12% Faster Hit Recovery"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "2142333681",
         "QualityCode": "q_magic",
         "Title": "Garnet Small Charm of Balance",
@@ -3821,56 +3794,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "37722426",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm of Life",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)",
-          "+19 to Life"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "859389387",
-        "QualityCode": "q_normal",
-        "Title": "Horadric Cube",
-        "Tag": "Horadric Cube",
-        "TextTag": "Horadric Cube",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "13",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 0,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "2428275431",
         "QualityCode": "q_normal",
@@ -3921,34 +3844,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "1931307960",
-        "QualityCode": "q_unique",
-        "Title": "Gheed's Fortune",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "87",
-        "LevelReq": 62,
-        "SocketCount": "0",
-        "PropertyList": [
-          "160% Extra Gold from Monsters",
-          "Reduces all Vendor Prices 10%",
-          "40% Better Chance of Getting Magic Items"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
@@ -3990,6 +3885,158 @@
         },
         "Size": {
           "invheight": 2,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "37722426",
+        "QualityCode": "q_magic",
+        "Title": "Sparking Grand Charm of Life",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Lightning Skills (Sorceress Only)",
+          "+19 to Life"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1931307960",
+        "QualityCode": "q_unique",
+        "Title": "Gheed's Fortune",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 62,
+        "SocketCount": "0",
+        "PropertyList": [
+          "160% Extra Gold from Monsters",
+          "Reduces all Vendor Prices 10%",
+          "40% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "859389387",
+        "QualityCode": "q_normal",
+        "Title": "Horadric Cube",
+        "Tag": "Horadric Cube",
+        "TextTag": "Horadric Cube",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "13",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "996328077",
+        "QualityCode": "q_magic",
+        "Title": "Sparking Grand Charm of Balance",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "52",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Lightning Skills (Sorceress Only)",
+          "+12% Faster Hit Recovery"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Skull",
+        "Tag": "Flawless Skull",
+        "TextTag": "Flawless Skull",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2113859503",
+        "QualityCode": "q_magic",
+        "Title": "Amulet",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
+        "Ethereal": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "76",
+        "LevelReq": 1,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -89734,7 +89781,7 @@
       "BaseMana": 153,
       "Mana": 270,
       "Gold": 0,
-      "Stashed": 102595
+      "Stashed": 102456
     },
     "Bonus": {
       "Strength": 103,
@@ -217552,17 +217599,17 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 98,
-      "Experience": 3236286244,
+      "Experience": 3236924010,
       "Strength": 47,
       "Dexterity": 25,
       "Vitality": 33,
       "Energy": 475,
       "BaseLife": 291,
-      "Life": 754,
+      "Life": 881,
       "BaseMana": 1109,
       "Mana": 1788,
-      "Gold": 0,
-      "Stashed": 767543
+      "Gold": 27617,
+      "Stashed": 339416
     },
     "Bonus": {
       "Strength": 41,
@@ -217585,7 +217632,7 @@
       "CrushingBlow": 0,
       "OpenWounds": 0,
       "DeadlyStrike": 0,
-      "DamageReduction": 10,
+      "DamageReduction": 16,
       "CooldownReduction": 0,
       "WeaponSetMain": {
         "Strength": 0,
@@ -218142,24 +218189,24 @@
       },
       {
         "Quality": "Unique",
-        "ID": "2647580547",
+        "ID": "817387177",
         "QualityCode": "q_unique",
         "Title": "The Stone of Jordan",
         "Tag": "Ring",
         "TextTag": "ring",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "4",
-        "ItemLevel": "87",
+        "AlternateGraphics": "2",
+        "ItemLevel": "89",
         "LevelReq": 29,
         "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
           "+1 to All Skills",
-          "+10% Faster Run/Walk",
           "Adds 1-12 Lightning damage",
           "+20 to Mana",
-          "Increase Maximum Mana 25%"
+          "Increase Maximum Mana 25%",
+          "Physical Damage Taken Reduced by 6%"
         ],
         "Position": {
           "x": 7,
@@ -218873,33 +218920,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "996328077",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm of Balance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "52",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)",
-          "+12% Faster Hit Recovery"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "2142333681",
         "QualityCode": "q_magic",
         "Title": "Garnet Small Charm of Balance",
@@ -218976,56 +218996,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "37722426",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm of Life",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)",
-          "+19 to Life"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "859389387",
-        "QualityCode": "q_normal",
-        "Title": "Horadric Cube",
-        "Tag": "Horadric Cube",
-        "TextTag": "Horadric Cube",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "13",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 0,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "2428275431",
         "QualityCode": "q_normal",
@@ -219076,34 +219046,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "1931307960",
-        "QualityCode": "q_unique",
-        "Title": "Gheed's Fortune",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "87",
-        "LevelReq": 62,
-        "SocketCount": "0",
-        "PropertyList": [
-          "160% Extra Gold from Monsters",
-          "Reduces all Vendor Prices 10%",
-          "40% Better Chance of Getting Magic Items"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
@@ -219145,6 +219087,158 @@
         },
         "Size": {
           "invheight": 2,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "37722426",
+        "QualityCode": "q_magic",
+        "Title": "Sparking Grand Charm of Life",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Lightning Skills (Sorceress Only)",
+          "+19 to Life"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1931307960",
+        "QualityCode": "q_unique",
+        "Title": "Gheed's Fortune",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 62,
+        "SocketCount": "0",
+        "PropertyList": [
+          "160% Extra Gold from Monsters",
+          "Reduces all Vendor Prices 10%",
+          "40% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "859389387",
+        "QualityCode": "q_normal",
+        "Title": "Horadric Cube",
+        "Tag": "Horadric Cube",
+        "TextTag": "Horadric Cube",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "13",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "996328077",
+        "QualityCode": "q_magic",
+        "Title": "Sparking Grand Charm of Balance",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "52",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Lightning Skills (Sorceress Only)",
+          "+12% Faster Hit Recovery"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Skull",
+        "Tag": "Flawless Skull",
+        "TextTag": "Flawless Skull",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2113859503",
+        "QualityCode": "q_magic",
+        "Title": "Amulet",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
+        "Ethereal": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "76",
+        "LevelReq": 1,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -287144,7 +287238,7 @@
       "BaseMana": 153,
       "Mana": 270,
       "Gold": 0,
-      "Stashed": 102595
+      "Stashed": 102456
     },
     "Bonus": {
       "Strength": 103,

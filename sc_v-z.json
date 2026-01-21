@@ -2274,7 +2274,7 @@
       "BaseMana": 162,
       "Mana": 335,
       "Gold": 0,
-      "Stashed": 1134247
+      "Stashed": 63142
     },
     "Bonus": {
       "Strength": 114,
@@ -199233,17 +199233,17 @@
     "Class": "Barbarian",
     "Stats": {
       "Level": 90,
-      "Experience": 1689720629,
+      "Experience": 1701498256,
       "Strength": 110,
       "Dexterity": 245,
       "Vitality": 150,
       "Energy": 10,
       "BaseLife": 773,
-      "Life": 1042,
+      "Life": 1333,
       "BaseMana": 99,
-      "Mana": 169,
-      "Gold": 0,
-      "Stashed": 2118376
+      "Mana": 214,
+      "Gold": 19432,
+      "Stashed": 2209822
     },
     "Bonus": {
       "Strength": 117,
@@ -200061,7 +200061,7 @@
         "Enhanced": "True",
         "Block": "75",
         "Defense": "171",
-        "Durability": "100",
+        "Durability": "99",
         "DurabilityMaximum": "100",
         "ItemLevel": "90",
         "LevelReq": 68,
@@ -201068,38 +201068,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Set",
-        "ID": "3277153049",
-        "QualityCode": "q_set",
-        "Title": "Tal Rasha's Fine-Spun Cloth",
-        "Tag": "Mesh Belt",
-        "TextTag": "Mesh Belt",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "Defense": "37",
-        "Durability": "15",
-        "DurabilityMaximum": "16",
-        "ItemLevel": "90",
-        "LevelReq": 53,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+20 to Dexterity",
-          "+30 to Mana",
-          "37% Damage Taken Gained as Mana when Hit",
-          "15% Better Chance of Getting Magic Items",
-          "Requirements -20%"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "1446729639",
         "QualityCode": "q_normal",
@@ -201141,8 +201109,8 @@
           "+25 poison damage over 5 seconds"
         ],
         "Position": {
-          "x": 7,
-          "y": 0
+          "x": 6,
+          "y": 4
         },
         "Size": {
           "invheight": 1,
@@ -201152,28 +201120,228 @@
       },
       {
         "Quality": "Magic",
-        "ID": "2906690066",
+        "ID": "3703018722",
         "QualityCode": "q_magic",
-        "Title": "Brute's Jewel of Burning",
-        "Tag": "Jewel",
-        "TextTag": "Jewel",
+        "Title": "Crimson Small Charm of Balance",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "87",
-        "LevelReq": 49,
+        "AlternateGraphics": "0",
+        "ItemLevel": "90",
+        "LevelReq": 29,
         "SocketCount": "0",
         "PropertyList": [
-          "Melee attacks deal splash damage",
-          "Adds 25-36 Fire damage"
+          "+5% Faster Hit Recovery",
+          "Fire Resist +5%"
         ],
         "Position": {
-          "x": 7,
-          "y": 2
+          "x": 5,
+          "y": 4
         },
         "Size": {
           "invheight": 1,
           "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3072298243",
+        "QualityCode": "q_unique",
+        "Title": "Azurewrath",
+        "Tag": "Phase Blade",
+        "TextTag": "Phase Blade",
+        "RuneTag": "KoKoKoKo",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "110",
+        "DamageMaximum": "125",
+        "ItemLevel": "91",
+        "LevelReq": 85,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ko Rune",
+            "Tag": "Ko Rune",
+            "TextTag": "Ko Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 39,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Dexterity"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ko Rune",
+            "Tag": "Ko Rune",
+            "TextTag": "Ko Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 39,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Dexterity"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ko Rune",
+            "Tag": "Ko Rune",
+            "TextTag": "Ko Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 39,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Dexterity"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ko Rune",
+            "Tag": "Ko Rune",
+            "TextTag": "Ko Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 39,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Dexterity"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "4",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "Level 11 Sanctuary Aura When Equipped",
+          "+1 to All Skills",
+          "+30% Increased Attack Speed",
+          "+258% Enhanced Damage",
+          "Adds 250-500 Magic damage",
+          "Adds 250-500 cold damage",
+          "+10 to Strength",
+          "+50 to Dexterity",
+          "+10 to Vitality",
+          "+10 to Energy",
+          "+3 to Light Radius",
+          "Socketed (4)"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "349062224",
+        "QualityCode": "q_normal",
+        "Title": "Thresher",
+        "Tag": "Thresher",
+        "TextTag": "Thresher",
+        "Ethereal": "True",
+        "Enhanced": "False",
+        "DamageMinimum": "18",
+        "DamageMaximum": "211",
+        "Durability": "108",
+        "DurabilityMaximum": "108",
+        "ItemLevel": "87",
+        "LevelReq": 53,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Ethereal (Cannot be Repaired)"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 4,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "2161054899",
+        "QualityCode": "q_normal",
+        "Title": "Colossus Sword",
+        "Tag": "Colossus Sword",
+        "TextTag": "Colossal Sword",
+        "Ethereal": "True",
+        "Enhanced": "False",
+        "DamageMinimum": "91",
+        "DamageMaximum": "181",
+        "Durability": "108",
+        "DurabilityMaximum": "108",
+        "ItemLevel": "87",
+        "LevelReq": 60,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Ethereal (Cannot be Repaired)"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 4,
+          "invwidth": 2
         },
         "Worn": ""
       }
@@ -262024,7 +262192,7 @@
       "BaseMana": 162,
       "Mana": 335,
       "Gold": 0,
-      "Stashed": 1134247
+      "Stashed": 63142
     },
     "Bonus": {
       "Strength": 114,
@@ -416166,17 +416334,17 @@
     "Class": "Barbarian",
     "Stats": {
       "Level": 90,
-      "Experience": 1689720629,
+      "Experience": 1701498256,
       "Strength": 110,
       "Dexterity": 245,
       "Vitality": 150,
       "Energy": 10,
       "BaseLife": 773,
-      "Life": 1042,
+      "Life": 1333,
       "BaseMana": 99,
-      "Mana": 169,
-      "Gold": 0,
-      "Stashed": 2118376
+      "Mana": 214,
+      "Gold": 19432,
+      "Stashed": 2209822
     },
     "Bonus": {
       "Strength": 117,
@@ -416994,7 +417162,7 @@
         "Enhanced": "True",
         "Block": "75",
         "Defense": "171",
-        "Durability": "100",
+        "Durability": "99",
         "DurabilityMaximum": "100",
         "ItemLevel": "90",
         "LevelReq": 68,
@@ -418001,38 +418169,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Set",
-        "ID": "3277153049",
-        "QualityCode": "q_set",
-        "Title": "Tal Rasha's Fine-Spun Cloth",
-        "Tag": "Mesh Belt",
-        "TextTag": "Mesh Belt",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "Defense": "37",
-        "Durability": "15",
-        "DurabilityMaximum": "16",
-        "ItemLevel": "90",
-        "LevelReq": 53,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+20 to Dexterity",
-          "+30 to Mana",
-          "37% Damage Taken Gained as Mana when Hit",
-          "15% Better Chance of Getting Magic Items",
-          "Requirements -20%"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "1446729639",
         "QualityCode": "q_normal",
@@ -418074,8 +418210,8 @@
           "+25 poison damage over 5 seconds"
         ],
         "Position": {
-          "x": 7,
-          "y": 0
+          "x": 6,
+          "y": 4
         },
         "Size": {
           "invheight": 1,
@@ -418085,28 +418221,228 @@
       },
       {
         "Quality": "Magic",
-        "ID": "2906690066",
+        "ID": "3703018722",
         "QualityCode": "q_magic",
-        "Title": "Brute's Jewel of Burning",
-        "Tag": "Jewel",
-        "TextTag": "Jewel",
+        "Title": "Crimson Small Charm of Balance",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "87",
-        "LevelReq": 49,
+        "AlternateGraphics": "0",
+        "ItemLevel": "90",
+        "LevelReq": 29,
         "SocketCount": "0",
         "PropertyList": [
-          "Melee attacks deal splash damage",
-          "Adds 25-36 Fire damage"
+          "+5% Faster Hit Recovery",
+          "Fire Resist +5%"
         ],
         "Position": {
-          "x": 7,
-          "y": 2
+          "x": 5,
+          "y": 4
         },
         "Size": {
           "invheight": 1,
           "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3072298243",
+        "QualityCode": "q_unique",
+        "Title": "Azurewrath",
+        "Tag": "Phase Blade",
+        "TextTag": "Phase Blade",
+        "RuneTag": "KoKoKoKo",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "110",
+        "DamageMaximum": "125",
+        "ItemLevel": "91",
+        "LevelReq": 85,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ko Rune",
+            "Tag": "Ko Rune",
+            "TextTag": "Ko Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 39,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Dexterity"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ko Rune",
+            "Tag": "Ko Rune",
+            "TextTag": "Ko Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 39,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Dexterity"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ko Rune",
+            "Tag": "Ko Rune",
+            "TextTag": "Ko Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 39,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Dexterity"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ko Rune",
+            "Tag": "Ko Rune",
+            "TextTag": "Ko Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 39,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Dexterity"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "4",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "Level 11 Sanctuary Aura When Equipped",
+          "+1 to All Skills",
+          "+30% Increased Attack Speed",
+          "+258% Enhanced Damage",
+          "Adds 250-500 Magic damage",
+          "Adds 250-500 cold damage",
+          "+10 to Strength",
+          "+50 to Dexterity",
+          "+10 to Vitality",
+          "+10 to Energy",
+          "+3 to Light Radius",
+          "Socketed (4)"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "349062224",
+        "QualityCode": "q_normal",
+        "Title": "Thresher",
+        "Tag": "Thresher",
+        "TextTag": "Thresher",
+        "Ethereal": "True",
+        "Enhanced": "False",
+        "DamageMinimum": "18",
+        "DamageMaximum": "211",
+        "Durability": "108",
+        "DurabilityMaximum": "108",
+        "ItemLevel": "87",
+        "LevelReq": 53,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Ethereal (Cannot be Repaired)"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 4,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "2161054899",
+        "QualityCode": "q_normal",
+        "Title": "Colossus Sword",
+        "Tag": "Colossus Sword",
+        "TextTag": "Colossal Sword",
+        "Ethereal": "True",
+        "Enhanced": "False",
+        "DamageMinimum": "91",
+        "DamageMaximum": "181",
+        "Durability": "108",
+        "DurabilityMaximum": "108",
+        "ItemLevel": "87",
+        "LevelReq": 60,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Ethereal (Cannot be Repaired)"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 4,
+          "invwidth": 2
         },
         "Worn": ""
       }
