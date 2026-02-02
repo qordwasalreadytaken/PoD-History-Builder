@@ -2397,7 +2397,7 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 98,
-      "Experience": 3239788467,
+      "Experience": 3240365136,
       "Strength": 47,
       "Dexterity": 25,
       "Vitality": 33,
@@ -2406,8 +2406,8 @@
       "Life": 754,
       "BaseMana": 1109,
       "Mana": 1788,
-      "Gold": 13400,
-      "Stashed": 258099
+      "Gold": 0,
+      "Stashed": 1653010
     },
     "Bonus": {
       "Strength": 41,
@@ -69665,16 +69665,16 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 94,
-      "Experience": 2287348723,
+      "Experience": 2287348836,
       "Strength": 40,
       "Dexterity": 25,
       "Vitality": 10,
       "Energy": 390,
       "BaseLife": 239,
-      "Life": 371,
+      "Life": 166,
       "BaseMana": 931,
       "Mana": 1026,
-      "Gold": 25539,
+      "Gold": 25783,
       "Stashed": 2418194
     },
     "Bonus": {
@@ -69703,30 +69703,6 @@
       "WeaponSetMain": {
         "Strength": 0,
         "Dexterity": 0,
-        "Vitality": 0,
-        "Energy": 0,
-        "FireResistance": 0,
-        "MaximumFireResistance": 0,
-        "ColdResistance": 0,
-        "MaximumColdResistance": 0,
-        "LightningResistance": 0,
-        "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
-        "MaximumPoisonResistance": 0,
-        "MagicFind": 0,
-        "GoldFind": 0,
-        "FasterCastRate": 0,
-        "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 0,
-        "CrushingBlow": 0,
-        "OpenWounds": 0,
-        "DeadlyStrike": 0,
-        "DamageReduction": 0,
-        "CooldownReduction": 0
-      },
-      "WeaponSetOffhand": {
-        "Strength": 0,
-        "Dexterity": 0,
         "Vitality": 22,
         "Energy": 0,
         "FireResistance": 0,
@@ -69742,6 +69718,30 @@
         "FasterCastRate": 34,
         "FasterHitRecovery": 55,
         "IncreasedAttackSpeed": 40,
+        "CrushingBlow": 0,
+        "OpenWounds": 0,
+        "DeadlyStrike": 0,
+        "DamageReduction": 0,
+        "CooldownReduction": 0
+      },
+      "WeaponSetOffhand": {
+        "Strength": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Energy": 0,
+        "FireResistance": 0,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 0,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 0,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 0,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 0,
+        "GoldFind": 0,
+        "FasterCastRate": 0,
+        "FasterHitRecovery": 0,
+        "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
@@ -69880,6 +69880,75 @@
         "Worn": "gloves"
       },
       {
+        "Quality": "Superior",
+        "ID": "1086077971",
+        "QualityCode": "q_high",
+        "Title": "Glowing Orb",
+        "Tag": "Glowing Orb",
+        "TextTag": "Glowing Orb",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "DamageMinimum": "8",
+        "DamageMaximum": "21",
+        "Durability": "100",
+        "DurabilityMaximum": "100",
+        "ItemLevel": "62",
+        "LevelReq": 24,
+        "Sockets": [
+          {
+            "Quality": "Unique",
+            "ID": "2002249437",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "5",
+            "ItemLevel": "89",
+            "LevelReq": 49,
+            "SocketCount": "0",
+            "PropertyList": [
+              "100% Chance to cast level 29 Blaze when you Level-Up",
+              "Adds 17-45 Fire damage",
+              "-4% to Enemy Fire Resistance",
+              "+5% Increased Fire Damage"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "1",
+        "PropertyList": [
+          "100% Chance to cast level 29 Blaze when you Level-Up",
+          "+94 to Attack Rating (Based on Character Level)",
+          "Adds 17-45 Fire damage",
+          "-4% to Enemy Fire Resistance",
+          "+5% Increased Fire Damage",
+          "+1 to Enflame (Sorceress Only)",
+          "+2 to Hydra (Sorceress Only)",
+          "+2 to Frozen Orb (Sorceress Only)",
+          "+38 to Life",
+          "Socketed (1)"
+        ],
+        "Position": {
+          "x": 11,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 1
+        },
+        "Worn": "sweapon1"
+      },
+      {
         "Quality": "Set",
         "ID": "3084012619",
         "QualityCode": "q_set",
@@ -69935,14 +70004,14 @@
           "Socketed (2)"
         ],
         "Position": {
-          "x": 11,
+          "x": 4,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 1
         },
-        "Worn": "sweapon1"
+        "Worn": "weapon1"
       },
       {
         "Quality": "Superior",
@@ -70080,83 +70149,14 @@
           "Socketed (4)"
         ],
         "Position": {
-          "x": 12,
+          "x": 5,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
         },
-        "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Superior",
-        "ID": "1086077971",
-        "QualityCode": "q_high",
-        "Title": "Glowing Orb",
-        "Tag": "Glowing Orb",
-        "TextTag": "Glowing Orb",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "DamageMinimum": "8",
-        "DamageMaximum": "21",
-        "Durability": "100",
-        "DurabilityMaximum": "100",
-        "ItemLevel": "62",
-        "LevelReq": 24,
-        "Sockets": [
-          {
-            "Quality": "Unique",
-            "ID": "2002249437",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "AlternateGraphics": "5",
-            "ItemLevel": "89",
-            "LevelReq": 49,
-            "SocketCount": "0",
-            "PropertyList": [
-              "100% Chance to cast level 29 Blaze when you Level-Up",
-              "Adds 17-45 Fire damage",
-              "-4% to Enemy Fire Resistance",
-              "+5% Increased Fire Damage"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "1",
-        "PropertyList": [
-          "100% Chance to cast level 29 Blaze when you Level-Up",
-          "+94 to Attack Rating (Based on Character Level)",
-          "Adds 17-45 Fire damage",
-          "-4% to Enemy Fire Resistance",
-          "+5% Increased Fire Damage",
-          "+1 to Enflame (Sorceress Only)",
-          "+2 to Hydra (Sorceress Only)",
-          "+2 to Frozen Orb (Sorceress Only)",
-          "+38 to Life",
-          "Socketed (1)"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": "weapon1"
+        "Worn": "weapon2"
       }
     ],
     "Inventory": [
@@ -107915,7 +107915,7 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 92,
-      "Experience": 2046201751,
+      "Experience": 2058989252,
       "Strength": 140,
       "Dexterity": 25,
       "Vitality": 255,
@@ -107924,8 +107924,8 @@
       "Life": 1266,
       "BaseMana": 407,
       "Mana": 893,
-      "Gold": 637099,
-      "Stashed": 207152
+      "Gold": 514899,
+      "Stashed": 1997152
     },
     "Bonus": {
       "Strength": 22,
@@ -108191,7 +108191,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "12",
-        "Durability": "18",
+        "Durability": "17",
         "DurabilityMaximum": "18",
         "ItemLevel": "94",
         "LevelReq": 23,
@@ -108226,7 +108226,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "127",
-        "Durability": "21",
+        "Durability": "20",
         "DurabilityMaximum": "24",
         "ItemLevel": "88",
         "LevelReq": 29,
@@ -108258,7 +108258,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "43",
-        "Durability": "18",
+        "Durability": "17",
         "DurabilityMaximum": "18",
         "ItemLevel": "94",
         "LevelReq": 42,
@@ -108564,7 +108564,7 @@
         "Enhanced": "False",
         "Block": "42",
         "Defense": "142",
-        "Durability": "86",
+        "Durability": "85",
         "DurabilityMaximum": "86",
         "ItemLevel": "87",
         "LevelReq": 54,
@@ -108899,33 +108899,6 @@
         },
         "Size": {
           "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1565660760",
-        "QualityCode": "q_magic",
-        "Title": "Lucky Large Charm of Vita",
-        "Tag": "Large Charm",
-        "TextTag": "Charm Medium",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "85",
-        "LevelReq": 50,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+27 to Life",
-          "4% Better Chance of Getting Magic Items"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 2,
           "invwidth": 1
         },
         "Worn": ""
@@ -109347,21 +109320,26 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Full Rejuvenation Potion",
-        "Tag": "Full Rejuvenation Potion",
-        "TextTag": "Full Rejuv Potion",
+        "Quality": "Rare",
+        "ID": "584999014",
+        "QualityCode": "q_rare",
+        "Title": "Bone Eye",
+        "Tag": "Icy Cavern Relic",
+        "TextTag": "Icy Cavern Relic",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
+        "ItemLevel": "92",
+        "LevelReq": 80,
         "SocketCount": "0",
-        "PropertyList": [],
+        "PropertyList": [
+          "15% Chance to cast level 25 Glacial Spike when you Die",
+          "+60% Enhanced Defense",
+          "Replenish Life 29 per second",
+          "Poison Absorb 34%"
+        ],
         "Position": {
-          "x": 7,
-          "y": 4
+          "x": 6,
+          "y": 2
         },
         "Size": {
           "invheight": 1,
@@ -109370,30 +109348,28 @@
         "Worn": ""
       },
       {
-        "Quality": "Rare",
-        "ID": "3229752493",
-        "QualityCode": "q_rare",
-        "Title": "Rune Eye",
-        "Tag": "Decomposing Settlement Relic",
-        "TextTag": "Decomposing Settlement Relic",
+        "Quality": "Magic",
+        "ID": "1565660760",
+        "QualityCode": "q_magic",
+        "Title": "Lucky Large Charm of Vita",
+        "Tag": "Large Charm",
+        "TextTag": "Charm Medium",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "86",
-        "LevelReq": 80,
+        "AlternateGraphics": "1",
+        "ItemLevel": "85",
+        "LevelReq": 50,
         "SocketCount": "0",
         "PropertyList": [
-          "+13% Faster Run/Walk",
-          "Adds 63-100 Lightning damage",
-          "Physical Damage Taken Reduced by 50%",
-          "Physical Damage Taken Reduced by 59",
-          "Magic & Elemental Damage Taken Reduced by 60"
+          "+27 to Life",
+          "4% Better Chance of Getting Magic Items"
         ],
         "Position": {
-          "x": 4,
-          "y": 2
+          "x": 2,
+          "y": 5
         },
         "Size": {
-          "invheight": 1,
+          "invheight": 2,
           "invwidth": 1
         },
         "Worn": ""
@@ -212679,24 +212655,24 @@
       "Vitality": 10,
       "Energy": 483,
       "BaseLife": 238,
-      "Life": 639,
+      "Life": 627,
       "BaseMana": 1115,
-      "Mana": 2184,
+      "Mana": 2172,
       "Gold": 928888,
       "Stashed": 2500000
     },
     "Bonus": {
-      "Strength": 47,
+      "Strength": 41,
       "Dexterity": 4,
       "Vitality": 0,
       "Energy": 15,
-      "FireResistance": 130,
+      "FireResistance": 122,
       "MaximumFireResistance": 0,
-      "ColdResistance": 184,
+      "ColdResistance": 176,
       "MaximumColdResistance": 0,
-      "LightningResistance": 176,
+      "LightningResistance": 168,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 133,
+      "PoisonResistance": 125,
       "MaximumPoisonResistance": 0,
       "MagicFind": 60,
       "GoldFind": 0,
@@ -213702,35 +213678,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "1863617191",
-        "QualityCode": "q_unique",
-        "Title": "Hellfire Torch",
-        "Tag": "Large Charm",
-        "TextTag": "Charm Medium",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "99",
-        "LevelReq": 75,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+3 to Barbarian Skill Levels",
-          "+19 to all Attributes",
-          "All Resistances +20",
-          "+8 to Light Radius"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Magic",
         "ID": "287515397",
         "QualityCode": "q_magic",
@@ -214173,6 +214120,35 @@
         },
         "Size": {
           "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1436211635",
+        "QualityCode": "q_unique",
+        "Title": "Hellfire Torch",
+        "Tag": "Large Charm",
+        "TextTag": "Charm Medium",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "99",
+        "LevelReq": 75,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+3 to Druid Skill Levels",
+          "+13 to all Attributes",
+          "All Resistances +12",
+          "+8 to Light Radius"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 2,
           "invwidth": 1
         },
         "Worn": ""
@@ -216956,7 +216932,7 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 98,
-      "Experience": 3239788467,
+      "Experience": 3240365136,
       "Strength": 47,
       "Dexterity": 25,
       "Vitality": 33,
@@ -216965,8 +216941,8 @@
       "Life": 754,
       "BaseMana": 1109,
       "Mana": 1788,
-      "Gold": 13400,
-      "Stashed": 258099
+      "Gold": 0,
+      "Stashed": 1653010
     },
     "Bonus": {
       "Strength": 41,
@@ -265192,16 +265168,16 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 94,
-      "Experience": 2287348723,
+      "Experience": 2287348836,
       "Strength": 40,
       "Dexterity": 25,
       "Vitality": 10,
       "Energy": 390,
       "BaseLife": 239,
-      "Life": 371,
+      "Life": 166,
       "BaseMana": 931,
       "Mana": 1026,
-      "Gold": 25539,
+      "Gold": 25783,
       "Stashed": 2418194
     },
     "Bonus": {
@@ -265230,30 +265206,6 @@
       "WeaponSetMain": {
         "Strength": 0,
         "Dexterity": 0,
-        "Vitality": 0,
-        "Energy": 0,
-        "FireResistance": 0,
-        "MaximumFireResistance": 0,
-        "ColdResistance": 0,
-        "MaximumColdResistance": 0,
-        "LightningResistance": 0,
-        "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
-        "MaximumPoisonResistance": 0,
-        "MagicFind": 0,
-        "GoldFind": 0,
-        "FasterCastRate": 0,
-        "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 0,
-        "CrushingBlow": 0,
-        "OpenWounds": 0,
-        "DeadlyStrike": 0,
-        "DamageReduction": 0,
-        "CooldownReduction": 0
-      },
-      "WeaponSetOffhand": {
-        "Strength": 0,
-        "Dexterity": 0,
         "Vitality": 22,
         "Energy": 0,
         "FireResistance": 0,
@@ -265269,6 +265221,30 @@
         "FasterCastRate": 34,
         "FasterHitRecovery": 55,
         "IncreasedAttackSpeed": 40,
+        "CrushingBlow": 0,
+        "OpenWounds": 0,
+        "DeadlyStrike": 0,
+        "DamageReduction": 0,
+        "CooldownReduction": 0
+      },
+      "WeaponSetOffhand": {
+        "Strength": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Energy": 0,
+        "FireResistance": 0,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 0,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 0,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 0,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 0,
+        "GoldFind": 0,
+        "FasterCastRate": 0,
+        "FasterHitRecovery": 0,
+        "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
@@ -265407,6 +265383,75 @@
         "Worn": "gloves"
       },
       {
+        "Quality": "Superior",
+        "ID": "1086077971",
+        "QualityCode": "q_high",
+        "Title": "Glowing Orb",
+        "Tag": "Glowing Orb",
+        "TextTag": "Glowing Orb",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "DamageMinimum": "8",
+        "DamageMaximum": "21",
+        "Durability": "100",
+        "DurabilityMaximum": "100",
+        "ItemLevel": "62",
+        "LevelReq": 24,
+        "Sockets": [
+          {
+            "Quality": "Unique",
+            "ID": "2002249437",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "5",
+            "ItemLevel": "89",
+            "LevelReq": 49,
+            "SocketCount": "0",
+            "PropertyList": [
+              "100% Chance to cast level 29 Blaze when you Level-Up",
+              "Adds 17-45 Fire damage",
+              "-4% to Enemy Fire Resistance",
+              "+5% Increased Fire Damage"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "1",
+        "PropertyList": [
+          "100% Chance to cast level 29 Blaze when you Level-Up",
+          "+94 to Attack Rating (Based on Character Level)",
+          "Adds 17-45 Fire damage",
+          "-4% to Enemy Fire Resistance",
+          "+5% Increased Fire Damage",
+          "+1 to Enflame (Sorceress Only)",
+          "+2 to Hydra (Sorceress Only)",
+          "+2 to Frozen Orb (Sorceress Only)",
+          "+38 to Life",
+          "Socketed (1)"
+        ],
+        "Position": {
+          "x": 11,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 1
+        },
+        "Worn": "sweapon1"
+      },
+      {
         "Quality": "Set",
         "ID": "3084012619",
         "QualityCode": "q_set",
@@ -265462,14 +265507,14 @@
           "Socketed (2)"
         ],
         "Position": {
-          "x": 11,
+          "x": 4,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 1
         },
-        "Worn": "sweapon1"
+        "Worn": "weapon1"
       },
       {
         "Quality": "Superior",
@@ -265607,83 +265652,14 @@
           "Socketed (4)"
         ],
         "Position": {
-          "x": 12,
+          "x": 5,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
         },
-        "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Superior",
-        "ID": "1086077971",
-        "QualityCode": "q_high",
-        "Title": "Glowing Orb",
-        "Tag": "Glowing Orb",
-        "TextTag": "Glowing Orb",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "DamageMinimum": "8",
-        "DamageMaximum": "21",
-        "Durability": "100",
-        "DurabilityMaximum": "100",
-        "ItemLevel": "62",
-        "LevelReq": 24,
-        "Sockets": [
-          {
-            "Quality": "Unique",
-            "ID": "2002249437",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "AlternateGraphics": "5",
-            "ItemLevel": "89",
-            "LevelReq": 49,
-            "SocketCount": "0",
-            "PropertyList": [
-              "100% Chance to cast level 29 Blaze when you Level-Up",
-              "Adds 17-45 Fire damage",
-              "-4% to Enemy Fire Resistance",
-              "+5% Increased Fire Damage"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "1",
-        "PropertyList": [
-          "100% Chance to cast level 29 Blaze when you Level-Up",
-          "+94 to Attack Rating (Based on Character Level)",
-          "Adds 17-45 Fire damage",
-          "-4% to Enemy Fire Resistance",
-          "+5% Increased Fire Damage",
-          "+1 to Enflame (Sorceress Only)",
-          "+2 to Hydra (Sorceress Only)",
-          "+2 to Frozen Orb (Sorceress Only)",
-          "+38 to Life",
-          "Socketed (1)"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": "weapon1"
+        "Worn": "weapon2"
       }
     ],
     "Inventory": [
@@ -298786,7 +298762,7 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 92,
-      "Experience": 2046201751,
+      "Experience": 2058989252,
       "Strength": 140,
       "Dexterity": 25,
       "Vitality": 255,
@@ -298795,8 +298771,8 @@
       "Life": 1266,
       "BaseMana": 407,
       "Mana": 893,
-      "Gold": 637099,
-      "Stashed": 207152
+      "Gold": 514899,
+      "Stashed": 1997152
     },
     "Bonus": {
       "Strength": 22,
@@ -299062,7 +299038,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "12",
-        "Durability": "18",
+        "Durability": "17",
         "DurabilityMaximum": "18",
         "ItemLevel": "94",
         "LevelReq": 23,
@@ -299097,7 +299073,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "127",
-        "Durability": "21",
+        "Durability": "20",
         "DurabilityMaximum": "24",
         "ItemLevel": "88",
         "LevelReq": 29,
@@ -299129,7 +299105,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "43",
-        "Durability": "18",
+        "Durability": "17",
         "DurabilityMaximum": "18",
         "ItemLevel": "94",
         "LevelReq": 42,
@@ -299435,7 +299411,7 @@
         "Enhanced": "False",
         "Block": "42",
         "Defense": "142",
-        "Durability": "86",
+        "Durability": "85",
         "DurabilityMaximum": "86",
         "ItemLevel": "87",
         "LevelReq": 54,
@@ -299770,33 +299746,6 @@
         },
         "Size": {
           "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1565660760",
-        "QualityCode": "q_magic",
-        "Title": "Lucky Large Charm of Vita",
-        "Tag": "Large Charm",
-        "TextTag": "Charm Medium",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "85",
-        "LevelReq": 50,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+27 to Life",
-          "4% Better Chance of Getting Magic Items"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 2,
           "invwidth": 1
         },
         "Worn": ""
@@ -300218,21 +300167,26 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Full Rejuvenation Potion",
-        "Tag": "Full Rejuvenation Potion",
-        "TextTag": "Full Rejuv Potion",
+        "Quality": "Rare",
+        "ID": "584999014",
+        "QualityCode": "q_rare",
+        "Title": "Bone Eye",
+        "Tag": "Icy Cavern Relic",
+        "TextTag": "Icy Cavern Relic",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
+        "ItemLevel": "92",
+        "LevelReq": 80,
         "SocketCount": "0",
-        "PropertyList": [],
+        "PropertyList": [
+          "15% Chance to cast level 25 Glacial Spike when you Die",
+          "+60% Enhanced Defense",
+          "Replenish Life 29 per second",
+          "Poison Absorb 34%"
+        ],
         "Position": {
-          "x": 7,
-          "y": 4
+          "x": 6,
+          "y": 2
         },
         "Size": {
           "invheight": 1,
@@ -300241,30 +300195,28 @@
         "Worn": ""
       },
       {
-        "Quality": "Rare",
-        "ID": "3229752493",
-        "QualityCode": "q_rare",
-        "Title": "Rune Eye",
-        "Tag": "Decomposing Settlement Relic",
-        "TextTag": "Decomposing Settlement Relic",
+        "Quality": "Magic",
+        "ID": "1565660760",
+        "QualityCode": "q_magic",
+        "Title": "Lucky Large Charm of Vita",
+        "Tag": "Large Charm",
+        "TextTag": "Charm Medium",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "86",
-        "LevelReq": 80,
+        "AlternateGraphics": "1",
+        "ItemLevel": "85",
+        "LevelReq": 50,
         "SocketCount": "0",
         "PropertyList": [
-          "+13% Faster Run/Walk",
-          "Adds 63-100 Lightning damage",
-          "Physical Damage Taken Reduced by 50%",
-          "Physical Damage Taken Reduced by 59",
-          "Magic & Elemental Damage Taken Reduced by 60"
+          "+27 to Life",
+          "4% Better Chance of Getting Magic Items"
         ],
         "Position": {
-          "x": 4,
-          "y": 2
+          "x": 2,
+          "y": 5
         },
         "Size": {
-          "invheight": 1,
+          "invheight": 2,
           "invwidth": 1
         },
         "Worn": ""
@@ -314856,24 +314808,24 @@
       "Vitality": 10,
       "Energy": 483,
       "BaseLife": 238,
-      "Life": 639,
+      "Life": 627,
       "BaseMana": 1115,
-      "Mana": 2184,
+      "Mana": 2172,
       "Gold": 928888,
       "Stashed": 2500000
     },
     "Bonus": {
-      "Strength": 47,
+      "Strength": 41,
       "Dexterity": 4,
       "Vitality": 0,
       "Energy": 15,
-      "FireResistance": 130,
+      "FireResistance": 122,
       "MaximumFireResistance": 0,
-      "ColdResistance": 184,
+      "ColdResistance": 176,
       "MaximumColdResistance": 0,
-      "LightningResistance": 176,
+      "LightningResistance": 168,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 133,
+      "PoisonResistance": 125,
       "MaximumPoisonResistance": 0,
       "MagicFind": 60,
       "GoldFind": 0,
@@ -315879,35 +315831,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "1863617191",
-        "QualityCode": "q_unique",
-        "Title": "Hellfire Torch",
-        "Tag": "Large Charm",
-        "TextTag": "Charm Medium",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "99",
-        "LevelReq": 75,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+3 to Barbarian Skill Levels",
-          "+19 to all Attributes",
-          "All Resistances +20",
-          "+8 to Light Radius"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Magic",
         "ID": "287515397",
         "QualityCode": "q_magic",
@@ -316350,6 +316273,35 @@
         },
         "Size": {
           "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1436211635",
+        "QualityCode": "q_unique",
+        "Title": "Hellfire Torch",
+        "Tag": "Large Charm",
+        "TextTag": "Charm Medium",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "99",
+        "LevelReq": 75,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+3 to Druid Skill Levels",
+          "+13 to all Attributes",
+          "All Resistances +12",
+          "+8 to Light Radius"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 2,
           "invwidth": 1
         },
         "Worn": ""
