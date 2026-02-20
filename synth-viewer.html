@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Synth Item Viewer</title>
+  <style>
+    body {
+      background: #181818;
+      color: #e0d8c0;
+      font-family: 'Georgia', serif;
+      margin: 0;
+      padding: 2em;
+    }
+    h1 {
+      color: #928068;
+      text-align: center;
+      margin-bottom: 1em;
+    }
+    .item-list {
+      max-width: 80%;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+      justify-content: left;
+    }
+    .item-entry {
+      background: #222;
+      border: 1px solid #444;
+      border-radius: 6px;
+      padding: 0.5em 1em;
+      position: relative;
+      cursor: pointer;
+      min-width: 180px;
+      text-align: center;
+      transition: box-shadow 0.2s;
+    }
+    .item-entry:hover {
+      box-shadow: 0 0 12px #ffe06688;
+      z-index: 2;
+    }
+    .item-popup {
+      display: none;
+      position: fixed;
+      left: 50%;
+      top: 20px;
+      transform: translateX(-50%);
+      background: #181818;
+      border: 2px solid #928068;
+      color: #e0d8c0;
+      min-width: 320px;
+      max-width: 400px;
+      padding: 1em;
+      border-radius: 8px;
+      box-shadow: 0 8px 32px #000a;
+      font-size: 1em;
+      white-space: pre-line;
+      z-index: 1000;
+      pointer-events: none;
+    }
+    .item-entry:hover .item-popup {
+      display: block;
+    }
+    .item-title {
+      color: #928068;
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 0.2em;
+      text-shadow: 0 0 4px #000, 0 0 2px #928068;
+    }
+    .item-owner {
+      color: #a0a0ff;
+      font-size: 0.95em;
+      margin-bottom: 0.3em;
+    }
+    .item-property {
+      color: #e0d8c0;
+      margin-left: 0.5em;
+    }
+    .item-corrupted {
+      color: #b00000;
+      font-weight: bold;
+    }
+    .item-label {
+      color: #aaa;
+      font-size: 0.95em;
+      margin-right: 0.3em;
+    }
+    .item-synth {
+      color: #66e0ff;
+      font-size: 0.95em;
+      margin-bottom: 0.2em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Synth Item Viewer</h1>
+  <div class="item-list" id="itemList"></div>
+
+  <script src="synth_inventory.js"></script>
+  <script>
+    // Adapted createItemHTML for synth inventory
+    function createItemHTML(item) {
+      let html = '';
+      html += `<div class='item-title'>${item.title || '(No Title)'}</div>`;
+//      html += `<div class='item-owner'>Owner: ${item.owner || 'Unknown'}</div>`;
+      html += `<div class='item-label'><span>${item.base_type || ''}</span></div>`;
+//      if (item.Quality) html += `<div class='item-label'>Quality:</div> <span>${item.Quality}</span><br>`;
+//      if (item.QualityCode) html += `<div class='item-label'>QualityCode:</div> <span>${item.QualityCode}</span><br>`;
+//      if (item.Ethereal) html += `<div class='item-label'>Ethereal:</div> <span>${item.Ethereal}</span><br>`;
+      if (item.DamageMinimum || item.DamageMaximum) html += `<div class='item-label'>Damage: ${item.DamageMinimum || '?'} - ${item.DamageMaximum || '?'}</div>`;
+      if (item.LevelReq) html += `<div class='item-label'>Level Req: ${item.LevelReq}</div> `;
+//      if (item.SocketCount) html += `<div class='item-label'>Sockets: ${item.SocketCount}<br></div>`;
+//      html += `<div class='item-label'>Location:</div> <span>${item.location || ''}</span><br>`;
+      if (item.properties && item.properties.length > 0) {
+        html += '<hr style="border:1px solid #444;">';
+        item.properties.forEach(prop => {
+          if (/corrupted/i.test(prop)) {
+            html += `<div class='item-corrupted'>Corrupted</div>`;
+          } else {
+            html += `<div class='item-property'>${prop}</div>`;
+          }
+        });
+      }
+      // SOCKETED ITEMS (summary style like viewer.js)
+      if (item.sockets && Array.isArray(item.sockets) && item.sockets.length > 0) {
+        const socketNameCounts = {};
+        item.sockets.forEach(socketedItem => {
+          if (socketedItem?.Title) {
+            let displayName = socketedItem.Title;
+            if (socketedItem.Quality === "Rare" && /jewel/i.test(socketedItem.Tag || "")) {
+              displayName = `Misc. Rare Jewel`;
+            }
+            if (socketedItem.Quality === "Magic" && /jewel/i.test(socketedItem.Tag || "")) {
+              displayName = `Misc. Magic Jewel`;
+            }
+            socketNameCounts[displayName] = (socketNameCounts[displayName] || 0) + 1;
+          }
+        });
+        const socketedSummary = Object.entries(socketNameCounts)
+          .map(([name, count]) => (count > 1 ? `${name} x${count}` : name))
+          .join("<br> ");
+        if (socketedSummary) {
+          html += `<hr style='border:1px solid #444;'><div class='item-sockets'><strong>Socketed With:</strong><br> ${socketedSummary}</div>`;
+        }
+      }
+      if (item.synthesised_from && item.synthesised_from.length > 0) {
+        html += `<br><div class='item-synth'>Synthesized From: ${item.synthesised_from.join(', ')}</div>`;
+      }
+      html += `<div class='item-owner'>Seen on: ${item.seen_date || 'Unknown'}</div>`;
+      return html;
+    }
+
+    // Render synth items
+    // Removed from entry.innerhtml <div style='font-size:0.9em;color:#aaa;'>${item.owner || ''}</div>
+    function renderSynthList() {
+      const list = document.getElementById('itemList');
+      list.innerHTML = '';
+      // Group items by seen_date
+      const grouped = {};
+      synthInventory.forEach(item => {
+        const date = item.seen_date || 'Unknown';
+        if (!grouped[date]) grouped[date] = [];
+        grouped[date].push(item);
+      });
+      // Sort dates descending (newest first)
+      const sortedDates = Object.keys(grouped).sort((a, b) => {
+        if (a === 'Unknown') return 1;
+        if (b === 'Unknown') return -1;
+        return b.localeCompare(a);
+      });
+      sortedDates.forEach(date => {
+        const section = document.createElement('div');
+        section.style.marginBottom = '2em';
+        section.innerHTML = `<h2 style='color:gold;text-align:left;margin-bottom:0.5em;'>Seen on: ${date}</h2>`;
+        grouped[date].forEach(item => {
+          const entry = document.createElement('div');
+          entry.className = 'item-entry';
+          entry.innerHTML = `
+            <div>${item.title || '(No Title)'}</div>
+            <div style='font-size:0.9em;color:#aaa;'>${item.base_type || ''}</div>
+            <div class='item-popup'>${createItemHTML(item)}</div>
+          `;
+          section.appendChild(entry);
+        });
+        list.appendChild(section);
+      });
+    }
+    renderSynthList();
+  </script>
+</body>
+</html>
