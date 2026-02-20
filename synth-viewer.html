@@ -4,6 +4,18 @@
   <meta charset="UTF-8">
   <title>Synth Item Viewer</title>
   <style>
+        .date-section {
+          margin-bottom: 2em;
+        }
+        .date-header {
+          color: gold;
+          text-align: left;
+          margin-bottom: 0.5em;
+          font-size: 2em;
+          font-weight: bold;
+          width: 100%;
+          display: block;
+        }
     body {
       background: #181818;
       color: #e0d8c0;
@@ -17,12 +29,12 @@
       margin-bottom: 1em;
     }
     .item-list {
-      max-width: 80%;
-      margin: 0 auto;
       display: flex;
       flex-wrap: wrap;
       gap: 1em;
-      justify-content: left;
+      justify-content: flex-start;
+      max-width: 1000px;
+      margin: 0 auto;
     }
     .item-entry {
       background: #222;
@@ -34,6 +46,9 @@
       min-width: 180px;
       text-align: center;
       transition: box-shadow 0.2s;
+      flex: 1 1 calc(25% - 1em); /* 4 per row, minus gap */
+      max-width: calc(25% - 1em);
+      box-sizing: border-box;
     }
     .item-entry:hover {
       box-shadow: 0 0 12px #ffe06688;
@@ -182,8 +197,14 @@
       });
       sortedDates.forEach(date => {
         const section = document.createElement('div');
-        section.style.marginBottom = '2em';
-        section.innerHTML = `<h2 style='color:gold;text-align:left;margin-bottom:0.5em;'>Seen on: ${date}</h2>`;
+        section.className = 'date-section';
+        const header = document.createElement('div');
+        header.className = 'date-header';
+        header.textContent = `Seen on: ${date}`;
+        section.appendChild(header);
+        // Create a flex container for items in this date
+        const grid = document.createElement('div');
+        grid.className = 'item-list';
         grouped[date].forEach(item => {
           const entry = document.createElement('div');
           entry.className = 'item-entry';
@@ -192,8 +213,9 @@
             <div style='font-size:0.9em;color:#aaa;'>${item.base_type || ''}</div>
             <div class='item-popup'>${createItemHTML(item)}</div>
           `;
-          section.appendChild(entry);
+          grid.appendChild(entry);
         });
+        section.appendChild(grid);
         list.appendChild(section);
       });
     }

@@ -135,8 +135,8 @@ def extract_synth_items(char, location):
         tag = (item.get('Tag', '') + item.get('TextTag', '')).lower()
         if 'synthesized' in tag:
             sockets = item.get('Sockets', [])
-            if sockets:
-                print(f"DEBUG: Found synth item with sockets: {item.get('Title', '')} | Sockets: {len(sockets)}")
+#            if sockets:
+#                print(f"DEBUG: Found synth item with sockets: {item.get('Title', '')} | Sockets: {len(sockets)}")
             items.append({
                 'id': None,  # to be filled later
                 'friendly_id': None,  # to be filled later
