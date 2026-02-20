@@ -14976,9 +14976,9 @@
       "Vitality": 485,
       "Energy": 25,
       "BaseLife": 1239,
-      "Life": 1911,
+      "Life": 1503,
       "BaseMana": 219,
-      "Mana": 341,
+      "Mana": 623,
       "Gold": 45772,
       "Stashed": 46801
     },
@@ -112449,11 +112449,11 @@
       "Vitality": 435,
       "Energy": 25,
       "BaseLife": 1543,
-      "Life": 2145,
+      "Life": 2162,
       "BaseMana": 166,
       "Mana": 474,
-      "Gold": 893211,
-      "Stashed": 987293
+      "Gold": 0,
+      "Stashed": 1880504
     },
     "Bonus": {
       "Strength": 103,
@@ -113761,33 +113761,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "4169032963",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Burning",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "Adds 3-6 Fire damage"
-        ],
-        "Position": {
-          "x": 5,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "1938954759",
         "QualityCode": "q_magic",
         "Title": "Coral Small Charm of Vita",
@@ -113985,33 +113958,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "2561204353",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Inertia",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "89",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "+7% Faster Run/Walk"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "2901456658",
         "QualityCode": "q_magic",
         "Title": "Entrapping Grand Charm of Life",
@@ -114197,24 +114143,52 @@
         "Worn": ""
       },
       {
+        "Quality": "Rare",
+        "ID": "3777000427",
+        "QualityCode": "q_rare",
+        "Title": "Viper Heart",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "3",
+        "ItemLevel": "87",
+        "LevelReq": 16,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Melee attacks deal splash damage",
+          "+2 to Dexterity",
+          "+3 to Mana after each Kill"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
         "Quality": "Magic",
-        "ID": "1095629179",
+        "ID": "2561204353",
         "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Strength",
+        "Title": "Entrapping Grand Charm of Inertia",
         "Tag": "Grand Charm",
         "TextTag": "Charm Large",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "88",
+        "AlternateGraphics": "1",
+        "ItemLevel": "89",
         "LevelReq": 42,
         "SocketCount": "0",
         "PropertyList": [
           "+1 to Traps (Assassin Only)",
-          "+4 to Strength"
+          "+7% Faster Run/Walk"
         ],
         "Position": {
-          "x": 7,
+          "x": 3,
           "y": 6
         },
         "Size": {
@@ -114241,34 +114215,7 @@
           "+7% Faster Run/Walk"
         ],
         "Position": {
-          "x": 3,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1321119166",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Thunder",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "Adds 1-16 Lightning damage"
-        ],
-        "Position": {
-          "x": 6,
+          "x": 4,
           "y": 6
         },
         "Size": {
@@ -114295,7 +114242,7 @@
           "+12% Faster Hit Recovery"
         ],
         "Position": {
-          "x": 4,
+          "x": 5,
           "y": 6
         },
         "Size": {
@@ -114306,19 +114253,74 @@
       },
       {
         "Quality": "Magic",
-        "ID": "1075343262",
+        "ID": "4169032963",
         "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm",
+        "Title": "Entrapping Grand Charm of Burning",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Traps (Assassin Only)",
+          "Adds 3-6 Fire damage"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1321119166",
+        "QualityCode": "q_magic",
+        "Title": "Entrapping Grand Charm of Thunder",
         "Tag": "Grand Charm",
         "TextTag": "Charm Large",
         "Ethereal": "False",
         "Enhanced": "False",
         "AlternateGraphics": "1",
-        "ItemLevel": "86",
+        "ItemLevel": "88",
         "LevelReq": 42,
         "SocketCount": "0",
         "PropertyList": [
-          "+1 to Traps (Assassin Only)"
+          "+1 to Traps (Assassin Only)",
+          "Adds 1-16 Lightning damage"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1095629179",
+        "QualityCode": "q_magic",
+        "Title": "Entrapping Grand Charm of Strength",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Traps (Assassin Only)",
+          "+4 to Strength"
         ],
         "Position": {
           "x": 8,
@@ -114331,58 +114333,28 @@
         "Worn": ""
       },
       {
-        "Quality": "Superior",
-        "ID": "1269352379",
-        "QualityCode": "q_high",
-        "Title": "Dusk Shroud",
-        "Tag": "Dusk Shroud",
-        "TextTag": "Dusk Shroud",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "468",
-        "Durability": "15",
-        "DurabilityMaximum": "20",
-        "ItemLevel": "87",
-        "LevelReq": 49,
-        "SocketCount": "3",
-        "PropertyList": [
-          "+13% Enhanced Defense",
-          "Socketed (3)"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
-        "ID": "3777000427",
-        "QualityCode": "q_rare",
-        "Title": "Viper Heart",
-        "Tag": "Jewel",
-        "TextTag": "Jewel",
+        "Quality": "Magic",
+        "ID": "2211559538",
+        "QualityCode": "q_magic",
+        "Title": "Entrapping Grand Charm of Life",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "3",
+        "AlternateGraphics": "0",
         "ItemLevel": "87",
-        "LevelReq": 16,
+        "LevelReq": 42,
         "SocketCount": "0",
         "PropertyList": [
-          "Melee attacks deal splash damage",
-          "+2 to Dexterity",
-          "+3 to Mana after each Kill"
+          "+1 to Traps (Assassin Only)",
+          "+16 to Life"
         ],
         "Position": {
           "x": 2,
-          "y": 0
+          "y": 6
         },
         "Size": {
-          "invheight": 1,
+          "invheight": 3,
           "invwidth": 1
         },
         "Worn": ""
@@ -292667,9 +292639,9 @@
       "Vitality": 485,
       "Energy": 25,
       "BaseLife": 1239,
-      "Life": 1911,
+      "Life": 1503,
       "BaseMana": 219,
-      "Mana": 341,
+      "Mana": 623,
       "Gold": 45772,
       "Stashed": 46801
     },
@@ -366116,11 +366088,11 @@
       "Vitality": 435,
       "Energy": 25,
       "BaseLife": 1543,
-      "Life": 2145,
+      "Life": 2162,
       "BaseMana": 166,
       "Mana": 474,
-      "Gold": 893211,
-      "Stashed": 987293
+      "Gold": 0,
+      "Stashed": 1880504
     },
     "Bonus": {
       "Strength": 103,
@@ -367428,33 +367400,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "4169032963",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Burning",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "Adds 3-6 Fire damage"
-        ],
-        "Position": {
-          "x": 5,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "1938954759",
         "QualityCode": "q_magic",
         "Title": "Coral Small Charm of Vita",
@@ -367652,33 +367597,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "2561204353",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Inertia",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "89",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "+7% Faster Run/Walk"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "2901456658",
         "QualityCode": "q_magic",
         "Title": "Entrapping Grand Charm of Life",
@@ -367864,24 +367782,52 @@
         "Worn": ""
       },
       {
+        "Quality": "Rare",
+        "ID": "3777000427",
+        "QualityCode": "q_rare",
+        "Title": "Viper Heart",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "3",
+        "ItemLevel": "87",
+        "LevelReq": 16,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Melee attacks deal splash damage",
+          "+2 to Dexterity",
+          "+3 to Mana after each Kill"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
         "Quality": "Magic",
-        "ID": "1095629179",
+        "ID": "2561204353",
         "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Strength",
+        "Title": "Entrapping Grand Charm of Inertia",
         "Tag": "Grand Charm",
         "TextTag": "Charm Large",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "88",
+        "AlternateGraphics": "1",
+        "ItemLevel": "89",
         "LevelReq": 42,
         "SocketCount": "0",
         "PropertyList": [
           "+1 to Traps (Assassin Only)",
-          "+4 to Strength"
+          "+7% Faster Run/Walk"
         ],
         "Position": {
-          "x": 7,
+          "x": 3,
           "y": 6
         },
         "Size": {
@@ -367908,34 +367854,7 @@
           "+7% Faster Run/Walk"
         ],
         "Position": {
-          "x": 3,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1321119166",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Thunder",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "Adds 1-16 Lightning damage"
-        ],
-        "Position": {
-          "x": 6,
+          "x": 4,
           "y": 6
         },
         "Size": {
@@ -367962,7 +367881,7 @@
           "+12% Faster Hit Recovery"
         ],
         "Position": {
-          "x": 4,
+          "x": 5,
           "y": 6
         },
         "Size": {
@@ -367973,19 +367892,74 @@
       },
       {
         "Quality": "Magic",
-        "ID": "1075343262",
+        "ID": "4169032963",
         "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm",
+        "Title": "Entrapping Grand Charm of Burning",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Traps (Assassin Only)",
+          "Adds 3-6 Fire damage"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1321119166",
+        "QualityCode": "q_magic",
+        "Title": "Entrapping Grand Charm of Thunder",
         "Tag": "Grand Charm",
         "TextTag": "Charm Large",
         "Ethereal": "False",
         "Enhanced": "False",
         "AlternateGraphics": "1",
-        "ItemLevel": "86",
+        "ItemLevel": "88",
         "LevelReq": 42,
         "SocketCount": "0",
         "PropertyList": [
-          "+1 to Traps (Assassin Only)"
+          "+1 to Traps (Assassin Only)",
+          "Adds 1-16 Lightning damage"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1095629179",
+        "QualityCode": "q_magic",
+        "Title": "Entrapping Grand Charm of Strength",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Traps (Assassin Only)",
+          "+4 to Strength"
         ],
         "Position": {
           "x": 8,
@@ -367998,58 +367972,28 @@
         "Worn": ""
       },
       {
-        "Quality": "Superior",
-        "ID": "1269352379",
-        "QualityCode": "q_high",
-        "Title": "Dusk Shroud",
-        "Tag": "Dusk Shroud",
-        "TextTag": "Dusk Shroud",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "468",
-        "Durability": "15",
-        "DurabilityMaximum": "20",
-        "ItemLevel": "87",
-        "LevelReq": 49,
-        "SocketCount": "3",
-        "PropertyList": [
-          "+13% Enhanced Defense",
-          "Socketed (3)"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
-        "ID": "3777000427",
-        "QualityCode": "q_rare",
-        "Title": "Viper Heart",
-        "Tag": "Jewel",
-        "TextTag": "Jewel",
+        "Quality": "Magic",
+        "ID": "2211559538",
+        "QualityCode": "q_magic",
+        "Title": "Entrapping Grand Charm of Life",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "3",
+        "AlternateGraphics": "0",
         "ItemLevel": "87",
-        "LevelReq": 16,
+        "LevelReq": 42,
         "SocketCount": "0",
         "PropertyList": [
-          "Melee attacks deal splash damage",
-          "+2 to Dexterity",
-          "+3 to Mana after each Kill"
+          "+1 to Traps (Assassin Only)",
+          "+16 to Life"
         ],
         "Position": {
           "x": 2,
-          "y": 0
+          "y": 6
         },
         "Size": {
-          "invheight": 1,
+          "invheight": 3,
           "invwidth": 1
         },
         "Worn": ""
