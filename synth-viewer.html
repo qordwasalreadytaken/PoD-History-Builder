@@ -81,8 +81,18 @@
       color: #b00000;
       font-weight: bold;
     }
+    .item-subtitle {
+      color: #928068;
+      font-size: 0.95em;
+      margin-right: 0.3em;
+    }
     .item-label {
-      color: #aaa;
+      color: white;
+      font-size: 0.95em;
+      margin-right: 0.3em;
+    }
+    .item-properties {
+      color: blue;
       font-size: 0.95em;
       margin-right: 0.3em;
     }
@@ -104,12 +114,13 @@
       let html = '';
       html += `<div class='item-title'>${item.title || '(No Title)'}</div>`;
 //      html += `<div class='item-owner'>Owner: ${item.owner || 'Unknown'}</div>`;
-      html += `<div class='item-label'><span>${item.base_type || ''}</span></div>`;
+      html += `<div class='item-subtitle'><span>${item.base_type || ''}</span></div>`;
 //      if (item.Quality) html += `<div class='item-label'>Quality:</div> <span>${item.Quality}</span><br>`;
 //      if (item.QualityCode) html += `<div class='item-label'>QualityCode:</div> <span>${item.QualityCode}</span><br>`;
 //      if (item.Ethereal) html += `<div class='item-label'>Ethereal:</div> <span>${item.Ethereal}</span><br>`;
       if (item.DamageMinimum || item.DamageMaximum) html += `<div class='item-label'>Damage: ${item.DamageMinimum || '?'} - ${item.DamageMaximum || '?'}</div>`;
       if (item.LevelReq) html += `<div class='item-label'>Level Req: ${item.LevelReq}</div> `;
+      if (item.location === "Equipped") html += `<div class='item-label'>Equipped by ${item.owner || 'Unknown'}</div> `;
 //      if (item.SocketCount) html += `<div class='item-label'>Sockets: ${item.SocketCount}<br></div>`;
 //      html += `<div class='item-label'>Location:</div> <span>${item.location || ''}</span><br>`;
       if (item.properties && item.properties.length > 0) {
@@ -118,7 +129,7 @@
           if (/corrupted/i.test(prop)) {
             html += `<div class='item-corrupted'>Corrupted</div>`;
           } else {
-            html += `<div class='item-property'>${prop}</div>`;
+            html += `<div class='item-properties'>${prop}</div>`;
           }
         });
       }
