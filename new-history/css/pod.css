@@ -1,3 +1,9 @@
+#snaps .snapshot-btn.active {
+    background: #444;
+    color: #fff;
+    font-weight: bold;
+    border: 2px solid #888;
+}
 * {
     margin: 0;
     padding: 0;
@@ -42,7 +48,7 @@ html, body {
     height: calc(100vh - 80px); /* adjust for header height */
 }
 
-#snaps {
+ #snaps {
     width: 320px;
     min-width: 220px;
     max-width: 400px;
@@ -53,6 +59,13 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    /* Remove scrolling from #snaps itself */
+}
+
+#snapshotList {
+    overflow-y: auto;
+    flex: 1 1 auto;
+    max-height: 60vh;
 }
 
 #snaps input[type="text"] {
@@ -167,7 +180,7 @@ div, span {
 /* General tooltip style - 20px below the top of the page */
 .itemhover-box {
     position: fixed;
-    top: 10px;
+    top: 95px;
     left: 50%;
     transform: translateX(-50%);
     background-color: black;

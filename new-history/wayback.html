@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PoD Twitch Armory</title>
+    <title>PoD Wayback Machine</title>
     <link rel="stylesheet" type="text/css" href="./css/pod.css" />
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
@@ -233,15 +233,24 @@ $(document).ready(function() {
         fetch('./character_index.json')
             .then(resp => resp.json())
             .then(index => {
-                if (!(name in index)) {
+                // Case-insensitive search
+                const lowerName = name.toLowerCase();
+                const foundKey = Object.keys(index).find(k => k.toLowerCase() === lowerName);
+                if (!foundKey) {
                     $('#snapshotList').html('<div style="color:#c00">No snapshots found for <b>' + name + '</b>.</div>');
                     return;
                 }
-                // List snapshots
-                const snapshots = index[name];
-                let html = '<div>Snapshots for <b>' + name + '</b>:</div><ul style="margin-top:8px">';
+                // List snapshots, sorted newest to oldest
+                const snapshots = index[foundKey].slice();
+                snapshots.sort((a, b) => b.date.localeCompare(a.date));
+                let html = '<div>Snapshots for <b>' + foundKey + '</b>:</div><ul style="margin-top:8px">';
+                // Determine current snapshot from URL
+                const params = new URLSearchParams(window.location.search);
+                const snapshotShort = params.get('s');
                 snapshots.forEach(snap => {
-                    html += `<li><button class="snapshot-btn" data-file="${snap.file}" data-name="${name}">${snap.date} (${snap.mode})</button></li>`;
+                    const snapShort = snap.file.replace(/_ladder\.json$/, '');
+                    const active = snapShort === snapshotShort ? ' active' : '';
+                    html += `<li><button class=\"snapshot-btn${active}\" data-file=\"${snap.file}\" data-name=\"${foundKey}\">${snap.date} (${snap.mode})</button></li>`;
                 });
                 html += '</ul>';
                 $('#snapshotList').html(html);
@@ -255,8 +264,19 @@ $(document).ready(function() {
     $('#snapshotList').on('click', '.snapshot-btn', function() {
         const file = $(this).data('file');
         const name = $(this).data('name');
-        // Fetch the snapshot file
-        fetch('./dailies/' + file)
+        // Highlight the selected snapshot button
+        $('#snapshotList .snapshot-btn').removeClass('active');
+        $(this).addClass('active');
+        // Shorten file param for URL (remove _ladder.json)
+        const shortFile = file.replace(/_ladder\.json$/, '');
+        const params = new URLSearchParams(window.location.search);
+        params.set('c', name);
+        params.set('s', shortFile);
+        const newUrl = window.location.pathname + '?' + params.toString();
+        window.history.pushState({}, '', newUrl);
+        // Reconstruct filename for fetch
+        const fullFile = shortFile + '_ladder.json';
+        fetch('./dailies/' + fullFile)
             .then(resp => resp.json())
             .then(data => {
                 // Find character in snapshot
@@ -271,7 +291,45 @@ $(document).ready(function() {
             .catch(() => {
                 $('#main .scroll').html('<div style="color:#c00">Error loading snapshot file.</div>');
             });
-    });        
+    });
+    // On page load, check for ?c= and ?s= params and auto-load snapshot if present
+    (function() {
+        const params = new URLSearchParams(window.location.search);
+        const charName = params.get('c');
+        const snapshotShort = params.get('s');
+        if (charName && snapshotShort) {
+            // Fill search box
+            $('#characterSearchInput').val(charName);
+            // Fetch and display snapshot list for this character
+            fetch('./character_index.json')
+                .then(resp => resp.json())
+                .then(index => {
+                    const lowerName = charName.toLowerCase();
+                    const foundKey = Object.keys(index).find(k => k.toLowerCase() === lowerName);
+                    if (!foundKey) return;
+                    const snapshots = index[foundKey].slice();
+                    snapshots.sort((a, b) => b.date.localeCompare(a.date));
+                    let html = '<div>Snapshots for <b>' + foundKey + '</b>:</div><ul style="margin-top:8px">';
+                    snapshots.forEach(snap => {
+                        // Mark active snapshot
+                        const snapShort = snap.file.replace(/_ladder\.json$/, '');
+                        const active = snapShort === snapshotShort ? ' active' : '';
+                        html += `<li><button class=\"snapshot-btn${active}\" data-file=\"${snap.file}\" data-name=\"${foundKey}\">${snap.date} (${snap.mode})</button></li>`;
+                    });
+                    html += '</ul>';
+                    $('#snapshotList').html(html);
+                    // Fetch the snapshot file and display character
+                    const fullFile = snapshotShort + '_ladder.json';
+                    fetch('./dailies/' + fullFile)
+                        .then(resp => resp.json())
+                        .then(data => {
+                            const char = data.find(c => c.Name === foundKey);
+                            if (!char) return;
+                            processCharacterData(char);
+                        });
+                });
+        }
+    })();
 
 document.addEventListener("DOMContentLoaded", function() {
     initializeCharacterSections();
@@ -323,6 +381,20 @@ async function processCharacterData(characterData) {
 }
    
 function updatePODComponent(data) {
+    $("#hover-container-weapon1").empty();
+    $("#hover-container-helmet").empty();
+    $("#hover-container-amulet").empty();
+    $("#hover-container-ring1").empty();
+    $("#hover-container-ring2").empty();
+    $("#hover-container-body").empty();
+    $("#hover-container-belt").empty();
+    $("#hover-container-gloves").empty();
+    $("#hover-container-boots").empty();
+    $("#hover-container-weapon2").empty();
+    $("#merc-hover-container-weapon1").empty();
+    $("#merc-hover-container-helmet").empty();
+    $("#merc-hover-container-body").empty();
+    $("#merc-hover-container-weapon2").empty();    
   if (data && data.Stats) {
   // Character information
   $("#title").text(data["Title"]);
