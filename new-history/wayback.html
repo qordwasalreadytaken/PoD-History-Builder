@@ -224,6 +224,21 @@ $(document).ready(function() {
     });
 
     $('#characterSearchButton').on('click', function() {
+        $("#hover-container-weapon1").empty();
+        $("#hover-container-helmet").empty();
+        $("#hover-container-amulet").empty();
+        $("#hover-container-ring1").empty();
+        $("#hover-container-ring2").empty();
+        $("#hover-container-body").empty();
+        $("#hover-container-belt").empty();
+        $("#hover-container-gloves").empty();
+        $("#hover-container-boots").empty();
+        $("#hover-container-weapon2").empty();
+        $("#merc-hover-container-weapon1").empty();
+        $("#merc-hover-container-helmet").empty();
+        $("#merc-hover-container-body").empty();
+        $("#merc-hover-container-weapon2").empty();    
+
         const name = $('#characterSearchInput').val().trim();
         if (!name) {
             $('#snapshotList').html('<div style="color:#c00">Please enter a character name.</div>');
