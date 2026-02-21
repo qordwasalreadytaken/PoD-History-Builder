@@ -181,7 +181,7 @@ div, span {
 .itemhover-box {
     position: fixed;
     top: 95px;
-    left: 50%;
+    left: 49%;
     transform: translateX(-50%);
     background-color: black;
     color: #c0a080;
@@ -191,6 +191,7 @@ div, span {
     border: 2px solid #c0a080;
     max-width: 580px;
     text-align: center;
+    transform: translateX(-50%);
     z-index: 1000;
     visibility: hidden;
     opacity: 0;
