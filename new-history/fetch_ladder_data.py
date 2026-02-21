@@ -1,0 +1,201 @@
+import requests
+import json
+import os
+import time
+from collections import Counter
+import matplotlib.pyplot as plt
+from datetime import datetime
+import pprint
+pp = pprint.PrettyPrinter(indent=4)
+import matplotlib.pyplot as plt
+from matplotlib.font_manager import FontProperties
+import glob
+
+def create_character_index():
+    """Scan all dailies/*.json files and build a character index mapping character names to snapshot files."""
+    dailies_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'dailies')
+    index = {}
+    for json_file in glob.glob(os.path.join(dailies_dir, '*.json')):
+        # Extract date/mode from filename
+        filename = os.path.basename(json_file)
+        date_part = filename.split('-')[0:3]
+        date = '-'.join(date_part)
+        mode = 'Hardcore' if 'hc_' in filename else 'Softcore'
+        try:
+            with open(json_file, 'r') as f:
+                data = json.load(f)
+                for char in data:
+                    name = char.get('Name')
+                    if not name:
+                        continue
+                    entry = { 'file': filename, 'date': date, 'mode': mode }
+                    if name not in index:
+                        index[name] = []
+                    index[name].append(entry)
+        except Exception as e:
+            print(f"Error reading {filename}: {e}")
+    # Save index
+    index_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'character_index.json')
+    with open(index_path, 'w') as f:
+        json.dump(index, f, indent=2)
+    print(f"✅ Character index created with {len(index)} characters.")
+
+
+def fetch_ladder_characters(base_ladder_url, start_page=1, end_page=5):
+    all_characters = []
+    for page in range(start_page, end_page + 1):
+        url = f"{base_ladder_url}{page}"
+        print(f"Fetching {url}")
+        response = requests.get(url)
+        if response.status_code == 200:
+            data = response.json()
+            all_characters.extend(data.get("ladder", []))
+        else:
+            print(f"⚠️ Failed to fetch page {page}: {response.status_code}")
+    return all_characters
+
+def fetch_1kladder_characters(base_ladder_url, pages):
+    """Fetch all characters from multiple pages of the ladder."""
+    all_characters = []
+    for page in range(0, pages + 1):
+        ladder_url = f"{base_ladder_url}{page}"
+        print(f"Fetching {ladder_url}")
+        response = requests.get(ladder_url)
+        if response.status_code == 200:
+            ladder_data = response.json()
+            all_characters.extend(ladder_data.get("ladder", []))
+        else:
+            print(f"⚠️ Failed to fetch page {page}: {response.status_code}")
+    return all_characters
+
+
+def GetAllCharData():
+    base_ladder_url = "https://beta.pathofdiablo.com/api/ladder/13/0/"  # Softcore
+    char_url = "https://beta.pathofdiablo.com/api/characters/{char_name}/summary"
+
+    # Step 1: Fetch top 1,000 characters (pages 0 to 5)
+    all_characters = fetch_ladder_characters(f"{base_ladder_url}0/", start_page=0, end_page=5)
+#    all_characters = fetch_ladder_characters(base_ladder_url, start_page=0, end_page=5)
+#    all_characters = fetch_ladder_characters(base_ladder_url, start_page=1, end_page=5)
+    top_1000_characters = {char["charName"]: char for char in all_characters}.values()
+
+    # Step 3: Continue with class-specific characters
+    classes = {
+        "Amazon": "1/",
+        "Assassin": "7/",
+        "Barbarian": "5/",
+        "Druid": "6/",
+        "Necromancer": "3/",
+        "Paladin": "4/",
+        "Sorceress": "2/"
+    }
+
+    for class_name, api_suffix in classes.items():
+        class_ladder_url = f"{base_ladder_url}{api_suffix}"
+        class_characters = fetch_ladder_characters(class_ladder_url, 1)
+        all_characters.extend(class_characters)  # Combine lists
+
+    # Step 4: Remove duplicates by character name
+    unique_characters = {char["charName"]: char for char in all_characters}.values()
+
+    # Step 5: Fetch complete character data
+    character_data = []
+    for character in unique_characters:
+        char_name = character.get("charName", "unknown")
+        char_id = character.get("id", None)
+
+        if char_name == "unknown":
+            char_name = f"unknown_{char_id or int(time.time() * 1000)}"
+
+        response = requests.get(char_url.format(char_name=char_name))
+        if response.status_code == 200:
+            character_data.append(response.json())
+        else:
+            print(f"⚠️ Failed to fetch character: {char_name}")
+
+    # Step 6: Save the extended character list
+    with open("sc_ladder.json", "w") as file:
+        json.dump(character_data, file, indent=2)
+
+    print(f"✅ Saved {len(character_data)} characters to sc_ladder.json (top 1,000 + class-specific)")
+
+
+def GetAllHCCharData():
+    base_ladder_url = "https://beta.pathofdiablo.com/api/ladder/13/1/"  # Softcore
+    char_url = "https://beta.pathofdiablo.com/api/characters/{char_name}/summary"
+
+    # Fetch top 1,000 characters
+#    all_characters = fetch_ladder_characters(f"{base_ladder_url}0/", 5)
+    all_characters = fetch_ladder_characters(base_ladder_url, start_page=0, end_page=5)
+
+    # Fetch top 200 per class
+    classes = {
+        "Amazon": "1/",
+        "Assassin": "7/",
+        "Barbarian": "5/",
+        "Druid": "6/",
+        "Necromancer": "3/",
+        "Paladin": "4/",
+        "Sorceress": "2/"
+    }
+
+    for class_name, api_suffix in classes.items():
+#        class_ladder_url = f"{base_ladder_url[:-2]}{api_suffix}"  # Adjusting URL for class-specific calls
+        class_ladder_url = f"{base_ladder_url}{api_suffix}"  # Adjusting URL for class-specific calls
+        class_characters = fetch_ladder_characters(class_ladder_url, 1)  # Only one page needed
+        all_characters.extend(class_characters)
+
+    # Remove duplicates (some characters appear in both top 1,000 and top 200 class rankings)
+    unique_characters = {char["charName"]: char for char in all_characters}.values()
+
+    character_data = []
+    for character in unique_characters:
+        char_name = character.get("charName", "unknown")
+        char_id = character.get("id", None)
+
+        if char_name == "unknown":
+            char_name = f"unknown_{char_id or int(time.time() * 1000)}"
+
+        response = requests.get(char_url.format(char_name=char_name))
+        if response.status_code == 200:
+            character_data.append(response.json())
+        else:
+            print(f"⚠️ Failed to fetch character: https://beta.pathofdiablo.com/api/characters/{char_name}/summary")
+
+    # Save as one big JSON
+    with open("hc_ladder.json", "w") as file:
+        json.dump(character_data, file, indent=2)
+
+    print(f"✅ Saved {len(character_data)} unique characters to hc_ladder.json")
+
+def copy_ladders_to_dailies():
+    """Copy sc_ladder.json and hc_ladder.json to dailies/ with a date-stamped filename."""
+    now = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    new_history_dir = script_dir
+    dailies_dir = os.path.join(new_history_dir, 'dailies')
+    os.makedirs(dailies_dir, exist_ok=True)
+    for base in ['sc_ladder.json', 'hc_ladder.json']:
+        src = os.path.join(new_history_dir, base)
+        if os.path.exists(src):
+            if base.startswith('sc_'):
+                dst = os.path.join(dailies_dir, f"{now}-sc_ladder.json")
+            elif base.startswith('hc_'):
+                dst = os.path.join(dailies_dir, f"{now}-hc_ladder.json")
+            else:
+                continue
+            import shutil
+            shutil.copy2(src, dst)
+            print(f"Copied {src} to {dst}")
+    # After copying, update the character index
+    create_character_index()
+
+
+def main():
+#    GetAllCharData()
+#    GetAllHCCharData()
+    copy_ladders_to_dailies()
+#    create_character_index()
+
+if __name__ == "__main__":
+    main()
