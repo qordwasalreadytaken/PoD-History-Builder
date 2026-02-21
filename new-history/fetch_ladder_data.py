@@ -192,10 +192,10 @@ def copy_ladders_to_dailies():
 
 
 def main():
-#    GetAllCharData()
-#    GetAllHCCharData()
-#    copy_ladders_to_dailies()
-    create_character_index()
+    GetAllCharData()
+    GetAllHCCharData()
+    copy_ladders_to_dailies()
+#    create_character_index()
 
 if __name__ == "__main__":
     main()
