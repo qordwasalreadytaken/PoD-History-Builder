@@ -11,6 +11,17 @@ import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 import glob
 
+# Define snapshot directory for per-character history
+SNAPSHOT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'snapshots')
+os.makedirs(SNAPSHOT_DIR, exist_ok=True)
+
+def save_character_history(char_name, history):
+    path = os.path.join(SNAPSHOT_DIR, f'{char_name}.json')
+    # Save all snapshot files in lowercase
+    path = os.path.join(SNAPSHOT_DIR, f'{char_name.lower()}.json')
+    with open(path, 'w') as f:
+        json.dump(history, f, indent=2)
+
 def create_character_index():
     """Scan all dailies/*.json files and build a character index mapping character names to snapshot files."""
     dailies_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'dailies')
@@ -191,11 +202,46 @@ def copy_ladders_to_dailies():
     create_character_index()
 
 
+def character_changed(new_data, last_data):
+    # Compare all relevant fields; customize as needed
+    return new_data != last_data
+
+def load_character_history(char_name):
+    path = os.path.join(SNAPSHOT_DIR, f'{char_name}.json')
+    # Always load using lowercase filename
+    path = os.path.join(SNAPSHOT_DIR, f'{char_name.lower()}.json')
+    if os.path.exists(path):
+        with open(path, 'r') as f:
+            return json.load(f)
+    return []
+
+def process_characters(characters):
+    timestamp = datetime.utcnow().isoformat() + 'Z'
+    for char_name, char_data in characters.items():
+        history = load_character_history(char_name)
+        last_snapshot = history[-1]['data'] if history else None
+        if last_snapshot is None or character_changed(char_data, last_snapshot):
+            history.append({
+                'timestamp': timestamp,
+                'data': char_data
+            })
+            save_character_history(char_name, history)
+
+# Example usage: load your character data from ladder JSONs
 def main():
     GetAllCharData()
     GetAllHCCharData()
     copy_ladders_to_dailies()
 #    create_character_index()
+    all_characters = {}
+    for ladder_file in ["sc_ladder.json", "hc_ladder.json"]:
+        if os.path.exists(ladder_file):
+            with open(ladder_file, "r") as f:
+                for char in json.load(f):
+                    char_name = char.get("charName") or char.get("Name")
+                    if char_name:
+                        all_characters[char_name] = char
+    process_characters(all_characters)
 
 if __name__ == "__main__":
     main()

@@ -245,104 +245,101 @@ $(document).ready(function() {
             $('#snapshotList').html('<div style="color:#c00">Please enter a character name.</div>');
             return;
         }
-        // Fetch character_index.json
-        fetch('./character_index.json')
-            .then(resp => resp.json())
-            .then(index => {
-                // Case-insensitive search
-                const lowerName = name.toLowerCase();
-                const foundKey = Object.keys(index).find(k => k.toLowerCase() === lowerName);
-                if (!foundKey) {
+        // Case-insensitive search for snapshot file
+        fetch('./snapshots/')
+            .then(resp => resp.text())
+            .then(html => {
+                // Parse directory listing for filenames (works if directory listing is enabled)
+                const matches = html.match(/href="([^"]+\.json)"/gi) || [];
+                const files = matches.map(m => m.replace(/href=|"/g, ''));
+                const foundFile = files.find(f => f.replace(/\.json$/i, '').toLowerCase() === name.toLowerCase());
+                if (!foundFile) {
                     $('#snapshotList').html('<div style="color:#c00">No snapshots found for <b>' + name + '</b>.</div>');
                     return;
                 }
-                // List snapshots, sorted newest to oldest
-                const snapshots = index[foundKey].slice();
-                snapshots.sort((a, b) => b.date.localeCompare(a.date));
-                let html = '<div>Snapshots for <b>' + foundKey + '</b>:</div><ul style="margin-top:8px">';
-                // Determine current snapshot from URL
-                const params = new URLSearchParams(window.location.search);
-                const snapshotShort = params.get('s');
-                snapshots.forEach(snap => {
-                    const snapShort = snap.file.replace(/_ladder\.json$/, '');
-                    const active = snapShort === snapshotShort ? ' active' : '';
-                    html += `<li><button class=\"snapshot-btn${active}\" data-file=\"${snap.file}\" data-name=\"${foundKey}\">${snap.date} (${snap.mode})</button></li>`;
-                });
-                html += '</ul>';
-                $('#snapshotList').html(html);
+                fetch(`./snapshots/${foundFile}`)
+                    .then(resp => {
+                        if (!resp.ok) throw new Error('Not found');
+                        return resp.json();
+                    })
+                    .then(history => {
+                        if (!Array.isArray(history) || history.length === 0) {
+                            $('#snapshotList').html('<div style="color:#c00">No snapshots found for <b>' + name + '</b>.</div>');
+                            return;
+                        }
+                        // List snapshots, sorted newest to oldest
+                        const snapshots = history.slice().sort((a, b) => b.timestamp.localeCompare(a.timestamp));
+                        let html = '<div>Snapshots for <b>' + name + '</b>:</div><ul style="margin-top:8px">';
+                        const params = new URLSearchParams(window.location.search);
+                        const snapshotTime = params.get('t');
+                        snapshots.forEach((snap, idx) => {
+                            const active = snap.timestamp === snapshotTime ? ' active' : '';
+                            html += `<li><button class=\"snapshot-btn${active}\" data-timestamp=\"${snap.timestamp}\" data-name=\"${name}\">${snap.timestamp}</button></li>`;
+                        });
+                        html += '</ul>';
+                        $('#snapshotList').html(html);
+                    });
             })
             .catch(() => {
-                $('#snapshotList').html('<div style="color:#c00">Error loading character index.</div>');
+                $('#snapshotList').html('<div style="color:#c00">No snapshots found for <b>' + name + '</b>.</div>');
             });
     });
 
     // Handle snapshot selection
     $('#snapshotList').on('click', '.snapshot-btn', function() {
-        const file = $(this).data('file');
+        const timestamp = $(this).data('timestamp');
         const name = $(this).data('name');
         // Highlight the selected snapshot button
         $('#snapshotList .snapshot-btn').removeClass('active');
         $(this).addClass('active');
-        // Shorten file param for URL (remove _ladder.json)
-        const shortFile = file.replace(/_ladder\.json$/, '');
+        // Update URL
         const params = new URLSearchParams(window.location.search);
         params.set('c', name);
-        params.set('s', shortFile);
+        params.set('t', timestamp);
         const newUrl = window.location.pathname + '?' + params.toString();
         window.history.pushState({}, '', newUrl);
-        // Reconstruct filename for fetch
-        const fullFile = shortFile + '_ladder.json';
-        fetch('./dailies/' + fullFile)
-            .then(resp => resp.json())
-            .then(data => {
-                // Find character in snapshot
-                const char = data.find(c => c.Name === name);
-                if (!char) {
-                    $('#main .scroll').html('<div style="color:#c00">Character not found in snapshot.</div>');
+        // Fetch the per-character file and display the selected snapshot (always lowercase)
+        fetch(`./snapshots/${name.toLowerCase()}.json`)
+            .then(resp => {
+                if (!resp.ok) throw new Error('Not found');
+                return resp.json();
+            })
+            .then(history => {
+                const snap = history.find(s => s.timestamp === timestamp);
+                if (!snap) {
+                    $('#main .scroll').html('<div style="color:#c00">Snapshot not found.</div>');
                     return;
                 }
-                // Use existing UI update logic
-                processCharacterData(char);
+                processCharacterData(snap.data);
             })
             .catch(() => {
                 $('#main .scroll').html('<div style="color:#c00">Error loading snapshot file.</div>');
             });
     });
-    // On page load, check for ?c= and ?s= params and auto-load snapshot if present
+    // On page load, check for ?c= and ?t= params and auto-load snapshot if present
     (function() {
         const params = new URLSearchParams(window.location.search);
         const charName = params.get('c');
-        const snapshotShort = params.get('s');
-        if (charName && snapshotShort) {
+        const timestamp = params.get('t');
+        if (charName && timestamp) {
             // Fill search box
             $('#characterSearchInput').val(charName);
             // Fetch and display snapshot list for this character
-            fetch('./character_index.json')
+            fetch(`./snapshots/${charName.toLowerCase()}.json`)
                 .then(resp => resp.json())
-                .then(index => {
-                    const lowerName = charName.toLowerCase();
-                    const foundKey = Object.keys(index).find(k => k.toLowerCase() === lowerName);
-                    if (!foundKey) return;
-                    const snapshots = index[foundKey].slice();
-                    snapshots.sort((a, b) => b.date.localeCompare(a.date));
-                    let html = '<div>Snapshots for <b>' + foundKey + '</b>:</div><ul style="margin-top:8px">';
+                .then(history => {
+                    if (!Array.isArray(history) || history.length === 0) return;
+                    const snapshots = history.slice().sort((a, b) => b.timestamp.localeCompare(a.timestamp));
+                    let html = '<div>Snapshots for <b>' + charName + '</b>:</div><ul style="margin-top:8px">';
                     snapshots.forEach(snap => {
-                        // Mark active snapshot
-                        const snapShort = snap.file.replace(/_ladder\.json$/, '');
-                        const active = snapShort === snapshotShort ? ' active' : '';
-                        html += `<li><button class=\"snapshot-btn${active}\" data-file=\"${snap.file}\" data-name=\"${foundKey}\">${snap.date} (${snap.mode})</button></li>`;
+                        const active = snap.timestamp === timestamp ? ' active' : '';
+                        html += `<li><button class=\"snapshot-btn${active}\" data-timestamp=\"${snap.timestamp}\" data-name=\"${charName}\">${snap.timestamp}</button></li>`;
                     });
                     html += '</ul>';
                     $('#snapshotList').html(html);
-                    // Fetch the snapshot file and display character
-                    const fullFile = snapshotShort + '_ladder.json';
-                    fetch('./dailies/' + fullFile)
-                        .then(resp => resp.json())
-                        .then(data => {
-                            const char = data.find(c => c.Name === foundKey);
-                            if (!char) return;
-                            processCharacterData(char);
-                        });
+                    // Display the selected snapshot
+                    const snap = history.find(s => s.timestamp === timestamp);
+                    if (snap) processCharacterData(snap.data);
                 });
         }
     })();
