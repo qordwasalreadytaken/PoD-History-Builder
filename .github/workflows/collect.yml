@@ -35,10 +35,13 @@ jobs:
       - name: Generate respec leaderboard
         run: python track_respecs.py
 
+      - name: Generate synth inventory
+        run: python synth-inventory.py
+
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 🔁 Hourly update snapshots and respec leaderboard
+          commit_message: 🔁 Hourly update snapshots, respec leaderboard, and synth inventory
           commit_user_name: github-actions[bot]
           commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
         env:
