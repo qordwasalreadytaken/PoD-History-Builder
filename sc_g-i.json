@@ -15004,7 +15004,7 @@
       "OpenWounds": 0,
       "DeadlyStrike": 0,
       "DamageReduction": 10,
-      "CooldownReduction": 10,
+      "CooldownReduction": 0,
       "WeaponSetMain": {
         "Strength": 0,
         "Dexterity": 0,
@@ -15325,40 +15325,6 @@
           "invwidth": 1
         },
         "Worn": "amulet"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "3843539032",
-        "QualityCode": "q_unique",
-        "Title": "Silkweave",
-        "Tag": "Mesh Boots",
-        "TextTag": "Mesh Boots",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "45",
-        "Durability": "10",
-        "DurabilityMaximum": "16",
-        "ItemLevel": "87",
-        "LevelReq": 36,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+30% Faster Run/Walk",
-          "+153% Enhanced Defense",
-          "+200 Defense vs. Missile",
-          "Increase Maximum Mana 10%",
-          "+5 to Mana after each Kill",
-          "10% Reduced Skill Cooldown"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "boots"
       },
       {
         "Quality": "Normal",
@@ -15741,6 +15707,39 @@
           "invwidth": 2
         },
         "Worn": "sweapon2"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1780769189",
+        "QualityCode": "q_unique",
+        "Title": "Silkweave",
+        "Tag": "Mesh Boots",
+        "TextTag": "Mesh Boots",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "45",
+        "Durability": "15",
+        "DurabilityMaximum": "16",
+        "ItemLevel": "88",
+        "LevelReq": 36,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+30% Faster Run/Walk",
+          "+157% Enhanced Defense",
+          "+200 Defense vs. Missile",
+          "Increase Maximum Mana 10%",
+          "+5 to Mana after each Kill"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "boots"
       },
       {
         "Quality": "Unique",
@@ -35854,7 +35853,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 96,
-      "Experience": 2920406703,
+      "Experience": 2923762781,
       "Strength": 105,
       "Dexterity": 325,
       "Vitality": 125,
@@ -35864,7 +35863,7 @@
       "BaseMana": 157,
       "Mana": 225,
       "Gold": 0,
-      "Stashed": 56421
+      "Stashed": 78902
     },
     "Bonus": {
       "Strength": 10,
@@ -36278,39 +36277,6 @@
         "Worn": "amulet"
       },
       {
-        "Quality": "Set",
-        "ID": "3114981333",
-        "QualityCode": "q_set",
-        "Title": "M'avina's Tenet",
-        "Tag": "Sharkskin Belt",
-        "TextTag": "Sharkskin Belt",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "32",
-        "Durability": "14",
-        "DurabilityMaximum": "14",
-        "ItemLevel": "81",
-        "LevelReq": 45,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+20% Faster Run/Walk",
-          "+10% Increased Attack Speed",
-          "5% Mana stolen per hit",
-          "+50 Defense",
-          "+5 to Light Radius"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 2
-        },
-        "Worn": "belt"
-      },
-      {
         "Quality": "Unique",
         "ID": "2500148427",
         "QualityCode": "q_unique",
@@ -36666,6 +36632,39 @@
           "invwidth": 1
         },
         "Worn": "sweapon2"
+      },
+      {
+        "Quality": "Set",
+        "ID": "3114981333",
+        "QualityCode": "q_set",
+        "Title": "M'avina's Tenet",
+        "Tag": "Sharkskin Belt",
+        "TextTag": "Sharkskin Belt",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "32",
+        "Durability": "14",
+        "DurabilityMaximum": "14",
+        "ItemLevel": "81",
+        "LevelReq": 45,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+20% Faster Run/Walk",
+          "+10% Increased Attack Speed",
+          "5% Mana stolen per hit",
+          "+50 Defense",
+          "+5 to Light Radius"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 2
+        },
+        "Worn": "belt"
       },
       {
         "Quality": "Set",
@@ -38280,6 +38279,9 @@
         },
         "Worn": "weapon1"
       }
+    ],
+    "ItemCodeFailedToParse": [
+      "ItemCode: ma16 | Properties:   [16] item_armor_percent -> 63 [0]  [54] coldmindam -> 149 [0]  [78] item_attackertakesdamage -> 23 [0]  [119] item_tohit_percent -> 49 [0]  [396] item_absorbpois_percent -> 37 [0]  [511] EOF -> 0 [0]"
     ]
   },
   {
@@ -104418,7 +104420,7 @@
     "Class": "Assassin",
     "Stats": {
       "Level": 94,
-      "Experience": 2296167198,
+      "Experience": 2298106127,
       "Strength": 116,
       "Dexterity": 34,
       "Vitality": 390,
@@ -104426,8 +104428,8 @@
       "BaseLife": 1406,
       "Life": 1929,
       "BaseMana": 164,
-      "Mana": 245,
-      "Gold": 908009,
+      "Mana": 242,
+      "Gold": 940000,
       "Stashed": 128870
     },
     "Bonus": {
@@ -104952,7 +104954,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "72",
-        "Durability": "22",
+        "Durability": "21",
         "DurabilityMaximum": "24",
         "ItemLevel": "91",
         "LevelReq": 71,
@@ -105319,7 +105321,7 @@
         "DamageMinimum": "86",
         "DamageMaximum": "102",
         "ThrowDamageMinimum": "25",
-        "Durability": "133",
+        "Durability": "127",
         "DurabilityMaximum": "215",
         "ItemLevel": "87",
         "LevelReq": 42,
@@ -105437,7 +105439,7 @@
         "Enhanced": "True",
         "DamageMinimum": "135",
         "DamageMaximum": "172",
-        "Durability": "110",
+        "Durability": "101",
         "DurabilityMaximum": "215",
         "ItemLevel": "88",
         "LevelReq": 64,
@@ -112443,7 +112445,7 @@
     "Class": "Assassin",
     "Stats": {
       "Level": 95,
-      "Experience": 2511298549,
+      "Experience": 2511303879,
       "Strength": 65,
       "Dexterity": 45,
       "Vitality": 435,
@@ -112452,7 +112454,7 @@
       "Life": 2162,
       "BaseMana": 166,
       "Mana": 474,
-      "Gold": 0,
+      "Gold": 11598,
       "Stashed": 1880504
     },
     "Bonus": {
@@ -116592,13 +116594,13 @@
       "Dexterity": 2,
       "Vitality": 0,
       "Energy": 0,
-      "FireResistance": 91,
+      "FireResistance": 82,
       "MaximumFireResistance": 0,
-      "ColdResistance": 105,
+      "ColdResistance": 96,
       "MaximumColdResistance": 0,
-      "LightningResistance": 94,
+      "LightningResistance": 85,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 66,
+      "PoisonResistance": 57,
       "MaximumPoisonResistance": 0,
       "MagicFind": 269,
       "GoldFind": 147,
@@ -116609,7 +116611,7 @@
       "OpenWounds": 0,
       "DeadlyStrike": 0,
       "DamageReduction": 18,
-      "CooldownReduction": 0,
+      "CooldownReduction": 10,
       "WeaponSetMain": {
         "Strength": 15,
         "Dexterity": 0,
@@ -117337,7 +117339,7 @@
       },
       {
         "Quality": "Unique",
-        "ID": "1272545204",
+        "ID": "3843539032",
         "QualityCode": "q_unique",
         "Title": "Silkweave",
         "Tag": "Mesh Boots",
@@ -117345,7 +117347,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "45",
-        "Durability": "15",
+        "Durability": "10",
         "DurabilityMaximum": "16",
         "ItemLevel": "87",
         "LevelReq": 36,
@@ -117353,11 +117355,11 @@
         "PropertyList": [
           "\u00ffc1Corrupted",
           "+30% Faster Run/Walk",
-          "+168% Enhanced Defense",
+          "+153% Enhanced Defense",
           "+200 Defense vs. Missile",
           "Increase Maximum Mana 10%",
-          "All Resistances +9",
-          "+5 to Mana after each Kill"
+          "+5 to Mana after each Kill",
+          "10% Reduced Skill Cooldown"
         ],
         "Position": {
           "x": 9,
@@ -125892,17 +125894,17 @@
     "Class": "Druid",
     "Stats": {
       "Level": 94,
-      "Experience": 2286531573,
+      "Experience": 2292346469,
       "Strength": 101,
       "Dexterity": 20,
-      "Vitality": 169,
+      "Vitality": 174,
       "Energy": 265,
-      "BaseLife": 542,
-      "Life": 1120,
+      "BaseLife": 552,
+      "Life": 1131,
       "BaseMana": 696,
-      "Mana": 967,
-      "Gold": 679755,
-      "Stashed": 2500000
+      "Mana": 719,
+      "Gold": 166,
+      "Stashed": 2066692
     },
     "Bonus": {
       "Strength": 47,
@@ -126080,10 +126082,10 @@
         ]
       }
     ],
-    "MercenaryExperience": 89437064,
+    "MercenaryExperience": 92338526,
     "MercenaryType": "Desert Mercenary",
     "MercenaryName": "Pratham",
-    "MercenaryLevel": "90",
+    "MercenaryLevel": "91",
     "Equipped": [
       {
         "Quality": "Unique",
@@ -126352,7 +126354,7 @@
         "Ethereal": "False",
         "Enhanced": "False",
         "Defense": "15",
-        "Durability": "22",
+        "Durability": "21",
         "DurabilityMaximum": "24",
         "ItemLevel": "87",
         "LevelReq": 29,
@@ -127552,33 +127554,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "3113396402",
-        "QualityCode": "q_magic",
-        "Title": "Amber Small Charm of Sustenance",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "88",
-        "LevelReq": 32,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+14 to Life",
-          "Lightning Resist +11%"
-        ],
-        "Position": {
-          "x": 5,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "3691540034",
         "QualityCode": "q_magic",
         "Title": "Beryl Jewel of Fervor",
@@ -127806,29 +127781,6 @@
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Super Healing Potion",
-        "Tag": "Super Healing Potion",
-        "TextTag": "Greater Healing Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
         "Title": "Antidote Potion",
         "Tag": "Antidote Potion",
         "TextTag": "Antidote Potion",
@@ -127924,6 +127876,33 @@
         },
         "Size": {
           "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3113396402",
+        "QualityCode": "q_magic",
+        "Title": "Amber Small Charm of Sustenance",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 32,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+14 to Life",
+          "Lightning Resist +11%"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -292557,7 +292536,7 @@
       "OpenWounds": 0,
       "DeadlyStrike": 0,
       "DamageReduction": 10,
-      "CooldownReduction": 10,
+      "CooldownReduction": 0,
       "WeaponSetMain": {
         "Strength": 0,
         "Dexterity": 0,
@@ -292878,40 +292857,6 @@
           "invwidth": 1
         },
         "Worn": "amulet"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "3843539032",
-        "QualityCode": "q_unique",
-        "Title": "Silkweave",
-        "Tag": "Mesh Boots",
-        "TextTag": "Mesh Boots",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "45",
-        "Durability": "10",
-        "DurabilityMaximum": "16",
-        "ItemLevel": "87",
-        "LevelReq": 36,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+30% Faster Run/Walk",
-          "+153% Enhanced Defense",
-          "+200 Defense vs. Missile",
-          "Increase Maximum Mana 10%",
-          "+5 to Mana after each Kill",
-          "10% Reduced Skill Cooldown"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "boots"
       },
       {
         "Quality": "Normal",
@@ -293294,6 +293239,39 @@
           "invwidth": 2
         },
         "Worn": "sweapon2"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1780769189",
+        "QualityCode": "q_unique",
+        "Title": "Silkweave",
+        "Tag": "Mesh Boots",
+        "TextTag": "Mesh Boots",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "45",
+        "Durability": "15",
+        "DurabilityMaximum": "16",
+        "ItemLevel": "88",
+        "LevelReq": 36,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+30% Faster Run/Walk",
+          "+157% Enhanced Defense",
+          "+200 Defense vs. Missile",
+          "Increase Maximum Mana 10%",
+          "+5 to Mana after each Kill"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "boots"
       },
       {
         "Quality": "Unique",
@@ -309871,7 +309849,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 96,
-      "Experience": 2920406703,
+      "Experience": 2923762781,
       "Strength": 105,
       "Dexterity": 325,
       "Vitality": 125,
@@ -309881,7 +309859,7 @@
       "BaseMana": 157,
       "Mana": 225,
       "Gold": 0,
-      "Stashed": 56421
+      "Stashed": 78902
     },
     "Bonus": {
       "Strength": 10,
@@ -310295,39 +310273,6 @@
         "Worn": "amulet"
       },
       {
-        "Quality": "Set",
-        "ID": "3114981333",
-        "QualityCode": "q_set",
-        "Title": "M'avina's Tenet",
-        "Tag": "Sharkskin Belt",
-        "TextTag": "Sharkskin Belt",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "32",
-        "Durability": "14",
-        "DurabilityMaximum": "14",
-        "ItemLevel": "81",
-        "LevelReq": 45,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+20% Faster Run/Walk",
-          "+10% Increased Attack Speed",
-          "5% Mana stolen per hit",
-          "+50 Defense",
-          "+5 to Light Radius"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 2
-        },
-        "Worn": "belt"
-      },
-      {
         "Quality": "Unique",
         "ID": "2500148427",
         "QualityCode": "q_unique",
@@ -310683,6 +310628,39 @@
           "invwidth": 1
         },
         "Worn": "sweapon2"
+      },
+      {
+        "Quality": "Set",
+        "ID": "3114981333",
+        "QualityCode": "q_set",
+        "Title": "M'avina's Tenet",
+        "Tag": "Sharkskin Belt",
+        "TextTag": "Sharkskin Belt",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "32",
+        "Durability": "14",
+        "DurabilityMaximum": "14",
+        "ItemLevel": "81",
+        "LevelReq": 45,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+20% Faster Run/Walk",
+          "+10% Increased Attack Speed",
+          "5% Mana stolen per hit",
+          "+50 Defense",
+          "+5 to Light Radius"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 2
+        },
+        "Worn": "belt"
       },
       {
         "Quality": "Set",
@@ -312297,6 +312275,9 @@
         },
         "Worn": "weapon1"
       }
+    ],
+    "ItemCodeFailedToParse": [
+      "ItemCode: ma16 | Properties:   [16] item_armor_percent -> 63 [0]  [54] coldmindam -> 149 [0]  [78] item_attackertakesdamage -> 23 [0]  [119] item_tohit_percent -> 49 [0]  [396] item_absorbpois_percent -> 37 [0]  [511] EOF -> 0 [0]"
     ]
   },
   {
@@ -361321,7 +361302,7 @@
     "Class": "Assassin",
     "Stats": {
       "Level": 94,
-      "Experience": 2296167198,
+      "Experience": 2298106127,
       "Strength": 116,
       "Dexterity": 34,
       "Vitality": 390,
@@ -361329,8 +361310,8 @@
       "BaseLife": 1406,
       "Life": 1929,
       "BaseMana": 164,
-      "Mana": 245,
-      "Gold": 908009,
+      "Mana": 242,
+      "Gold": 940000,
       "Stashed": 128870
     },
     "Bonus": {
@@ -361855,7 +361836,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "72",
-        "Durability": "22",
+        "Durability": "21",
         "DurabilityMaximum": "24",
         "ItemLevel": "91",
         "LevelReq": 71,
@@ -362222,7 +362203,7 @@
         "DamageMinimum": "86",
         "DamageMaximum": "102",
         "ThrowDamageMinimum": "25",
-        "Durability": "133",
+        "Durability": "127",
         "DurabilityMaximum": "215",
         "ItemLevel": "87",
         "LevelReq": 42,
@@ -362340,7 +362321,7 @@
         "Enhanced": "True",
         "DamageMinimum": "135",
         "DamageMaximum": "172",
-        "Durability": "110",
+        "Durability": "101",
         "DurabilityMaximum": "215",
         "ItemLevel": "88",
         "LevelReq": 64,
@@ -365972,7 +365953,7 @@
     "Class": "Assassin",
     "Stats": {
       "Level": 95,
-      "Experience": 2511298549,
+      "Experience": 2511303879,
       "Strength": 65,
       "Dexterity": 45,
       "Vitality": 435,
@@ -365981,7 +365962,7 @@
       "Life": 2162,
       "BaseMana": 166,
       "Mana": 474,
-      "Gold": 0,
+      "Gold": 11598,
       "Stashed": 1880504
     },
     "Bonus": {
@@ -370121,13 +370102,13 @@
       "Dexterity": 2,
       "Vitality": 0,
       "Energy": 0,
-      "FireResistance": 91,
+      "FireResistance": 82,
       "MaximumFireResistance": 0,
-      "ColdResistance": 105,
+      "ColdResistance": 96,
       "MaximumColdResistance": 0,
-      "LightningResistance": 94,
+      "LightningResistance": 85,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 66,
+      "PoisonResistance": 57,
       "MaximumPoisonResistance": 0,
       "MagicFind": 269,
       "GoldFind": 147,
@@ -370138,7 +370119,7 @@
       "OpenWounds": 0,
       "DeadlyStrike": 0,
       "DamageReduction": 18,
-      "CooldownReduction": 0,
+      "CooldownReduction": 10,
       "WeaponSetMain": {
         "Strength": 15,
         "Dexterity": 0,
@@ -370866,7 +370847,7 @@
       },
       {
         "Quality": "Unique",
-        "ID": "1272545204",
+        "ID": "3843539032",
         "QualityCode": "q_unique",
         "Title": "Silkweave",
         "Tag": "Mesh Boots",
@@ -370874,7 +370855,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "45",
-        "Durability": "15",
+        "Durability": "10",
         "DurabilityMaximum": "16",
         "ItemLevel": "87",
         "LevelReq": 36,
@@ -370882,11 +370863,11 @@
         "PropertyList": [
           "\u00ffc1Corrupted",
           "+30% Faster Run/Walk",
-          "+168% Enhanced Defense",
+          "+153% Enhanced Defense",
           "+200 Defense vs. Missile",
           "Increase Maximum Mana 10%",
-          "All Resistances +9",
-          "+5 to Mana after each Kill"
+          "+5 to Mana after each Kill",
+          "10% Reduced Skill Cooldown"
         ],
         "Position": {
           "x": 9,
@@ -375799,17 +375780,17 @@
     "Class": "Druid",
     "Stats": {
       "Level": 94,
-      "Experience": 2286531573,
+      "Experience": 2292346469,
       "Strength": 101,
       "Dexterity": 20,
-      "Vitality": 169,
+      "Vitality": 174,
       "Energy": 265,
-      "BaseLife": 542,
-      "Life": 1120,
+      "BaseLife": 552,
+      "Life": 1131,
       "BaseMana": 696,
-      "Mana": 967,
-      "Gold": 679755,
-      "Stashed": 2500000
+      "Mana": 719,
+      "Gold": 166,
+      "Stashed": 2066692
     },
     "Bonus": {
       "Strength": 47,
@@ -375987,10 +375968,10 @@
         ]
       }
     ],
-    "MercenaryExperience": 89437064,
+    "MercenaryExperience": 92338526,
     "MercenaryType": "Desert Mercenary",
     "MercenaryName": "Pratham",
-    "MercenaryLevel": "90",
+    "MercenaryLevel": "91",
     "Equipped": [
       {
         "Quality": "Unique",
@@ -376259,7 +376240,7 @@
         "Ethereal": "False",
         "Enhanced": "False",
         "Defense": "15",
-        "Durability": "22",
+        "Durability": "21",
         "DurabilityMaximum": "24",
         "ItemLevel": "87",
         "LevelReq": 29,
@@ -377459,33 +377440,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "3113396402",
-        "QualityCode": "q_magic",
-        "Title": "Amber Small Charm of Sustenance",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "88",
-        "LevelReq": 32,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+14 to Life",
-          "Lightning Resist +11%"
-        ],
-        "Position": {
-          "x": 5,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "3691540034",
         "QualityCode": "q_magic",
         "Title": "Beryl Jewel of Fervor",
@@ -377713,29 +377667,6 @@
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Super Healing Potion",
-        "Tag": "Super Healing Potion",
-        "TextTag": "Greater Healing Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
         "Title": "Antidote Potion",
         "Tag": "Antidote Potion",
         "TextTag": "Antidote Potion",
@@ -377831,6 +377762,33 @@
         },
         "Size": {
           "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3113396402",
+        "QualityCode": "q_magic",
+        "Title": "Amber Small Charm of Sustenance",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 32,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+14 to Life",
+          "Lightning Resist +11%"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
