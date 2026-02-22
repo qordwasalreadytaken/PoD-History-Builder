@@ -25,6 +25,9 @@ jobs:
       - name: Run fetch_ladder_data.py
         run: python new-history/fetch_ladder_data.py
 
+      - name: Generate synth inventory
+        run: python synth-inventory.py
+  
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
