@@ -245,40 +245,29 @@ $(document).ready(function() {
             $('#snapshotList').html('<div style="color:#c00">Please enter a character name.</div>');
             return;
         }
-        // Case-insensitive search for snapshot file
-        fetch('./snapshots/')
-            .then(resp => resp.text())
-            .then(html => {
-                // Parse directory listing for filenames (works if directory listing is enabled)
-                const matches = html.match(/href="([^"]+\.json)"/gi) || [];
-                const files = matches.map(m => m.replace(/href=|"/g, ''));
-                const foundFile = files.find(f => f.replace(/\.json$/i, '').toLowerCase() === name.toLowerCase());
-                if (!foundFile) {
+        // Always fetch using lowercase name
+        const lowerName = name.toLowerCase();
+        fetch(`./snapshots/${lowerName}.json`)
+            .then(resp => {
+                if (!resp.ok) throw new Error('Not found');
+                return resp.json();
+            })
+            .then(history => {
+                if (!Array.isArray(history) || history.length === 0) {
                     $('#snapshotList').html('<div style="color:#c00">No snapshots found for <b>' + name + '</b>.</div>');
                     return;
                 }
-                fetch(`./snapshots/${foundFile}`)
-                    .then(resp => {
-                        if (!resp.ok) throw new Error('Not found');
-                        return resp.json();
-                    })
-                    .then(history => {
-                        if (!Array.isArray(history) || history.length === 0) {
-                            $('#snapshotList').html('<div style="color:#c00">No snapshots found for <b>' + name + '</b>.</div>');
-                            return;
-                        }
-                        // List snapshots, sorted newest to oldest
-                        const snapshots = history.slice().sort((a, b) => b.timestamp.localeCompare(a.timestamp));
-                        let html = '<div>Snapshots for <b>' + name + '</b>:</div><ul style="margin-top:8px">';
-                        const params = new URLSearchParams(window.location.search);
-                        const snapshotTime = params.get('t');
-                        snapshots.forEach((snap, idx) => {
-                            const active = snap.timestamp === snapshotTime ? ' active' : '';
-                            html += `<li><button class=\"snapshot-btn${active}\" data-timestamp=\"${snap.timestamp}\" data-name=\"${name}\">${snap.timestamp}</button></li>`;
-                        });
-                        html += '</ul>';
-                        $('#snapshotList').html(html);
-                    });
+                // List snapshots, sorted newest to oldest
+                const snapshots = history.slice().sort((a, b) => b.timestamp.localeCompare(a.timestamp));
+                let html = '<div>Snapshots for <b>' + name + '</b>:</div><ul style="margin-top:8px">';
+                const params = new URLSearchParams(window.location.search);
+                const snapshotTime = params.get('t');
+                snapshots.forEach((snap, idx) => {
+                    const active = snap.timestamp === snapshotTime ? ' active' : '';
+                    html += `<li><button class=\"snapshot-btn${active}\" data-timestamp=\"${snap.timestamp}\" data-name=\"${name}\">${snap.timestamp}</button></li>`;
+                });
+                html += '</ul>';
+                $('#snapshotList').html(html);
             })
             .catch(() => {
                 $('#snapshotList').html('<div style="color:#c00">No snapshots found for <b>' + name + '</b>.</div>');
