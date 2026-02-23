@@ -268,6 +268,13 @@ $(document).ready(function() {
                 });
                 html += '</ul>';
                 $('#snapshotList').html(html);
+                if (snapshots.length > 0) {
+                    // Automatically load the most recent snapshot
+                    const firstTimestamp = snapshots[0].timestamp;
+                    const firstName = name;
+                    $('#snapshotList .snapshot-btn').first().trigger('click');
+                    // loadSnapshot(firstTimestamp, firstName);
+                }
             })
             .catch(() => {
                 $('#snapshotList').html('<div style="color:#c00">No snapshots found for <b>' + name + '</b>.</div>');
