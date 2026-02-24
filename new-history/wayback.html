@@ -13,8 +13,17 @@
     </div> -->
     <div id="app" class="full-height"></div>
 <!--    <button onclick="retrieveCharacterData()" >Click me!</button> -->
-    <div id="header">
-        PoD Wayback Machine
+    <div id="header" style="position: relative; min-height: 48px;">
+        <span style="float:left;">PoD Wayback Machine</span>
+<div style="position: absolute; top: 10px; right: 20px; z-index: 10; text-align: right;">
+    <label for="recentlyChangedDropdown" style="display: block; font-size: 0.9rem;">
+        Characters with recent changes:
+    </label>
+    <select id="recentlyChangedDropdown" style="padding: 4px 8px; font-size: 1rem; min-width: 160px;">
+        <option>Recently Changed...</option>
+    </select>
+</div>
+        <div style="clear:both;"></div>
     </div>
     <div id="container">
     <div id="snaps">
@@ -264,7 +273,7 @@ $(document).ready(function() {
                 const snapshotTime = params.get('t');
                 snapshots.forEach((snap, idx) => {
                     const active = snap.timestamp === snapshotTime ? ' active' : '';
-                    html += `<li><button class=\"snapshot-btn${active}\" data-timestamp=\"${snap.timestamp}\" data-name=\"${name}\">${snap.timestamp}</button></li>`;
+                    html += `<li><button class="snapshot-btn${active}" data-timestamp="${snap.timestamp}" data-name="${name}">${snap.timestamp}</button></li>`;
                 });
                 html += '</ul>';
                 $('#snapshotList').html(html);
@@ -329,7 +338,7 @@ $(document).ready(function() {
                     let html = '<div>Snapshots for <b>' + charName + '</b>:</div><ul style="margin-top:8px">';
                     snapshots.forEach(snap => {
                         const active = snap.timestamp === timestamp ? ' active' : '';
-                        html += `<li><button class=\"snapshot-btn${active}\" data-timestamp=\"${snap.timestamp}\" data-name=\"${charName}\">${snap.timestamp}</button></li>`;
+                        html += `<li><button class="snapshot-btn${active}" data-timestamp="${snap.timestamp}" data-name="${charName}">${snap.timestamp}</button></li>`;
                     });
                     html += '</ul>';
                     $('#snapshotList').html(html);
@@ -377,7 +386,38 @@ async function fetchCharacterData(characterName) {
     }
 }
 
-
+fetch('recently_changed.json')
+    .then(response => response.json())
+    .then(names => {
+        const dropdown = document.getElementById('recentlyChangedDropdown');
+        // Remove placeholder if there are names
+        if (names.length > 0) {
+            dropdown.innerHTML = '<option disabled selected>Recently Changed...</option>';
+            names.forEach(name => {
+                const opt = document.createElement('option');
+                opt.value = name;
+                opt.textContent = name;
+                dropdown.appendChild(opt);
+            });
+        }
+        // Add event listener to load character on change
+        dropdown.addEventListener('change', function() {
+            const selected = dropdown.value;
+            if (selected && selected !== 'Recently Changed...') {
+                // Fill the search box
+                const searchInput = document.getElementById('characterSearchInput');
+                searchInput.value = selected;
+                // Remove 't' param from URL so all snapshots show
+                const params = new URLSearchParams(window.location.search);
+                params.set('c', selected);
+                params.delete('t');
+                const newUrl = window.location.pathname + '?' + params.toString();
+                window.history.replaceState({}, '', newUrl);
+                // Trigger the search button click
+                document.getElementById('characterSearchButton').click();
+            }
+        });
+    });
 
 // Function to process characterData after it's fetched
 async function processCharacterData(characterData) {
@@ -982,6 +1022,8 @@ function toggleWeaponSwap() {
 
 });
 
+
 </script>
 </body>
+
 </html>

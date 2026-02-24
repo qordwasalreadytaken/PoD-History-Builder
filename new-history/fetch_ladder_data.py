@@ -217,6 +217,7 @@ def load_character_history(char_name):
 
 def process_characters(characters):
     timestamp = datetime.utcnow().isoformat() + 'Z'
+    recently_changed = []
     for char_name, char_data in characters.items():
         history = load_character_history(char_name)
         last_snapshot = history[-1]['data'] if history else None
@@ -226,6 +227,12 @@ def process_characters(characters):
                 'data': char_data
             })
             save_character_history(char_name, history)
+            recently_changed.append(char_name)
+    # Write recently changed characters to recently_changed.json (overwrite each run)
+    recently_changed_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'recently_changed.json')
+    with open(recently_changed_path, 'w') as f:
+        json.dump(recently_changed, f, indent=2)
+    return recently_changed
 
 # Example usage: load your character data from ladder JSONs
 def main():
