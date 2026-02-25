@@ -203,8 +203,31 @@ def copy_ladders_to_dailies():
 
 
 def character_changed(new_data, last_data):
-    # Compare all relevant fields; customize as needed
-    return new_data != last_data
+    # Only compare points in skills and names of equipped items
+    def extract_skills_from_skilltabs(data):
+        skilltabs = data.get('SkillTabs')
+        skills = {}
+        if isinstance(skilltabs, list):
+            for tab in skilltabs:
+                for skill in tab.get('Skills', []):
+                    name = skill.get('Name')
+                    level = skill.get('Level')
+                    if name is not None and level is not None:
+                        skills[name] = level
+        return skills
+
+    def extract_equipped_titles(data):
+        equipped = data.get('Equipped')
+        if not equipped or not isinstance(equipped, list):
+            return []
+        return sorted([item.get('Title', '') for item in equipped if isinstance(item, dict) and 'Title' in item])
+
+    skills_new = extract_skills_from_skilltabs(new_data)
+    skills_last = extract_skills_from_skilltabs(last_data)
+    equipped_new = extract_equipped_titles(new_data)
+    equipped_last = extract_equipped_titles(last_data)
+
+    return skills_new != skills_last or equipped_new != equipped_last
 
 def load_character_history(char_name):
     path = os.path.join(SNAPSHOT_DIR, f'{char_name}.json')
