@@ -15,7 +15,7 @@
 <!--    <button onclick="retrieveCharacterData()" >Click me!</button> -->
     <div id="header" style="position: relative; min-height: 48px;">
         <span style="float:left;">PoD Wayback Machine</span>
-<div style="position: absolute; top: 10px; right: 20px; z-index: 10; text-align: right;">
+<div id="recentlyChangedWrapper" style="position: absolute; top: 10px; right: 20px; z-index: 10; text-align: right; display: none;">
     <label for="recentlyChangedDropdown" style="display: block; font-size: 0.9rem;">
         Characters with recent changes:
     </label>
@@ -203,6 +203,20 @@ $(document).ready(function() {
     function getQueryParam(param) {
         const urlParams = new URLSearchParams(window.location.search);
         return urlParams.get(param);
+    }
+
+    // Simple, non-secure "admin" view toggle so the
+    // recently-changed dropdown is hidden for most users.
+    // Usage examples:
+    //   wayback.html?admin=1
+    //   wayback.html?c=SomeChar&t=1234&admin=1
+    //   wayback.html#admin
+    const isAdminView = getQueryParam("admin") === "1" || window.location.hash === "#admin";
+    if (isAdminView) {
+        const wrapper = document.getElementById("recentlyChangedWrapper");
+        if (wrapper) {
+            wrapper.style.display = "block";
+        }
     }
 
     let characterName = getQueryParam("charName");
