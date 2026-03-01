@@ -8683,5 +8683,42 @@ const synthInventory = [
     "seen_date": "2026-02-25",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Stormspire%2C0%2Cnone%2Cindestructible%3A1%2Cias%3A80%2Cdamage_bonus%3A283%2Cdexterity%3A25%2CfRes%3A25%2Cthorns_lightning%3A27"
+  },
+  {
+    "id": "6234bbffdb2b71fdba03b6d688030a6e504de60b4bed74afe0475ea11095d6ff",
+    "friendly_id": 144,
+    "owner": "Dinkerr",
+    "base_type": "Synthesized Gladius",
+    "title": "Bloodletter",
+    "properties": [
+      "+1 to All Skills",
+      "+2 to Paladin Skill Levels",
+      "+140% Enhanced Damage",
+      "+90 to Attack Rating",
+      "+96 to Maximum Poison Damage",
+      "5% Life stolen per hit",
+      "+4 to Edged Weapon Mastery (Barbarian Only)",
+      "+50 Defense",
+      "+175 to Mana",
+      "10% Slower Stamina Drain",
+      "All Resistances +50",
+      "Attacker Takes Damage of 15"
+    ],
+    "synthesised_from": [
+      "Hellplague",
+      "Hand of Blessed Light",
+      "Razorswitch"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "19",
+    "DamageMaximum": "52",
+    "LevelReq": 30,
+    "SocketCount": "0",
+    "seen_date": "2026-03-01",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Bloodletter%2C0%2Cnone%2Call_skills%3A1%2Cskills_paladin%3A2%2Cdamage_bonus%3A140%2Car%3A90%2Clife_leech%3A5%2Coskill_Edged_Weapon_Mastery%3A4%2Cdefense%3A50%2Cmana%3A175%2Cslower_stam_drain%3A10%2Call_res%3A50%2Cthorns%3A15"
   }
 ];
