@@ -320,9 +320,9 @@ def fetch_character_summary(char_name):
 # Example usage: load your character data from ladder JSONs
 def main():
     # Refresh ladder-based character data first
-#    GetAllCharData()
-#    GetAllHCCharData()
-#    copy_ladders_to_dailies()
+    GetAllCharData()
+    GetAllHCCharData()
+    copy_ladders_to_dailies()
 
     # Aggregate all characters from ladder snapshots
     all_characters = {}
