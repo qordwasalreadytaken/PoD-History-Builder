@@ -2194,7 +2194,11 @@
     }
   },
   {
+<<<<<<< HEAD
     "timestamp": "2026-03-01T11:47:54.504346Z",
+=======
+    "timestamp": "2026-03-02T12:27:42.198631Z",
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
     "data": {
       "Title": "Matriach",
       "Name": "Dinkerr",
@@ -2204,19 +2208,30 @@
       "Class": "Sorceress",
       "Stats": {
         "Level": 95,
+<<<<<<< HEAD
         "Experience": 2628966058,
+=======
+        "Experience": 2635844495,
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
         "Strength": 30,
         "Dexterity": 25,
         "Vitality": 10,
         "Energy": 500,
         "BaseLife": 241,
+<<<<<<< HEAD
         "Life": 700,
         "BaseMana": 1153,
         "Mana": 1967,
+=======
+        "Life": 662,
+        "BaseMana": 1153,
+        "Mana": 1929,
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
         "Gold": 950000,
         "Stashed": 2500000
       },
       "Bonus": {
+<<<<<<< HEAD
         "Strength": 79,
         "Dexterity": 0,
         "Vitality": 0,
@@ -2231,6 +2246,22 @@
         "MaximumPoisonResistance": 0,
         "MagicFind": 130,
         "GoldFind": 173,
+=======
+        "Strength": 60,
+        "Dexterity": 3,
+        "Vitality": 0,
+        "Energy": 0,
+        "FireResistance": 159,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 167,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 156,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 167,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 90,
+        "GoldFind": 31,
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
         "FasterCastRate": 30,
         "FasterHitRecovery": 5,
         "IncreasedAttackSpeed": 0,
@@ -2464,6 +2495,143 @@
           "Worn": "ring1"
         },
         {
+<<<<<<< HEAD
+=======
+          "Quality": "Unique",
+          "ID": "1960555869",
+          "QualityCode": "q_unique",
+          "Title": "Frostburn",
+          "Tag": "Gauntlets",
+          "TextTag": "Gaunlets(H)",
+          "Ethereal": "False",
+          "Enhanced": "True",
+          "Defense": "16",
+          "Durability": "24",
+          "DurabilityMaximum": "24",
+          "ItemLevel": "91",
+          "LevelReq": 29,
+          "SocketCount": "0",
+          "PropertyList": [
+            "\u00ffc1Corrupted",
+            "+5% Enhanced Damage",
+            "Adds 6-12 cold damage",
+            "+12% Enhanced Defense",
+            "+30 Defense",
+            "Increase Maximum Mana 31%",
+            "Poison Resist +18%"
+          ],
+          "Position": {
+            "x": 10,
+            "y": 0
+          },
+          "Size": {
+            "invheight": 2,
+            "invwidth": 2
+          },
+          "Worn": "gloves"
+        },
+        {
+          "Quality": "Unique",
+          "ID": "2803955407",
+          "QualityCode": "q_unique",
+          "Title": "Arachnid Mesh",
+          "Tag": "Spiderweb Sash",
+          "TextTag": "Spiderweb Sash",
+          "Ethereal": "False",
+          "Enhanced": "True",
+          "Defense": "63",
+          "Durability": "12",
+          "DurabilityMaximum": "12",
+          "ItemLevel": "89",
+          "LevelReq": 80,
+          "SocketCount": "0",
+          "PropertyList": [
+            "\u00ffc1Corrupted",
+            "+1 to All Skills",
+            "+30% Faster Cast Rate",
+            "Slows Target by 10%",
+            "+112% Enhanced Defense",
+            "Increase Maximum Mana 5%",
+            "Level 3 Venom (11/11 Charges)"
+          ],
+          "Position": {
+            "x": 8,
+            "y": 0
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 2
+          },
+          "Worn": "belt"
+        },
+        {
+          "Quality": "Unique",
+          "ID": "3138734165",
+          "QualityCode": "q_unique",
+          "Title": "Bul-Kathos' Wedding Band",
+          "Tag": "Ring",
+          "TextTag": "ring",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "2",
+          "ItemLevel": "88",
+          "LevelReq": 58,
+          "SocketCount": "0",
+          "PropertyList": [
+            "\u00ffc1Corrupted",
+            "+1 to All Skills",
+            "4% Life stolen per hit",
+            "+47 to Life (Based on Character Level)",
+            "+50 Maximum Stamina",
+            "10% Better Chance of Getting Magic Items"
+          ],
+          "Position": {
+            "x": 7,
+            "y": 0
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": "ring2"
+        },
+        {
+          "Quality": "Unique",
+          "ID": "3423098098",
+          "QualityCode": "q_unique",
+          "Title": "Harlequin Crest",
+          "Tag": "Shako",
+          "TextTag": "Shako",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "Defense": "117",
+          "Durability": "12",
+          "DurabilityMaximum": "12",
+          "ItemLevel": "86",
+          "LevelReq": 62,
+          "SocketCount": "0",
+          "PropertyList": [
+            "\u00ffc1Corrupted",
+            "+2 to All Skills",
+            "+2 to all Attributes",
+            "+15 to Life",
+            "+142 to Life (Based on Character Level)",
+            "+142 to Mana (Based on Character Level)",
+            "Physical Damage Taken Reduced by 10%",
+            "50% Better Chance of Getting Magic Items"
+          ],
+          "Position": {
+            "x": 1,
+            "y": 0
+          },
+          "Size": {
+            "invheight": 2,
+            "invwidth": 2
+          },
+          "Worn": "helmet"
+        },
+        {
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "Quality": "Superior",
           "ID": "3814110789",
           "QualityCode": "q_runeword",
@@ -2474,7 +2642,11 @@
           "Ethereal": "False",
           "Enhanced": "True",
           "Defense": "468",
+<<<<<<< HEAD
           "Durability": "19",
+=======
+          "Durability": "20",
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "DurabilityMaximum": "20",
           "ItemLevel": "88",
           "LevelReq": 63,
@@ -2605,6 +2777,7 @@
           "Worn": "body"
         },
         {
+<<<<<<< HEAD
           "Quality": "Unique",
           "ID": "1960555869",
           "QualityCode": "q_unique",
@@ -2739,6 +2912,8 @@
           "Worn": "ring2"
         },
         {
+=======
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "Quality": "Superior",
           "ID": "934932054",
           "QualityCode": "q_runeword",
@@ -3071,6 +3246,7 @@
           "Worn": ""
         },
         {
+<<<<<<< HEAD
           "Quality": "Unique",
           "ID": "3868571603",
           "QualityCode": "q_unique",
@@ -3099,6 +3275,8 @@
           "Worn": ""
         },
         {
+=======
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "Quality": "Magic",
           "ID": "1388177954",
           "QualityCode": "q_magic",
@@ -3695,6 +3873,7 @@
           "Worn": ""
         },
         {
+<<<<<<< HEAD
           "Quality": "Magic",
           "ID": "2124698347",
           "QualityCode": "q_magic",
@@ -3748,6 +3927,8 @@
           "Worn": ""
         },
         {
+=======
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "Quality": "Unique",
           "ID": "1402934691",
           "QualityCode": "q_unique",
@@ -3893,6 +4074,7 @@
         },
         {
           "Quality": "Rare",
+<<<<<<< HEAD
           "ID": "1404996851",
           "QualityCode": "q_rare",
           "Title": "Viper Eye",
@@ -3980,6 +4162,8 @@
         },
         {
           "Quality": "Rare",
+=======
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "ID": "4103219835",
           "QualityCode": "q_rare",
           "Title": "Beast Eye",
@@ -4142,6 +4326,7 @@
         },
         {
           "Quality": "Unique",
+<<<<<<< HEAD
           "ID": "2758219135",
           "QualityCode": "q_unique",
           "Title": "Annihilus",
@@ -4216,6 +4401,8 @@
         },
         {
           "Quality": "Unique",
+=======
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "ID": "1678389781",
           "QualityCode": "q_unique",
           "Title": "Nature's Peace",
@@ -4246,6 +4433,7 @@
           "Worn": ""
         },
         {
+<<<<<<< HEAD
           "Quality": "Unknown",
           "ID": "0",
           "QualityCode": "",
@@ -4261,6 +4449,168 @@
           "Position": {
             "x": 4,
             "y": 4
+=======
+          "Quality": "Magic",
+          "ID": "2124698347",
+          "QualityCode": "q_magic",
+          "Title": "Shimmering Grand Charm",
+          "Tag": "Grand Charm",
+          "TextTag": "Charm Large",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "0",
+          "ItemLevel": "88",
+          "LevelReq": 27,
+          "SocketCount": "0",
+          "PropertyList": [
+            "All Resistances +14"
+          ],
+          "Position": {
+            "x": 9,
+            "y": 6
+          },
+          "Size": {
+            "invheight": 3,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Unique",
+          "ID": "3868571603",
+          "QualityCode": "q_unique",
+          "Title": "Gheed's Fortune",
+          "Tag": "Grand Charm",
+          "TextTag": "Charm Large",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "0",
+          "ItemLevel": "86",
+          "LevelReq": 62,
+          "SocketCount": "0",
+          "PropertyList": [
+            "142% Extra Gold from Monsters",
+            "Reduces all Vendor Prices 12%",
+            "40% Better Chance of Getting Magic Items"
+          ],
+          "Position": {
+            "x": 3,
+            "y": 2
+          },
+          "Size": {
+            "invheight": 3,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Magic",
+          "ID": "2274489427",
+          "QualityCode": "q_magic",
+          "Title": "Sparking Grand Charm of Dexterity",
+          "Tag": "Grand Charm",
+          "TextTag": "Charm Large",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "0",
+          "ItemLevel": "90",
+          "LevelReq": 42,
+          "SocketCount": "0",
+          "PropertyList": [
+            "+1 to Lightning Skills (Sorceress Only)",
+            "+3 to Dexterity"
+          ],
+          "Position": {
+            "x": 8,
+            "y": 6
+          },
+          "Size": {
+            "invheight": 3,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Magic",
+          "ID": "541235223",
+          "QualityCode": "q_magic",
+          "Title": "Jade Small Charm of Vita",
+          "Tag": "Small Charm",
+          "TextTag": "Charm Small",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "2",
+          "ItemLevel": "87",
+          "LevelReq": 39,
+          "SocketCount": "0",
+          "PropertyList": [
+            "+17 to Life",
+            "Poison Resist +8%"
+          ],
+          "Position": {
+            "x": 3,
+            "y": 0
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Rare",
+          "ID": "194711634",
+          "QualityCode": "q_rare",
+          "Title": "Eagle Eye",
+          "Tag": "Musty Crypt Relic",
+          "TextTag": "Musty Crypt Relic",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "99",
+          "LevelReq": 80,
+          "SocketCount": "0",
+          "PropertyList": [
+            "30% Chance to cast level 13 Amplify Damage on striking",
+            "30% Chance to cast level 13 Weaken on striking",
+            "+107% Increased Attack Speed",
+            "Damage +199",
+            "15% Life stolen per hit",
+            "90% Reduced Curse Duration"
+          ],
+          "Position": {
+            "x": 0,
+            "y": 6
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Rare",
+          "ID": "1404996851",
+          "QualityCode": "q_rare",
+          "Title": "Viper Eye",
+          "Tag": "Icy Cavern Relic",
+          "TextTag": "Icy Cavern Relic",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "92",
+          "LevelReq": 80,
+          "SocketCount": "0",
+          "PropertyList": [
+            "20% Chance to cast level 8 Amplify Damage on striking",
+            "15% Chance to cast level 15 Meteor when you Die",
+            "Level 12 Redemption Aura When Equipped",
+            "Adds 149-150 Fire damage",
+            "Magic Absorb 34%",
+            "48% Reduced Curse Duration"
+          ],
+          "Position": {
+            "x": 4,
+            "y": 1
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           },
           "Size": {
             "invheight": 1,
@@ -4418,6 +4768,7 @@
             "invwidth": 2
           },
           "Worn": "helmet"
+<<<<<<< HEAD
         },
         {
           "Quality": "Normal",
@@ -4560,6 +4911,8 @@
             "invwidth": 2
           },
           "Worn": "weapon1"
+=======
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
         }
       ]
     }

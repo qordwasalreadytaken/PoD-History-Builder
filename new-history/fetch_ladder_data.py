@@ -1,3 +1,7 @@
+######## To manually add a character to the watchilist
+# python fetch_ladder_data.py --add-watched SomeCharacterName
+########
+
 import requests
 import json
 import os
@@ -11,9 +15,18 @@ import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 import glob
 
+# Directories and files
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 # Define snapshot directory for per-character history
-SNAPSHOT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'snapshots')
+SNAPSHOT_DIR = os.path.join(BASE_DIR, 'snapshots')
 os.makedirs(SNAPSHOT_DIR, exist_ok=True)
+
+# Optional list of extra characters to always watch (even if not on ladder)
+WATCHLIST_FILE = os.path.join(BASE_DIR, 'watched_characters.json')
+
+# Character summary endpoint (used for ladder and watched characters)
+CHAR_URL = "https://beta.pathofdiablo.com/api/characters/{char_name}/summary"
 
 def save_character_history(char_name, history):
     path = os.path.join(SNAPSHOT_DIR, f'{char_name}.json')
@@ -46,7 +59,7 @@ def create_character_index():
         except Exception as e:
             print(f"Error reading {filename}: {e}")
     # Save index
-    index_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'character_index.json')
+    index_path = os.path.join(BASE_DIR, 'character_index.json')
     with open(index_path, 'w') as f:
         json.dump(index, f, indent=2)
     print(f"✅ Character index created with {len(index)} characters.")
@@ -82,7 +95,6 @@ def fetch_1kladder_characters(base_ladder_url, pages):
 
 def GetAllCharData():
     base_ladder_url = "https://beta.pathofdiablo.com/api/ladder/13/0/"  # Softcore
-    char_url = "https://beta.pathofdiablo.com/api/characters/{char_name}/summary"
 
     # Step 1: Fetch top 1,000 characters (pages 0 to 5)
     all_characters = fetch_ladder_characters(f"{base_ladder_url}0/", start_page=0, end_page=5)
@@ -118,7 +130,7 @@ def GetAllCharData():
         if char_name == "unknown":
             char_name = f"unknown_{char_id or int(time.time() * 1000)}"
 
-        response = requests.get(char_url.format(char_name=char_name))
+        response = requests.get(CHAR_URL.format(char_name=char_name))
         if response.status_code == 200:
             character_data.append(response.json())
         else:
@@ -132,8 +144,7 @@ def GetAllCharData():
 
 
 def GetAllHCCharData():
-    base_ladder_url = "https://beta.pathofdiablo.com/api/ladder/13/1/"  # Softcore
-    char_url = "https://beta.pathofdiablo.com/api/characters/{char_name}/summary"
+    base_ladder_url = "https://beta.pathofdiablo.com/api/ladder/13/1/"  # Hardcore
 
     # Fetch top 1,000 characters
 #    all_characters = fetch_ladder_characters(f"{base_ladder_url}0/", 5)
@@ -167,7 +178,7 @@ def GetAllHCCharData():
         if char_name == "unknown":
             char_name = f"unknown_{char_id or int(time.time() * 1000)}"
 
-        response = requests.get(char_url.format(char_name=char_name))
+        response = requests.get(CHAR_URL.format(char_name=char_name))
         if response.status_code == 200:
             character_data.append(response.json())
         else:
@@ -182,8 +193,7 @@ def GetAllHCCharData():
 def copy_ladders_to_dailies():
     """Copy sc_ladder.json and hc_ladder.json to dailies/ with a date-stamped filename."""
     now = datetime.now().strftime('%Y-%m-%d_%H-%M-%S')
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    new_history_dir = script_dir
+    new_history_dir = BASE_DIR
     dailies_dir = os.path.join(new_history_dir, 'dailies')
     os.makedirs(dailies_dir, exist_ok=True)
     for base in ['sc_ladder.json', 'hc_ladder.json']:
@@ -252,17 +262,69 @@ def process_characters(characters):
             save_character_history(char_name, history)
             recently_changed.append(char_name)
     # Write recently changed characters to recently_changed.json (overwrite each run)
-    recently_changed_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'recently_changed.json')
+    recently_changed_path = os.path.join(BASE_DIR, 'recently_changed.json')
     with open(recently_changed_path, 'w') as f:
         json.dump(recently_changed, f, indent=2)
     return recently_changed
 
+
+def load_watchlist():
+    if os.path.exists(WATCHLIST_FILE):
+        try:
+            with open(WATCHLIST_FILE, 'r') as f:
+                data = json.load(f)
+            if isinstance(data, list):
+                return [str(name) for name in data]
+        except Exception as e:
+            print(f"⚠️ Failed to load watchlist: {e}")
+    return []
+
+
+def save_watchlist(names):
+    try:
+        with open(WATCHLIST_FILE, 'w') as f:
+            json.dump(sorted(set(names)), f, indent=2)
+    except Exception as e:
+        print(f"⚠️ Failed to save watchlist: {e}")
+
+
+def add_to_watchlist(char_name):
+    names = load_watchlist()
+    if char_name not in names:
+        names.append(char_name)
+        save_watchlist(names)
+        print(f"✅ Added '{char_name}' to watchlist.")
+    else:
+        print(f"ℹ️ '{char_name}' is already in the watchlist.")
+
+
+def get_snapshot_character_names():
+    names = set()
+    if not os.path.isdir(SNAPSHOT_DIR):
+        return names
+    for entry in os.listdir(SNAPSHOT_DIR):
+        if entry.endswith('.json'):
+            name, _ = os.path.splitext(entry)
+            names.add(name)
+    return names
+
+
+def fetch_character_summary(char_name):
+    url = CHAR_URL.format(char_name=char_name)
+    response = requests.get(url)
+    if response.status_code == 200:
+        return response.json()
+    print(f"⚠️ Failed to fetch watched character: {url} ({response.status_code})")
+    return None
+
 # Example usage: load your character data from ladder JSONs
 def main():
-    GetAllCharData()
-    GetAllHCCharData()
-    copy_ladders_to_dailies()
-#    create_character_index()
+    # Refresh ladder-based character data first
+#    GetAllCharData()
+#    GetAllHCCharData()
+#    copy_ladders_to_dailies()
+
+    # Aggregate all characters from ladder snapshots
     all_characters = {}
     for ladder_file in ["sc_ladder.json", "hc_ladder.json"]:
         if os.path.exists(ladder_file):
@@ -271,7 +333,38 @@ def main():
                     char_name = char.get("charName") or char.get("Name")
                     if char_name:
                         all_characters[char_name] = char
+
+    # Build the full set of characters we want to keep tracking
+    monitored_names = set(all_characters.keys())
+    monitored_names.update(get_snapshot_character_names())
+    monitored_names.update(load_watchlist())
+
+    # Fetch summaries for any characters that are not currently in ladder files
+    for char_name in sorted(monitored_names):
+        if char_name not in all_characters:
+            char_data = fetch_character_summary(char_name)
+            if char_data is not None:
+                all_characters[char_name] = char_data
+
     process_characters(all_characters)
 
 if __name__ == "__main__":
-    main()
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Fetch ladder data and track character history.")
+    parser.add_argument("--add-watched", "-a", action="append", help="Character name to add to the watchlist (can be used multiple times).")
+    parser.add_argument("--list-watched", "-l", action="store_true", help="List watched characters and exit.")
+    args = parser.parse_args()
+
+    if args.add_watched or args.list_watched:
+        if args.add_watched:
+            for name in args.add_watched:
+                if name:
+                    add_to_watchlist(name)
+        if args.list_watched:
+            names = load_watchlist()
+            print("Watched characters (from watched_characters.json):")
+            for n in sorted(names):
+                print(f" - {n}")
+    else:
+        main()

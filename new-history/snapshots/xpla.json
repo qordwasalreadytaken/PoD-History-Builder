@@ -11002,15 +11002,22 @@
     }
   },
   {
+<<<<<<< HEAD
     "timestamp": "2026-03-02T12:00:46.545623Z",
     "data": {
       "Title": "Conqueror",
+=======
+    "timestamp": "2026-03-02T12:27:42.198631Z",
+    "data": {
+      "Title": "Destroyer",
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
       "Name": "xpla",
       "IsLadder": true,
       "IsHardcore": true,
       "IsDead": false,
       "Class": "Paladin",
       "Stats": {
+<<<<<<< HEAD
         "Level": 60,
         "Experience": 127438538,
         "Strength": 65,
@@ -11042,6 +11049,39 @@
         "FasterCastRate": 10,
         "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 10,
+=======
+        "Level": 37,
+        "Experience": 12794826,
+        "Strength": 65,
+        "Dexterity": 20,
+        "Vitality": 170,
+        "Energy": 15,
+        "BaseLife": 600,
+        "Life": 660,
+        "BaseMana": 69,
+        "Mana": 220,
+        "Gold": 4116,
+        "Stashed": 623577
+      },
+      "Bonus": {
+        "Strength": 12,
+        "Dexterity": 16,
+        "Vitality": 0,
+        "Energy": 3,
+        "FireResistance": 48,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 44,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 22,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 62,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 4,
+        "GoldFind": 0,
+        "FasterCastRate": 25,
+        "FasterHitRecovery": 25,
+        "IncreasedAttackSpeed": 20,
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
@@ -11052,6 +11092,7 @@
           "Dexterity": 0,
           "Vitality": 0,
           "Energy": 0,
+<<<<<<< HEAD
           "FireResistance": 15,
           "MaximumFireResistance": 0,
           "ColdResistance": 15,
@@ -11059,12 +11100,25 @@
           "LightningResistance": 15,
           "MaximumLightningResistance": 0,
           "PoisonResistance": 15,
+=======
+          "FireResistance": 0,
+          "MaximumFireResistance": 0,
+          "ColdResistance": 0,
+          "MaximumColdResistance": 0,
+          "LightningResistance": 0,
+          "MaximumLightningResistance": 0,
+          "PoisonResistance": 0,
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "MaximumPoisonResistance": 0,
           "MagicFind": 0,
           "GoldFind": 0,
           "FasterCastRate": 0,
           "FasterHitRecovery": 0,
+<<<<<<< HEAD
           "IncreasedAttackSpeed": 0,
+=======
+          "IncreasedAttackSpeed": 40,
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "CrushingBlow": 0,
           "OpenWounds": 0,
           "DeadlyStrike": 0,
@@ -11099,6 +11153,7 @@
       "SkillTabs": [
         {
           "Name": "Combat Skills",
+<<<<<<< HEAD
           "Total": 47,
           "Skills": [
             {
@@ -11107,11 +11162,17 @@
               "Level": 1
             },
             {
+=======
+          "Total": 21,
+          "Skills": [
+            {
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
               "ID": 2,
               "Name": "Smite",
               "Level": 1
             },
             {
+<<<<<<< HEAD
               "ID": 6,
               "Name": "Holy Bolt",
               "Level": 20
@@ -11144,12 +11205,17 @@
             {
               "ID": 26,
               "Name": "Fist of the Heavens",
+=======
+              "ID": 12,
+              "Name": "Charge",
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
               "Level": 20
             }
           ]
         },
         {
           "Name": "Offensive Auras",
+<<<<<<< HEAD
           "Total": 0,
           "Skills": []
         },
@@ -11194,12 +11260,81 @@
           ],
           "Position": {
             "x": 2,
+=======
+          "Total": 19,
+          "Skills": [
+            {
+              "ID": 3,
+              "Name": "Might",
+              "Level": 1
+            },
+            {
+              "ID": 7,
+              "Name": "Holy Fire",
+              "Level": 1
+            },
+            {
+              "ID": 8,
+              "Name": "Precision",
+              "Level": 1
+            },
+            {
+              "ID": 19,
+              "Name": "Holy Freeze",
+              "Level": 1
+            },
+            {
+              "ID": 23,
+              "Name": "Holy Shock",
+              "Level": 14
+            },
+            {
+              "ID": 24,
+              "Name": "Sanctuary",
+              "Level": 1
+            }
+          ]
+        },
+        {
+          "Name": "Defensive Auras",
+          "Total": 0,
+          "Skills": []
+        }
+      ],
+      "MercenaryExperience": 5529168,
+      "MercenaryType": "Desert Mercenary",
+      "MercenaryName": "Durga",
+      "MercenaryLevel": "35",
+      "Equipped": [
+        {
+          "Quality": "Rare",
+          "ID": "632336208",
+          "QualityCode": "q_rare",
+          "Title": "Order Master",
+          "Tag": "Ring",
+          "TextTag": "ring",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "4",
+          "ItemLevel": "21",
+          "LevelReq": 13,
+          "SocketCount": "0",
+          "PropertyList": [
+            "+3 to Energy",
+            "Cold Resist +30%",
+            "Fire Resist +22%",
+            "Poison Resist +5%"
+          ],
+          "Position": {
+            "x": 7,
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
             "y": 0
           },
           "Size": {
             "invheight": 1,
             "invwidth": 1
           },
+<<<<<<< HEAD
           "Worn": "amulet"
         },
         {
@@ -11233,6 +11368,9 @@
             "invwidth": 2
           },
           "Worn": "body"
+=======
+          "Worn": "ring2"
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
         },
         {
           "Quality": "Set",
@@ -11244,7 +11382,11 @@
           "Ethereal": "False",
           "Enhanced": "False",
           "Defense": "5",
+<<<<<<< HEAD
           "Durability": "14",
+=======
+          "Durability": "13",
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "DurabilityMaximum": "14",
           "ItemLevel": "26",
           "LevelReq": 20,
@@ -11266,6 +11408,216 @@
           "Worn": "boots"
         },
         {
+<<<<<<< HEAD
+=======
+          "Quality": "Superior",
+          "ID": "287529303",
+          "QualityCode": "q_runeword",
+          "Title": "Stealth",
+          "Tag": "Studded Leather",
+          "TextTag": "Studded Leather",
+          "RuneTag": "TalEth",
+          "Ethereal": "False",
+          "Enhanced": "True",
+          "Defense": "36",
+          "Durability": "35",
+          "DurabilityMaximum": "32",
+          "ItemLevel": "20",
+          "LevelReq": 17,
+          "Sockets": [
+            {
+              "Quality": "Unknown",
+              "ID": "0",
+              "QualityCode": "",
+              "Title": "Tal Rune",
+              "Tag": "Tal Rune",
+              "TextTag": "Tal Rune",
+              "Ethereal": "False",
+              "Enhanced": "False",
+              "ItemLevel": "0",
+              "LevelReq": 17,
+              "SocketCount": "0",
+              "PropertyList": [
+                "Poison Resist +30%"
+              ],
+              "Position": {
+                "x": 0,
+                "y": 0
+              },
+              "Size": {
+                "invheight": 1,
+                "invwidth": 1
+              },
+              "Worn": ""
+            },
+            {
+              "Quality": "Unknown",
+              "ID": "0",
+              "QualityCode": "",
+              "Title": "Eth Rune",
+              "Tag": "Eth Rune",
+              "TextTag": "Eth Rune",
+              "Ethereal": "False",
+              "Enhanced": "False",
+              "ItemLevel": "0",
+              "LevelReq": 15,
+              "SocketCount": "0",
+              "PropertyList": [
+                "Regenerate Mana 15%"
+              ],
+              "Position": {
+                "x": 1,
+                "y": 0
+              },
+              "Size": {
+                "invheight": 1,
+                "invwidth": 1
+              },
+              "Worn": ""
+            }
+          ],
+          "SocketCount": "2",
+          "PropertyList": [
+            "+25% Faster Run/Walk",
+            "+25% Faster Cast Rate",
+            "+25% Faster Hit Recovery",
+            "+14% Enhanced Defense",
+            "+6 to Dexterity",
+            "Regenerate Mana 15%",
+            "+15 Maximum Stamina",
+            "Poison Resist +30%",
+            "Magic & Elemental Damage Taken Reduced by 3",
+            "Increase Maximum Durability 15%",
+            "Socketed (2)"
+          ],
+          "Position": {
+            "x": 3,
+            "y": 0
+          },
+          "Size": {
+            "invheight": 3,
+            "invwidth": 2
+          },
+          "Worn": "body"
+        },
+        {
+          "Quality": "Superior",
+          "ID": "3992491704",
+          "QualityCode": "q_high",
+          "Title": "Skull Cap",
+          "Tag": "Skull Cap",
+          "TextTag": "Skull Cap",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "Defense": "9",
+          "Durability": "18",
+          "DurabilityMaximum": "18",
+          "ItemLevel": "20",
+          "LevelReq": 0,
+          "Sockets": [
+            {
+              "Quality": "Magic",
+              "ID": "1286741134",
+              "QualityCode": "q_magic",
+              "Title": "Brute's Jewel of Passion",
+              "Tag": "Jewel",
+              "TextTag": "Jewel",
+              "Ethereal": "False",
+              "Enhanced": "False",
+              "AlternateGraphics": "0",
+              "ItemLevel": "50",
+              "LevelReq": 11,
+              "SocketCount": "0",
+              "PropertyList": [
+                "Melee attacks deal splash damage",
+                "Adds 1-7 Fire damage"
+              ],
+              "Position": {
+                "x": 0,
+                "y": 0
+              },
+              "Size": {
+                "invheight": 1,
+                "invwidth": 1
+              },
+              "Worn": ""
+            },
+            {
+              "Quality": "Magic",
+              "ID": "2545301541",
+              "QualityCode": "q_magic",
+              "Title": "Camphor Jewel of Wrath",
+              "Tag": "Jewel",
+              "TextTag": "Jewel",
+              "Ethereal": "False",
+              "Enhanced": "False",
+              "AlternateGraphics": "3",
+              "ItemLevel": "46",
+              "LevelReq": 8,
+              "SocketCount": "0",
+              "PropertyList": [
+                "+9 to Maximum Damage",
+                "Lightning Resist +12%"
+              ],
+              "Position": {
+                "x": 1,
+                "y": 0
+              },
+              "Size": {
+                "invheight": 1,
+                "invwidth": 1
+              },
+              "Worn": ""
+            }
+          ],
+          "SocketCount": "2",
+          "PropertyList": [
+            "Melee attacks deal splash damage",
+            "+9 to Maximum Damage",
+            "Adds 1-7 Fire damage",
+            "Lightning Resist +12%",
+            "Increase Maximum Durability 10%",
+            "Requirements -6%",
+            "Socketed (2)"
+          ],
+          "Position": {
+            "x": 1,
+            "y": 0
+          },
+          "Size": {
+            "invheight": 2,
+            "invwidth": 2
+          },
+          "Worn": "helmet"
+        },
+        {
+          "Quality": "Magic",
+          "ID": "857544619",
+          "QualityCode": "q_magic",
+          "Title": "Dragon's Amulet",
+          "Tag": "Amulet",
+          "TextTag": "amulet",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "2",
+          "ItemLevel": "85",
+          "LevelReq": 18,
+          "SocketCount": "0",
+          "PropertyList": [
+            "+36 to Mana"
+          ],
+          "Position": {
+            "x": 2,
+            "y": 0
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": "amulet"
+        },
+        {
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "Quality": "Unique",
           "ID": "2484030213",
           "QualityCode": "q_unique",
@@ -11299,13 +11651,20 @@
         },
         {
           "Quality": "Rare",
+<<<<<<< HEAD
           "ID": "3919124653",
           "QualityCode": "q_rare",
           "Title": "Order Grasp",
+=======
+          "ID": "1992361896",
+          "QualityCode": "q_rare",
+          "Title": "Raven Spiral",
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "Tag": "Ring",
           "TextTag": "ring",
           "Ethereal": "False",
           "Enhanced": "False",
+<<<<<<< HEAD
           "AlternateGraphics": "0",
           "ItemLevel": "75",
           "LevelReq": 51,
@@ -11316,6 +11675,18 @@
             "+110 to Attack Rating",
             "+10 to Energy",
             "+38 to Mana"
+=======
+          "AlternateGraphics": "3",
+          "ItemLevel": "68",
+          "LevelReq": 21,
+          "SocketCount": "0",
+          "PropertyList": [
+            "2% Mana stolen per hit",
+            "4% Life stolen per hit",
+            "+14 to Mana",
+            "+9 Maximum Stamina",
+            "Fire Resist +13%"
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           ],
           "Position": {
             "x": 6,
@@ -11329,6 +11700,7 @@
         },
         {
           "Quality": "Magic",
+<<<<<<< HEAD
           "ID": "2389757777",
           "QualityCode": "q_magic",
           "Title": "Bahamut's Ring",
@@ -11494,6 +11866,8 @@
         },
         {
           "Quality": "Magic",
+=======
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "ID": "1558652128",
           "QualityCode": "q_magic",
           "Title": "Battle Staff of Teleportation",
@@ -11511,7 +11885,11 @@
           "PropertyList": [
             "+50% Damage to Undead",
             "+2 to Charged Bolt (Sorceress Only)",
+<<<<<<< HEAD
             "Level 1 Teleport (27/33 Charges)"
+=======
+            "Level 1 Teleport (31/33 Charges)"
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           ],
           "Position": {
             "x": 11,
@@ -11524,6 +11902,7 @@
           "Worn": "sweapon1"
         },
         {
+<<<<<<< HEAD
           "Quality": "Unique",
           "ID": "1945212498",
           "QualityCode": "q_unique",
@@ -11549,6 +11928,59 @@
             "+170 to Attack Rating",
             "+50% Damage to Undead",
             "+160 poison damage over 4 seconds"
+=======
+          "Quality": "Rare",
+          "ID": "349018665",
+          "QualityCode": "q_rare",
+          "Title": "Dread Grasp",
+          "Tag": "Chain Gloves",
+          "TextTag": "Bracers(M)",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "Defense": "8",
+          "Durability": "16",
+          "DurabilityMaximum": "16",
+          "ItemLevel": "60",
+          "LevelReq": 35,
+          "SocketCount": "0",
+          "PropertyList": [
+            "+20% Increased Attack Speed",
+            "3% Mana stolen per hit",
+            "3% Life stolen per hit"
+          ],
+          "Position": {
+            "x": 10,
+            "y": 0
+          },
+          "Size": {
+            "invheight": 2,
+            "invwidth": 2
+          },
+          "Worn": "gloves"
+        },
+        {
+          "Quality": "Unique",
+          "ID": "1534704881",
+          "QualityCode": "q_unique",
+          "Title": "Steeldriver",
+          "Tag": "Great Maul",
+          "TextTag": "Great Maul",
+          "Ethereal": "False",
+          "Enhanced": "True",
+          "DamageMinimum": "103",
+          "DamageMaximum": "157",
+          "Durability": "125",
+          "DurabilityMaximum": "215",
+          "ItemLevel": "68",
+          "LevelReq": 29,
+          "SocketCount": "0",
+          "PropertyList": [
+            "+40% Increased Attack Speed",
+            "+172% Enhanced Damage",
+            "+50% Damage to Undead",
+            "Heal Stamina Plus 25%",
+            "Requirements -50%"
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           ],
           "Position": {
             "x": 4,
@@ -11556,6 +11988,7 @@
           },
           "Size": {
             "invheight": 3,
+<<<<<<< HEAD
             "invwidth": 1
           },
           "Worn": "weapon1"
@@ -11595,10 +12028,261 @@
             "invwidth": 2
           },
           "Worn": "weapon2"
+=======
+            "invwidth": 2
+          },
+          "Worn": "weapon1"
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
         }
       ],
       "Inventory": [
         {
+<<<<<<< HEAD
+=======
+          "Quality": "Normal",
+          "ID": "1674175983",
+          "QualityCode": "q_normal",
+          "Title": "Tome of Identify",
+          "Tag": "Tome of Identify",
+          "TextTag": "Identify Book",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "9",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 2,
+            "y": 0
+          },
+          "Size": {
+            "invheight": 2,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Normal",
+          "ID": "4075078746",
+          "QualityCode": "q_normal",
+          "Title": "Tome of Town Portal",
+          "Tag": "Tome of Town Portal",
+          "TextTag": "Town Portal Book",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "9",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 0,
+            "y": 2
+          },
+          "Size": {
+            "invheight": 2,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Normal",
+          "ID": "2924858513",
+          "QualityCode": "q_normal",
+          "Title": "Tome of Town Portal",
+          "Tag": "Tome of Town Portal",
+          "TextTag": "Town Portal Book",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "19",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 1,
+            "y": 2
+          },
+          "Size": {
+            "invheight": 2,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Magic",
+          "ID": "1721490792",
+          "QualityCode": "q_magic",
+          "Title": "Small Charm of Strength",
+          "Tag": "Small Charm",
+          "TextTag": "Charm Small",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "0",
+          "ItemLevel": "12",
+          "LevelReq": 5,
+          "SocketCount": "0",
+          "PropertyList": [
+            "+1 to Strength"
+          ],
+          "Position": {
+            "x": 4,
+            "y": 5
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Normal",
+          "ID": "381860917",
+          "QualityCode": "q_normal",
+          "Title": "Horadric Cube",
+          "Tag": "Horadric Cube",
+          "TextTag": "Horadric Cube",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "13",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 0,
+            "y": 0
+          },
+          "Size": {
+            "invheight": 2,
+            "invwidth": 2
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Normal",
+          "ID": "2871001487",
+          "QualityCode": "q_normal",
+          "Title": "Tome of Identify",
+          "Tag": "Tome of Identify",
+          "TextTag": "Identify Book",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "19",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 2,
+            "y": 2
+          },
+          "Size": {
+            "invheight": 2,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Magic",
+          "ID": "2501897570",
+          "QualityCode": "q_magic",
+          "Title": "Small Charm of Strength",
+          "Tag": "Small Charm",
+          "TextTag": "Charm Small",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "1",
+          "ItemLevel": "10",
+          "LevelReq": 5,
+          "SocketCount": "0",
+          "PropertyList": [
+            "+1 to Strength"
+          ],
+          "Position": {
+            "x": 5,
+            "y": 5
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Normal",
+          "ID": "1071433909",
+          "QualityCode": "q_normal",
+          "Title": "Key",
+          "Tag": "Key",
+          "TextTag": "Skeleton Key",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "5",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 1,
+            "y": 4
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Magic",
+          "ID": "3358708032",
+          "QualityCode": "q_magic",
+          "Title": "Large Charm of Life",
+          "Tag": "Large Charm",
+          "TextTag": "Charm Medium",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "0",
+          "ItemLevel": "19",
+          "LevelReq": 9,
+          "SocketCount": "0",
+          "PropertyList": [
+            "+15 to Life"
+          ],
+          "Position": {
+            "x": 0,
+            "y": 5
+          },
+          "Size": {
+            "invheight": 2,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Magic",
+          "ID": "3280311392",
+          "QualityCode": "q_magic",
+          "Title": "Rugged Small Charm of Shock",
+          "Tag": "Small Charm",
+          "TextTag": "Charm Small",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "2",
+          "ItemLevel": "22",
+          "LevelReq": 9,
+          "SocketCount": "0",
+          "PropertyList": [
+            "Adds 1-6 Lightning damage",
+            "+8 Maximum Stamina"
+          ],
+          "Position": {
+            "x": 8,
+            "y": 5
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "Quality": "Magic",
           "ID": "1562007628",
           "QualityCode": "q_magic",
@@ -11627,6 +12311,35 @@
         },
         {
           "Quality": "Magic",
+<<<<<<< HEAD
+=======
+          "ID": "4263747929",
+          "QualityCode": "q_magic",
+          "Title": "Beryl Large Charm",
+          "Tag": "Large Charm",
+          "TextTag": "Charm Medium",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "1",
+          "ItemLevel": "14",
+          "LevelReq": 1,
+          "SocketCount": "0",
+          "PropertyList": [
+            "Poison Resist +6%"
+          ],
+          "Position": {
+            "x": 1,
+            "y": 5
+          },
+          "Size": {
+            "invheight": 2,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Magic",
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "ID": "2384234029",
           "QualityCode": "q_magic",
           "Title": "Crimson Small Charm",
@@ -11680,6 +12393,36 @@
         },
         {
           "Quality": "Magic",
+<<<<<<< HEAD
+=======
+          "ID": "3894628636",
+          "QualityCode": "q_magic",
+          "Title": "Bronze Large Charm of Strength",
+          "Tag": "Large Charm",
+          "TextTag": "Charm Medium",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "1",
+          "ItemLevel": "11",
+          "LevelReq": 2,
+          "SocketCount": "0",
+          "PropertyList": [
+            "+6 to Attack Rating",
+            "+2 to Strength"
+          ],
+          "Position": {
+            "x": 2,
+            "y": 5
+          },
+          "Size": {
+            "invheight": 2,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Magic",
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "ID": "3548842469",
           "QualityCode": "q_magic",
           "Title": "Viridian Small Charm",
@@ -11706,6 +12449,268 @@
         },
         {
           "Quality": "Magic",
+<<<<<<< HEAD
+=======
+          "ID": "1010753654",
+          "QualityCode": "q_magic",
+          "Title": "Grand Charm of Life",
+          "Tag": "Grand Charm",
+          "TextTag": "Charm Large",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "1",
+          "ItemLevel": "22",
+          "LevelReq": 14,
+          "SocketCount": "0",
+          "PropertyList": [
+            "+20 to Life"
+          ],
+          "Position": {
+            "x": 9,
+            "y": 6
+          },
+          "Size": {
+            "invheight": 3,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Magic",
+          "ID": "530172927",
+          "QualityCode": "q_magic",
+          "Title": "Lucky Grand Charm of Lightning",
+          "Tag": "Grand Charm",
+          "TextTag": "Charm Large",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "1",
+          "ItemLevel": "26",
+          "LevelReq": 5,
+          "SocketCount": "0",
+          "PropertyList": [
+            "Adds 1-4 Lightning damage",
+            "4% Better Chance of Getting Magic Items"
+          ],
+          "Position": {
+            "x": 5,
+            "y": 6
+          },
+          "Size": {
+            "invheight": 3,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Unknown",
+          "ID": "0",
+          "QualityCode": "",
+          "Title": "Mephisto's Soulstone",
+          "Tag": "Mephisto's Soulstone",
+          "TextTag": "Mephisto SoulStone",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "0",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 0,
+            "y": 4
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Normal",
+          "ID": "3355965413",
+          "QualityCode": "q_normal",
+          "Title": "Key",
+          "Tag": "Key",
+          "TextTag": "Skeleton Key",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "12",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 2,
+            "y": 4
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Magic",
+          "ID": "3965871383",
+          "QualityCode": "q_magic",
+          "Title": "Fine Grand Charm of Blight",
+          "Tag": "Grand Charm",
+          "TextTag": "Charm Large",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "0",
+          "ItemLevel": "84",
+          "LevelReq": 16,
+          "SocketCount": "0",
+          "PropertyList": [
+            "+4 to Maximum Damage",
+            "+27 to Attack Rating",
+            "+6 poison damage over 3 seconds"
+          ],
+          "Position": {
+            "x": 8,
+            "y": 6
+          },
+          "Size": {
+            "invheight": 3,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Magic",
+          "ID": "1958767358",
+          "QualityCode": "q_magic",
+          "Title": "Lizard's Large Charm",
+          "Tag": "Large Charm",
+          "TextTag": "Charm Medium",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "1",
+          "ItemLevel": "38",
+          "LevelReq": 12,
+          "SocketCount": "0",
+          "PropertyList": [
+            "+12 to Mana"
+          ],
+          "Position": {
+            "x": 3,
+            "y": 7
+          },
+          "Size": {
+            "invheight": 2,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Magic",
+          "ID": "868367316",
+          "QualityCode": "q_magic",
+          "Title": "Snake's Small Charm",
+          "Tag": "Small Charm",
+          "TextTag": "Charm Small",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "1",
+          "ItemLevel": "65",
+          "LevelReq": 24,
+          "SocketCount": "0",
+          "PropertyList": [
+            "+10 to Mana"
+          ],
+          "Position": {
+            "x": 3,
+            "y": 6
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Magic",
+          "ID": "1734062167",
+          "QualityCode": "q_magic",
+          "Title": "Sharp Grand Charm of Inertia",
+          "Tag": "Grand Charm",
+          "TextTag": "Charm Large",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "2",
+          "ItemLevel": "65",
+          "LevelReq": 21,
+          "SocketCount": "0",
+          "PropertyList": [
+            "+7% Faster Run/Walk",
+            "+9 to Maximum Damage",
+            "+59 to Attack Rating"
+          ],
+          "Position": {
+            "x": 6,
+            "y": 6
+          },
+          "Size": {
+            "invheight": 3,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Magic",
+          "ID": "2554949556",
+          "QualityCode": "q_magic",
+          "Title": "Snake's Grand Charm",
+          "Tag": "Grand Charm",
+          "TextTag": "Charm Large",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "2",
+          "ItemLevel": "83",
+          "LevelReq": 23,
+          "SocketCount": "0",
+          "PropertyList": [
+            "+36 to Mana"
+          ],
+          "Position": {
+            "x": 4,
+            "y": 6
+          },
+          "Size": {
+            "invheight": 3,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Magic",
+          "ID": "2871214677",
+          "QualityCode": "q_magic",
+          "Title": "Large Charm of Venom",
+          "Tag": "Large Charm",
+          "TextTag": "Charm Medium",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "0",
+          "ItemLevel": "33",
+          "LevelReq": 9,
+          "SocketCount": "0",
+          "PropertyList": [
+            "+15 poison damage over 4 seconds"
+          ],
+          "Position": {
+            "x": 0,
+            "y": 7
+          },
+          "Size": {
+            "invheight": 2,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Magic",
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "ID": "1285225810",
           "QualityCode": "q_magic",
           "Title": "Small Charm of Sustenance",
@@ -11732,6 +12737,35 @@
         },
         {
           "Quality": "Magic",
+<<<<<<< HEAD
+=======
+          "ID": "2021860220",
+          "QualityCode": "q_magic",
+          "Title": "Small Charm of Shock",
+          "Tag": "Small Charm",
+          "TextTag": "Charm Small",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "AlternateGraphics": "0",
+          "ItemLevel": "31",
+          "LevelReq": 9,
+          "SocketCount": "0",
+          "PropertyList": [
+            "Adds 1-6 Lightning damage"
+          ],
+          "Position": {
+            "x": 9,
+            "y": 5
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Magic",
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "ID": "1678865827",
           "QualityCode": "q_magic",
           "Title": "Snake's Grand Charm of Inertia",
@@ -11758,6 +12792,7 @@
           "Worn": ""
         },
         {
+<<<<<<< HEAD
           "Quality": "Magic",
           "ID": "107139624",
           "QualityCode": "q_magic",
@@ -11857,6 +12892,23 @@
           "Position": {
             "x": 4,
             "y": 5
+=======
+          "Quality": "Normal",
+          "ID": "3977376729",
+          "QualityCode": "q_normal",
+          "Title": "Key",
+          "Tag": "Key",
+          "TextTag": "Skeleton Key",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "27",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 9,
+            "y": 0
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           },
           "Size": {
             "invheight": 1,
@@ -11865,6 +12917,7 @@
           "Worn": ""
         },
         {
+<<<<<<< HEAD
           "Quality": "Magic",
           "ID": "169649413",
           "QualityCode": "q_magic",
@@ -11954,6 +13007,17 @@
           "Ethereal": "False",
           "Enhanced": "False",
           "ItemLevel": "13",
+=======
+          "Quality": "Normal",
+          "ID": "3852318368",
+          "QualityCode": "q_normal",
+          "Title": "Key",
+          "Tag": "Key",
+          "TextTag": "Skeleton Key",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "29",
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "LevelReq": 0,
           "SocketCount": "0",
           "PropertyList": [],
@@ -11962,6 +13026,7 @@
             "y": 0
           },
           "Size": {
+<<<<<<< HEAD
             "invheight": 2,
             "invwidth": 2
           },
@@ -11986,11 +13051,15 @@
           },
           "Size": {
             "invheight": 2,
+=======
+            "invheight": 1,
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
             "invwidth": 1
           },
           "Worn": ""
         },
         {
+<<<<<<< HEAD
           "Quality": "Normal",
           "ID": "2871001487",
           "QualityCode": "q_normal",
@@ -12000,20 +13069,40 @@
           "Ethereal": "False",
           "Enhanced": "False",
           "ItemLevel": "19",
+=======
+          "Quality": "Unknown",
+          "ID": "0",
+          "QualityCode": "",
+          "Title": "Rejuvenation Potion",
+          "Tag": "Rejuvenation Potion",
+          "TextTag": "Rejuv Potion",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "0",
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "LevelReq": 0,
           "SocketCount": "0",
           "PropertyList": [],
           "Position": {
+<<<<<<< HEAD
             "x": 7,
             "y": 2
           },
           "Size": {
             "invheight": 2,
+=======
+            "x": 9,
+            "y": 4
+          },
+          "Size": {
+            "invheight": 1,
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
             "invwidth": 1
           },
           "Worn": ""
         },
         {
+<<<<<<< HEAD
           "Quality": "Normal",
           "ID": "2924858513",
           "QualityCode": "q_normal",
@@ -12023,6 +13112,40 @@
           "Ethereal": "False",
           "Enhanced": "False",
           "ItemLevel": "19",
+=======
+          "Quality": "Unknown",
+          "ID": "0",
+          "QualityCode": "",
+          "Title": "Rejuvenation Potion",
+          "Tag": "Rejuvenation Potion",
+          "TextTag": "Rejuv Potion",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "0",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 9,
+            "y": 3
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Unknown",
+          "ID": "0",
+          "QualityCode": "",
+          "Title": "Rejuvenation Potion",
+          "Tag": "Rejuvenation Potion",
+          "TextTag": "Rejuv Potion",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "0",
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "LevelReq": 0,
           "SocketCount": "0",
           "PropertyList": [],
@@ -12031,12 +13154,17 @@
             "y": 2
           },
           "Size": {
+<<<<<<< HEAD
             "invheight": 2,
+=======
+            "invheight": 1,
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
             "invwidth": 1
           },
           "Worn": ""
         },
         {
+<<<<<<< HEAD
           "Quality": "Normal",
           "ID": "4075078746",
           "QualityCode": "q_normal",
@@ -12046,6 +13174,109 @@
           "Ethereal": "False",
           "Enhanced": "False",
           "ItemLevel": "9",
+=======
+          "Quality": "Unknown",
+          "ID": "0",
+          "QualityCode": "",
+          "Title": "Rejuvenation Potion",
+          "Tag": "Rejuvenation Potion",
+          "TextTag": "Rejuv Potion",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "0",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 9,
+            "y": 1
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Unknown",
+          "ID": "0",
+          "QualityCode": "",
+          "Title": "Super Healing Potion",
+          "Tag": "Super Healing Potion",
+          "TextTag": "Greater Healing Potion",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "0",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 8,
+            "y": 1
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Unknown",
+          "ID": "0",
+          "QualityCode": "",
+          "Title": "Super Mana Potion",
+          "Tag": "Super Mana Potion",
+          "TextTag": "Greater Mana Potion",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "0",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 8,
+            "y": 3
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Unknown",
+          "ID": "0",
+          "QualityCode": "",
+          "Title": "Super Mana Potion",
+          "Tag": "Super Mana Potion",
+          "TextTag": "Greater Mana Potion",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "0",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 8,
+            "y": 4
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Unknown",
+          "ID": "0",
+          "QualityCode": "",
+          "Title": "Super Healing Potion",
+          "Tag": "Super Healing Potion",
+          "TextTag": "Greater Healing Potion",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "0",
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "LevelReq": 0,
           "SocketCount": "0",
           "PropertyList": [],
@@ -12054,7 +13285,195 @@
             "y": 2
           },
           "Size": {
+<<<<<<< HEAD
             "invheight": 2,
+=======
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Unknown",
+          "ID": "0",
+          "QualityCode": "",
+          "Title": "Greater Healing Potion",
+          "Tag": "Greater Healing Potion",
+          "TextTag": "Strong Healing Potion",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "0",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 7,
+            "y": 4
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Unknown",
+          "ID": "0",
+          "QualityCode": "",
+          "Title": "Super Mana Potion",
+          "Tag": "Super Mana Potion",
+          "TextTag": "Greater Mana Potion",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "0",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 5,
+            "y": 4
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Unknown",
+          "ID": "0",
+          "QualityCode": "",
+          "Title": "Super Mana Potion",
+          "Tag": "Super Mana Potion",
+          "TextTag": "Greater Mana Potion",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "0",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 5,
+            "y": 3
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Unknown",
+          "ID": "0",
+          "QualityCode": "",
+          "Title": "Greater Healing Potion",
+          "Tag": "Greater Healing Potion",
+          "TextTag": "Strong Healing Potion",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "0",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 4,
+            "y": 4
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Unknown",
+          "ID": "0",
+          "QualityCode": "",
+          "Title": "Rejuvenation Potion",
+          "Tag": "Rejuvenation Potion",
+          "TextTag": "Rejuv Potion",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "0",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 7,
+            "y": 3
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Unknown",
+          "ID": "0",
+          "QualityCode": "",
+          "Title": "Greater Healing Potion",
+          "Tag": "Greater Healing Potion",
+          "TextTag": "Strong Healing Potion",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "0",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 7,
+            "y": 2
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Unknown",
+          "ID": "0",
+          "QualityCode": "",
+          "Title": "Super Mana Potion",
+          "Tag": "Super Mana Potion",
+          "TextTag": "Greater Mana Potion",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "0",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 7,
+            "y": 1
+          },
+          "Size": {
+            "invheight": 1,
+            "invwidth": 1
+          },
+          "Worn": ""
+        },
+        {
+          "Quality": "Unknown",
+          "ID": "0",
+          "QualityCode": "",
+          "Title": "Scroll of Town Portal",
+          "Tag": "Scroll of Town Portal",
+          "TextTag": "Town Portal Scroll",
+          "Ethereal": "False",
+          "Enhanced": "False",
+          "ItemLevel": "0",
+          "LevelReq": 0,
+          "SocketCount": "0",
+          "PropertyList": [],
+          "Position": {
+            "x": 7,
+            "y": 0
+          },
+          "Size": {
+            "invheight": 1,
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
             "invwidth": 1
           },
           "Worn": ""
@@ -12073,6 +13492,7 @@
           "SocketCount": "0",
           "PropertyList": [],
           "Position": {
+<<<<<<< HEAD
             "x": 9,
             "y": 4
           },
@@ -12275,6 +13695,8 @@
           "SocketCount": "0",
           "PropertyList": [],
           "Position": {
+=======
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
             "x": 6,
             "y": 4
           },
@@ -12286,6 +13708,7 @@
         },
         {
           "Quality": "Magic",
+<<<<<<< HEAD
           "ID": "604493314",
           "QualityCode": "q_magic",
           "Title": "Large Charm of Sustenance",
@@ -12517,6 +13940,25 @@
           },
           "Size": {
             "invheight": 1,
+=======
+          "ID": "2603516034",
+          "QualityCode": "q_magic",
+          "Title": "Bolts",
+          "Tag": "Bolts",
+          "TextTag": "Bolts",
+          "Ethereal": "False",
+          "ItemLevel": "36",
+          "LevelReq": 6,
+          "PropertyList": [
+            "\u00ffc1Unidentified"
+          ],
+          "Position": {
+            "x": 6,
+            "y": 1
+          },
+          "Size": {
+            "invheight": 3,
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
             "invwidth": 1
           },
           "Worn": ""
@@ -12536,6 +13978,7 @@
           "PropertyList": [],
           "Position": {
             "x": 6,
+<<<<<<< HEAD
             "y": 3
           },
           "Size": {
@@ -12628,6 +14071,8 @@
           "PropertyList": [],
           "Position": {
             "x": 0,
+=======
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
             "y": 0
           },
           "Size": {
@@ -12650,6 +14095,7 @@
           "SocketCount": "0",
           "PropertyList": [],
           "Position": {
+<<<<<<< HEAD
             "x": 0,
             "y": 1
           },
@@ -12790,6 +14236,8 @@
             "\u00ffc1Unidentified"
           ],
           "Position": {
+=======
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
             "x": 3,
             "y": 4
           },
@@ -12798,6 +14246,7 @@
             "invwidth": 1
           },
           "Worn": ""
+<<<<<<< HEAD
         },
         {
           "Quality": "Unknown",
@@ -13039,6 +14488,8 @@
             "invwidth": 1
           },
           "Worn": ""
+=======
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
         }
       ],
       "MercenaryEquipped": [
@@ -13162,6 +14613,7 @@
         },
         {
           "Quality": "Superior",
+<<<<<<< HEAD
           "ID": "2440059659",
           "QualityCode": "q_runeword",
           "Title": "Insight",
@@ -13176,6 +14628,22 @@
           "Durability": "71",
           "DurabilityMaximum": "114",
           "ItemLevel": "48",
+=======
+          "ID": "470507085",
+          "QualityCode": "q_runeword",
+          "Title": "Insight",
+          "Tag": "Voulge",
+          "TextTag": "Voulge",
+          "RuneTag": "RalTirTalSol",
+          "Ethereal": "False",
+          "Enhanced": "True",
+          "DamageMinimum": "28",
+          "DamageMaximum": "67",
+          "ThrowDamageMinimum": "9",
+          "Durability": "245",
+          "DurabilityMaximum": "215",
+          "ItemLevel": "38",
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
           "LevelReq": 27,
           "Sockets": [
             {
@@ -13281,6 +14749,7 @@
           ],
           "SocketCount": "4",
           "PropertyList": [
+<<<<<<< HEAD
             "Level 14 Meditation Aura When Equipped",
             "+35% Faster Cast Rate",
             "+257% Enhanced Damage",
@@ -13292,6 +14761,21 @@
             "+5 to all Attributes",
             "+2 to Mana after each Kill",
             "23% Better Chance of Getting Magic Items",
+=======
+            "Level 12 Meditation Aura When Equipped",
+            "+35% Faster Cast Rate",
+            "+220% Enhanced Damage",
+            "+9 to Minimum Damage",
+            "238% Bonus to Attack Rating",
+            "+37 to Attack Rating (Based on Character Level)",
+            "+5 Fire damage",
+            "+75 poison damage over 5 seconds",
+            "+6 to Critical Strike",
+            "+5 to all Attributes",
+            "+2 to Mana after each Kill",
+            "23% Better Chance of Getting Magic Items",
+            "Increase Maximum Durability 14%",
+>>>>>>> c5a40817e0 (new fetch, once it sees you it'll always see you instead of relying solely on ladder ranks; added mechanism for static entries (like tracking characters with no ladder rank))
             "Socketed (4)"
           ],
           "Position": {
