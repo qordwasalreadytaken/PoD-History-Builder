@@ -42,39 +42,14 @@
       border-radius: 6px;
       padding: 0.5em 1em;
       position: relative;
-      cursor: pointer;
-      min-width: 180px;
+      cursor: default;
+      min-width: 300px;
       text-align: center;
       transition: box-shadow 0.2s;
-      flex: 1 1 calc(25% - 1em); /* 4 per row, minus gap */
-      max-width: calc(25% - 1em);
+      flex: 1 1 calc(33% - 1em); /* 4 per row, minus gap */
+      max-width: calc(33% - 1em);
       box-sizing: border-box;
-    }
-    .item-entry:hover {
-      box-shadow: 0 0 12px #ffe06688;
-      z-index: 2;
-    }
-    .item-popup {
-      display: none;
-      position: fixed;
-      left: 50%;
-      top: 20px;
-      transform: translateX(-50%);
-      background: #181818;
-      border: 2px solid #928068;
-      color: #e0d8c0;
-      min-width: 320px;
-      max-width: 400px;
-      padding: 1em;
-      border-radius: 8px;
-      box-shadow: 0 8px 32px #000a;
-      font-size: 1em;
-      white-space: pre-line;
-      z-index: 1000;
-      pointer-events: none;
-    }
-    .item-entry:hover .item-popup {
-      display: block;
+      box-shadow: 0 0 8px #000a;
     }
     .item-title {
       color: #928068;
@@ -208,11 +183,7 @@
         grouped[date].forEach(item => {
           const entry = document.createElement('div');
           entry.className = 'item-entry';
-          entry.innerHTML = `
-            <div>${item.title || '(No Title)'}</div>
-            <div style='font-size:0.9em;color:#aaa;'>${item.base_type || ''}</div>
-            <div class='item-popup'>${createItemHTML(item)}</div>
-          `;
+          entry.innerHTML = createItemHTML(item);
           grid.appendChild(entry);
         });
         section.appendChild(grid);
