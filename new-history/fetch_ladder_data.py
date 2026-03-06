@@ -249,9 +249,21 @@ def load_character_history(char_name):
     return []
 
 def process_characters(characters):
+    # Normalize character names to lowercase to avoid processing the same
+    # character multiple times in a single run due to case or source
+    # differences (e.g., "Devoraan" from ladder vs "devoraan" from
+    # existing snapshots/watchlist). The last seen data for a given
+    # lowercase name wins.
+    normalized_characters = {}
+    for name, data in characters.items():
+        if not name:
+            continue
+        key = str(name).lower()
+        normalized_characters[key] = data
+
     timestamp = datetime.utcnow().isoformat() + 'Z'
     recently_changed = []
-    for char_name, char_data in characters.items():
+    for char_name, char_data in normalized_characters.items():
         history = load_character_history(char_name)
         last_snapshot = history[-1]['data'] if history else None
         if last_snapshot is None or character_changed(char_data, last_snapshot):
@@ -320,8 +332,8 @@ def fetch_character_summary(char_name):
 # Example usage: load your character data from ladder JSONs
 def main():
     # Refresh ladder-based character data first
-#    GetAllCharData()
-#    GetAllHCCharData()
+    GetAllCharData()
+    GetAllHCCharData()
 #    copy_ladders_to_dailies()
 
     # Aggregate all characters from ladder snapshots
