@@ -8755,5 +8755,41 @@ const synthInventory = [
     "seen_date": "2026-03-04",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Bing+Sz+Wang%2C0%2Cnone%2Car%3A50%2Cdstrike%3A141%2Cpmh%3A1"
+  },
+  {
+    "id": "9a46546ff9c2cf6244d9d73ffcb590c258027c3087f287f679bd2e6cf3c318c9",
+    "friendly_id": 146,
+    "owner": "Grizzlerr",
+    "base_type": "Synthesized Legendary Mallet",
+    "title": "Stone Crusher",
+    "properties": [
+      "ÿc1Corrupted",
+      "15% Chance to cast level 10 Static Field on striking",
+      "4% Chance to cast level 8 Volcano on striking",
+      "+30% Increased Attack Speed",
+      "+461% Enhanced Damage",
+      "-25% Target Defense",
+      "+50% Damage to Undead",
+      "Adds 35-150 Fire damage",
+      "33% Chance of Crushing Blow",
+      "-100 to Monster Defense Per Hit",
+      "Lightning Resist 90% (Based on Character Level)"
+    ],
+    "synthesised_from": [
+      "Pompeii's Wrath",
+      "Stormspike",
+      "Stormlash"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "280",
+    "DamageMaximum": "342",
+    "LevelReq": 68,
+    "SocketCount": "0",
+    "seen_date": "2026-03-06",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Stone+Crusher%2C0%2Cnone%2Cias%3A30%2Cdamage_bonus%3A461%2Cdamage_vs_undead%3A50%2CfDamage_min%3A35%2CfDamage_max%3A150%2Ccblow%3A33%2Cmonster_defense_per_hit%3A-100"
   }
 ];
