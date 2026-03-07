@@ -87,7 +87,7 @@ jobs:
                 'where CharacterName follows the above rules.',
               ].join('\n');
 
-              await github.issues.createComment({
+              await github.rest.issues.createComment({
                 owner,
                 repo,
                 issue_number: issue.number,
@@ -145,14 +145,14 @@ jobs:
             });
 
             // Close the issue with a confirmation comment
-            await github.issues.createComment({
+            await github.rest.issues.createComment({
               owner,
               repo,
               issue_number: issue.number,
               body: `✅ Added **${name}** to watched_characters.json and closing this issue.`,
             });
 
-            await github.issues.update({
+            await github.rest.issues.update({
               owner,
               repo,
               issue_number: issue.number,
