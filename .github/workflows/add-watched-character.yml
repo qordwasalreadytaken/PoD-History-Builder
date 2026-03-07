@@ -1,0 +1,160 @@
+name: Add watched character from issue
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  add-watched-character:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Handle watchlist issue
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const issue = context.payload.issue;
+
+            // Parse commands of the form:
+            //   "Add CharacterName" or "watch CharacterName"
+            const title = (issue.title || '').trim();
+            let rawName = null;
+
+            const addPrefix = /^add\s+/i;
+            const watchPrefix = /^watch\s+/i;
+
+            if (addPrefix.test(title)) {
+              rawName = title.replace(addPrefix, '').trim();
+            } else if (watchPrefix.test(title)) {
+              rawName = title.replace(watchPrefix, '').trim();
+            } else {
+              // Not a watchlist command issue; ignore
+              return;
+            }
+
+            function isValidName(name) {
+              // Length between 2 and 15
+              if (name.length < 2 || name.length > 15) {
+                return false;
+              }
+
+              // Allowed chars: A-Z/a-z, plus at most one '-' or '_'
+              let dashCount = 0;
+              let underscoreCount = 0;
+              for (const ch of name) {
+                if ((ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')) {
+                  continue;
+                }
+                if (ch === '-') {
+                  dashCount++;
+                } else if (ch === '_') {
+                  underscoreCount++;
+                } else {
+                  return false; // invalid character
+                }
+                if (dashCount + underscoreCount > 1) {
+                  return false; // more than one '-' or '_'
+                }
+              }
+
+              // Don't allow name to start or end with '-' or '_'
+              if (name.startsWith('-') || name.startsWith('_') ||
+                  name.endsWith('-') || name.endsWith('_')) {
+                return false;
+              }
+
+              return true;
+            }
+
+            if (!isValidName(rawName)) {
+              const msg = [
+                '❌ Could not add to watchlist – invalid character name.',
+                '',
+                'Rules:',
+                '- Length must be between 2 and 15 characters.',
+                '- Only letters A-Z are allowed.',
+                '- A single dash (-) or underscore (_) is allowed (optional),',
+                '  and it cannot be the first or last character.',
+                '',
+                'To use this automation, set the issue title to:',
+                '  "Add CharacterName" or "watch CharacterName"',
+                'where CharacterName follows the above rules.',
+              ].join('\n');
+
+              await github.issues.createComment({
+                owner,
+                repo,
+                issue_number: issue.number,
+                body: msg,
+              });
+
+              // Leave the issue open so the user can fix it
+              return;
+            }
+
+            const name = rawName;
+            const path = 'new-history/watched_characters.json';
+
+            // Get existing file contents
+            const { data: file } = await github.repos.getContent({
+              owner,
+              repo,
+              path,
+            });
+
+            const content = Buffer.from(file.content, file.encoding).toString();
+            let list;
+            try {
+              list = JSON.parse(content);
+            } catch (e) {
+              throw new Error('watched_characters.json is not valid JSON: ' + e.message);
+            }
+
+            if (!Array.isArray(list)) {
+              throw new Error('watched_characters.json must be a JSON array of names');
+            }
+
+            // Avoid duplicates (case-sensitive match to keep existing style)
+            if (!list.includes(name)) {
+              list.push(name);
+            }
+
+            // Sort and dedupe to mirror save_watchlist behaviour
+            const uniqueSorted = Array.from(new Set(list)).sort((a, b) =>
+              a.localeCompare(b)
+            );
+
+            const updatedContent = Buffer.from(
+              JSON.stringify(uniqueSorted, null, 2) + '\n'
+            ).toString('base64');
+
+            await github.repos.createOrUpdateFileContents({
+              owner,
+              repo,
+              path,
+              message: `Add watched character ${name}`,
+              content: updatedContent,
+              sha: file.sha,
+              branch: 'main',
+            });
+
+            // Close the issue with a confirmation comment
+            await github.issues.createComment({
+              owner,
+              repo,
+              issue_number: issue.number,
+              body: `✅ Added **${name}** to watched_characters.json and closing this issue.`,
+            });
+
+            await github.issues.update({
+              owner,
+              repo,
+              issue_number: issue.number,
+              state: 'closed',
+            });
