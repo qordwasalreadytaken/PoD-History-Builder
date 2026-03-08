@@ -2,7 +2,8 @@ name: Hourly History builder update- Data fetch
 
 on:
   schedule:
-    - cron: '0 5 * * *'  # 45 minutes past the hour, every hour '45 * * * *'; UTC -- 5 am daily '0 5 * * *'
+    # Run at 02:00 and 14:00 UTC every day
+    - cron: '0 2,14 * * *'
   workflow_dispatch:
 
 # Prevent concurrent runs to avoid race conditions

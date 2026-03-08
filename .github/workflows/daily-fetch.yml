@@ -2,7 +2,7 @@ name: Daily Ladder Fetch
 
 on:
   schedule:
-    - cron: '35 11 * * *'  # Runs at 11:35 AM UTC every day
+    - cron: '0 4,16 * * *'
   workflow_dispatch:
 
 jobs:
