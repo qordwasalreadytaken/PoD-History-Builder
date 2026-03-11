@@ -64121,40 +64121,40 @@
     "Class": "Assassin",
     "Stats": {
       "Level": 94,
-      "Experience": 2451930999,
+      "Experience": 2471665891,
       "Strength": 54,
       "Dexterity": 20,
       "Vitality": 85,
       "Energy": 406,
       "BaseLife": 471,
-      "Life": 1005,
+      "Life": 996,
       "BaseMana": 831,
       "Mana": 1022,
-      "Gold": 460907,
+      "Gold": 940000,
       "Stashed": 1131691
     },
     "Bonus": {
-      "Strength": 140,
+      "Strength": 120,
       "Dexterity": 25,
-      "Vitality": 20,
+      "Vitality": 36,
       "Energy": 0,
       "FireResistance": 93,
       "MaximumFireResistance": 0,
       "ColdResistance": 98,
       "MaximumColdResistance": 0,
       "LightningResistance": 101,
-      "MaximumLightningResistance": 10,
+      "MaximumLightningResistance": 0,
       "PoisonResistance": 88,
       "MaximumPoisonResistance": 0,
       "MagicFind": 159,
       "GoldFind": 0,
       "FasterCastRate": 10,
-      "FasterHitRecovery": 35,
+      "FasterHitRecovery": 45,
       "IncreasedAttackSpeed": 10,
       "CrushingBlow": 0,
       "OpenWounds": 25,
       "DeadlyStrike": 0,
-      "DamageReduction": 26,
+      "DamageReduction": 39,
       "CooldownReduction": 0,
       "WeaponSetMain": {
         "Strength": 0,
@@ -64427,42 +64427,6 @@
         "Worn": "boots"
       },
       {
-        "Quality": "Unique",
-        "ID": "1107187076",
-        "QualityCode": "q_unique",
-        "Title": "Thundergod's Vigor",
-        "Tag": "War Belt",
-        "TextTag": "War Belt",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "53",
-        "Durability": "23",
-        "DurabilityMaximum": "24",
-        "ItemLevel": "90",
-        "LevelReq": 47,
-        "SocketCount": "0",
-        "PropertyList": [
-          "5% Chance to cast level 7 Fist of the Heavens when struck",
-          "Adds 1-50 Lightning damage",
-          "+3 to Lightning Strike (Amazon Only)",
-          "+3 to Lightning Fury (Amazon Only)",
-          "+188% Enhanced Defense",
-          "+20 to Strength",
-          "+20 to Vitality",
-          "+10% to Maximum Lightning Resist",
-          "+20 Lightning Absorb"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 2
-        },
-        "Worn": "belt"
-      },
-      {
         "Quality": "Superior",
         "ID": "3113976285",
         "QualityCode": "q_runeword",
@@ -64473,7 +64437,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "525",
-        "Durability": "39",
+        "Durability": "38",
         "DurabilityMaximum": "60",
         "ItemLevel": "87",
         "LevelReq": 65,
@@ -64590,7 +64554,7 @@
         "Ethereal": "False",
         "Enhanced": "False",
         "Defense": "111",
-        "Durability": "9",
+        "Durability": "8",
         "DurabilityMaximum": "12",
         "ItemLevel": "88",
         "LevelReq": 67,
@@ -64667,6 +64631,40 @@
           "invwidth": 2
         },
         "Worn": "helmet"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3069409524",
+        "QualityCode": "q_unique",
+        "Title": "Verdungo's Hearty Cord",
+        "Tag": "Mithril Coil",
+        "TextTag": "Mithril Coil",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "66",
+        "Durability": "15",
+        "DurabilityMaximum": "16",
+        "ItemLevel": "87",
+        "LevelReq": 63,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+10% Faster Hit Recovery",
+          "+91% Enhanced Defense",
+          "+36 to Vitality",
+          "Replenish Life 12 per second",
+          "+118 Maximum Stamina",
+          "Physical Damage Taken Reduced by 13%"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 2
+        },
+        "Worn": "belt"
       },
       {
         "Quality": "Unique",
@@ -64979,7 +64977,7 @@
         "Enhanced": "False",
         "DamageMinimum": "41",
         "DamageMaximum": "49",
-        "Durability": "215",
+        "Durability": "214",
         "DurabilityMaximum": "215",
         "ItemLevel": "99",
         "LevelReq": 68,
@@ -65044,7 +65042,7 @@
         "Enhanced": "False",
         "Block": "47",
         "Defense": "140",
-        "Durability": "87",
+        "Durability": "86",
         "DurabilityMaximum": "86",
         "ItemLevel": "88",
         "LevelReq": 65,
@@ -65818,56 +65816,108 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "3984439985",
-        "QualityCode": "q_unique",
-        "Title": "Arkaine's Valor",
-        "Tag": "Balrog Skin",
-        "TextTag": "Balrog Skin",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "518",
-        "Durability": "28",
-        "DurabilityMaximum": "30",
-        "ItemLevel": "90",
-        "LevelReq": 85,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to All Skills",
-          "+30% Faster Hit Recovery",
-          "+168% Enhanced Defense",
-          "+47 to Vitality (Based on Character Level)",
-          "Physical Damage Taken Reduced by 14"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Rare",
-        "ID": "3066853367",
+        "ID": "4269075087",
         "QualityCode": "q_rare",
-        "Title": "Bitter Eye",
-        "Tag": "Ruined Citadel Relic",
-        "TextTag": "Ruined Citadel Relic",
+        "Title": "Shadow Eye",
+        "Tag": "Frigid Plateau Relic",
+        "TextTag": "Frigid Plateau Relic",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "99",
         "LevelReq": 80,
         "SocketCount": "0",
         "PropertyList": [
-          "15% Chance to cast level 25 Glacial Spike when you Die",
-          "97% Bonus to Attack Rating",
+          "Damage +199",
           "Adds 40-50 Magic damage",
-          "Adds 199-200 Fire damage",
-          "+79% Increased Fire Damage"
+          "34% Deadly Strike",
+          "Poison Absorb 42%",
+          "Physical Damage Taken Reduced by 63",
+          "Magic & Elemental Damage Taken Reduced by 63"
         ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1777172337",
+        "QualityCode": "q_rare",
+        "Title": "Stone Heart",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "5",
+        "ItemLevel": "89",
+        "LevelReq": 16,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+4 to Minimum Damage",
+          "+4 to Dexterity",
+          "+1 to Mana after each Kill"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "270546495",
+        "QualityCode": "q_unique",
+        "Title": "Carrion Wind",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "3",
+        "ItemLevel": "88",
+        "LevelReq": 60,
+        "SocketCount": "0",
+        "PropertyList": [
+          "10% Chance to cast level 10 Poison Nova when struck",
+          "8% Chance to cast level 13 Twister on striking",
+          "8% Life stolen per hit",
+          "+131 Defense vs. Missile",
+          "Poison Resist +55%",
+          "10% Damage Taken Gained as Mana when Hit",
+          "Level 21 Poison Creeper (15/15 Charges)"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "\u00ffc;Orb of Corruption",
+        "Tag": "\u00ffc;Orb of Corruption",
+        "TextTag": "Orb of Corruption",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
         "Position": {
           "x": 0,
           "y": 0
@@ -65880,25 +65930,20 @@
       },
       {
         "Quality": "Rare",
-        "ID": "2769109662",
+        "ID": "2554390797",
         "QualityCode": "q_rare",
-        "Title": "Dread Eye",
-        "Tag": "Dim Cellar Relic",
-        "TextTag": "Dim Cellar Relic",
+        "Title": "Jewel",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "99",
-        "LevelReq": 80,
-        "SocketCount": "0",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 42,
         "PropertyList": [
-          "47% Bonus to Attack Rating",
-          "Adds 30-40 Magic damage",
-          "+34% Increased Lightning Damage",
-          "+53% Enhanced Defense",
-          "Fire Absorb 39%"
+          "\u00ffc1Unidentified"
         ],
         "Position": {
-          "x": 2,
+          "x": 7,
           "y": 3
         },
         "Size": {
@@ -65908,27 +65953,72 @@
         "Worn": ""
       },
       {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "\u00ffc;Orb of Corruption",
+        "Tag": "\u00ffc;Orb of Corruption",
+        "TextTag": "Orb of Corruption",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 7,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "\u00ffc;Orb of Corruption",
+        "Tag": "\u00ffc;Orb of Corruption",
+        "TextTag": "Orb of Corruption",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 7,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
         "Quality": "Rare",
-        "ID": "2120904119",
+        "ID": "932143054",
         "QualityCode": "q_rare",
-        "Title": "Beast Eye",
+        "Title": "Blood Eye",
         "Tag": "Decomposing Settlement Relic",
         "TextTag": "Decomposing Settlement Relic",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "87",
+        "ItemLevel": "86",
         "LevelReq": 80,
         "SocketCount": "0",
         "PropertyList": [
-          "Adds 63-100 Lightning damage",
-          "9% Life stolen per hit",
-          "Cold Resist +50%",
-          "Fire Absorb 18%",
-          "63% Reduced Curse Duration"
+          "10% Chance to cast level 5 Amplify Damage on striking",
+          "+22% Piercing Attack",
+          "+19% Increased Poison Damage",
+          "Lightning Resist +50%"
         ],
         "Position": {
-          "x": 2,
-          "y": 4
+          "x": 5,
+          "y": 0
         },
         "Size": {
           "invheight": 1,
@@ -66001,20 +66091,107 @@
         "Worn": ""
       },
       {
-        "Quality": "Normal",
-        "ID": "2522703303",
-        "QualityCode": "q_normal",
-        "Title": "Key",
-        "Tag": "Key",
-        "TextTag": "Skeleton Key",
+        "Quality": "Rare",
+        "ID": "3058055479",
+        "QualityCode": "q_rare",
+        "Title": "Raven Eye",
+        "Tag": "Burnt Forest Relic",
+        "TextTag": "Burnt Forest Relic",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "85",
-        "LevelReq": 0,
+        "ItemLevel": "99",
+        "LevelReq": 80,
         "SocketCount": "0",
-        "PropertyList": [],
+        "PropertyList": [
+          "Adds 199-200 Fire damage",
+          "Adds 63-200 Lightning damage",
+          "36% Deadly Strike",
+          "+82% Enhanced Defense"
+        ],
         "Position": {
-          "x": 1,
+          "x": 0,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "310238696",
+        "QualityCode": "q_rare",
+        "Title": "GhoulRI Eye",
+        "Tag": "Burnt Forest Relic",
+        "TextTag": "Burnt Forest Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "99",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "30% Chance to cast level 13 Amplify Damage on striking",
+          "15% Chance to cast level 25 Glacial Spike when you Die",
+          "89% Bonus to Attack Rating",
+          "Adds 63-200 Lightning damage",
+          "Damage Absorb 60%",
+          "Physical Damage Taken Reduced by 63",
+          "Magic & Elemental Damage Taken Reduced by 63"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Set",
+        "ID": "3351652677",
+        "QualityCode": "q_set",
+        "Title": "Scissors Suwayyah",
+        "Tag": "Scissors Suwayyah",
+        "TextTag": "Scissors Suwayyah",
+        "Ethereal": "False",
+        "DamageMinimum": "120",
+        "DamageMaximum": "153",
+        "Durability": "202",
+        "DurabilityMaximum": "215",
+        "ItemLevel": "90",
+        "LevelReq": 79,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2970677356",
+        "QualityCode": "q_unique",
+        "Title": "Amulet",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
+        "Ethereal": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 10,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 7,
           "y": 0
         },
         "Size": {
@@ -66410,7 +66587,8 @@
     ],
     "ItemCodeFailedToParse": [
       "ItemCode: ma15 | Properties:   [52] magicmindam -> 20 [0]  [93] item_fasterattackrate -> 99 [0]  [109] curse_resistance -> 50 [0]  [151] item_aura -> 10 [756]  [332] passive_pois_mastery -> 20 [0]  [396] item_absorbpois_percent -> 1 [0]  [511] EOF -> 0 [0]",
-      "ItemCode: ma19 | Properties:   [93] item_fasterattackrate -> 94 [0]  [96] item_fastermovevelocity -> 20 [0]  [119] item_tohit_percent -> 39 [0]  [198] item_skillonhit -> 10 [5573]  [329] passive_fire_mastery -> 17 [0]  [511] EOF -> 0 [0]"
+      "ItemCode: ma19 | Properties:   [93] item_fasterattackrate -> 94 [0]  [96] item_fastermovevelocity -> 20 [0]  [119] item_tohit_percent -> 39 [0]  [198] item_skillonhit -> 10 [5573]  [329] passive_fire_mastery -> 17 [0]  [511] EOF -> 0 [0]",
+      "ItemCode: ma23 | Properties:   [60] lifedrainmindam -> 15 [0]  [78] item_attackertakesdamage -> 19 [0]  [109] curse_resistance -> 52 [0]  [111] item_normaldamage -> 150 [0]  [329] passive_fire_mastery -> 35 [0]  [332] passive_pois_mastery -> 41 [0]  [511] EOF -> 0 [0]"
     ]
   },
   {
@@ -303473,40 +303651,40 @@
     "Class": "Assassin",
     "Stats": {
       "Level": 94,
-      "Experience": 2451930999,
+      "Experience": 2471665891,
       "Strength": 54,
       "Dexterity": 20,
       "Vitality": 85,
       "Energy": 406,
       "BaseLife": 471,
-      "Life": 1005,
+      "Life": 996,
       "BaseMana": 831,
       "Mana": 1022,
-      "Gold": 460907,
+      "Gold": 940000,
       "Stashed": 1131691
     },
     "Bonus": {
-      "Strength": 140,
+      "Strength": 120,
       "Dexterity": 25,
-      "Vitality": 20,
+      "Vitality": 36,
       "Energy": 0,
       "FireResistance": 93,
       "MaximumFireResistance": 0,
       "ColdResistance": 98,
       "MaximumColdResistance": 0,
       "LightningResistance": 101,
-      "MaximumLightningResistance": 10,
+      "MaximumLightningResistance": 0,
       "PoisonResistance": 88,
       "MaximumPoisonResistance": 0,
       "MagicFind": 159,
       "GoldFind": 0,
       "FasterCastRate": 10,
-      "FasterHitRecovery": 35,
+      "FasterHitRecovery": 45,
       "IncreasedAttackSpeed": 10,
       "CrushingBlow": 0,
       "OpenWounds": 25,
       "DeadlyStrike": 0,
-      "DamageReduction": 26,
+      "DamageReduction": 39,
       "CooldownReduction": 0,
       "WeaponSetMain": {
         "Strength": 0,
@@ -303779,42 +303957,6 @@
         "Worn": "boots"
       },
       {
-        "Quality": "Unique",
-        "ID": "1107187076",
-        "QualityCode": "q_unique",
-        "Title": "Thundergod's Vigor",
-        "Tag": "War Belt",
-        "TextTag": "War Belt",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "53",
-        "Durability": "23",
-        "DurabilityMaximum": "24",
-        "ItemLevel": "90",
-        "LevelReq": 47,
-        "SocketCount": "0",
-        "PropertyList": [
-          "5% Chance to cast level 7 Fist of the Heavens when struck",
-          "Adds 1-50 Lightning damage",
-          "+3 to Lightning Strike (Amazon Only)",
-          "+3 to Lightning Fury (Amazon Only)",
-          "+188% Enhanced Defense",
-          "+20 to Strength",
-          "+20 to Vitality",
-          "+10% to Maximum Lightning Resist",
-          "+20 Lightning Absorb"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 2
-        },
-        "Worn": "belt"
-      },
-      {
         "Quality": "Superior",
         "ID": "3113976285",
         "QualityCode": "q_runeword",
@@ -303825,7 +303967,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "525",
-        "Durability": "39",
+        "Durability": "38",
         "DurabilityMaximum": "60",
         "ItemLevel": "87",
         "LevelReq": 65,
@@ -303942,7 +304084,7 @@
         "Ethereal": "False",
         "Enhanced": "False",
         "Defense": "111",
-        "Durability": "9",
+        "Durability": "8",
         "DurabilityMaximum": "12",
         "ItemLevel": "88",
         "LevelReq": 67,
@@ -304019,6 +304161,40 @@
           "invwidth": 2
         },
         "Worn": "helmet"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3069409524",
+        "QualityCode": "q_unique",
+        "Title": "Verdungo's Hearty Cord",
+        "Tag": "Mithril Coil",
+        "TextTag": "Mithril Coil",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "66",
+        "Durability": "15",
+        "DurabilityMaximum": "16",
+        "ItemLevel": "87",
+        "LevelReq": 63,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+10% Faster Hit Recovery",
+          "+91% Enhanced Defense",
+          "+36 to Vitality",
+          "Replenish Life 12 per second",
+          "+118 Maximum Stamina",
+          "Physical Damage Taken Reduced by 13%"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 2
+        },
+        "Worn": "belt"
       },
       {
         "Quality": "Unique",
@@ -304331,7 +304507,7 @@
         "Enhanced": "False",
         "DamageMinimum": "41",
         "DamageMaximum": "49",
-        "Durability": "215",
+        "Durability": "214",
         "DurabilityMaximum": "215",
         "ItemLevel": "99",
         "LevelReq": 68,
@@ -304396,7 +304572,7 @@
         "Enhanced": "False",
         "Block": "47",
         "Defense": "140",
-        "Durability": "87",
+        "Durability": "86",
         "DurabilityMaximum": "86",
         "ItemLevel": "88",
         "LevelReq": 65,
@@ -305170,56 +305346,108 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "3984439985",
-        "QualityCode": "q_unique",
-        "Title": "Arkaine's Valor",
-        "Tag": "Balrog Skin",
-        "TextTag": "Balrog Skin",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "518",
-        "Durability": "28",
-        "DurabilityMaximum": "30",
-        "ItemLevel": "90",
-        "LevelReq": 85,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to All Skills",
-          "+30% Faster Hit Recovery",
-          "+168% Enhanced Defense",
-          "+47 to Vitality (Based on Character Level)",
-          "Physical Damage Taken Reduced by 14"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Rare",
-        "ID": "3066853367",
+        "ID": "4269075087",
         "QualityCode": "q_rare",
-        "Title": "Bitter Eye",
-        "Tag": "Ruined Citadel Relic",
-        "TextTag": "Ruined Citadel Relic",
+        "Title": "Shadow Eye",
+        "Tag": "Frigid Plateau Relic",
+        "TextTag": "Frigid Plateau Relic",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "99",
         "LevelReq": 80,
         "SocketCount": "0",
         "PropertyList": [
-          "15% Chance to cast level 25 Glacial Spike when you Die",
-          "97% Bonus to Attack Rating",
+          "Damage +199",
           "Adds 40-50 Magic damage",
-          "Adds 199-200 Fire damage",
-          "+79% Increased Fire Damage"
+          "34% Deadly Strike",
+          "Poison Absorb 42%",
+          "Physical Damage Taken Reduced by 63",
+          "Magic & Elemental Damage Taken Reduced by 63"
         ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1777172337",
+        "QualityCode": "q_rare",
+        "Title": "Stone Heart",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "5",
+        "ItemLevel": "89",
+        "LevelReq": 16,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+4 to Minimum Damage",
+          "+4 to Dexterity",
+          "+1 to Mana after each Kill"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "270546495",
+        "QualityCode": "q_unique",
+        "Title": "Carrion Wind",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "3",
+        "ItemLevel": "88",
+        "LevelReq": 60,
+        "SocketCount": "0",
+        "PropertyList": [
+          "10% Chance to cast level 10 Poison Nova when struck",
+          "8% Chance to cast level 13 Twister on striking",
+          "8% Life stolen per hit",
+          "+131 Defense vs. Missile",
+          "Poison Resist +55%",
+          "10% Damage Taken Gained as Mana when Hit",
+          "Level 21 Poison Creeper (15/15 Charges)"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "\u00ffc;Orb of Corruption",
+        "Tag": "\u00ffc;Orb of Corruption",
+        "TextTag": "Orb of Corruption",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
         "Position": {
           "x": 0,
           "y": 0
@@ -305232,25 +305460,20 @@
       },
       {
         "Quality": "Rare",
-        "ID": "2769109662",
+        "ID": "2554390797",
         "QualityCode": "q_rare",
-        "Title": "Dread Eye",
-        "Tag": "Dim Cellar Relic",
-        "TextTag": "Dim Cellar Relic",
+        "Title": "Jewel",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "99",
-        "LevelReq": 80,
-        "SocketCount": "0",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 42,
         "PropertyList": [
-          "47% Bonus to Attack Rating",
-          "Adds 30-40 Magic damage",
-          "+34% Increased Lightning Damage",
-          "+53% Enhanced Defense",
-          "Fire Absorb 39%"
+          "\u00ffc1Unidentified"
         ],
         "Position": {
-          "x": 2,
+          "x": 7,
           "y": 3
         },
         "Size": {
@@ -305260,27 +305483,72 @@
         "Worn": ""
       },
       {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "\u00ffc;Orb of Corruption",
+        "Tag": "\u00ffc;Orb of Corruption",
+        "TextTag": "Orb of Corruption",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 7,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "\u00ffc;Orb of Corruption",
+        "Tag": "\u00ffc;Orb of Corruption",
+        "TextTag": "Orb of Corruption",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 7,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
         "Quality": "Rare",
-        "ID": "2120904119",
+        "ID": "932143054",
         "QualityCode": "q_rare",
-        "Title": "Beast Eye",
+        "Title": "Blood Eye",
         "Tag": "Decomposing Settlement Relic",
         "TextTag": "Decomposing Settlement Relic",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "87",
+        "ItemLevel": "86",
         "LevelReq": 80,
         "SocketCount": "0",
         "PropertyList": [
-          "Adds 63-100 Lightning damage",
-          "9% Life stolen per hit",
-          "Cold Resist +50%",
-          "Fire Absorb 18%",
-          "63% Reduced Curse Duration"
+          "10% Chance to cast level 5 Amplify Damage on striking",
+          "+22% Piercing Attack",
+          "+19% Increased Poison Damage",
+          "Lightning Resist +50%"
         ],
         "Position": {
-          "x": 2,
-          "y": 4
+          "x": 5,
+          "y": 0
         },
         "Size": {
           "invheight": 1,
@@ -305353,20 +305621,107 @@
         "Worn": ""
       },
       {
-        "Quality": "Normal",
-        "ID": "2522703303",
-        "QualityCode": "q_normal",
-        "Title": "Key",
-        "Tag": "Key",
-        "TextTag": "Skeleton Key",
+        "Quality": "Rare",
+        "ID": "3058055479",
+        "QualityCode": "q_rare",
+        "Title": "Raven Eye",
+        "Tag": "Burnt Forest Relic",
+        "TextTag": "Burnt Forest Relic",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "85",
-        "LevelReq": 0,
+        "ItemLevel": "99",
+        "LevelReq": 80,
         "SocketCount": "0",
-        "PropertyList": [],
+        "PropertyList": [
+          "Adds 199-200 Fire damage",
+          "Adds 63-200 Lightning damage",
+          "36% Deadly Strike",
+          "+82% Enhanced Defense"
+        ],
         "Position": {
-          "x": 1,
+          "x": 0,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "310238696",
+        "QualityCode": "q_rare",
+        "Title": "GhoulRI Eye",
+        "Tag": "Burnt Forest Relic",
+        "TextTag": "Burnt Forest Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "99",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "30% Chance to cast level 13 Amplify Damage on striking",
+          "15% Chance to cast level 25 Glacial Spike when you Die",
+          "89% Bonus to Attack Rating",
+          "Adds 63-200 Lightning damage",
+          "Damage Absorb 60%",
+          "Physical Damage Taken Reduced by 63",
+          "Magic & Elemental Damage Taken Reduced by 63"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Set",
+        "ID": "3351652677",
+        "QualityCode": "q_set",
+        "Title": "Scissors Suwayyah",
+        "Tag": "Scissors Suwayyah",
+        "TextTag": "Scissors Suwayyah",
+        "Ethereal": "False",
+        "DamageMinimum": "120",
+        "DamageMaximum": "153",
+        "Durability": "202",
+        "DurabilityMaximum": "215",
+        "ItemLevel": "90",
+        "LevelReq": 79,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2970677356",
+        "QualityCode": "q_unique",
+        "Title": "Amulet",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
+        "Ethereal": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 10,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 7,
           "y": 0
         },
         "Size": {
@@ -305762,7 +306117,8 @@
     ],
     "ItemCodeFailedToParse": [
       "ItemCode: ma15 | Properties:   [52] magicmindam -> 20 [0]  [93] item_fasterattackrate -> 99 [0]  [109] curse_resistance -> 50 [0]  [151] item_aura -> 10 [756]  [332] passive_pois_mastery -> 20 [0]  [396] item_absorbpois_percent -> 1 [0]  [511] EOF -> 0 [0]",
-      "ItemCode: ma19 | Properties:   [93] item_fasterattackrate -> 94 [0]  [96] item_fastermovevelocity -> 20 [0]  [119] item_tohit_percent -> 39 [0]  [198] item_skillonhit -> 10 [5573]  [329] passive_fire_mastery -> 17 [0]  [511] EOF -> 0 [0]"
+      "ItemCode: ma19 | Properties:   [93] item_fasterattackrate -> 94 [0]  [96] item_fastermovevelocity -> 20 [0]  [119] item_tohit_percent -> 39 [0]  [198] item_skillonhit -> 10 [5573]  [329] passive_fire_mastery -> 17 [0]  [511] EOF -> 0 [0]",
+      "ItemCode: ma23 | Properties:   [60] lifedrainmindam -> 15 [0]  [78] item_attackertakesdamage -> 19 [0]  [109] curse_resistance -> 52 [0]  [111] item_normaldamage -> 150 [0]  [329] passive_fire_mastery -> 35 [0]  [332] passive_pois_mastery -> 41 [0]  [511] EOF -> 0 [0]"
     ]
   },
   {
