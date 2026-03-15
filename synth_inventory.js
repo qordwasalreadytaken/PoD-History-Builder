@@ -8929,5 +8929,70 @@ const synthInventory = [
     "seen_date": "2026-03-15",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Blacktongue%2C0%2Cnone%2Cskills_paladin%3A1%2Cias%3A50%2Cdamage_bonus%3A54%2Car%3A50%2Cdamage_vs_undead%3A53%2CpDamage_all%3A113%2Cmana_leech%3A8%2Cskill_Precision%3A3%2Coskill_Vengeance%3A1%2Cskill_Holy_Freeze%3A2%2CpRes%3A50"
+  },
+  {
+    "id": "7e9b087d6bc8ead136542561e6fccbf5b653496c54feea0839337d1161fab46e",
+    "friendly_id": 150,
+    "owner": "fckissin",
+    "base_type": "Synthesized Stiletto",
+    "title": "Stormspike",
+    "properties": [
+      "Adds 1-120 Lightning damage",
+      "-25% to Enemy Fire Resistance",
+      "Lightning Resist 93% (Based on Character Level)",
+      "Fire Resist +40%",
+      "Attacker Takes Lightning Damage of 20",
+      "+1 to maximum Lightning Damage per Dexterity",
+      "Level 15 Enflame (16/45 Charges)"
+    ],
+    "synthesised_from": [
+      "Todesfaelle Flamme"
+    ],
+    "location": "Equipped",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "19",
+    "DamageMaximum": "36",
+    "LevelReq": 41,
+    "SocketCount": "0",
+    "seen_date": "2026-03-15",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Stormspike%2C0%2Cnone%2ClDamage_min%3A1%2ClDamage_max%3A120%2Cenemy_fRes%3A-25%2CfRes%3A40%2Cthorns_lightning%3A20%2Ccskill%3A%5B15%2C+%27Enflame%27%2C+16%5D"
+  },
+  {
+    "id": "b37de9b48af0ab5f938cb339355afde1d25e28e5694863c44f3636a093c5b7c9",
+    "friendly_id": 151,
+    "owner": "Nythera",
+    "base_type": "Synthesized Battle Staff",
+    "title": "The Salamander",
+    "properties": [
+      "20% Chance to cast level 14 Lightning Surge on striking",
+      "+3 to Javelin and Spear Skills (Amazon Only)",
+      "+25% Piercing Attack",
+      "Adds 30-100 damage",
+      "+50% Damage to Undead",
+      "Adds 1-30 Lightning damage",
+      "-15% to Enemy Lightning Resistance",
+      "+8 to Strength",
+      "Lightning Resist +25%"
+    ],
+    "synthesised_from": [
+      "The Salamander",
+      "Stormstrike",
+      "Doombringer",
+      "Thunderstroke"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "6",
+    "DamageMaximum": "13",
+    "LevelReq": 21,
+    "SocketCount": "0",
+    "seen_date": "2026-03-15",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=The+Salamander%2C0%2Cnone%2Cdamage%3A100%2Cdamage_vs_undead%3A50%2ClDamage_min%3A1%2ClDamage_max%3A30%2Cenemy_lRes%3A-15%2Cstrength%3A8%2ClRes%3A25"
   }
 ];
