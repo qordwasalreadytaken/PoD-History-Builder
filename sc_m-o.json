@@ -13834,7 +13834,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 98,
-      "Experience": 3370117623,
+      "Experience": 3371358473,
       "Strength": 30,
       "Dexterity": 99,
       "Vitality": 436,
@@ -13844,7 +13844,7 @@
       "BaseMana": 160,
       "Mana": 248,
       "Gold": 0,
-      "Stashed": 87058
+      "Stashed": 1486648
     },
     "Bonus": {
       "Strength": 125,
@@ -106043,17 +106043,17 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 95,
-      "Experience": 2583062823,
-      "Strength": 135,
-      "Dexterity": 33,
-      "Vitality": 372,
+      "Experience": 2585730745,
+      "Strength": 110,
+      "Dexterity": 25,
+      "Vitality": 405,
       "Energy": 25,
-      "BaseLife": 1007,
-      "Life": 1690,
+      "BaseLife": 1073,
+      "Life": 1760,
       "BaseMana": 213,
-      "Mana": 690,
-      "Gold": 19262,
-      "Stashed": 2462027
+      "Mana": 659,
+      "Gold": 0,
+      "Stashed": 1414210
     },
     "Bonus": {
       "Strength": 21,
@@ -106081,20 +106081,20 @@
       "WeaponSetMain": {
         "Strength": 0,
         "Dexterity": 0,
-        "Vitality": 22,
-        "Energy": 0,
-        "FireResistance": 0,
+        "Vitality": 0,
+        "Energy": 20,
+        "FireResistance": 59,
         "MaximumFireResistance": 0,
-        "ColdResistance": 35,
+        "ColdResistance": 59,
         "MaximumColdResistance": 0,
-        "LightningResistance": 35,
+        "LightningResistance": 59,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 35,
+        "PoisonResistance": 59,
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 0,
-        "FasterCastRate": 44,
-        "FasterHitRecovery": 55,
+        "FasterCastRate": 10,
+        "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
         "OpenWounds": 0,
@@ -106130,13 +106130,8 @@
     "SkillTabs": [
       {
         "Name": "Curses",
-        "Total": 2,
+        "Total": 1,
         "Skills": [
-          {
-            "ID": 1,
-            "Name": "Amplify Damage",
-            "Level": 1
-          },
           {
             "ID": 22,
             "Name": "Decrepify",
@@ -106146,7 +106141,7 @@
       },
       {
         "Name": "Poison and Bone Skills",
-        "Total": 13,
+        "Total": 12,
         "Skills": [
           {
             "ID": 8,
@@ -106156,13 +106151,13 @@
           {
             "ID": 18,
             "Name": "Desecrate",
-            "Level": 12
+            "Level": 11
           }
         ]
       },
       {
         "Name": "Summoning Skills",
-        "Total": 91,
+        "Total": 93,
         "Skills": [
           {
             "ID": 4,
@@ -106182,12 +106177,12 @@
           {
             "ID": 14,
             "Name": "Convocation",
-            "Level": 20
+            "Level": 7
           },
           {
             "ID": 15,
             "Name": "Raise Skeletal Mage",
-            "Level": 1
+            "Level": 20
           },
           {
             "ID": 20,
@@ -106197,7 +106192,12 @@
           {
             "ID": 23,
             "Name": "Flesh Offering",
-            "Level": 6
+            "Level": 1
+          },
+          {
+            "ID": 24,
+            "Name": "Bone Offering",
+            "Level": 1
           },
           {
             "ID": 25,
@@ -106748,36 +106748,35 @@
         "Worn": "weapon1"
       },
       {
-        "Quality": "Normal",
-        "ID": "4106951502",
-        "QualityCode": "q_runeword",
-        "Title": "Spirit",
-        "Tag": "Monarch",
-        "TextTag": "Monarch",
-        "RuneTag": "TalThulOrtAmn",
+        "Quality": "Unique",
+        "ID": "430107632",
+        "QualityCode": "q_unique",
+        "Title": "Homunculus",
+        "Tag": "Hierophant Trophy",
+        "TextTag": "Heirophant Trophy",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "Block": "42",
-        "Defense": "137",
-        "Durability": "86",
-        "DurabilityMaximum": "86",
-        "ItemLevel": "86",
-        "LevelReq": 54,
+        "Enhanced": "True",
+        "Block": "72",
+        "Defense": "71",
+        "Durability": "20",
+        "DurabilityMaximum": "20",
+        "ItemLevel": "75",
+        "LevelReq": 42,
         "Sockets": [
           {
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Tal Rune",
-            "Tag": "Tal Rune",
-            "TextTag": "Tal Rune",
+            "Title": "Perfect Diamond",
+            "Tag": "Perfect Diamond",
+            "TextTag": "Perfect Diamond",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 17,
+            "LevelReq": 18,
             "SocketCount": "0",
             "PropertyList": [
-              "Poison Resist +35%"
+              "All Resistances +19"
             ],
             "Position": {
               "x": 0,
@@ -106788,104 +106787,27 @@
               "invwidth": 1
             },
             "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Thul Rune",
-            "Tag": "Thul Rune",
-            "TextTag": "Thul Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 23,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Cold Resist +35%"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Ort Rune",
-            "Tag": "Ort Rune",
-            "TextTag": "Ort Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 21,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Lightning Resist +35%"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Amn Rune",
-            "Tag": "Amn Rune",
-            "TextTag": "Amn Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 25,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Attacker Takes Damage of 14"
-            ],
-            "Position": {
-              "x": 3,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
           }
         ],
-        "SocketCount": "4",
+        "SocketCount": "1",
         "PropertyList": [
-          "+2 to All Skills",
-          "+34% Faster Cast Rate",
-          "+55% Faster Hit Recovery",
-          "+250 Defense vs. Missile",
-          "+22 to Vitality",
-          "+99 to Mana",
-          "Cold Resist +35%",
-          "Lightning Resist +35%",
-          "Poison Resist +35%",
-          "+8 Magic Absorb",
-          "Attacker Takes Damage of 14",
-          "Socketed (4)"
+          "+2 to Curses (Necromancer Only)",
+          "+2 to Necromancer Skill Levels",
+          "+30% Faster Block Rate",
+          "40% Increased Chance of Blocking",
+          "+183% Enhanced Defense",
+          "+20 to Energy",
+          "Regenerate Mana 33%",
+          "All Resistances +59",
+          "+5 to Mana after each Kill",
+          "Socketed (1)"
         ],
         "Position": {
           "x": 5,
           "y": 0
         },
         "Size": {
-          "invheight": 3,
+          "invheight": 2,
           "invwidth": 2
         },
         "Worn": "weapon2"
@@ -107853,76 +107775,6 @@
         "Size": {
           "invheight": 2,
           "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "3938778492",
-        "QualityCode": "q_magic",
-        "Title": "Jewel",
-        "Tag": "Jewel",
-        "TextTag": "Jewel",
-        "Ethereal": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "73",
-        "LevelReq": 1,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Flawless Ruby",
-        "Tag": "Flawless Ruby",
-        "TextTag": "Flawless Ruby",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 15,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Shael Rune",
-        "Tag": "Shael Rune",
-        "TextTag": "Shael Rune",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 29,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
         },
         "Worn": ""
       }
@@ -183982,9 +183834,9 @@
       "Vitality": 303,
       "Energy": 10,
       "BaseLife": 1413,
-      "Life": 3326,
+      "Life": 2376,
       "BaseMana": 103,
-      "Mana": 289,
+      "Mana": 207,
       "Gold": 0,
       "Stashed": 1757626
     },
@@ -377648,32 +377500,32 @@
     "Class": "Paladin",
     "Stats": {
       "Level": 95,
-      "Experience": 2651833376,
+      "Experience": 2652075961,
       "Strength": 83,
       "Dexterity": 103,
       "Vitality": 369,
       "Energy": 15,
       "BaseLife": 1382,
-      "Life": 1844,
+      "Life": 2019,
       "BaseMana": 156,
-      "Mana": 293,
-      "Gold": 0,
-      "Stashed": 1202921
+      "Mana": 321,
+      "Gold": 150794,
+      "Stashed": 1019801
     },
     "Bonus": {
       "Strength": 28,
       "Dexterity": 25,
       "Vitality": 10,
       "Energy": 0,
-      "FireResistance": 127,
+      "FireResistance": 124,
       "MaximumFireResistance": 7,
-      "ColdResistance": 88,
+      "ColdResistance": 85,
       "MaximumColdResistance": 7,
-      "LightningResistance": 88,
+      "LightningResistance": 85,
       "MaximumLightningResistance": 7,
-      "PoisonResistance": 98,
+      "PoisonResistance": 95,
       "MaximumPoisonResistance": 7,
-      "MagicFind": 143,
+      "MagicFind": 215,
       "GoldFind": 345,
       "FasterCastRate": 20,
       "FasterHitRecovery": 36,
@@ -378163,7 +378015,7 @@
       },
       {
         "Quality": "Unique",
-        "ID": "2149357719",
+        "ID": "3152016272",
         "QualityCode": "q_unique",
         "Title": "Guardian Angel",
         "Tag": "Templar Coat",
@@ -378171,29 +378023,25 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "275",
-        "Durability": "57",
+        "Durability": "60",
         "DurabilityMaximum": "60",
         "ItemLevel": "89",
         "LevelReq": 45,
         "Sockets": [
           {
-            "Quality": "Unique",
-            "ID": "3220814083",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Perfect Topaz",
+            "Tag": "Perfect Topaz",
+            "TextTag": "Perfect Topaz",
             "Ethereal": "False",
             "Enhanced": "False",
-            "AlternateGraphics": "5",
-            "ItemLevel": "88",
-            "LevelReq": 49,
+            "ItemLevel": "0",
+            "LevelReq": 18,
             "SocketCount": "0",
             "PropertyList": [
-              "100% Chance to cast level 50 Holy Bolt when you Level-Up",
-              "Adds 10-45 Magic damage",
-              "-5% to Enemy Magic Resistance",
-              "+5% Increased Magic Skill Damage"
+              "24% Better Chance of Getting Magic Items"
             ],
             "Position": {
               "x": 0,
@@ -378206,23 +378054,19 @@
             "Worn": ""
           },
           {
-            "Quality": "Unique",
-            "ID": "1212954669",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Perfect Topaz",
+            "Tag": "Perfect Topaz",
+            "TextTag": "Perfect Topaz",
             "Ethereal": "False",
             "Enhanced": "False",
-            "AlternateGraphics": "5",
-            "ItemLevel": "88",
-            "LevelReq": 49,
+            "ItemLevel": "0",
+            "LevelReq": 18,
             "SocketCount": "0",
             "PropertyList": [
-              "100% Chance to cast level 50 Holy Bolt when you Level-Up",
-              "Adds 10-15 Magic damage",
-              "-4% to Enemy Magic Resistance",
-              "+4% Increased Magic Skill Damage"
+              "24% Better Chance of Getting Magic Items"
             ],
             "Position": {
               "x": 1,
@@ -378235,23 +378079,19 @@
             "Worn": ""
           },
           {
-            "Quality": "Unique",
-            "ID": "1605949139",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Perfect Topaz",
+            "Tag": "Perfect Topaz",
+            "TextTag": "Perfect Topaz",
             "Ethereal": "False",
             "Enhanced": "False",
-            "AlternateGraphics": "3",
-            "ItemLevel": "89",
-            "LevelReq": 49,
+            "ItemLevel": "0",
+            "LevelReq": 18,
             "SocketCount": "0",
             "PropertyList": [
-              "100% Chance to cast level 50 Holy Bolt when you Level-Up",
-              "Adds 10-15 Magic damage",
-              "-4% to Enemy Magic Resistance",
-              "+3% Increased Magic Skill Damage"
+              "24% Better Chance of Getting Magic Items"
             ],
             "Position": {
               "x": 2,
@@ -378267,20 +378107,17 @@
         "SocketCount": "3",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "300% Chance to cast level 50 Holy Bolt when you Level-Up",
           "+1 to Paladin Skill Levels",
           "+30% Faster Block Rate",
           "20% Increased Chance of Blocking",
           "+237 to Attack Rating (Based on Character Level)",
-          "Adds 30-45 Magic damage",
-          "-13% to Enemy Magic Resistance",
-          "+12% Increased Magic Skill Damage",
           "+198% Enhanced Defense",
           "+7% to Maximum Poison Resist",
           "+7% to Maximum Cold Resist",
           "+7% to Maximum Lightning Resist",
           "+7% to Maximum Fire Resist",
-          "All Resistances +15",
+          "All Resistances +12",
+          "72% Better Chance of Getting Magic Items",
           "+4 to Light Radius",
           "Socketed (3)"
         ],
@@ -379460,21 +379297,68 @@
         "Worn": ""
       },
       {
+        "Quality": "Rare",
+        "ID": "1219238528",
+        "QualityCode": "q_rare",
+        "Title": "Wolf Head",
+        "Tag": "Wolf Head",
+        "TextTag": "Wolf Head",
+        "Ethereal": "False",
+        "Defense": "12",
+        "Durability": "10",
+        "DurabilityMaximum": "20",
+        "ItemLevel": "87",
+        "LevelReq": 15,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
         "Quality": "Magic",
-        "ID": "3896805092",
+        "ID": "2037516701",
         "QualityCode": "q_magic",
-        "Title": "Brute's Jewel",
-        "Tag": "Jewel",
-        "TextTag": "Jewel",
+        "Title": "Small Charm",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "87",
+        "LevelReq": 39,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Ruby",
+        "Tag": "Flawless Ruby",
+        "TextTag": "Flawless Ruby",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "90",
-        "LevelReq": 1,
+        "ItemLevel": "0",
+        "LevelReq": 15,
         "SocketCount": "0",
-        "PropertyList": [
-          "Melee attacks deal splash damage"
-        ],
+        "PropertyList": [],
         "Position": {
           "x": 1,
           "y": 0
@@ -379486,58 +379370,45 @@
         "Worn": ""
       },
       {
-        "Quality": "Set",
-        "ID": "1208120417",
-        "QualityCode": "q_set",
-        "Title": "Aldur's Advance",
-        "Tag": "Battle Boots",
-        "TextTag": "Battle Boots",
+        "Quality": "Magic",
+        "ID": "1247849388",
+        "QualityCode": "q_magic",
+        "Title": "Jewel",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "Defense": "41",
-        "Durability": "17",
-        "DurabilityMaximum": "18",
+        "AlternateGraphics": "4",
         "ItemLevel": "90",
-        "LevelReq": 45,
-        "SocketCount": "0",
+        "LevelReq": 1,
         "PropertyList": [
-          "Indestructible",
-          "+40% Faster Run/Walk",
-          "+50 to Life",
-          "+180 Maximum Stamina",
-          "Heal Stamina Plus 32%",
-          "Fire Resist +48%",
-          "10% Damage Taken Gained as Mana when Hit"
+          "\u00ffc1Unidentified"
         ],
         "Position": {
-          "x": 3,
-          "y": 3
+          "x": 9,
+          "y": 4
         },
         "Size": {
-          "invheight": 2,
-          "invwidth": 2
+          "invheight": 1,
+          "invwidth": 1
         },
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "3084085901",
-        "QualityCode": "q_magic",
-        "Title": "Jewel of Truth",
-        "Tag": "Jewel",
-        "TextTag": "Jewel",
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Diamond",
+        "Tag": "Flawless Diamond",
+        "TextTag": "Flawless Diamond",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "5",
-        "ItemLevel": "87",
-        "LevelReq": 36,
+        "ItemLevel": "0",
+        "LevelReq": 15,
         "SocketCount": "0",
-        "PropertyList": [
-          "+7% Faster Hit Recovery"
-        ],
+        "PropertyList": [],
         "Position": {
-          "x": 8,
-          "y": 0
+          "x": 9,
+          "y": 3
         },
         "Size": {
           "invheight": 1,
@@ -379547,26 +379418,24 @@
       },
       {
         "Quality": "Magic",
-        "ID": "2990211016",
+        "ID": "63162751",
         "QualityCode": "q_magic",
-        "Title": "Jewel of Freedom",
-        "Tag": "Jewel",
-        "TextTag": "Jewel",
+        "Title": "Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "4",
+        "AlternateGraphics": "0",
         "ItemLevel": "87",
-        "LevelReq": 1,
-        "SocketCount": "0",
+        "LevelReq": 41,
         "PropertyList": [
-          "Requirements -15%"
+          "\u00ffc1Unidentified"
         ],
         "Position": {
-          "x": 6,
-          "y": 4
+          "x": 2,
+          "y": 0
         },
         "Size": {
-          "invheight": 1,
+          "invheight": 3,
           "invwidth": 1
         },
         "Worn": ""
@@ -390938,7 +390807,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 98,
-      "Experience": 3370117623,
+      "Experience": 3371358473,
       "Strength": 30,
       "Dexterity": 99,
       "Vitality": 436,
@@ -390948,7 +390817,7 @@
       "BaseMana": 160,
       "Mana": 248,
       "Gold": 0,
-      "Stashed": 87058
+      "Stashed": 1486648
     },
     "Bonus": {
       "Strength": 125,
@@ -689947,32 +689816,32 @@
     "Class": "Paladin",
     "Stats": {
       "Level": 95,
-      "Experience": 2651833376,
+      "Experience": 2652075961,
       "Strength": 83,
       "Dexterity": 103,
       "Vitality": 369,
       "Energy": 15,
       "BaseLife": 1382,
-      "Life": 1844,
+      "Life": 2019,
       "BaseMana": 156,
-      "Mana": 293,
-      "Gold": 0,
-      "Stashed": 1202921
+      "Mana": 321,
+      "Gold": 150794,
+      "Stashed": 1019801
     },
     "Bonus": {
       "Strength": 28,
       "Dexterity": 25,
       "Vitality": 10,
       "Energy": 0,
-      "FireResistance": 127,
+      "FireResistance": 124,
       "MaximumFireResistance": 7,
-      "ColdResistance": 88,
+      "ColdResistance": 85,
       "MaximumColdResistance": 7,
-      "LightningResistance": 88,
+      "LightningResistance": 85,
       "MaximumLightningResistance": 7,
-      "PoisonResistance": 98,
+      "PoisonResistance": 95,
       "MaximumPoisonResistance": 7,
-      "MagicFind": 143,
+      "MagicFind": 215,
       "GoldFind": 345,
       "FasterCastRate": 20,
       "FasterHitRecovery": 36,
@@ -690462,7 +690331,7 @@
       },
       {
         "Quality": "Unique",
-        "ID": "2149357719",
+        "ID": "3152016272",
         "QualityCode": "q_unique",
         "Title": "Guardian Angel",
         "Tag": "Templar Coat",
@@ -690470,29 +690339,25 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "275",
-        "Durability": "57",
+        "Durability": "60",
         "DurabilityMaximum": "60",
         "ItemLevel": "89",
         "LevelReq": 45,
         "Sockets": [
           {
-            "Quality": "Unique",
-            "ID": "3220814083",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Perfect Topaz",
+            "Tag": "Perfect Topaz",
+            "TextTag": "Perfect Topaz",
             "Ethereal": "False",
             "Enhanced": "False",
-            "AlternateGraphics": "5",
-            "ItemLevel": "88",
-            "LevelReq": 49,
+            "ItemLevel": "0",
+            "LevelReq": 18,
             "SocketCount": "0",
             "PropertyList": [
-              "100% Chance to cast level 50 Holy Bolt when you Level-Up",
-              "Adds 10-45 Magic damage",
-              "-5% to Enemy Magic Resistance",
-              "+5% Increased Magic Skill Damage"
+              "24% Better Chance of Getting Magic Items"
             ],
             "Position": {
               "x": 0,
@@ -690505,23 +690370,19 @@
             "Worn": ""
           },
           {
-            "Quality": "Unique",
-            "ID": "1212954669",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Perfect Topaz",
+            "Tag": "Perfect Topaz",
+            "TextTag": "Perfect Topaz",
             "Ethereal": "False",
             "Enhanced": "False",
-            "AlternateGraphics": "5",
-            "ItemLevel": "88",
-            "LevelReq": 49,
+            "ItemLevel": "0",
+            "LevelReq": 18,
             "SocketCount": "0",
             "PropertyList": [
-              "100% Chance to cast level 50 Holy Bolt when you Level-Up",
-              "Adds 10-15 Magic damage",
-              "-4% to Enemy Magic Resistance",
-              "+4% Increased Magic Skill Damage"
+              "24% Better Chance of Getting Magic Items"
             ],
             "Position": {
               "x": 1,
@@ -690534,23 +690395,19 @@
             "Worn": ""
           },
           {
-            "Quality": "Unique",
-            "ID": "1605949139",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Perfect Topaz",
+            "Tag": "Perfect Topaz",
+            "TextTag": "Perfect Topaz",
             "Ethereal": "False",
             "Enhanced": "False",
-            "AlternateGraphics": "3",
-            "ItemLevel": "89",
-            "LevelReq": 49,
+            "ItemLevel": "0",
+            "LevelReq": 18,
             "SocketCount": "0",
             "PropertyList": [
-              "100% Chance to cast level 50 Holy Bolt when you Level-Up",
-              "Adds 10-15 Magic damage",
-              "-4% to Enemy Magic Resistance",
-              "+3% Increased Magic Skill Damage"
+              "24% Better Chance of Getting Magic Items"
             ],
             "Position": {
               "x": 2,
@@ -690566,20 +690423,17 @@
         "SocketCount": "3",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "300% Chance to cast level 50 Holy Bolt when you Level-Up",
           "+1 to Paladin Skill Levels",
           "+30% Faster Block Rate",
           "20% Increased Chance of Blocking",
           "+237 to Attack Rating (Based on Character Level)",
-          "Adds 30-45 Magic damage",
-          "-13% to Enemy Magic Resistance",
-          "+12% Increased Magic Skill Damage",
           "+198% Enhanced Defense",
           "+7% to Maximum Poison Resist",
           "+7% to Maximum Cold Resist",
           "+7% to Maximum Lightning Resist",
           "+7% to Maximum Fire Resist",
-          "All Resistances +15",
+          "All Resistances +12",
+          "72% Better Chance of Getting Magic Items",
           "+4 to Light Radius",
           "Socketed (3)"
         ],
@@ -691759,21 +691613,68 @@
         "Worn": ""
       },
       {
+        "Quality": "Rare",
+        "ID": "1219238528",
+        "QualityCode": "q_rare",
+        "Title": "Wolf Head",
+        "Tag": "Wolf Head",
+        "TextTag": "Wolf Head",
+        "Ethereal": "False",
+        "Defense": "12",
+        "Durability": "10",
+        "DurabilityMaximum": "20",
+        "ItemLevel": "87",
+        "LevelReq": 15,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
         "Quality": "Magic",
-        "ID": "3896805092",
+        "ID": "2037516701",
         "QualityCode": "q_magic",
-        "Title": "Brute's Jewel",
-        "Tag": "Jewel",
-        "TextTag": "Jewel",
+        "Title": "Small Charm",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "87",
+        "LevelReq": 39,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Ruby",
+        "Tag": "Flawless Ruby",
+        "TextTag": "Flawless Ruby",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "90",
-        "LevelReq": 1,
+        "ItemLevel": "0",
+        "LevelReq": 15,
         "SocketCount": "0",
-        "PropertyList": [
-          "Melee attacks deal splash damage"
-        ],
+        "PropertyList": [],
         "Position": {
           "x": 1,
           "y": 0
@@ -691785,58 +691686,45 @@
         "Worn": ""
       },
       {
-        "Quality": "Set",
-        "ID": "1208120417",
-        "QualityCode": "q_set",
-        "Title": "Aldur's Advance",
-        "Tag": "Battle Boots",
-        "TextTag": "Battle Boots",
+        "Quality": "Magic",
+        "ID": "1247849388",
+        "QualityCode": "q_magic",
+        "Title": "Jewel",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "Defense": "41",
-        "Durability": "17",
-        "DurabilityMaximum": "18",
+        "AlternateGraphics": "4",
         "ItemLevel": "90",
-        "LevelReq": 45,
-        "SocketCount": "0",
+        "LevelReq": 1,
         "PropertyList": [
-          "Indestructible",
-          "+40% Faster Run/Walk",
-          "+50 to Life",
-          "+180 Maximum Stamina",
-          "Heal Stamina Plus 32%",
-          "Fire Resist +48%",
-          "10% Damage Taken Gained as Mana when Hit"
+          "\u00ffc1Unidentified"
         ],
         "Position": {
-          "x": 3,
-          "y": 3
+          "x": 9,
+          "y": 4
         },
         "Size": {
-          "invheight": 2,
-          "invwidth": 2
+          "invheight": 1,
+          "invwidth": 1
         },
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "3084085901",
-        "QualityCode": "q_magic",
-        "Title": "Jewel of Truth",
-        "Tag": "Jewel",
-        "TextTag": "Jewel",
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Diamond",
+        "Tag": "Flawless Diamond",
+        "TextTag": "Flawless Diamond",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "5",
-        "ItemLevel": "87",
-        "LevelReq": 36,
+        "ItemLevel": "0",
+        "LevelReq": 15,
         "SocketCount": "0",
-        "PropertyList": [
-          "+7% Faster Hit Recovery"
-        ],
+        "PropertyList": [],
         "Position": {
-          "x": 8,
-          "y": 0
+          "x": 9,
+          "y": 3
         },
         "Size": {
           "invheight": 1,
@@ -691846,26 +691734,24 @@
       },
       {
         "Quality": "Magic",
-        "ID": "2990211016",
+        "ID": "63162751",
         "QualityCode": "q_magic",
-        "Title": "Jewel of Freedom",
-        "Tag": "Jewel",
-        "TextTag": "Jewel",
+        "Title": "Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "4",
+        "AlternateGraphics": "0",
         "ItemLevel": "87",
-        "LevelReq": 1,
-        "SocketCount": "0",
+        "LevelReq": 41,
         "PropertyList": [
-          "Requirements -15%"
+          "\u00ffc1Unidentified"
         ],
         "Position": {
-          "x": 6,
-          "y": 4
+          "x": 2,
+          "y": 0
         },
         "Size": {
-          "invheight": 1,
+          "invheight": 3,
           "invwidth": 1
         },
         "Worn": ""
