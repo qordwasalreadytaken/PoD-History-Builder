@@ -9058,5 +9058,42 @@ const synthInventory = [
     "seen_date": "2026-03-16",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Stormspike%2C0%2Cnone%2ClDamage_min%3A1%2ClDamage_max%3A120%2Cenemy_fRes%3A-25%2CfRes%3A40%2Cthorns_lightning%3A20%2Ccskill%3A%5B15%2C+%27Enflame%27%2C+12%5D"
+  },
+  {
+    "id": "57f1f9ccfbe5eda3e3f3810fd9ebfcb4a888a12f883bdb5ecbda0dfd54e528cd",
+    "friendly_id": 154,
+    "owner": "Criplycan",
+    "base_type": "Synthesized Tyrant Club",
+    "title": "Demon Limb",
+    "properties": [
+      "ÿc1Corrupted",
+      "+478% Enhanced Damage",
+      "50% Bonus to Attack Rating",
+      "+50% Damage to Undead",
+      "Adds 222-333 Fire damage",
+      "9% Life stolen per hit",
+      "+16 to Strength",
+      "+15 to Energy",
+      "Fire Resist +16%",
+      "31% Better Chance of Getting Magic Items",
+      "Level 23 Enflame (9/20 Charges)",
+      "Socketed (1)"
+    ],
+    "synthesised_from": [
+      "Wizendraw",
+      "The Atlantean",
+      "Cranebeak"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "184",
+    "DamageMaximum": "335",
+    "LevelReq": 63,
+    "SocketCount": "1",
+    "seen_date": "2026-03-18",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Demon+Limb%2C0%2Cnone%2Cdamage_bonus%3A478%2Car_bonus%3A50%2Cdamage_vs_undead%3A50%2CfDamage_min%3A222%2CfDamage_max%3A333%2Clife_leech%3A9%2Cstrength%3A16%2Cenergy%3A15%2CfRes%3A16%2Cmf%3A31%2Csockets%3A1%2Ccskill%3A%5B23%2C+%27Enflame%27%2C+9%5D"
   }
 ];
