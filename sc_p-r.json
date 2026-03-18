@@ -14,14 +14,14 @@
       "Vitality": 458,
       "Energy": 25,
       "BaseLife": 1187,
-      "Life": 1418,
+      "Life": 1434,
       "BaseMana": 221,
-      "Mana": 448,
+      "Mana": 507,
       "Gold": 0,
       "Stashed": 2038899
     },
     "Bonus": {
-      "Strength": 76,
+      "Strength": 2,
       "Dexterity": 21,
       "Vitality": 2,
       "Energy": 3,
@@ -33,7 +33,7 @@
       "MaximumLightningResistance": 0,
       "PoisonResistance": 30,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 189,
+      "MagicFind": 90,
       "GoldFind": 116,
       "FasterCastRate": 40,
       "FasterHitRecovery": 10,
@@ -41,33 +41,9 @@
       "CrushingBlow": 0,
       "OpenWounds": 0,
       "DeadlyStrike": 0,
-      "DamageReduction": 18,
+      "DamageReduction": 10,
       "CooldownReduction": 10,
       "WeaponSetMain": {
-        "Strength": 10,
-        "Dexterity": 0,
-        "Vitality": 0,
-        "Energy": 0,
-        "FireResistance": 0,
-        "MaximumFireResistance": 0,
-        "ColdResistance": 0,
-        "MaximumColdResistance": 0,
-        "LightningResistance": 0,
-        "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
-        "MaximumPoisonResistance": 0,
-        "MagicFind": 0,
-        "GoldFind": 0,
-        "FasterCastRate": 0,
-        "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 35,
-        "CrushingBlow": 0,
-        "OpenWounds": 0,
-        "DeadlyStrike": 0,
-        "DamageReduction": 0,
-        "CooldownReduction": 0
-      },
-      "WeaponSetOffhand": {
         "Strength": 15,
         "Dexterity": 10,
         "Vitality": 0,
@@ -85,6 +61,30 @@
         "FasterCastRate": 40,
         "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 0,
+        "CrushingBlow": 0,
+        "OpenWounds": 0,
+        "DeadlyStrike": 0,
+        "DamageReduction": 0,
+        "CooldownReduction": 0
+      },
+      "WeaponSetOffhand": {
+        "Strength": 10,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Energy": 0,
+        "FireResistance": 0,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 0,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 0,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 0,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 0,
+        "GoldFind": 0,
+        "FasterCastRate": 0,
+        "FasterHitRecovery": 0,
+        "IncreasedAttackSpeed": 35,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
@@ -392,35 +392,65 @@
         "Worn": "boots"
       },
       {
-        "Quality": "Superior",
-        "ID": "1372011334",
-        "QualityCode": "q_runeword",
-        "Title": "Enigma",
-        "Tag": "Mage Plate",
-        "TextTag": "Mage Plate",
-        "RuneTag": "JahIthBer",
+        "Quality": "Unique",
+        "ID": "2073851745",
+        "QualityCode": "q_unique",
+        "Title": "Raven Frost",
+        "Tag": "Ring",
+        "TextTag": "ring",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "262",
-        "Durability": "60",
-        "DurabilityMaximum": "60",
-        "ItemLevel": "88",
-        "LevelReq": 65,
+        "Enhanced": "False",
+        "AlternateGraphics": "4",
+        "ItemLevel": "55",
+        "LevelReq": 45,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+241 to Attack Rating",
+          "Adds 15-45 cold damage",
+          "+19 to Dexterity",
+          "+40 to Mana",
+          "Cold Absorb 20%",
+          "Cannot Be Frozen"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "ring1"
+      },
+      {
+        "Quality": "Normal",
+        "ID": "704750638",
+        "QualityCode": "q_runeword",
+        "Title": "Edge",
+        "Tag": "Razor Bow",
+        "TextTag": "Razor Bow",
+        "RuneTag": "TirTalAmn",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "DamageMinimum": "8",
+        "DamageMaximum": "22",
+        "ItemLevel": "86",
+        "LevelReq": 25,
         "Sockets": [
           {
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Jah Rune",
-            "Tag": "Jah Rune",
-            "TextTag": "Jah Rune",
+            "Title": "Tir Rune",
+            "Tag": "Tir Rune",
+            "TextTag": "Tir Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 65,
+            "LevelReq": 13,
             "SocketCount": "0",
             "PropertyList": [
-              "Increase Maximum Life 5%"
+              "+2 to Mana after each Kill"
             ],
             "Position": {
               "x": 0,
@@ -436,16 +466,16 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Ith Rune",
-            "Tag": "Ith Rune",
-            "TextTag": "Ith Rune",
+            "Title": "Tal Rune",
+            "Tag": "Tal Rune",
+            "TextTag": "Tal Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 15,
+            "LevelReq": 17,
             "SocketCount": "0",
             "PropertyList": [
-              "15% Damage Taken Gained as Mana when Hit"
+              "+75 poison damage over 5 seconds"
             ],
             "Position": {
               "x": 1,
@@ -461,16 +491,16 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Ber Rune",
-            "Tag": "Ber Rune",
-            "TextTag": "Ber Rune",
+            "Title": "Amn Rune",
+            "Tag": "Amn Rune",
+            "TextTag": "Amn Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 63,
+            "LevelReq": 25,
             "SocketCount": "0",
             "PropertyList": [
-              "Physical Damage Taken Reduced by 8%"
+              "7% Life stolen per hit"
             ],
             "Position": {
               "x": 2,
@@ -485,28 +515,27 @@
         ],
         "SocketCount": "3",
         "PropertyList": [
-          "+2 to All Skills",
-          "+45% Faster Run/Walk",
-          "+1 to Enigma Teleport",
-          "+15% Enhanced Defense",
-          "+767 Defense",
-          "+74 to Strength (Based on Character Level)",
-          "Increase Maximum Life 5%",
-          "Physical Damage Taken Reduced by 8%",
-          "+14 Life after each Kill",
-          "15% Damage Taken Gained as Mana when Hit",
-          "99% Better Chance of Getting Magic Items (Based on Character Level)",
+          "Level 15 Precision Aura When Equipped",
+          "+35% Increased Attack Speed",
+          "+362% Damage to Demons",
+          "+280% Damage to Undead",
+          "+75 poison damage over 5 seconds",
+          "7% Life stolen per hit",
+          "Prevent Monster Heal",
+          "+10 to all Attributes",
+          "+2 to Mana after each Kill",
+          "Reduces all Vendor Prices 15%",
           "Socketed (3)"
         ],
         "Position": {
-          "x": 3,
+          "x": 11,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
         },
-        "Worn": "body"
+        "Worn": "sweapon1"
       },
       {
         "Quality": "Normal",
@@ -644,14 +673,14 @@
           "Socketed (4)"
         ],
         "Position": {
-          "x": 11,
+          "x": 4,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
         },
-        "Worn": "sweapon1"
+        "Worn": "weapon1"
       },
       {
         "Quality": "Unique",
@@ -740,160 +769,14 @@
           "Socketed (2)"
         ],
         "Position": {
-          "x": 12,
+          "x": 5,
           "y": 0
         },
         "Size": {
           "invheight": 2,
           "invwidth": 2
         },
-        "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "2073851745",
-        "QualityCode": "q_unique",
-        "Title": "Raven Frost",
-        "Tag": "Ring",
-        "TextTag": "ring",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "4",
-        "ItemLevel": "55",
-        "LevelReq": 45,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+241 to Attack Rating",
-          "Adds 15-45 cold damage",
-          "+19 to Dexterity",
-          "+40 to Mana",
-          "Cold Absorb 20%",
-          "Cannot Be Frozen"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": "ring1"
-      },
-      {
-        "Quality": "Normal",
-        "ID": "704750638",
-        "QualityCode": "q_runeword",
-        "Title": "Edge",
-        "Tag": "Razor Bow",
-        "TextTag": "Razor Bow",
-        "RuneTag": "TirTalAmn",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "DamageMinimum": "8",
-        "DamageMaximum": "22",
-        "ItemLevel": "86",
-        "LevelReq": 25,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Tir Rune",
-            "Tag": "Tir Rune",
-            "TextTag": "Tir Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 13,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+2 to Mana after each Kill"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Tal Rune",
-            "Tag": "Tal Rune",
-            "TextTag": "Tal Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 17,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+75 poison damage over 5 seconds"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Amn Rune",
-            "Tag": "Amn Rune",
-            "TextTag": "Amn Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 25,
-            "SocketCount": "0",
-            "PropertyList": [
-              "7% Life stolen per hit"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "3",
-        "PropertyList": [
-          "Level 15 Precision Aura When Equipped",
-          "+35% Increased Attack Speed",
-          "+362% Damage to Demons",
-          "+280% Damage to Undead",
-          "+75 poison damage over 5 seconds",
-          "7% Life stolen per hit",
-          "Prevent Monster Heal",
-          "+10 to all Attributes",
-          "+2 to Mana after each Kill",
-          "Reduces all Vendor Prices 15%",
-          "Socketed (3)"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": "weapon1"
+        "Worn": "weapon2"
       }
     ],
     "Inventory": [
@@ -213253,27 +213136,27 @@
       "Vitality": 10,
       "Energy": 483,
       "BaseLife": 238,
-      "Life": 605,
+      "Life": 552,
       "BaseMana": 1115,
-      "Mana": 2029,
+      "Mana": 1946,
       "Gold": 15020,
       "Stashed": 397247
     },
     "Bonus": {
-      "Strength": 37,
+      "Strength": 29,
       "Dexterity": 2,
       "Vitality": 0,
       "Energy": 0,
-      "FireResistance": 181,
+      "FireResistance": 180,
       "MaximumFireResistance": 0,
-      "ColdResistance": 183,
+      "ColdResistance": 182,
       "MaximumColdResistance": 0,
-      "LightningResistance": 184,
+      "LightningResistance": 183,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 132,
+      "PoisonResistance": 131,
       "MaximumPoisonResistance": 0,
       "MagicFind": 60,
-      "GoldFind": 0,
+      "GoldFind": 20,
       "FasterCastRate": 50,
       "FasterHitRecovery": 5,
       "IncreasedAttackSpeed": 0,
@@ -214532,32 +214415,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "302191474",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "88",
-        "LevelReq": 27,
-        "SocketCount": "0",
-        "PropertyList": [
-          "All Resistances +14"
-        ],
-        "Position": {
-          "x": 3,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "3878086212",
         "QualityCode": "q_magic",
         "Title": "Sparking Grand Charm of Flame",
@@ -214579,35 +214436,6 @@
         },
         "Size": {
           "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unique",
-        "ID": "1863617191",
-        "QualityCode": "q_unique",
-        "Title": "Hellfire Torch",
-        "Tag": "Large Charm",
-        "TextTag": "Charm Medium",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "99",
-        "LevelReq": 75,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+3 to Barbarian Skill Levels",
-          "+19 to all Attributes",
-          "All Resistances +20",
-          "+8 to Light Radius"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 2,
           "invwidth": 1
         },
         "Worn": ""
@@ -214641,20 +214469,19 @@
       },
       {
         "Quality": "Magic",
-        "ID": "3135695339",
+        "ID": "302191474",
         "QualityCode": "q_magic",
-        "Title": "Serpent's Grand Charm of Vita",
+        "Title": "Shimmering Grand Charm",
         "Tag": "Grand Charm",
         "TextTag": "Charm Large",
         "Ethereal": "False",
         "Enhanced": "False",
         "AlternateGraphics": "0",
-        "ItemLevel": "79",
-        "LevelReq": 69,
+        "ItemLevel": "88",
+        "LevelReq": 27,
         "SocketCount": "0",
         "PropertyList": [
-          "+37 to Life",
-          "+46 to Mana"
+          "All Resistances +14"
         ],
         "Position": {
           "x": 6,
@@ -214662,6 +214489,62 @@
         },
         "Size": {
           "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "993461561",
+        "QualityCode": "q_magic",
+        "Title": "Sparking Grand Charm of Greed",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "90",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Lightning Skills (Sorceress Only)",
+          "20% Extra Gold from Monsters"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3287616408",
+        "QualityCode": "q_unique",
+        "Title": "Hellfire Torch",
+        "Tag": "Large Charm",
+        "TextTag": "Charm Medium",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "99",
+        "LevelReq": 75,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+3 to Assassin Skill Levels",
+          "+11 to all Attributes",
+          "All Resistances +19",
+          "+8 to Light Radius"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 2,
           "invwidth": 1
         },
         "Worn": ""
@@ -215064,14 +214947,14 @@
       "Vitality": 458,
       "Energy": 25,
       "BaseLife": 1187,
-      "Life": 1418,
+      "Life": 1434,
       "BaseMana": 221,
-      "Mana": 448,
+      "Mana": 507,
       "Gold": 0,
       "Stashed": 2038899
     },
     "Bonus": {
-      "Strength": 76,
+      "Strength": 2,
       "Dexterity": 21,
       "Vitality": 2,
       "Energy": 3,
@@ -215083,7 +214966,7 @@
       "MaximumLightningResistance": 0,
       "PoisonResistance": 30,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 189,
+      "MagicFind": 90,
       "GoldFind": 116,
       "FasterCastRate": 40,
       "FasterHitRecovery": 10,
@@ -215091,33 +214974,9 @@
       "CrushingBlow": 0,
       "OpenWounds": 0,
       "DeadlyStrike": 0,
-      "DamageReduction": 18,
+      "DamageReduction": 10,
       "CooldownReduction": 10,
       "WeaponSetMain": {
-        "Strength": 10,
-        "Dexterity": 0,
-        "Vitality": 0,
-        "Energy": 0,
-        "FireResistance": 0,
-        "MaximumFireResistance": 0,
-        "ColdResistance": 0,
-        "MaximumColdResistance": 0,
-        "LightningResistance": 0,
-        "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
-        "MaximumPoisonResistance": 0,
-        "MagicFind": 0,
-        "GoldFind": 0,
-        "FasterCastRate": 0,
-        "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 35,
-        "CrushingBlow": 0,
-        "OpenWounds": 0,
-        "DeadlyStrike": 0,
-        "DamageReduction": 0,
-        "CooldownReduction": 0
-      },
-      "WeaponSetOffhand": {
         "Strength": 15,
         "Dexterity": 10,
         "Vitality": 0,
@@ -215135,6 +214994,30 @@
         "FasterCastRate": 40,
         "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 0,
+        "CrushingBlow": 0,
+        "OpenWounds": 0,
+        "DeadlyStrike": 0,
+        "DamageReduction": 0,
+        "CooldownReduction": 0
+      },
+      "WeaponSetOffhand": {
+        "Strength": 10,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Energy": 0,
+        "FireResistance": 0,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 0,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 0,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 0,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 0,
+        "GoldFind": 0,
+        "FasterCastRate": 0,
+        "FasterHitRecovery": 0,
+        "IncreasedAttackSpeed": 35,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
@@ -215442,35 +215325,65 @@
         "Worn": "boots"
       },
       {
-        "Quality": "Superior",
-        "ID": "1372011334",
-        "QualityCode": "q_runeword",
-        "Title": "Enigma",
-        "Tag": "Mage Plate",
-        "TextTag": "Mage Plate",
-        "RuneTag": "JahIthBer",
+        "Quality": "Unique",
+        "ID": "2073851745",
+        "QualityCode": "q_unique",
+        "Title": "Raven Frost",
+        "Tag": "Ring",
+        "TextTag": "ring",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "262",
-        "Durability": "60",
-        "DurabilityMaximum": "60",
-        "ItemLevel": "88",
-        "LevelReq": 65,
+        "Enhanced": "False",
+        "AlternateGraphics": "4",
+        "ItemLevel": "55",
+        "LevelReq": 45,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+241 to Attack Rating",
+          "Adds 15-45 cold damage",
+          "+19 to Dexterity",
+          "+40 to Mana",
+          "Cold Absorb 20%",
+          "Cannot Be Frozen"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "ring1"
+      },
+      {
+        "Quality": "Normal",
+        "ID": "704750638",
+        "QualityCode": "q_runeword",
+        "Title": "Edge",
+        "Tag": "Razor Bow",
+        "TextTag": "Razor Bow",
+        "RuneTag": "TirTalAmn",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "DamageMinimum": "8",
+        "DamageMaximum": "22",
+        "ItemLevel": "86",
+        "LevelReq": 25,
         "Sockets": [
           {
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Jah Rune",
-            "Tag": "Jah Rune",
-            "TextTag": "Jah Rune",
+            "Title": "Tir Rune",
+            "Tag": "Tir Rune",
+            "TextTag": "Tir Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 65,
+            "LevelReq": 13,
             "SocketCount": "0",
             "PropertyList": [
-              "Increase Maximum Life 5%"
+              "+2 to Mana after each Kill"
             ],
             "Position": {
               "x": 0,
@@ -215486,16 +215399,16 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Ith Rune",
-            "Tag": "Ith Rune",
-            "TextTag": "Ith Rune",
+            "Title": "Tal Rune",
+            "Tag": "Tal Rune",
+            "TextTag": "Tal Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 15,
+            "LevelReq": 17,
             "SocketCount": "0",
             "PropertyList": [
-              "15% Damage Taken Gained as Mana when Hit"
+              "+75 poison damage over 5 seconds"
             ],
             "Position": {
               "x": 1,
@@ -215511,16 +215424,16 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Ber Rune",
-            "Tag": "Ber Rune",
-            "TextTag": "Ber Rune",
+            "Title": "Amn Rune",
+            "Tag": "Amn Rune",
+            "TextTag": "Amn Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 63,
+            "LevelReq": 25,
             "SocketCount": "0",
             "PropertyList": [
-              "Physical Damage Taken Reduced by 8%"
+              "7% Life stolen per hit"
             ],
             "Position": {
               "x": 2,
@@ -215535,28 +215448,27 @@
         ],
         "SocketCount": "3",
         "PropertyList": [
-          "+2 to All Skills",
-          "+45% Faster Run/Walk",
-          "+1 to Enigma Teleport",
-          "+15% Enhanced Defense",
-          "+767 Defense",
-          "+74 to Strength (Based on Character Level)",
-          "Increase Maximum Life 5%",
-          "Physical Damage Taken Reduced by 8%",
-          "+14 Life after each Kill",
-          "15% Damage Taken Gained as Mana when Hit",
-          "99% Better Chance of Getting Magic Items (Based on Character Level)",
+          "Level 15 Precision Aura When Equipped",
+          "+35% Increased Attack Speed",
+          "+362% Damage to Demons",
+          "+280% Damage to Undead",
+          "+75 poison damage over 5 seconds",
+          "7% Life stolen per hit",
+          "Prevent Monster Heal",
+          "+10 to all Attributes",
+          "+2 to Mana after each Kill",
+          "Reduces all Vendor Prices 15%",
           "Socketed (3)"
         ],
         "Position": {
-          "x": 3,
+          "x": 11,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
         },
-        "Worn": "body"
+        "Worn": "sweapon1"
       },
       {
         "Quality": "Normal",
@@ -215694,14 +215606,14 @@
           "Socketed (4)"
         ],
         "Position": {
-          "x": 11,
+          "x": 4,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
         },
-        "Worn": "sweapon1"
+        "Worn": "weapon1"
       },
       {
         "Quality": "Unique",
@@ -215790,160 +215702,14 @@
           "Socketed (2)"
         ],
         "Position": {
-          "x": 12,
+          "x": 5,
           "y": 0
         },
         "Size": {
           "invheight": 2,
           "invwidth": 2
         },
-        "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "2073851745",
-        "QualityCode": "q_unique",
-        "Title": "Raven Frost",
-        "Tag": "Ring",
-        "TextTag": "ring",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "4",
-        "ItemLevel": "55",
-        "LevelReq": 45,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+241 to Attack Rating",
-          "Adds 15-45 cold damage",
-          "+19 to Dexterity",
-          "+40 to Mana",
-          "Cold Absorb 20%",
-          "Cannot Be Frozen"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": "ring1"
-      },
-      {
-        "Quality": "Normal",
-        "ID": "704750638",
-        "QualityCode": "q_runeword",
-        "Title": "Edge",
-        "Tag": "Razor Bow",
-        "TextTag": "Razor Bow",
-        "RuneTag": "TirTalAmn",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "DamageMinimum": "8",
-        "DamageMaximum": "22",
-        "ItemLevel": "86",
-        "LevelReq": 25,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Tir Rune",
-            "Tag": "Tir Rune",
-            "TextTag": "Tir Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 13,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+2 to Mana after each Kill"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Tal Rune",
-            "Tag": "Tal Rune",
-            "TextTag": "Tal Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 17,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+75 poison damage over 5 seconds"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Amn Rune",
-            "Tag": "Amn Rune",
-            "TextTag": "Amn Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 25,
-            "SocketCount": "0",
-            "PropertyList": [
-              "7% Life stolen per hit"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "3",
-        "PropertyList": [
-          "Level 15 Precision Aura When Equipped",
-          "+35% Increased Attack Speed",
-          "+362% Damage to Demons",
-          "+280% Damage to Undead",
-          "+75 poison damage over 5 seconds",
-          "7% Life stolen per hit",
-          "Prevent Monster Heal",
-          "+10 to all Attributes",
-          "+2 to Mana after each Kill",
-          "Reduces all Vendor Prices 15%",
-          "Socketed (3)"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": "weapon1"
+        "Worn": "weapon2"
       }
     ],
     "Inventory": [
@@ -316294,27 +316060,27 @@
       "Vitality": 10,
       "Energy": 483,
       "BaseLife": 238,
-      "Life": 605,
+      "Life": 552,
       "BaseMana": 1115,
-      "Mana": 2029,
+      "Mana": 1946,
       "Gold": 15020,
       "Stashed": 397247
     },
     "Bonus": {
-      "Strength": 37,
+      "Strength": 29,
       "Dexterity": 2,
       "Vitality": 0,
       "Energy": 0,
-      "FireResistance": 181,
+      "FireResistance": 180,
       "MaximumFireResistance": 0,
-      "ColdResistance": 183,
+      "ColdResistance": 182,
       "MaximumColdResistance": 0,
-      "LightningResistance": 184,
+      "LightningResistance": 183,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 132,
+      "PoisonResistance": 131,
       "MaximumPoisonResistance": 0,
       "MagicFind": 60,
-      "GoldFind": 0,
+      "GoldFind": 20,
       "FasterCastRate": 50,
       "FasterHitRecovery": 5,
       "IncreasedAttackSpeed": 0,
@@ -317573,32 +317339,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "302191474",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "88",
-        "LevelReq": 27,
-        "SocketCount": "0",
-        "PropertyList": [
-          "All Resistances +14"
-        ],
-        "Position": {
-          "x": 3,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "3878086212",
         "QualityCode": "q_magic",
         "Title": "Sparking Grand Charm of Flame",
@@ -317620,35 +317360,6 @@
         },
         "Size": {
           "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unique",
-        "ID": "1863617191",
-        "QualityCode": "q_unique",
-        "Title": "Hellfire Torch",
-        "Tag": "Large Charm",
-        "TextTag": "Charm Medium",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "99",
-        "LevelReq": 75,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+3 to Barbarian Skill Levels",
-          "+19 to all Attributes",
-          "All Resistances +20",
-          "+8 to Light Radius"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 2,
           "invwidth": 1
         },
         "Worn": ""
@@ -317682,20 +317393,19 @@
       },
       {
         "Quality": "Magic",
-        "ID": "3135695339",
+        "ID": "302191474",
         "QualityCode": "q_magic",
-        "Title": "Serpent's Grand Charm of Vita",
+        "Title": "Shimmering Grand Charm",
         "Tag": "Grand Charm",
         "TextTag": "Charm Large",
         "Ethereal": "False",
         "Enhanced": "False",
         "AlternateGraphics": "0",
-        "ItemLevel": "79",
-        "LevelReq": 69,
+        "ItemLevel": "88",
+        "LevelReq": 27,
         "SocketCount": "0",
         "PropertyList": [
-          "+37 to Life",
-          "+46 to Mana"
+          "All Resistances +14"
         ],
         "Position": {
           "x": 6,
@@ -317703,6 +317413,62 @@
         },
         "Size": {
           "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "993461561",
+        "QualityCode": "q_magic",
+        "Title": "Sparking Grand Charm of Greed",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "90",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Lightning Skills (Sorceress Only)",
+          "20% Extra Gold from Monsters"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3287616408",
+        "QualityCode": "q_unique",
+        "Title": "Hellfire Torch",
+        "Tag": "Large Charm",
+        "TextTag": "Charm Medium",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "99",
+        "LevelReq": 75,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+3 to Assassin Skill Levels",
+          "+11 to all Attributes",
+          "All Resistances +19",
+          "+8 to Light Radius"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 2,
           "invwidth": 1
         },
         "Worn": ""
