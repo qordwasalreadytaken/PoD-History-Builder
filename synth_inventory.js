@@ -9095,5 +9095,69 @@ const synthInventory = [
     "seen_date": "2026-03-18",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Demon+Limb%2C0%2Cnone%2Cdamage_bonus%3A478%2Car_bonus%3A50%2Cdamage_vs_undead%3A50%2CfDamage_min%3A222%2CfDamage_max%3A333%2Clife_leech%3A9%2Cstrength%3A16%2Cenergy%3A15%2CfRes%3A16%2Cmf%3A31%2Csockets%3A1%2Ccskill%3A%5B23%2C+%27Enflame%27%2C+9%5D"
+  },
+  {
+    "id": "dce0222d753e9d198f5b1f58524f6963399e5b9c9d75ad67a6c9d470721da402",
+    "friendly_id": 155,
+    "owner": "Criplya",
+    "base_type": "Synthesized Glorious Axe",
+    "title": "Executioner's Justice",
+    "properties": [
+      "ÿc1Corrupted",
+      "+3 to Elemental Skills (Druid Only)",
+      "+107% Increased Attack Speed",
+      "+425% Enhanced Damage",
+      "-33% Target Defense",
+      "25% Chance of Crushing Blow",
+      "+3 to Warmth (Sorceress Only)",
+      "+1 to Fire Wall (Sorceress Only)",
+      "Socketed (2)"
+    ],
+    "synthesised_from": [
+      "The Salamander",
+      "Earthshaker",
+      "Goldstrike Arch"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "315",
+    "DamageMaximum": "651",
+    "LevelReq": 75,
+    "SocketCount": "2",
+    "seen_date": "2026-03-23",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Executioner%27s+Justice%2C0%2Cnone%2Cskills_elemental%3A3%2Cias%3A107%2Cdamage_bonus%3A425%2Ccblow%3A25%2Coskill_Warmth%3A3%2Coskill_Fire_Wall%3A1%2Csockets%3A2"
+  },
+  {
+    "id": "40ce0460d73370db1837ad6d409c32d98da3b46194b4f35c3b30e9407acaab6a",
+    "friendly_id": 156,
+    "owner": "fckissin",
+    "base_type": "Synthesized Stiletto",
+    "title": "Stormspike",
+    "properties": [
+      "Adds 1-120 Lightning damage",
+      "-25% to Enemy Fire Resistance",
+      "Lightning Resist 93% (Based on Character Level)",
+      "Fire Resist +40%",
+      "Attacker Takes Lightning Damage of 20",
+      "+1 to maximum Lightning Damage per Dexterity",
+      "Level 15 Enflame (11/45 Charges)"
+    ],
+    "synthesised_from": [
+      "Todesfaelle Flamme"
+    ],
+    "location": "Equipped",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "19",
+    "DamageMaximum": "36",
+    "LevelReq": 41,
+    "SocketCount": "0",
+    "seen_date": "2026-03-23",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Stormspike%2C0%2Cnone%2ClDamage_min%3A1%2ClDamage_max%3A120%2Cenemy_fRes%3A-25%2CfRes%3A40%2Cthorns_lightning%3A20%2Ccskill%3A%5B15%2C+%27Enflame%27%2C+11%5D"
   }
 ];
