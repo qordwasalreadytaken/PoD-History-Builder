@@ -17,7 +17,7 @@
       "Life": 1359,
       "BaseMana": 221,
       "Mana": 489,
-      "Gold": 990000,
+      "Gold": 983750,
       "Stashed": 2500000
     },
     "Bonus": {
@@ -25,24 +25,24 @@
       "Dexterity": 21,
       "Vitality": 2,
       "Energy": 3,
-      "FireResistance": 92,
+      "FireResistance": 52,
       "MaximumFireResistance": 0,
-      "ColdResistance": 80,
+      "ColdResistance": 59,
       "MaximumColdResistance": 0,
-      "LightningResistance": 30,
+      "LightningResistance": 55,
       "MaximumLightningResistance": 0,
       "PoisonResistance": 43,
       "MaximumPoisonResistance": 0,
       "MagicFind": 89,
       "GoldFind": 158,
       "FasterCastRate": 45,
-      "FasterHitRecovery": 10,
+      "FasterHitRecovery": 0,
       "IncreasedAttackSpeed": 0,
       "CrushingBlow": 0,
       "OpenWounds": 0,
       "DeadlyStrike": 0,
       "DamageReduction": 10,
-      "CooldownReduction": 10,
+      "CooldownReduction": 0,
       "WeaponSetMain": {
         "Strength": 10,
         "Dexterity": 0,
@@ -358,40 +358,6 @@
         "Worn": "belt"
       },
       {
-        "Quality": "Rare",
-        "ID": "1413371280",
-        "QualityCode": "q_rare",
-        "Title": "Blood Blazer",
-        "Tag": "Mirrored Boots",
-        "TextTag": "Mirrored Boots",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "Defense": "68",
-        "Durability": "18",
-        "DurabilityMaximum": "18",
-        "ItemLevel": "91",
-        "LevelReq": 60,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+30% Faster Run/Walk",
-          "+10% Faster Hit Recovery",
-          "Cold Resist +38%",
-          "Fire Resist +40%",
-          "Repairs 1 durability in 20 seconds",
-          "10% Reduced Skill Cooldown"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "boots"
-      },
-      {
         "Quality": "Unique",
         "ID": "2073851745",
         "QualityCode": "q_unique",
@@ -693,6 +659,38 @@
           "invwidth": 1
         },
         "Worn": "amulet"
+      },
+      {
+        "Quality": "Set",
+        "ID": "835983537",
+        "QualityCode": "q_set",
+        "Title": "Natalya's Soul",
+        "Tag": "Mesh Boots",
+        "TextTag": "Mesh Boots",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "42",
+        "Durability": "15",
+        "DurabilityMaximum": "16",
+        "ItemLevel": "91",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+40% Faster Run/Walk",
+          "+98 Defense",
+          "Heal Stamina Plus +24% (Based on Character Level)",
+          "Cold Resist +17%",
+          "Lightning Resist +25%"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "boots"
       },
       {
         "Quality": "Normal",
@@ -91090,7 +91088,7 @@
       "BaseMana": 153,
       "Mana": 267,
       "Gold": 0,
-      "Stashed": 1655511
+      "Stashed": 1690511
     },
     "Bonus": {
       "Strength": 101,
@@ -92791,217 +92789,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "420947228",
-        "QualityCode": "q_unique",
-        "Title": "War Traveler",
-        "Tag": "Battle Boots",
-        "TextTag": "Battle Boots",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "48",
-        "Durability": "48",
-        "DurabilityMaximum": "18",
-        "ItemLevel": "91",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+25% Faster Run/Walk",
-          "Adds 15-25 damage",
-          "+168% Enhanced Defense",
-          "+10 to Strength",
-          "+10 to Vitality",
-          "40% Slower Stamina Drain",
-          "Attacker Takes Damage of 6",
-          "36% Better Chance of Getting Magic Items",
-          "10% Reduced Skill Cooldown"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unique",
-        "ID": "813050596",
-        "QualityCode": "q_unique",
-        "Title": "Lidless Wall",
-        "Tag": "Troll Nest",
-        "TextTag": "Troll Nest",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Block": "45",
-        "Defense": "163",
-        "Durability": "53",
-        "DurabilityMaximum": "74",
-        "ItemLevel": "89",
-        "LevelReq": 64,
-        "SocketCount": "3",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+1 to All Skills",
-          "+20% Faster Cast Rate",
-          "+115% Enhanced Defense",
-          "+10 to Energy",
-          "Increase Maximum Mana 10%",
-          "+4 to Mana after each Kill",
-          "+1 to Light Radius",
-          "Socketed (3)"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2792936419",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Balance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "84",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "+12% Faster Hit Recovery"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1112274195",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Balance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "85",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "+12% Faster Hit Recovery"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "3792008400",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Sustenance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "+23 to Life"
-        ],
-        "Position": {
-          "x": 5,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1343578714",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Sustenance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "+22 to Life"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "2169466557",
-        "QualityCode": "q_normal",
-        "Title": "Berserker Axe",
-        "Tag": "Berserker Axe",
-        "TextTag": "Berserker Axe",
-        "Ethereal": "True",
-        "Enhanced": "False",
-        "DamageMinimum": "36",
-        "DamageMaximum": "106",
-        "Durability": "59",
-        "DurabilityMaximum": "59",
-        "ItemLevel": "88",
-        "LevelReq": 64,
-        "SocketCount": "4",
-        "PropertyList": [
-          "Ethereal (Cannot be Repaired), Socketed (4)"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "3269853772",
         "QualityCode": "q_normal",
@@ -93015,164 +92802,11 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 2,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "3066754950",
-        "QualityCode": "q_runeword",
-        "Title": "Plague",
-        "Tag": "Greater Talons",
-        "TextTag": "Greater Talons",
-        "RuneTag": "ChamShaelUm",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "DamageMinimum": "21",
-        "DamageMaximum": "35",
-        "Durability": "215",
-        "DurabilityMaximum": "215",
-        "ItemLevel": "88",
-        "LevelReq": 67,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Cham Rune",
-            "Tag": "Cham Rune",
-            "TextTag": "Cham Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 67,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Freezes target +3"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Shael Rune",
-            "Tag": "Shael Rune",
-            "TextTag": "Shael Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 29,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+20% Increased Attack Speed"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Um Rune",
-            "Tag": "Um Rune",
-            "TextTag": "Um Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 47,
-            "SocketCount": "0",
-            "PropertyList": [
-              "25% Chance of Open Wounds"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "3",
-        "PropertyList": [
-          "20% Chance to cast level 12 Lower Resist when struck",
-          "15% Chance to cast level 17 Poison Nova on striking",
-          "Level 15 Cleansing Aura When Equipped",
-          "+2 to All Skills",
-          "+20% Increased Attack Speed",
-          "+338% Damage to Demons",
-          "-23% to Enemy Poison Resistance",
-          "34% Deadly Strike (Based on Character Level)",
-          "25% Chance of Open Wounds",
-          "+3 to Blade Shield (Assassin Only)",
-          "+2 to Venom (Assassin Only)",
-          "Freezes target +3",
-          "Socketed (3)"
-        ],
-        "Position": {
           "x": 1,
           "y": 0
         },
         "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Craft",
-        "ID": "4274767532",
-        "QualityCode": "q_crafted",
-        "Title": "Skull Scarab",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "90",
-        "LevelReq": 89,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+1 to All Skills",
-          "+2 to Assassin Skill Levels",
-          "+6% Faster Cast Rate",
-          "5% Life stolen per hit",
-          "+37 to Life",
-          "+11 to Mana",
-          "Regenerate Mana 9%",
-          "Fire Resist +8%"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
+          "invheight": 2,
           "invwidth": 1
         },
         "Worn": ""
@@ -215654,7 +215288,7 @@
       "Life": 1359,
       "BaseMana": 221,
       "Mana": 489,
-      "Gold": 990000,
+      "Gold": 983750,
       "Stashed": 2500000
     },
     "Bonus": {
@@ -215662,24 +215296,24 @@
       "Dexterity": 21,
       "Vitality": 2,
       "Energy": 3,
-      "FireResistance": 92,
+      "FireResistance": 52,
       "MaximumFireResistance": 0,
-      "ColdResistance": 80,
+      "ColdResistance": 59,
       "MaximumColdResistance": 0,
-      "LightningResistance": 30,
+      "LightningResistance": 55,
       "MaximumLightningResistance": 0,
       "PoisonResistance": 43,
       "MaximumPoisonResistance": 0,
       "MagicFind": 89,
       "GoldFind": 158,
       "FasterCastRate": 45,
-      "FasterHitRecovery": 10,
+      "FasterHitRecovery": 0,
       "IncreasedAttackSpeed": 0,
       "CrushingBlow": 0,
       "OpenWounds": 0,
       "DeadlyStrike": 0,
       "DamageReduction": 10,
-      "CooldownReduction": 10,
+      "CooldownReduction": 0,
       "WeaponSetMain": {
         "Strength": 10,
         "Dexterity": 0,
@@ -215995,40 +215629,6 @@
         "Worn": "belt"
       },
       {
-        "Quality": "Rare",
-        "ID": "1413371280",
-        "QualityCode": "q_rare",
-        "Title": "Blood Blazer",
-        "Tag": "Mirrored Boots",
-        "TextTag": "Mirrored Boots",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "Defense": "68",
-        "Durability": "18",
-        "DurabilityMaximum": "18",
-        "ItemLevel": "91",
-        "LevelReq": 60,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+30% Faster Run/Walk",
-          "+10% Faster Hit Recovery",
-          "Cold Resist +38%",
-          "Fire Resist +40%",
-          "Repairs 1 durability in 20 seconds",
-          "10% Reduced Skill Cooldown"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "boots"
-      },
-      {
         "Quality": "Unique",
         "ID": "2073851745",
         "QualityCode": "q_unique",
@@ -216330,6 +215930,38 @@
           "invwidth": 1
         },
         "Worn": "amulet"
+      },
+      {
+        "Quality": "Set",
+        "ID": "835983537",
+        "QualityCode": "q_set",
+        "Title": "Natalya's Soul",
+        "Tag": "Mesh Boots",
+        "TextTag": "Mesh Boots",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "42",
+        "Durability": "15",
+        "DurabilityMaximum": "16",
+        "ItemLevel": "91",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+40% Faster Run/Walk",
+          "+98 Defense",
+          "Heal Stamina Plus +24% (Based on Character Level)",
+          "Cold Resist +17%",
+          "Lightning Resist +25%"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "boots"
       },
       {
         "Quality": "Normal",
@@ -289406,7 +289038,7 @@
       "BaseMana": 153,
       "Mana": 267,
       "Gold": 0,
-      "Stashed": 1655511
+      "Stashed": 1690511
     },
     "Bonus": {
       "Strength": 101,
@@ -291107,217 +290739,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "420947228",
-        "QualityCode": "q_unique",
-        "Title": "War Traveler",
-        "Tag": "Battle Boots",
-        "TextTag": "Battle Boots",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "48",
-        "Durability": "48",
-        "DurabilityMaximum": "18",
-        "ItemLevel": "91",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+25% Faster Run/Walk",
-          "Adds 15-25 damage",
-          "+168% Enhanced Defense",
-          "+10 to Strength",
-          "+10 to Vitality",
-          "40% Slower Stamina Drain",
-          "Attacker Takes Damage of 6",
-          "36% Better Chance of Getting Magic Items",
-          "10% Reduced Skill Cooldown"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unique",
-        "ID": "813050596",
-        "QualityCode": "q_unique",
-        "Title": "Lidless Wall",
-        "Tag": "Troll Nest",
-        "TextTag": "Troll Nest",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Block": "45",
-        "Defense": "163",
-        "Durability": "53",
-        "DurabilityMaximum": "74",
-        "ItemLevel": "89",
-        "LevelReq": 64,
-        "SocketCount": "3",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+1 to All Skills",
-          "+20% Faster Cast Rate",
-          "+115% Enhanced Defense",
-          "+10 to Energy",
-          "Increase Maximum Mana 10%",
-          "+4 to Mana after each Kill",
-          "+1 to Light Radius",
-          "Socketed (3)"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2792936419",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Balance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "84",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "+12% Faster Hit Recovery"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1112274195",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Balance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "85",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "+12% Faster Hit Recovery"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "3792008400",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Sustenance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "+23 to Life"
-        ],
-        "Position": {
-          "x": 5,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1343578714",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Sustenance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "+22 to Life"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "2169466557",
-        "QualityCode": "q_normal",
-        "Title": "Berserker Axe",
-        "Tag": "Berserker Axe",
-        "TextTag": "Berserker Axe",
-        "Ethereal": "True",
-        "Enhanced": "False",
-        "DamageMinimum": "36",
-        "DamageMaximum": "106",
-        "Durability": "59",
-        "DurabilityMaximum": "59",
-        "ItemLevel": "88",
-        "LevelReq": 64,
-        "SocketCount": "4",
-        "PropertyList": [
-          "Ethereal (Cannot be Repaired), Socketed (4)"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "3269853772",
         "QualityCode": "q_normal",
@@ -291331,164 +290752,11 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 2,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "3066754950",
-        "QualityCode": "q_runeword",
-        "Title": "Plague",
-        "Tag": "Greater Talons",
-        "TextTag": "Greater Talons",
-        "RuneTag": "ChamShaelUm",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "DamageMinimum": "21",
-        "DamageMaximum": "35",
-        "Durability": "215",
-        "DurabilityMaximum": "215",
-        "ItemLevel": "88",
-        "LevelReq": 67,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Cham Rune",
-            "Tag": "Cham Rune",
-            "TextTag": "Cham Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 67,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Freezes target +3"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Shael Rune",
-            "Tag": "Shael Rune",
-            "TextTag": "Shael Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 29,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+20% Increased Attack Speed"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Um Rune",
-            "Tag": "Um Rune",
-            "TextTag": "Um Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 47,
-            "SocketCount": "0",
-            "PropertyList": [
-              "25% Chance of Open Wounds"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "3",
-        "PropertyList": [
-          "20% Chance to cast level 12 Lower Resist when struck",
-          "15% Chance to cast level 17 Poison Nova on striking",
-          "Level 15 Cleansing Aura When Equipped",
-          "+2 to All Skills",
-          "+20% Increased Attack Speed",
-          "+338% Damage to Demons",
-          "-23% to Enemy Poison Resistance",
-          "34% Deadly Strike (Based on Character Level)",
-          "25% Chance of Open Wounds",
-          "+3 to Blade Shield (Assassin Only)",
-          "+2 to Venom (Assassin Only)",
-          "Freezes target +3",
-          "Socketed (3)"
-        ],
-        "Position": {
           "x": 1,
           "y": 0
         },
         "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Craft",
-        "ID": "4274767532",
-        "QualityCode": "q_crafted",
-        "Title": "Skull Scarab",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "90",
-        "LevelReq": 89,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+1 to All Skills",
-          "+2 to Assassin Skill Levels",
-          "+6% Faster Cast Rate",
-          "5% Life stolen per hit",
-          "+37 to Life",
-          "+11 to Mana",
-          "Regenerate Mana 9%",
-          "Fire Resist +8%"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
+          "invheight": 2,
           "invwidth": 1
         },
         "Worn": ""
