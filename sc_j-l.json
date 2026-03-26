@@ -119830,16 +119830,16 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 93,
-      "Experience": 2098526019,
+      "Experience": 2099221371,
       "Strength": 69,
       "Dexterity": 40,
       "Vitality": 331,
       "Energy": 105,
       "BaseLife": 880,
-      "Life": 1117,
+      "Life": 630,
       "BaseMana": 359,
-      "Mana": 505,
-      "Gold": 303002,
+      "Mana": 35,
+      "Gold": 343175,
       "Stashed": 1587482
     },
     "Bonus": {
@@ -120147,7 +120147,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "63",
-        "Durability": "11",
+        "Durability": "10",
         "DurabilityMaximum": "12",
         "ItemLevel": "88",
         "LevelReq": 80,
@@ -121417,29 +121417,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Full Rejuvenation Potion",
-        "Tag": "Full Rejuvenation Potion",
-        "TextTag": "Full Rejuv Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Rare",
         "ID": "1214606945",
         "QualityCode": "q_rare",
@@ -121758,15 +121735,22 @@
         "Quality": "Rare",
         "ID": "3295914170",
         "QualityCode": "q_rare",
-        "Title": "Ring",
+        "Title": "Raven Touch",
         "Tag": "Ring",
         "TextTag": "ring",
         "Ethereal": "False",
+        "Enhanced": "False",
         "AlternateGraphics": "2",
         "ItemLevel": "88",
         "LevelReq": 46,
+        "SocketCount": "0",
         "PropertyList": [
-          "\u00ffc1Unidentified"
+          "+1 to Maximum Damage",
+          "+88 to Attack Rating",
+          "5% Mana stolen per hit",
+          "+7 to Mana",
+          "Physical Damage Taken Reduced by 2",
+          "9% Better Chance of Getting Magic Items"
         ],
         "Position": {
           "x": 6,
@@ -121779,41 +121763,20 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Healing Potion",
-        "Tag": "Super Healing Potion",
-        "TextTag": "Greater Healing Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 6,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Magic",
         "ID": "2004084394",
         "QualityCode": "q_magic",
-        "Title": "Amulet",
+        "Title": "Amulet of Perfection",
         "Tag": "Amulet",
         "TextTag": "amulet",
         "Ethereal": "False",
+        "Enhanced": "False",
         "AlternateGraphics": "1",
         "ItemLevel": "85",
         "LevelReq": 51,
+        "SocketCount": "0",
         "PropertyList": [
-          "\u00ffc1Unidentified"
+          "+17 to Dexterity"
         ],
         "Position": {
           "x": 6,
@@ -121829,15 +121792,17 @@
         "Quality": "Magic",
         "ID": "1269281626",
         "QualityCode": "q_magic",
-        "Title": "Amulet",
+        "Title": "Amulet of Accuracy",
         "Tag": "Amulet",
         "TextTag": "amulet",
         "Ethereal": "False",
+        "Enhanced": "False",
         "AlternateGraphics": "1",
         "ItemLevel": "88",
         "LevelReq": 20,
+        "SocketCount": "0",
         "PropertyList": [
-          "\u00ffc1Unidentified"
+          "+8 to Dexterity"
         ],
         "Position": {
           "x": 5,
@@ -121865,6 +121830,104 @@
         "Position": {
           "x": 5,
           "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Shael Rune",
+        "Tag": "Shael Rune",
+        "TextTag": "Shael Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 29,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 5,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1199955008",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "90",
+        "LevelReq": 37,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3348818308",
+        "QualityCode": "q_unique",
+        "Title": "Hatchet",
+        "Tag": "Hatchet",
+        "TextTag": "Hatchet",
+        "Ethereal": "True",
+        "DamageMinimum": "41",
+        "DamageMaximum": "84",
+        "Durability": "64",
+        "DurabilityMaximum": "64",
+        "ItemLevel": "90",
+        "LevelReq": 36,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "3080539270",
+        "QualityCode": "q_rare",
+        "Title": "Ring",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "AlternateGraphics": "4",
+        "ItemLevel": "90",
+        "LevelReq": 66,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 1
         },
         "Size": {
           "invheight": 1,
