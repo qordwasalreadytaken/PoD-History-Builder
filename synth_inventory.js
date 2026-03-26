@@ -9189,5 +9189,35 @@ const synthInventory = [
     "seen_date": "2026-03-23",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Stormspike%2C0%2Cnone%2ClDamage_min%3A1%2ClDamage_max%3A120%2Cenemy_fRes%3A-25%2CfRes%3A40%2Cthorns_lightning%3A20%2Ccskill%3A%5B15%2C+%27Enflame%27%2C+8%5D"
+  },
+  {
+    "id": "11c59bd97a87740d15f388055cf6091f5f538df8b3375af78c2e765dc9f5ccb5",
+    "friendly_id": 158,
+    "owner": "fckissin",
+    "base_type": "Synthesized Stiletto",
+    "title": "Stormspike",
+    "properties": [
+      "Adds 1-120 Lightning damage",
+      "-25% to Enemy Fire Resistance",
+      "Lightning Resist 93% (Based on Character Level)",
+      "Fire Resist +40%",
+      "Attacker Takes Lightning Damage of 20",
+      "+1 to maximum Lightning Damage per Dexterity",
+      "Level 15 Enflame (7/45 Charges)"
+    ],
+    "synthesised_from": [
+      "Todesfaelle Flamme"
+    ],
+    "location": "Equipped",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "19",
+    "DamageMaximum": "36",
+    "LevelReq": 41,
+    "SocketCount": "0",
+    "seen_date": "2026-03-26",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Stormspike%2C0%2Cnone%2ClDamage_min%3A1%2ClDamage_max%3A120%2Cenemy_fRes%3A-25%2CfRes%3A40%2Cthorns_lightning%3A20%2Ccskill%3A%5B15%2C+%27Enflame%27%2C+7%5D"
   }
 ];
