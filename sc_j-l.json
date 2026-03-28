@@ -31152,18 +31152,18 @@
     "IsDead": true,
     "Class": "Necromancer",
     "Stats": {
-      "Level": 95,
-      "Experience": 2702658974,
+      "Level": 96,
+      "Experience": 2723507360,
       "Strength": 89,
       "Dexterity": 81,
-      "Vitality": 370,
+      "Vitality": 375,
       "Energy": 25,
-      "BaseLife": 1003,
-      "Life": 1245,
-      "BaseMana": 213,
-      "Mana": 783,
-      "Gold": 20232,
-      "Stashed": 218127
+      "BaseLife": 1015,
+      "Life": 1257,
+      "BaseMana": 215,
+      "Mana": 787,
+      "Gold": 65396,
+      "Stashed": 112638
     },
     "Bonus": {
       "Strength": 67,
@@ -31240,11 +31240,16 @@
     "SkillTabs": [
       {
         "Name": "Curses",
-        "Total": 2,
+        "Total": 3,
         "Skills": [
           {
             "ID": 6,
             "Name": "Dim Vision",
+            "Level": 1
+          },
+          {
+            "ID": 22,
+            "Name": "Decrepify",
             "Level": 1
           },
           {
@@ -31337,10 +31342,10 @@
         ]
       }
     ],
-    "MercenaryExperience": 121297260,
+    "MercenaryExperience": 125153632,
     "MercenaryType": "Barbarian",
     "MercenaryName": "Alaric",
-    "MercenaryLevel": "48",
+    "MercenaryLevel": "49",
     "Equipped": [
       {
         "Quality": "Unique",
@@ -31352,7 +31357,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "12",
-        "Durability": "18",
+        "Durability": "17",
         "DurabilityMaximum": "18",
         "ItemLevel": "91",
         "LevelReq": 23,
@@ -31387,7 +31392,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "68",
-        "Durability": "16",
+        "Durability": "15",
         "DurabilityMaximum": "16",
         "ItemLevel": "88",
         "LevelReq": 66,
@@ -31455,7 +31460,7 @@
         "Ethereal": "False",
         "Enhanced": "False",
         "Defense": "230",
-        "Durability": "59",
+        "Durability": "57",
         "DurabilityMaximum": "60",
         "ItemLevel": "87",
         "LevelReq": 47,
@@ -31595,7 +31600,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "63",
-        "Durability": "12",
+        "Durability": "11",
         "DurabilityMaximum": "12",
         "ItemLevel": "90",
         "LevelReq": 80,
@@ -31798,7 +31803,7 @@
         "Ethereal": "False",
         "Enhanced": "False",
         "Defense": "42",
-        "Durability": "24",
+        "Durability": "23",
         "DurabilityMaximum": "25",
         "ItemLevel": "99",
         "LevelReq": 77,
@@ -32694,21 +32699,26 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Rejuvenation Potion",
-        "Tag": "Rejuvenation Potion",
-        "TextTag": "Rejuv Potion",
+        "Quality": "Magic",
+        "ID": "1206914333",
+        "QualityCode": "q_magic",
+        "Title": "Fine Small Charm of Dexterity",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
+        "AlternateGraphics": "1",
+        "ItemLevel": "91",
+        "LevelReq": 21,
         "SocketCount": "0",
-        "PropertyList": [],
+        "PropertyList": [
+          "+3 to Maximum Damage",
+          "+17 to Attack Rating",
+          "+1 to Dexterity"
+        ],
         "Position": {
           "x": 9,
-          "y": 2
+          "y": 3
         },
         "Size": {
           "invheight": 1,
@@ -33032,7 +33042,7 @@
           "+1 to All Skills",
           "+349% Damage to Demons",
           "-23% to Enemy Poison Resistance",
-          "35% Deadly Strike (Based on Character Level)",
+          "36% Deadly Strike (Based on Character Level)",
           "25% Chance of Open Wounds",
           "Freezes target +3",
           "+10 to Strength",
@@ -49307,7 +49317,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 95,
-      "Experience": 2543090596,
+      "Experience": 2545391999,
       "Strength": 37,
       "Dexterity": 91,
       "Vitality": 372,
@@ -49315,28 +49325,28 @@
       "BaseLife": 1401,
       "Life": 1808,
       "BaseMana": 156,
-      "Mana": 266,
-      "Gold": 21945,
+      "Mana": 235,
+      "Gold": 453079,
       "Stashed": 1413084
     },
     "Bonus": {
       "Strength": 104,
-      "Dexterity": 30,
+      "Dexterity": 31,
       "Vitality": 0,
       "Energy": 0,
-      "FireResistance": 150,
+      "FireResistance": 167,
       "MaximumFireResistance": 0,
-      "ColdResistance": 117,
+      "ColdResistance": 82,
       "MaximumColdResistance": 0,
-      "LightningResistance": 112,
+      "LightningResistance": 107,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 95,
+      "PoisonResistance": 90,
       "MaximumPoisonResistance": 0,
       "MagicFind": 153,
       "GoldFind": 170,
-      "FasterCastRate": 58,
-      "FasterHitRecovery": 66,
-      "IncreasedAttackSpeed": 0,
+      "FasterCastRate": 63,
+      "FasterHitRecovery": 46,
+      "IncreasedAttackSpeed": 20,
       "CrushingBlow": 0,
       "OpenWounds": 0,
       "DeadlyStrike": 0,
@@ -49937,64 +49947,28 @@
         "Worn": "ring1"
       },
       {
-        "Quality": "Unique",
-        "ID": "2932885845",
-        "QualityCode": "q_unique",
-        "Title": "Valkyrie Wing",
-        "Tag": "Winged Helm",
-        "TextTag": "Winged Helm",
+        "Quality": "Rare",
+        "ID": "1508651474",
+        "QualityCode": "q_rare",
+        "Title": "Grim Clutches",
+        "Tag": "Bramble Mitts",
+        "TextTag": "Bramble Mitts",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "99",
-        "Durability": "40",
-        "DurabilityMaximum": "40",
-        "ItemLevel": "87",
-        "LevelReq": 44,
-        "SocketCount": "3",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+2 to Amazon Skill Levels",
-          "+20% Faster Run/Walk",
-          "+20% Faster Hit Recovery",
-          "+177% Enhanced Defense",
-          "+2 to Mana after each Kill",
-          "Socketed (3)"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "helmet"
-      },
-      {
-        "Quality": "Set",
-        "ID": "3688085344",
-        "QualityCode": "q_set",
-        "Title": "Trang-Oul's Claws",
-        "Tag": "Heavy Bracers",
-        "TextTag": "Heavy Bracers",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "44",
-        "Durability": "16",
-        "DurabilityMaximum": "16",
-        "ItemLevel": "91",
-        "LevelReq": 45,
+        "Enhanced": "False",
+        "Defense": "56",
+        "Durability": "11",
+        "DurabilityMaximum": "12",
+        "ItemLevel": "71",
+        "LevelReq": 42,
         "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "+2 to Curses (Necromancer Only)",
-          "+20% Faster Cast Rate",
-          "+25% Increased Poison Damage",
-          "+30 Defense",
-          "Cold Resist +35%",
-          "Lightning Resist +5%",
-          "Fire Resist +5%",
-          "Poison Resist +5%"
+          "5% Chance to cast level 3 Frost Nova when struck",
+          "+2 to Javelin and Spear Skills (Amazon Only)",
+          "+20% Increased Attack Speed",
+          "+10 to Attack Rating",
+          "+1 to Dexterity",
+          "Fire Resist +22%"
         ],
         "Position": {
           "x": 10,
@@ -50005,6 +49979,38 @@
           "invwidth": 2
         },
         "Worn": "gloves"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "510940285",
+        "QualityCode": "q_unique",
+        "Title": "Griffon's Eye",
+        "Tag": "Diadem",
+        "TextTag": "Diadem",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "59",
+        "Durability": "20",
+        "DurabilityMaximum": "20",
+        "ItemLevel": "90",
+        "LevelReq": 76,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to All Skills",
+          "+25% Faster Cast Rate",
+          "-20% to Enemy Lightning Resistance",
+          "+15% Increased Lightning Damage",
+          "+145 Defense"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "helmet"
       },
       {
         "Quality": "Unique",
@@ -50019,7 +50025,7 @@
         "DamageMaximum": "99",
         "ThrowDamageMinimum": "64",
         "ThrowDamageMaximum": "121",
-        "Durability": "74",
+        "Durability": "67",
         "DurabilityMaximum": "100",
         "ItemLevel": "88",
         "LevelReq": 69,
@@ -50831,72 +50837,6 @@
       },
       {
         "Quality": "Unique",
-        "ID": "510940285",
-        "QualityCode": "q_unique",
-        "Title": "Griffon's Eye",
-        "Tag": "Diadem",
-        "TextTag": "Diadem",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "59",
-        "Durability": "20",
-        "DurabilityMaximum": "20",
-        "ItemLevel": "90",
-        "LevelReq": 76,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to All Skills",
-          "+25% Faster Cast Rate",
-          "-20% to Enemy Lightning Resistance",
-          "+15% Increased Lightning Damage",
-          "+145 Defense"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
-        "ID": "1508651474",
-        "QualityCode": "q_rare",
-        "Title": "Grim Clutches",
-        "Tag": "Bramble Mitts",
-        "TextTag": "Bramble Mitts",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "Defense": "56",
-        "Durability": "11",
-        "DurabilityMaximum": "12",
-        "ItemLevel": "71",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "5% Chance to cast level 3 Frost Nova when struck",
-          "+2 to Javelin and Spear Skills (Amazon Only)",
-          "+20% Increased Attack Speed",
-          "+10 to Attack Rating",
-          "+1 to Dexterity",
-          "Fire Resist +22%"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unique",
         "ID": "1158395909",
         "QualityCode": "q_unique",
         "Title": "Hellfire Torch",
@@ -50920,6 +50860,294 @@
         },
         "Size": {
           "invheight": 2,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Set",
+        "ID": "3688085344",
+        "QualityCode": "q_set",
+        "Title": "Trang-Oul's Claws",
+        "Tag": "Heavy Bracers",
+        "TextTag": "Heavy Bracers",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "44",
+        "Durability": "16",
+        "DurabilityMaximum": "16",
+        "ItemLevel": "91",
+        "LevelReq": 45,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+2 to Curses (Necromancer Only)",
+          "+20% Faster Cast Rate",
+          "+25% Increased Poison Damage",
+          "+30 Defense",
+          "Cold Resist +35%",
+          "Lightning Resist +5%",
+          "Fire Resist +5%",
+          "Poison Resist +5%"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2932885845",
+        "QualityCode": "q_unique",
+        "Title": "Valkyrie Wing",
+        "Tag": "Winged Helm",
+        "TextTag": "Winged Helm",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "99",
+        "Durability": "40",
+        "DurabilityMaximum": "40",
+        "ItemLevel": "87",
+        "LevelReq": 44,
+        "SocketCount": "3",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+2 to Amazon Skill Levels",
+          "+20% Faster Run/Walk",
+          "+20% Faster Hit Recovery",
+          "+177% Enhanced Defense",
+          "+2 to Mana after each Kill",
+          "Socketed (3)"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "2505670329",
+        "QualityCode": "q_normal",
+        "Title": "Mage Plate",
+        "Tag": "Mage Plate",
+        "TextTag": "Mage Plate",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "Defense": "232",
+        "Durability": "53",
+        "DurabilityMaximum": "60",
+        "ItemLevel": "88",
+        "LevelReq": 25,
+        "SocketCount": "2",
+        "PropertyList": [
+          "Socketed (2)"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "\u00ffc;Orb of Corruption",
+        "Tag": "\u00ffc;Orb of Corruption",
+        "TextTag": "Orb of Corruption",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 1,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1309264535",
+        "QualityCode": "q_rare",
+        "Title": "Icy Cavern Relic",
+        "Tag": "Icy Cavern Relic",
+        "TextTag": "Icy Cavern Relic",
+        "Ethereal": "False",
+        "ItemLevel": "88",
+        "LevelReq": 80,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "3935899371",
+        "QualityCode": "q_normal",
+        "Title": "\u00ffc;Orb of Alteration",
+        "Tag": "\u00ffc;Orb of Alteration",
+        "TextTag": "Map Orb",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "95",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "3154789171",
+        "QualityCode": "q_rare",
+        "Title": "Dim Cellar Relic",
+        "Tag": "Dim Cellar Relic",
+        "TextTag": "Dim Cellar Relic",
+        "Ethereal": "False",
+        "ItemLevel": "95",
+        "LevelReq": 80,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2205031046",
+        "QualityCode": "q_unique",
+        "Title": "Ward",
+        "Tag": "Ward",
+        "TextTag": "Ward",
+        "Ethereal": "False",
+        "Block": "72",
+        "Defense": "171",
+        "Durability": "68",
+        "DurabilityMaximum": "100",
+        "ItemLevel": "88",
+        "LevelReq": 68,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 4,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "3929615491",
+        "QualityCode": "q_rare",
+        "Title": "Forgotten Desert Relic",
+        "Tag": "Forgotten Desert Relic",
+        "TextTag": "Forgotten Desert Relic",
+        "Ethereal": "False",
+        "ItemLevel": "88",
+        "LevelReq": 80,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "832703509",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 18,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "133504257",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 21,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -144162,7 +144390,7 @@
       "Vitality": 366,
       "Energy": 73,
       "BaseLife": 1353,
-      "Life": 1794,
+      "Life": 1810,
       "BaseMana": 243,
       "Mana": 392,
       "Gold": 392475,
@@ -305176,18 +305404,18 @@
     "IsDead": true,
     "Class": "Necromancer",
     "Stats": {
-      "Level": 95,
-      "Experience": 2702658974,
+      "Level": 96,
+      "Experience": 2723507360,
       "Strength": 89,
       "Dexterity": 81,
-      "Vitality": 370,
+      "Vitality": 375,
       "Energy": 25,
-      "BaseLife": 1003,
-      "Life": 1245,
-      "BaseMana": 213,
-      "Mana": 783,
-      "Gold": 20232,
-      "Stashed": 218127
+      "BaseLife": 1015,
+      "Life": 1257,
+      "BaseMana": 215,
+      "Mana": 787,
+      "Gold": 65396,
+      "Stashed": 112638
     },
     "Bonus": {
       "Strength": 67,
@@ -305264,11 +305492,16 @@
     "SkillTabs": [
       {
         "Name": "Curses",
-        "Total": 2,
+        "Total": 3,
         "Skills": [
           {
             "ID": 6,
             "Name": "Dim Vision",
+            "Level": 1
+          },
+          {
+            "ID": 22,
+            "Name": "Decrepify",
             "Level": 1
           },
           {
@@ -305361,10 +305594,10 @@
         ]
       }
     ],
-    "MercenaryExperience": 121297260,
+    "MercenaryExperience": 125153632,
     "MercenaryType": "Barbarian",
     "MercenaryName": "Alaric",
-    "MercenaryLevel": "48",
+    "MercenaryLevel": "49",
     "Equipped": [
       {
         "Quality": "Unique",
@@ -305376,7 +305609,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "12",
-        "Durability": "18",
+        "Durability": "17",
         "DurabilityMaximum": "18",
         "ItemLevel": "91",
         "LevelReq": 23,
@@ -305411,7 +305644,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "68",
-        "Durability": "16",
+        "Durability": "15",
         "DurabilityMaximum": "16",
         "ItemLevel": "88",
         "LevelReq": 66,
@@ -305479,7 +305712,7 @@
         "Ethereal": "False",
         "Enhanced": "False",
         "Defense": "230",
-        "Durability": "59",
+        "Durability": "57",
         "DurabilityMaximum": "60",
         "ItemLevel": "87",
         "LevelReq": 47,
@@ -305619,7 +305852,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "63",
-        "Durability": "12",
+        "Durability": "11",
         "DurabilityMaximum": "12",
         "ItemLevel": "90",
         "LevelReq": 80,
@@ -305822,7 +306055,7 @@
         "Ethereal": "False",
         "Enhanced": "False",
         "Defense": "42",
-        "Durability": "24",
+        "Durability": "23",
         "DurabilityMaximum": "25",
         "ItemLevel": "99",
         "LevelReq": 77,
@@ -306718,21 +306951,26 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Rejuvenation Potion",
-        "Tag": "Rejuvenation Potion",
-        "TextTag": "Rejuv Potion",
+        "Quality": "Magic",
+        "ID": "1206914333",
+        "QualityCode": "q_magic",
+        "Title": "Fine Small Charm of Dexterity",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
+        "AlternateGraphics": "1",
+        "ItemLevel": "91",
+        "LevelReq": 21,
         "SocketCount": "0",
-        "PropertyList": [],
+        "PropertyList": [
+          "+3 to Maximum Damage",
+          "+17 to Attack Rating",
+          "+1 to Dexterity"
+        ],
         "Position": {
           "x": 9,
-          "y": 2
+          "y": 3
         },
         "Size": {
           "invheight": 1,
@@ -307056,7 +307294,7 @@
           "+1 to All Skills",
           "+349% Damage to Demons",
           "-23% to Enemy Poison Resistance",
-          "35% Deadly Strike (Based on Character Level)",
+          "36% Deadly Strike (Based on Character Level)",
           "25% Chance of Open Wounds",
           "Freezes target +3",
           "+10 to Strength",
@@ -322175,7 +322413,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 95,
-      "Experience": 2543090596,
+      "Experience": 2545391999,
       "Strength": 37,
       "Dexterity": 91,
       "Vitality": 372,
@@ -322183,28 +322421,28 @@
       "BaseLife": 1401,
       "Life": 1808,
       "BaseMana": 156,
-      "Mana": 266,
-      "Gold": 21945,
+      "Mana": 235,
+      "Gold": 453079,
       "Stashed": 1413084
     },
     "Bonus": {
       "Strength": 104,
-      "Dexterity": 30,
+      "Dexterity": 31,
       "Vitality": 0,
       "Energy": 0,
-      "FireResistance": 150,
+      "FireResistance": 167,
       "MaximumFireResistance": 0,
-      "ColdResistance": 117,
+      "ColdResistance": 82,
       "MaximumColdResistance": 0,
-      "LightningResistance": 112,
+      "LightningResistance": 107,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 95,
+      "PoisonResistance": 90,
       "MaximumPoisonResistance": 0,
       "MagicFind": 153,
       "GoldFind": 170,
-      "FasterCastRate": 58,
-      "FasterHitRecovery": 66,
-      "IncreasedAttackSpeed": 0,
+      "FasterCastRate": 63,
+      "FasterHitRecovery": 46,
+      "IncreasedAttackSpeed": 20,
       "CrushingBlow": 0,
       "OpenWounds": 0,
       "DeadlyStrike": 0,
@@ -322805,64 +323043,28 @@
         "Worn": "ring1"
       },
       {
-        "Quality": "Unique",
-        "ID": "2932885845",
-        "QualityCode": "q_unique",
-        "Title": "Valkyrie Wing",
-        "Tag": "Winged Helm",
-        "TextTag": "Winged Helm",
+        "Quality": "Rare",
+        "ID": "1508651474",
+        "QualityCode": "q_rare",
+        "Title": "Grim Clutches",
+        "Tag": "Bramble Mitts",
+        "TextTag": "Bramble Mitts",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "99",
-        "Durability": "40",
-        "DurabilityMaximum": "40",
-        "ItemLevel": "87",
-        "LevelReq": 44,
-        "SocketCount": "3",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+2 to Amazon Skill Levels",
-          "+20% Faster Run/Walk",
-          "+20% Faster Hit Recovery",
-          "+177% Enhanced Defense",
-          "+2 to Mana after each Kill",
-          "Socketed (3)"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "helmet"
-      },
-      {
-        "Quality": "Set",
-        "ID": "3688085344",
-        "QualityCode": "q_set",
-        "Title": "Trang-Oul's Claws",
-        "Tag": "Heavy Bracers",
-        "TextTag": "Heavy Bracers",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "44",
-        "Durability": "16",
-        "DurabilityMaximum": "16",
-        "ItemLevel": "91",
-        "LevelReq": 45,
+        "Enhanced": "False",
+        "Defense": "56",
+        "Durability": "11",
+        "DurabilityMaximum": "12",
+        "ItemLevel": "71",
+        "LevelReq": 42,
         "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "+2 to Curses (Necromancer Only)",
-          "+20% Faster Cast Rate",
-          "+25% Increased Poison Damage",
-          "+30 Defense",
-          "Cold Resist +35%",
-          "Lightning Resist +5%",
-          "Fire Resist +5%",
-          "Poison Resist +5%"
+          "5% Chance to cast level 3 Frost Nova when struck",
+          "+2 to Javelin and Spear Skills (Amazon Only)",
+          "+20% Increased Attack Speed",
+          "+10 to Attack Rating",
+          "+1 to Dexterity",
+          "Fire Resist +22%"
         ],
         "Position": {
           "x": 10,
@@ -322873,6 +323075,38 @@
           "invwidth": 2
         },
         "Worn": "gloves"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "510940285",
+        "QualityCode": "q_unique",
+        "Title": "Griffon's Eye",
+        "Tag": "Diadem",
+        "TextTag": "Diadem",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "59",
+        "Durability": "20",
+        "DurabilityMaximum": "20",
+        "ItemLevel": "90",
+        "LevelReq": 76,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to All Skills",
+          "+25% Faster Cast Rate",
+          "-20% to Enemy Lightning Resistance",
+          "+15% Increased Lightning Damage",
+          "+145 Defense"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "helmet"
       },
       {
         "Quality": "Unique",
@@ -322887,7 +323121,7 @@
         "DamageMaximum": "99",
         "ThrowDamageMinimum": "64",
         "ThrowDamageMaximum": "121",
-        "Durability": "74",
+        "Durability": "67",
         "DurabilityMaximum": "100",
         "ItemLevel": "88",
         "LevelReq": 69,
@@ -323699,72 +323933,6 @@
       },
       {
         "Quality": "Unique",
-        "ID": "510940285",
-        "QualityCode": "q_unique",
-        "Title": "Griffon's Eye",
-        "Tag": "Diadem",
-        "TextTag": "Diadem",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "59",
-        "Durability": "20",
-        "DurabilityMaximum": "20",
-        "ItemLevel": "90",
-        "LevelReq": 76,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to All Skills",
-          "+25% Faster Cast Rate",
-          "-20% to Enemy Lightning Resistance",
-          "+15% Increased Lightning Damage",
-          "+145 Defense"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
-        "ID": "1508651474",
-        "QualityCode": "q_rare",
-        "Title": "Grim Clutches",
-        "Tag": "Bramble Mitts",
-        "TextTag": "Bramble Mitts",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "Defense": "56",
-        "Durability": "11",
-        "DurabilityMaximum": "12",
-        "ItemLevel": "71",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "5% Chance to cast level 3 Frost Nova when struck",
-          "+2 to Javelin and Spear Skills (Amazon Only)",
-          "+20% Increased Attack Speed",
-          "+10 to Attack Rating",
-          "+1 to Dexterity",
-          "Fire Resist +22%"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unique",
         "ID": "1158395909",
         "QualityCode": "q_unique",
         "Title": "Hellfire Torch",
@@ -323788,6 +323956,294 @@
         },
         "Size": {
           "invheight": 2,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Set",
+        "ID": "3688085344",
+        "QualityCode": "q_set",
+        "Title": "Trang-Oul's Claws",
+        "Tag": "Heavy Bracers",
+        "TextTag": "Heavy Bracers",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "44",
+        "Durability": "16",
+        "DurabilityMaximum": "16",
+        "ItemLevel": "91",
+        "LevelReq": 45,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+2 to Curses (Necromancer Only)",
+          "+20% Faster Cast Rate",
+          "+25% Increased Poison Damage",
+          "+30 Defense",
+          "Cold Resist +35%",
+          "Lightning Resist +5%",
+          "Fire Resist +5%",
+          "Poison Resist +5%"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2932885845",
+        "QualityCode": "q_unique",
+        "Title": "Valkyrie Wing",
+        "Tag": "Winged Helm",
+        "TextTag": "Winged Helm",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "99",
+        "Durability": "40",
+        "DurabilityMaximum": "40",
+        "ItemLevel": "87",
+        "LevelReq": 44,
+        "SocketCount": "3",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+2 to Amazon Skill Levels",
+          "+20% Faster Run/Walk",
+          "+20% Faster Hit Recovery",
+          "+177% Enhanced Defense",
+          "+2 to Mana after each Kill",
+          "Socketed (3)"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "2505670329",
+        "QualityCode": "q_normal",
+        "Title": "Mage Plate",
+        "Tag": "Mage Plate",
+        "TextTag": "Mage Plate",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "Defense": "232",
+        "Durability": "53",
+        "DurabilityMaximum": "60",
+        "ItemLevel": "88",
+        "LevelReq": 25,
+        "SocketCount": "2",
+        "PropertyList": [
+          "Socketed (2)"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "\u00ffc;Orb of Corruption",
+        "Tag": "\u00ffc;Orb of Corruption",
+        "TextTag": "Orb of Corruption",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 1,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1309264535",
+        "QualityCode": "q_rare",
+        "Title": "Icy Cavern Relic",
+        "Tag": "Icy Cavern Relic",
+        "TextTag": "Icy Cavern Relic",
+        "Ethereal": "False",
+        "ItemLevel": "88",
+        "LevelReq": 80,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "3935899371",
+        "QualityCode": "q_normal",
+        "Title": "\u00ffc;Orb of Alteration",
+        "Tag": "\u00ffc;Orb of Alteration",
+        "TextTag": "Map Orb",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "95",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "3154789171",
+        "QualityCode": "q_rare",
+        "Title": "Dim Cellar Relic",
+        "Tag": "Dim Cellar Relic",
+        "TextTag": "Dim Cellar Relic",
+        "Ethereal": "False",
+        "ItemLevel": "95",
+        "LevelReq": 80,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2205031046",
+        "QualityCode": "q_unique",
+        "Title": "Ward",
+        "Tag": "Ward",
+        "TextTag": "Ward",
+        "Ethereal": "False",
+        "Block": "72",
+        "Defense": "171",
+        "Durability": "68",
+        "DurabilityMaximum": "100",
+        "ItemLevel": "88",
+        "LevelReq": 68,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 4,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "3929615491",
+        "QualityCode": "q_rare",
+        "Title": "Forgotten Desert Relic",
+        "Tag": "Forgotten Desert Relic",
+        "TextTag": "Forgotten Desert Relic",
+        "Ethereal": "False",
+        "ItemLevel": "88",
+        "LevelReq": 80,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "832703509",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 18,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "133504257",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 21,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -386211,7 +386667,7 @@
       "Vitality": 366,
       "Energy": 73,
       "BaseLife": 1353,
-      "Life": 1794,
+      "Life": 1810,
       "BaseMana": 243,
       "Mana": 392,
       "Gold": 392475,
