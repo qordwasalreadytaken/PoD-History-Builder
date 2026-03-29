@@ -114995,17 +114995,17 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 97,
-      "Experience": 2962917789,
-      "Strength": 105,
-      "Dexterity": 330,
-      "Vitality": 125,
+      "Experience": 2964237166,
+      "Strength": 60,
+      "Dexterity": 370,
+      "Vitality": 130,
       "Energy": 15,
-      "BaseLife": 665,
-      "Life": 821,
+      "BaseLife": 680,
+      "Life": 836,
       "BaseMana": 159,
       "Mana": 264,
-      "Gold": 84800,
-      "Stashed": 1427525
+      "Gold": 0,
+      "Stashed": 58822
     },
     "Bonus": {
       "Strength": 46,
@@ -115056,22 +115056,22 @@
       },
       "WeaponSetOffhand": {
         "Strength": 0,
-        "Dexterity": 10,
+        "Dexterity": 42,
         "Vitality": 0,
         "Energy": 0,
-        "FireResistance": 15,
+        "FireResistance": 11,
         "MaximumFireResistance": 0,
-        "ColdResistance": 23,
+        "ColdResistance": 11,
         "MaximumColdResistance": 0,
-        "LightningResistance": 15,
+        "LightningResistance": 11,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 15,
+        "PoisonResistance": 11,
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 9,
+        "IncreasedAttackSpeed": 40,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
@@ -115082,17 +115082,12 @@
     "SkillTabs": [
       {
         "Name": "Bow and Crossbow Skills",
-        "Total": 101,
+        "Total": 80,
         "Skills": [
           {
             "ID": 1,
             "Name": "Magic Arrow",
-            "Level": 1
-          },
-          {
-            "ID": 2,
-            "Name": "Fire Arrow",
-            "Level": 16
+            "Level": 20
           },
           {
             "ID": 6,
@@ -115100,33 +115095,8 @@
             "Level": 20
           },
           {
-            "ID": 7,
-            "Name": "Multiple Shot",
-            "Level": 1
-          },
-          {
-            "ID": 11,
-            "Name": "Exploding Arrow",
-            "Level": 1
-          },
-          {
             "ID": 16,
             "Name": "Ice Arrow",
-            "Level": 20
-          },
-          {
-            "ID": 17,
-            "Name": "Guided Arrow",
-            "Level": 1
-          },
-          {
-            "ID": 21,
-            "Name": "Strafe",
-            "Level": 1
-          },
-          {
-            "ID": 22,
-            "Name": "Immolation Arrow",
             "Level": 20
           },
           {
@@ -115138,8 +115108,13 @@
       },
       {
         "Name": "Passive and Magic Skills",
-        "Total": 6,
+        "Total": 8,
         "Skills": [
+          {
+            "ID": 3,
+            "Name": "Inner Sight",
+            "Level": 1
+          },
           {
             "ID": 4,
             "Name": "Lethal Strike",
@@ -115148,6 +115123,11 @@
           {
             "ID": 8,
             "Name": "Dodge",
+            "Level": 1
+          },
+          {
+            "ID": 12,
+            "Name": "Phase Run",
             "Level": 1
           },
           {
@@ -115178,10 +115158,10 @@
         "Skills": []
       }
     ],
-    "MercenaryExperience": 99868441,
+    "MercenaryExperience": 101439485,
     "MercenaryType": "Desert Mercenary",
     "MercenaryName": "Kasim",
-    "MercenaryLevel": "93",
+    "MercenaryLevel": "94",
     "Equipped": [
       {
         "Quality": "Set",
@@ -115635,140 +115615,27 @@
         "Worn": "boots"
       },
       {
-        "Quality": "Normal",
-        "ID": "1710677423",
-        "QualityCode": "q_runeword",
-        "Title": "Harmony",
-        "Tag": "Matriarchal Bow",
-        "TextTag": "Matriarchal Bow",
-        "RuneTag": "TirIthSolKo",
+        "Quality": "Set",
+        "ID": "3395268724",
+        "QualityCode": "q_set",
+        "Title": "M'avina's Caster",
+        "Tag": "Grand Matron Bow",
+        "TextTag": "Grand Matron Bow",
         "Ethereal": "False",
         "Enhanced": "True",
-        "DamageMinimum": "80",
-        "DamageMaximum": "177",
-        "ThrowDamageMinimum": "9",
-        "ThrowDamageMaximum": "9",
-        "ItemLevel": "86",
-        "LevelReq": 39,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Tir Rune",
-            "Tag": "Tir Rune",
-            "TextTag": "Tir Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 13,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+2 to Mana after each Kill"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Ith Rune",
-            "Tag": "Ith Rune",
-            "TextTag": "Ith Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 15,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+9 to Maximum Damage"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Sol Rune",
-            "Tag": "Sol Rune",
-            "TextTag": "Sol Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 27,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+9 to Minimum Damage"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Ko Rune",
-            "Tag": "Ko Rune",
-            "TextTag": "Ko Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 39,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+10 to Dexterity"
-            ],
-            "Position": {
-              "x": 3,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "4",
+        "DamageMinimum": "40",
+        "DamageMaximum": "207",
+        "ItemLevel": "87",
+        "LevelReq": 70,
+        "SocketCount": "0",
         "PropertyList": [
-          "Level 10 Vigor Aura When Equipped",
-          "+3 to Bow and Crossbow Skills (Amazon Only)",
-          "+259% Enhanced Damage",
-          "+9 to Minimum Damage",
-          "+9 to Maximum Damage",
-          "Adds 55-160 Fire damage",
-          "Adds 55-160 Lightning damage",
-          "Adds 55-160 cold damage",
-          "+6 to Valkyrie",
-          "+10 to Dexterity",
-          "Regenerate Mana 20%",
-          "+2 to Mana after each Kill",
-          "+2 to Light Radius",
-          "Level 20 Revive (25/25 Charges)",
-          "Socketed (4)"
+          "\u00ffc1Corrupted",
+          "+1 to All Skills",
+          "+40% Increased Attack Speed",
+          "Fires Magic Arrows",
+          "+188% Enhanced Damage",
+          "+97 to Maximum Damage (Based on Character Level)",
+          "+50 to Attack Rating"
         ],
         "Position": {
           "x": 11,
@@ -115781,28 +115648,26 @@
         "Worn": "sweapon1"
       },
       {
-        "Quality": "Craft",
-        "ID": "1307062153",
-        "QualityCode": "q_crafted",
-        "Title": "Bone Eye",
+        "Quality": "Unique",
+        "ID": "2075905197",
+        "QualityCode": "q_unique",
+        "Title": "Moonfire",
         "Tag": "Arrows",
         "TextTag": "Arrows",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "97",
-        "LevelReq": 64,
+        "ItemLevel": "87",
+        "LevelReq": 42,
         "SocketCount": "0",
         "PropertyList": [
-          "+9% Increased Attack Speed",
-          "+13 to Mana",
-          "Regenerate Mana 7%",
-          "Cold Resist +23%",
-          "Lightning Resist +15%",
-          "Fire Resist +15%",
-          "Poison Resist +15%",
-          "+4 to Mana after each Kill",
-          "+7 Life after each Kill",
-          "Ice Arrow Fires 2 Additional Arrows"
+          "\u00ffc1Corrupted",
+          "Adds 31-44 Magic damage",
+          "-10% to Enemy Magic Resistance",
+          "+42 to Dexterity",
+          "All Resistances +11",
+          "+3 Mana Gained on Ranged Hit",
+          "+10% Magic Arrow Damage Converted to Magic",
+          "Magic Arrow Fires 4 Additional Arrows"
         ],
         "Position": {
           "x": 12,
@@ -117021,27 +116886,24 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "2867255621",
-        "QualityCode": "q_unique",
-        "Title": "Annihilus",
+        "Quality": "Magic",
+        "ID": "888406958",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm of Good Luck",
         "Tag": "Small Charm",
         "TextTag": "Charm Small",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "99",
-        "LevelReq": 80,
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 33,
         "SocketCount": "0",
         "PropertyList": [
-          "+1 to All Skills",
-          "+11 to all Attributes",
-          "All Resistances +13",
-          "+7% to Experience Gained"
+          "7% Better Chance of Getting Magic Items"
         ],
         "Position": {
-          "x": 9,
-          "y": 8
+          "x": 5,
+          "y": 5
         },
         "Size": {
           "invheight": 1,
@@ -117079,24 +116941,50 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "888406958",
-        "QualityCode": "q_magic",
-        "Title": "Small Charm of Good Luck",
+        "Quality": "Unique",
+        "ID": "2867255621",
+        "QualityCode": "q_unique",
+        "Title": "Annihilus",
         "Tag": "Small Charm",
         "TextTag": "Charm Small",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "87",
-        "LevelReq": 33,
+        "AlternateGraphics": "0",
+        "ItemLevel": "99",
+        "LevelReq": 80,
         "SocketCount": "0",
         "PropertyList": [
-          "7% Better Chance of Getting Magic Items"
+          "+1 to All Skills",
+          "+11 to all Attributes",
+          "All Resistances +13",
+          "+7% to Experience Gained"
         ],
         "Position": {
-          "x": 5,
-          "y": 5
+          "x": 9,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Full Rejuvenation Potion",
+        "Tag": "Full Rejuvenation Potion",
+        "TextTag": "Full Rejuv Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 8,
+          "y": 0
         },
         "Size": {
           "invheight": 1,
@@ -309195,17 +309083,17 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 97,
-      "Experience": 2962917789,
-      "Strength": 105,
-      "Dexterity": 330,
-      "Vitality": 125,
+      "Experience": 2964237166,
+      "Strength": 60,
+      "Dexterity": 370,
+      "Vitality": 130,
       "Energy": 15,
-      "BaseLife": 665,
-      "Life": 821,
+      "BaseLife": 680,
+      "Life": 836,
       "BaseMana": 159,
       "Mana": 264,
-      "Gold": 84800,
-      "Stashed": 1427525
+      "Gold": 0,
+      "Stashed": 58822
     },
     "Bonus": {
       "Strength": 46,
@@ -309256,22 +309144,22 @@
       },
       "WeaponSetOffhand": {
         "Strength": 0,
-        "Dexterity": 10,
+        "Dexterity": 42,
         "Vitality": 0,
         "Energy": 0,
-        "FireResistance": 15,
+        "FireResistance": 11,
         "MaximumFireResistance": 0,
-        "ColdResistance": 23,
+        "ColdResistance": 11,
         "MaximumColdResistance": 0,
-        "LightningResistance": 15,
+        "LightningResistance": 11,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 15,
+        "PoisonResistance": 11,
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 9,
+        "IncreasedAttackSpeed": 40,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
@@ -309282,17 +309170,12 @@
     "SkillTabs": [
       {
         "Name": "Bow and Crossbow Skills",
-        "Total": 101,
+        "Total": 80,
         "Skills": [
           {
             "ID": 1,
             "Name": "Magic Arrow",
-            "Level": 1
-          },
-          {
-            "ID": 2,
-            "Name": "Fire Arrow",
-            "Level": 16
+            "Level": 20
           },
           {
             "ID": 6,
@@ -309300,33 +309183,8 @@
             "Level": 20
           },
           {
-            "ID": 7,
-            "Name": "Multiple Shot",
-            "Level": 1
-          },
-          {
-            "ID": 11,
-            "Name": "Exploding Arrow",
-            "Level": 1
-          },
-          {
             "ID": 16,
             "Name": "Ice Arrow",
-            "Level": 20
-          },
-          {
-            "ID": 17,
-            "Name": "Guided Arrow",
-            "Level": 1
-          },
-          {
-            "ID": 21,
-            "Name": "Strafe",
-            "Level": 1
-          },
-          {
-            "ID": 22,
-            "Name": "Immolation Arrow",
             "Level": 20
           },
           {
@@ -309338,8 +309196,13 @@
       },
       {
         "Name": "Passive and Magic Skills",
-        "Total": 6,
+        "Total": 8,
         "Skills": [
+          {
+            "ID": 3,
+            "Name": "Inner Sight",
+            "Level": 1
+          },
           {
             "ID": 4,
             "Name": "Lethal Strike",
@@ -309348,6 +309211,11 @@
           {
             "ID": 8,
             "Name": "Dodge",
+            "Level": 1
+          },
+          {
+            "ID": 12,
+            "Name": "Phase Run",
             "Level": 1
           },
           {
@@ -309378,10 +309246,10 @@
         "Skills": []
       }
     ],
-    "MercenaryExperience": 99868441,
+    "MercenaryExperience": 101439485,
     "MercenaryType": "Desert Mercenary",
     "MercenaryName": "Kasim",
-    "MercenaryLevel": "93",
+    "MercenaryLevel": "94",
     "Equipped": [
       {
         "Quality": "Set",
@@ -309835,140 +309703,27 @@
         "Worn": "boots"
       },
       {
-        "Quality": "Normal",
-        "ID": "1710677423",
-        "QualityCode": "q_runeword",
-        "Title": "Harmony",
-        "Tag": "Matriarchal Bow",
-        "TextTag": "Matriarchal Bow",
-        "RuneTag": "TirIthSolKo",
+        "Quality": "Set",
+        "ID": "3395268724",
+        "QualityCode": "q_set",
+        "Title": "M'avina's Caster",
+        "Tag": "Grand Matron Bow",
+        "TextTag": "Grand Matron Bow",
         "Ethereal": "False",
         "Enhanced": "True",
-        "DamageMinimum": "80",
-        "DamageMaximum": "177",
-        "ThrowDamageMinimum": "9",
-        "ThrowDamageMaximum": "9",
-        "ItemLevel": "86",
-        "LevelReq": 39,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Tir Rune",
-            "Tag": "Tir Rune",
-            "TextTag": "Tir Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 13,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+2 to Mana after each Kill"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Ith Rune",
-            "Tag": "Ith Rune",
-            "TextTag": "Ith Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 15,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+9 to Maximum Damage"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Sol Rune",
-            "Tag": "Sol Rune",
-            "TextTag": "Sol Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 27,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+9 to Minimum Damage"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Ko Rune",
-            "Tag": "Ko Rune",
-            "TextTag": "Ko Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 39,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+10 to Dexterity"
-            ],
-            "Position": {
-              "x": 3,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "4",
+        "DamageMinimum": "40",
+        "DamageMaximum": "207",
+        "ItemLevel": "87",
+        "LevelReq": 70,
+        "SocketCount": "0",
         "PropertyList": [
-          "Level 10 Vigor Aura When Equipped",
-          "+3 to Bow and Crossbow Skills (Amazon Only)",
-          "+259% Enhanced Damage",
-          "+9 to Minimum Damage",
-          "+9 to Maximum Damage",
-          "Adds 55-160 Fire damage",
-          "Adds 55-160 Lightning damage",
-          "Adds 55-160 cold damage",
-          "+6 to Valkyrie",
-          "+10 to Dexterity",
-          "Regenerate Mana 20%",
-          "+2 to Mana after each Kill",
-          "+2 to Light Radius",
-          "Level 20 Revive (25/25 Charges)",
-          "Socketed (4)"
+          "\u00ffc1Corrupted",
+          "+1 to All Skills",
+          "+40% Increased Attack Speed",
+          "Fires Magic Arrows",
+          "+188% Enhanced Damage",
+          "+97 to Maximum Damage (Based on Character Level)",
+          "+50 to Attack Rating"
         ],
         "Position": {
           "x": 11,
@@ -309981,28 +309736,26 @@
         "Worn": "sweapon1"
       },
       {
-        "Quality": "Craft",
-        "ID": "1307062153",
-        "QualityCode": "q_crafted",
-        "Title": "Bone Eye",
+        "Quality": "Unique",
+        "ID": "2075905197",
+        "QualityCode": "q_unique",
+        "Title": "Moonfire",
         "Tag": "Arrows",
         "TextTag": "Arrows",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "97",
-        "LevelReq": 64,
+        "ItemLevel": "87",
+        "LevelReq": 42,
         "SocketCount": "0",
         "PropertyList": [
-          "+9% Increased Attack Speed",
-          "+13 to Mana",
-          "Regenerate Mana 7%",
-          "Cold Resist +23%",
-          "Lightning Resist +15%",
-          "Fire Resist +15%",
-          "Poison Resist +15%",
-          "+4 to Mana after each Kill",
-          "+7 Life after each Kill",
-          "Ice Arrow Fires 2 Additional Arrows"
+          "\u00ffc1Corrupted",
+          "Adds 31-44 Magic damage",
+          "-10% to Enemy Magic Resistance",
+          "+42 to Dexterity",
+          "All Resistances +11",
+          "+3 Mana Gained on Ranged Hit",
+          "+10% Magic Arrow Damage Converted to Magic",
+          "Magic Arrow Fires 4 Additional Arrows"
         ],
         "Position": {
           "x": 12,
@@ -311221,27 +310974,24 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "2867255621",
-        "QualityCode": "q_unique",
-        "Title": "Annihilus",
+        "Quality": "Magic",
+        "ID": "888406958",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm of Good Luck",
         "Tag": "Small Charm",
         "TextTag": "Charm Small",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "99",
-        "LevelReq": 80,
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 33,
         "SocketCount": "0",
         "PropertyList": [
-          "+1 to All Skills",
-          "+11 to all Attributes",
-          "All Resistances +13",
-          "+7% to Experience Gained"
+          "7% Better Chance of Getting Magic Items"
         ],
         "Position": {
-          "x": 9,
-          "y": 8
+          "x": 5,
+          "y": 5
         },
         "Size": {
           "invheight": 1,
@@ -311279,24 +311029,50 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "888406958",
-        "QualityCode": "q_magic",
-        "Title": "Small Charm of Good Luck",
+        "Quality": "Unique",
+        "ID": "2867255621",
+        "QualityCode": "q_unique",
+        "Title": "Annihilus",
         "Tag": "Small Charm",
         "TextTag": "Charm Small",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "87",
-        "LevelReq": 33,
+        "AlternateGraphics": "0",
+        "ItemLevel": "99",
+        "LevelReq": 80,
         "SocketCount": "0",
         "PropertyList": [
-          "7% Better Chance of Getting Magic Items"
+          "+1 to All Skills",
+          "+11 to all Attributes",
+          "All Resistances +13",
+          "+7% to Experience Gained"
         ],
         "Position": {
-          "x": 5,
-          "y": 5
+          "x": 9,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Full Rejuvenation Potion",
+        "Tag": "Full Rejuvenation Potion",
+        "TextTag": "Full Rejuv Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 8,
+          "y": 0
         },
         "Size": {
           "invheight": 1,
