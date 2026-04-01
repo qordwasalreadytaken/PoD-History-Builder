@@ -33,8 +33,8 @@
       "MaximumLightningResistance": 0,
       "PoisonResistance": 43,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 89,
-      "GoldFind": 158,
+      "MagicFind": 76,
+      "GoldFind": 137,
       "FasterCastRate": 45,
       "FasterHitRecovery": 0,
       "IncreasedAttackSpeed": 0,
@@ -389,6 +389,69 @@
         "Worn": "ring1"
       },
       {
+        "Quality": "Craft",
+        "ID": "2419023761",
+        "QualityCode": "q_crafted",
+        "Title": "Corruption Necklace",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "97",
+        "LevelReq": 70,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+5% Faster Cast Rate",
+          "+39 to Mana",
+          "Regenerate Mana 10%",
+          "Fire Resist +22%",
+          "Poison Resist +13%",
+          "Level 2 Twister (25/25 Charges)"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "amulet"
+      },
+      {
+        "Quality": "Set",
+        "ID": "835983537",
+        "QualityCode": "q_set",
+        "Title": "Natalya's Soul",
+        "Tag": "Mesh Boots",
+        "TextTag": "Mesh Boots",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "42",
+        "Durability": "66",
+        "DurabilityMaximum": "16",
+        "ItemLevel": "91",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+40% Faster Run/Walk",
+          "+98 Defense",
+          "Heal Stamina Plus +24% (Based on Character Level)",
+          "Cold Resist +17%",
+          "Lightning Resist +25%"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "boots"
+      },
+      {
         "Quality": "Normal",
         "ID": "2707589739",
         "QualityCode": "q_runeword",
@@ -630,69 +693,6 @@
         "Worn": "sweapon2"
       },
       {
-        "Quality": "Craft",
-        "ID": "2419023761",
-        "QualityCode": "q_crafted",
-        "Title": "Corruption Necklace",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "97",
-        "LevelReq": 70,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+5% Faster Cast Rate",
-          "+39 to Mana",
-          "Regenerate Mana 10%",
-          "Fire Resist +22%",
-          "Poison Resist +13%",
-          "Level 2 Twister (25/25 Charges)"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": "amulet"
-      },
-      {
-        "Quality": "Set",
-        "ID": "835983537",
-        "QualityCode": "q_set",
-        "Title": "Natalya's Soul",
-        "Tag": "Mesh Boots",
-        "TextTag": "Mesh Boots",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "42",
-        "Durability": "66",
-        "DurabilityMaximum": "16",
-        "ItemLevel": "91",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+40% Faster Run/Walk",
-          "+98 Defense",
-          "Heal Stamina Plus +24% (Based on Character Level)",
-          "Cold Resist +17%",
-          "Lightning Resist +25%"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "boots"
-      },
-      {
         "Quality": "Normal",
         "ID": "704750638",
         "QualityCode": "q_runeword",
@@ -810,34 +810,6 @@
     ],
     "Inventory": [
       {
-        "Quality": "Unique",
-        "ID": "2709872805",
-        "QualityCode": "q_unique",
-        "Title": "Gheed's Fortune",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "86",
-        "LevelReq": 62,
-        "SocketCount": "0",
-        "PropertyList": [
-          "158% Extra Gold from Monsters",
-          "Reduces all Vendor Prices 14%",
-          "39% Better Chance of Getting Magic Items"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "2250722294",
         "QualityCode": "q_normal",
@@ -857,6 +829,34 @@
         "Size": {
           "invheight": 2,
           "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3735572939",
+        "QualityCode": "q_unique",
+        "Title": "Gheed's Fortune",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 62,
+        "SocketCount": "0",
+        "PropertyList": [
+          "137% Extra Gold from Monsters",
+          "Reduces all Vendor Prices 15%",
+          "26% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
         },
         "Worn": ""
       }
@@ -4244,282 +4244,6 @@
         "Position": {
           "x": 0,
           "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "\u00ffc;Orb of Corruption",
-        "Tag": "\u00ffc;Orb of Corruption",
-        "TextTag": "Orb of Corruption",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "\u00ffc;Orb of Corruption",
-        "Tag": "\u00ffc;Orb of Corruption",
-        "TextTag": "Orb of Corruption",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Eld Rune",
-        "Tag": "Eld Rune",
-        "TextTag": "Eld Rune",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 11,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Perfect Skull",
-        "Tag": "Perfect Skull",
-        "TextTag": "Perfect Skull",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 18,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "\u00ffc;Orb of Corruption",
-        "Tag": "\u00ffc;Orb of Corruption",
-        "TextTag": "Orb of Corruption",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Eld Rune",
-        "Tag": "Eld Rune",
-        "TextTag": "Eld Rune",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 11,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Perfect Skull",
-        "Tag": "Perfect Skull",
-        "TextTag": "Perfect Skull",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 18,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "\u00ffc;Orb of Corruption",
-        "Tag": "\u00ffc;Orb of Corruption",
-        "TextTag": "Orb of Corruption",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "\u00ffc;Orb of Corruption",
-        "Tag": "\u00ffc;Orb of Corruption",
-        "TextTag": "Orb of Corruption",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Eld Rune",
-        "Tag": "Eld Rune",
-        "TextTag": "Eld Rune",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 11,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Eld Rune",
-        "Tag": "Eld Rune",
-        "TextTag": "Eld Rune",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 11,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "\u00ffc;Orb of Corruption",
-        "Tag": "\u00ffc;Orb of Corruption",
-        "TextTag": "Orb of Corruption",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 3
         },
         "Size": {
           "invheight": 1,
@@ -91449,7 +91173,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 93,
-      "Experience": 2196471925,
+      "Experience": 2196552129,
       "Strength": 23,
       "Dexterity": 87,
       "Vitality": 425,
@@ -91457,9 +91181,9 @@
       "BaseLife": 1555,
       "Life": 1911,
       "BaseMana": 153,
-      "Mana": 287,
+      "Mana": 264,
       "Gold": 0,
-      "Stashed": 810151
+      "Stashed": 888857
     },
     "Bonus": {
       "Strength": 98,
@@ -91488,30 +91212,6 @@
         "Strength": 0,
         "Dexterity": 0,
         "Vitality": 0,
-        "Energy": 10,
-        "FireResistance": 0,
-        "MaximumFireResistance": 0,
-        "ColdResistance": 0,
-        "MaximumColdResistance": 0,
-        "LightningResistance": 0,
-        "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
-        "MaximumPoisonResistance": 0,
-        "MagicFind": 30,
-        "GoldFind": 0,
-        "FasterCastRate": 20,
-        "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 40,
-        "CrushingBlow": 0,
-        "OpenWounds": 0,
-        "DeadlyStrike": 0,
-        "DamageReduction": 0,
-        "CooldownReduction": 0
-      },
-      "WeaponSetOffhand": {
-        "Strength": 0,
-        "Dexterity": 0,
-        "Vitality": 0,
         "Energy": 0,
         "FireResistance": 8,
         "MaximumFireResistance": 0,
@@ -91529,6 +91229,30 @@
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 20,
+        "DamageReduction": 0,
+        "CooldownReduction": 0
+      },
+      "WeaponSetOffhand": {
+        "Strength": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Energy": 10,
+        "FireResistance": 0,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 0,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 0,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 0,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 30,
+        "GoldFind": 0,
+        "FasterCastRate": 20,
+        "FasterHitRecovery": 0,
+        "IncreasedAttackSpeed": 40,
+        "CrushingBlow": 0,
+        "OpenWounds": 0,
+        "DeadlyStrike": 0,
         "DamageReduction": 0,
         "CooldownReduction": 0
       }
@@ -92084,181 +91808,6 @@
         "Worn": "helmet"
       },
       {
-        "Quality": "Superior",
-        "ID": "4072903820",
-        "QualityCode": "q_runeword",
-        "Title": "Ice",
-        "Tag": "Matriarchal Bow",
-        "TextTag": "Matriarchal Bow",
-        "RuneTag": "AmnShaelJahLo",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "49",
-        "DamageMaximum": "116",
-        "ItemLevel": "88",
-        "LevelReq": 65,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Amn Rune",
-            "Tag": "Amn Rune",
-            "TextTag": "Amn Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 25,
-            "SocketCount": "0",
-            "PropertyList": [
-              "7% Life stolen per hit"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Shael Rune",
-            "Tag": "Shael Rune",
-            "TextTag": "Shael Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 29,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+20% Increased Attack Speed"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Jah Rune",
-            "Tag": "Jah Rune",
-            "TextTag": "Jah Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 65,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Ignore Target's Defense"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Lo Rune",
-            "Tag": "Lo Rune",
-            "TextTag": "Lo Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 59,
-            "SocketCount": "0",
-            "PropertyList": [
-              "20% Deadly Strike"
-            ],
-            "Position": {
-              "x": 3,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "4",
-        "PropertyList": [
-          "100% Chance to cast level 40 Blizzard when you Level-Up",
-          "25% Chance to cast level 22 Frost Nova on striking",
-          "Level 18 Holy Freeze Aura When Equipped",
-          "+3 to Bow and Crossbow Skills (Amazon Only)",
-          "+20% Increased Attack Speed",
-          "+148% Enhanced Damage",
-          "Ignore Target's Defense",
-          "-20% to Enemy Cold Resistance",
-          "+30% Increased Cold Damage",
-          "7% Life stolen per hit",
-          "20% Deadly Strike",
-          "290% Extra Gold from Monsters (Based on Character Level)",
-          "Socketed (4)"
-        ],
-        "Position": {
-          "x": 11,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 4,
-          "invwidth": 2
-        },
-        "Worn": "sweapon1"
-      },
-      {
-        "Quality": "Craft",
-        "ID": "1553623752",
-        "QualityCode": "q_crafted",
-        "Title": "Storm Eye",
-        "Tag": "Arrows",
-        "TextTag": "Arrows",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "91",
-        "LevelReq": 78,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+2 to Elemental & Poison Skills",
-          "+2 to Bow and Crossbow Skills (Amazon Only)",
-          "+10% Increased Attack Speed",
-          "2% Mana stolen per hit",
-          "+11 to Mana",
-          "Regenerate Mana 8%",
-          "All Resistances +8",
-          "Ice Arrow Fires 2 Additional Arrows"
-        ],
-        "Position": {
-          "x": 12,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": "sweapon2"
-      },
-      {
         "Quality": "Normal",
         "ID": "2643550130",
         "QualityCode": "q_runeword",
@@ -92416,14 +91965,14 @@
           "Socketed (5)"
         ],
         "Position": {
-          "x": 4,
+          "x": 11,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
         },
-        "Worn": "weapon1"
+        "Worn": "sweapon1"
       },
       {
         "Quality": "Unique",
@@ -92453,12 +92002,187 @@
           "Socketed (3)"
         ],
         "Position": {
-          "x": 5,
+          "x": 12,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
+        },
+        "Worn": "sweapon2"
+      },
+      {
+        "Quality": "Superior",
+        "ID": "4072903820",
+        "QualityCode": "q_runeword",
+        "Title": "Ice",
+        "Tag": "Matriarchal Bow",
+        "TextTag": "Matriarchal Bow",
+        "RuneTag": "AmnShaelJahLo",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "49",
+        "DamageMaximum": "116",
+        "ItemLevel": "88",
+        "LevelReq": 65,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Amn Rune",
+            "Tag": "Amn Rune",
+            "TextTag": "Amn Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 25,
+            "SocketCount": "0",
+            "PropertyList": [
+              "7% Life stolen per hit"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Shael Rune",
+            "Tag": "Shael Rune",
+            "TextTag": "Shael Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 29,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+20% Increased Attack Speed"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Jah Rune",
+            "Tag": "Jah Rune",
+            "TextTag": "Jah Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 65,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Ignore Target's Defense"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Lo Rune",
+            "Tag": "Lo Rune",
+            "TextTag": "Lo Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 59,
+            "SocketCount": "0",
+            "PropertyList": [
+              "20% Deadly Strike"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "4",
+        "PropertyList": [
+          "100% Chance to cast level 40 Blizzard when you Level-Up",
+          "25% Chance to cast level 22 Frost Nova on striking",
+          "Level 18 Holy Freeze Aura When Equipped",
+          "+3 to Bow and Crossbow Skills (Amazon Only)",
+          "+20% Increased Attack Speed",
+          "+148% Enhanced Damage",
+          "Ignore Target's Defense",
+          "-20% to Enemy Cold Resistance",
+          "+30% Increased Cold Damage",
+          "7% Life stolen per hit",
+          "20% Deadly Strike",
+          "290% Extra Gold from Monsters (Based on Character Level)",
+          "Socketed (4)"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 4,
+          "invwidth": 2
+        },
+        "Worn": "weapon1"
+      },
+      {
+        "Quality": "Craft",
+        "ID": "1553623752",
+        "QualityCode": "q_crafted",
+        "Title": "Storm Eye",
+        "Tag": "Arrows",
+        "TextTag": "Arrows",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "91",
+        "LevelReq": 78,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+2 to Elemental & Poison Skills",
+          "+2 to Bow and Crossbow Skills (Amazon Only)",
+          "+10% Increased Attack Speed",
+          "2% Mana stolen per hit",
+          "+11 to Mana",
+          "Regenerate Mana 8%",
+          "All Resistances +8",
+          "Ice Arrow Fires 2 Additional Arrows"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
         },
         "Worn": "weapon2"
       }
@@ -93165,6 +92889,85 @@
         "Position": {
           "x": 5,
           "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Full Rejuvenation Potion",
+        "Tag": "Full Rejuvenation Potion",
+        "TextTag": "Full Rejuv Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 1,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1884282925",
+        "QualityCode": "q_rare",
+        "Title": "Rune Touch",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "85",
+        "LevelReq": 29,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Adds 4-1 damage",
+          "+40 to Attack Rating",
+          "+5 to Strength",
+          "+5 to Mana",
+          "Cold Resist +7%"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2035193593",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm of Inertia",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "85",
+        "LevelReq": 27,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+3% Faster Run/Walk"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 4
         },
         "Size": {
           "invheight": 1,
@@ -216549,8 +216352,8 @@
       "MaximumLightningResistance": 0,
       "PoisonResistance": 43,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 89,
-      "GoldFind": 158,
+      "MagicFind": 76,
+      "GoldFind": 137,
       "FasterCastRate": 45,
       "FasterHitRecovery": 0,
       "IncreasedAttackSpeed": 0,
@@ -216905,6 +216708,69 @@
         "Worn": "ring1"
       },
       {
+        "Quality": "Craft",
+        "ID": "2419023761",
+        "QualityCode": "q_crafted",
+        "Title": "Corruption Necklace",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "97",
+        "LevelReq": 70,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+5% Faster Cast Rate",
+          "+39 to Mana",
+          "Regenerate Mana 10%",
+          "Fire Resist +22%",
+          "Poison Resist +13%",
+          "Level 2 Twister (25/25 Charges)"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "amulet"
+      },
+      {
+        "Quality": "Set",
+        "ID": "835983537",
+        "QualityCode": "q_set",
+        "Title": "Natalya's Soul",
+        "Tag": "Mesh Boots",
+        "TextTag": "Mesh Boots",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "42",
+        "Durability": "66",
+        "DurabilityMaximum": "16",
+        "ItemLevel": "91",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+40% Faster Run/Walk",
+          "+98 Defense",
+          "Heal Stamina Plus +24% (Based on Character Level)",
+          "Cold Resist +17%",
+          "Lightning Resist +25%"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "boots"
+      },
+      {
         "Quality": "Normal",
         "ID": "2707589739",
         "QualityCode": "q_runeword",
@@ -217146,69 +217012,6 @@
         "Worn": "sweapon2"
       },
       {
-        "Quality": "Craft",
-        "ID": "2419023761",
-        "QualityCode": "q_crafted",
-        "Title": "Corruption Necklace",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "97",
-        "LevelReq": 70,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+5% Faster Cast Rate",
-          "+39 to Mana",
-          "Regenerate Mana 10%",
-          "Fire Resist +22%",
-          "Poison Resist +13%",
-          "Level 2 Twister (25/25 Charges)"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": "amulet"
-      },
-      {
-        "Quality": "Set",
-        "ID": "835983537",
-        "QualityCode": "q_set",
-        "Title": "Natalya's Soul",
-        "Tag": "Mesh Boots",
-        "TextTag": "Mesh Boots",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "42",
-        "Durability": "66",
-        "DurabilityMaximum": "16",
-        "ItemLevel": "91",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+40% Faster Run/Walk",
-          "+98 Defense",
-          "Heal Stamina Plus +24% (Based on Character Level)",
-          "Cold Resist +17%",
-          "Lightning Resist +25%"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "boots"
-      },
-      {
         "Quality": "Normal",
         "ID": "704750638",
         "QualityCode": "q_runeword",
@@ -217326,34 +217129,6 @@
     ],
     "Inventory": [
       {
-        "Quality": "Unique",
-        "ID": "2709872805",
-        "QualityCode": "q_unique",
-        "Title": "Gheed's Fortune",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "86",
-        "LevelReq": 62,
-        "SocketCount": "0",
-        "PropertyList": [
-          "158% Extra Gold from Monsters",
-          "Reduces all Vendor Prices 14%",
-          "39% Better Chance of Getting Magic Items"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "2250722294",
         "QualityCode": "q_normal",
@@ -217373,6 +217148,34 @@
         "Size": {
           "invheight": 2,
           "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3735572939",
+        "QualityCode": "q_unique",
+        "Title": "Gheed's Fortune",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 62,
+        "SocketCount": "0",
+        "PropertyList": [
+          "137% Extra Gold from Monsters",
+          "Reduces all Vendor Prices 15%",
+          "26% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
         },
         "Worn": ""
       }
@@ -220760,282 +220563,6 @@
         "Position": {
           "x": 0,
           "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "\u00ffc;Orb of Corruption",
-        "Tag": "\u00ffc;Orb of Corruption",
-        "TextTag": "Orb of Corruption",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "\u00ffc;Orb of Corruption",
-        "Tag": "\u00ffc;Orb of Corruption",
-        "TextTag": "Orb of Corruption",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Eld Rune",
-        "Tag": "Eld Rune",
-        "TextTag": "Eld Rune",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 11,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Perfect Skull",
-        "Tag": "Perfect Skull",
-        "TextTag": "Perfect Skull",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 18,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "\u00ffc;Orb of Corruption",
-        "Tag": "\u00ffc;Orb of Corruption",
-        "TextTag": "Orb of Corruption",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Eld Rune",
-        "Tag": "Eld Rune",
-        "TextTag": "Eld Rune",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 11,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Perfect Skull",
-        "Tag": "Perfect Skull",
-        "TextTag": "Perfect Skull",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 18,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "\u00ffc;Orb of Corruption",
-        "Tag": "\u00ffc;Orb of Corruption",
-        "TextTag": "Orb of Corruption",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "\u00ffc;Orb of Corruption",
-        "Tag": "\u00ffc;Orb of Corruption",
-        "TextTag": "Orb of Corruption",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Eld Rune",
-        "Tag": "Eld Rune",
-        "TextTag": "Eld Rune",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 11,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Eld Rune",
-        "Tag": "Eld Rune",
-        "TextTag": "Eld Rune",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 11,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "\u00ffc;Orb of Corruption",
-        "Tag": "\u00ffc;Orb of Corruption",
-        "TextTag": "Orb of Corruption",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 3
         },
         "Size": {
           "invheight": 1,
@@ -290549,7 +290076,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 93,
-      "Experience": 2196471925,
+      "Experience": 2196552129,
       "Strength": 23,
       "Dexterity": 87,
       "Vitality": 425,
@@ -290557,9 +290084,9 @@
       "BaseLife": 1555,
       "Life": 1911,
       "BaseMana": 153,
-      "Mana": 287,
+      "Mana": 264,
       "Gold": 0,
-      "Stashed": 810151
+      "Stashed": 888857
     },
     "Bonus": {
       "Strength": 98,
@@ -290588,30 +290115,6 @@
         "Strength": 0,
         "Dexterity": 0,
         "Vitality": 0,
-        "Energy": 10,
-        "FireResistance": 0,
-        "MaximumFireResistance": 0,
-        "ColdResistance": 0,
-        "MaximumColdResistance": 0,
-        "LightningResistance": 0,
-        "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
-        "MaximumPoisonResistance": 0,
-        "MagicFind": 30,
-        "GoldFind": 0,
-        "FasterCastRate": 20,
-        "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 40,
-        "CrushingBlow": 0,
-        "OpenWounds": 0,
-        "DeadlyStrike": 0,
-        "DamageReduction": 0,
-        "CooldownReduction": 0
-      },
-      "WeaponSetOffhand": {
-        "Strength": 0,
-        "Dexterity": 0,
-        "Vitality": 0,
         "Energy": 0,
         "FireResistance": 8,
         "MaximumFireResistance": 0,
@@ -290629,6 +290132,30 @@
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 20,
+        "DamageReduction": 0,
+        "CooldownReduction": 0
+      },
+      "WeaponSetOffhand": {
+        "Strength": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Energy": 10,
+        "FireResistance": 0,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 0,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 0,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 0,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 30,
+        "GoldFind": 0,
+        "FasterCastRate": 20,
+        "FasterHitRecovery": 0,
+        "IncreasedAttackSpeed": 40,
+        "CrushingBlow": 0,
+        "OpenWounds": 0,
+        "DeadlyStrike": 0,
         "DamageReduction": 0,
         "CooldownReduction": 0
       }
@@ -291184,181 +290711,6 @@
         "Worn": "helmet"
       },
       {
-        "Quality": "Superior",
-        "ID": "4072903820",
-        "QualityCode": "q_runeword",
-        "Title": "Ice",
-        "Tag": "Matriarchal Bow",
-        "TextTag": "Matriarchal Bow",
-        "RuneTag": "AmnShaelJahLo",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "49",
-        "DamageMaximum": "116",
-        "ItemLevel": "88",
-        "LevelReq": 65,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Amn Rune",
-            "Tag": "Amn Rune",
-            "TextTag": "Amn Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 25,
-            "SocketCount": "0",
-            "PropertyList": [
-              "7% Life stolen per hit"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Shael Rune",
-            "Tag": "Shael Rune",
-            "TextTag": "Shael Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 29,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+20% Increased Attack Speed"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Jah Rune",
-            "Tag": "Jah Rune",
-            "TextTag": "Jah Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 65,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Ignore Target's Defense"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Lo Rune",
-            "Tag": "Lo Rune",
-            "TextTag": "Lo Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 59,
-            "SocketCount": "0",
-            "PropertyList": [
-              "20% Deadly Strike"
-            ],
-            "Position": {
-              "x": 3,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "4",
-        "PropertyList": [
-          "100% Chance to cast level 40 Blizzard when you Level-Up",
-          "25% Chance to cast level 22 Frost Nova on striking",
-          "Level 18 Holy Freeze Aura When Equipped",
-          "+3 to Bow and Crossbow Skills (Amazon Only)",
-          "+20% Increased Attack Speed",
-          "+148% Enhanced Damage",
-          "Ignore Target's Defense",
-          "-20% to Enemy Cold Resistance",
-          "+30% Increased Cold Damage",
-          "7% Life stolen per hit",
-          "20% Deadly Strike",
-          "290% Extra Gold from Monsters (Based on Character Level)",
-          "Socketed (4)"
-        ],
-        "Position": {
-          "x": 11,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 4,
-          "invwidth": 2
-        },
-        "Worn": "sweapon1"
-      },
-      {
-        "Quality": "Craft",
-        "ID": "1553623752",
-        "QualityCode": "q_crafted",
-        "Title": "Storm Eye",
-        "Tag": "Arrows",
-        "TextTag": "Arrows",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "91",
-        "LevelReq": 78,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+2 to Elemental & Poison Skills",
-          "+2 to Bow and Crossbow Skills (Amazon Only)",
-          "+10% Increased Attack Speed",
-          "2% Mana stolen per hit",
-          "+11 to Mana",
-          "Regenerate Mana 8%",
-          "All Resistances +8",
-          "Ice Arrow Fires 2 Additional Arrows"
-        ],
-        "Position": {
-          "x": 12,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": "sweapon2"
-      },
-      {
         "Quality": "Normal",
         "ID": "2643550130",
         "QualityCode": "q_runeword",
@@ -291516,14 +290868,14 @@
           "Socketed (5)"
         ],
         "Position": {
-          "x": 4,
+          "x": 11,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
         },
-        "Worn": "weapon1"
+        "Worn": "sweapon1"
       },
       {
         "Quality": "Unique",
@@ -291553,12 +290905,187 @@
           "Socketed (3)"
         ],
         "Position": {
-          "x": 5,
+          "x": 12,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
+        },
+        "Worn": "sweapon2"
+      },
+      {
+        "Quality": "Superior",
+        "ID": "4072903820",
+        "QualityCode": "q_runeword",
+        "Title": "Ice",
+        "Tag": "Matriarchal Bow",
+        "TextTag": "Matriarchal Bow",
+        "RuneTag": "AmnShaelJahLo",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "49",
+        "DamageMaximum": "116",
+        "ItemLevel": "88",
+        "LevelReq": 65,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Amn Rune",
+            "Tag": "Amn Rune",
+            "TextTag": "Amn Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 25,
+            "SocketCount": "0",
+            "PropertyList": [
+              "7% Life stolen per hit"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Shael Rune",
+            "Tag": "Shael Rune",
+            "TextTag": "Shael Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 29,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+20% Increased Attack Speed"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Jah Rune",
+            "Tag": "Jah Rune",
+            "TextTag": "Jah Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 65,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Ignore Target's Defense"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Lo Rune",
+            "Tag": "Lo Rune",
+            "TextTag": "Lo Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 59,
+            "SocketCount": "0",
+            "PropertyList": [
+              "20% Deadly Strike"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "4",
+        "PropertyList": [
+          "100% Chance to cast level 40 Blizzard when you Level-Up",
+          "25% Chance to cast level 22 Frost Nova on striking",
+          "Level 18 Holy Freeze Aura When Equipped",
+          "+3 to Bow and Crossbow Skills (Amazon Only)",
+          "+20% Increased Attack Speed",
+          "+148% Enhanced Damage",
+          "Ignore Target's Defense",
+          "-20% to Enemy Cold Resistance",
+          "+30% Increased Cold Damage",
+          "7% Life stolen per hit",
+          "20% Deadly Strike",
+          "290% Extra Gold from Monsters (Based on Character Level)",
+          "Socketed (4)"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 4,
+          "invwidth": 2
+        },
+        "Worn": "weapon1"
+      },
+      {
+        "Quality": "Craft",
+        "ID": "1553623752",
+        "QualityCode": "q_crafted",
+        "Title": "Storm Eye",
+        "Tag": "Arrows",
+        "TextTag": "Arrows",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "91",
+        "LevelReq": 78,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+2 to Elemental & Poison Skills",
+          "+2 to Bow and Crossbow Skills (Amazon Only)",
+          "+10% Increased Attack Speed",
+          "2% Mana stolen per hit",
+          "+11 to Mana",
+          "Regenerate Mana 8%",
+          "All Resistances +8",
+          "Ice Arrow Fires 2 Additional Arrows"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
         },
         "Worn": "weapon2"
       }
@@ -292265,6 +291792,85 @@
         "Position": {
           "x": 5,
           "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Full Rejuvenation Potion",
+        "Tag": "Full Rejuvenation Potion",
+        "TextTag": "Full Rejuv Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 1,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1884282925",
+        "QualityCode": "q_rare",
+        "Title": "Rune Touch",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "85",
+        "LevelReq": 29,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Adds 4-1 damage",
+          "+40 to Attack Rating",
+          "+5 to Strength",
+          "+5 to Mana",
+          "Cold Resist +7%"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2035193593",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm of Inertia",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "85",
+        "LevelReq": 27,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+3% Faster Run/Walk"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 4
         },
         "Size": {
           "invheight": 1,
