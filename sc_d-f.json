@@ -222423,11 +222423,11 @@
       "Vitality": 261,
       "Energy": 15,
       "BaseLife": 1055,
-      "Life": 1385,
+      "Life": 1463,
       "BaseMana": 148,
       "Mana": 166,
-      "Gold": 71111,
-      "Stashed": 1725793
+      "Gold": 0,
+      "Stashed": 1796904
     },
     "Bonus": {
       "Strength": 65,
@@ -222453,8 +222453,32 @@
       "DamageReduction": 0,
       "CooldownReduction": 0,
       "WeaponSetMain": {
-        "Strength": 30,
-        "Dexterity": 0,
+        "Strength": 0,
+        "Dexterity": 10,
+        "Vitality": 0,
+        "Energy": 0,
+        "FireResistance": 0,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 0,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 0,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 0,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 30,
+        "GoldFind": 0,
+        "FasterCastRate": 0,
+        "FasterHitRecovery": 0,
+        "IncreasedAttackSpeed": 0,
+        "CrushingBlow": 0,
+        "OpenWounds": 0,
+        "DeadlyStrike": 0,
+        "DamageReduction": 0,
+        "CooldownReduction": 0
+      },
+      "WeaponSetOffhand": {
+        "Strength": 50,
+        "Dexterity": 20,
         "Vitality": 0,
         "Energy": 0,
         "FireResistance": 0,
@@ -222469,35 +222493,11 @@
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 15,
-        "CrushingBlow": 0,
-        "OpenWounds": 0,
-        "DeadlyStrike": 0,
-        "DamageReduction": 30,
-        "CooldownReduction": 0
-      },
-      "WeaponSetOffhand": {
-        "Strength": 0,
-        "Dexterity": 0,
-        "Vitality": 0,
-        "Energy": 0,
-        "FireResistance": 0,
-        "MaximumFireResistance": 0,
-        "ColdResistance": 0,
-        "MaximumColdResistance": 0,
-        "LightningResistance": 0,
-        "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
-        "MaximumPoisonResistance": 0,
-        "MagicFind": 0,
-        "GoldFind": 0,
-        "FasterCastRate": 0,
-        "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
-        "DamageReduction": 0,
+        "DamageReduction": 30,
         "CooldownReduction": 0
       }
     },
@@ -222901,40 +222901,43 @@
       },
       {
         "Quality": "Unique",
-        "ID": "575022478",
+        "ID": "3038670924",
         "QualityCode": "q_unique",
-        "Title": "Thunderstroke",
-        "Tag": "Matriarchal Javelin",
-        "TextTag": "MatriarchalJavelin",
+        "Title": "Titan's Revenge",
+        "Tag": "Ceremonial Javelin",
+        "TextTag": "Ceremonial Javelin",
         "Ethereal": "False",
         "Enhanced": "True",
-        "DamageMinimum": "84",
-        "DamageMaximum": "151",
-        "ThrowDamageMinimum": "98",
-        "ThrowDamageMaximum": "185",
-        "Durability": "63",
+        "DamageMinimum": "74",
+        "DamageMaximum": "95",
+        "ThrowDamageMinimum": "74",
+        "ThrowDamageMaximum": "147",
+        "Durability": "100",
         "DurabilityMaximum": "100",
-        "ItemLevel": "90",
-        "LevelReq": 69,
+        "ItemLevel": "88",
+        "LevelReq": 42,
         "SocketCount": "0",
         "PropertyList": [
-          "20% Chance to cast level 14 Lightning Surge on striking",
-          "+4 to Javelin and Spear Skills (Amazon Only)",
-          "+15% Increased Attack Speed",
-          "+181% Enhanced Damage",
-          "Adds 1-511 Lightning damage",
-          "-15% to Enemy Lightning Resistance",
-          "+3 to Lightning Bolt (Amazon Only)"
+          "+2 to Javelin and Spear Skills (Amazon Only)",
+          "+2 to Amazon Skill Levels",
+          "+30% Faster Run/Walk",
+          "+173% Enhanced Damage",
+          "Adds 25-50 damage",
+          "9% Life stolen per hit",
+          "+20 to Strength",
+          "+20 to Dexterity",
+          "Increased Stack Size",
+          "Repairs 1 durability in 3 seconds"
         ],
         "Position": {
-          "x": 4,
+          "x": 11,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 1
         },
-        "Worn": "weapon1"
+        "Worn": "sweapon1"
       },
       {
         "Quality": "Unique",
@@ -222965,12 +222968,187 @@
           "Attacker Takes Lightning Damage of 10"
         ],
         "Position": {
-          "x": 5,
+          "x": 12,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
+        },
+        "Worn": "sweapon2"
+      },
+      {
+        "Quality": "Normal",
+        "ID": "2753578927",
+        "QualityCode": "q_runeword",
+        "Title": "Harmony",
+        "Tag": "Ward Bow",
+        "TextTag": "Ward Bow",
+        "RuneTag": "TirIthSolKo",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "69",
+        "DamageMaximum": "169",
+        "ThrowDamageMinimum": "9",
+        "ThrowDamageMaximum": "9",
+        "ItemLevel": "88",
+        "LevelReq": 60,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Tir Rune",
+            "Tag": "Tir Rune",
+            "TextTag": "Tir Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 13,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+2 to Mana after each Kill"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ith Rune",
+            "Tag": "Ith Rune",
+            "TextTag": "Ith Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 15,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+9 to Maximum Damage"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Sol Rune",
+            "Tag": "Sol Rune",
+            "TextTag": "Sol Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 27,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+9 to Minimum Damage"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ko Rune",
+            "Tag": "Ko Rune",
+            "TextTag": "Ko Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 39,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Dexterity"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "4",
+        "PropertyList": [
+          "Level 10 Vigor Aura When Equipped",
+          "+203% Enhanced Damage",
+          "+9 to Minimum Damage",
+          "+9 to Maximum Damage",
+          "Adds 55-160 Fire damage",
+          "Adds 55-160 Lightning damage",
+          "Adds 55-160 cold damage",
+          "+6 to Valkyrie",
+          "+10 to Dexterity",
+          "Regenerate Mana 20%",
+          "+2 to Mana after each Kill",
+          "+2 to Light Radius",
+          "Level 20 Revive (25/25 Charges)",
+          "Socketed (4)"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": "weapon1"
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1118787176",
+        "QualityCode": "q_rare",
+        "Title": "Death Eye",
+        "Tag": "Arrows",
+        "TextTag": "Arrows",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "86",
+        "LevelReq": 58,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Bow and Crossbow Skills (Amazon Only)",
+          "+23% Piercing Attack",
+          "Adds 9-12 damage",
+          "+56 to Maximum Damage (Based on Character Level)",
+          "+5 Life Gained on Ranged Hit",
+          "30% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
         },
         "Worn": "weapon2"
       }
@@ -223934,29 +224112,6 @@
       },
       {
         "Quality": "Normal",
-        "ID": "302309077",
-        "QualityCode": "q_normal",
-        "Title": "Tome of Identify",
-        "Tag": "Tome of Identify",
-        "TextTag": "Identify Book",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "84",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
         "ID": "1101845936",
         "QualityCode": "q_normal",
         "Title": "Tome of Town Portal",
@@ -223970,6 +224125,29 @@
         "PropertyList": [],
         "Position": {
           "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "302309077",
+        "QualityCode": "q_normal",
+        "Title": "Tome of Identify",
+        "Tag": "Tome of Identify",
+        "TextTag": "Identify Book",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "84",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 7,
           "y": 0
         },
         "Size": {
@@ -506740,11 +506918,11 @@
       "Vitality": 261,
       "Energy": 15,
       "BaseLife": 1055,
-      "Life": 1385,
+      "Life": 1463,
       "BaseMana": 148,
       "Mana": 166,
-      "Gold": 71111,
-      "Stashed": 1725793
+      "Gold": 0,
+      "Stashed": 1796904
     },
     "Bonus": {
       "Strength": 65,
@@ -506770,8 +506948,32 @@
       "DamageReduction": 0,
       "CooldownReduction": 0,
       "WeaponSetMain": {
-        "Strength": 30,
-        "Dexterity": 0,
+        "Strength": 0,
+        "Dexterity": 10,
+        "Vitality": 0,
+        "Energy": 0,
+        "FireResistance": 0,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 0,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 0,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 0,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 30,
+        "GoldFind": 0,
+        "FasterCastRate": 0,
+        "FasterHitRecovery": 0,
+        "IncreasedAttackSpeed": 0,
+        "CrushingBlow": 0,
+        "OpenWounds": 0,
+        "DeadlyStrike": 0,
+        "DamageReduction": 0,
+        "CooldownReduction": 0
+      },
+      "WeaponSetOffhand": {
+        "Strength": 50,
+        "Dexterity": 20,
         "Vitality": 0,
         "Energy": 0,
         "FireResistance": 0,
@@ -506786,35 +506988,11 @@
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 15,
-        "CrushingBlow": 0,
-        "OpenWounds": 0,
-        "DeadlyStrike": 0,
-        "DamageReduction": 30,
-        "CooldownReduction": 0
-      },
-      "WeaponSetOffhand": {
-        "Strength": 0,
-        "Dexterity": 0,
-        "Vitality": 0,
-        "Energy": 0,
-        "FireResistance": 0,
-        "MaximumFireResistance": 0,
-        "ColdResistance": 0,
-        "MaximumColdResistance": 0,
-        "LightningResistance": 0,
-        "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
-        "MaximumPoisonResistance": 0,
-        "MagicFind": 0,
-        "GoldFind": 0,
-        "FasterCastRate": 0,
-        "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
-        "DamageReduction": 0,
+        "DamageReduction": 30,
         "CooldownReduction": 0
       }
     },
@@ -507218,40 +507396,43 @@
       },
       {
         "Quality": "Unique",
-        "ID": "575022478",
+        "ID": "3038670924",
         "QualityCode": "q_unique",
-        "Title": "Thunderstroke",
-        "Tag": "Matriarchal Javelin",
-        "TextTag": "MatriarchalJavelin",
+        "Title": "Titan's Revenge",
+        "Tag": "Ceremonial Javelin",
+        "TextTag": "Ceremonial Javelin",
         "Ethereal": "False",
         "Enhanced": "True",
-        "DamageMinimum": "84",
-        "DamageMaximum": "151",
-        "ThrowDamageMinimum": "98",
-        "ThrowDamageMaximum": "185",
-        "Durability": "63",
+        "DamageMinimum": "74",
+        "DamageMaximum": "95",
+        "ThrowDamageMinimum": "74",
+        "ThrowDamageMaximum": "147",
+        "Durability": "100",
         "DurabilityMaximum": "100",
-        "ItemLevel": "90",
-        "LevelReq": 69,
+        "ItemLevel": "88",
+        "LevelReq": 42,
         "SocketCount": "0",
         "PropertyList": [
-          "20% Chance to cast level 14 Lightning Surge on striking",
-          "+4 to Javelin and Spear Skills (Amazon Only)",
-          "+15% Increased Attack Speed",
-          "+181% Enhanced Damage",
-          "Adds 1-511 Lightning damage",
-          "-15% to Enemy Lightning Resistance",
-          "+3 to Lightning Bolt (Amazon Only)"
+          "+2 to Javelin and Spear Skills (Amazon Only)",
+          "+2 to Amazon Skill Levels",
+          "+30% Faster Run/Walk",
+          "+173% Enhanced Damage",
+          "Adds 25-50 damage",
+          "9% Life stolen per hit",
+          "+20 to Strength",
+          "+20 to Dexterity",
+          "Increased Stack Size",
+          "Repairs 1 durability in 3 seconds"
         ],
         "Position": {
-          "x": 4,
+          "x": 11,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 1
         },
-        "Worn": "weapon1"
+        "Worn": "sweapon1"
       },
       {
         "Quality": "Unique",
@@ -507282,12 +507463,187 @@
           "Attacker Takes Lightning Damage of 10"
         ],
         "Position": {
-          "x": 5,
+          "x": 12,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
+        },
+        "Worn": "sweapon2"
+      },
+      {
+        "Quality": "Normal",
+        "ID": "2753578927",
+        "QualityCode": "q_runeword",
+        "Title": "Harmony",
+        "Tag": "Ward Bow",
+        "TextTag": "Ward Bow",
+        "RuneTag": "TirIthSolKo",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "69",
+        "DamageMaximum": "169",
+        "ThrowDamageMinimum": "9",
+        "ThrowDamageMaximum": "9",
+        "ItemLevel": "88",
+        "LevelReq": 60,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Tir Rune",
+            "Tag": "Tir Rune",
+            "TextTag": "Tir Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 13,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+2 to Mana after each Kill"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ith Rune",
+            "Tag": "Ith Rune",
+            "TextTag": "Ith Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 15,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+9 to Maximum Damage"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Sol Rune",
+            "Tag": "Sol Rune",
+            "TextTag": "Sol Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 27,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+9 to Minimum Damage"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ko Rune",
+            "Tag": "Ko Rune",
+            "TextTag": "Ko Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 39,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Dexterity"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "4",
+        "PropertyList": [
+          "Level 10 Vigor Aura When Equipped",
+          "+203% Enhanced Damage",
+          "+9 to Minimum Damage",
+          "+9 to Maximum Damage",
+          "Adds 55-160 Fire damage",
+          "Adds 55-160 Lightning damage",
+          "Adds 55-160 cold damage",
+          "+6 to Valkyrie",
+          "+10 to Dexterity",
+          "Regenerate Mana 20%",
+          "+2 to Mana after each Kill",
+          "+2 to Light Radius",
+          "Level 20 Revive (25/25 Charges)",
+          "Socketed (4)"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": "weapon1"
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1118787176",
+        "QualityCode": "q_rare",
+        "Title": "Death Eye",
+        "Tag": "Arrows",
+        "TextTag": "Arrows",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "86",
+        "LevelReq": 58,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Bow and Crossbow Skills (Amazon Only)",
+          "+23% Piercing Attack",
+          "Adds 9-12 damage",
+          "+56 to Maximum Damage (Based on Character Level)",
+          "+5 Life Gained on Ranged Hit",
+          "30% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
         },
         "Worn": "weapon2"
       }
@@ -508251,29 +508607,6 @@
       },
       {
         "Quality": "Normal",
-        "ID": "302309077",
-        "QualityCode": "q_normal",
-        "Title": "Tome of Identify",
-        "Tag": "Tome of Identify",
-        "TextTag": "Identify Book",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "84",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
         "ID": "1101845936",
         "QualityCode": "q_normal",
         "Title": "Tome of Town Portal",
@@ -508287,6 +508620,29 @@
         "PropertyList": [],
         "Position": {
           "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "302309077",
+        "QualityCode": "q_normal",
+        "Title": "Tome of Identify",
+        "Tag": "Tome of Identify",
+        "TextTag": "Identify Book",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "84",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 7,
           "y": 0
         },
         "Size": {

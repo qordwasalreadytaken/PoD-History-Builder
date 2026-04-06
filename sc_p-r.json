@@ -39720,7 +39720,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 94,
-      "Experience": 2297932699,
+      "Experience": 2286495003,
       "Strength": 82,
       "Dexterity": 314,
       "Vitality": 149,
@@ -39728,9 +39728,9 @@
       "BaseLife": 729,
       "Life": 1167,
       "BaseMana": 154,
-      "Mana": 320,
-      "Gold": 293063,
-      "Stashed": 2500000
+      "Mana": 260,
+      "Gold": 13283,
+      "Stashed": 2400000
     },
     "Bonus": {
       "Strength": 52,
@@ -39781,7 +39781,7 @@
       },
       "WeaponSetOffhand": {
         "Strength": 0,
-        "Dexterity": 0,
+        "Dexterity": 10,
         "Vitality": 0,
         "Energy": 0,
         "FireResistance": 0,
@@ -39909,7 +39909,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "521",
-        "Durability": "60",
+        "Durability": "58",
         "DurabilityMaximum": "60",
         "ItemLevel": "86",
         "LevelReq": 63,
@@ -40114,7 +40114,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "48",
-        "Durability": "48",
+        "Durability": "47",
         "DurabilityMaximum": "18",
         "ItemLevel": "89",
         "LevelReq": 42,
@@ -40180,7 +40180,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "64",
-        "Durability": "20",
+        "Durability": "16",
         "DurabilityMaximum": "20",
         "ItemLevel": "87",
         "LevelReq": 66,
@@ -40335,7 +40335,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "55",
-        "Durability": "12",
+        "Durability": "10",
         "DurabilityMaximum": "12",
         "ItemLevel": "89",
         "LevelReq": 63,
@@ -40362,27 +40362,140 @@
         "Worn": "gloves"
       },
       {
-        "Quality": "Unique",
-        "ID": "4059422245",
-        "QualityCode": "q_unique",
-        "Title": "Kuko Shakaku",
-        "Tag": "Cedar Bow",
-        "TextTag": "Cedar Bow",
+        "Quality": "Normal",
+        "ID": "2487163558",
+        "QualityCode": "q_runeword",
+        "Title": "Harmony",
+        "Tag": "Matriarchal Bow",
+        "TextTag": "Matriarchal Bow",
+        "RuneTag": "TirIthSolKo",
         "Ethereal": "False",
         "Enhanced": "True",
-        "DamageMinimum": "27",
-        "DamageMaximum": "79",
-        "ItemLevel": "88",
-        "LevelReq": 33,
-        "SocketCount": "0",
+        "DamageMinimum": "69",
+        "DamageMaximum": "150",
+        "ThrowDamageMinimum": "9",
+        "ThrowDamageMaximum": "9",
+        "ItemLevel": "85",
+        "LevelReq": 39,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Tir Rune",
+            "Tag": "Tir Rune",
+            "TextTag": "Tir Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 13,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+2 to Mana after each Kill"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ith Rune",
+            "Tag": "Ith Rune",
+            "TextTag": "Ith Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 15,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+9 to Maximum Damage"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Sol Rune",
+            "Tag": "Sol Rune",
+            "TextTag": "Sol Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 27,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+9 to Minimum Damage"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ko Rune",
+            "Tag": "Ko Rune",
+            "TextTag": "Ko Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 39,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Dexterity"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "4",
         "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+3 to Bow and Crossbow Skills (Amazon Only)",
-          "Fires Explosive Arrows or Bolts",
-          "+50% Piercing Attack",
-          "+174% Enhanced Damage",
-          "Adds 40-180 Fire damage",
-          "+3 to Immolation Arrow (Amazon Only)"
+          "Level 10 Vigor Aura When Equipped",
+          "+1 to Bow and Crossbow Skills (Amazon Only)",
+          "+202% Enhanced Damage",
+          "+9 to Minimum Damage",
+          "+9 to Maximum Damage",
+          "Adds 55-160 Fire damage",
+          "Adds 55-160 Lightning damage",
+          "Adds 55-160 cold damage",
+          "+2 to Valkyrie",
+          "+10 to Dexterity",
+          "Regenerate Mana 20%",
+          "+2 to Mana after each Kill",
+          "+2 to Light Radius",
+          "Level 20 Revive (25/25 Charges)",
+          "Socketed (4)"
         ],
         "Position": {
           "x": 11,
@@ -41381,9 +41494,9 @@
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Scroll of Identify",
-        "Tag": "Scroll of Identify",
-        "TextTag": "Identify Scroll",
+        "Title": "Antidote Potion",
+        "Tag": "Antidote Potion",
+        "TextTag": "Antidote Potion",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "0",
@@ -41392,75 +41505,6 @@
         "PropertyList": [],
         "Position": {
           "x": 5,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Scroll of Identify",
-        "Tag": "Scroll of Identify",
-        "TextTag": "Identify Scroll",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 4,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Scroll of Identify",
-        "Tag": "Scroll of Identify",
-        "TextTag": "Identify Scroll",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 3,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 3,
           "y": 0
         },
         "Size": {
@@ -89229,7 +89273,7 @@
       "BaseMana": 153,
       "Mana": 264,
       "Gold": 0,
-      "Stashed": 1055404
+      "Stashed": 1054780
     },
     "Bonus": {
       "Strength": 98,
@@ -90782,40 +90826,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "4009861933",
-        "QualityCode": "q_unique",
-        "Title": "Frostburn",
-        "Tag": "Gauntlets",
-        "TextTag": "Gaunlets(H)",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "16",
-        "Durability": "24",
-        "DurabilityMaximum": "24",
-        "ItemLevel": "91",
-        "LevelReq": 29,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+5% Enhanced Damage",
-          "Adds 6-12 cold damage",
-          "+13% Enhanced Defense",
-          "+30 Defense",
-          "Increase Maximum Mana 35%",
-          "All Resistances +7"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Magic",
         "ID": "2050043805",
         "QualityCode": "q_magic",
@@ -91180,6 +91190,29 @@
         "Worn": ""
       },
       {
+        "Quality": "Normal",
+        "ID": "1233915176",
+        "QualityCode": "q_normal",
+        "Title": "Tome of Town Portal",
+        "Tag": "Tome of Town Portal",
+        "TextTag": "Town Portal Book",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "98",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
         "Quality": "Unique",
         "ID": "1145909559",
         "QualityCode": "q_unique",
@@ -91394,106 +91427,36 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "2729563686",
-        "QualityCode": "q_magic",
-        "Title": "Lion Branded Grand Charm of Life",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
+        "Quality": "Unique",
+        "ID": "4009861933",
+        "QualityCode": "q_unique",
+        "Title": "Frostburn",
+        "Tag": "Gauntlets",
+        "TextTag": "Gaunlets(H)",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 42,
+        "Enhanced": "True",
+        "Defense": "16",
+        "Durability": "24",
+        "DurabilityMaximum": "24",
+        "ItemLevel": "91",
+        "LevelReq": 29,
         "SocketCount": "0",
         "PropertyList": [
-          "+1 to Combat Skills (Paladin Only)",
-          "+20 to Life"
-        ],
-        "Position": {
-          "x": 5,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "4224304447",
-        "QualityCode": "q_magic",
-        "Title": "Lion Branded Grand Charm of Sustenance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Combat Skills (Paladin Only)",
-          "+21 to Life"
+          "\u00ffc1Corrupted",
+          "+5% Enhanced Damage",
+          "Adds 6-12 cold damage",
+          "+13% Enhanced Defense",
+          "+30 Defense",
+          "Increase Maximum Mana 35%",
+          "All Resistances +7"
         ],
         "Position": {
           "x": 4,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2135692857",
-        "QualityCode": "q_magic",
-        "Title": "Lion Branded Grand Charm of Sustenance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "86",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Combat Skills (Paladin Only)",
-          "+21 to Life"
-        ],
-        "Position": {
-          "x": 3,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "1233915176",
-        "QualityCode": "q_normal",
-        "Title": "Tome of Town Portal",
-        "Tag": "Tome of Town Portal",
-        "TextTag": "Town Portal Book",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "98",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 0,
-          "y": 0
+          "y": 3
         },
         "Size": {
           "invheight": 2,
-          "invwidth": 1
+          "invwidth": 2
         },
         "Worn": ""
       },
@@ -91534,35 +91497,84 @@
         "Worn": ""
       },
       {
-        "Quality": "Superior",
-        "ID": "1584832930",
-        "QualityCode": "q_runeword",
-        "Title": "Metamorphosis",
-        "Tag": "Sky Spirit",
-        "TextTag": "Sky Spirit",
-        "RuneTag": "IoChamFal",
+        "Quality": "Normal",
+        "ID": "427984643",
+        "QualityCode": "q_normal",
+        "Title": "Tome of Identify",
+        "Tag": "Tome of Identify",
+        "TextTag": "Identify Book",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "96",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "4189901896",
+        "QualityCode": "q_normal",
+        "Title": "Key",
+        "Tag": "Key",
+        "TextTag": "Skeleton Key",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "12",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "4270756137",
+        "QualityCode": "q_unique",
+        "Title": "Arkaine's Valor",
+        "Tag": "Balrog Skin",
+        "TextTag": "Balrog Skin",
         "Ethereal": "False",
         "Enhanced": "True",
-        "Defense": "156",
-        "Durability": "22",
-        "DurabilityMaximum": "20",
+        "Defense": "518",
+        "Durability": "30",
+        "DurabilityMaximum": "30",
         "ItemLevel": "88",
-        "LevelReq": 67,
+        "LevelReq": 85,
         "Sockets": [
           {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Io Rune",
-            "Tag": "Io Rune",
-            "TextTag": "Io Rune",
+            "Quality": "Unique",
+            "ID": "156947400",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
             "Ethereal": "False",
             "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 35,
+            "AlternateGraphics": "4",
+            "ItemLevel": "88",
+            "LevelReq": 49,
             "SocketCount": "0",
             "PropertyList": [
-              "+10 to Vitality"
+              "100% Chance to cast level 51 Poison Nova when you Die",
+              "Adds 37-146 poison damage over 2 seconds",
+              "-5% to Enemy Poison Resistance",
+              "+4% Increased Poison Damage"
             ],
             "Position": {
               "x": 0,
@@ -91575,19 +91587,23 @@
             "Worn": ""
           },
           {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Cham Rune",
-            "Tag": "Cham Rune",
-            "TextTag": "Cham Rune",
+            "Quality": "Unique",
+            "ID": "1025562039",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
             "Ethereal": "False",
             "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 67,
+            "AlternateGraphics": "3",
+            "ItemLevel": "88",
+            "LevelReq": 49,
             "SocketCount": "0",
             "PropertyList": [
-              "Cannot Be Frozen"
+              "100% Chance to cast level 51 Poison Nova when you Die",
+              "+37 poison damage over 2 seconds",
+              "-5% to Enemy Poison Resistance",
+              "+4% Increased Poison Damage"
             ],
             "Position": {
               "x": 1,
@@ -91600,19 +91616,23 @@
             "Worn": ""
           },
           {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Fal Rune",
-            "Tag": "Fal Rune",
-            "TextTag": "Fal Rune",
+            "Quality": "Unique",
+            "ID": "3102357060",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
             "Ethereal": "False",
             "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 41,
+            "AlternateGraphics": "0",
+            "ItemLevel": "88",
+            "LevelReq": 49,
             "SocketCount": "0",
             "PropertyList": [
-              "+10 to Strength"
+              "100% Chance to cast level 51 Poison Nova when you Die",
+              "+37 poison damage over 2 seconds",
+              "-5% to Enemy Poison Resistance",
+              "+4% Increased Poison Damage"
             ],
             "Position": {
               "x": 2,
@@ -91623,32 +91643,58 @@
               "invwidth": 1
             },
             "Worn": ""
+          },
+          {
+            "Quality": "Unique",
+            "ID": "2679879390",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "4",
+            "ItemLevel": "88",
+            "LevelReq": 49,
+            "SocketCount": "0",
+            "PropertyList": [
+              "100% Chance to cast level 23 Venom when you Level-Up",
+              "+37 poison damage over 2 seconds",
+              "-4% to Enemy Poison Resistance",
+              "+5% Increased Poison Damage"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
           }
         ],
-        "SocketCount": "3",
+        "SocketCount": "4",
         "PropertyList": [
-          "+5 to Shape Shifting Skills (Druid Only)",
-          "25% Chance of Crushing Blow",
-          "+5 to Summon Dire Wolf (Druid Only)",
-          "+2 to Feral Rage (Druid Only)",
-          "+3 to Rabies (Druid Only)",
-          "+1 to Fury (Druid Only)",
-          "+78% Enhanced Defense",
-          "+10 to Strength",
-          "+10 to Vitality",
-          "All Resistances +10",
-          "Cannot Be Frozen",
-          "Increase Maximum Durability 14%",
-          "-13% to Enemy Poison Resist affected by Rabies",
-          "Grizzly/Werebear Cleave on Striking with Maul charges (Level Based on Charges)",
-          "Socketed (3)"
+          "\u00ffc1Corrupted",
+          "100% Chance to cast level 23 Venom when you Level-Up",
+          "300% Chance to cast level 51 Poison Nova when you Die",
+          "+2 to All Skills",
+          "+30% Faster Hit Recovery",
+          "+146 poison damage over 2 seconds",
+          "-19% to Enemy Poison Resistance",
+          "+17% Increased Poison Damage",
+          "+161% Enhanced Defense",
+          "+46 to Vitality (Based on Character Level)",
+          "Physical Damage Taken Reduced by 11",
+          "Socketed (4)"
         ],
         "Position": {
-          "x": 1,
+          "x": 4,
           "y": 0
         },
         "Size": {
-          "invheight": 2,
+          "invheight": 3,
           "invwidth": 2
         },
         "Worn": ""
@@ -286707,7 +286753,7 @@
       "BaseMana": 153,
       "Mana": 264,
       "Gold": 0,
-      "Stashed": 1055404
+      "Stashed": 1054780
     },
     "Bonus": {
       "Strength": 98,
@@ -288260,40 +288306,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "4009861933",
-        "QualityCode": "q_unique",
-        "Title": "Frostburn",
-        "Tag": "Gauntlets",
-        "TextTag": "Gaunlets(H)",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "16",
-        "Durability": "24",
-        "DurabilityMaximum": "24",
-        "ItemLevel": "91",
-        "LevelReq": 29,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+5% Enhanced Damage",
-          "Adds 6-12 cold damage",
-          "+13% Enhanced Defense",
-          "+30 Defense",
-          "Increase Maximum Mana 35%",
-          "All Resistances +7"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Magic",
         "ID": "2050043805",
         "QualityCode": "q_magic",
@@ -288658,6 +288670,29 @@
         "Worn": ""
       },
       {
+        "Quality": "Normal",
+        "ID": "1233915176",
+        "QualityCode": "q_normal",
+        "Title": "Tome of Town Portal",
+        "Tag": "Tome of Town Portal",
+        "TextTag": "Town Portal Book",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "98",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
         "Quality": "Unique",
         "ID": "1145909559",
         "QualityCode": "q_unique",
@@ -288872,106 +288907,36 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "2729563686",
-        "QualityCode": "q_magic",
-        "Title": "Lion Branded Grand Charm of Life",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
+        "Quality": "Unique",
+        "ID": "4009861933",
+        "QualityCode": "q_unique",
+        "Title": "Frostburn",
+        "Tag": "Gauntlets",
+        "TextTag": "Gaunlets(H)",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 42,
+        "Enhanced": "True",
+        "Defense": "16",
+        "Durability": "24",
+        "DurabilityMaximum": "24",
+        "ItemLevel": "91",
+        "LevelReq": 29,
         "SocketCount": "0",
         "PropertyList": [
-          "+1 to Combat Skills (Paladin Only)",
-          "+20 to Life"
-        ],
-        "Position": {
-          "x": 5,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "4224304447",
-        "QualityCode": "q_magic",
-        "Title": "Lion Branded Grand Charm of Sustenance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Combat Skills (Paladin Only)",
-          "+21 to Life"
+          "\u00ffc1Corrupted",
+          "+5% Enhanced Damage",
+          "Adds 6-12 cold damage",
+          "+13% Enhanced Defense",
+          "+30 Defense",
+          "Increase Maximum Mana 35%",
+          "All Resistances +7"
         ],
         "Position": {
           "x": 4,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2135692857",
-        "QualityCode": "q_magic",
-        "Title": "Lion Branded Grand Charm of Sustenance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "86",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Combat Skills (Paladin Only)",
-          "+21 to Life"
-        ],
-        "Position": {
-          "x": 3,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "1233915176",
-        "QualityCode": "q_normal",
-        "Title": "Tome of Town Portal",
-        "Tag": "Tome of Town Portal",
-        "TextTag": "Town Portal Book",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "98",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 0,
-          "y": 0
+          "y": 3
         },
         "Size": {
           "invheight": 2,
-          "invwidth": 1
+          "invwidth": 2
         },
         "Worn": ""
       },
@@ -289012,35 +288977,84 @@
         "Worn": ""
       },
       {
-        "Quality": "Superior",
-        "ID": "1584832930",
-        "QualityCode": "q_runeword",
-        "Title": "Metamorphosis",
-        "Tag": "Sky Spirit",
-        "TextTag": "Sky Spirit",
-        "RuneTag": "IoChamFal",
+        "Quality": "Normal",
+        "ID": "427984643",
+        "QualityCode": "q_normal",
+        "Title": "Tome of Identify",
+        "Tag": "Tome of Identify",
+        "TextTag": "Identify Book",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "96",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "4189901896",
+        "QualityCode": "q_normal",
+        "Title": "Key",
+        "Tag": "Key",
+        "TextTag": "Skeleton Key",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "12",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "4270756137",
+        "QualityCode": "q_unique",
+        "Title": "Arkaine's Valor",
+        "Tag": "Balrog Skin",
+        "TextTag": "Balrog Skin",
         "Ethereal": "False",
         "Enhanced": "True",
-        "Defense": "156",
-        "Durability": "22",
-        "DurabilityMaximum": "20",
+        "Defense": "518",
+        "Durability": "30",
+        "DurabilityMaximum": "30",
         "ItemLevel": "88",
-        "LevelReq": 67,
+        "LevelReq": 85,
         "Sockets": [
           {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Io Rune",
-            "Tag": "Io Rune",
-            "TextTag": "Io Rune",
+            "Quality": "Unique",
+            "ID": "156947400",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
             "Ethereal": "False",
             "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 35,
+            "AlternateGraphics": "4",
+            "ItemLevel": "88",
+            "LevelReq": 49,
             "SocketCount": "0",
             "PropertyList": [
-              "+10 to Vitality"
+              "100% Chance to cast level 51 Poison Nova when you Die",
+              "Adds 37-146 poison damage over 2 seconds",
+              "-5% to Enemy Poison Resistance",
+              "+4% Increased Poison Damage"
             ],
             "Position": {
               "x": 0,
@@ -289053,19 +289067,23 @@
             "Worn": ""
           },
           {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Cham Rune",
-            "Tag": "Cham Rune",
-            "TextTag": "Cham Rune",
+            "Quality": "Unique",
+            "ID": "1025562039",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
             "Ethereal": "False",
             "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 67,
+            "AlternateGraphics": "3",
+            "ItemLevel": "88",
+            "LevelReq": 49,
             "SocketCount": "0",
             "PropertyList": [
-              "Cannot Be Frozen"
+              "100% Chance to cast level 51 Poison Nova when you Die",
+              "+37 poison damage over 2 seconds",
+              "-5% to Enemy Poison Resistance",
+              "+4% Increased Poison Damage"
             ],
             "Position": {
               "x": 1,
@@ -289078,19 +289096,23 @@
             "Worn": ""
           },
           {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Fal Rune",
-            "Tag": "Fal Rune",
-            "TextTag": "Fal Rune",
+            "Quality": "Unique",
+            "ID": "3102357060",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
             "Ethereal": "False",
             "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 41,
+            "AlternateGraphics": "0",
+            "ItemLevel": "88",
+            "LevelReq": 49,
             "SocketCount": "0",
             "PropertyList": [
-              "+10 to Strength"
+              "100% Chance to cast level 51 Poison Nova when you Die",
+              "+37 poison damage over 2 seconds",
+              "-5% to Enemy Poison Resistance",
+              "+4% Increased Poison Damage"
             ],
             "Position": {
               "x": 2,
@@ -289101,32 +289123,58 @@
               "invwidth": 1
             },
             "Worn": ""
+          },
+          {
+            "Quality": "Unique",
+            "ID": "2679879390",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "4",
+            "ItemLevel": "88",
+            "LevelReq": 49,
+            "SocketCount": "0",
+            "PropertyList": [
+              "100% Chance to cast level 23 Venom when you Level-Up",
+              "+37 poison damage over 2 seconds",
+              "-4% to Enemy Poison Resistance",
+              "+5% Increased Poison Damage"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
           }
         ],
-        "SocketCount": "3",
+        "SocketCount": "4",
         "PropertyList": [
-          "+5 to Shape Shifting Skills (Druid Only)",
-          "25% Chance of Crushing Blow",
-          "+5 to Summon Dire Wolf (Druid Only)",
-          "+2 to Feral Rage (Druid Only)",
-          "+3 to Rabies (Druid Only)",
-          "+1 to Fury (Druid Only)",
-          "+78% Enhanced Defense",
-          "+10 to Strength",
-          "+10 to Vitality",
-          "All Resistances +10",
-          "Cannot Be Frozen",
-          "Increase Maximum Durability 14%",
-          "-13% to Enemy Poison Resist affected by Rabies",
-          "Grizzly/Werebear Cleave on Striking with Maul charges (Level Based on Charges)",
-          "Socketed (3)"
+          "\u00ffc1Corrupted",
+          "100% Chance to cast level 23 Venom when you Level-Up",
+          "300% Chance to cast level 51 Poison Nova when you Die",
+          "+2 to All Skills",
+          "+30% Faster Hit Recovery",
+          "+146 poison damage over 2 seconds",
+          "-19% to Enemy Poison Resistance",
+          "+17% Increased Poison Damage",
+          "+161% Enhanced Defense",
+          "+46 to Vitality (Based on Character Level)",
+          "Physical Damage Taken Reduced by 11",
+          "Socketed (4)"
         ],
         "Position": {
-          "x": 1,
+          "x": 4,
           "y": 0
         },
         "Size": {
-          "invheight": 2,
+          "invheight": 3,
           "invwidth": 2
         },
         "Worn": ""
