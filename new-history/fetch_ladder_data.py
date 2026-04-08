@@ -261,6 +261,8 @@ def process_characters(characters):
         key = str(name).lower()
         normalized_characters[key] = data
 
+#    charlevel = char_data.get('level', 'Unknown')
+#    timestamp = "Level: " + str(charlevel) + " " + datetime.utcnow().isoformat() + 'Z'
     timestamp = datetime.utcnow().isoformat() + 'Z'
     recently_changed = []
     for char_name, char_data in normalized_characters.items():

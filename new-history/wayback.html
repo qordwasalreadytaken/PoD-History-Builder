@@ -287,7 +287,7 @@ $(document).ready(function() {
                 const snapshotTime = params.get('t');
                 snapshots.forEach((snap, idx) => {
                     const active = snap.timestamp === snapshotTime ? ' active' : '';
-                    html += `<li><button class="snapshot-btn${active}" data-timestamp="${snap.timestamp}" data-name="${name}">${snap.timestamp}</button></li>`;
+                    html += `<li><button class="snapshot-btn${active}" data-timestamp="${snap.timestamp}" data-name="${name}">${formatSnapshotLabel(snap)}</button></li>`;
                 });
                 html += '</ul>';
                 $('#snapshotList').html(html);
@@ -303,6 +303,26 @@ $(document).ready(function() {
                 $('#snapshotList').html('<div style="color:#c00">No snapshots found for <b>' + name + '</b>.</div>');
             });
     });
+
+    // Format how each snapshot appears in the list without changing
+    // the underlying timestamp value used for sorting and URLs.
+    function formatSnapshotLabel(snap) {
+        const rawTs = (snap && typeof snap.timestamp === 'string') ? snap.timestamp : '';
+
+        // Shorten timestamp: keep date + minutes, swap 'T' for space.
+        let displayTime = rawTs;
+        if (rawTs.length >= 16) {
+            displayTime = rawTs.substring(0, 16).replace('T', ' ');
+        }
+
+        // Pull character level from snapshot data if present.
+        let levelPrefix = '';
+        if (snap && snap.data && snap.data.Stats && typeof snap.data.Stats.Level !== 'undefined') {
+            levelPrefix = `Lv ${snap.data.Stats.Level} - `; // en dash
+        }
+
+        return levelPrefix + displayTime;
+    }
 
     // Handle snapshot selection
     $('#snapshotList').on('click', '.snapshot-btn', function() {
@@ -352,7 +372,7 @@ $(document).ready(function() {
                     let html = '<div>Snapshots for <b>' + charName + '</b>:</div><ul style="margin-top:8px">';
                     snapshots.forEach(snap => {
                         const active = snap.timestamp === timestamp ? ' active' : '';
-                        html += `<li><button class="snapshot-btn${active}" data-timestamp="${snap.timestamp}" data-name="${charName}">${snap.timestamp}</button></li>`;
+                        html += `<li><button class="snapshot-btn${active}" data-timestamp="${snap.timestamp}" data-name="${charName}">${formatSnapshotLabel(snap)}</button></li>`;
                     });
                     html += '</ul>';
                     $('#snapshotList').html(html);
