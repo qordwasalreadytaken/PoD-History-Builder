@@ -9313,5 +9313,171 @@ const synthInventory = [
     "seen_date": "2026-04-08",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Spineripper%2C0%2Cnone%2Cias%3A15%2Cdamage_bonus%3A444%2CcDamage_min%3A32%2CcDamage_max%3A196%2Clife_leech%3A8%2Cpmh%3A1%2Cskill_Grim_Ward%3A4%2Cfreezes_target%3A3%2Cdefense%3A144"
+  },
+  {
+    "id": "f26c2d836a00a6d71a713453ce17086d45e4983299e99214577543b56ab00dce",
+    "friendly_id": 161,
+    "owner": "Kablamofist",
+    "base_type": "Synthesized Mancatcher",
+    "title": "Viperfork",
+    "properties": [
+      "ÿc1Corrupted",
+      "Melee attacks deal splash damage",
+      "+85% Increased Attack Speed",
+      "+541% Enhanced Damage",
+      "Adds 12-20 damage",
+      "+250 to Attack Rating",
+      "+18 to Immolation Arrow",
+      "+4 to Energy",
+      "+6% to Maximum Poison Resist",
+      "Socketed (5)"
+    ],
+    "synthesised_from": [
+      "Pierre Tombale Couant",
+      "Hellrack"
+    ],
+    "location": "MercenaryEquipped",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "269",
+    "DamageMaximum": "589",
+    "LevelReq": 71,
+    "SocketCount": "5",
+    "seen_date": "2026-04-09",
+    "sockets": [
+      {
+        "Quality": "Magic",
+        "ID": "1483552296",
+        "QualityCode": "q_magic",
+        "Title": "Brute's Jewel of Fervor",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 31,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Melee attacks deal splash damage",
+          "+15% Increased Attack Speed"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Shael Rune",
+        "Tag": "Shael Rune",
+        "TextTag": "Shael Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 29,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20% Increased Attack Speed"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "4206344453",
+        "QualityCode": "q_magic",
+        "Title": "Ruby Jewel",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "3",
+        "ItemLevel": "86",
+        "LevelReq": 58,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+35% Enhanced Damage"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3763533277",
+        "QualityCode": "q_magic",
+        "Title": "Ruby Jewel of Knowledge",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "5",
+        "ItemLevel": "88",
+        "LevelReq": 58,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+32% Enhanced Damage",
+          "+4 to Energy"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3050178182",
+        "QualityCode": "q_magic",
+        "Title": "Ruby Jewel",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "84",
+        "LevelReq": 58,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+31% Enhanced Damage"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      }
+    ],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Viperfork%2C0%2Cnone%2Cmelee_splash%3A1%2Cias%3A85%2Cdamage_bonus%3A541%2Cdamage%3A20%2Car%3A250%2Coskill_Immolation_Arrow%3A18%2Cenergy%3A4%2CpRes_max%3A6%2Csockets%3A5"
   }
 ];
