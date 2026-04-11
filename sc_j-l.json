@@ -7933,10 +7933,10 @@
       "BaseMana": 169,
       "Mana": 315,
       "Gold": 0,
-      "Stashed": 1349972
+      "Stashed": 1299522
     },
     "Bonus": {
-      "Strength": 104,
+      "Strength": 119,
       "Dexterity": 62,
       "Vitality": 34,
       "Energy": 7,
@@ -7952,14 +7952,14 @@
       "GoldFind": 0,
       "FasterCastRate": 0,
       "FasterHitRecovery": 60,
-      "IncreasedAttackSpeed": 30,
+      "IncreasedAttackSpeed": 0,
       "CrushingBlow": 0,
-      "OpenWounds": 0,
+      "OpenWounds": 25,
       "DeadlyStrike": 7,
       "DamageReduction": 37,
       "CooldownReduction": 0,
       "WeaponSetMain": {
-        "Strength": 10,
+        "Strength": 0,
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
@@ -7975,9 +7975,9 @@
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 55,
+        "IncreasedAttackSpeed": 40,
         "CrushingBlow": 0,
-        "OpenWounds": 25,
+        "OpenWounds": 0,
         "DeadlyStrike": 0,
         "DamageReduction": 0,
         "CooldownReduction": 0
@@ -8524,36 +8524,6 @@
         "Worn": "helmet"
       },
       {
-        "Quality": "Magic",
-        "ID": "3072491442",
-        "QualityCode": "q_magic",
-        "Title": "Kenshi's Chain Gloves of Alacrity",
-        "Tag": "Chain Gloves",
-        "TextTag": "Bracers(M)",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "Defense": "8",
-        "Durability": "13",
-        "DurabilityMaximum": "16",
-        "ItemLevel": "78",
-        "LevelReq": 45,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+3 to Martial Arts (Assassin Only)",
-          "+30% Increased Attack Speed"
-        ],
-        "Position": {
-          "x": 10,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "gloves"
-      },
-      {
         "Quality": "Unique",
         "ID": "1405799984",
         "QualityCode": "q_unique",
@@ -8586,6 +8556,40 @@
           "invwidth": 2
         },
         "Worn": "boots"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3923055773",
+        "QualityCode": "q_unique",
+        "Title": "Dracul's Grasp",
+        "Tag": "Vampirebone Gloves",
+        "TextTag": "Vampirebone Gloves",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "66",
+        "Durability": "13",
+        "DurabilityMaximum": "14",
+        "ItemLevel": "91",
+        "LevelReq": 76,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "5% Chance to cast level 10 Life Tap on striking",
+          "9% Life stolen per hit",
+          "25% Chance of Open Wounds",
+          "+105% Enhanced Defense",
+          "+15 to Strength",
+          "+9 Life after each Kill"
+        ],
+        "Position": {
+          "x": 10,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "gloves"
       },
       {
         "Quality": "Unique",
@@ -8779,36 +8783,36 @@
         "Worn": "weapon1"
       },
       {
-        "Quality": "Superior",
-        "ID": "3494190195",
+        "Quality": "Normal",
+        "ID": "1147290199",
         "QualityCode": "q_runeword",
-        "Title": "Chaos",
-        "Tag": "Greater Talons",
-        "TextTag": "Greater Talons",
-        "RuneTag": "FalOhmUm",
+        "Title": "Mosaic",
+        "Tag": "Feral Claws",
+        "TextTag": "Feral Claws",
+        "RuneTag": "MalGulAmn",
         "Ethereal": "False",
         "Enhanced": "True",
-        "DamageMinimum": "86",
-        "DamageMaximum": "144",
-        "Durability": "203",
+        "DamageMinimum": "68",
+        "DamageMaximum": "164",
+        "Durability": "189",
         "DurabilityMaximum": "215",
-        "ItemLevel": "87",
-        "LevelReq": 57,
+        "ItemLevel": "89",
+        "LevelReq": 58,
         "Sockets": [
           {
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Fal Rune",
-            "Tag": "Fal Rune",
-            "TextTag": "Fal Rune",
+            "Title": "Mal Rune",
+            "Tag": "Mal Rune",
+            "TextTag": "Mal Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 41,
+            "LevelReq": 49,
             "SocketCount": "0",
             "PropertyList": [
-              "+10 to Strength"
+              "Prevent Monster Heal"
             ],
             "Position": {
               "x": 0,
@@ -8824,16 +8828,16 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Ohm Rune",
-            "Tag": "Ohm Rune",
-            "TextTag": "Ohm Rune",
+            "Title": "Gul Rune",
+            "Tag": "Gul Rune",
+            "TextTag": "Gul Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 57,
+            "LevelReq": 53,
             "SocketCount": "0",
             "PropertyList": [
-              "+50% Enhanced Damage"
+              "20% Bonus to Attack Rating"
             ],
             "Position": {
               "x": 1,
@@ -8849,16 +8853,16 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Um Rune",
-            "Tag": "Um Rune",
-            "TextTag": "Um Rune",
+            "Title": "Amn Rune",
+            "Tag": "Amn Rune",
+            "TextTag": "Amn Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 47,
+            "LevelReq": 25,
             "SocketCount": "0",
             "PropertyList": [
-              "25% Chance of Open Wounds"
+              "7% Life stolen per hit"
             ],
             "Position": {
               "x": 2,
@@ -8873,18 +8877,19 @@
         ],
         "SocketCount": "3",
         "PropertyList": [
-          "11% Chance to cast level 9 Charged Bolt on striking",
-          "9% Chance to cast level 11 Frozen Orb on striking",
-          "+35% Increased Attack Speed",
-          "+312% Enhanced Damage",
-          "+97 to Attack Rating (Based on Character Level)",
-          "Adds 216-471 Magic damage",
-          "25% Chance of Open Wounds",
-          "+1 to Burst of Speed (Assassin Only)",
+          "+2 to Martial Arts (Assassin Only)",
+          "+20% Increased Attack Speed",
+          "+211% Enhanced Damage",
+          "20% Bonus to Attack Rating",
+          "+8% Increased Cold Damage",
+          "+12% Increased Lightning Damage",
+          "+10% Increased Fire Damage",
+          "7% Life stolen per hit",
+          "Prevent Monster Heal",
           "+3 to Fists of Fire (Assassin Only)",
-          "+1 to Claws of Thunder (Assassin Only)",
-          "+1 to Whirlwind",
-          "+10 to Strength",
+          "+1 to Cobra Strike (Assassin Only)",
+          "+3 to Claws of Thunder (Assassin Only)",
+          "+3 Second(s) Duration to All Martial Arts charges",
           "Socketed (3)"
         ],
         "Position": {
@@ -8919,29 +8924,6 @@
         "Size": {
           "invheight": 2,
           "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "1526308300",
-        "QualityCode": "q_normal",
-        "Title": "Horadric Cube",
-        "Tag": "Horadric Cube",
-        "TextTag": "Horadric Cube",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "28",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
         },
         "Worn": ""
       },
@@ -9646,52 +9628,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 5,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Rejuvenation Potion",
-        "Tag": "Rejuvenation Potion",
-        "TextTag": "Rejuv Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 6,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Rare",
         "ID": "2270567230",
         "QualityCode": "q_rare",
@@ -9715,42 +9651,41 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Lum Rune",
-        "Tag": "Lum Rune",
-        "TextTag": "Lum Rune",
+        "Quality": "Normal",
+        "ID": "1526308300",
+        "QualityCode": "q_normal",
+        "Title": "Horadric Cube",
+        "Tag": "Horadric Cube",
+        "TextTag": "Horadric Cube",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 37,
+        "ItemLevel": "28",
+        "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 7,
-          "y": 4
+          "x": 8,
+          "y": 1
         },
         "Size": {
-          "invheight": 1,
-          "invwidth": 1
+          "invheight": 2,
+          "invwidth": 2
         },
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "3304234140",
-        "QualityCode": "q_magic",
-        "Title": "Jewel",
-        "Tag": "Jewel",
-        "TextTag": "Jewel",
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Rejuvenation Potion",
+        "Tag": "Rejuvenation Potion",
+        "TextTag": "Rejuv Potion",
         "Ethereal": "False",
-        "AlternateGraphics": "4",
-        "ItemLevel": "88",
-        "LevelReq": 25,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
         "Position": {
           "x": 7,
           "y": 3
@@ -291367,10 +291302,10 @@
       "BaseMana": 169,
       "Mana": 315,
       "Gold": 0,
-      "Stashed": 1349972
+      "Stashed": 1299522
     },
     "Bonus": {
-      "Strength": 104,
+      "Strength": 119,
       "Dexterity": 62,
       "Vitality": 34,
       "Energy": 7,
@@ -291386,14 +291321,14 @@
       "GoldFind": 0,
       "FasterCastRate": 0,
       "FasterHitRecovery": 60,
-      "IncreasedAttackSpeed": 30,
+      "IncreasedAttackSpeed": 0,
       "CrushingBlow": 0,
-      "OpenWounds": 0,
+      "OpenWounds": 25,
       "DeadlyStrike": 7,
       "DamageReduction": 37,
       "CooldownReduction": 0,
       "WeaponSetMain": {
-        "Strength": 10,
+        "Strength": 0,
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
@@ -291409,9 +291344,9 @@
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 55,
+        "IncreasedAttackSpeed": 40,
         "CrushingBlow": 0,
-        "OpenWounds": 25,
+        "OpenWounds": 0,
         "DeadlyStrike": 0,
         "DamageReduction": 0,
         "CooldownReduction": 0
@@ -291958,36 +291893,6 @@
         "Worn": "helmet"
       },
       {
-        "Quality": "Magic",
-        "ID": "3072491442",
-        "QualityCode": "q_magic",
-        "Title": "Kenshi's Chain Gloves of Alacrity",
-        "Tag": "Chain Gloves",
-        "TextTag": "Bracers(M)",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "Defense": "8",
-        "Durability": "13",
-        "DurabilityMaximum": "16",
-        "ItemLevel": "78",
-        "LevelReq": 45,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+3 to Martial Arts (Assassin Only)",
-          "+30% Increased Attack Speed"
-        ],
-        "Position": {
-          "x": 10,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "gloves"
-      },
-      {
         "Quality": "Unique",
         "ID": "1405799984",
         "QualityCode": "q_unique",
@@ -292020,6 +291925,40 @@
           "invwidth": 2
         },
         "Worn": "boots"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3923055773",
+        "QualityCode": "q_unique",
+        "Title": "Dracul's Grasp",
+        "Tag": "Vampirebone Gloves",
+        "TextTag": "Vampirebone Gloves",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "66",
+        "Durability": "13",
+        "DurabilityMaximum": "14",
+        "ItemLevel": "91",
+        "LevelReq": 76,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "5% Chance to cast level 10 Life Tap on striking",
+          "9% Life stolen per hit",
+          "25% Chance of Open Wounds",
+          "+105% Enhanced Defense",
+          "+15 to Strength",
+          "+9 Life after each Kill"
+        ],
+        "Position": {
+          "x": 10,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "gloves"
       },
       {
         "Quality": "Unique",
@@ -292213,36 +292152,36 @@
         "Worn": "weapon1"
       },
       {
-        "Quality": "Superior",
-        "ID": "3494190195",
+        "Quality": "Normal",
+        "ID": "1147290199",
         "QualityCode": "q_runeword",
-        "Title": "Chaos",
-        "Tag": "Greater Talons",
-        "TextTag": "Greater Talons",
-        "RuneTag": "FalOhmUm",
+        "Title": "Mosaic",
+        "Tag": "Feral Claws",
+        "TextTag": "Feral Claws",
+        "RuneTag": "MalGulAmn",
         "Ethereal": "False",
         "Enhanced": "True",
-        "DamageMinimum": "86",
-        "DamageMaximum": "144",
-        "Durability": "203",
+        "DamageMinimum": "68",
+        "DamageMaximum": "164",
+        "Durability": "189",
         "DurabilityMaximum": "215",
-        "ItemLevel": "87",
-        "LevelReq": 57,
+        "ItemLevel": "89",
+        "LevelReq": 58,
         "Sockets": [
           {
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Fal Rune",
-            "Tag": "Fal Rune",
-            "TextTag": "Fal Rune",
+            "Title": "Mal Rune",
+            "Tag": "Mal Rune",
+            "TextTag": "Mal Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 41,
+            "LevelReq": 49,
             "SocketCount": "0",
             "PropertyList": [
-              "+10 to Strength"
+              "Prevent Monster Heal"
             ],
             "Position": {
               "x": 0,
@@ -292258,16 +292197,16 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Ohm Rune",
-            "Tag": "Ohm Rune",
-            "TextTag": "Ohm Rune",
+            "Title": "Gul Rune",
+            "Tag": "Gul Rune",
+            "TextTag": "Gul Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 57,
+            "LevelReq": 53,
             "SocketCount": "0",
             "PropertyList": [
-              "+50% Enhanced Damage"
+              "20% Bonus to Attack Rating"
             ],
             "Position": {
               "x": 1,
@@ -292283,16 +292222,16 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Um Rune",
-            "Tag": "Um Rune",
-            "TextTag": "Um Rune",
+            "Title": "Amn Rune",
+            "Tag": "Amn Rune",
+            "TextTag": "Amn Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 47,
+            "LevelReq": 25,
             "SocketCount": "0",
             "PropertyList": [
-              "25% Chance of Open Wounds"
+              "7% Life stolen per hit"
             ],
             "Position": {
               "x": 2,
@@ -292307,18 +292246,19 @@
         ],
         "SocketCount": "3",
         "PropertyList": [
-          "11% Chance to cast level 9 Charged Bolt on striking",
-          "9% Chance to cast level 11 Frozen Orb on striking",
-          "+35% Increased Attack Speed",
-          "+312% Enhanced Damage",
-          "+97 to Attack Rating (Based on Character Level)",
-          "Adds 216-471 Magic damage",
-          "25% Chance of Open Wounds",
-          "+1 to Burst of Speed (Assassin Only)",
+          "+2 to Martial Arts (Assassin Only)",
+          "+20% Increased Attack Speed",
+          "+211% Enhanced Damage",
+          "20% Bonus to Attack Rating",
+          "+8% Increased Cold Damage",
+          "+12% Increased Lightning Damage",
+          "+10% Increased Fire Damage",
+          "7% Life stolen per hit",
+          "Prevent Monster Heal",
           "+3 to Fists of Fire (Assassin Only)",
-          "+1 to Claws of Thunder (Assassin Only)",
-          "+1 to Whirlwind",
-          "+10 to Strength",
+          "+1 to Cobra Strike (Assassin Only)",
+          "+3 to Claws of Thunder (Assassin Only)",
+          "+3 Second(s) Duration to All Martial Arts charges",
           "Socketed (3)"
         ],
         "Position": {
@@ -292353,29 +292293,6 @@
         "Size": {
           "invheight": 2,
           "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "1526308300",
-        "QualityCode": "q_normal",
-        "Title": "Horadric Cube",
-        "Tag": "Horadric Cube",
-        "TextTag": "Horadric Cube",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "28",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
         },
         "Worn": ""
       },
@@ -293080,52 +292997,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 5,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Rejuvenation Potion",
-        "Tag": "Rejuvenation Potion",
-        "TextTag": "Rejuv Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 6,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Rare",
         "ID": "2270567230",
         "QualityCode": "q_rare",
@@ -293149,42 +293020,41 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Lum Rune",
-        "Tag": "Lum Rune",
-        "TextTag": "Lum Rune",
+        "Quality": "Normal",
+        "ID": "1526308300",
+        "QualityCode": "q_normal",
+        "Title": "Horadric Cube",
+        "Tag": "Horadric Cube",
+        "TextTag": "Horadric Cube",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 37,
+        "ItemLevel": "28",
+        "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 7,
-          "y": 4
+          "x": 8,
+          "y": 1
         },
         "Size": {
-          "invheight": 1,
-          "invwidth": 1
+          "invheight": 2,
+          "invwidth": 2
         },
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "3304234140",
-        "QualityCode": "q_magic",
-        "Title": "Jewel",
-        "Tag": "Jewel",
-        "TextTag": "Jewel",
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Rejuvenation Potion",
+        "Tag": "Rejuvenation Potion",
+        "TextTag": "Rejuv Potion",
         "Ethereal": "False",
-        "AlternateGraphics": "4",
-        "ItemLevel": "88",
-        "LevelReq": 25,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
         "Position": {
           "x": 7,
           "y": 3
