@@ -38124,33 +38124,33 @@
       "BaseLife": 1380,
       "Life": 1380,
       "BaseMana": 156,
-      "Mana": 186,
+      "Mana": 203,
       "Gold": 0,
-      "Stashed": 1040355
+      "Stashed": 841455
     },
     "Bonus": {
-      "Strength": 30,
-      "Dexterity": 45,
+      "Strength": 32,
+      "Dexterity": 44,
       "Vitality": 0,
-      "Energy": 0,
-      "FireResistance": 53,
+      "Energy": 5,
+      "FireResistance": 70,
       "MaximumFireResistance": 0,
-      "ColdResistance": 70,
+      "ColdResistance": 89,
       "MaximumColdResistance": 0,
-      "LightningResistance": 78,
+      "LightningResistance": 85,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 53,
+      "PoisonResistance": 125,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 15,
+      "MagicFind": 19,
       "GoldFind": 0,
-      "FasterCastRate": 0,
+      "FasterCastRate": 10,
       "FasterHitRecovery": 0,
-      "IncreasedAttackSpeed": 20,
+      "IncreasedAttackSpeed": 30,
       "CrushingBlow": 0,
-      "OpenWounds": 0,
+      "OpenWounds": 25,
       "DeadlyStrike": 0,
       "DamageReduction": 0,
-      "CooldownReduction": 10,
+      "CooldownReduction": 0,
       "WeaponSetMain": {
         "Strength": 0,
         "Dexterity": 10,
@@ -38359,33 +38359,234 @@
       },
       {
         "Quality": "Unique",
-        "ID": "556882192",
+        "ID": "400563256",
         "QualityCode": "q_unique",
-        "Title": "Tyrael's Might",
-        "Tag": "Sacred Armor",
-        "TextTag": "Sacred Armor",
+        "Title": "Raven Frost",
+        "Tag": "Ring",
+        "TextTag": "ring",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "601",
-        "Durability": "34",
-        "DurabilityMaximum": "60",
-        "ItemLevel": "87",
-        "LevelReq": 84,
-        "SocketCount": "1",
+        "Enhanced": "False",
+        "AlternateGraphics": "4",
+        "ItemLevel": "91",
+        "LevelReq": 45,
+        "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "Indestructible",
-          "+20% Faster Run/Walk",
-          "14% Bonus to Attack Rating",
-          "+66% Damage to Demons",
-          "Slain Monsters Rest in Peace",
-          "+137% Enhanced Defense",
-          "+30 to Strength",
-          "All Resistances +23",
+          "+217 to Attack Rating",
+          "Adds 15-45 cold damage",
+          "+19 to Dexterity",
+          "+40 to Mana",
+          "Cold Absorb 20%",
           "Cannot Be Frozen",
-          "10% Reduced Skill Cooldown",
-          "Requirements -100%",
-          "Socketed (1)"
+          "10% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "ring1"
+      },
+      {
+        "Quality": "Rare",
+        "ID": "3757535189",
+        "QualityCode": "q_rare",
+        "Title": "Wraithra Eye",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 66,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+10% Faster Cast Rate",
+          "+18 to Strength",
+          "+5 to Energy",
+          "Fire Resist +10%",
+          "Poison Resist +25%",
+          "9% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "ring2"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "217221706",
+        "QualityCode": "q_unique",
+        "Title": "Dracul's Grasp",
+        "Tag": "Vampirebone Gloves",
+        "TextTag": "Vampirebone Gloves",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "66",
+        "Durability": "8",
+        "DurabilityMaximum": "14",
+        "ItemLevel": "88",
+        "LevelReq": 76,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "5% Chance to cast level 10 Life Tap on striking",
+          "7% Life stolen per hit",
+          "25% Chance of Open Wounds",
+          "+106% Enhanced Defense",
+          "+14 to Strength",
+          "Cold Resist +12%",
+          "+6 Life after each Kill"
+        ],
+        "Position": {
+          "x": 10,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "gloves"
+      },
+      {
+        "Quality": "Set",
+        "ID": "1664481798",
+        "QualityCode": "q_set",
+        "Title": "Trang-Oul's Scales",
+        "Tag": "Chaos Armor",
+        "TextTag": "Chaos Armor",
+        "RuneTag": "ThulTalOrtRal",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "343",
+        "Durability": "70",
+        "DurabilityMaximum": "70",
+        "ItemLevel": "88",
+        "LevelReq": 49,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Thul Rune",
+            "Tag": "Thul Rune",
+            "TextTag": "Thul Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 23,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Cold Resist +30%"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Tal Rune",
+            "Tag": "Tal Rune",
+            "TextTag": "Tal Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 17,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Poison Resist +30%"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ort Rune",
+            "Tag": "Ort Rune",
+            "TextTag": "Ort Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 21,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Lightning Resist +30%"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ral Rune",
+            "Tag": "Ral Rune",
+            "TextTag": "Ral Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 19,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Fire Resist +30%"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "4",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+2 to Summoning Skills (Necromancer Only)",
+          "+40% Faster Run/Walk",
+          "+150% Enhanced Defense",
+          "+100 Defense vs. Missile",
+          "Cold Resist +30%",
+          "Lightning Resist +30%",
+          "Fire Resist +30%",
+          "Poison Resist +70%",
+          "Requirements -40%",
+          "Socketed (4)"
         ],
         "Position": {
           "x": 3,
@@ -38399,25 +38600,26 @@
       },
       {
         "Quality": "Set",
-        "ID": "2014321995",
+        "ID": "2318005261",
         "QualityCode": "q_set",
-        "Title": "Tal Rasha's Fine-Spun Cloth",
-        "Tag": "Mesh Belt",
-        "TextTag": "Mesh Belt",
+        "Title": "M'avina's Tenet",
+        "Tag": "Sharkskin Belt",
+        "TextTag": "Sharkskin Belt",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "Defense": "35",
-        "Durability": "9",
-        "DurabilityMaximum": "16",
+        "Enhanced": "True",
+        "Defense": "32",
+        "Durability": "14",
+        "DurabilityMaximum": "14",
         "ItemLevel": "88",
-        "LevelReq": 53,
+        "LevelReq": 45,
         "SocketCount": "0",
         "PropertyList": [
-          "+20 to Dexterity",
-          "+30 to Mana",
-          "37% Damage Taken Gained as Mana when Hit",
-          "15% Better Chance of Getting Magic Items",
-          "Requirements -20%"
+          "\u00ffc1Corrupted",
+          "+20% Faster Run/Walk",
+          "+10% Increased Attack Speed",
+          "5% Mana stolen per hit",
+          "+50 Defense",
+          "+5 to Light Radius"
         ],
         "Position": {
           "x": 8,
