@@ -38854,30 +38854,6 @@
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
-        "FireResistance": 0,
-        "MaximumFireResistance": 0,
-        "ColdResistance": 0,
-        "MaximumColdResistance": 0,
-        "LightningResistance": 0,
-        "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
-        "MaximumPoisonResistance": 0,
-        "MagicFind": 0,
-        "GoldFind": 0,
-        "FasterCastRate": 0,
-        "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 0,
-        "CrushingBlow": 0,
-        "OpenWounds": 0,
-        "DeadlyStrike": 0,
-        "DamageReduction": 0,
-        "CooldownReduction": 0
-      },
-      "WeaponSetOffhand": {
-        "Strength": 0,
-        "Dexterity": 0,
-        "Vitality": 0,
-        "Energy": 0,
         "FireResistance": 25,
         "MaximumFireResistance": 0,
         "ColdResistance": 13,
@@ -38891,6 +38867,30 @@
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 20,
+        "CrushingBlow": 0,
+        "OpenWounds": 0,
+        "DeadlyStrike": 0,
+        "DamageReduction": 0,
+        "CooldownReduction": 0
+      },
+      "WeaponSetOffhand": {
+        "Strength": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Energy": 0,
+        "FireResistance": 0,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 0,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 0,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 0,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 0,
+        "GoldFind": 0,
+        "FasterCastRate": 0,
+        "FasterHitRecovery": 0,
+        "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
@@ -39295,6 +39295,41 @@
       },
       {
         "Quality": "Unique",
+        "ID": "713610070",
+        "QualityCode": "q_unique",
+        "Title": "Arachnid Mesh",
+        "Tag": "Spiderweb Sash",
+        "TextTag": "Spiderweb Sash",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "63",
+        "Durability": "12",
+        "DurabilityMaximum": "12",
+        "ItemLevel": "88",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+1 to All Skills",
+          "+20% Faster Cast Rate",
+          "+8% Piercing Attack",
+          "Slows Target by 10%",
+          "+90% Enhanced Defense",
+          "Increase Maximum Mana 5%",
+          "Level 3 Venom (11/11 Charges)"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 2
+        },
+        "Worn": "belt"
+      },
+      {
+        "Quality": "Unique",
         "ID": "1156580205",
         "QualityCode": "q_unique",
         "Title": "Doomslinger",
@@ -39464,14 +39499,14 @@
           "Socketed (5)"
         ],
         "Position": {
-          "x": 11,
+          "x": 4,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
         },
-        "Worn": "sweapon1"
+        "Worn": "weapon1"
       },
       {
         "Quality": "Rare",
@@ -39495,49 +39530,14 @@
           "110% Extra Gold from Monsters"
         ],
         "Position": {
-          "x": 12,
+          "x": 5,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 1
         },
-        "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "713610070",
-        "QualityCode": "q_unique",
-        "Title": "Arachnid Mesh",
-        "Tag": "Spiderweb Sash",
-        "TextTag": "Spiderweb Sash",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "63",
-        "Durability": "12",
-        "DurabilityMaximum": "12",
-        "ItemLevel": "88",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+1 to All Skills",
-          "+20% Faster Cast Rate",
-          "+8% Piercing Attack",
-          "Slows Target by 10%",
-          "+90% Enhanced Defense",
-          "Increase Maximum Mana 5%",
-          "Level 3 Venom (11/11 Charges)"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 2
-        },
-        "Worn": "belt"
+        "Worn": "weapon2"
       }
     ],
     "Inventory": [
@@ -72199,9 +72199,9 @@
       "Vitality": 440,
       "Energy": 25,
       "BaseLife": 1141,
-      "Life": 1653,
+      "Life": 1508,
       "BaseMana": 211,
-      "Mana": 649,
+      "Mana": 620,
       "Gold": 0,
       "Stashed": 0
     },
@@ -305405,9 +305405,9 @@
       "Vitality": 440,
       "Energy": 25,
       "BaseLife": 1141,
-      "Life": 1653,
+      "Life": 1508,
       "BaseMana": 211,
-      "Mana": 649,
+      "Mana": 620,
       "Gold": 0,
       "Stashed": 0
     },
