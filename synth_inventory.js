@@ -9624,5 +9624,115 @@ const synthInventory = [
       }
     ],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Hone+Sundan%2C0%2Cnone%2Cias%3A40%2Cdamage_bonus%3A511%2Cdamage%3A40%2Cmana_leech%3A7%2Clife_leech%3A7%2Csockets%3A3%2Ccskill%3A%5B11%2C+%27Meteor%27%2C+60%5D"
+  },
+  {
+    "id": "fd17a87634c3510102b8ec9e4e743898b5b00e40c5087d211ff11783640d1aaf",
+    "friendly_id": 164,
+    "owner": "Kablamofist",
+    "base_type": "Synthesized Ghost Spear",
+    "title": "Hone Sundan",
+    "properties": [
+      "5% Chance to cast level 6 Meteor on striking",
+      "+60% Increased Attack Speed",
+      "+511% Enhanced Damage",
+      "Adds 27-40 damage",
+      "7% Mana stolen per hit",
+      "Magic & Elemental Damage Taken Reduced by 10",
+      "Repairs 1 durability in 10 seconds",
+      "Level 11 Meteor (60/60 Charges)",
+      "Socketed (3)"
+    ],
+    "synthesised_from": [
+      "Skewer of Krintiz",
+      "Moonfall",
+      "Cliffkiller"
+    ],
+    "location": "MercenaryEquipped",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "109",
+    "DamageMaximum": "947",
+    "LevelReq": 69,
+    "SocketCount": "3",
+    "seen_date": "2026-04-14",
+    "sockets": [
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Shael Rune",
+        "Tag": "Shael Rune",
+        "TextTag": "Shael Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 29,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20% Increased Attack Speed"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Shael Rune",
+        "Tag": "Shael Rune",
+        "TextTag": "Shael Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 29,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20% Increased Attack Speed"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Shael Rune",
+        "Tag": "Shael Rune",
+        "TextTag": "Shael Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 29,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20% Increased Attack Speed"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      }
+    ],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Hone+Sundan%2C0%2Cnone%2Cias%3A60%2Cdamage_bonus%3A511%2Cdamage%3A40%2Cmana_leech%3A7%2Csockets%3A3%2Ccskill%3A%5B11%2C+%27Meteor%27%2C+60%5D"
   }
 ];
