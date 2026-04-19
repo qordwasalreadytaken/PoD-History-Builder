@@ -71959,17 +71959,17 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 96,
-      "Experience": 2717435569,
+      "Experience": 2723151336,
       "Strength": 60,
       "Dexterity": 25,
       "Vitality": 460,
       "Energy": 25,
       "BaseLife": 1185,
-      "Life": 1588,
+      "Life": 1563,
       "BaseMana": 215,
-      "Mana": 337,
-      "Gold": 0,
-      "Stashed": 109908
+      "Mana": 320,
+      "Gold": 106999,
+      "Stashed": 499040
     },
     "Bonus": {
       "Strength": 90,
@@ -72020,20 +72020,20 @@
       },
       "WeaponSetOffhand": {
         "Strength": 0,
-        "Dexterity": 0,
+        "Dexterity": 10,
         "Vitality": 0,
         "Energy": 10,
-        "FireResistance": 0,
+        "FireResistance": 38,
         "MaximumFireResistance": 0,
-        "ColdResistance": 0,
+        "ColdResistance": 38,
         "MaximumColdResistance": 0,
-        "LightningResistance": 0,
+        "LightningResistance": 38,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
+        "PoisonResistance": 38,
         "MaximumPoisonResistance": 0,
         "MagicFind": 20,
         "GoldFind": 50,
-        "FasterCastRate": 10,
+        "FasterCastRate": 50,
         "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
@@ -72112,10 +72112,10 @@
         ]
       }
     ],
-    "MercenaryExperience": 95336666,
+    "MercenaryExperience": 98334792,
     "MercenaryType": "Desert Mercenary",
     "MercenaryName": "Durga",
-    "MercenaryLevel": "92",
+    "MercenaryLevel": "93",
     "Equipped": [
       {
         "Quality": "Rare",
@@ -72193,7 +72193,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "63",
-        "Durability": "11",
+        "Durability": "10",
         "DurabilityMaximum": "12",
         "ItemLevel": "89",
         "LevelReq": 80,
@@ -72289,7 +72289,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "397",
-        "Durability": "22",
+        "Durability": "21",
         "DurabilityMaximum": "24",
         "ItemLevel": "87",
         "LevelReq": 57,
@@ -72446,7 +72446,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "68",
-        "Durability": "16",
+        "Durability": "15",
         "DurabilityMaximum": "16",
         "ItemLevel": "88",
         "LevelReq": 66,
@@ -72485,7 +72485,7 @@
         "Ethereal": "False",
         "Enhanced": "False",
         "Defense": "51",
-        "Durability": "19",
+        "Durability": "17",
         "DurabilityMaximum": "20",
         "ItemLevel": "99",
         "LevelReq": 67,
@@ -72537,35 +72537,147 @@
         "Worn": "helmet"
       },
       {
-        "Quality": "Magic",
-        "ID": "174272396",
-        "QualityCode": "q_magic",
-        "Title": "Necromancer's Bone Wand of Control",
-        "Tag": "Bone Wand",
-        "TextTag": "Bone Wand",
+        "Quality": "Normal",
+        "ID": "1189810484",
+        "QualityCode": "q_runeword",
+        "Title": "Heart of the Oak",
+        "Tag": "Flail",
+        "TextTag": "Flail",
+        "RuneTag": "KoVexPulThul",
         "Ethereal": "False",
         "Enhanced": "False",
-        "DamageMinimum": "3",
-        "DamageMaximum": "7",
-        "Durability": "100",
-        "DurabilityMaximum": "100",
-        "ItemLevel": "89",
-        "LevelReq": 42,
-        "SocketCount": "0",
+        "DamageMinimum": "1",
+        "DamageMaximum": "24",
+        "Durability": "135",
+        "DurabilityMaximum": "135",
+        "ItemLevel": "49",
+        "LevelReq": 55,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ko Rune",
+            "Tag": "Ko Rune",
+            "TextTag": "Ko Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 39,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Dexterity"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Vex Rune",
+            "Tag": "Vex Rune",
+            "TextTag": "Vex Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 55,
+            "SocketCount": "0",
+            "PropertyList": [
+              "7% Mana stolen per hit"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Pul Rune",
+            "Tag": "Pul Rune",
+            "TextTag": "Pul Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 45,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+75% Damage to Demons",
+              "+100 to Attack Rating against Demons"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Thul Rune",
+            "Tag": "Thul Rune",
+            "TextTag": "Thul Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 23,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+3 cold damage"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "4",
         "PropertyList": [
-          "+1 to Summon Skills",
-          "+2 to Necromancer Skill Levels",
+          "+3 to All Skills",
+          "+40% Faster Cast Rate",
+          "+75% Damage to Demons",
+          "+100 to Attack Rating against Demons",
           "+50% Damage to Undead",
-          "+1 to Bone Spear (Necromancer Only)",
-          "+1 to Bone Offering (Necromancer Only)"
+          "+3 cold damage",
+          "7% Mana stolen per hit",
+          "+10 to Dexterity",
+          "Increase Maximum Life 6%",
+          "Replenish Life 20 per second",
+          "Increase Maximum Mana 15%",
+          "All Resistances +38",
+          "Socketed (4)"
         ],
         "Position": {
           "x": 11,
           "y": 0
         },
         "Size": {
-          "invheight": 2,
-          "invwidth": 1
+          "invheight": 3,
+          "invwidth": 2
         },
         "Worn": "sweapon1"
       },
@@ -72769,7 +72881,7 @@
         "Enhanced": "False",
         "Block": "42",
         "Defense": "143",
-        "Durability": "98",
+        "Durability": "97",
         "DurabilityMaximum": "86",
         "ItemLevel": "79",
         "LevelReq": 65,
@@ -73458,35 +73570,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Rare",
-        "ID": "1810627663",
-        "QualityCode": "q_rare",
-        "Title": "Stone Eye",
-        "Tag": "Burnt Forest Relic",
-        "TextTag": "Burnt Forest Relic",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "99",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "Damage +200",
-          "45% Deadly Strike",
-          "Replenish Life 47 per second",
-          "Magic Absorb 58%",
-          "19% chance to Evade"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "255120841",
         "QualityCode": "q_normal",
@@ -73559,6 +73642,144 @@
         },
         "Size": {
           "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Amethyst",
+        "Tag": "Flawless Amethyst",
+        "TextTag": "Flawless Amethyst",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Amethyst",
+        "Tag": "Flawless Amethyst",
+        "TextTag": "Flawless Amethyst",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "176939570",
+        "QualityCode": "q_rare",
+        "Title": "Baleful Alcazar Relic",
+        "Tag": "Baleful Alcazar Relic",
+        "TextTag": "Baleful Alcazar Relic",
+        "Ethereal": "False",
+        "ItemLevel": "88",
+        "LevelReq": 80,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Nef Rune",
+        "Tag": "Nef Rune",
+        "TextTag": "Nef Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 13,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 8,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Amethyst",
+        "Tag": "Flawless Amethyst",
+        "TextTag": "Flawless Amethyst",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 8,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Amn Rune",
+        "Tag": "Amn Rune",
+        "TextTag": "Amn Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 8,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -73841,9 +74062,6 @@
         },
         "Worn": "weapon1"
       }
-    ],
-    "ItemCodeFailedToParse": [
-      "ItemCode: ma17 | Properties:   [151] item_aura -> 6 [758]  [198] item_skillonhit -> 13 [5828]  [331] passive_cold_mastery -> 36 [0]  [511] EOF -> 0 [0]"
     ]
   },
   {
@@ -106704,7 +106922,7 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 95,
-      "Experience": 2706431449,
+      "Experience": 2711215305,
       "Strength": 110,
       "Dexterity": 25,
       "Vitality": 405,
@@ -106714,7 +106932,7 @@
       "BaseMana": 213,
       "Mana": 659,
       "Gold": 0,
-      "Stashed": 1487499
+      "Stashed": 1400994
     },
     "Bonus": {
       "Strength": 19,
@@ -135360,9 +135578,9 @@
       "Vitality": 383,
       "Energy": 61,
       "BaseLife": 988,
-      "Life": 683,
+      "Life": 727,
       "BaseMana": 277,
-      "Mana": 405,
+      "Mana": 449,
       "Gold": 960000,
       "Stashed": 2400000
     },
@@ -137314,30 +137532,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "444572184",
-        "QualityCode": "q_magic",
-        "Title": "Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "86",
-        "LevelReq": 23,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "175529854",
         "QualityCode": "q_magic",
         "Title": "Grand Charm",
@@ -137356,75 +137550,6 @@
         },
         "Size": {
           "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
-        "ID": "1330629672",
-        "QualityCode": "q_rare",
-        "Title": "Desecrated Temple Relic",
-        "Tag": "Desecrated Temple Relic",
-        "TextTag": "Desecrated Temple Relic",
-        "Ethereal": "False",
-        "ItemLevel": "86",
-        "LevelReq": 80,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Antidote Potion",
-        "Tag": "Antidote Potion",
-        "TextTag": "Antidote Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "\u00ffc;Orb of Corruption",
-        "Tag": "\u00ffc;Orb of Corruption",
-        "TextTag": "Orb of Corruption",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -137518,6 +137643,99 @@
         "Position": {
           "x": 7,
           "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "444572184",
+        "QualityCode": "q_magic",
+        "Title": "Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "86",
+        "LevelReq": 23,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1330629672",
+        "QualityCode": "q_rare",
+        "Title": "Desecrated Temple Relic",
+        "Tag": "Desecrated Temple Relic",
+        "TextTag": "Desecrated Temple Relic",
+        "Ethereal": "False",
+        "ItemLevel": "86",
+        "LevelReq": 80,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "\u00ffc;Orb of Corruption",
+        "Tag": "\u00ffc;Orb of Corruption",
+        "TextTag": "Orb of Corruption",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 7,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Cham Rune",
+        "Tag": "Cham Rune",
+        "TextTag": "Cham Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 67,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 7,
+          "y": 3
         },
         "Size": {
           "invheight": 1,
@@ -435442,17 +435660,17 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 96,
-      "Experience": 2717435569,
+      "Experience": 2723151336,
       "Strength": 60,
       "Dexterity": 25,
       "Vitality": 460,
       "Energy": 25,
       "BaseLife": 1185,
-      "Life": 1588,
+      "Life": 1563,
       "BaseMana": 215,
-      "Mana": 337,
-      "Gold": 0,
-      "Stashed": 109908
+      "Mana": 320,
+      "Gold": 106999,
+      "Stashed": 499040
     },
     "Bonus": {
       "Strength": 90,
@@ -435503,20 +435721,20 @@
       },
       "WeaponSetOffhand": {
         "Strength": 0,
-        "Dexterity": 0,
+        "Dexterity": 10,
         "Vitality": 0,
         "Energy": 10,
-        "FireResistance": 0,
+        "FireResistance": 38,
         "MaximumFireResistance": 0,
-        "ColdResistance": 0,
+        "ColdResistance": 38,
         "MaximumColdResistance": 0,
-        "LightningResistance": 0,
+        "LightningResistance": 38,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
+        "PoisonResistance": 38,
         "MaximumPoisonResistance": 0,
         "MagicFind": 20,
         "GoldFind": 50,
-        "FasterCastRate": 10,
+        "FasterCastRate": 50,
         "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
@@ -435595,10 +435813,10 @@
         ]
       }
     ],
-    "MercenaryExperience": 95336666,
+    "MercenaryExperience": 98334792,
     "MercenaryType": "Desert Mercenary",
     "MercenaryName": "Durga",
-    "MercenaryLevel": "92",
+    "MercenaryLevel": "93",
     "Equipped": [
       {
         "Quality": "Rare",
@@ -435676,7 +435894,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "63",
-        "Durability": "11",
+        "Durability": "10",
         "DurabilityMaximum": "12",
         "ItemLevel": "89",
         "LevelReq": 80,
@@ -435772,7 +435990,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "397",
-        "Durability": "22",
+        "Durability": "21",
         "DurabilityMaximum": "24",
         "ItemLevel": "87",
         "LevelReq": 57,
@@ -435929,7 +436147,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "68",
-        "Durability": "16",
+        "Durability": "15",
         "DurabilityMaximum": "16",
         "ItemLevel": "88",
         "LevelReq": 66,
@@ -435968,7 +436186,7 @@
         "Ethereal": "False",
         "Enhanced": "False",
         "Defense": "51",
-        "Durability": "19",
+        "Durability": "17",
         "DurabilityMaximum": "20",
         "ItemLevel": "99",
         "LevelReq": 67,
@@ -436020,35 +436238,147 @@
         "Worn": "helmet"
       },
       {
-        "Quality": "Magic",
-        "ID": "174272396",
-        "QualityCode": "q_magic",
-        "Title": "Necromancer's Bone Wand of Control",
-        "Tag": "Bone Wand",
-        "TextTag": "Bone Wand",
+        "Quality": "Normal",
+        "ID": "1189810484",
+        "QualityCode": "q_runeword",
+        "Title": "Heart of the Oak",
+        "Tag": "Flail",
+        "TextTag": "Flail",
+        "RuneTag": "KoVexPulThul",
         "Ethereal": "False",
         "Enhanced": "False",
-        "DamageMinimum": "3",
-        "DamageMaximum": "7",
-        "Durability": "100",
-        "DurabilityMaximum": "100",
-        "ItemLevel": "89",
-        "LevelReq": 42,
-        "SocketCount": "0",
+        "DamageMinimum": "1",
+        "DamageMaximum": "24",
+        "Durability": "135",
+        "DurabilityMaximum": "135",
+        "ItemLevel": "49",
+        "LevelReq": 55,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ko Rune",
+            "Tag": "Ko Rune",
+            "TextTag": "Ko Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 39,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Dexterity"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Vex Rune",
+            "Tag": "Vex Rune",
+            "TextTag": "Vex Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 55,
+            "SocketCount": "0",
+            "PropertyList": [
+              "7% Mana stolen per hit"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Pul Rune",
+            "Tag": "Pul Rune",
+            "TextTag": "Pul Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 45,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+75% Damage to Demons",
+              "+100 to Attack Rating against Demons"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Thul Rune",
+            "Tag": "Thul Rune",
+            "TextTag": "Thul Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 23,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+3 cold damage"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "4",
         "PropertyList": [
-          "+1 to Summon Skills",
-          "+2 to Necromancer Skill Levels",
+          "+3 to All Skills",
+          "+40% Faster Cast Rate",
+          "+75% Damage to Demons",
+          "+100 to Attack Rating against Demons",
           "+50% Damage to Undead",
-          "+1 to Bone Spear (Necromancer Only)",
-          "+1 to Bone Offering (Necromancer Only)"
+          "+3 cold damage",
+          "7% Mana stolen per hit",
+          "+10 to Dexterity",
+          "Increase Maximum Life 6%",
+          "Replenish Life 20 per second",
+          "Increase Maximum Mana 15%",
+          "All Resistances +38",
+          "Socketed (4)"
         ],
         "Position": {
           "x": 11,
           "y": 0
         },
         "Size": {
-          "invheight": 2,
-          "invwidth": 1
+          "invheight": 3,
+          "invwidth": 2
         },
         "Worn": "sweapon1"
       },
@@ -436252,7 +436582,7 @@
         "Enhanced": "False",
         "Block": "42",
         "Defense": "143",
-        "Durability": "98",
+        "Durability": "97",
         "DurabilityMaximum": "86",
         "ItemLevel": "79",
         "LevelReq": 65,
@@ -436941,35 +437271,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Rare",
-        "ID": "1810627663",
-        "QualityCode": "q_rare",
-        "Title": "Stone Eye",
-        "Tag": "Burnt Forest Relic",
-        "TextTag": "Burnt Forest Relic",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "99",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "Damage +200",
-          "45% Deadly Strike",
-          "Replenish Life 47 per second",
-          "Magic Absorb 58%",
-          "19% chance to Evade"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "255120841",
         "QualityCode": "q_normal",
@@ -437042,6 +437343,144 @@
         },
         "Size": {
           "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Amethyst",
+        "Tag": "Flawless Amethyst",
+        "TextTag": "Flawless Amethyst",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Amethyst",
+        "Tag": "Flawless Amethyst",
+        "TextTag": "Flawless Amethyst",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "176939570",
+        "QualityCode": "q_rare",
+        "Title": "Baleful Alcazar Relic",
+        "Tag": "Baleful Alcazar Relic",
+        "TextTag": "Baleful Alcazar Relic",
+        "Ethereal": "False",
+        "ItemLevel": "88",
+        "LevelReq": 80,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Nef Rune",
+        "Tag": "Nef Rune",
+        "TextTag": "Nef Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 13,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 8,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Amethyst",
+        "Tag": "Flawless Amethyst",
+        "TextTag": "Flawless Amethyst",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 8,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Amn Rune",
+        "Tag": "Amn Rune",
+        "TextTag": "Amn Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 8,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -437324,9 +437763,6 @@
         },
         "Worn": "weapon1"
       }
-    ],
-    "ItemCodeFailedToParse": [
-      "ItemCode: ma17 | Properties:   [151] item_aura -> 6 [758]  [198] item_skillonhit -> 13 [5828]  [331] passive_cold_mastery -> 36 [0]  [511] EOF -> 0 [0]"
     ]
   },
   {
@@ -498045,9 +498481,9 @@
       "Vitality": 383,
       "Energy": 61,
       "BaseLife": 988,
-      "Life": 683,
+      "Life": 727,
       "BaseMana": 277,
-      "Mana": 405,
+      "Mana": 449,
       "Gold": 960000,
       "Stashed": 2400000
     },
@@ -499999,30 +500435,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "444572184",
-        "QualityCode": "q_magic",
-        "Title": "Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "86",
-        "LevelReq": 23,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "175529854",
         "QualityCode": "q_magic",
         "Title": "Grand Charm",
@@ -500041,75 +500453,6 @@
         },
         "Size": {
           "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
-        "ID": "1330629672",
-        "QualityCode": "q_rare",
-        "Title": "Desecrated Temple Relic",
-        "Tag": "Desecrated Temple Relic",
-        "TextTag": "Desecrated Temple Relic",
-        "Ethereal": "False",
-        "ItemLevel": "86",
-        "LevelReq": 80,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Antidote Potion",
-        "Tag": "Antidote Potion",
-        "TextTag": "Antidote Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "\u00ffc;Orb of Corruption",
-        "Tag": "\u00ffc;Orb of Corruption",
-        "TextTag": "Orb of Corruption",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -500203,6 +500546,99 @@
         "Position": {
           "x": 7,
           "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "444572184",
+        "QualityCode": "q_magic",
+        "Title": "Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "86",
+        "LevelReq": 23,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1330629672",
+        "QualityCode": "q_rare",
+        "Title": "Desecrated Temple Relic",
+        "Tag": "Desecrated Temple Relic",
+        "TextTag": "Desecrated Temple Relic",
+        "Ethereal": "False",
+        "ItemLevel": "86",
+        "LevelReq": 80,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "\u00ffc;Orb of Corruption",
+        "Tag": "\u00ffc;Orb of Corruption",
+        "TextTag": "Orb of Corruption",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 7,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Cham Rune",
+        "Tag": "Cham Rune",
+        "TextTag": "Cham Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 67,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 7,
+          "y": 3
         },
         "Size": {
           "invheight": 1,
