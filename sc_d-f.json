@@ -208504,16 +208504,16 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 93,
-      "Experience": 2173646640,
+      "Experience": 2173670068,
       "Strength": 115,
       "Dexterity": 245,
       "Vitality": 165,
       "Energy": 15,
       "BaseLife": 775,
-      "Life": 941,
+      "Life": 1070,
       "BaseMana": 153,
-      "Mana": 184,
-      "Gold": 403682,
+      "Mana": 288,
+      "Gold": 406830,
       "Stashed": 879467
     },
     "Bonus": {
@@ -208544,19 +208544,19 @@
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
-        "FireResistance": 15,
+        "FireResistance": 0,
         "MaximumFireResistance": 0,
-        "ColdResistance": 15,
+        "ColdResistance": 0,
         "MaximumColdResistance": 0,
-        "LightningResistance": 27,
+        "LightningResistance": 0,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 15,
+        "PoisonResistance": 0,
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
-        "GoldFind": 75,
+        "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 0,
+        "IncreasedAttackSpeed": 20,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
@@ -208568,16 +208568,16 @@
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
-        "FireResistance": 40,
+        "FireResistance": 15,
         "MaximumFireResistance": 0,
-        "ColdResistance": 0,
+        "ColdResistance": 15,
         "MaximumColdResistance": 0,
-        "LightningResistance": 93,
+        "LightningResistance": 27,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
+        "PoisonResistance": 15,
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
-        "GoldFind": 0,
+        "GoldFind": 75,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 0,
@@ -209118,44 +209118,6 @@
       },
       {
         "Quality": "Unique",
-        "ID": "167897426",
-        "QualityCode": "q_unique",
-        "Title": "Stormspike",
-        "Tag": "Synthesized Stiletto",
-        "TextTag": "Synthesized Stilleto",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "DamageMinimum": "19",
-        "DamageMaximum": "36",
-        "Durability": "82",
-        "DurabilityMaximum": "108",
-        "ItemLevel": "86",
-        "LevelReq": 41,
-        "SocketCount": "0",
-        "PropertyList": [
-          "Adds 1-120 Lightning damage",
-          "-25% to Enemy Fire Resistance",
-          "Lightning Resist 93% (Based on Character Level)",
-          "Fire Resist +40%",
-          "Attacker Takes Lightning Damage of 20",
-          "+1 to maximum Lightning Damage per Dexterity",
-          "Level 15 Enflame (7/45 Charges)"
-        ],
-        "SynthesisedFrom": [
-          "Todesfaelle Flamme"
-        ],
-        "Position": {
-          "x": 11,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": "sweapon1"
-      },
-      {
-        "Quality": "Unique",
         "ID": "1332507549",
         "QualityCode": "q_unique",
         "Title": "Razortail",
@@ -209322,14 +209284,14 @@
           "Socketed (4)"
         ],
         "Position": {
-          "x": 4,
+          "x": 11,
           "y": 0
         },
         "Size": {
           "invheight": 4,
           "invwidth": 2
         },
-        "Worn": "weapon1"
+        "Worn": "sweapon1"
       },
       {
         "Quality": "Rare",
@@ -209351,6 +209313,76 @@
           "+46 to Maximum Damage (Based on Character Level)",
           "Lightning Resist +12%",
           "+4 Mana Gained on Ranged Hit"
+        ],
+        "Position": {
+          "x": 12,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": "sweapon2"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "4268459256",
+        "QualityCode": "q_unique",
+        "Title": "Ichorsting",
+        "Tag": "Synthesized Crossbow",
+        "TextTag": "Synthesized Crossbow",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "24",
+        "DamageMaximum": "43",
+        "ItemLevel": "87",
+        "LevelReq": 18,
+        "SocketCount": "1",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "25% Chance to cast level 17 Fissure when struck",
+          "+20% Increased Attack Speed",
+          "Fires Explosive Arrows or Bolts",
+          "+173% Enhanced Damage",
+          "+632 to Attack Rating",
+          "7% Mana stolen per hit",
+          "+36 to Mana",
+          "20% Slower Stamina Drain",
+          "Socketed (1)"
+        ],
+        "SynthesisedFrom": [
+          "Pompeii's Wrath",
+          "Soulfeast Tine",
+          "Demon Machine"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": "weapon1"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1162513483",
+        "QualityCode": "q_unique",
+        "Title": "FrostbiteB",
+        "Tag": "Bolts",
+        "TextTag": "Bolts",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "88",
+        "LevelReq": 18,
+        "SocketCount": "0",
+        "PropertyList": [
+          "34% Chance to cast level 21 Ice Arrow when struck",
+          "+2 to Cold Skills",
+          "Increase Maximum Life 16%",
+          "Increase Maximum Mana 18%",
+          "+40% to Freezing Arrow Radius"
         ],
         "Position": {
           "x": 5,
@@ -210332,56 +210364,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Normal",
-        "ID": "3981433619",
-        "QualityCode": "q_normal",
-        "Title": "Stygian Pike",
-        "Tag": "Stygian Pike",
-        "TextTag": "Stygian Pike",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "DamageMinimum": "29",
-        "DamageMaximum": "144",
-        "Durability": "114",
-        "DurabilityMaximum": "159",
-        "ItemLevel": "88",
-        "LevelReq": 49,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 2,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 4,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unique",
-        "ID": "1162513483",
-        "QualityCode": "q_unique",
-        "Title": "Bolts",
-        "Tag": "Bolts",
-        "TextTag": "Bolts",
-        "Ethereal": "False",
-        "ItemLevel": "88",
-        "LevelReq": 18,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
@@ -210400,6 +210382,44 @@
         },
         "Size": {
           "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "167897426",
+        "QualityCode": "q_unique",
+        "Title": "Stormspike",
+        "Tag": "Synthesized Stiletto",
+        "TextTag": "Synthesized Stilleto",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "DamageMinimum": "19",
+        "DamageMaximum": "36",
+        "Durability": "82",
+        "DurabilityMaximum": "108",
+        "ItemLevel": "86",
+        "LevelReq": 41,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Adds 1-120 Lightning damage",
+          "-25% to Enemy Fire Resistance",
+          "Lightning Resist 93% (Based on Character Level)",
+          "Fire Resist +40%",
+          "Attacker Takes Lightning Damage of 20",
+          "+1 to maximum Lightning Damage per Dexterity",
+          "Level 15 Enflame (7/45 Charges)"
+        ],
+        "SynthesisedFrom": [
+          "Todesfaelle Flamme"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
           "invwidth": 1
         },
         "Worn": ""
@@ -255404,17 +255424,17 @@
     "Class": "Druid",
     "Stats": {
       "Level": 90,
-      "Experience": 1643151950,
+      "Experience": 1652403609,
       "Strength": 135,
       "Dexterity": 20,
       "Vitality": 365,
       "Energy": 20,
       "BaseLife": 908,
-      "Life": 4724,
+      "Life": 4595,
       "BaseMana": 198,
       "Mana": 396,
-      "Gold": 303861,
-      "Stashed": 2247224
+      "Gold": 317942,
+      "Stashed": 2500000
     },
     "Bonus": {
       "Strength": 37,
@@ -255698,7 +255718,7 @@
           "+17 to Mana",
           "Regenerate Mana 5%",
           "All Resistances +9",
-          "Level 4 Deadly Poison (28/30 Charges)"
+          "Level 4 Deadly Poison (30/30 Charges)"
         ],
         "Position": {
           "x": 7,
@@ -256430,7 +256450,7 @@
         "Enhanced": "True",
         "Block": "42",
         "Defense": "149",
-        "Durability": "86",
+        "Durability": "85",
         "DurabilityMaximum": "86",
         "ItemLevel": "87",
         "LevelReq": 65,
@@ -257243,18 +257263,19 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Tal Rune",
-        "Tag": "Tal Rune",
-        "TextTag": "Tal Rune",
+        "Quality": "Magic",
+        "ID": "2135508410",
+        "QualityCode": "q_magic",
+        "Title": "Amulet",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 17,
-        "SocketCount": "0",
-        "PropertyList": [],
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 24,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
         "Position": {
           "x": 9,
           "y": 4
@@ -257266,19 +257287,43 @@
         "Worn": ""
       },
       {
-        "Quality": "Normal",
-        "ID": "2976719579",
-        "QualityCode": "q_normal",
-        "Title": "Rancid Gas Potion",
-        "Tag": "Rancid Gas Potion",
-        "TextTag": "Rancid Gas Potion",
+        "Quality": "Magic",
+        "ID": "686959425",
+        "QualityCode": "q_magic",
+        "Title": "Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "DamageMaximum": "1",
-        "ItemLevel": "86",
-        "LevelReq": 24,
-        "SocketCount": "0",
-        "PropertyList": [],
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 69,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3048649013",
+        "QualityCode": "q_magic",
+        "Title": "Amulet",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
+        "Ethereal": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 45,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
         "Position": {
           "x": 9,
           "y": 3
@@ -257290,19 +257335,18 @@
         "Worn": ""
       },
       {
-        "Quality": "Rare",
-        "ID": "387450197",
-        "QualityCode": "q_rare",
-        "Title": "Amulet",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Topaz",
+        "Tag": "Flawless Topaz",
+        "TextTag": "Flawless Topaz",
         "Ethereal": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "89",
-        "LevelReq": 27,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
         "Position": {
           "x": 9,
           "y": 2
@@ -257315,15 +257359,41 @@
       },
       {
         "Quality": "Magic",
-        "ID": "2448873474",
+        "ID": "2653102650",
+        "QualityCode": "q_magic",
+        "Title": "Lacquered Plate",
+        "Tag": "Lacquered Plate",
+        "TextTag": "Lacquered Plate",
+        "Ethereal": "False",
+        "Defense": "467",
+        "Durability": "55",
+        "DurabilityMaximum": "55",
+        "ItemLevel": "91",
+        "LevelReq": 62,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "25755603",
         "QualityCode": "q_magic",
         "Title": "Amulet",
         "Tag": "Amulet",
         "TextTag": "amulet",
         "Ethereal": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "86",
-        "LevelReq": 18,
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 5,
         "PropertyList": [
           "\u00ffc1Unidentified"
         ],
@@ -257338,22 +257408,45 @@
         "Worn": ""
       },
       {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Sapphire",
+        "Tag": "Flawless Sapphire",
+        "TextTag": "Flawless Saphire",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
         "Quality": "Magic",
-        "ID": "959863335",
+        "ID": "779420209",
         "QualityCode": "q_magic",
         "Title": "Amulet",
         "Tag": "Amulet",
         "TextTag": "amulet",
         "Ethereal": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "86",
-        "LevelReq": 22,
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 15,
         "PropertyList": [
           "\u00ffc1Unidentified"
         ],
         "Position": {
-          "x": 9,
-          "y": 0
+          "x": 8,
+          "y": 4
         },
         "Size": {
           "invheight": 1,
@@ -257376,30 +257469,6 @@
         "PropertyList": [],
         "Position": {
           "x": 8,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1326537572",
-        "QualityCode": "q_magic",
-        "Title": "Small Charm",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "86",
-        "LevelReq": 17,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
-          "x": 8,
           "y": 3
         },
         "Size": {
@@ -257412,13 +257481,13 @@
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Flawless Amethyst",
-        "Tag": "Flawless Amethyst",
-        "TextTag": "Flawless Amethyst",
+        "Title": "Greater Healing Potion",
+        "Tag": "Greater Healing Potion",
+        "TextTag": "Strong Healing Potion",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "0",
-        "LevelReq": 15,
+        "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
@@ -257433,39 +257502,15 @@
       },
       {
         "Quality": "Magic",
-        "ID": "2260410348",
+        "ID": "2353238781",
         "QualityCode": "q_magic",
-        "Title": "Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
+        "Title": "Amulet",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
         "Ethereal": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "86",
-        "LevelReq": 16,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2674789239",
-        "QualityCode": "q_magic",
-        "Title": "Jewel",
-        "Tag": "Jewel",
-        "TextTag": "Jewel",
-        "Ethereal": "False",
-        "AlternateGraphics": "3",
-        "ItemLevel": "86",
-        "LevelReq": 1,
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 7,
         "PropertyList": [
           "\u00ffc1Unidentified"
         ],
@@ -257480,18 +257525,67 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Flawless Topaz",
-        "Tag": "Flawless Topaz",
-        "TextTag": "Flawless Topaz",
+        "Quality": "Magic",
+        "ID": "2648479457",
+        "QualityCode": "q_magic",
+        "Title": "Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 35,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "764504740",
+        "QualityCode": "q_magic",
+        "Title": "Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
         "LevelReq": 15,
-        "SocketCount": "0",
-        "PropertyList": [],
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1981330196",
+        "QualityCode": "q_magic",
+        "Title": "Ring",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "90",
+        "LevelReq": 48,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
         "Position": {
           "x": 8,
           "y": 0
@@ -257503,19 +257597,88 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "2945763200",
-        "QualityCode": "q_magic",
-        "Title": "Amulet",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
+        "Quality": "Normal",
+        "ID": "387125000",
+        "QualityCode": "q_normal",
+        "Title": "Oil Potion",
+        "Tag": "Oil Potion",
+        "TextTag": "Oil Potion",
         "Ethereal": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "86",
-        "LevelReq": 1,
+        "Enhanced": "False",
+        "DamageMaximum": "1",
+        "ItemLevel": "88",
+        "LevelReq": 20,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 7,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "4238884235",
+        "QualityCode": "q_normal",
+        "Title": "\u00ffc;Orb of Alteration",
+        "Tag": "\u00ffc;Orb of Alteration",
+        "TextTag": "Map Orb",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "92",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 7,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "3178275830",
+        "QualityCode": "q_rare",
+        "Title": "Decomposing Settlement Relic",
+        "Tag": "Decomposing Settlement Relic",
+        "TextTag": "Decomposing Settlement Relic",
+        "Ethereal": "False",
+        "ItemLevel": "92",
+        "LevelReq": 80,
         "PropertyList": [
           "\u00ffc1Unidentified"
         ],
+        "Position": {
+          "x": 7,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Greater Healing Potion",
+        "Tag": "Greater Healing Potion",
+        "TextTag": "Strong Healing Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
         "Position": {
           "x": 7,
           "y": 4
@@ -257527,19 +257690,18 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "3841904489",
-        "QualityCode": "q_magic",
-        "Title": "Amulet",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Emerald",
+        "Tag": "Flawless Emerald",
+        "TextTag": "Flawless Emerald",
         "Ethereal": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "86",
-        "LevelReq": 30,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
         "Position": {
           "x": 7,
           "y": 3
@@ -257564,8 +257726,8 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 7,
-          "y": 2
+          "x": 6,
+          "y": 4
         },
         "Size": {
           "invheight": 1,
@@ -257574,30 +257736,25 @@
         "Worn": ""
       },
       {
-        "Quality": "Normal",
-        "ID": "2439837366",
-        "QualityCode": "q_normal",
-        "Title": "Truncheon",
-        "Tag": "Truncheon",
-        "TextTag": "Truncheon",
+        "Quality": "Magic",
+        "ID": "4085756275",
+        "QualityCode": "q_magic",
+        "Title": "Amulet",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "DamageMinimum": "35",
-        "DamageMaximum": "43",
-        "Durability": "128",
-        "DurabilityMaximum": "215",
-        "ItemLevel": "86",
-        "LevelReq": 39,
-        "SocketCount": "0",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 19,
         "PropertyList": [
-          "+50% Damage to Undead"
+          "\u00ffc1Unidentified"
         ],
         "Position": {
-          "x": 3,
-          "y": 0
+          "x": 6,
+          "y": 3
         },
         "Size": {
-          "invheight": 3,
+          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -533428,17 +533585,17 @@
     "Class": "Druid",
     "Stats": {
       "Level": 90,
-      "Experience": 1643151950,
+      "Experience": 1652403609,
       "Strength": 135,
       "Dexterity": 20,
       "Vitality": 365,
       "Energy": 20,
       "BaseLife": 908,
-      "Life": 4724,
+      "Life": 4595,
       "BaseMana": 198,
       "Mana": 396,
-      "Gold": 303861,
-      "Stashed": 2247224
+      "Gold": 317942,
+      "Stashed": 2500000
     },
     "Bonus": {
       "Strength": 37,
@@ -533722,7 +533879,7 @@
           "+17 to Mana",
           "Regenerate Mana 5%",
           "All Resistances +9",
-          "Level 4 Deadly Poison (28/30 Charges)"
+          "Level 4 Deadly Poison (30/30 Charges)"
         ],
         "Position": {
           "x": 7,
@@ -534454,7 +534611,7 @@
         "Enhanced": "True",
         "Block": "42",
         "Defense": "149",
-        "Durability": "86",
+        "Durability": "85",
         "DurabilityMaximum": "86",
         "ItemLevel": "87",
         "LevelReq": 65,
@@ -535267,18 +535424,19 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Tal Rune",
-        "Tag": "Tal Rune",
-        "TextTag": "Tal Rune",
+        "Quality": "Magic",
+        "ID": "2135508410",
+        "QualityCode": "q_magic",
+        "Title": "Amulet",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 17,
-        "SocketCount": "0",
-        "PropertyList": [],
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 24,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
         "Position": {
           "x": 9,
           "y": 4
@@ -535290,19 +535448,43 @@
         "Worn": ""
       },
       {
-        "Quality": "Normal",
-        "ID": "2976719579",
-        "QualityCode": "q_normal",
-        "Title": "Rancid Gas Potion",
-        "Tag": "Rancid Gas Potion",
-        "TextTag": "Rancid Gas Potion",
+        "Quality": "Magic",
+        "ID": "686959425",
+        "QualityCode": "q_magic",
+        "Title": "Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "DamageMaximum": "1",
-        "ItemLevel": "86",
-        "LevelReq": 24,
-        "SocketCount": "0",
-        "PropertyList": [],
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 69,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3048649013",
+        "QualityCode": "q_magic",
+        "Title": "Amulet",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
+        "Ethereal": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 45,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
         "Position": {
           "x": 9,
           "y": 3
@@ -535314,19 +535496,18 @@
         "Worn": ""
       },
       {
-        "Quality": "Rare",
-        "ID": "387450197",
-        "QualityCode": "q_rare",
-        "Title": "Amulet",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Topaz",
+        "Tag": "Flawless Topaz",
+        "TextTag": "Flawless Topaz",
         "Ethereal": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "89",
-        "LevelReq": 27,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
         "Position": {
           "x": 9,
           "y": 2
@@ -535339,15 +535520,41 @@
       },
       {
         "Quality": "Magic",
-        "ID": "2448873474",
+        "ID": "2653102650",
+        "QualityCode": "q_magic",
+        "Title": "Lacquered Plate",
+        "Tag": "Lacquered Plate",
+        "TextTag": "Lacquered Plate",
+        "Ethereal": "False",
+        "Defense": "467",
+        "Durability": "55",
+        "DurabilityMaximum": "55",
+        "ItemLevel": "91",
+        "LevelReq": 62,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "25755603",
         "QualityCode": "q_magic",
         "Title": "Amulet",
         "Tag": "Amulet",
         "TextTag": "amulet",
         "Ethereal": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "86",
-        "LevelReq": 18,
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 5,
         "PropertyList": [
           "\u00ffc1Unidentified"
         ],
@@ -535362,22 +535569,45 @@
         "Worn": ""
       },
       {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Sapphire",
+        "Tag": "Flawless Sapphire",
+        "TextTag": "Flawless Saphire",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
         "Quality": "Magic",
-        "ID": "959863335",
+        "ID": "779420209",
         "QualityCode": "q_magic",
         "Title": "Amulet",
         "Tag": "Amulet",
         "TextTag": "amulet",
         "Ethereal": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "86",
-        "LevelReq": 22,
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 15,
         "PropertyList": [
           "\u00ffc1Unidentified"
         ],
         "Position": {
-          "x": 9,
-          "y": 0
+          "x": 8,
+          "y": 4
         },
         "Size": {
           "invheight": 1,
@@ -535400,30 +535630,6 @@
         "PropertyList": [],
         "Position": {
           "x": 8,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1326537572",
-        "QualityCode": "q_magic",
-        "Title": "Small Charm",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "86",
-        "LevelReq": 17,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
-          "x": 8,
           "y": 3
         },
         "Size": {
@@ -535436,13 +535642,13 @@
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Flawless Amethyst",
-        "Tag": "Flawless Amethyst",
-        "TextTag": "Flawless Amethyst",
+        "Title": "Greater Healing Potion",
+        "Tag": "Greater Healing Potion",
+        "TextTag": "Strong Healing Potion",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "0",
-        "LevelReq": 15,
+        "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
@@ -535457,39 +535663,15 @@
       },
       {
         "Quality": "Magic",
-        "ID": "2260410348",
+        "ID": "2353238781",
         "QualityCode": "q_magic",
-        "Title": "Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
+        "Title": "Amulet",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
         "Ethereal": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "86",
-        "LevelReq": 16,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2674789239",
-        "QualityCode": "q_magic",
-        "Title": "Jewel",
-        "Tag": "Jewel",
-        "TextTag": "Jewel",
-        "Ethereal": "False",
-        "AlternateGraphics": "3",
-        "ItemLevel": "86",
-        "LevelReq": 1,
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 7,
         "PropertyList": [
           "\u00ffc1Unidentified"
         ],
@@ -535504,18 +535686,67 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Flawless Topaz",
-        "Tag": "Flawless Topaz",
-        "TextTag": "Flawless Topaz",
+        "Quality": "Magic",
+        "ID": "2648479457",
+        "QualityCode": "q_magic",
+        "Title": "Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 35,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "764504740",
+        "QualityCode": "q_magic",
+        "Title": "Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
         "LevelReq": 15,
-        "SocketCount": "0",
-        "PropertyList": [],
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1981330196",
+        "QualityCode": "q_magic",
+        "Title": "Ring",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "90",
+        "LevelReq": 48,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
         "Position": {
           "x": 8,
           "y": 0
@@ -535527,19 +535758,88 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "2945763200",
-        "QualityCode": "q_magic",
-        "Title": "Amulet",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
+        "Quality": "Normal",
+        "ID": "387125000",
+        "QualityCode": "q_normal",
+        "Title": "Oil Potion",
+        "Tag": "Oil Potion",
+        "TextTag": "Oil Potion",
         "Ethereal": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "86",
-        "LevelReq": 1,
+        "Enhanced": "False",
+        "DamageMaximum": "1",
+        "ItemLevel": "88",
+        "LevelReq": 20,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 7,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "4238884235",
+        "QualityCode": "q_normal",
+        "Title": "\u00ffc;Orb of Alteration",
+        "Tag": "\u00ffc;Orb of Alteration",
+        "TextTag": "Map Orb",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "92",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 7,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "3178275830",
+        "QualityCode": "q_rare",
+        "Title": "Decomposing Settlement Relic",
+        "Tag": "Decomposing Settlement Relic",
+        "TextTag": "Decomposing Settlement Relic",
+        "Ethereal": "False",
+        "ItemLevel": "92",
+        "LevelReq": 80,
         "PropertyList": [
           "\u00ffc1Unidentified"
         ],
+        "Position": {
+          "x": 7,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Greater Healing Potion",
+        "Tag": "Greater Healing Potion",
+        "TextTag": "Strong Healing Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
         "Position": {
           "x": 7,
           "y": 4
@@ -535551,19 +535851,18 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "3841904489",
-        "QualityCode": "q_magic",
-        "Title": "Amulet",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Emerald",
+        "Tag": "Flawless Emerald",
+        "TextTag": "Flawless Emerald",
         "Ethereal": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "86",
-        "LevelReq": 30,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
         "Position": {
           "x": 7,
           "y": 3
@@ -535588,8 +535887,8 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 7,
-          "y": 2
+          "x": 6,
+          "y": 4
         },
         "Size": {
           "invheight": 1,
@@ -535598,30 +535897,25 @@
         "Worn": ""
       },
       {
-        "Quality": "Normal",
-        "ID": "2439837366",
-        "QualityCode": "q_normal",
-        "Title": "Truncheon",
-        "Tag": "Truncheon",
-        "TextTag": "Truncheon",
+        "Quality": "Magic",
+        "ID": "4085756275",
+        "QualityCode": "q_magic",
+        "Title": "Amulet",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "DamageMinimum": "35",
-        "DamageMaximum": "43",
-        "Durability": "128",
-        "DurabilityMaximum": "215",
-        "ItemLevel": "86",
-        "LevelReq": 39,
-        "SocketCount": "0",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 19,
         "PropertyList": [
-          "+50% Damage to Undead"
+          "\u00ffc1Unidentified"
         ],
         "Position": {
-          "x": 3,
-          "y": 0
+          "x": 6,
+          "y": 3
         },
         "Size": {
-          "invheight": 3,
+          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
