@@ -13834,7 +13834,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 98,
-      "Experience": 3382971417,
+      "Experience": 3383596246,
       "Strength": 30,
       "Dexterity": 99,
       "Vitality": 436,
@@ -13844,7 +13844,7 @@
       "BaseMana": 160,
       "Mana": 248,
       "Gold": 0,
-      "Stashed": 2325135
+      "Stashed": 79482
     },
     "Bonus": {
       "Strength": 125,
@@ -135440,7 +135440,7 @@
       "Vitality": 383,
       "Energy": 61,
       "BaseLife": 988,
-      "Life": 727,
+      "Life": 773,
       "BaseMana": 277,
       "Mana": 449,
       "Gold": 960000,
@@ -237301,16 +237301,16 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 96,
-      "Experience": 2721630922,
+      "Experience": 2722679306,
       "Strength": 67,
       "Dexterity": 239,
       "Vitality": 223,
       "Energy": 15,
       "BaseLife": 956,
-      "Life": 1224,
+      "Life": 1113,
       "BaseMana": 157,
-      "Mana": 244,
-      "Gold": 247322,
+      "Mana": 41,
+      "Gold": 613608,
       "Stashed": 1082400
     },
     "Bonus": {
@@ -237900,7 +237900,7 @@
           "Adds 6-45 Lightning damage",
           "+35 to Energy",
           "+70 to Mana",
-          "Level 11 Teleport (11/69 Charges)"
+          "Level 11 Teleport (6/69 Charges)"
         ],
         "Position": {
           "x": 11,
@@ -237925,7 +237925,7 @@
         "DamageMaximum": "150",
         "ThrowDamageMinimum": "97",
         "ThrowDamageMaximum": "183",
-        "Durability": "51",
+        "Durability": "34",
         "DurabilityMaximum": "100",
         "ItemLevel": "86",
         "LevelReq": 69,
@@ -239046,36 +239046,6 @@
       },
       {
         "Quality": "Rare",
-        "ID": "1899546991",
-        "QualityCode": "q_rare",
-        "Title": "Dread Eye",
-        "Tag": "Decomposing Settlement Relic",
-        "TextTag": "Decomposing Settlement Relic",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "86",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "Adds 99-100 Fire damage",
-          "+11% Increased Cold Damage",
-          "Poison Resist +50%",
-          "Damage Absorb 11%",
-          "Physical Damage Taken Reduced by 53",
-          "Magic & Elemental Damage Taken Reduced by 55"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
         "ID": "2676821807",
         "QualityCode": "q_rare",
         "Title": "Raven Eye",
@@ -239361,37 +239331,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Rare",
-        "ID": "862409792",
-        "QualityCode": "q_rare",
-        "Title": "Storm Eye",
-        "Tag": "Baleful Alcazar Relic",
-        "TextTag": "Baleful Alcazar Relic",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "86",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "Level 10 Redemption Aura When Equipped",
-          "Adds 99-100 cold damage",
-          "Lightning Resist +50%",
-          "Lightning Absorb 16%",
-          "Physical Damage Taken Reduced by 62",
-          "Magic & Elemental Damage Taken Reduced by 57",
-          "Cannot Be Frozen"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Magic",
         "ID": "1920746058",
         "QualityCode": "q_magic",
@@ -239475,21 +239414,297 @@
         "Worn": ""
       },
       {
+        "Quality": "Rare",
+        "ID": "862409792",
+        "QualityCode": "q_rare",
+        "Title": "Storm Eye",
+        "Tag": "Baleful Alcazar Relic",
+        "TextTag": "Baleful Alcazar Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "86",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Level 10 Redemption Aura When Equipped",
+          "Adds 99-100 cold damage",
+          "Lightning Resist +50%",
+          "Lightning Absorb 16%",
+          "Physical Damage Taken Reduced by 62",
+          "Magic & Elemental Damage Taken Reduced by 57",
+          "Cannot Be Frozen"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "607562837",
+        "QualityCode": "q_magic",
+        "Title": "Crimson Small Charm of Sustenance",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "85",
+        "LevelReq": 17,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+13 to Life",
+          "Fire Resist +5%"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1030593527",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "89",
+        "LevelReq": 38,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1611738601",
+        "QualityCode": "q_magic",
+        "Title": "Jewel",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "AlternateGraphics": "5",
+        "ItemLevel": "86",
+        "LevelReq": 50,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1285257472",
+        "QualityCode": "q_rare",
+        "Title": "Ring",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "AlternateGraphics": "3",
+        "ItemLevel": "86",
+        "LevelReq": 26,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3140145962",
+        "QualityCode": "q_magic",
+        "Title": "Jewel",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "AlternateGraphics": "4",
+        "ItemLevel": "86",
+        "LevelReq": 11,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1835297594",
+        "QualityCode": "q_unique",
+        "Title": "Matriarchal Javelin",
+        "Tag": "Matriarchal Javelin",
+        "TextTag": "MatriarchalJavelin",
+        "Ethereal": "False",
+        "DamageMinimum": "76",
+        "DamageMaximum": "138",
+        "ThrowDamageMinimum": "89",
+        "ThrowDamageMaximum": "168",
+        "Durability": "77",
+        "DurabilityMaximum": "100",
+        "ItemLevel": "88",
+        "LevelReq": 69,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Scroll of Identify",
+        "Tag": "Scroll of Identify",
+        "TextTag": "Identify Scroll",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 4,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3552615181",
+        "QualityCode": "q_magic",
+        "Title": "Jewel",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "AlternateGraphics": "3",
+        "ItemLevel": "86",
+        "LevelReq": 30,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
         "Quality": "Normal",
-        "ID": "531679153",
+        "ID": "3875378770",
         "QualityCode": "q_normal",
         "Title": "\u00ffc;Orb of Alteration",
         "Tag": "\u00ffc;Orb of Alteration",
         "TextTag": "Map Orb",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "92",
+        "ItemLevel": "95",
         "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
           "x": 2,
-          "y": 4
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "2698464749",
+        "QualityCode": "q_rare",
+        "Title": "Baleful Alcazar Relic",
+        "Tag": "Baleful Alcazar Relic",
+        "TextTag": "Baleful Alcazar Relic",
+        "Ethereal": "False",
+        "ItemLevel": "95",
+        "LevelReq": 80,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Eld Rune",
+        "Tag": "Eld Rune",
+        "TextTag": "Eld Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 11,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 2,
+          "y": 3
         },
         "Size": {
           "invheight": 1,
@@ -390833,7 +391048,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 98,
-      "Experience": 3382971417,
+      "Experience": 3383596246,
       "Strength": 30,
       "Dexterity": 99,
       "Vitality": 436,
@@ -390843,7 +391058,7 @@
       "BaseMana": 160,
       "Mana": 248,
       "Gold": 0,
-      "Stashed": 2325135
+      "Stashed": 79482
     },
     "Bonus": {
       "Strength": 125,
@@ -498322,7 +498537,7 @@
       "Vitality": 383,
       "Energy": 61,
       "BaseLife": 988,
-      "Life": 727,
+      "Life": 773,
       "BaseMana": 277,
       "Mana": 449,
       "Gold": 960000,
@@ -574223,16 +574438,16 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 96,
-      "Experience": 2721630922,
+      "Experience": 2722679306,
       "Strength": 67,
       "Dexterity": 239,
       "Vitality": 223,
       "Energy": 15,
       "BaseLife": 956,
-      "Life": 1224,
+      "Life": 1113,
       "BaseMana": 157,
-      "Mana": 244,
-      "Gold": 247322,
+      "Mana": 41,
+      "Gold": 613608,
       "Stashed": 1082400
     },
     "Bonus": {
@@ -574822,7 +575037,7 @@
           "Adds 6-45 Lightning damage",
           "+35 to Energy",
           "+70 to Mana",
-          "Level 11 Teleport (11/69 Charges)"
+          "Level 11 Teleport (6/69 Charges)"
         ],
         "Position": {
           "x": 11,
@@ -574847,7 +575062,7 @@
         "DamageMaximum": "150",
         "ThrowDamageMinimum": "97",
         "ThrowDamageMaximum": "183",
-        "Durability": "51",
+        "Durability": "34",
         "DurabilityMaximum": "100",
         "ItemLevel": "86",
         "LevelReq": 69,
@@ -575968,36 +576183,6 @@
       },
       {
         "Quality": "Rare",
-        "ID": "1899546991",
-        "QualityCode": "q_rare",
-        "Title": "Dread Eye",
-        "Tag": "Decomposing Settlement Relic",
-        "TextTag": "Decomposing Settlement Relic",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "86",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "Adds 99-100 Fire damage",
-          "+11% Increased Cold Damage",
-          "Poison Resist +50%",
-          "Damage Absorb 11%",
-          "Physical Damage Taken Reduced by 53",
-          "Magic & Elemental Damage Taken Reduced by 55"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
         "ID": "2676821807",
         "QualityCode": "q_rare",
         "Title": "Raven Eye",
@@ -576283,37 +576468,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Rare",
-        "ID": "862409792",
-        "QualityCode": "q_rare",
-        "Title": "Storm Eye",
-        "Tag": "Baleful Alcazar Relic",
-        "TextTag": "Baleful Alcazar Relic",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "86",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "Level 10 Redemption Aura When Equipped",
-          "Adds 99-100 cold damage",
-          "Lightning Resist +50%",
-          "Lightning Absorb 16%",
-          "Physical Damage Taken Reduced by 62",
-          "Magic & Elemental Damage Taken Reduced by 57",
-          "Cannot Be Frozen"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Magic",
         "ID": "1920746058",
         "QualityCode": "q_magic",
@@ -576397,21 +576551,297 @@
         "Worn": ""
       },
       {
+        "Quality": "Rare",
+        "ID": "862409792",
+        "QualityCode": "q_rare",
+        "Title": "Storm Eye",
+        "Tag": "Baleful Alcazar Relic",
+        "TextTag": "Baleful Alcazar Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "86",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Level 10 Redemption Aura When Equipped",
+          "Adds 99-100 cold damage",
+          "Lightning Resist +50%",
+          "Lightning Absorb 16%",
+          "Physical Damage Taken Reduced by 62",
+          "Magic & Elemental Damage Taken Reduced by 57",
+          "Cannot Be Frozen"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "607562837",
+        "QualityCode": "q_magic",
+        "Title": "Crimson Small Charm of Sustenance",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "85",
+        "LevelReq": 17,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+13 to Life",
+          "Fire Resist +5%"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1030593527",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "89",
+        "LevelReq": 38,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1611738601",
+        "QualityCode": "q_magic",
+        "Title": "Jewel",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "AlternateGraphics": "5",
+        "ItemLevel": "86",
+        "LevelReq": 50,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1285257472",
+        "QualityCode": "q_rare",
+        "Title": "Ring",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "AlternateGraphics": "3",
+        "ItemLevel": "86",
+        "LevelReq": 26,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3140145962",
+        "QualityCode": "q_magic",
+        "Title": "Jewel",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "AlternateGraphics": "4",
+        "ItemLevel": "86",
+        "LevelReq": 11,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1835297594",
+        "QualityCode": "q_unique",
+        "Title": "Matriarchal Javelin",
+        "Tag": "Matriarchal Javelin",
+        "TextTag": "MatriarchalJavelin",
+        "Ethereal": "False",
+        "DamageMinimum": "76",
+        "DamageMaximum": "138",
+        "ThrowDamageMinimum": "89",
+        "ThrowDamageMaximum": "168",
+        "Durability": "77",
+        "DurabilityMaximum": "100",
+        "ItemLevel": "88",
+        "LevelReq": 69,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Scroll of Identify",
+        "Tag": "Scroll of Identify",
+        "TextTag": "Identify Scroll",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 4,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3552615181",
+        "QualityCode": "q_magic",
+        "Title": "Jewel",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "AlternateGraphics": "3",
+        "ItemLevel": "86",
+        "LevelReq": 30,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
         "Quality": "Normal",
-        "ID": "531679153",
+        "ID": "3875378770",
         "QualityCode": "q_normal",
         "Title": "\u00ffc;Orb of Alteration",
         "Tag": "\u00ffc;Orb of Alteration",
         "TextTag": "Map Orb",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "92",
+        "ItemLevel": "95",
         "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
           "x": 2,
-          "y": 4
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "2698464749",
+        "QualityCode": "q_rare",
+        "Title": "Baleful Alcazar Relic",
+        "Tag": "Baleful Alcazar Relic",
+        "TextTag": "Baleful Alcazar Relic",
+        "Ethereal": "False",
+        "ItemLevel": "95",
+        "LevelReq": 80,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Eld Rune",
+        "Tag": "Eld Rune",
+        "TextTag": "Eld Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 11,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 2,
+          "y": 3
         },
         "Size": {
           "invheight": 1,
