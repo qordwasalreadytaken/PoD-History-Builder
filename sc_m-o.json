@@ -231147,16 +231147,16 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 91,
-      "Experience": 1892308913,
+      "Experience": 1892318826,
       "Strength": 133,
       "Dexterity": 25,
       "Vitality": 336,
       "Energy": 41,
       "BaseLife": 847,
-      "Life": 1270,
+      "Life": 1019,
       "BaseMana": 227,
-      "Mana": 291,
-      "Gold": 98682,
+      "Mana": 397,
+      "Gold": 145752,
       "Stashed": 1581493
     },
     "Bonus": {
@@ -231185,30 +231185,6 @@
       "WeaponSetMain": {
         "Strength": 0,
         "Dexterity": 0,
-        "Vitality": 22,
-        "Energy": 10,
-        "FireResistance": 0,
-        "MaximumFireResistance": 0,
-        "ColdResistance": 35,
-        "MaximumColdResistance": 0,
-        "LightningResistance": 35,
-        "MaximumLightningResistance": 0,
-        "PoisonResistance": 35,
-        "MaximumPoisonResistance": 0,
-        "MagicFind": 0,
-        "GoldFind": 0,
-        "FasterCastRate": 50,
-        "FasterHitRecovery": 55,
-        "IncreasedAttackSpeed": 0,
-        "CrushingBlow": 0,
-        "OpenWounds": 0,
-        "DeadlyStrike": 0,
-        "DamageReduction": 0,
-        "CooldownReduction": 0
-      },
-      "WeaponSetOffhand": {
-        "Strength": 0,
-        "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
         "FireResistance": 0,
@@ -231223,6 +231199,30 @@
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
+        "IncreasedAttackSpeed": 0,
+        "CrushingBlow": 0,
+        "OpenWounds": 0,
+        "DeadlyStrike": 0,
+        "DamageReduction": 0,
+        "CooldownReduction": 0
+      },
+      "WeaponSetOffhand": {
+        "Strength": 0,
+        "Dexterity": 0,
+        "Vitality": 22,
+        "Energy": 10,
+        "FireResistance": 0,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 35,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 35,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 35,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 0,
+        "GoldFind": 0,
+        "FasterCastRate": 50,
+        "FasterHitRecovery": 55,
         "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
         "OpenWounds": 0,
@@ -231763,44 +231763,6 @@
         "Worn": "amulet"
       },
       {
-        "Quality": "Unique",
-        "ID": "2559620184",
-        "QualityCode": "q_unique",
-        "Title": "Warpspear",
-        "Tag": "Gothic Staff",
-        "TextTag": "Gothic Staff",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "DamageMinimum": "14",
-        "DamageMaximum": "34",
-        "Durability": "180",
-        "DurabilityMaximum": "180",
-        "ItemLevel": "88",
-        "LevelReq": 39,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          " Thunder Storm Strikes Two Additional Targets",
-          "+3 to Sorceress Skill Levels",
-          "+91 to Maximum Damage (Based on Character Level)",
-          "Ignore Target's Defense",
-          "+50% Damage to Undead",
-          "+3 to Telekinesis (Sorceress Only)",
-          "+3 to Teleport (Sorceress Only)",
-          "+3 to Energy Shield (Sorceress Only)",
-          "+250 Defense vs. Missile"
-        ],
-        "Position": {
-          "x": 11,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 4,
-          "invwidth": 1
-        },
-        "Worn": "sweapon1"
-      },
-      {
         "Quality": "Set",
         "ID": "1123552868",
         "QualityCode": "q_set",
@@ -231826,14 +231788,14 @@
           "+77 to Mana"
         ],
         "Position": {
-          "x": 4,
+          "x": 11,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 1
         },
-        "Worn": "weapon1"
+        "Worn": "sweapon1"
       },
       {
         "Quality": "Normal",
@@ -231969,14 +231931,52 @@
           "Socketed (4)"
         ],
         "Position": {
-          "x": 5,
+          "x": 12,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
         },
-        "Worn": "weapon2"
+        "Worn": "sweapon2"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2559620184",
+        "QualityCode": "q_unique",
+        "Title": "Warpspear",
+        "Tag": "Gothic Staff",
+        "TextTag": "Gothic Staff",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "DamageMinimum": "14",
+        "DamageMaximum": "34",
+        "Durability": "180",
+        "DurabilityMaximum": "180",
+        "ItemLevel": "88",
+        "LevelReq": 39,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          " Thunder Storm Strikes Two Additional Targets",
+          "+3 to Sorceress Skill Levels",
+          "+91 to Maximum Damage (Based on Character Level)",
+          "Ignore Target's Defense",
+          "+50% Damage to Undead",
+          "+3 to Telekinesis (Sorceress Only)",
+          "+3 to Teleport (Sorceress Only)",
+          "+3 to Energy Shield (Sorceress Only)",
+          "+250 Defense vs. Missile"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 4,
+          "invwidth": 1
+        },
+        "Worn": "weapon1"
       }
     ],
     "Inventory": [
@@ -232506,32 +232506,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "861840552",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "1466810963",
         "QualityCode": "q_normal",
@@ -232550,6 +232524,36 @@
         },
         "Size": {
           "invheight": 2,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "4093086719",
+        "QualityCode": "q_rare",
+        "Title": "Wraithra Knot",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "80",
+        "LevelReq": 30,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+15 to Attack Rating",
+          "3% Life stolen per hit",
+          "+6 to Strength",
+          "+70 to Mana",
+          "7% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -232578,42 +232582,18 @@
         "Worn": ""
       },
       {
-        "Quality": "Normal",
-        "ID": "4070615099",
-        "QualityCode": "q_normal",
-        "Title": "Key",
-        "Tag": "Key",
-        "TextTag": "Skeleton Key",
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Rejuvenation Potion",
+        "Tag": "Rejuvenation Potion",
+        "TextTag": "Rejuv Potion",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "81",
+        "ItemLevel": "0",
         "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2900998809",
-        "QualityCode": "q_magic",
-        "Title": "Small Charm",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "84",
-        "LevelReq": 16,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
         "Position": {
           "x": 9,
           "y": 4
@@ -232625,25 +232605,27 @@
         "Worn": ""
       },
       {
-        "Quality": "Rare",
-        "ID": "4093086719",
-        "QualityCode": "q_rare",
-        "Title": "Ring",
-        "Tag": "Ring",
-        "TextTag": "ring",
+        "Quality": "Magic",
+        "ID": "861840552",
+        "QualityCode": "q_magic",
+        "Title": "Sparking Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
         "Ethereal": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "80",
-        "LevelReq": 30,
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 42,
+        "SocketCount": "0",
         "PropertyList": [
-          "\u00ffc1Unidentified"
+          "+1 to Lightning Skills (Sorceress Only)"
         ],
         "Position": {
-          "x": 8,
-          "y": 4
+          "x": 0,
+          "y": 6
         },
         "Size": {
-          "invheight": 1,
+          "invheight": 3,
           "invwidth": 1
         },
         "Worn": ""
@@ -232652,12 +232634,35 @@
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
+        "Title": "Rejuvenation Potion",
+        "Tag": "Rejuvenation Potion",
+        "TextTag": "Rejuv Potion",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "1346693856",
+        "QualityCode": "q_normal",
+        "Title": "Key",
+        "Tag": "Key",
+        "TextTag": "Skeleton Key",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "22",
         "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
@@ -232675,9 +232680,9 @@
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
+        "Title": "Rejuvenation Potion",
+        "Tag": "Rejuvenation Potion",
+        "TextTag": "Rejuv Potion",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "0",
@@ -232708,12 +232713,138 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
+          "x": 2,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Antidote Potion",
+        "Tag": "Antidote Potion",
+        "TextTag": "Antidote Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
           "x": 9,
           "y": 3
         },
         "Size": {
           "invheight": 1,
           "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Greater Mana Potion",
+        "Tag": "Greater Mana Potion",
+        "TextTag": "Strong Mana Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Greater Mana Potion",
+        "Tag": "Greater Mana Potion",
+        "TextTag": "Strong Mana Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 8,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Greater Mana Potion",
+        "Tag": "Greater Mana Potion",
+        "TextTag": "Strong Mana Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 7,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2159236898",
+        "QualityCode": "q_unique",
+        "Title": "Gorefoot",
+        "Tag": "Heavy Boots",
+        "TextTag": "Heavy Boots",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "7",
+        "Durability": "8",
+        "DurabilityMaximum": "14",
+        "ItemLevel": "75",
+        "LevelReq": 9,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20% Faster Run/Walk",
+          "2% Mana stolen per hit",
+          "+2 to Leap Slam (Barbarian Only)",
+          "+23% Enhanced Defense",
+          "+12 Defense",
+          "Attacker Takes Damage of 2",
+          "Extra Blood"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
         },
         "Worn": ""
       },
@@ -232731,8 +232862,8 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 9,
-          "y": 2
+          "x": 7,
+          "y": 4
         },
         "Size": {
           "invheight": 1,
@@ -232744,18 +232875,18 @@
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Amn Rune",
-        "Tag": "Amn Rune",
-        "TextTag": "Amn Rune",
+        "Title": "Greater Mana Potion",
+        "Tag": "Greater Mana Potion",
+        "TextTag": "Strong Mana Potion",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "0",
-        "LevelReq": 25,
+        "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
           "x": 9,
-          "y": 1
+          "y": 2
         },
         "Size": {
           "invheight": 1,
@@ -565794,16 +565925,16 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 91,
-      "Experience": 1892308913,
+      "Experience": 1892318826,
       "Strength": 133,
       "Dexterity": 25,
       "Vitality": 336,
       "Energy": 41,
       "BaseLife": 847,
-      "Life": 1270,
+      "Life": 1019,
       "BaseMana": 227,
-      "Mana": 291,
-      "Gold": 98682,
+      "Mana": 397,
+      "Gold": 145752,
       "Stashed": 1581493
     },
     "Bonus": {
@@ -565832,30 +565963,6 @@
       "WeaponSetMain": {
         "Strength": 0,
         "Dexterity": 0,
-        "Vitality": 22,
-        "Energy": 10,
-        "FireResistance": 0,
-        "MaximumFireResistance": 0,
-        "ColdResistance": 35,
-        "MaximumColdResistance": 0,
-        "LightningResistance": 35,
-        "MaximumLightningResistance": 0,
-        "PoisonResistance": 35,
-        "MaximumPoisonResistance": 0,
-        "MagicFind": 0,
-        "GoldFind": 0,
-        "FasterCastRate": 50,
-        "FasterHitRecovery": 55,
-        "IncreasedAttackSpeed": 0,
-        "CrushingBlow": 0,
-        "OpenWounds": 0,
-        "DeadlyStrike": 0,
-        "DamageReduction": 0,
-        "CooldownReduction": 0
-      },
-      "WeaponSetOffhand": {
-        "Strength": 0,
-        "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
         "FireResistance": 0,
@@ -565870,6 +565977,30 @@
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
+        "IncreasedAttackSpeed": 0,
+        "CrushingBlow": 0,
+        "OpenWounds": 0,
+        "DeadlyStrike": 0,
+        "DamageReduction": 0,
+        "CooldownReduction": 0
+      },
+      "WeaponSetOffhand": {
+        "Strength": 0,
+        "Dexterity": 0,
+        "Vitality": 22,
+        "Energy": 10,
+        "FireResistance": 0,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 35,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 35,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 35,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 0,
+        "GoldFind": 0,
+        "FasterCastRate": 50,
+        "FasterHitRecovery": 55,
         "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
         "OpenWounds": 0,
@@ -566410,44 +566541,6 @@
         "Worn": "amulet"
       },
       {
-        "Quality": "Unique",
-        "ID": "2559620184",
-        "QualityCode": "q_unique",
-        "Title": "Warpspear",
-        "Tag": "Gothic Staff",
-        "TextTag": "Gothic Staff",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "DamageMinimum": "14",
-        "DamageMaximum": "34",
-        "Durability": "180",
-        "DurabilityMaximum": "180",
-        "ItemLevel": "88",
-        "LevelReq": 39,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          " Thunder Storm Strikes Two Additional Targets",
-          "+3 to Sorceress Skill Levels",
-          "+91 to Maximum Damage (Based on Character Level)",
-          "Ignore Target's Defense",
-          "+50% Damage to Undead",
-          "+3 to Telekinesis (Sorceress Only)",
-          "+3 to Teleport (Sorceress Only)",
-          "+3 to Energy Shield (Sorceress Only)",
-          "+250 Defense vs. Missile"
-        ],
-        "Position": {
-          "x": 11,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 4,
-          "invwidth": 1
-        },
-        "Worn": "sweapon1"
-      },
-      {
         "Quality": "Set",
         "ID": "1123552868",
         "QualityCode": "q_set",
@@ -566473,14 +566566,14 @@
           "+77 to Mana"
         ],
         "Position": {
-          "x": 4,
+          "x": 11,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 1
         },
-        "Worn": "weapon1"
+        "Worn": "sweapon1"
       },
       {
         "Quality": "Normal",
@@ -566616,14 +566709,52 @@
           "Socketed (4)"
         ],
         "Position": {
-          "x": 5,
+          "x": 12,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
         },
-        "Worn": "weapon2"
+        "Worn": "sweapon2"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2559620184",
+        "QualityCode": "q_unique",
+        "Title": "Warpspear",
+        "Tag": "Gothic Staff",
+        "TextTag": "Gothic Staff",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "DamageMinimum": "14",
+        "DamageMaximum": "34",
+        "Durability": "180",
+        "DurabilityMaximum": "180",
+        "ItemLevel": "88",
+        "LevelReq": 39,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          " Thunder Storm Strikes Two Additional Targets",
+          "+3 to Sorceress Skill Levels",
+          "+91 to Maximum Damage (Based on Character Level)",
+          "Ignore Target's Defense",
+          "+50% Damage to Undead",
+          "+3 to Telekinesis (Sorceress Only)",
+          "+3 to Teleport (Sorceress Only)",
+          "+3 to Energy Shield (Sorceress Only)",
+          "+250 Defense vs. Missile"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 4,
+          "invwidth": 1
+        },
+        "Worn": "weapon1"
       }
     ],
     "Inventory": [
@@ -567153,32 +567284,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "861840552",
-        "QualityCode": "q_magic",
-        "Title": "Sparking Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Lightning Skills (Sorceress Only)"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "1466810963",
         "QualityCode": "q_normal",
@@ -567197,6 +567302,36 @@
         },
         "Size": {
           "invheight": 2,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "4093086719",
+        "QualityCode": "q_rare",
+        "Title": "Wraithra Knot",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "80",
+        "LevelReq": 30,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+15 to Attack Rating",
+          "3% Life stolen per hit",
+          "+6 to Strength",
+          "+70 to Mana",
+          "7% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -567225,42 +567360,18 @@
         "Worn": ""
       },
       {
-        "Quality": "Normal",
-        "ID": "4070615099",
-        "QualityCode": "q_normal",
-        "Title": "Key",
-        "Tag": "Key",
-        "TextTag": "Skeleton Key",
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Rejuvenation Potion",
+        "Tag": "Rejuvenation Potion",
+        "TextTag": "Rejuv Potion",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "81",
+        "ItemLevel": "0",
         "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2900998809",
-        "QualityCode": "q_magic",
-        "Title": "Small Charm",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "84",
-        "LevelReq": 16,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
         "Position": {
           "x": 9,
           "y": 4
@@ -567272,25 +567383,27 @@
         "Worn": ""
       },
       {
-        "Quality": "Rare",
-        "ID": "4093086719",
-        "QualityCode": "q_rare",
-        "Title": "Ring",
-        "Tag": "Ring",
-        "TextTag": "ring",
+        "Quality": "Magic",
+        "ID": "861840552",
+        "QualityCode": "q_magic",
+        "Title": "Sparking Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
         "Ethereal": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "80",
-        "LevelReq": 30,
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 42,
+        "SocketCount": "0",
         "PropertyList": [
-          "\u00ffc1Unidentified"
+          "+1 to Lightning Skills (Sorceress Only)"
         ],
         "Position": {
-          "x": 8,
-          "y": 4
+          "x": 0,
+          "y": 6
         },
         "Size": {
-          "invheight": 1,
+          "invheight": 3,
           "invwidth": 1
         },
         "Worn": ""
@@ -567299,12 +567412,35 @@
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
+        "Title": "Rejuvenation Potion",
+        "Tag": "Rejuvenation Potion",
+        "TextTag": "Rejuv Potion",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "1346693856",
+        "QualityCode": "q_normal",
+        "Title": "Key",
+        "Tag": "Key",
+        "TextTag": "Skeleton Key",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "22",
         "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
@@ -567322,9 +567458,9 @@
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
+        "Title": "Rejuvenation Potion",
+        "Tag": "Rejuvenation Potion",
+        "TextTag": "Rejuv Potion",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "0",
@@ -567355,12 +567491,138 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
+          "x": 2,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Antidote Potion",
+        "Tag": "Antidote Potion",
+        "TextTag": "Antidote Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
           "x": 9,
           "y": 3
         },
         "Size": {
           "invheight": 1,
           "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Greater Mana Potion",
+        "Tag": "Greater Mana Potion",
+        "TextTag": "Strong Mana Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Greater Mana Potion",
+        "Tag": "Greater Mana Potion",
+        "TextTag": "Strong Mana Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 8,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Greater Mana Potion",
+        "Tag": "Greater Mana Potion",
+        "TextTag": "Strong Mana Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 7,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2159236898",
+        "QualityCode": "q_unique",
+        "Title": "Gorefoot",
+        "Tag": "Heavy Boots",
+        "TextTag": "Heavy Boots",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "7",
+        "Durability": "8",
+        "DurabilityMaximum": "14",
+        "ItemLevel": "75",
+        "LevelReq": 9,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20% Faster Run/Walk",
+          "2% Mana stolen per hit",
+          "+2 to Leap Slam (Barbarian Only)",
+          "+23% Enhanced Defense",
+          "+12 Defense",
+          "Attacker Takes Damage of 2",
+          "Extra Blood"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
         },
         "Worn": ""
       },
@@ -567378,8 +567640,8 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 9,
-          "y": 2
+          "x": 7,
+          "y": 4
         },
         "Size": {
           "invheight": 1,
@@ -567391,18 +567653,18 @@
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Amn Rune",
-        "Tag": "Amn Rune",
-        "TextTag": "Amn Rune",
+        "Title": "Greater Mana Potion",
+        "Tag": "Greater Mana Potion",
+        "TextTag": "Strong Mana Potion",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "0",
-        "LevelReq": 25,
+        "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
           "x": 9,
-          "y": 1
+          "y": 2
         },
         "Size": {
           "invheight": 1,
