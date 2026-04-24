@@ -149937,7 +149937,7 @@
       "Life": 2483,
       "BaseMana": 102,
       "Mana": 209,
-      "Gold": 64482,
+      "Gold": 14482,
       "Stashed": 2500000
     },
     "Bonus": {
@@ -208333,16 +208333,16 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 93,
-      "Experience": 2173670068,
+      "Experience": 2176541792,
       "Strength": 115,
       "Dexterity": 245,
       "Vitality": 165,
       "Energy": 15,
       "BaseLife": 775,
-      "Life": 1070,
+      "Life": 941,
       "BaseMana": 153,
-      "Mana": 288,
-      "Gold": 406830,
+      "Mana": 211,
+      "Gold": 776581,
       "Stashed": 879467
     },
     "Bonus": {
@@ -208373,19 +208373,19 @@
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
-        "FireResistance": 0,
+        "FireResistance": 15,
         "MaximumFireResistance": 0,
-        "ColdResistance": 0,
+        "ColdResistance": 15,
         "MaximumColdResistance": 0,
-        "LightningResistance": 0,
+        "LightningResistance": 27,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
+        "PoisonResistance": 15,
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
-        "GoldFind": 0,
+        "GoldFind": 75,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 20,
+        "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
@@ -208397,16 +208397,16 @@
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
-        "FireResistance": 15,
+        "FireResistance": 40,
         "MaximumFireResistance": 0,
-        "ColdResistance": 15,
+        "ColdResistance": 0,
         "MaximumColdResistance": 0,
-        "LightningResistance": 27,
+        "LightningResistance": 93,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 15,
+        "PoisonResistance": 0,
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
-        "GoldFind": 75,
+        "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 0,
@@ -208979,6 +208979,44 @@
         "Worn": "belt"
       },
       {
+        "Quality": "Unique",
+        "ID": "167897426",
+        "QualityCode": "q_unique",
+        "Title": "Stormspike",
+        "Tag": "Synthesized Stiletto",
+        "TextTag": "Synthesized Stilleto",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "DamageMinimum": "19",
+        "DamageMaximum": "36",
+        "Durability": "82",
+        "DurabilityMaximum": "108",
+        "ItemLevel": "86",
+        "LevelReq": 41,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Adds 1-120 Lightning damage",
+          "-25% to Enemy Fire Resistance",
+          "Lightning Resist 93% (Based on Character Level)",
+          "Fire Resist +40%",
+          "Attacker Takes Lightning Damage of 20",
+          "+1 to maximum Lightning Damage per Dexterity",
+          "Level 15 Enflame (6/45 Charges)"
+        ],
+        "SynthesisedFrom": [
+          "Todesfaelle Flamme"
+        ],
+        "Position": {
+          "x": 11,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": "sweapon1"
+      },
+      {
         "Quality": "Superior",
         "ID": "1681117753",
         "QualityCode": "q_runeword",
@@ -209113,14 +209151,14 @@
           "Socketed (4)"
         ],
         "Position": {
-          "x": 11,
+          "x": 4,
           "y": 0
         },
         "Size": {
           "invheight": 4,
           "invwidth": 2
         },
-        "Worn": "sweapon1"
+        "Worn": "weapon1"
       },
       {
         "Quality": "Rare",
@@ -209142,76 +209180,6 @@
           "+46 to Maximum Damage (Based on Character Level)",
           "Lightning Resist +12%",
           "+4 Mana Gained on Ranged Hit"
-        ],
-        "Position": {
-          "x": 12,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "4268459256",
-        "QualityCode": "q_unique",
-        "Title": "Ichorsting",
-        "Tag": "Synthesized Crossbow",
-        "TextTag": "Synthesized Crossbow",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "24",
-        "DamageMaximum": "43",
-        "ItemLevel": "87",
-        "LevelReq": 18,
-        "SocketCount": "1",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "25% Chance to cast level 17 Fissure when struck",
-          "+20% Increased Attack Speed",
-          "Fires Explosive Arrows or Bolts",
-          "+173% Enhanced Damage",
-          "+632 to Attack Rating",
-          "7% Mana stolen per hit",
-          "+36 to Mana",
-          "20% Slower Stamina Drain",
-          "Socketed (1)"
-        ],
-        "SynthesisedFrom": [
-          "Pompeii's Wrath",
-          "Soulfeast Tine",
-          "Demon Machine"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": "weapon1"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "1162513483",
-        "QualityCode": "q_unique",
-        "Title": "FrostbiteB",
-        "Tag": "Bolts",
-        "TextTag": "Bolts",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "88",
-        "LevelReq": 18,
-        "SocketCount": "0",
-        "PropertyList": [
-          "34% Chance to cast level 21 Ice Arrow when struck",
-          "+2 to Cold Skills",
-          "Increase Maximum Life 16%",
-          "Increase Maximum Mana 18%",
-          "+40% to Freezing Arrow Radius"
         ],
         "Position": {
           "x": 5,
@@ -209743,29 +209711,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Normal",
-        "ID": "1269053819",
-        "QualityCode": "q_normal",
-        "Title": "Key",
-        "Tag": "Key",
-        "TextTag": "Skeleton Key",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "87",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Magic",
         "ID": "1905998991",
         "QualityCode": "q_magic",
@@ -209848,29 +209793,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Greater Healing Potion",
-        "Tag": "Greater Healing Potion",
-        "TextTag": "Strong Healing Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "3148928687",
         "QualityCode": "q_normal",
@@ -209917,338 +209839,30 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Greater Healing Potion",
-        "Tag": "Greater Healing Potion",
-        "TextTag": "Strong Healing Potion",
+        "Quality": "Rare",
+        "ID": "2428075849",
+        "QualityCode": "q_rare",
+        "Title": "Bitter Eye",
+        "Tag": "Frigid Plateau Relic",
+        "TextTag": "Frigid Plateau Relic",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 0,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Greater Healing Potion",
-        "Tag": "Greater Healing Potion",
-        "TextTag": "Strong Healing Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 1,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Greater Healing Potion",
-        "Tag": "Greater Healing Potion",
-        "TextTag": "Strong Healing Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Healing Potion",
-        "Tag": "Healing Potion",
-        "TextTag": "Healing Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Greater Healing Potion",
-        "Tag": "Greater Healing Potion",
-        "TextTag": "Strong Healing Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Greater Healing Potion",
-        "Tag": "Greater Healing Potion",
-        "TextTag": "Strong Healing Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Greater Healing Potion",
-        "Tag": "Greater Healing Potion",
-        "TextTag": "Strong Healing Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Healing Potion",
-        "Tag": "Super Healing Potion",
-        "TextTag": "Greater Healing Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Greater Healing Potion",
-        "Tag": "Greater Healing Potion",
-        "TextTag": "Strong Healing Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Greater Healing Potion",
-        "Tag": "Greater Healing Potion",
-        "TextTag": "Strong Healing Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Stamina Potion",
-        "Tag": "Stamina Potion",
-        "TextTag": "Stamina Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Stamina Potion",
-        "Tag": "Stamina Potion",
-        "TextTag": "Stamina Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 2,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unique",
-        "ID": "167897426",
-        "QualityCode": "q_unique",
-        "Title": "Stormspike",
-        "Tag": "Synthesized Stiletto",
-        "TextTag": "Synthesized Stilleto",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "DamageMinimum": "19",
-        "DamageMaximum": "36",
-        "Durability": "82",
-        "DurabilityMaximum": "108",
-        "ItemLevel": "86",
-        "LevelReq": 41,
+        "ItemLevel": "92",
+        "LevelReq": 80,
         "SocketCount": "0",
         "PropertyList": [
-          "Adds 1-120 Lightning damage",
-          "-25% to Enemy Fire Resistance",
-          "Lightning Resist 93% (Based on Character Level)",
-          "Fire Resist +40%",
-          "Attacker Takes Lightning Damage of 20",
-          "+1 to maximum Lightning Damage per Dexterity",
-          "Level 15 Enflame (7/45 Charges)"
-        ],
-        "SynthesisedFrom": [
-          "Todesfaelle Flamme"
+          "Level 11 Redemption Aura When Equipped",
+          "+71% Increased Cold Damage",
+          "100% Chance of Open Wounds",
+          "Cannot Be Frozen",
+          "19% chance to Evade"
         ],
         "Position": {
-          "x": 3,
-          "y": 0
+          "x": 5,
+          "y": 4
         },
         "Size": {
-          "invheight": 3,
+          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -451006,7 +450620,7 @@
       "Life": 2483,
       "BaseMana": 102,
       "Mana": 209,
-      "Gold": 64482,
+      "Gold": 14482,
       "Stashed": 2500000
     },
     "Bonus": {
