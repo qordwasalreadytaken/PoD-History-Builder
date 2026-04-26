@@ -42023,7 +42023,7 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 94,
-      "Experience": 2391093553,
+      "Experience": 2406153737,
       "Strength": 15,
       "Dexterity": 25,
       "Vitality": 285,
@@ -42031,8 +42031,8 @@
       "BaseLife": 831,
       "Life": 1224,
       "BaseMana": 631,
-      "Mana": 1270,
-      "Gold": 940000,
+      "Mana": 1275,
+      "Gold": 888232,
       "Stashed": 2500000
     },
     "Bonus": {
@@ -43368,32 +43368,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "1669920471",
-        "QualityCode": "q_magic",
-        "Title": "Small Charm of Good Luck",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 33,
-        "SocketCount": "0",
-        "PropertyList": [
-          "7% Better Chance of Getting Magic Items"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "2853930376",
         "QualityCode": "q_magic",
         "Title": "Coral Small Charm of Good Luck",
@@ -43766,27 +43740,25 @@
         "Worn": ""
       },
       {
-        "Quality": "Rare",
-        "ID": "1857990085",
-        "QualityCode": "q_rare",
-        "Title": "Wraithra Eye",
-        "Tag": "Ruined Citadel Relic",
-        "TextTag": "Ruined Citadel Relic",
+        "Quality": "Magic",
+        "ID": "4026474523",
+        "QualityCode": "q_magic",
+        "Title": "Lizard's Small Charm of Good Luck",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
         "Ethereal": "False",
         "Enhanced": "False",
+        "AlternateGraphics": "1",
         "ItemLevel": "88",
-        "LevelReq": 80,
+        "LevelReq": 33,
         "SocketCount": "0",
         "PropertyList": [
-          "Adds 199-200 cold damage",
-          "+79% Enhanced Defense",
-          "Lightning Absorb 55%",
-          "Damage Absorb 46%",
-          "17% chance to Avoid"
+          "+3 to Mana",
+          "7% Better Chance of Getting Magic Items"
         ],
         "Position": {
-          "x": 7,
-          "y": 4
+          "x": 1,
+          "y": 8
         },
         "Size": {
           "invheight": 1,
@@ -44003,22 +43975,72 @@
         "Worn": "body"
       },
       {
-        "Quality": "Unique",
-        "ID": "2972932131",
-        "QualityCode": "q_unique",
-        "Title": "The Reaper's Toll",
+        "Quality": "Normal",
+        "ID": "3379468348",
+        "QualityCode": "q_runeword",
+        "Title": "Plague",
         "Tag": "Thresher",
         "TextTag": "Thresher",
-        "RuneTag": "UmShaelShaelShael",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "36",
-        "DamageMaximum": "428",
-        "Durability": "205",
-        "DurabilityMaximum": "215",
-        "ItemLevel": "88",
-        "LevelReq": 75,
+        "RuneTag": "ChamFalUm",
+        "Ethereal": "True",
+        "Enhanced": "False",
+        "DamageMinimum": "18",
+        "DamageMaximum": "211",
+        "Durability": "108",
+        "DurabilityMaximum": "108",
+        "ItemLevel": "86",
+        "LevelReq": 67,
         "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Cham Rune",
+            "Tag": "Cham Rune",
+            "TextTag": "Cham Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 67,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Freezes target +3"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Fal Rune",
+            "Tag": "Fal Rune",
+            "TextTag": "Fal Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 41,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Strength"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
           {
             "Quality": "Unknown",
             "ID": "0",
@@ -44035,82 +44057,7 @@
               "25% Chance of Open Wounds"
             ],
             "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Shael Rune",
-            "Tag": "Shael Rune",
-            "TextTag": "Shael Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 29,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+20% Increased Attack Speed"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Shael Rune",
-            "Tag": "Shael Rune",
-            "TextTag": "Shael Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 29,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+20% Increased Attack Speed"
-            ],
-            "Position": {
               "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Shael Rune",
-            "Tag": "Shael Rune",
-            "TextTag": "Shael Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 29,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+20% Increased Attack Speed"
-            ],
-            "Position": {
-              "x": 3,
               "y": 0
             },
             "Size": {
@@ -44120,19 +44067,19 @@
             "Worn": ""
           }
         ],
-        "SocketCount": "4",
+        "SocketCount": "3",
         "PropertyList": [
-          "\u00ffc1Corrupted",
-          "33% Chance to cast level 1 Decrepify on striking",
-          "+60% Increased Attack Speed",
-          "+204% Enhanced Damage",
-          "Ignore Target's Defense",
-          "Adds 4-44 cold damage",
-          "11% Life stolen per hit",
-          "33% Deadly Strike",
+          "20% Chance to cast level 12 Lower Resist when struck",
+          "15% Chance to cast level 17 Poison Nova on striking",
+          "Level 17 Cleansing Aura When Equipped",
+          "+1 to All Skills",
+          "+270% Damage to Demons",
+          "-23% to Enemy Poison Resistance",
+          "35% Deadly Strike (Based on Character Level)",
           "25% Chance of Open Wounds",
-          "Requirements -25%",
-          "Socketed (4)"
+          "Freezes target +3",
+          "+10 to Strength",
+          "Ethereal (Cannot be Repaired), Socketed (3)"
         ],
         "Position": {
           "x": 4,
@@ -249454,7 +249401,7 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 94,
-      "Experience": 2391093553,
+      "Experience": 2406153737,
       "Strength": 15,
       "Dexterity": 25,
       "Vitality": 285,
@@ -249462,8 +249409,8 @@
       "BaseLife": 831,
       "Life": 1224,
       "BaseMana": 631,
-      "Mana": 1270,
-      "Gold": 940000,
+      "Mana": 1275,
+      "Gold": 888232,
       "Stashed": 2500000
     },
     "Bonus": {
@@ -250799,32 +250746,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "1669920471",
-        "QualityCode": "q_magic",
-        "Title": "Small Charm of Good Luck",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 33,
-        "SocketCount": "0",
-        "PropertyList": [
-          "7% Better Chance of Getting Magic Items"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "2853930376",
         "QualityCode": "q_magic",
         "Title": "Coral Small Charm of Good Luck",
@@ -251197,27 +251118,25 @@
         "Worn": ""
       },
       {
-        "Quality": "Rare",
-        "ID": "1857990085",
-        "QualityCode": "q_rare",
-        "Title": "Wraithra Eye",
-        "Tag": "Ruined Citadel Relic",
-        "TextTag": "Ruined Citadel Relic",
+        "Quality": "Magic",
+        "ID": "4026474523",
+        "QualityCode": "q_magic",
+        "Title": "Lizard's Small Charm of Good Luck",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
         "Ethereal": "False",
         "Enhanced": "False",
+        "AlternateGraphics": "1",
         "ItemLevel": "88",
-        "LevelReq": 80,
+        "LevelReq": 33,
         "SocketCount": "0",
         "PropertyList": [
-          "Adds 199-200 cold damage",
-          "+79% Enhanced Defense",
-          "Lightning Absorb 55%",
-          "Damage Absorb 46%",
-          "17% chance to Avoid"
+          "+3 to Mana",
+          "7% Better Chance of Getting Magic Items"
         ],
         "Position": {
-          "x": 7,
-          "y": 4
+          "x": 1,
+          "y": 8
         },
         "Size": {
           "invheight": 1,
@@ -251434,22 +251353,72 @@
         "Worn": "body"
       },
       {
-        "Quality": "Unique",
-        "ID": "2972932131",
-        "QualityCode": "q_unique",
-        "Title": "The Reaper's Toll",
+        "Quality": "Normal",
+        "ID": "3379468348",
+        "QualityCode": "q_runeword",
+        "Title": "Plague",
         "Tag": "Thresher",
         "TextTag": "Thresher",
-        "RuneTag": "UmShaelShaelShael",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "36",
-        "DamageMaximum": "428",
-        "Durability": "205",
-        "DurabilityMaximum": "215",
-        "ItemLevel": "88",
-        "LevelReq": 75,
+        "RuneTag": "ChamFalUm",
+        "Ethereal": "True",
+        "Enhanced": "False",
+        "DamageMinimum": "18",
+        "DamageMaximum": "211",
+        "Durability": "108",
+        "DurabilityMaximum": "108",
+        "ItemLevel": "86",
+        "LevelReq": 67,
         "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Cham Rune",
+            "Tag": "Cham Rune",
+            "TextTag": "Cham Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 67,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Freezes target +3"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Fal Rune",
+            "Tag": "Fal Rune",
+            "TextTag": "Fal Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 41,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Strength"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
           {
             "Quality": "Unknown",
             "ID": "0",
@@ -251466,82 +251435,7 @@
               "25% Chance of Open Wounds"
             ],
             "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Shael Rune",
-            "Tag": "Shael Rune",
-            "TextTag": "Shael Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 29,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+20% Increased Attack Speed"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Shael Rune",
-            "Tag": "Shael Rune",
-            "TextTag": "Shael Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 29,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+20% Increased Attack Speed"
-            ],
-            "Position": {
               "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Shael Rune",
-            "Tag": "Shael Rune",
-            "TextTag": "Shael Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 29,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+20% Increased Attack Speed"
-            ],
-            "Position": {
-              "x": 3,
               "y": 0
             },
             "Size": {
@@ -251551,19 +251445,19 @@
             "Worn": ""
           }
         ],
-        "SocketCount": "4",
+        "SocketCount": "3",
         "PropertyList": [
-          "\u00ffc1Corrupted",
-          "33% Chance to cast level 1 Decrepify on striking",
-          "+60% Increased Attack Speed",
-          "+204% Enhanced Damage",
-          "Ignore Target's Defense",
-          "Adds 4-44 cold damage",
-          "11% Life stolen per hit",
-          "33% Deadly Strike",
+          "20% Chance to cast level 12 Lower Resist when struck",
+          "15% Chance to cast level 17 Poison Nova on striking",
+          "Level 17 Cleansing Aura When Equipped",
+          "+1 to All Skills",
+          "+270% Damage to Demons",
+          "-23% to Enemy Poison Resistance",
+          "35% Deadly Strike (Based on Character Level)",
           "25% Chance of Open Wounds",
-          "Requirements -25%",
-          "Socketed (4)"
+          "Freezes target +3",
+          "+10 to Strength",
+          "Ethereal (Cannot be Repaired), Socketed (3)"
         ],
         "Position": {
           "x": 4,
