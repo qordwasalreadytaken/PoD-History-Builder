@@ -9907,5 +9907,38 @@ const synthInventory = [
     "seen_date": "2026-04-26",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Soul+Harvest%2C0%2Cnone%2Cdamage_bonus%3A380%2CpDamage_all%3A250%2Cmana_leech%3A10%2Cdstrike%3A20%2Cenergy%3A5%2CcRes%3A20%2ClRes%3A20%2CfRes%3A20%2CpRes%3A50%2Cmana_after_kill%3A6%2Cthorns%3A15"
+  },
+  {
+    "id": "c8ed04abb2797fb678b11de8606c191efd01e77919b963185b2e7faebf74b029",
+    "friendly_id": 169,
+    "owner": "fckissin",
+    "base_type": "Synthesized Ceremonial Javelin",
+    "title": "Titan's Revenge",
+    "properties": [
+      "ÿc1Corrupted",
+      "+50% Faster Cast Rate",
+      "+166% Enhanced Damage",
+      "+20 to Strength",
+      "+20 to Dexterity",
+      "Increase Maximum Mana 10%",
+      "All Resistances +10",
+      "Magic & Elemental Damage Taken Reduced by 8",
+      "Repairs 1 durability in 3 seconds"
+    ],
+    "synthesised_from": [
+      "Suicide Branch",
+      "Ginther's Rift"
+    ],
+    "location": "Equipped",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "47",
+    "DamageMaximum": "93",
+    "LevelReq": 42,
+    "SocketCount": "0",
+    "seen_date": "2026-04-26",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Titan%27s+Revenge%2C0%2Cnone%2Cfcr%3A50%2Cdamage_bonus%3A166%2Cstrength%3A20%2Cdexterity%3A20%2Cmax_mana%3A10%2Call_res%3A10"
   }
 ];
