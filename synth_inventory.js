@@ -9940,5 +9940,74 @@ const synthInventory = [
     "seen_date": "2026-04-26",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Titan%27s+Revenge%2C0%2Cnone%2Cfcr%3A50%2Cdamage_bonus%3A166%2Cstrength%3A20%2Cdexterity%3A20%2Cmax_mana%3A10%2Call_res%3A10"
+  },
+  {
+    "id": "3ea7aa14ef4f55c8f2ae3ec6abac7de197d61d4f794ad433feeed5905bc319d1",
+    "friendly_id": 170,
+    "owner": "granite_elem",
+    "base_type": "Synthesized Reinforced Mace",
+    "title": "Sureshrill Frost",
+    "properties": [
+      "100% Chance to cast level 29 Blaze when you Level-Up",
+      "+6 to All Skills",
+      "+153% Enhanced Damage",
+      "Adds 5-10 damage",
+      "+50% Damage to Undead",
+      "Adds 17-45 Fire damage",
+      "-5% to Enemy Fire Resistance",
+      "+5% Increased Fire Damage",
+      "Poison Resist +30%",
+      "Cannot Be Frozen",
+      "Attacker Takes Damage of 15",
+      "90% Better Chance of Getting Magic Items (Based on Character Level)",
+      "Level 9 Frozen Orb (50/50 Charges)",
+      "Socketed (1)"
+    ],
+    "synthesised_from": [
+      "Skull Collector",
+      "Guardian Naga",
+      "Ondal's Wisdom"
+    ],
+    "location": "Equipped",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "108",
+    "DamageMaximum": "123",
+    "LevelReq": 54,
+    "SocketCount": "1",
+    "seen_date": "2026-04-29",
+    "sockets": [
+      {
+        "Quality": "Unique",
+        "ID": "488474654",
+        "QualityCode": "q_unique",
+        "Title": "Rainbow Facet",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "4",
+        "ItemLevel": "90",
+        "LevelReq": 49,
+        "SocketCount": "0",
+        "PropertyList": [
+          "100% Chance to cast level 29 Blaze when you Level-Up",
+          "Adds 17-45 Fire damage",
+          "-5% to Enemy Fire Resistance",
+          "+5% Increased Fire Damage"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      }
+    ],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Sureshrill+Frost%2C0%2Cnone%2Call_skills%3A6%2Cdamage_bonus%3A153%2Cdamage%3A10%2Cdamage_vs_undead%3A50%2CfDamage_min%3A17%2CfDamage_max%3A45%2Cenemy_fRes%3A-5%2CpRes%3A30%2Ccbf%3A1%2Cthorns%3A15%2Cmf%3A90%2Csockets%3A1%2Cctc%3A%5B100%2C+29%2C+%27Blaze%27%2C+%27when+you+Level-Up%27%5D%2Ccskill%3A%5B9%2C+%27Frozen+Orb%27%2C+50%5D"
   }
 ];
