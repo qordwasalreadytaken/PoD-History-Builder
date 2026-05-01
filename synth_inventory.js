@@ -10009,5 +10009,38 @@ const synthInventory = [
       }
     ],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Sureshrill+Frost%2C0%2Cnone%2Call_skills%3A6%2Cdamage_bonus%3A153%2Cdamage%3A10%2Cdamage_vs_undead%3A50%2CfDamage_min%3A17%2CfDamage_max%3A45%2Cenemy_fRes%3A-5%2CpRes%3A30%2Ccbf%3A1%2Cthorns%3A15%2Cmf%3A90%2Csockets%3A1%2Cctc%3A%5B100%2C+29%2C+%27Blaze%27%2C+%27when+you+Level-Up%27%5D%2Ccskill%3A%5B9%2C+%27Frozen+Orb%27%2C+50%5D"
+  },
+  {
+    "id": "4298272f9a3dc3aa31f71e13b5ae0ce0df8f730067b1d26a09555a4656279bdc",
+    "friendly_id": 171,
+    "owner": "Totemheim",
+    "base_type": "Synthesized Spear",
+    "title": "The Dragon Chang",
+    "properties": [
+      "5% Chance to cast level 4 Poison Nova on striking",
+      "+63 to Attack Rating",
+      "Adds 1-30 Lightning damage",
+      "+300 poison damage over 8 seconds",
+      "+8 to Strength",
+      "+100 to Mana",
+      "+2 to Light Radius",
+      "Level 1 Teleport (20/20 Charges)"
+    ],
+    "synthesised_from": [
+      "Stormstrike",
+      "Spellsteel",
+      "Plague Bearer"
+    ],
+    "location": "Equipped",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "3",
+    "DamageMaximum": "15",
+    "LevelReq": 8,
+    "SocketCount": "0",
+    "seen_date": "2026-05-01",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=The+Dragon+Chang%2C0%2Cnone%2Car%3A63%2ClDamage_min%3A1%2ClDamage_max%3A30%2CpDamage_all%3A300%2Cstrength%3A8%2Cmana%3A100%2Clight_radius%3A2%2Ccskill%3A%5B1%2C+%27Teleport%27%2C+20%5D"
   }
 ];
