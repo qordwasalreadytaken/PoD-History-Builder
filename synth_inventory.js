@@ -10042,5 +10042,70 @@ const synthInventory = [
     "seen_date": "2026-05-01",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=The+Dragon+Chang%2C0%2Cnone%2Car%3A63%2ClDamage_min%3A1%2ClDamage_max%3A30%2CpDamage_all%3A300%2Cstrength%3A8%2Cmana%3A100%2Clight_radius%3A2%2Ccskill%3A%5B1%2C+%27Teleport%27%2C+20%5D"
+  },
+  {
+    "id": "e1ae1e98fad9051c5e20b64518acef653134b2e3698cfbac390662ba928d3169",
+    "friendly_id": 172,
+    "owner": "jaun_wolf",
+    "base_type": "Synthesized Champion Sword",
+    "title": "Cloudcrack",
+    "properties": [
+      "ÿc1Corrupted",
+      "33% Chance to cast level 1 Decrepify on striking",
+      "+170% Enhanced Damage",
+      "+94 to Maximum Damage (Based on Character Level)",
+      "50% Bonus to Attack Rating",
+      "+215 to Attack Rating",
+      "Adds 1-240 Lightning damage",
+      "Adds 4-44 cold damage",
+      "15% Mana stolen per hit",
+      "7% Life stolen per hit",
+      "33% Deadly Strike",
+      "+3 to Magic Arrow (Amazon Only)",
+      "+3 to Strength",
+      "Socketed (1)"
+    ],
+    "synthesised_from": [
+      "Magewrath",
+      "The Reaper's Toll",
+      "Raven Claw"
+    ],
+    "location": "MercenaryEquipped",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "191",
+    "DamageMaximum": "224",
+    "LevelReq": 64,
+    "SocketCount": "1",
+    "seen_date": "2026-05-02",
+    "sockets": [
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Amn Rune",
+        "Tag": "Amn Rune",
+        "TextTag": "Amn Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "7% Life stolen per hit"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      }
+    ],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Cloudcrack%2C0%2Cnone%2Cdamage_bonus%3A170%2Car_bonus%3A50%2Car%3A215%2ClDamage_min%3A1%2ClDamage_max%3A240%2CcDamage_min%3A4%2CcDamage_max%3A44%2Cmana_leech%3A15%2Clife_leech%3A7%2Cdstrike%3A33%2Coskill_Magic_Arrow%3A3%2Cstrength%3A3%2Csockets%3A1"
   }
 ];
