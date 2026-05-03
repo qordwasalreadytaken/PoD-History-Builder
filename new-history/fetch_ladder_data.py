@@ -1,6 +1,7 @@
 ######## To manually add a character to the watchilist
 # python fetch_ladder_data.py --add-watched SomeCharacterName
-########
+# or open an issue with "add charactername" as gthe subject
+# ########
 
 import requests
 import json
