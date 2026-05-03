@@ -7,7 +7,6 @@ import requests
 import json
 import os
 import time
-from html.parser import HTMLParser
 from collections import Counter
 import matplotlib.pyplot as plt
 from datetime import datetime
@@ -29,75 +28,6 @@ WATCHLIST_FILE = os.path.join(BASE_DIR, 'watched_characters.json')
 
 # Character summary endpoint (used for ladder and watched characters)
 CHAR_URL = "https://beta.pathofdiablo.com/api/characters/{char_name}/summary"
-
-# Endpoints for account-based discovery
-ARMORY_INT_URL = "https://beta.pathofdiablo.com/armory-int?name={char_name}"
-ACCOUNT_URL = "https://beta.pathofdiablo.com/account/{account_name}"
-
-
-class _AccountNameParser(HTMLParser):
-    """Extracts the account name from the armory-int character page."""
-    def __init__(self):
-        super().__init__()
-        self._in_info = False
-        self._capture_next_a = False
-        self.account = None
-
-    def handle_starttag(self, tag, attrs):
-        attrs = dict(attrs)
-        if tag == 'div' and attrs.get('id') == 'info':
-            self._in_info = True
-        if self._in_info and tag == 'a' and 'account/' in attrs.get('href', ''):
-            self._capture_next_a = True
-
-    def handle_data(self, data):
-        if self._capture_next_a:
-            self.account = data.strip()
-            self._capture_next_a = False
-
-
-class _AccountCharsParser(HTMLParser):
-    """Extracts character names from an account page."""
-    def __init__(self):
-        super().__init__()
-        self.characters = []
-
-    def handle_starttag(self, tag, attrs):
-        if tag != 'a':
-            return
-        attrs = dict(attrs)
-        href = attrs.get('href', '')
-        if href.startswith('/armory/?name='):
-            name = href.split('/armory/?name=', 1)[1]
-            if name:
-                self.characters.append(name)
-
-def get_account_name(char_name):
-    """Return the account name that owns char_name, or None on failure."""
-    try:
-        r = requests.get(ARMORY_INT_URL.format(char_name=char_name), timeout=15)
-        if r.status_code != 200:
-            return None
-        parser = _AccountNameParser()
-        parser.feed(r.text)
-        return parser.account
-    except Exception as e:
-        print(f"⚠️  get_account_name({char_name}): {e}")
-        return None
-
-
-def get_account_characters(account_name):
-    """Return a list of character names on the given account page."""
-    try:
-        r = requests.get(ACCOUNT_URL.format(account_name=account_name), timeout=15)
-        if r.status_code != 200:
-            return []
-        parser = _AccountCharsParser()
-        parser.feed(r.text)
-        return parser.characters
-    except Exception as e:
-        print(f"⚠️  get_account_characters({account_name}): {e}")
-        return []
 
 
 def save_character_history(char_name, history):
@@ -431,38 +361,6 @@ def main():
             char_data = fetch_character_summary(char_name)
             if char_data is not None:
                 all_characters[char_name] = char_data
-
-    # ------------------------------------------------------------------
-    # Account-based discovery
-    # For every character we already know about, resolve their account,
-    # then pull in any sibling characters on that account we haven't
-    # seen before.  We deduplicate accounts so each account page is
-    # only fetched once per run.
-    # ------------------------------------------------------------------
-    known_lower = {n.lower() for n in all_characters}
-    accounts_seen = set()
-    newly_found = []
-
-    print(f"🔍 Account expansion: looking up accounts for {len(all_characters)} characters...")
-    for char_name in sorted(all_characters.keys()):
-        account = get_account_name(char_name)
-        time.sleep(0.2)  # be polite
-        if not account or account in accounts_seen:
-            continue
-        accounts_seen.add(account)
-        siblings = get_account_characters(account)
-        time.sleep(0.2)
-        for sibling in siblings:
-            if sibling.lower() not in known_lower:
-                newly_found.append(sibling)
-                known_lower.add(sibling.lower())
-
-    print(f"  Discovered {len(newly_found)} new characters across {len(accounts_seen)} accounts.")
-    for char_name in sorted(newly_found):
-        char_data = fetch_character_summary(char_name)
-        if char_data is not None:
-            all_characters[char_name] = char_data
-        time.sleep(0.2)
 
     process_characters(all_characters)
 
