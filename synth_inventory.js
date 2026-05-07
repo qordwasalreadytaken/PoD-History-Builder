@@ -10107,5 +10107,68 @@ const synthInventory = [
       }
     ],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Cloudcrack%2C0%2Cnone%2Cdamage_bonus%3A170%2Car_bonus%3A50%2Car%3A215%2ClDamage_min%3A1%2ClDamage_max%3A240%2CcDamage_min%3A4%2CcDamage_max%3A44%2Cmana_leech%3A15%2Clife_leech%3A7%2Cdstrike%3A33%2Coskill_Magic_Arrow%3A3%2Cstrength%3A3%2Csockets%3A1"
+  },
+  {
+    "id": "ccabe8ed0d96dd7e450bd0355496f380aa2f0b13290f05b99b8ce1d4c3584428",
+    "friendly_id": 173,
+    "owner": "fewbaba",
+    "base_type": "Synthesized Colossus Blade",
+    "title": "Swordguard",
+    "properties": [
+      "ÿc1Corrupted",
+      "20% Increased Chance of Blocking",
+      "+295% Enhanced Damage",
+      "Ignore Target's Defense",
+      "+460 Defense (Based on Character Level)",
+      "+75 Defense",
+      "+40 to Life",
+      "All Resistances +10",
+      "Physical Damage Taken Reduced by 3",
+      "Attacker Takes Damage of 25",
+      "+60% added chance to release Whirling Axes",
+      "Socketed (1)"
+    ],
+    "synthesised_from": [
+      "The Patriarch",
+      "Warlord's Trust",
+      "Suicide Branch"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "229",
+    "DamageMaximum": "454",
+    "LevelReq": 72,
+    "SocketCount": "1",
+    "seen_date": "2026-05-07",
+    "sockets": [
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Jah Rune",
+        "Tag": "Jah Rune",
+        "TextTag": "Jah Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 65,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Ignore Target's Defense"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      }
+    ],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Swordguard%2C0%2Cnone%2Cdamage_bonus%3A295%2Cdefense%3A75%2Clife%3A40%2Call_res%3A10%2Cthorns%3A25%2Csockets%3A1"
   }
 ];
