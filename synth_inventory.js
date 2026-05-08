@@ -10170,5 +10170,167 @@ const synthInventory = [
       }
     ],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Swordguard%2C0%2Cnone%2Cdamage_bonus%3A295%2Cdefense%3A75%2Clife%3A40%2Call_res%3A10%2Cthorns%3A25%2Csockets%3A1"
+  },
+  {
+    "id": "1309700923916b95086e3a10b045742e3d36ff788e8d4a779ccd31305825cdd0",
+    "friendly_id": 174,
+    "owner": "fewbaba",
+    "base_type": "Synthesized Cryptic Axe",
+    "title": "Pierre Tombale Couant",
+    "properties": [
+      "ÿc1Corrupted",
+      "+1 to All Skills",
+      "+3 to Barbarian Skill Levels",
+      "+100% Increased Attack Speed",
+      "+292% Enhanced Damage",
+      "55% Deadly Strike",
+      "+1 to Telekinesis",
+      "+15 to Energy",
+      "+90 to Life",
+      "Releases One Additional Telekinesis Burst",
+      "Socketed (5)"
+    ],
+    "synthesised_from": [
+      "Spire of Lazarus",
+      "Pluckeye",
+      "Razorswitch"
+    ],
+    "location": "Equipped",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "129",
+    "DamageMaximum": "588",
+    "LevelReq": 66,
+    "SocketCount": "5",
+    "seen_date": "2026-05-08",
+    "sockets": [
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Shael Rune",
+        "Tag": "Shael Rune",
+        "TextTag": "Shael Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 29,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20% Increased Attack Speed"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Shael Rune",
+        "Tag": "Shael Rune",
+        "TextTag": "Shael Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 29,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20% Increased Attack Speed"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Shael Rune",
+        "Tag": "Shael Rune",
+        "TextTag": "Shael Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 29,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20% Increased Attack Speed"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Shael Rune",
+        "Tag": "Shael Rune",
+        "TextTag": "Shael Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 29,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20% Increased Attack Speed"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Shael Rune",
+        "Tag": "Shael Rune",
+        "TextTag": "Shael Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 29,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20% Increased Attack Speed"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      }
+    ],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Pierre+Tombale+Couant%2C0%2Cnone%2Call_skills%3A1%2Cskills_barbarian%3A3%2Cias%3A100%2Cdamage_bonus%3A292%2Cdstrike%3A55%2Coskill_Telekinesis%3A1%2Cenergy%3A15%2Clife%3A90%2Csockets%3A5"
   }
 ];
