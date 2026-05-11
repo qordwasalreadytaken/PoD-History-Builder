@@ -13766,7 +13766,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 98,
-      "Experience": 3396107628,
+      "Experience": 3396107688,
       "Strength": 30,
       "Dexterity": 99,
       "Vitality": 436,
@@ -15280,33 +15280,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "2140958889",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Grand Charm of Sustenance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "86",
-        "LevelReq": 37,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+30 to Life",
-          "All Resistances +15"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "1805901191",
         "QualityCode": "q_magic",
         "Title": "Shimmering Grand Charm of Inertia",
@@ -15382,6 +15355,33 @@
         },
         "Size": {
           "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2140958889",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Grand Charm of Sustenance",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "86",
+        "LevelReq": 37,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+30 to Life",
+          "All Resistances +15"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 3,
           "invwidth": 1
         },
         "Worn": ""
@@ -71795,7 +71795,7 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 96,
-      "Experience": 2729194823,
+      "Experience": 2731939214,
       "Strength": 60,
       "Dexterity": 25,
       "Vitality": 460,
@@ -71804,8 +71804,8 @@
       "Life": 1588,
       "BaseMana": 215,
       "Mana": 337,
-      "Gold": 0,
-      "Stashed": 0
+      "Gold": 127336,
+      "Stashed": 133147
     },
     "Bonus": {
       "Strength": 98,
@@ -72252,7 +72252,7 @@
         "Ethereal": "False",
         "Enhanced": "False",
         "Defense": "51",
-        "Durability": "20",
+        "Durability": "19",
         "DurabilityMaximum": "20",
         "ItemLevel": "99",
         "LevelReq": 67,
@@ -72333,6 +72333,44 @@
           "invwidth": 1
         },
         "Worn": "ring1"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2578108093",
+        "QualityCode": "q_unique",
+        "Title": "Marrowwalk",
+        "Tag": "Boneweave Boots",
+        "TextTag": "Boneweave Boots",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "68",
+        "Durability": "11",
+        "DurabilityMaximum": "16",
+        "ItemLevel": "90",
+        "LevelReq": 66,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+20% Faster Run/Walk",
+          "+2 to Summon Mastery (Necromancer Only)",
+          "+1 to Flesh Offering (Necromancer Only)",
+          "+196% Enhanced Defense",
+          "+20 to Strength",
+          "+17 to Dexterity",
+          "Regenerate Mana 10%",
+          "Heal Stamina Plus 10%",
+          "Half Freeze Duration",
+          "Level 12 Life Tap (2/10 Charges)"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "boots"
       },
       {
         "Quality": "Normal",
@@ -72571,44 +72609,6 @@
           "invwidth": 2
         },
         "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "2578108093",
-        "QualityCode": "q_unique",
-        "Title": "Marrowwalk",
-        "Tag": "Boneweave Boots",
-        "TextTag": "Boneweave Boots",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "68",
-        "Durability": "11",
-        "DurabilityMaximum": "16",
-        "ItemLevel": "90",
-        "LevelReq": 66,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+20% Faster Run/Walk",
-          "+2 to Summon Mastery (Necromancer Only)",
-          "+1 to Flesh Offering (Necromancer Only)",
-          "+196% Enhanced Defense",
-          "+20 to Strength",
-          "+17 to Dexterity",
-          "Regenerate Mana 10%",
-          "Heal Stamina Plus 10%",
-          "Half Freeze Duration",
-          "Level 12 Life Tap (2/10 Charges)"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "boots"
       },
       {
         "Quality": "Normal",
@@ -73486,9 +73486,84 @@
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Full Rejuvenation Potion",
-        "Tag": "Full Rejuvenation Potion",
-        "TextTag": "Full Rejuv Potion",
+        "Title": "Eld Rune",
+        "Tag": "Eld Rune",
+        "TextTag": "Eld Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 11,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "3969489947",
+        "QualityCode": "q_rare",
+        "Title": "Doom Eye",
+        "Tag": "Forgotten Desert Relic",
+        "TextTag": "Forgotten Desert Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "88",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Adds 199-200 Fire damage",
+          "Adds 63-200 Lightning damage",
+          "35% Deadly Strike",
+          "Magic Absorb 49%",
+          "80% Reduced Curse Duration"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Tir Rune",
+        "Tag": "Tir Rune",
+        "TextTag": "Tir Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 13,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "\u00ffc;Orb of Corruption",
+        "Tag": "\u00ffc;Orb of Corruption",
+        "TextTag": "Orb of Corruption",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "0",
@@ -389769,7 +389844,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 98,
-      "Experience": 3396107628,
+      "Experience": 3396107688,
       "Strength": 30,
       "Dexterity": 99,
       "Vitality": 436,
@@ -391283,33 +391358,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "2140958889",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Grand Charm of Sustenance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "86",
-        "LevelReq": 37,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+30 to Life",
-          "All Resistances +15"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "1805901191",
         "QualityCode": "q_magic",
         "Title": "Shimmering Grand Charm of Inertia",
@@ -391385,6 +391433,33 @@
         },
         "Size": {
           "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2140958889",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Grand Charm of Sustenance",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "86",
+        "LevelReq": 37,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+30 to Life",
+          "All Resistances +15"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 3,
           "invwidth": 1
         },
         "Worn": ""
@@ -434479,7 +434554,7 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 96,
-      "Experience": 2729194823,
+      "Experience": 2731939214,
       "Strength": 60,
       "Dexterity": 25,
       "Vitality": 460,
@@ -434488,8 +434563,8 @@
       "Life": 1588,
       "BaseMana": 215,
       "Mana": 337,
-      "Gold": 0,
-      "Stashed": 0
+      "Gold": 127336,
+      "Stashed": 133147
     },
     "Bonus": {
       "Strength": 98,
@@ -434936,7 +435011,7 @@
         "Ethereal": "False",
         "Enhanced": "False",
         "Defense": "51",
-        "Durability": "20",
+        "Durability": "19",
         "DurabilityMaximum": "20",
         "ItemLevel": "99",
         "LevelReq": 67,
@@ -435017,6 +435092,44 @@
           "invwidth": 1
         },
         "Worn": "ring1"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2578108093",
+        "QualityCode": "q_unique",
+        "Title": "Marrowwalk",
+        "Tag": "Boneweave Boots",
+        "TextTag": "Boneweave Boots",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "68",
+        "Durability": "11",
+        "DurabilityMaximum": "16",
+        "ItemLevel": "90",
+        "LevelReq": 66,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+20% Faster Run/Walk",
+          "+2 to Summon Mastery (Necromancer Only)",
+          "+1 to Flesh Offering (Necromancer Only)",
+          "+196% Enhanced Defense",
+          "+20 to Strength",
+          "+17 to Dexterity",
+          "Regenerate Mana 10%",
+          "Heal Stamina Plus 10%",
+          "Half Freeze Duration",
+          "Level 12 Life Tap (2/10 Charges)"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "boots"
       },
       {
         "Quality": "Normal",
@@ -435255,44 +435368,6 @@
           "invwidth": 2
         },
         "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "2578108093",
-        "QualityCode": "q_unique",
-        "Title": "Marrowwalk",
-        "Tag": "Boneweave Boots",
-        "TextTag": "Boneweave Boots",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "68",
-        "Durability": "11",
-        "DurabilityMaximum": "16",
-        "ItemLevel": "90",
-        "LevelReq": 66,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+20% Faster Run/Walk",
-          "+2 to Summon Mastery (Necromancer Only)",
-          "+1 to Flesh Offering (Necromancer Only)",
-          "+196% Enhanced Defense",
-          "+20 to Strength",
-          "+17 to Dexterity",
-          "Regenerate Mana 10%",
-          "Heal Stamina Plus 10%",
-          "Half Freeze Duration",
-          "Level 12 Life Tap (2/10 Charges)"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "boots"
       },
       {
         "Quality": "Normal",
@@ -436170,9 +436245,84 @@
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Full Rejuvenation Potion",
-        "Tag": "Full Rejuvenation Potion",
-        "TextTag": "Full Rejuv Potion",
+        "Title": "Eld Rune",
+        "Tag": "Eld Rune",
+        "TextTag": "Eld Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 11,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "3969489947",
+        "QualityCode": "q_rare",
+        "Title": "Doom Eye",
+        "Tag": "Forgotten Desert Relic",
+        "TextTag": "Forgotten Desert Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "88",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Adds 199-200 Fire damage",
+          "Adds 63-200 Lightning damage",
+          "35% Deadly Strike",
+          "Magic Absorb 49%",
+          "80% Reduced Curse Duration"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Tir Rune",
+        "Tag": "Tir Rune",
+        "TextTag": "Tir Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 13,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "\u00ffc;Orb of Corruption",
+        "Tag": "\u00ffc;Orb of Corruption",
+        "TextTag": "Orb of Corruption",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "0",
