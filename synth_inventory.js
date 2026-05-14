@@ -10403,5 +10403,41 @@ const synthInventory = [
     "seen_date": "2026-05-13",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Skewer+of+Krintiz%2C0%2Cnone%2Cskills_summoning_necromancer%3A2%2Cdamage_bonus%3A237%2Cdamage%3A35%2Cmana_leech%3A7%2Cskill_Summon_Mastery%3A3%2Cskill_Find_Potion%3A4%2Cskill_Grim_Ward%3A4%2Cmana%3A118%2Cctc%3A%5B5%2C+10%2C+%27Bone+Spirit%27%2C+%27when+struck%27%5D"
+  },
+  {
+    "id": "2b0aaf950d1d6a148ca0280f95e46afd8835747fcfda68c3d3ce62bd86eee2a7",
+    "friendly_id": 177,
+    "owner": "Criplyna",
+    "base_type": "Synthesized Gothic Staff",
+    "title": "Warpspear",
+    "properties": [
+      "+3 to Sorceress Skill Levels",
+      "+20% Increased Attack Speed",
+      "+157% Enhanced Damage",
+      "+50% Damage to Undead",
+      "40% Chance of Open Wounds",
+      "+5 to Molten Strike (Amazon Only)",
+      "+3 to Telekinesis (Sorceress Only)",
+      "+3 to Teleport (Sorceress Only)",
+      "+3 to Energy Shield (Sorceress Only)",
+      "Knockback",
+      "+250 Defense vs. Missile",
+      "+15 to Strength"
+    ],
+    "synthesised_from": [
+      "Crushflange",
+      "The Impaler"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "35",
+    "DamageMaximum": "87",
+    "LevelReq": 39,
+    "SocketCount": "0",
+    "seen_date": "2026-05-14",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Warpspear%2C0%2Cnone%2Cskills_sorceress%3A3%2Cias%3A20%2Cdamage_bonus%3A157%2Cdamage_vs_undead%3A50%2Cowounds%3A40%2Cskill_Molten_Strike%3A5%2Coskill_Telekinesis%3A3%2Cskill_Teleport%3A3%2Cenergy%3A3%2Cknockback%3A1%2Cdefense%3A250%2Cstrength%3A15"
   }
 ];
