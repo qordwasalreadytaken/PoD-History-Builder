@@ -14,10 +14,10 @@
       "Vitality": 458,
       "Energy": 25,
       "BaseLife": 1187,
-      "Life": 1187,
+      "Life": 1197,
       "BaseMana": 221,
-      "Mana": 232,
-      "Gold": 324141,
+      "Mana": 242,
+      "Gold": 317829,
       "Stashed": 2500000
     },
     "Bonus": {
@@ -33,18 +33,18 @@
       "MaximumLightningResistance": 0,
       "PoisonResistance": 30,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 0,
-      "GoldFind": 0,
+      "MagicFind": 26,
+      "GoldFind": 137,
       "FasterCastRate": 20,
       "FasterHitRecovery": 0,
-      "IncreasedAttackSpeed": 0,
+      "IncreasedAttackSpeed": 20,
       "CrushingBlow": 0,
       "OpenWounds": 0,
       "DeadlyStrike": 0,
       "DamageReduction": 0,
       "CooldownReduction": 0,
       "WeaponSetMain": {
-        "Strength": 0,
+        "Strength": 5,
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
@@ -60,7 +60,7 @@
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 0,
+        "IncreasedAttackSpeed": 35,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
@@ -226,9 +226,181 @@
           "invwidth": 2
         },
         "Worn": "belt"
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3900471384",
+        "QualityCode": "q_magic",
+        "Title": "Kenshi's Light Gauntlets of Alacrity",
+        "Tag": "Light Gauntlets",
+        "TextTag": "Light Gauntlets",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "Defense": "9",
+        "Durability": "18",
+        "DurabilityMaximum": "18",
+        "ItemLevel": "99",
+        "LevelReq": 45,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+3 to Martial Arts (Assassin Only)",
+          "+20% Increased Attack Speed"
+        ],
+        "Position": {
+          "x": 10,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "gloves"
+      },
+      {
+        "Quality": "Normal",
+        "ID": "967745643",
+        "QualityCode": "q_runeword",
+        "Title": "Edge",
+        "Tag": "Composite Bow",
+        "TextTag": "Composite Bow",
+        "RuneTag": "TirTalAmn",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "DamageMinimum": "4",
+        "DamageMaximum": "8",
+        "ItemLevel": "16",
+        "LevelReq": 25,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Tir Rune",
+            "Tag": "Tir Rune",
+            "TextTag": "Tir Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 13,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+2 to Mana after each Kill"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Tal Rune",
+            "Tag": "Tal Rune",
+            "TextTag": "Tal Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 17,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+75 poison damage over 5 seconds"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Amn Rune",
+            "Tag": "Amn Rune",
+            "TextTag": "Amn Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 25,
+            "SocketCount": "0",
+            "PropertyList": [
+              "7% Life stolen per hit"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "3",
+        "PropertyList": [
+          "Level 15 Precision Aura When Equipped",
+          "+35% Increased Attack Speed",
+          "+321% Damage to Demons",
+          "+280% Damage to Undead",
+          "+75 poison damage over 5 seconds",
+          "7% Life stolen per hit",
+          "Prevent Monster Heal",
+          "+5 to all Attributes",
+          "+2 to Mana after each Kill",
+          "Reduces all Vendor Prices 15%",
+          "Socketed (3)"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": "weapon1"
       }
     ],
     "Inventory": [
+      {
+        "Quality": "Unique",
+        "ID": "3735572939",
+        "QualityCode": "q_unique",
+        "Title": "Gheed's Fortune",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 62,
+        "SocketCount": "0",
+        "PropertyList": [
+          "137% Extra Gold from Monsters",
+          "Reduces all Vendor Prices 15%",
+          "26% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
       {
         "Quality": "Normal",
         "ID": "2250722294",
@@ -243,8 +415,8 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 0,
-          "y": 1
+          "x": 1,
+          "y": 7
         },
         "Size": {
           "invheight": 2,
@@ -266,8 +438,8 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 0,
-          "y": 3
+          "x": 1,
+          "y": 5
         },
         "Size": {
           "invheight": 2,
@@ -289,8 +461,8 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 1,
-          "y": 3
+          "x": 2,
+          "y": 5
         },
         "Size": {
           "invheight": 2,
@@ -313,7 +485,7 @@
         "PropertyList": [],
         "Position": {
           "x": 0,
-          "y": 0
+          "y": 5
         },
         "Size": {
           "invheight": 1,
@@ -89425,7 +89597,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 93,
-      "Experience": 2196868445,
+      "Experience": 2196911260,
       "Strength": 23,
       "Dexterity": 87,
       "Vitality": 425,
@@ -89435,7 +89607,7 @@
       "BaseMana": 153,
       "Mana": 264,
       "Gold": 0,
-      "Stashed": 1082994
+      "Stashed": 1154614
     },
     "Bonus": {
       "Strength": 96,
@@ -89855,7 +90027,7 @@
           "+14% Faster Run/Walk",
           "Lightning Absorb 12%",
           "20% Better Chance of Getting Magic Items",
-          "Level 9 Heart of Wolverine (16/17 Charges)"
+          "Level 9 Heart of Wolverine (17/17 Charges)"
         ],
         "Position": {
           "x": 6,
@@ -92059,32 +92231,61 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "563270459",
-        "QualityCode": "q_unique",
-        "Title": "Silkweave",
-        "Tag": "Boneweave Boots",
-        "TextTag": "Boneweave Boots",
+        "Quality": "Magic",
+        "ID": "3658163312",
+        "QualityCode": "q_magic",
+        "Title": "Lion Branded Grand Charm of Sustenance",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "60",
-        "Durability": "16",
-        "DurabilityMaximum": "16",
-        "ItemLevel": "91",
-        "LevelReq": 61,
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "87",
+        "LevelReq": 53,
         "SocketCount": "0",
         "PropertyList": [
+          "+1 to Combat Skills (Paladin Only)",
+          "+32 to Life"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1848534587",
+        "QualityCode": "q_unique",
+        "Title": "Nightwing's Veil",
+        "Tag": "Spired Helm",
+        "TextTag": "Spired Helm",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "160",
+        "Durability": "21",
+        "DurabilityMaximum": "40",
+        "ItemLevel": "87",
+        "LevelReq": 67,
+        "SocketCount": "3",
+        "PropertyList": [
           "\u00ffc1Corrupted",
-          "+30% Faster Run/Walk",
-          "+150% Enhanced Defense",
-          "+200 Defense vs. Missile",
-          "Increase Maximum Mana 10%",
-          "Lightning Resist +20%",
-          "+5 to Mana after each Kill"
+          "+2 to All Skills",
+          "+10% Increased Cold Damage",
+          "+95% Enhanced Defense",
+          "+19 to Dexterity",
+          "+7 Cold Absorb",
+          "Half Freeze Duration",
+          "Requirements -50%",
+          "Socketed (3)"
         ],
         "Position": {
           "x": 2,
-          "y": 0
+          "y": 3
         },
         "Size": {
           "invheight": 2,
@@ -214783,10 +214984,10 @@
       "Vitality": 458,
       "Energy": 25,
       "BaseLife": 1187,
-      "Life": 1187,
+      "Life": 1197,
       "BaseMana": 221,
-      "Mana": 232,
-      "Gold": 324141,
+      "Mana": 242,
+      "Gold": 317829,
       "Stashed": 2500000
     },
     "Bonus": {
@@ -214802,18 +215003,18 @@
       "MaximumLightningResistance": 0,
       "PoisonResistance": 30,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 0,
-      "GoldFind": 0,
+      "MagicFind": 26,
+      "GoldFind": 137,
       "FasterCastRate": 20,
       "FasterHitRecovery": 0,
-      "IncreasedAttackSpeed": 0,
+      "IncreasedAttackSpeed": 20,
       "CrushingBlow": 0,
       "OpenWounds": 0,
       "DeadlyStrike": 0,
       "DamageReduction": 0,
       "CooldownReduction": 0,
       "WeaponSetMain": {
-        "Strength": 0,
+        "Strength": 5,
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
@@ -214829,7 +215030,7 @@
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 0,
+        "IncreasedAttackSpeed": 35,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
@@ -214995,9 +215196,181 @@
           "invwidth": 2
         },
         "Worn": "belt"
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3900471384",
+        "QualityCode": "q_magic",
+        "Title": "Kenshi's Light Gauntlets of Alacrity",
+        "Tag": "Light Gauntlets",
+        "TextTag": "Light Gauntlets",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "Defense": "9",
+        "Durability": "18",
+        "DurabilityMaximum": "18",
+        "ItemLevel": "99",
+        "LevelReq": 45,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+3 to Martial Arts (Assassin Only)",
+          "+20% Increased Attack Speed"
+        ],
+        "Position": {
+          "x": 10,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "gloves"
+      },
+      {
+        "Quality": "Normal",
+        "ID": "967745643",
+        "QualityCode": "q_runeword",
+        "Title": "Edge",
+        "Tag": "Composite Bow",
+        "TextTag": "Composite Bow",
+        "RuneTag": "TirTalAmn",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "DamageMinimum": "4",
+        "DamageMaximum": "8",
+        "ItemLevel": "16",
+        "LevelReq": 25,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Tir Rune",
+            "Tag": "Tir Rune",
+            "TextTag": "Tir Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 13,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+2 to Mana after each Kill"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Tal Rune",
+            "Tag": "Tal Rune",
+            "TextTag": "Tal Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 17,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+75 poison damage over 5 seconds"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Amn Rune",
+            "Tag": "Amn Rune",
+            "TextTag": "Amn Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 25,
+            "SocketCount": "0",
+            "PropertyList": [
+              "7% Life stolen per hit"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "3",
+        "PropertyList": [
+          "Level 15 Precision Aura When Equipped",
+          "+35% Increased Attack Speed",
+          "+321% Damage to Demons",
+          "+280% Damage to Undead",
+          "+75 poison damage over 5 seconds",
+          "7% Life stolen per hit",
+          "Prevent Monster Heal",
+          "+5 to all Attributes",
+          "+2 to Mana after each Kill",
+          "Reduces all Vendor Prices 15%",
+          "Socketed (3)"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": "weapon1"
       }
     ],
     "Inventory": [
+      {
+        "Quality": "Unique",
+        "ID": "3735572939",
+        "QualityCode": "q_unique",
+        "Title": "Gheed's Fortune",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 62,
+        "SocketCount": "0",
+        "PropertyList": [
+          "137% Extra Gold from Monsters",
+          "Reduces all Vendor Prices 15%",
+          "26% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
       {
         "Quality": "Normal",
         "ID": "2250722294",
@@ -215012,8 +215385,8 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 0,
-          "y": 1
+          "x": 1,
+          "y": 7
         },
         "Size": {
           "invheight": 2,
@@ -215035,8 +215408,8 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 0,
-          "y": 3
+          "x": 1,
+          "y": 5
         },
         "Size": {
           "invheight": 2,
@@ -215058,8 +215431,8 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 1,
-          "y": 3
+          "x": 2,
+          "y": 5
         },
         "Size": {
           "invheight": 2,
@@ -215082,7 +215455,7 @@
         "PropertyList": [],
         "Position": {
           "x": 0,
-          "y": 0
+          "y": 5
         },
         "Size": {
           "invheight": 1,
@@ -287354,7 +287727,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 93,
-      "Experience": 2196868445,
+      "Experience": 2196911260,
       "Strength": 23,
       "Dexterity": 87,
       "Vitality": 425,
@@ -287364,7 +287737,7 @@
       "BaseMana": 153,
       "Mana": 264,
       "Gold": 0,
-      "Stashed": 1082994
+      "Stashed": 1154614
     },
     "Bonus": {
       "Strength": 96,
@@ -287784,7 +288157,7 @@
           "+14% Faster Run/Walk",
           "Lightning Absorb 12%",
           "20% Better Chance of Getting Magic Items",
-          "Level 9 Heart of Wolverine (16/17 Charges)"
+          "Level 9 Heart of Wolverine (17/17 Charges)"
         ],
         "Position": {
           "x": 6,
@@ -289988,32 +290361,61 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "563270459",
-        "QualityCode": "q_unique",
-        "Title": "Silkweave",
-        "Tag": "Boneweave Boots",
-        "TextTag": "Boneweave Boots",
+        "Quality": "Magic",
+        "ID": "3658163312",
+        "QualityCode": "q_magic",
+        "Title": "Lion Branded Grand Charm of Sustenance",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "60",
-        "Durability": "16",
-        "DurabilityMaximum": "16",
-        "ItemLevel": "91",
-        "LevelReq": 61,
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "87",
+        "LevelReq": 53,
         "SocketCount": "0",
         "PropertyList": [
+          "+1 to Combat Skills (Paladin Only)",
+          "+32 to Life"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1848534587",
+        "QualityCode": "q_unique",
+        "Title": "Nightwing's Veil",
+        "Tag": "Spired Helm",
+        "TextTag": "Spired Helm",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "160",
+        "Durability": "21",
+        "DurabilityMaximum": "40",
+        "ItemLevel": "87",
+        "LevelReq": 67,
+        "SocketCount": "3",
+        "PropertyList": [
           "\u00ffc1Corrupted",
-          "+30% Faster Run/Walk",
-          "+150% Enhanced Defense",
-          "+200 Defense vs. Missile",
-          "Increase Maximum Mana 10%",
-          "Lightning Resist +20%",
-          "+5 to Mana after each Kill"
+          "+2 to All Skills",
+          "+10% Increased Cold Damage",
+          "+95% Enhanced Defense",
+          "+19 to Dexterity",
+          "+7 Cold Absorb",
+          "Half Freeze Duration",
+          "Requirements -50%",
+          "Socketed (3)"
         ],
         "Position": {
           "x": 2,
-          "y": 0
+          "y": 3
         },
         "Size": {
           "invheight": 2,
