@@ -10474,5 +10474,70 @@ const synthInventory = [
     "seen_date": "2026-05-15",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Hellclap%2C0%2Cnone%2Cdamage_bonus%3A488%2Cdamage%3A15%2Car%3A74%2CfDamage_min%3A55%2CfDamage_max%3A115%2Cenemy_lRes%3A-15%2Cowounds%3A25%2Cdexterity%3A12%2Clight_radius%3A2%2Ccskill%3A%5B11%2C+%27Meteor%27%2C+14%5D"
+  },
+  {
+    "id": "28866286bdc09385105d3825d98a856da1122d17b78992f2b8abef540e87a210",
+    "friendly_id": 179,
+    "owner": "Beya",
+    "base_type": "Synthesized Short Sword",
+    "title": "Rixot's Keen",
+    "properties": [
+      "ÿc1Corrupted",
+      "+12% Increased Attack Speed",
+      "+100% Enhanced Damage",
+      "+13 to Minimum Damage",
+      "Ignore Target's Defense",
+      "20% Bonus to Attack Rating",
+      "+190 to Mana",
+      "Cold Resist +50%",
+      "Lightning Resist +50%",
+      "Fire Resist +70%",
+      "Poison Resist +50%",
+      "Magic & Elemental Damage Taken Reduced by 15",
+      "+2 to Light Radius",
+      "Socketed (1)"
+    ],
+    "synthesised_from": [
+      "Deathspade",
+      "Knell Striker",
+      "Razorswitch"
+    ],
+    "location": "Equipped",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "17",
+    "DamageMaximum": "14",
+    "LevelReq": 65,
+    "SocketCount": "1",
+    "seen_date": "2026-05-16",
+    "sockets": [
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Jah Rune",
+        "Tag": "Jah Rune",
+        "TextTag": "Jah Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 65,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Ignore Target's Defense"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      }
+    ],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Rixot%27s+Keen%2C0%2Cnone%2Cias%3A12%2Cdamage_bonus%3A100%2Car_bonus%3A20%2Cmana%3A190%2CcRes%3A50%2ClRes%3A50%2CfRes%3A70%2CpRes%3A50%2Clight_radius%3A2%2Csockets%3A1"
   }
 ];
