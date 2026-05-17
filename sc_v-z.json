@@ -103456,7 +103456,7 @@
       "BaseLife": 1079,
       "Life": 1419,
       "BaseMana": 209,
-      "Mana": 360,
+      "Mana": 472,
       "Gold": 48019,
       "Stashed": 52368
     },
@@ -142705,20 +142705,20 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 92,
-      "Experience": 1932137870,
+      "Experience": 1940220689,
       "Strength": 115,
       "Dexterity": 25,
       "Vitality": 20,
       "Energy": 375,
       "BaseLife": 256,
-      "Life": 620,
+      "Life": 439,
       "BaseMana": 897,
-      "Mana": 2292,
-      "Gold": 12613,
+      "Mana": 2009,
+      "Gold": 771295,
       "Stashed": 2050923
     },
     "Bonus": {
-      "Strength": 44,
+      "Strength": 57,
       "Dexterity": 0,
       "Vitality": 10,
       "Energy": 11,
@@ -142730,15 +142730,15 @@
       "MaximumLightningResistance": 0,
       "PoisonResistance": 120,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 176,
+      "MagicFind": 126,
       "GoldFind": 147,
-      "FasterCastRate": 70,
+      "FasterCastRate": 95,
       "FasterHitRecovery": 12,
       "IncreasedAttackSpeed": 0,
       "CrushingBlow": 0,
       "OpenWounds": 0,
       "DeadlyStrike": 0,
-      "DamageReduction": 10,
+      "DamageReduction": 0,
       "CooldownReduction": 0,
       "WeaponSetMain": {
         "Strength": 0,
@@ -142901,39 +142901,6 @@
           "invwidth": 1
         },
         "Worn": "amulet"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "3979678763",
-        "QualityCode": "q_unique",
-        "Title": "Harlequin Crest",
-        "Tag": "Shako",
-        "TextTag": "Shako",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "Defense": "122",
-        "Durability": "12",
-        "DurabilityMaximum": "12",
-        "ItemLevel": "90",
-        "LevelReq": 62,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+2 to All Skills",
-          "+2 to all Attributes",
-          "+138 to Life (Based on Character Level)",
-          "+138 to Mana (Based on Character Level)",
-          "Physical Damage Taken Reduced by 10%",
-          "50% Better Chance of Getting Magic Items"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "helmet"
       },
       {
         "Quality": "Unique",
@@ -143189,6 +143156,40 @@
           "invwidth": 1
         },
         "Worn": "ring2"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1833236793",
+        "QualityCode": "q_unique",
+        "Title": "Griffon's Eye",
+        "Tag": "Diadem",
+        "TextTag": "Diadem",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "52",
+        "Durability": "18",
+        "DurabilityMaximum": "20",
+        "ItemLevel": "89",
+        "LevelReq": 76,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+1 to All Skills",
+          "+25% Faster Cast Rate",
+          "-20% to Enemy Lightning Resistance",
+          "+13% Increased Lightning Damage",
+          "+114 Defense",
+          "+15 to Strength"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "helmet"
       },
       {
         "Quality": "Normal",
@@ -144365,50 +144366,28 @@
       },
       {
         "Quality": "Rare",
-        "ID": "3443078368",
+        "ID": "66005431",
         "QualityCode": "q_rare",
-        "Title": "Storm Eye",
+        "Title": "GhoulRI Eye",
         "Tag": "Baleful Alcazar Relic",
         "TextTag": "Baleful Alcazar Relic",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "88",
+        "ItemLevel": "86",
         "LevelReq": 80,
         "SocketCount": "0",
         "PropertyList": [
-          "10% Chance to cast level 5 Amplify Damage on striking",
-          "Level 10 Slow Nearby Enemies by 20%% Aura When Equipped",
-          "Damage +100",
-          "Fire Resist +17%",
-          "Magic Absorb 4%",
-          "Cannot Be Frozen"
+          "8% Chance to cast level 1 Lower Resist on striking",
+          "+18% Increased Fire Damage",
+          "Replenish Life 11 per second",
+          "Poison Resist +50%",
+          "Lightning Absorb 6%",
+          "Physical Damage Taken Reduced by 60",
+          "Magic & Elemental Damage Taken Reduced by 51"
         ],
         "Position": {
           "x": 2,
           "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Full Rejuvenation Potion",
-        "Tag": "Full Rejuvenation Potion",
-        "TextTag": "Full Rejuv Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 4
         },
         "Size": {
           "invheight": 1,
@@ -332962,7 +332941,7 @@
       "BaseLife": 1079,
       "Life": 1419,
       "BaseMana": 209,
-      "Mana": 360,
+      "Mana": 472,
       "Gold": 48019,
       "Stashed": 52368
     },
@@ -361404,20 +361383,20 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 92,
-      "Experience": 1932137870,
+      "Experience": 1940220689,
       "Strength": 115,
       "Dexterity": 25,
       "Vitality": 20,
       "Energy": 375,
       "BaseLife": 256,
-      "Life": 620,
+      "Life": 439,
       "BaseMana": 897,
-      "Mana": 2292,
-      "Gold": 12613,
+      "Mana": 2009,
+      "Gold": 771295,
       "Stashed": 2050923
     },
     "Bonus": {
-      "Strength": 44,
+      "Strength": 57,
       "Dexterity": 0,
       "Vitality": 10,
       "Energy": 11,
@@ -361429,15 +361408,15 @@
       "MaximumLightningResistance": 0,
       "PoisonResistance": 120,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 176,
+      "MagicFind": 126,
       "GoldFind": 147,
-      "FasterCastRate": 70,
+      "FasterCastRate": 95,
       "FasterHitRecovery": 12,
       "IncreasedAttackSpeed": 0,
       "CrushingBlow": 0,
       "OpenWounds": 0,
       "DeadlyStrike": 0,
-      "DamageReduction": 10,
+      "DamageReduction": 0,
       "CooldownReduction": 0,
       "WeaponSetMain": {
         "Strength": 0,
@@ -361600,39 +361579,6 @@
           "invwidth": 1
         },
         "Worn": "amulet"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "3979678763",
-        "QualityCode": "q_unique",
-        "Title": "Harlequin Crest",
-        "Tag": "Shako",
-        "TextTag": "Shako",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "Defense": "122",
-        "Durability": "12",
-        "DurabilityMaximum": "12",
-        "ItemLevel": "90",
-        "LevelReq": 62,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+2 to All Skills",
-          "+2 to all Attributes",
-          "+138 to Life (Based on Character Level)",
-          "+138 to Mana (Based on Character Level)",
-          "Physical Damage Taken Reduced by 10%",
-          "50% Better Chance of Getting Magic Items"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "helmet"
       },
       {
         "Quality": "Unique",
@@ -361888,6 +361834,40 @@
           "invwidth": 1
         },
         "Worn": "ring2"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1833236793",
+        "QualityCode": "q_unique",
+        "Title": "Griffon's Eye",
+        "Tag": "Diadem",
+        "TextTag": "Diadem",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "52",
+        "Durability": "18",
+        "DurabilityMaximum": "20",
+        "ItemLevel": "89",
+        "LevelReq": 76,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+1 to All Skills",
+          "+25% Faster Cast Rate",
+          "-20% to Enemy Lightning Resistance",
+          "+13% Increased Lightning Damage",
+          "+114 Defense",
+          "+15 to Strength"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "helmet"
       },
       {
         "Quality": "Normal",
@@ -363064,50 +363044,28 @@
       },
       {
         "Quality": "Rare",
-        "ID": "3443078368",
+        "ID": "66005431",
         "QualityCode": "q_rare",
-        "Title": "Storm Eye",
+        "Title": "GhoulRI Eye",
         "Tag": "Baleful Alcazar Relic",
         "TextTag": "Baleful Alcazar Relic",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "88",
+        "ItemLevel": "86",
         "LevelReq": 80,
         "SocketCount": "0",
         "PropertyList": [
-          "10% Chance to cast level 5 Amplify Damage on striking",
-          "Level 10 Slow Nearby Enemies by 20%% Aura When Equipped",
-          "Damage +100",
-          "Fire Resist +17%",
-          "Magic Absorb 4%",
-          "Cannot Be Frozen"
+          "8% Chance to cast level 1 Lower Resist on striking",
+          "+18% Increased Fire Damage",
+          "Replenish Life 11 per second",
+          "Poison Resist +50%",
+          "Lightning Absorb 6%",
+          "Physical Damage Taken Reduced by 60",
+          "Magic & Elemental Damage Taken Reduced by 51"
         ],
         "Position": {
           "x": 2,
           "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Full Rejuvenation Potion",
-        "Tag": "Full Rejuvenation Potion",
-        "TextTag": "Full Rejuv Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 4
         },
         "Size": {
           "invheight": 1,
