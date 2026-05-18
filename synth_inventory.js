@@ -10601,5 +10601,38 @@ const synthInventory = [
       }
     ],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Bladebone%2C0%2Cnone%2Cfhr%3A20%2Cdamage_bonus%3A495%2Cdamage%3A75%2Cdamage_vs_demons%3A136%2Cdstrike%3A66%2Cskill_Find_Potion%3A4%2Cskill_Grim_Ward%3A4%2Clife_after_kill%3A6%2Csockets%3A1"
+  },
+  {
+    "id": "b3a8ba114593b705649e64732c8a4b5212ba9f313fbf95b63304a700d2e70648",
+    "friendly_id": 181,
+    "owner": "Sethias",
+    "base_type": "Synthesized Colossus Blade",
+    "title": "Swordguard",
+    "properties": [
+      "ÿc1Corrupted",
+      "+15% Increased Attack Speed",
+      "20% Increased Chance of Blocking",
+      "+511% Enhanced Damage",
+      "18% Life stolen per hit",
+      "+490 Defense (Based on Character Level)",
+      "All Resistances +20",
+      "Requirements -50%",
+      "Socketed (6)"
+    ],
+    "synthesised_from": [
+      "Spineripper",
+      "Demon Limb"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "354",
+    "DamageMaximum": "702",
+    "LevelReq": 70,
+    "SocketCount": "6",
+    "seen_date": "2026-05-18",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Swordguard%2C0%2Cnone%2Cias%3A15%2Cdamage_bonus%3A511%2Clife_leech%3A18%2Cdefense%3A490%2Call_res%3A20%2Csockets%3A6"
   }
 ];
