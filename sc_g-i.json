@@ -172104,7 +172104,7 @@
       "Vitality": 435,
       "Energy": 25,
       "BaseLife": 1543,
-      "Life": 2191,
+      "Life": 2196,
       "BaseMana": 166,
       "Mana": 474,
       "Gold": 0,
@@ -172119,12 +172119,12 @@
       "MaximumFireResistance": 0,
       "ColdResistance": 74,
       "MaximumColdResistance": 0,
-      "LightningResistance": 124,
+      "LightningResistance": 125,
       "MaximumLightningResistance": 0,
       "PoisonResistance": 91,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 185,
-      "GoldFind": 155,
+      "MagicFind": 145,
+      "GoldFind": 0,
       "FasterCastRate": 20,
       "FasterHitRecovery": 22,
       "IncreasedAttackSpeed": 20,
@@ -173416,33 +173416,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "1938954759",
-        "QualityCode": "q_magic",
-        "Title": "Coral Small Charm of Vita",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "86",
-        "LevelReq": 39,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+16 to Life",
-          "Lightning Resist +9%"
-        ],
-        "Position": {
-          "x": 3,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "2593041309",
         "QualityCode": "q_magic",
         "Title": "Ruby Small Charm of Sustenance",
@@ -173525,34 +173498,6 @@
         },
         "Size": {
           "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unique",
-        "ID": "164994838",
-        "QualityCode": "q_unique",
-        "Title": "Gheed's Fortune",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "88",
-        "LevelReq": 62,
-        "SocketCount": "0",
-        "PropertyList": [
-          "155% Extra Gold from Monsters",
-          "Reduces all Vendor Prices 15%",
-          "40% Better Chance of Getting Magic Items"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
           "invwidth": 1
         },
         "Worn": ""
@@ -173851,60 +173796,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "1759179735",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Balance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "87",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "+12% Faster Hit Recovery"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "4169032963",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Burning",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "Adds 3-6 Fire damage"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "2273066037",
         "QualityCode": "q_normal",
@@ -173947,6 +173838,114 @@
         "Position": {
           "x": 2,
           "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1676938655",
+        "QualityCode": "q_magic",
+        "Title": "Entrapping Grand Charm of Inertia",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "87",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Traps (Assassin Only)",
+          "+7% Faster Run/Walk"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1759179735",
+        "QualityCode": "q_magic",
+        "Title": "Entrapping Grand Charm of Balance",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Traps (Assassin Only)",
+          "+12% Faster Hit Recovery"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "4169032963",
+        "QualityCode": "q_magic",
+        "Title": "Entrapping Grand Charm of Burning",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Traps (Assassin Only)",
+          "Adds 3-6 Fire damage"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "292290905",
+        "QualityCode": "q_magic",
+        "Title": "Amber Small Charm of Vita",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "87",
+        "LevelReq": 39,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20 to Life",
+          "Lightning Resist +10%"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 5
         },
         "Size": {
           "invheight": 1,
@@ -365538,7 +365537,7 @@
       "Vitality": 435,
       "Energy": 25,
       "BaseLife": 1543,
-      "Life": 2191,
+      "Life": 2196,
       "BaseMana": 166,
       "Mana": 474,
       "Gold": 0,
@@ -365553,12 +365552,12 @@
       "MaximumFireResistance": 0,
       "ColdResistance": 74,
       "MaximumColdResistance": 0,
-      "LightningResistance": 124,
+      "LightningResistance": 125,
       "MaximumLightningResistance": 0,
       "PoisonResistance": 91,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 185,
-      "GoldFind": 155,
+      "MagicFind": 145,
+      "GoldFind": 0,
       "FasterCastRate": 20,
       "FasterHitRecovery": 22,
       "IncreasedAttackSpeed": 20,
@@ -366850,33 +366849,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "1938954759",
-        "QualityCode": "q_magic",
-        "Title": "Coral Small Charm of Vita",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "86",
-        "LevelReq": 39,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+16 to Life",
-          "Lightning Resist +9%"
-        ],
-        "Position": {
-          "x": 3,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "2593041309",
         "QualityCode": "q_magic",
         "Title": "Ruby Small Charm of Sustenance",
@@ -366959,34 +366931,6 @@
         },
         "Size": {
           "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unique",
-        "ID": "164994838",
-        "QualityCode": "q_unique",
-        "Title": "Gheed's Fortune",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "88",
-        "LevelReq": 62,
-        "SocketCount": "0",
-        "PropertyList": [
-          "155% Extra Gold from Monsters",
-          "Reduces all Vendor Prices 15%",
-          "40% Better Chance of Getting Magic Items"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
           "invwidth": 1
         },
         "Worn": ""
@@ -367285,60 +367229,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "1759179735",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Balance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "87",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "+12% Faster Hit Recovery"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "4169032963",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Burning",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "Adds 3-6 Fire damage"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "2273066037",
         "QualityCode": "q_normal",
@@ -367381,6 +367271,114 @@
         "Position": {
           "x": 2,
           "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1676938655",
+        "QualityCode": "q_magic",
+        "Title": "Entrapping Grand Charm of Inertia",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "87",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Traps (Assassin Only)",
+          "+7% Faster Run/Walk"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1759179735",
+        "QualityCode": "q_magic",
+        "Title": "Entrapping Grand Charm of Balance",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Traps (Assassin Only)",
+          "+12% Faster Hit Recovery"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "4169032963",
+        "QualityCode": "q_magic",
+        "Title": "Entrapping Grand Charm of Burning",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Traps (Assassin Only)",
+          "Adds 3-6 Fire damage"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "292290905",
+        "QualityCode": "q_magic",
+        "Title": "Amber Small Charm of Vita",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "87",
+        "LevelReq": 39,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20 to Life",
+          "Lightning Resist +10%"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 5
         },
         "Size": {
           "invheight": 1,
