@@ -2297,7 +2297,7 @@
       "BaseMana": 1149,
       "Mana": 1738,
       "Gold": 0,
-      "Stashed": 510128
+      "Stashed": 2150128
     },
     "Bonus": {
       "Strength": 38,
@@ -46407,7 +46407,7 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 94,
-      "Experience": 2390233570,
+      "Experience": 2393838006,
       "Strength": 15,
       "Dexterity": 25,
       "Vitality": 495,
@@ -46415,22 +46415,22 @@
       "BaseLife": 1251,
       "Life": 1669,
       "BaseMana": 211,
-      "Mana": 567,
+      "Mana": 651,
       "Gold": 0,
-      "Stashed": 181609
+      "Stashed": 808463
     },
     "Bonus": {
-      "Strength": 124,
+      "Strength": 121,
       "Dexterity": 0,
       "Vitality": 10,
       "Energy": 0,
-      "FireResistance": 75,
+      "FireResistance": 69,
       "MaximumFireResistance": 0,
-      "ColdResistance": 122,
+      "ColdResistance": 89,
       "MaximumColdResistance": 0,
-      "LightningResistance": 65,
+      "LightningResistance": 59,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 73,
+      "PoisonResistance": 67,
       "MaximumPoisonResistance": 0,
       "MagicFind": 350,
       "GoldFind": 119,
@@ -46749,7 +46749,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "525",
-        "Durability": "58",
+        "Durability": "60",
         "DurabilityMaximum": "60",
         "ItemLevel": "88",
         "LevelReq": 65,
@@ -46885,26 +46885,23 @@
         "Worn": "amulet"
       },
       {
-        "Quality": "Rare",
-        "ID": "720244710",
-        "QualityCode": "q_rare",
-        "Title": "Viper Band",
+        "Quality": "Unique",
+        "ID": "2068013639",
+        "QualityCode": "q_unique",
+        "Title": "The Stone of Jordan",
         "Tag": "Ring",
         "TextTag": "ring",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "4",
-        "ItemLevel": "75",
-        "LevelReq": 37,
+        "AlternateGraphics": "3",
+        "ItemLevel": "90",
+        "LevelReq": 29,
         "SocketCount": "0",
         "PropertyList": [
-          "+1 to Maximum Damage",
-          "+3 to Strength",
-          "+5 to Mana",
-          "Cold Resist +33%",
-          "Lightning Resist +6%",
-          "Fire Resist +6%",
-          "Poison Resist +6%"
+          "+1 to All Skills",
+          "Adds 1-12 Lightning damage",
+          "+20 to Mana",
+          "Increase Maximum Mana 25%"
         ],
         "Position": {
           "x": 6,
@@ -46955,7 +46952,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "61",
-        "Durability": "15",
+        "Durability": "16",
         "DurabilityMaximum": "16",
         "ItemLevel": "86",
         "LevelReq": 52,
@@ -48054,9 +48051,9 @@
       },
       {
         "Quality": "Rare",
-        "ID": "2509245427",
+        "ID": "4179912989",
         "QualityCode": "q_rare",
-        "Title": "Grim Eye",
+        "Title": "Bone Eye",
         "Tag": "Baleful Alcazar Relic",
         "TextTag": "Baleful Alcazar Relic",
         "Ethereal": "False",
@@ -48065,14 +48062,17 @@
         "LevelReq": 80,
         "SocketCount": "0",
         "PropertyList": [
-          "Damage +99",
-          "+10% Increased Cold Damage",
-          "Lightning Resist +50%",
-          "Magic Absorb 19%"
+          "+18% Increased Cold Damage",
+          "Poison Resist +50%",
+          "Fire Absorb 12%",
+          "Physical Damage Taken Reduced by 60",
+          "Magic & Elemental Damage Taken Reduced by 53",
+          "Cannot Be Frozen",
+          "Attacker Takes Damage of 20"
         ],
         "Position": {
-          "x": 1,
-          "y": 4
+          "x": 9,
+          "y": 0
         },
         "Size": {
           "invheight": 1,
@@ -90253,7 +90253,7 @@
       "Vitality": 425,
       "Energy": 15,
       "BaseLife": 1555,
-      "Life": 1953,
+      "Life": 1932,
       "BaseMana": 153,
       "Mana": 264,
       "Gold": 0,
@@ -90264,13 +90264,13 @@
       "Dexterity": 74,
       "Vitality": 0,
       "Energy": 0,
-      "FireResistance": 167,
+      "FireResistance": 162,
       "MaximumFireResistance": 0,
-      "ColdResistance": 167,
+      "ColdResistance": 162,
       "MaximumColdResistance": 0,
-      "LightningResistance": 167,
+      "LightningResistance": 162,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 167,
+      "PoisonResistance": 162,
       "MaximumPoisonResistance": 0,
       "MagicFind": 113,
       "GoldFind": 0,
@@ -91399,33 +91399,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "849205288",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Vita",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "86",
-        "LevelReq": 39,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+20 to Life",
-          "All Resistances +5"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Unique",
         "ID": "4230510750",
         "QualityCode": "q_unique",
@@ -92092,29 +92065,6 @@
         },
         "Size": {
           "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "2363779792",
-        "QualityCode": "q_normal",
-        "Title": "Key",
-        "Tag": "Key",
-        "TextTag": "Skeleton Key",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "98",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 0,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -92909,6 +92859,29 @@
         "Size": {
           "invheight": 2,
           "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "2363779792",
+        "QualityCode": "q_normal",
+        "Title": "Key",
+        "Tag": "Key",
+        "TextTag": "Skeleton Key",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "98",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
         },
         "Worn": ""
       }
@@ -218293,7 +218266,7 @@
       "BaseMana": 1149,
       "Mana": 1738,
       "Gold": 0,
-      "Stashed": 510128
+      "Stashed": 2150128
     },
     "Bonus": {
       "Strength": 38,
@@ -288771,7 +288744,7 @@
       "Vitality": 425,
       "Energy": 15,
       "BaseLife": 1555,
-      "Life": 1953,
+      "Life": 1932,
       "BaseMana": 153,
       "Mana": 264,
       "Gold": 0,
@@ -288782,13 +288755,13 @@
       "Dexterity": 74,
       "Vitality": 0,
       "Energy": 0,
-      "FireResistance": 167,
+      "FireResistance": 162,
       "MaximumFireResistance": 0,
-      "ColdResistance": 167,
+      "ColdResistance": 162,
       "MaximumColdResistance": 0,
-      "LightningResistance": 167,
+      "LightningResistance": 162,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 167,
+      "PoisonResistance": 162,
       "MaximumPoisonResistance": 0,
       "MagicFind": 113,
       "GoldFind": 0,
@@ -289917,33 +289890,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "849205288",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Vita",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "86",
-        "LevelReq": 39,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+20 to Life",
-          "All Resistances +5"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Unique",
         "ID": "4230510750",
         "QualityCode": "q_unique",
@@ -290610,29 +290556,6 @@
         },
         "Size": {
           "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "2363779792",
-        "QualityCode": "q_normal",
-        "Title": "Key",
-        "Tag": "Key",
-        "TextTag": "Skeleton Key",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "98",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 0,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -291427,6 +291350,29 @@
         "Size": {
           "invheight": 2,
           "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "2363779792",
+        "QualityCode": "q_normal",
+        "Title": "Key",
+        "Tag": "Key",
+        "TextTag": "Skeleton Key",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "98",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
         },
         "Worn": ""
       }
