@@ -11072,5 +11072,261 @@ const synthInventory = [
       }
     ],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Cloudcrack%2C0%2Cnone%2Cdamage_bonus%3A170%2Car_bonus%3A50%2Car%3A215%2ClDamage_min%3A1%2ClDamage_max%3A240%2CcDamage_min%3A4%2CcDamage_max%3A44%2Cmana_leech%3A15%2Clife_leech%3A7%2Cdstrike%3A33%2Coskill_Magic_Arrow%3A3%2Cstrength%3A3%2Csockets%3A1"
+  },
+  {
+    "id": "937d297d39dc519abee23c6007226dd06ed4d0298da1eac9b9535e37a5f7ef44",
+    "friendly_id": 185,
+    "owner": "Agonar",
+    "base_type": "Synthesized Thunder Maul",
+    "title": "Steeldriver",
+    "properties": [
+      "ÿc1Corrupted",
+      "+50% Increased Attack Speed",
+      "+551% Enhanced Damage",
+      "+14 to Maximum Damage",
+      "Ignore Target's Defense",
+      "+248 to Attack Rating",
+      "+50% Damage to Undead",
+      "60% Deadly Strike",
+      "+2 to Holy Shock (Paladin Only)",
+      "+10 to Strength",
+      "+10 to Dexterity",
+      "Heal Stamina Plus 40%",
+      "Requirements -50%",
+      "Socketed (4)"
+    ],
+    "synthesised_from": [
+      "Skewer of Krintiz",
+      "Zakarum's Hand",
+      "Husoldal Evo"
+    ],
+    "location": "Equipped",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "214",
+    "DamageMaximum": "1185",
+    "LevelReq": 77,
+    "SocketCount": "4",
+    "seen_date": "2026-05-24",
+    "sockets": [
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Lo Rune",
+        "Tag": "Lo Rune",
+        "TextTag": "Lo Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 59,
+        "SocketCount": "0",
+        "PropertyList": [
+          "20% Deadly Strike"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Lo Rune",
+        "Tag": "Lo Rune",
+        "TextTag": "Lo Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 59,
+        "SocketCount": "0",
+        "PropertyList": [
+          "20% Deadly Strike"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Lo Rune",
+        "Tag": "Lo Rune",
+        "TextTag": "Lo Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 59,
+        "SocketCount": "0",
+        "PropertyList": [
+          "20% Deadly Strike"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3706843137",
+        "QualityCode": "q_magic",
+        "Title": "Ruby Jewel of Carnage",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 58,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+40% Enhanced Damage",
+          "+14 to Maximum Damage"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      }
+    ],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Steeldriver%2C0%2Cnone%2Cias%3A50%2Cdamage_bonus%3A551%2Car%3A248%2Cdamage_vs_undead%3A50%2Cdstrike%3A60%2Cskill_Holy_Shock%3A2%2Cstrength%3A10%2Cdexterity%3A10%2Csockets%3A4"
+  },
+  {
+    "id": "a4e80be173ad2d1a48ae73f3bf166e31880d245f8e5ee08cd0f44d3dcf85f499",
+    "friendly_id": 186,
+    "owner": "KR_GRK",
+    "base_type": "Synthesized Glorious Axe",
+    "title": "Executioner's Justice",
+    "properties": [
+      "ÿc1Corrupted",
+      "Melee attacks deal splash damage",
+      "+2 to Paladin Skill Levels",
+      "+55% Increased Attack Speed",
+      "+511% Enhanced Damage",
+      "+90 to Maximum Damage (Based on Character Level)",
+      "Adds 63-120 damage",
+      "-33% Target Defense",
+      "Prevent Monster Heal",
+      "+4 to Holy Bolt (Paladin Only)",
+      "Socketed (3)"
+    ],
+    "synthesised_from": [
+      "Headstriker",
+      "Kelpie Snare",
+      "The Redeemer"
+    ],
+    "location": "Equipped",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "366",
+    "DamageMaximum": "757",
+    "LevelReq": 75,
+    "SocketCount": "3",
+    "seen_date": "2026-05-24",
+    "sockets": [
+      {
+        "Quality": "Magic",
+        "ID": "1367741145",
+        "QualityCode": "q_magic",
+        "Title": "Brute's Jewel of Fervor",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "5",
+        "ItemLevel": "87",
+        "LevelReq": 31,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Melee attacks deal splash damage",
+          "+15% Increased Attack Speed"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Shael Rune",
+        "Tag": "Shael Rune",
+        "TextTag": "Shael Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 29,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20% Increased Attack Speed"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Shael Rune",
+        "Tag": "Shael Rune",
+        "TextTag": "Shael Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 29,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20% Increased Attack Speed"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      }
+    ],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Executioner%27s+Justice%2C0%2Cnone%2Cmelee_splash%3A1%2Cskills_paladin%3A2%2Cias%3A55%2Cdamage_bonus%3A511%2Cdamage%3A120%2Cpmh%3A1%2Cskill_Holy_Bolt%3A4%2Csockets%3A3"
   }
 ];
