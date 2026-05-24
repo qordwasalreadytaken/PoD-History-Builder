@@ -1,0 +1,81 @@
+name: Import Last Characters From Accounts
+
+on:
+  workflow_dispatch:
+    inputs:
+      shard_count:
+        description: "Total shards"
+        required: true
+        default: "1"
+      shard_index:
+        description: "Shard index (0-based)"
+        required: true
+        default: "0"
+      throttle_ms:
+        description: "Delay between account API calls (ms)"
+        required: true
+        default: "80"
+      seed_snapshots:
+        description: "Fetch summary and create initial snapshots for discovered characters"
+        type: boolean
+        required: true
+        default: false
+      append_watchlist:
+        description: "Append discovered characters to watched_characters.json"
+        type: boolean
+        required: true
+        default: false
+
+concurrency:
+  group: import-last-characters-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Import account last-character data
+        run: |
+          EXTRA_FLAGS=""
+          if [ "${{ github.event.inputs.seed_snapshots }}" = "true" ]; then
+            EXTRA_FLAGS="$EXTRA_FLAGS --seed-snapshots"
+          fi
+          if [ "${{ github.event.inputs.append_watchlist }}" = "true" ]; then
+            EXTRA_FLAGS="$EXTRA_FLAGS --append-watchlist"
+          fi
+
+          python new-history/import_last_characters.py \
+            --accounts-file playerlist.txt \
+            --output-file new-history/account_last_characters.json \
+            --throttle-ms "${{ github.event.inputs.throttle_ms }}" \
+            --shard-count "${{ github.event.inputs.shard_count }}" \
+            --shard-index "${{ github.event.inputs.shard_index }}" \
+            $EXTRA_FLAGS
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Import account last-character shard ${{ github.event.inputs.shard_index }}/${{ github.event.inputs.shard_count }}"
+          commit_user_name: github-actions[bot]
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          file_pattern: |
+            new-history/account_last_characters.json
+            new-history/account_last_characters_report_*.json
+            new-history/watched_characters.json
+            new-history/snapshots/*.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

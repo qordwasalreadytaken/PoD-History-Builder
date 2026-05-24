@@ -26,6 +26,10 @@ os.makedirs(SNAPSHOT_DIR, exist_ok=True)
 # Optional list of extra characters to always watch (even if not on ladder)
 WATCHLIST_FILE = os.path.join(BASE_DIR, 'watched_characters.json')
 
+# One-time bulk import output containing discovered character names from
+# account last-character lookups. We also monitor these names every run.
+ACCOUNT_DISCOVERY_FILE = os.path.join(BASE_DIR, 'account_last_characters.json')
+
 # Character summary endpoint (used for ladder and watched characters)
 CHAR_URL = "https://beta.pathofdiablo.com/api/characters/{char_name}/summary"
 
@@ -296,6 +300,18 @@ def load_watchlist():
     return []
 
 
+def load_account_discovered_names():
+    if os.path.exists(ACCOUNT_DISCOVERY_FILE):
+        try:
+            with open(ACCOUNT_DISCOVERY_FILE, 'r') as f:
+                data = json.load(f)
+            if isinstance(data, list):
+                return [str(name) for name in data]
+        except Exception as e:
+            print(f"⚠️ Failed to load account discovery list: {e}")
+    return []
+
+
 def save_watchlist(names):
     try:
         with open(WATCHLIST_FILE, 'w') as f:
@@ -354,6 +370,7 @@ def main():
     monitored_names = set(all_characters.keys())
     monitored_names.update(get_snapshot_character_names())
     monitored_names.update(load_watchlist())
+    monitored_names.update(load_account_discovered_names())
 
     # Fetch summaries for any characters that are not currently in ladder files
     for char_name in sorted(monitored_names):
