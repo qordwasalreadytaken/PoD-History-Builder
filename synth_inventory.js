@@ -11328,5 +11328,34 @@ const synthInventory = [
       }
     ],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Executioner%27s+Justice%2C0%2Cnone%2Cmelee_splash%3A1%2Cskills_paladin%3A2%2Cias%3A55%2Cdamage_bonus%3A511%2Cdamage%3A120%2Cpmh%3A1%2Cskill_Holy_Bolt%3A4%2Csockets%3A3"
+  },
+  {
+    "id": "db5242a639f30ca23d7a5a0c21004c73d31bd99b488be9e0d99354cf6dce7000",
+    "friendly_id": 187,
+    "owner": "fckissin",
+    "base_type": "Synthesized Dirk",
+    "title": "The Diggler",
+    "properties": [
+      "Indestructible",
+      "+50% Enhanced Damage",
+      "+10 to Dexterity",
+      "Regenerate Mana 15%",
+      "All Resistances +75"
+    ],
+    "synthesised_from": [
+      "The Diggler",
+      "Wizardspike"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "4",
+    "DamageMaximum": "13",
+    "LevelReq": 11,
+    "SocketCount": "0",
+    "seen_date": "2026-05-28",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=The+Diggler%2C0%2Cnone%2Cindestructible%3A1%2Cdamage_bonus%3A50%2Cdexterity%3A10%2Cmana_regen%3A15%2Call_res%3A75"
   }
 ];
