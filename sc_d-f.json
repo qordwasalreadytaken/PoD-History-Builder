@@ -209897,21 +209897,21 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 93,
-      "Experience": 2129114764,
+      "Experience": 2129192374,
       "Strength": 75,
       "Dexterity": 259,
       "Vitality": 191,
       "Energy": 15,
       "BaseLife": 853,
-      "Life": 51,
+      "Life": 1019,
       "BaseMana": 153,
-      "Mana": 211,
-      "Gold": 0,
-      "Stashed": 451376
+      "Mana": 175,
+      "Gold": 206638,
+      "Stashed": 1280752
     },
     "Bonus": {
       "Strength": 49,
-      "Dexterity": 76,
+      "Dexterity": 73,
       "Vitality": 0,
       "Energy": 0,
       "FireResistance": 120,
@@ -209941,9 +209941,9 @@
         "MaximumFireResistance": 0,
         "ColdResistance": 15,
         "MaximumColdResistance": 0,
-        "LightningResistance": 15,
+        "LightningResistance": 27,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 33,
+        "PoisonResistance": 15,
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 75,
@@ -209957,8 +209957,8 @@
         "CooldownReduction": 0
       },
       "WeaponSetOffhand": {
-        "Strength": 0,
-        "Dexterity": 0,
+        "Strength": 10,
+        "Dexterity": 5,
         "Vitality": 0,
         "Energy": 0,
         "FireResistance": 0,
@@ -209973,10 +209973,10 @@
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 20,
+        "IncreasedAttackSpeed": 80,
         "CrushingBlow": 0,
-        "OpenWounds": 0,
-        "DeadlyStrike": 20,
+        "OpenWounds": 12,
+        "DeadlyStrike": 0,
         "DamageReduction": 0,
         "CooldownReduction": 0
       }
@@ -210097,39 +210097,6 @@
         "Worn": "ring2"
       },
       {
-        "Quality": "Set",
-        "ID": "1081041032",
-        "QualityCode": "q_set",
-        "Title": "Laying of Hands",
-        "Tag": "Bramble Mitts",
-        "TextTag": "Bramble Mitts",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "61",
-        "Durability": "9",
-        "DurabilityMaximum": "12",
-        "ItemLevel": "84",
-        "LevelReq": 63,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "10% Chance to cast level 3 Holy Bolt on striking",
-          "+20% Increased Attack Speed",
-          "+240% Damage to Demons",
-          "+25 Defense",
-          "Fire Resist +50%"
-        ],
-        "Position": {
-          "x": 10,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "gloves"
-      },
-      {
         "Quality": "Unique",
         "ID": "3070374185",
         "QualityCode": "q_unique",
@@ -210139,7 +210106,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "155",
-        "Durability": "11",
+        "Durability": "10",
         "DurabilityMaximum": "20",
         "ItemLevel": "91",
         "LevelReq": 83,
@@ -210295,7 +210262,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "482",
-        "Durability": "34",
+        "Durability": "32",
         "DurabilityMaximum": "32",
         "ItemLevel": "88",
         "LevelReq": 59,
@@ -210460,39 +210427,6 @@
         "Worn": "amulet"
       },
       {
-        "Quality": "Unique",
-        "ID": "2493911652",
-        "QualityCode": "q_unique",
-        "Title": "Razortail",
-        "Tag": "Sharkskin Belt",
-        "TextTag": "Sharkskin Belt",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "37",
-        "Durability": "9",
-        "DurabilityMaximum": "14",
-        "ItemLevel": "88",
-        "LevelReq": 32,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+33% Piercing Attack",
-          "+10 to Maximum Damage",
-          "+149% Enhanced Defense",
-          "+15 Defense",
-          "+15 to Dexterity",
-          "Attacker Takes Damage of 93 (Based on Character Level)"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 2
-        },
-        "Worn": "belt"
-      },
-      {
         "Quality": "Rare",
         "ID": "1160608292",
         "QualityCode": "q_rare",
@@ -210523,34 +210457,103 @@
         "Worn": "ring1"
       },
       {
-        "Quality": "Superior",
-        "ID": "130370432",
-        "QualityCode": "q_runeword",
-        "Title": "Ice",
-        "Tag": "Stag Bow",
-        "TextTag": "Stag Bow",
-        "RuneTag": "AmnShaelJahLo",
+        "Quality": "Unique",
+        "ID": "2493911652",
+        "QualityCode": "q_unique",
+        "Title": "Razortail",
+        "Tag": "Sharkskin Belt",
+        "TextTag": "Sharkskin Belt",
         "Ethereal": "False",
         "Enhanced": "True",
-        "DamageMinimum": "20",
-        "DamageMaximum": "34",
-        "ItemLevel": "87",
-        "LevelReq": 65,
+        "Defense": "37",
+        "Durability": "9",
+        "DurabilityMaximum": "14",
+        "ItemLevel": "88",
+        "LevelReq": 32,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+33% Piercing Attack",
+          "+10 to Maximum Damage",
+          "+186 to Attack Rating (Based on Character Level)",
+          "+149% Enhanced Defense",
+          "+15 Defense",
+          "+15 to Dexterity",
+          "Attacker Takes Damage of 93 (Based on Character Level)"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 2
+        },
+        "Worn": "belt"
+      },
+      {
+        "Quality": "Set",
+        "ID": "1081041032",
+        "QualityCode": "q_set",
+        "Title": "Laying of Hands",
+        "Tag": "Bramble Mitts",
+        "TextTag": "Bramble Mitts",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "61",
+        "Durability": "9",
+        "DurabilityMaximum": "12",
+        "ItemLevel": "84",
+        "LevelReq": 63,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "10% Chance to cast level 3 Holy Bolt on striking",
+          "+20% Increased Attack Speed",
+          "+240% Damage to Demons",
+          "+25 Defense",
+          "Fire Resist +50%"
+        ],
+        "Position": {
+          "x": 10,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "gloves"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "4206934669",
+        "QualityCode": "q_unique",
+        "Title": "Windforce",
+        "Tag": "Hydra Bow",
+        "TextTag": "Hydra Bow",
+        "RuneTag": "ShaelShaelShael",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "44",
+        "DamageMaximum": "313",
+        "ThrowDamageMaximum": "13",
+        "ItemLevel": "88",
+        "LevelReq": 73,
         "Sockets": [
           {
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Amn Rune",
-            "Tag": "Amn Rune",
-            "TextTag": "Amn Rune",
+            "Title": "Shael Rune",
+            "Tag": "Shael Rune",
+            "TextTag": "Shael Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 25,
+            "LevelReq": 29,
             "SocketCount": "0",
             "PropertyList": [
-              "7% Life stolen per hit"
+              "+20% Increased Attack Speed"
             ],
             "Position": {
               "x": 0,
@@ -210591,16 +210594,16 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Jah Rune",
-            "Tag": "Jah Rune",
-            "TextTag": "Jah Rune",
+            "Title": "Shael Rune",
+            "Tag": "Shael Rune",
+            "TextTag": "Shael Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 65,
+            "LevelReq": 29,
             "SocketCount": "0",
             "PropertyList": [
-              "Ignore Target's Defense"
+              "+20% Increased Attack Speed"
             ],
             "Position": {
               "x": 2,
@@ -210613,19 +210616,20 @@
             "Worn": ""
           },
           {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Lo Rune",
-            "Tag": "Lo Rune",
-            "TextTag": "Lo Rune",
+            "Quality": "Magic",
+            "ID": "2645334257",
+            "QualityCode": "q_magic",
+            "Title": "Realgar Jewel",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
             "Ethereal": "False",
             "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 59,
+            "AlternateGraphics": "1",
+            "ItemLevel": "86",
+            "LevelReq": 37,
             "SocketCount": "0",
             "PropertyList": [
-              "20% Deadly Strike"
+              "+30% Enhanced Damage"
             ],
             "Position": {
               "x": 3,
@@ -210636,24 +210640,76 @@
               "invwidth": 1
             },
             "Worn": ""
+          },
+          {
+            "Quality": "Magic",
+            "ID": "2683428374",
+            "QualityCode": "q_magic",
+            "Title": "Realgar Jewel of Carnage",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "0",
+            "ItemLevel": "87",
+            "LevelReq": 37,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+24% Enhanced Damage",
+              "+13 to Maximum Damage"
+            ],
+            "Position": {
+              "x": 4,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Magic",
+            "ID": "534038508",
+            "QualityCode": "q_magic",
+            "Title": "Ruby Jewel of Burning",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "2",
+            "ItemLevel": "86",
+            "LevelReq": 58,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+38% Enhanced Damage",
+              "Adds 19-43 Fire damage"
+            ],
+            "Position": {
+              "x": 5,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
           }
         ],
-        "SocketCount": "4",
+        "SocketCount": "6",
         "PropertyList": [
-          "100% Chance to cast level 40 Blizzard when you Level-Up",
-          "25% Chance to cast level 22 Frost Nova on striking",
-          "Level 18 Holy Freeze Aura When Equipped",
-          "+3 to Bow and Crossbow Skills (Amazon Only)",
-          "+20% Increased Attack Speed",
-          "+186% Enhanced Damage",
-          "Ignore Target's Defense",
-          "+93 to Attack Rating (Based on Character Level)",
-          "-20% to Enemy Cold Resistance",
-          "+28% Increased Cold Damage",
-          "7% Life stolen per hit",
-          "20% Deadly Strike",
-          "290% Extra Gold from Monsters (Based on Character Level)",
-          "Socketed (4)"
+          "\u00ffc1Corrupted",
+          "+80% Increased Attack Speed",
+          "+342% Enhanced Damage",
+          "+13 to Maximum Damage",
+          "+290 to Maximum Damage (Based on Character Level)",
+          "Adds 19-43 Fire damage",
+          "7% Mana stolen per hit",
+          "Knockback",
+          "+10 to Strength",
+          "+5 to Dexterity",
+          "Heal Stamina Plus 30%",
+          "Socketed (6)"
         ],
         "Position": {
           "x": 11,
@@ -210666,24 +210722,27 @@
         "Worn": "sweapon1"
       },
       {
-        "Quality": "Unique",
-        "ID": "2598240060",
-        "QualityCode": "q_unique",
-        "Title": "Frostbite",
+        "Quality": "Rare",
+        "ID": "1334701978",
+        "QualityCode": "q_rare",
+        "Title": "Viper Eye",
         "Tag": "Arrows",
         "TextTag": "Arrows",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "86",
-        "LevelReq": 52,
+        "ItemLevel": "87",
+        "LevelReq": 65,
         "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "34% Chance to cast level 21 Ice Arrow when struck",
-          "+2 to Cold Skills",
-          "Increase Maximum Life 15%",
-          "Increase Maximum Mana 19%",
-          "+40% to Freezing Arrow Radius"
+          "+1 to All Skills",
+          "+58 to Maximum Damage (Based on Character Level)",
+          "Adds 36-44 cold damage",
+          "+49 poison damage over 2 seconds",
+          "12% Chance of Open Wounds",
+          "+6 Life Gained on Ranged Hit",
+          "+3 to Mana after each Kill",
+          "+3 Life after each Kill"
         ],
         "Position": {
           "x": 12,
@@ -210841,24 +210900,24 @@
       },
       {
         "Quality": "Rare",
-        "ID": "2315463390",
+        "ID": "3451091329",
         "QualityCode": "q_rare",
-        "Title": "Viper Eye",
+        "Title": "Bitter Eye",
         "Tag": "Arrows",
         "TextTag": "Arrows",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "86",
-        "LevelReq": 56,
+        "ItemLevel": "87",
+        "LevelReq": 68,
         "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
           "+1 to Bow and Crossbow Skills (Amazon Only)",
-          "Adds 7-12 damage",
-          "+58 to Maximum Damage (Based on Character Level)",
-          "+49 poison damage over 2 seconds",
-          "Poison Resist +18%",
-          "+7 Mana Gained on Ranged Hit"
+          "+9% Faster Run/Walk",
+          "Adds 23-31 damage",
+          "+46 to Maximum Damage (Based on Character Level)",
+          "Lightning Resist +12%",
+          "+4 Mana Gained on Ranged Hit"
         ],
         "Position": {
           "x": 5,
@@ -211336,34 +211395,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "4122397362",
-        "QualityCode": "q_magic",
-        "Title": "Fine Grand Charm of Dexterity",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "90",
-        "LevelReq": 16,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+6 to Maximum Damage",
-          "+25 to Attack Rating",
-          "+6 to Dexterity"
-        ],
-        "Position": {
-          "x": 3,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "2337604106",
         "QualityCode": "q_normal",
@@ -211519,38 +211550,76 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "3341165394",
-        "QualityCode": "q_unique",
-        "Title": "The Diggler",
-        "Tag": "Synthesized Dirk",
-        "TextTag": "Synthesized Dirk",
+        "Quality": "Magic",
+        "ID": "1288744509",
+        "QualityCode": "q_magic",
+        "Title": "Fine Grand Charm of Dexterity",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "4",
-        "DamageMaximum": "13",
-        "Durability": "62",
-        "DurabilityMaximum": "100",
-        "ItemLevel": "88",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
         "LevelReq": 11,
         "SocketCount": "0",
         "PropertyList": [
-          "Indestructible",
-          "+50% Enhanced Damage",
-          "+10 to Dexterity",
-          "Regenerate Mana 15%",
-          "All Resistances +75"
-        ],
-        "SynthesisedFrom": [
-          "The Diggler",
-          "Wizardspike"
+          "+3 to Maximum Damage",
+          "+10 to Attack Rating",
+          "+3 to Dexterity"
         ],
         "Position": {
-          "x": 4,
+          "x": 3,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "340844707",
+        "QualityCode": "q_magic",
+        "Title": "Jewel",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 11,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "3501226589",
+        "QualityCode": "q_rare",
+        "Title": "Arrows",
+        "Tag": "Arrows",
+        "TextTag": "Arrows",
+        "Ethereal": "False",
+        "ItemLevel": "87",
+        "LevelReq": 56,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 2,
           "y": 0
         },
         "Size": {
-          "invheight": 2,
+          "invheight": 3,
           "invwidth": 1
         },
         "Worn": ""
