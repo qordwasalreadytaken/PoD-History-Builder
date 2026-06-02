@@ -2289,10 +2289,10 @@
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 20,
+        "IncreasedAttackSpeed": 75,
         "CrushingBlow": 0,
-        "OpenWounds": 50,
-        "DeadlyStrike": 74,
+        "OpenWounds": 25,
+        "DeadlyStrike": 0,
         "DamageReduction": 0,
         "CooldownReduction": 0
       },
@@ -2313,10 +2313,10 @@
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 75,
+        "IncreasedAttackSpeed": 20,
         "CrushingBlow": 0,
-        "OpenWounds": 25,
-        "DeadlyStrike": 0,
+        "OpenWounds": 50,
+        "DeadlyStrike": 74,
         "DamageReduction": 0,
         "CooldownReduction": 0
       }
@@ -2819,35 +2819,35 @@
       },
       {
         "Quality": "Normal",
-        "ID": "2292473834",
+        "ID": "113982382",
         "QualityCode": "q_runeword",
-        "Title": "Chaos",
-        "Tag": "Suwayyah",
-        "TextTag": "Suwayyah",
-        "RuneTag": "FalOhmUm",
+        "Title": "Plague",
+        "Tag": "Feral Claws",
+        "TextTag": "Feral Claws",
+        "RuneTag": "ChamShaelUm",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "167",
-        "DamageMaximum": "223",
-        "Durability": "213",
+        "Enhanced": "False",
+        "DamageMinimum": "22",
+        "DamageMaximum": "53",
+        "Durability": "215",
         "DurabilityMaximum": "215",
         "ItemLevel": "86",
-        "LevelReq": 57,
+        "LevelReq": 67,
         "Sockets": [
           {
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Fal Rune",
-            "Tag": "Fal Rune",
-            "TextTag": "Fal Rune",
+            "Title": "Cham Rune",
+            "Tag": "Cham Rune",
+            "TextTag": "Cham Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 41,
+            "LevelReq": 67,
             "SocketCount": "0",
             "PropertyList": [
-              "+10 to Strength"
+              "Freezes target +3"
             ],
             "Position": {
               "x": 0,
@@ -2863,16 +2863,16 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Ohm Rune",
-            "Tag": "Ohm Rune",
-            "TextTag": "Ohm Rune",
+            "Title": "Shael Rune",
+            "Tag": "Shael Rune",
+            "TextTag": "Shael Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 57,
+            "LevelReq": 29,
             "SocketCount": "0",
             "PropertyList": [
-              "+50% Enhanced Damage"
+              "+20% Increased Attack Speed"
             ],
             "Position": {
               "x": 1,
@@ -2912,17 +2912,18 @@
         ],
         "SocketCount": "3",
         "PropertyList": [
-          "11% Chance to cast level 9 Charged Bolt on striking",
-          "9% Chance to cast level 11 Frozen Orb on striking",
-          "+35% Increased Attack Speed",
-          "+329% Enhanced Damage",
-          "Adds 216-471 Magic damage",
+          "20% Chance to cast level 12 Lower Resist when struck",
+          "15% Chance to cast level 17 Poison Nova on striking",
+          "Level 17 Cleansing Aura When Equipped",
+          "+2 to All Skills",
+          "+20% Increased Attack Speed",
+          "+268% Damage to Demons",
+          "-23% to Enemy Poison Resistance",
+          "37% Deadly Strike (Based on Character Level)",
           "25% Chance of Open Wounds",
-          "+3 to Wake of Fire (Assassin Only)",
-          "+2 to Lightning Sentry (Assassin Only)",
-          "+1 to Shadow Master (Assassin Only)",
-          "+1 to Whirlwind",
-          "+10 to Strength",
+          "+3 to Blade Shield (Assassin Only)",
+          "+3 to Venom (Assassin Only)",
+          "Freezes target +3",
           "Socketed (3)"
         ],
         "Position": {
@@ -2934,43 +2935,6 @@
           "invwidth": 1
         },
         "Worn": "sweapon1"
-      },
-      {
-        "Quality": "Set",
-        "ID": "4174074526",
-        "QualityCode": "q_set",
-        "Title": "Natalya's Mark",
-        "Tag": "Scissors Suwayyah",
-        "TextTag": "Scissors Suwayyah",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "120",
-        "DamageMaximum": "153",
-        "Durability": "208",
-        "DurabilityMaximum": "215",
-        "ItemLevel": "91",
-        "LevelReq": 79,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+40% Increased Attack Speed",
-          "+200% Enhanced Damage",
-          "+99 to Maximum Damage (Based on Character Level)",
-          "Ignore Target's Defense",
-          "+200% Damage to Demons",
-          "+200% Damage to Undead",
-          "Adds 12-17 Fire damage",
-          "+50 cold damage"
-        ],
-        "Position": {
-          "x": 12,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": "sweapon2"
       },
       {
         "Quality": "Normal",
@@ -3083,46 +3047,46 @@
           "Socketed (3)"
         ],
         "Position": {
-          "x": 5,
+          "x": 12,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 1
         },
-        "Worn": "weapon2"
+        "Worn": "sweapon2"
       },
       {
         "Quality": "Normal",
-        "ID": "113982382",
+        "ID": "2292473834",
         "QualityCode": "q_runeword",
-        "Title": "Plague",
-        "Tag": "Feral Claws",
-        "TextTag": "Feral Claws",
-        "RuneTag": "ChamShaelUm",
+        "Title": "Chaos",
+        "Tag": "Suwayyah",
+        "TextTag": "Suwayyah",
+        "RuneTag": "FalOhmUm",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "DamageMinimum": "22",
-        "DamageMaximum": "53",
-        "Durability": "215",
+        "Enhanced": "True",
+        "DamageMinimum": "167",
+        "DamageMaximum": "223",
+        "Durability": "213",
         "DurabilityMaximum": "215",
         "ItemLevel": "86",
-        "LevelReq": 67,
+        "LevelReq": 57,
         "Sockets": [
           {
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Cham Rune",
-            "Tag": "Cham Rune",
-            "TextTag": "Cham Rune",
+            "Title": "Fal Rune",
+            "Tag": "Fal Rune",
+            "TextTag": "Fal Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 67,
+            "LevelReq": 41,
             "SocketCount": "0",
             "PropertyList": [
-              "Freezes target +3"
+              "+10 to Strength"
             ],
             "Position": {
               "x": 0,
@@ -3138,16 +3102,16 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Shael Rune",
-            "Tag": "Shael Rune",
-            "TextTag": "Shael Rune",
+            "Title": "Ohm Rune",
+            "Tag": "Ohm Rune",
+            "TextTag": "Ohm Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 29,
+            "LevelReq": 57,
             "SocketCount": "0",
             "PropertyList": [
-              "+20% Increased Attack Speed"
+              "+50% Enhanced Damage"
             ],
             "Position": {
               "x": 1,
@@ -3187,18 +3151,17 @@
         ],
         "SocketCount": "3",
         "PropertyList": [
-          "20% Chance to cast level 12 Lower Resist when struck",
-          "15% Chance to cast level 17 Poison Nova on striking",
-          "Level 17 Cleansing Aura When Equipped",
-          "+2 to All Skills",
-          "+20% Increased Attack Speed",
-          "+268% Damage to Demons",
-          "-23% to Enemy Poison Resistance",
-          "37% Deadly Strike (Based on Character Level)",
+          "11% Chance to cast level 9 Charged Bolt on striking",
+          "9% Chance to cast level 11 Frozen Orb on striking",
+          "+35% Increased Attack Speed",
+          "+329% Enhanced Damage",
+          "Adds 216-471 Magic damage",
           "25% Chance of Open Wounds",
-          "+3 to Blade Shield (Assassin Only)",
-          "+3 to Venom (Assassin Only)",
-          "Freezes target +3",
+          "+3 to Wake of Fire (Assassin Only)",
+          "+2 to Lightning Sentry (Assassin Only)",
+          "+1 to Shadow Master (Assassin Only)",
+          "+1 to Whirlwind",
+          "+10 to Strength",
           "Socketed (3)"
         ],
         "Position": {
@@ -3210,6 +3173,43 @@
           "invwidth": 1
         },
         "Worn": "weapon1"
+      },
+      {
+        "Quality": "Set",
+        "ID": "4174074526",
+        "QualityCode": "q_set",
+        "Title": "Natalya's Mark",
+        "Tag": "Scissors Suwayyah",
+        "TextTag": "Scissors Suwayyah",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "120",
+        "DamageMaximum": "153",
+        "Durability": "208",
+        "DurabilityMaximum": "215",
+        "ItemLevel": "91",
+        "LevelReq": 79,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+40% Increased Attack Speed",
+          "+200% Enhanced Damage",
+          "+99 to Maximum Damage (Based on Character Level)",
+          "Ignore Target's Defense",
+          "+200% Damage to Demons",
+          "+200% Damage to Undead",
+          "Adds 12-17 Fire damage",
+          "+50 cold damage"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": "weapon2"
       }
     ],
     "Inventory": [
@@ -383348,10 +383348,10 @@
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 20,
+        "IncreasedAttackSpeed": 75,
         "CrushingBlow": 0,
-        "OpenWounds": 50,
-        "DeadlyStrike": 74,
+        "OpenWounds": 25,
+        "DeadlyStrike": 0,
         "DamageReduction": 0,
         "CooldownReduction": 0
       },
@@ -383372,10 +383372,10 @@
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 75,
+        "IncreasedAttackSpeed": 20,
         "CrushingBlow": 0,
-        "OpenWounds": 25,
-        "DeadlyStrike": 0,
+        "OpenWounds": 50,
+        "DeadlyStrike": 74,
         "DamageReduction": 0,
         "CooldownReduction": 0
       }
@@ -383878,35 +383878,35 @@
       },
       {
         "Quality": "Normal",
-        "ID": "2292473834",
+        "ID": "113982382",
         "QualityCode": "q_runeword",
-        "Title": "Chaos",
-        "Tag": "Suwayyah",
-        "TextTag": "Suwayyah",
-        "RuneTag": "FalOhmUm",
+        "Title": "Plague",
+        "Tag": "Feral Claws",
+        "TextTag": "Feral Claws",
+        "RuneTag": "ChamShaelUm",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "167",
-        "DamageMaximum": "223",
-        "Durability": "213",
+        "Enhanced": "False",
+        "DamageMinimum": "22",
+        "DamageMaximum": "53",
+        "Durability": "215",
         "DurabilityMaximum": "215",
         "ItemLevel": "86",
-        "LevelReq": 57,
+        "LevelReq": 67,
         "Sockets": [
           {
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Fal Rune",
-            "Tag": "Fal Rune",
-            "TextTag": "Fal Rune",
+            "Title": "Cham Rune",
+            "Tag": "Cham Rune",
+            "TextTag": "Cham Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 41,
+            "LevelReq": 67,
             "SocketCount": "0",
             "PropertyList": [
-              "+10 to Strength"
+              "Freezes target +3"
             ],
             "Position": {
               "x": 0,
@@ -383922,16 +383922,16 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Ohm Rune",
-            "Tag": "Ohm Rune",
-            "TextTag": "Ohm Rune",
+            "Title": "Shael Rune",
+            "Tag": "Shael Rune",
+            "TextTag": "Shael Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 57,
+            "LevelReq": 29,
             "SocketCount": "0",
             "PropertyList": [
-              "+50% Enhanced Damage"
+              "+20% Increased Attack Speed"
             ],
             "Position": {
               "x": 1,
@@ -383971,17 +383971,18 @@
         ],
         "SocketCount": "3",
         "PropertyList": [
-          "11% Chance to cast level 9 Charged Bolt on striking",
-          "9% Chance to cast level 11 Frozen Orb on striking",
-          "+35% Increased Attack Speed",
-          "+329% Enhanced Damage",
-          "Adds 216-471 Magic damage",
+          "20% Chance to cast level 12 Lower Resist when struck",
+          "15% Chance to cast level 17 Poison Nova on striking",
+          "Level 17 Cleansing Aura When Equipped",
+          "+2 to All Skills",
+          "+20% Increased Attack Speed",
+          "+268% Damage to Demons",
+          "-23% to Enemy Poison Resistance",
+          "37% Deadly Strike (Based on Character Level)",
           "25% Chance of Open Wounds",
-          "+3 to Wake of Fire (Assassin Only)",
-          "+2 to Lightning Sentry (Assassin Only)",
-          "+1 to Shadow Master (Assassin Only)",
-          "+1 to Whirlwind",
-          "+10 to Strength",
+          "+3 to Blade Shield (Assassin Only)",
+          "+3 to Venom (Assassin Only)",
+          "Freezes target +3",
           "Socketed (3)"
         ],
         "Position": {
@@ -383993,43 +383994,6 @@
           "invwidth": 1
         },
         "Worn": "sweapon1"
-      },
-      {
-        "Quality": "Set",
-        "ID": "4174074526",
-        "QualityCode": "q_set",
-        "Title": "Natalya's Mark",
-        "Tag": "Scissors Suwayyah",
-        "TextTag": "Scissors Suwayyah",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "120",
-        "DamageMaximum": "153",
-        "Durability": "208",
-        "DurabilityMaximum": "215",
-        "ItemLevel": "91",
-        "LevelReq": 79,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+40% Increased Attack Speed",
-          "+200% Enhanced Damage",
-          "+99 to Maximum Damage (Based on Character Level)",
-          "Ignore Target's Defense",
-          "+200% Damage to Demons",
-          "+200% Damage to Undead",
-          "Adds 12-17 Fire damage",
-          "+50 cold damage"
-        ],
-        "Position": {
-          "x": 12,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": "sweapon2"
       },
       {
         "Quality": "Normal",
@@ -384142,46 +384106,46 @@
           "Socketed (3)"
         ],
         "Position": {
-          "x": 5,
+          "x": 12,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 1
         },
-        "Worn": "weapon2"
+        "Worn": "sweapon2"
       },
       {
         "Quality": "Normal",
-        "ID": "113982382",
+        "ID": "2292473834",
         "QualityCode": "q_runeword",
-        "Title": "Plague",
-        "Tag": "Feral Claws",
-        "TextTag": "Feral Claws",
-        "RuneTag": "ChamShaelUm",
+        "Title": "Chaos",
+        "Tag": "Suwayyah",
+        "TextTag": "Suwayyah",
+        "RuneTag": "FalOhmUm",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "DamageMinimum": "22",
-        "DamageMaximum": "53",
-        "Durability": "215",
+        "Enhanced": "True",
+        "DamageMinimum": "167",
+        "DamageMaximum": "223",
+        "Durability": "213",
         "DurabilityMaximum": "215",
         "ItemLevel": "86",
-        "LevelReq": 67,
+        "LevelReq": 57,
         "Sockets": [
           {
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Cham Rune",
-            "Tag": "Cham Rune",
-            "TextTag": "Cham Rune",
+            "Title": "Fal Rune",
+            "Tag": "Fal Rune",
+            "TextTag": "Fal Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 67,
+            "LevelReq": 41,
             "SocketCount": "0",
             "PropertyList": [
-              "Freezes target +3"
+              "+10 to Strength"
             ],
             "Position": {
               "x": 0,
@@ -384197,16 +384161,16 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Shael Rune",
-            "Tag": "Shael Rune",
-            "TextTag": "Shael Rune",
+            "Title": "Ohm Rune",
+            "Tag": "Ohm Rune",
+            "TextTag": "Ohm Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 29,
+            "LevelReq": 57,
             "SocketCount": "0",
             "PropertyList": [
-              "+20% Increased Attack Speed"
+              "+50% Enhanced Damage"
             ],
             "Position": {
               "x": 1,
@@ -384246,18 +384210,17 @@
         ],
         "SocketCount": "3",
         "PropertyList": [
-          "20% Chance to cast level 12 Lower Resist when struck",
-          "15% Chance to cast level 17 Poison Nova on striking",
-          "Level 17 Cleansing Aura When Equipped",
-          "+2 to All Skills",
-          "+20% Increased Attack Speed",
-          "+268% Damage to Demons",
-          "-23% to Enemy Poison Resistance",
-          "37% Deadly Strike (Based on Character Level)",
+          "11% Chance to cast level 9 Charged Bolt on striking",
+          "9% Chance to cast level 11 Frozen Orb on striking",
+          "+35% Increased Attack Speed",
+          "+329% Enhanced Damage",
+          "Adds 216-471 Magic damage",
           "25% Chance of Open Wounds",
-          "+3 to Blade Shield (Assassin Only)",
-          "+3 to Venom (Assassin Only)",
-          "Freezes target +3",
+          "+3 to Wake of Fire (Assassin Only)",
+          "+2 to Lightning Sentry (Assassin Only)",
+          "+1 to Shadow Master (Assassin Only)",
+          "+1 to Whirlwind",
+          "+10 to Strength",
           "Socketed (3)"
         ],
         "Position": {
@@ -384269,6 +384232,43 @@
           "invwidth": 1
         },
         "Worn": "weapon1"
+      },
+      {
+        "Quality": "Set",
+        "ID": "4174074526",
+        "QualityCode": "q_set",
+        "Title": "Natalya's Mark",
+        "Tag": "Scissors Suwayyah",
+        "TextTag": "Scissors Suwayyah",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "120",
+        "DamageMaximum": "153",
+        "Durability": "208",
+        "DurabilityMaximum": "215",
+        "ItemLevel": "91",
+        "LevelReq": 79,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+40% Increased Attack Speed",
+          "+200% Enhanced Damage",
+          "+99 to Maximum Damage (Based on Character Level)",
+          "Ignore Target's Defense",
+          "+200% Damage to Demons",
+          "+200% Damage to Undead",
+          "Adds 12-17 Fire damage",
+          "+50 cold damage"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": "weapon2"
       }
     ],
     "Inventory": [
