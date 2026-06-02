@@ -2287,7 +2287,7 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 98,
-      "Experience": 3249638692,
+      "Experience": 3249889092,
       "Strength": 50,
       "Dexterity": 25,
       "Vitality": 10,
@@ -2297,7 +2297,7 @@
       "BaseMana": 1149,
       "Mana": 1734,
       "Gold": 0,
-      "Stashed": 34889
+      "Stashed": 1535401
     },
     "Bonus": {
       "Strength": 36,
@@ -2630,7 +2630,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "63",
-        "Durability": "11",
+        "Durability": "12",
         "DurabilityMaximum": "12",
         "ItemLevel": "87",
         "LevelReq": 80,
@@ -3898,7 +3898,7 @@
         "PropertyList": [],
         "Position": {
           "x": 9,
-          "y": 4
+          "y": 0
         },
         "Size": {
           "invheight": 1,
@@ -46627,32 +46627,32 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 94,
-      "Experience": 2393838006,
+      "Experience": 2393866312,
       "Strength": 15,
       "Dexterity": 25,
       "Vitality": 495,
       "Energy": 25,
       "BaseLife": 1251,
-      "Life": 1296,
+      "Life": 1669,
       "BaseMana": 211,
-      "Mana": 376,
-      "Gold": 0,
+      "Mana": 487,
+      "Gold": 39457,
       "Stashed": 808463
     },
     "Bonus": {
-      "Strength": 101,
+      "Strength": 121,
       "Dexterity": 0,
       "Vitality": 10,
       "Energy": 0,
-      "FireResistance": 40,
+      "FireResistance": 76,
       "MaximumFireResistance": 0,
-      "ColdResistance": 60,
+      "ColdResistance": 96,
       "MaximumColdResistance": 0,
-      "LightningResistance": 30,
+      "LightningResistance": 66,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 38,
+      "PoisonResistance": 74,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 350,
+      "MagicFind": 352,
       "GoldFind": 119,
       "FasterCastRate": 40,
       "FasterHitRecovery": 0,
@@ -46923,42 +46923,6 @@
         "Worn": "helmet"
       },
       {
-        "Quality": "Unique",
-        "ID": "1078799963",
-        "QualityCode": "q_unique",
-        "Title": "War Traveler",
-        "Tag": "Battle Boots",
-        "TextTag": "Battle Boots",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "48",
-        "Durability": "48",
-        "DurabilityMaximum": "18",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+25% Faster Run/Walk",
-          "Adds 15-25 damage",
-          "+156% Enhanced Defense",
-          "+10 to Strength",
-          "+10 to Vitality",
-          "40% Slower Stamina Drain",
-          "Attacker Takes Damage of 7",
-          "48% Better Chance of Getting Magic Items"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "boots"
-      },
-      {
         "Quality": "Superior",
         "ID": "3495832791",
         "QualityCode": "q_runeword",
@@ -47076,33 +47040,70 @@
         "Worn": "body"
       },
       {
-        "Quality": "Magic",
-        "ID": "3307839896",
-        "QualityCode": "q_magic",
-        "Title": "Accursed Amulet of the Titan",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
+        "Quality": "Unique",
+        "ID": "775301986",
+        "QualityCode": "q_unique",
+        "Title": "War Traveler",
+        "Tag": "Battle Boots",
+        "TextTag": "Battle Boots",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "86",
-        "LevelReq": 50,
+        "Enhanced": "True",
+        "Defense": "48",
+        "Durability": "17",
+        "DurabilityMaximum": "18",
+        "ItemLevel": "89",
+        "LevelReq": 42,
         "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "+1 to All Skills",
-          "+3 to Curses (Necromancer Only)",
-          "+19 to Strength"
+          "+25% Faster Run/Walk",
+          "Adds 15-25 damage",
+          "+167% Enhanced Defense",
+          "+10 to Strength",
+          "+10 to Vitality",
+          "40% Slower Stamina Drain",
+          "All Resistances +7",
+          "Attacker Takes Damage of 7",
+          "50% Better Chance of Getting Magic Items"
         ],
         "Position": {
-          "x": 2,
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "boots"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "4087230617",
+        "QualityCode": "q_unique",
+        "Title": "The Stone of Jordan",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "49",
+        "LevelReq": 29,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to All Skills",
+          "Adds 1-12 Lightning damage",
+          "+20 to Mana",
+          "Increase Maximum Mana 25%"
+        ],
+        "Position": {
+          "x": 7,
           "y": 0
         },
         "Size": {
           "invheight": 1,
           "invwidth": 1
         },
-        "Worn": "amulet"
+        "Worn": "ring2"
       },
       {
         "Quality": "Unique",
@@ -47134,33 +47135,33 @@
         "Worn": "ring1"
       },
       {
-        "Quality": "Unique",
-        "ID": "4087230617",
-        "QualityCode": "q_unique",
-        "Title": "The Stone of Jordan",
-        "Tag": "Ring",
-        "TextTag": "ring",
+        "Quality": "Magic",
+        "ID": "3307839896",
+        "QualityCode": "q_magic",
+        "Title": "Accursed Amulet of the Titan",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
         "Ethereal": "False",
         "Enhanced": "False",
         "AlternateGraphics": "0",
-        "ItemLevel": "49",
-        "LevelReq": 29,
+        "ItemLevel": "86",
+        "LevelReq": 50,
         "SocketCount": "0",
         "PropertyList": [
+          "\u00ffc1Corrupted",
           "+1 to All Skills",
-          "Adds 1-12 Lightning damage",
-          "+20 to Mana",
-          "Increase Maximum Mana 25%"
+          "+3 to Curses (Necromancer Only)",
+          "+19 to Strength"
         ],
         "Position": {
-          "x": 7,
+          "x": 2,
           "y": 0
         },
         "Size": {
           "invheight": 1,
           "invwidth": 1
         },
-        "Worn": "ring2"
+        "Worn": "amulet"
       },
       {
         "Quality": "Set",
@@ -48235,6 +48236,88 @@
         "Position": {
           "x": 9,
           "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2471330615",
+        "QualityCode": "q_unique",
+        "Title": "Hellfire Torch",
+        "Tag": "Large Charm",
+        "TextTag": "Charm Medium",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "99",
+        "LevelReq": 75,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+3 to Necromancer Skill Levels",
+          "+10 to all Attributes",
+          "All Resistances +15",
+          "+8 to Light Radius"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 7
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "311187371",
+        "QualityCode": "q_unique",
+        "Title": "Annihilus",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "99",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to All Skills",
+          "+10 to all Attributes",
+          "All Resistances +14",
+          "+9% to Experience Gained"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "2669486865",
+        "QualityCode": "q_rare",
+        "Title": "Ring",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "83",
+        "LevelReq": 31,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 4
         },
         "Size": {
           "invheight": 1,
@@ -216567,7 +216650,7 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 98,
-      "Experience": 3249638692,
+      "Experience": 3249889092,
       "Strength": 50,
       "Dexterity": 25,
       "Vitality": 10,
@@ -216577,7 +216660,7 @@
       "BaseMana": 1149,
       "Mana": 1734,
       "Gold": 0,
-      "Stashed": 34889
+      "Stashed": 1535401
     },
     "Bonus": {
       "Strength": 36,
@@ -216910,7 +216993,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "63",
-        "Durability": "11",
+        "Durability": "12",
         "DurabilityMaximum": "12",
         "ItemLevel": "87",
         "LevelReq": 80,
@@ -218178,7 +218261,7 @@
         "PropertyList": [],
         "Position": {
           "x": 9,
-          "y": 4
+          "y": 0
         },
         "Size": {
           "invheight": 1,
