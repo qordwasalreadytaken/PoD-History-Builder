@@ -11357,5 +11357,38 @@ const synthInventory = [
     "seen_date": "2026-05-28",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=The+Diggler%2C0%2Cnone%2Cindestructible%3A1%2Cdamage_bonus%3A50%2Cdexterity%3A10%2Cmana_regen%3A15%2Call_res%3A75"
+  },
+  {
+    "id": "9a55974c4c093fcbdb138f701df0468b807a604b50641de169956665dbb36299",
+    "friendly_id": 188,
+    "owner": "Hhhhhh",
+    "base_type": "Synthesized Greater Talons",
+    "title": "Bartuc's Cut-Throat",
+    "properties": [
+      "Indestructible",
+      "+30% Faster Hit Recovery",
+      "+365% Enhanced Damage",
+      "Adds 30-60 damage",
+      "60% Bonus to Attack Rating",
+      "+11 to Magic Arrow",
+      "+20 to Dexterity",
+      "Cannot Be Frozen"
+    ],
+    "synthesised_from": [
+      "Sureshrill Frost",
+      "Doombringer",
+      "Widowmaker"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "127",
+    "DamageMaximum": "162",
+    "LevelReq": 42,
+    "SocketCount": "0",
+    "seen_date": "2026-06-03",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Bartuc%27s+Cut-Throat%2C0%2Cnone%2Cindestructible%3A1%2Cfhr%3A30%2Cdamage_bonus%3A365%2Cdamage%3A60%2Car_bonus%3A60%2Coskill_Magic_Arrow%3A11%2Cdexterity%3A20%2Ccbf%3A1"
   }
 ];
