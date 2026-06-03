@@ -170041,17 +170041,17 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 94,
-      "Experience": 2286480063,
+      "Experience": 2287141772,
       "Strength": 46,
       "Dexterity": 25,
       "Vitality": 454,
       "Energy": 35,
       "BaseLife": 1127,
-      "Life": 960,
+      "Life": 1243,
       "BaseMana": 221,
       "Mana": 504,
       "Gold": 0,
-      "Stashed": 2031908
+      "Stashed": 1213414
     },
     "Bonus": {
       "Strength": 38,
@@ -170257,7 +170257,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "467",
-        "Durability": "18",
+        "Durability": "14",
         "DurabilityMaximum": "24",
         "ItemLevel": "88",
         "LevelReq": 57,
@@ -170393,7 +170393,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "51",
-        "Durability": "18",
+        "Durability": "17",
         "DurabilityMaximum": "20",
         "ItemLevel": "86",
         "LevelReq": 76,
@@ -170459,7 +170459,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "63",
-        "Durability": "10",
+        "Durability": "9",
         "DurabilityMaximum": "12",
         "ItemLevel": "87",
         "LevelReq": 80,
@@ -170977,32 +170977,6 @@
         ],
         "Position": {
           "x": 7,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "870444457",
-        "QualityCode": "q_magic",
-        "Title": "Burning Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "81",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Fire Skills (Sorceress Only)"
-        ],
-        "Position": {
-          "x": 6,
           "y": 5
         },
         "Size": {
@@ -171613,6 +171587,62 @@
         "Worn": ""
       },
       {
+        "Quality": "Magic",
+        "ID": "1071715112",
+        "QualityCode": "q_magic",
+        "Title": "Sparking Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "87",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Lightning Skills (Sorceress Only)"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "3115387346",
+        "QualityCode": "q_rare",
+        "Title": "Death Eye",
+        "Tag": "Decomposing Settlement Relic",
+        "TextTag": "Decomposing Settlement Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "99",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "10% Chance to cast level 5 Decrepify on striking",
+          "Adds 20-30 Magic damage",
+          "Adds 63-100 Lightning damage",
+          "Cold Resist +50%",
+          "Poison Absorb 14%",
+          "Fire Absorb 17%"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
         "Quality": "Rare",
         "ID": "431596257",
         "QualityCode": "q_rare",
@@ -171632,7 +171662,129 @@
           "Cannot Be Frozen"
         ],
         "Position": {
-          "x": 5,
+          "x": 4,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Super Mana Potion",
+        "Tag": "Super Mana Potion",
+        "TextTag": "Greater Mana Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 4,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "4066323904",
+        "QualityCode": "q_unique",
+        "Title": "Bartuc's Cut-Throat",
+        "Tag": "Synthesized Greater Talons",
+        "TextTag": "Synthesized Greater Talons",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "127",
+        "DamageMaximum": "162",
+        "ThrowDamageMinimum": "30",
+        "Durability": "107",
+        "DurabilityMaximum": "215",
+        "ItemLevel": "87",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Indestructible",
+          "+30% Faster Hit Recovery",
+          "+365% Enhanced Damage",
+          "Adds 30-60 damage",
+          "60% Bonus to Attack Rating",
+          "+11 to Magic Arrow",
+          "+20 to Dexterity",
+          "Cannot Be Frozen"
+        ],
+        "SynthesisedFrom": [
+          "Sureshrill Frost",
+          "Doombringer",
+          "Widowmaker"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "2878718549",
+        "QualityCode": "q_rare",
+        "Title": "Dread Eye",
+        "Tag": "Decomposing Settlement Relic",
+        "TextTag": "Decomposing Settlement Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "99",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Level 10 Slow Nearby Enemies by 20%% Aura When Equipped",
+          "+78% Increased Attack Speed",
+          "Adds 20-30 Magic damage",
+          "Fire Resist +50%",
+          "Fire Absorb 12%"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1079935073",
+        "QualityCode": "q_rare",
+        "Title": "Rune Eye",
+        "Tag": "Desecrated Temple Relic",
+        "TextTag": "Desecrated Temple Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "95",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Adds 30-40 Magic damage",
+          "15% Life stolen per hit",
+          "Cannot Be Frozen",
+          "49% Reduced Curse Duration"
+        ],
+        "Position": {
+          "x": 3,
           "y": 1
         },
         "Size": {
@@ -172040,7 +172192,7 @@
     "Class": "Assassin",
     "Stats": {
       "Level": 95,
-      "Experience": 2685448498,
+      "Experience": 2692222736,
       "Strength": 65,
       "Dexterity": 45,
       "Vitality": 435,
@@ -172049,8 +172201,8 @@
       "Life": 2196,
       "BaseMana": 166,
       "Mana": 474,
-      "Gold": 0,
-      "Stashed": 2010717
+      "Gold": 950000,
+      "Stashed": 562126
     },
     "Bonus": {
       "Strength": 103,
@@ -172283,7 +172435,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "136",
-        "Durability": "50",
+        "Durability": "49",
         "DurabilityMaximum": "55",
         "ItemLevel": "88",
         "LevelReq": 65,
@@ -173924,30 +174076,30 @@
         "Worn": ""
       },
       {
-        "Quality": "Craft",
-        "ID": "1059641153",
-        "QualityCode": "q_crafted",
-        "Title": "Corruption Talisman",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
+        "Quality": "Unique",
+        "ID": "4137147943",
+        "QualityCode": "q_unique",
+        "Title": "Raven Frost",
+        "Tag": "Ring",
+        "TextTag": "ring",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "96",
-        "LevelReq": 40,
+        "AlternateGraphics": "4",
+        "ItemLevel": "88",
+        "LevelReq": 45,
         "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "+2 to Summon Skills",
-          "+1 to Shadow Disciplines (Assassin Only)",
-          "+7% Faster Cast Rate",
-          "+33 to Life",
-          "+59 to Mana",
-          "Regenerate Mana 8%"
+          "+202 to Attack Rating",
+          "Adds 15-45 cold damage",
+          "+19 to Dexterity",
+          "+40 to Mana",
+          "Cold Absorb 20%",
+          "Cannot Be Frozen"
         ],
         "Position": {
-          "x": 8,
-          "y": 1
+          "x": 9,
+          "y": 0
         },
         "Size": {
           "invheight": 1,
@@ -173956,33 +174108,28 @@
         "Worn": ""
       },
       {
-        "Quality": "Craft",
-        "ID": "2271950311",
-        "QualityCode": "q_crafted",
-        "Title": "Wraithra Noose",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
+        "Quality": "Rare",
+        "ID": "3515370164",
+        "QualityCode": "q_rare",
+        "Title": "Bone Eye",
+        "Tag": "Abyssal Furnace Relic",
+        "TextTag": "Abyssal Furnace Relic",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "96",
-        "LevelReq": 49,
+        "ItemLevel": "92",
+        "LevelReq": 80,
         "SocketCount": "0",
         "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+1 to Paladin Skill Levels",
-          "+10% Faster Cast Rate",
-          "+10 to Energy",
-          "+15 to Mana",
-          "Regenerate Mana 7%",
-          "Cold Resist +40%",
-          "Lightning Resist +9%",
-          "Fire Resist +9%",
-          "Poison Resist +9%"
+          "15% Chance to cast level 25 Glacial Spike when you Die",
+          "59% Bonus to Attack Rating",
+          "Adds 149-150 Fire damage",
+          "Lightning Resist +50%",
+          "Poison Resist +50%",
+          "Attacker Takes Damage of 18"
         ],
         "Position": {
-          "x": 6,
-          "y": 1
+          "x": 3,
+          "y": 2
         },
         "Size": {
           "invheight": 1,
@@ -363286,17 +363433,17 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 94,
-      "Experience": 2286480063,
+      "Experience": 2287141772,
       "Strength": 46,
       "Dexterity": 25,
       "Vitality": 454,
       "Energy": 35,
       "BaseLife": 1127,
-      "Life": 960,
+      "Life": 1243,
       "BaseMana": 221,
       "Mana": 504,
       "Gold": 0,
-      "Stashed": 2031908
+      "Stashed": 1213414
     },
     "Bonus": {
       "Strength": 38,
@@ -363502,7 +363649,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "467",
-        "Durability": "18",
+        "Durability": "14",
         "DurabilityMaximum": "24",
         "ItemLevel": "88",
         "LevelReq": 57,
@@ -363638,7 +363785,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "51",
-        "Durability": "18",
+        "Durability": "17",
         "DurabilityMaximum": "20",
         "ItemLevel": "86",
         "LevelReq": 76,
@@ -363704,7 +363851,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "63",
-        "Durability": "10",
+        "Durability": "9",
         "DurabilityMaximum": "12",
         "ItemLevel": "87",
         "LevelReq": 80,
@@ -364222,32 +364369,6 @@
         ],
         "Position": {
           "x": 7,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "870444457",
-        "QualityCode": "q_magic",
-        "Title": "Burning Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "81",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Fire Skills (Sorceress Only)"
-        ],
-        "Position": {
-          "x": 6,
           "y": 5
         },
         "Size": {
@@ -364858,6 +364979,62 @@
         "Worn": ""
       },
       {
+        "Quality": "Magic",
+        "ID": "1071715112",
+        "QualityCode": "q_magic",
+        "Title": "Sparking Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "87",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Lightning Skills (Sorceress Only)"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "3115387346",
+        "QualityCode": "q_rare",
+        "Title": "Death Eye",
+        "Tag": "Decomposing Settlement Relic",
+        "TextTag": "Decomposing Settlement Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "99",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "10% Chance to cast level 5 Decrepify on striking",
+          "Adds 20-30 Magic damage",
+          "Adds 63-100 Lightning damage",
+          "Cold Resist +50%",
+          "Poison Absorb 14%",
+          "Fire Absorb 17%"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
         "Quality": "Rare",
         "ID": "431596257",
         "QualityCode": "q_rare",
@@ -364877,7 +365054,129 @@
           "Cannot Be Frozen"
         ],
         "Position": {
-          "x": 5,
+          "x": 4,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Super Mana Potion",
+        "Tag": "Super Mana Potion",
+        "TextTag": "Greater Mana Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 4,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "4066323904",
+        "QualityCode": "q_unique",
+        "Title": "Bartuc's Cut-Throat",
+        "Tag": "Synthesized Greater Talons",
+        "TextTag": "Synthesized Greater Talons",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "127",
+        "DamageMaximum": "162",
+        "ThrowDamageMinimum": "30",
+        "Durability": "107",
+        "DurabilityMaximum": "215",
+        "ItemLevel": "87",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Indestructible",
+          "+30% Faster Hit Recovery",
+          "+365% Enhanced Damage",
+          "Adds 30-60 damage",
+          "60% Bonus to Attack Rating",
+          "+11 to Magic Arrow",
+          "+20 to Dexterity",
+          "Cannot Be Frozen"
+        ],
+        "SynthesisedFrom": [
+          "Sureshrill Frost",
+          "Doombringer",
+          "Widowmaker"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "2878718549",
+        "QualityCode": "q_rare",
+        "Title": "Dread Eye",
+        "Tag": "Decomposing Settlement Relic",
+        "TextTag": "Decomposing Settlement Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "99",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Level 10 Slow Nearby Enemies by 20%% Aura When Equipped",
+          "+78% Increased Attack Speed",
+          "Adds 20-30 Magic damage",
+          "Fire Resist +50%",
+          "Fire Absorb 12%"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1079935073",
+        "QualityCode": "q_rare",
+        "Title": "Rune Eye",
+        "Tag": "Desecrated Temple Relic",
+        "TextTag": "Desecrated Temple Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "95",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Adds 30-40 Magic damage",
+          "15% Life stolen per hit",
+          "Cannot Be Frozen",
+          "49% Reduced Curse Duration"
+        ],
+        "Position": {
+          "x": 3,
           "y": 1
         },
         "Size": {
@@ -365285,7 +365584,7 @@
     "Class": "Assassin",
     "Stats": {
       "Level": 95,
-      "Experience": 2685448498,
+      "Experience": 2692222736,
       "Strength": 65,
       "Dexterity": 45,
       "Vitality": 435,
@@ -365294,8 +365593,8 @@
       "Life": 2196,
       "BaseMana": 166,
       "Mana": 474,
-      "Gold": 0,
-      "Stashed": 2010717
+      "Gold": 950000,
+      "Stashed": 562126
     },
     "Bonus": {
       "Strength": 103,
@@ -365528,7 +365827,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "136",
-        "Durability": "50",
+        "Durability": "49",
         "DurabilityMaximum": "55",
         "ItemLevel": "88",
         "LevelReq": 65,
@@ -367169,30 +367468,30 @@
         "Worn": ""
       },
       {
-        "Quality": "Craft",
-        "ID": "1059641153",
-        "QualityCode": "q_crafted",
-        "Title": "Corruption Talisman",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
+        "Quality": "Unique",
+        "ID": "4137147943",
+        "QualityCode": "q_unique",
+        "Title": "Raven Frost",
+        "Tag": "Ring",
+        "TextTag": "ring",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "96",
-        "LevelReq": 40,
+        "AlternateGraphics": "4",
+        "ItemLevel": "88",
+        "LevelReq": 45,
         "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "+2 to Summon Skills",
-          "+1 to Shadow Disciplines (Assassin Only)",
-          "+7% Faster Cast Rate",
-          "+33 to Life",
-          "+59 to Mana",
-          "Regenerate Mana 8%"
+          "+202 to Attack Rating",
+          "Adds 15-45 cold damage",
+          "+19 to Dexterity",
+          "+40 to Mana",
+          "Cold Absorb 20%",
+          "Cannot Be Frozen"
         ],
         "Position": {
-          "x": 8,
-          "y": 1
+          "x": 9,
+          "y": 0
         },
         "Size": {
           "invheight": 1,
@@ -367201,33 +367500,28 @@
         "Worn": ""
       },
       {
-        "Quality": "Craft",
-        "ID": "2271950311",
-        "QualityCode": "q_crafted",
-        "Title": "Wraithra Noose",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
+        "Quality": "Rare",
+        "ID": "3515370164",
+        "QualityCode": "q_rare",
+        "Title": "Bone Eye",
+        "Tag": "Abyssal Furnace Relic",
+        "TextTag": "Abyssal Furnace Relic",
         "Ethereal": "False",
         "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "96",
-        "LevelReq": 49,
+        "ItemLevel": "92",
+        "LevelReq": 80,
         "SocketCount": "0",
         "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+1 to Paladin Skill Levels",
-          "+10% Faster Cast Rate",
-          "+10 to Energy",
-          "+15 to Mana",
-          "Regenerate Mana 7%",
-          "Cold Resist +40%",
-          "Lightning Resist +9%",
-          "Fire Resist +9%",
-          "Poison Resist +9%"
+          "15% Chance to cast level 25 Glacial Spike when you Die",
+          "59% Bonus to Attack Rating",
+          "Adds 149-150 Fire damage",
+          "Lightning Resist +50%",
+          "Poison Resist +50%",
+          "Attacker Takes Damage of 18"
         ],
         "Position": {
-          "x": 6,
-          "y": 1
+          "x": 3,
+          "y": 2
         },
         "Size": {
           "invheight": 1,
