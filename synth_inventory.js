@@ -11477,5 +11477,38 @@ const synthInventory = [
       }
     ],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Cliffkiller%2C0%2Cnone%2Cskills_elemental%3A7%2Cias%3A20%2Cfcr%3A10%2Cdamage_bonus%3A511%2Ccblow%3A33%2Cblind_on_hit%3A1%2Csockets%3A5"
+  },
+  {
+    "id": "f2eb6ec845d271131eed84377a5d189e24c73037c3e4ec3b38bb08dd13133b2c",
+    "friendly_id": 190,
+    "owner": "Precisely",
+    "base_type": "Synthesized Military Axe",
+    "title": "Warlord's Trust",
+    "properties": [
+      "+30% Increased Attack Speed",
+      "20% Increased Chance of Blocking",
+      "+367% Enhanced Damage",
+      "5% Life stolen per hit",
+      "+12 to Pulverize",
+      "+93 to Life (Based on Character Level)",
+      "+60% added chance to release Whirling Axes",
+      "Requirements -50%"
+    ],
+    "synthesised_from": [
+      "Swordguard",
+      "Athena's Wrath",
+      "Titan's Revenge"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "65",
+    "DamageMaximum": "158",
+    "LevelReq": 35,
+    "SocketCount": "0",
+    "seen_date": "2026-06-08",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Warlord%27s+Trust%2C0%2Cnone%2Cias%3A30%2Cdamage_bonus%3A367%2Clife_leech%3A5%2Clife%3A93"
   }
 ];
