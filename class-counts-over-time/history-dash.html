@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PoD Class Counts Over Time</title>
+
+<script src="https://cdn.plot.ly/plotly-2.30.0.min.js"></script>
+
+<style>
+body {
+    font-family: sans-serif;
+    background: #111;
+    color: #ddd;
+    margin: 0;
+    padding: 20px;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+select, input {
+    padding: 6px;
+}
+
+.chart {
+    width: 100%;
+    height: 600px;
+}
+
+#tableContainer {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+#tableContainer table {
+    border-collapse: collapse;
+    width: 100%;
+    background: #1a1a1a;
+}
+
+#tableContainer th,
+#tableContainer td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+#tableContainer th {
+    background: #222;
+    color: #ddd;
+}
+
+#tableContainer tr:nth-child(even) {
+    background: #181818;
+}
+
+#tableContainer tr:hover {
+    background: #2a2a2a;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>PoD Class Counts of the Top 1K Over Time</h1>
+
+<div class="controls">
+    <label>Mode:</label>
+    <select id="mode">
+        <option value="sc">Softcore</option>
+        <option value="hc">Hardcore</option>
+    </select>
+
+    <label>Level:</label>
+    <select id="level">
+        <option value="80">80+</option>
+        <option value="90">90+</option>
+        <option value="95" selected>95+</option>
+        <option value="96">96+</option>
+        <option value="97">97+</option>
+        <option value="98">98+</option>
+        <option value="99">99+</option>
+    </select>
+
+</div>
+
+<label>Season:</label>
+<input id="season" type="range" min="1" max="13" value="13">
+<span id="seasonLabel">13</span>
+<div id="lines" class="chart"></div>
+<br>
+<div id="trends" class="chart"></div>
+<br>
+<h1>Raw counts at Levels <span id="levelDisplay">95+</span></h1>
+<div id="tableContainer"></div>
+<br>
+<script>
+let DATA = null;
+let timer = null;
+
+const CLASSES = ["ama","asn","bar","dru","nec","pal","sor"];
+
+const CLASS_COLORS = {
+    "Amazon": "rgb(255, 102, 105)",
+    "Assassin": "rgb(255, 255, 255)",
+    "Barbarian": "rgb(150, 105, 32)",
+    "Druid": "rgb(255, 186, 74)",
+    "Necromancer": "rgb(179, 255, 253)",
+    "Paladin": "rgb(255, 243, 112)",
+    "Sorceress": "rgb(188, 107, 255)"
+};
+
+async function load() {
+    const res = await fetch("meta_analysis.json");
+    DATA = await res.json();
+
+    // Make sure the UI reflects the selected season
+    document.getElementById("season").value = season;
+    document.getElementById("seasonLabel").textContent = season;
+
+    renderAll();
+}
+
+function seasons() {
+    return Object.keys(DATA.sc).map(Number).sort((a,b)=>a-b);
+}
+
+function get(mode, season, level) {
+    return DATA[mode][season]?.[level] || {counts:{}, total:0, dominance:0};
+}
+
+function renderSeason(season) {
+    const mode = document.getElementById("mode").value;
+    const level = document.getElementById("level").value;
+
+    const d = DATA[mode][season]?.[level];
+
+    const labels = DATA.classes;
+
+    const x = [];
+    const y = [];
+    const colors = [];
+
+    for (const cls of CLASSES) {
+        const name = labels[cls];
+
+        x.push(name);
+        y.push(d?.counts?.[cls] || 0);
+        colors.push(CLASS_COLORS[name]);
+    }
+    Plotly.react("lines", [{
+        type: "bar",
+        x,
+        y,
+        marker: {
+            color: colors,
+            line: {
+                color: "#444",
+                width: 1
+            }
+        }
+    }], {
+        title: `Season ${season} (${mode.toUpperCase()} ${level}+)`,
+
+        paper_bgcolor: "#1a1a1a",   // outside the plot area
+        plot_bgcolor: "#222222",    // inside the plot area
+
+        hoverlabel: {
+            bgcolor: "#2a2a2a",
+            bordercolor: "#555",
+            font: {
+                color: "#dddddd"
+            }
+        },
+
+        font: {
+            color: "#dddddd",
+            size: 14
+        },
+
+        xaxis: {
+            color: "#dddddd",
+            gridcolor: "#333333",
+            zerolinecolor: "#444444"
+        },
+
+        yaxis: {
+            title: "Characters",
+            color: "#dddddd",
+            gridcolor: "#333333",
+            zerolinecolor: "#444444"
+        },
+
+        margin: {
+            t: 60,
+            l: 60,
+            r: 30,
+            b: 60
+        },
+        displaylogo: false,
+        responsive: true
+
+    });
+}
+
+function renderAll() {
+    renderSeason(season);
+    renderTable();
+    renderTrendChart();
+    document.getElementById("levelDisplay").textContent =
+        document.getElementById("level").value + "+";
+}
+
+function renderTable() {
+    const mode = document.getElementById("mode").value;
+    const level = document.getElementById("level").value;
+
+    let html = "<table>";
+
+    // Header
+    html += "<tr>";
+    html += "<th>Season</th>";
+
+    for (const cls of CLASSES) {
+        html += `<th>${DATA.classes[cls]}</th>`;
+    }
+
+    html += "<th>Total</th>";
+    html += "</tr>";
+
+    // Seasons
+    const seasons = Object.keys(DATA[mode])
+        .map(Number)
+        .sort((a, b) => a - b);
+
+    for (const season of seasons) {
+        const d = DATA[mode][season]?.[level];
+
+        html += `<tr>`;
+        html += `<td>${season}</td>`;
+
+        let total = 0;
+
+        for (const cls of CLASSES) {
+            const count = d?.counts?.[cls] || 0;
+            total += count;
+
+            html += `<td>${count}</td>`;
+        }
+
+        html += `<td><strong>${total}</strong></td>`;
+        html += `</tr>`;
+    }
+
+    html += "</table>";
+
+    document.getElementById("tableContainer").innerHTML = html;
+}
+
+function renderTrendChart() {
+    const mode = document.getElementById("mode").value;
+    const level = document.getElementById("level").value;
+
+    const seasons = Object.keys(DATA[mode])
+        .map(Number)
+        .sort((a, b) => a - b);
+
+    const traces = [];
+
+    for (const cls of CLASSES) {
+        const label = DATA.classes[cls];
+
+        traces.push({
+            x: seasons,
+            y: seasons.map(season =>
+                DATA[mode][season]?.[level]?.counts?.[cls] || 0
+            ),
+            mode: "lines+markers",
+            name: label,
+            line: {
+                color: CLASS_COLORS[label],
+                width: 3
+            },
+            marker: {
+                color: CLASS_COLORS[label],
+                size: 8,
+                line: {
+                    color: "#333",
+                    width: 1
+                }
+            }
+        });
+    }
+
+    Plotly.react("trends", traces, {
+        title: `${mode.toUpperCase()} Class Trends (${level}+)`,
+        paper_bgcolor: "#1a1a1a",
+        plot_bgcolor: "#222222",
+
+        font: {
+            color: "#dddddd"
+        },
+
+        xaxis: {
+            title: "Season",
+            tickmode: "array",
+            tickvals: seasons,
+            gridcolor: "#333"
+        },
+
+        yaxis: {
+            title: "Characters",
+            gridcolor: "#333"
+        },
+
+        legend: {
+            bgcolor: "#222"
+        },
+
+        hoverlabel: {
+            bgcolor: "#2a2a2a",
+            font: {
+                color: "#ddd"
+            }
+        }
+    }, {
+        responsive: true,
+        displaylogo: false
+    });
+}
+
+let season = 13;
+
+document.getElementById("season").addEventListener("input", (e) => {
+    season = Number(e.target.value);
+    document.getElementById("seasonLabel").textContent = season;
+    renderAll();
+});
+
+document.getElementById("mode").addEventListener("change", () => {
+    renderAll();
+});
+
+document.getElementById("level").addEventListener("change", () => {
+    renderAll();
+});
+
+load();
+load().then(() => {
+    renderSeason(season);
+});
+</script>
+
+</body>
+</html>
