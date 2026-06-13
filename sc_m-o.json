@@ -13792,7 +13792,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 98,
-      "Experience": 3410406087,
+      "Experience": 3411639049,
       "Strength": 30,
       "Dexterity": 99,
       "Vitality": 436,
@@ -13802,7 +13802,7 @@
       "BaseMana": 160,
       "Mana": 248,
       "Gold": 0,
-      "Stashed": 1904780
+      "Stashed": 1164120
     },
     "Bonus": {
       "Strength": 125,
@@ -125896,7 +125896,7 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 93,
-      "Experience": 2154302218,
+      "Experience": 2143305789,
       "Strength": 165,
       "Dexterity": 35,
       "Vitality": 300,
@@ -125905,8 +125905,8 @@
       "Life": 1154,
       "BaseMana": 269,
       "Mana": 657,
-      "Gold": 0,
-      "Stashed": 1796210
+      "Gold": 356178,
+      "Stashed": 1888954
     },
     "Bonus": {
       "Strength": 86,
@@ -153097,7 +153097,7 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 93,
-      "Experience": 2100701579,
+      "Experience": 2101074633,
       "Strength": 80,
       "Dexterity": 25,
       "Vitality": 10,
@@ -153106,21 +153106,21 @@
       "Life": 557,
       "BaseMana": 1029,
       "Mana": 1569,
-      "Gold": 0,
-      "Stashed": 1774195
+      "Gold": 20430,
+      "Stashed": 2373010
     },
     "Bonus": {
       "Strength": 94,
-      "Dexterity": 24,
+      "Dexterity": 18,
       "Vitality": 10,
       "Energy": 0,
-      "FireResistance": 152,
+      "FireResistance": 138,
       "MaximumFireResistance": 0,
-      "ColdResistance": 115,
+      "ColdResistance": 101,
       "MaximumColdResistance": 0,
-      "LightningResistance": 136,
+      "LightningResistance": 122,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 139,
+      "PoisonResistance": 125,
       "MaximumPoisonResistance": 0,
       "MagicFind": 192,
       "GoldFind": 0,
@@ -153356,7 +153356,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "435",
-        "Durability": "65",
+        "Durability": "66",
         "DurabilityMaximum": "60",
         "ItemLevel": "86",
         "LevelReq": 65,
@@ -153534,7 +153534,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "12",
-        "Durability": "16",
+        "Durability": "18",
         "DurabilityMaximum": "18",
         "ItemLevel": "87",
         "LevelReq": 23,
@@ -153598,7 +153598,7 @@
         "Ethereal": "False",
         "Enhanced": "False",
         "Defense": "130",
-        "Durability": "11",
+        "Durability": "12",
         "DurabilityMaximum": "12",
         "ItemLevel": "95",
         "LevelReq": 62,
@@ -154397,20 +154397,19 @@
       },
       {
         "Quality": "Magic",
-        "ID": "608086539",
+        "ID": "3775782766",
         "QualityCode": "q_magic",
-        "Title": "Shimmering Grand Charm of Dexterity",
+        "Title": "Sparking Grand Charm",
         "Tag": "Grand Charm",
         "TextTag": "Charm Large",
         "Ethereal": "False",
         "Enhanced": "False",
         "AlternateGraphics": "1",
-        "ItemLevel": "86",
-        "LevelReq": 27,
+        "ItemLevel": "87",
+        "LevelReq": 42,
         "SocketCount": "0",
         "PropertyList": [
-          "+6 to Dexterity",
-          "All Resistances +14"
+          "+1 to Lightning Skills (Sorceress Only)"
         ],
         "Position": {
           "x": 6,
@@ -154418,6 +154417,158 @@
         },
         "Size": {
           "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1671660936",
+        "QualityCode": "q_rare",
+        "Title": "Dread Eye",
+        "Tag": "Baleful Alcazar Relic",
+        "TextTag": "Baleful Alcazar Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "86",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Level 11 Redemption Aura When Equipped",
+          "+57% Increased Attack Speed",
+          "Adds 99-100 cold damage",
+          "10% Life stolen per hit",
+          "Fire Resist +50%"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1952232968",
+        "QualityCode": "q_rare",
+        "Title": "Grim Eye",
+        "Tag": "Decomposing Settlement Relic",
+        "TextTag": "Decomposing Settlement Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "86",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "10% Chance to cast level 5 Decrepify on striking",
+          "Level 9 Redemption Aura When Equipped",
+          "9% Deadly Strike",
+          "+22% Enhanced Defense",
+          "Fire Resist +50%",
+          "Cannot Be Frozen"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Super Healing Potion",
+        "Tag": "Super Healing Potion",
+        "TextTag": "Greater Healing Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "595308096",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "86",
+        "LevelReq": 37,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "234119948",
+        "QualityCode": "q_normal",
+        "Title": "\u00ffc;Orb of Alteration",
+        "Tag": "\u00ffc;Orb of Alteration",
+        "TextTag": "Map Orb",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "95",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "4099354591",
+        "QualityCode": "q_rare",
+        "Title": "Decomposing Settlement Relic",
+        "Tag": "Decomposing Settlement Relic",
+        "TextTag": "Decomposing Settlement Relic",
+        "Ethereal": "False",
+        "ItemLevel": "95",
+        "LevelReq": 80,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -393377,7 +393528,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 98,
-      "Experience": 3410406087,
+      "Experience": 3411639049,
       "Strength": 30,
       "Dexterity": 99,
       "Vitality": 436,
@@ -393387,7 +393538,7 @@
       "BaseMana": 160,
       "Mana": 248,
       "Gold": 0,
-      "Stashed": 1904780
+      "Stashed": 1164120
     },
     "Bonus": {
       "Strength": 125,
@@ -491194,7 +491345,7 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 93,
-      "Experience": 2154302218,
+      "Experience": 2143305789,
       "Strength": 165,
       "Dexterity": 35,
       "Vitality": 300,
@@ -491203,8 +491354,8 @@
       "Life": 1154,
       "BaseMana": 269,
       "Mana": 657,
-      "Gold": 0,
-      "Stashed": 1796210
+      "Gold": 356178,
+      "Stashed": 1888954
     },
     "Bonus": {
       "Strength": 86,
@@ -509705,7 +509856,7 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 93,
-      "Experience": 2100701579,
+      "Experience": 2101074633,
       "Strength": 80,
       "Dexterity": 25,
       "Vitality": 10,
@@ -509714,21 +509865,21 @@
       "Life": 557,
       "BaseMana": 1029,
       "Mana": 1569,
-      "Gold": 0,
-      "Stashed": 1774195
+      "Gold": 20430,
+      "Stashed": 2373010
     },
     "Bonus": {
       "Strength": 94,
-      "Dexterity": 24,
+      "Dexterity": 18,
       "Vitality": 10,
       "Energy": 0,
-      "FireResistance": 152,
+      "FireResistance": 138,
       "MaximumFireResistance": 0,
-      "ColdResistance": 115,
+      "ColdResistance": 101,
       "MaximumColdResistance": 0,
-      "LightningResistance": 136,
+      "LightningResistance": 122,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 139,
+      "PoisonResistance": 125,
       "MaximumPoisonResistance": 0,
       "MagicFind": 192,
       "GoldFind": 0,
@@ -509964,7 +510115,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "435",
-        "Durability": "65",
+        "Durability": "66",
         "DurabilityMaximum": "60",
         "ItemLevel": "86",
         "LevelReq": 65,
@@ -510142,7 +510293,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "12",
-        "Durability": "16",
+        "Durability": "18",
         "DurabilityMaximum": "18",
         "ItemLevel": "87",
         "LevelReq": 23,
@@ -510206,7 +510357,7 @@
         "Ethereal": "False",
         "Enhanced": "False",
         "Defense": "130",
-        "Durability": "11",
+        "Durability": "12",
         "DurabilityMaximum": "12",
         "ItemLevel": "95",
         "LevelReq": 62,
@@ -511005,20 +511156,19 @@
       },
       {
         "Quality": "Magic",
-        "ID": "608086539",
+        "ID": "3775782766",
         "QualityCode": "q_magic",
-        "Title": "Shimmering Grand Charm of Dexterity",
+        "Title": "Sparking Grand Charm",
         "Tag": "Grand Charm",
         "TextTag": "Charm Large",
         "Ethereal": "False",
         "Enhanced": "False",
         "AlternateGraphics": "1",
-        "ItemLevel": "86",
-        "LevelReq": 27,
+        "ItemLevel": "87",
+        "LevelReq": 42,
         "SocketCount": "0",
         "PropertyList": [
-          "+6 to Dexterity",
-          "All Resistances +14"
+          "+1 to Lightning Skills (Sorceress Only)"
         ],
         "Position": {
           "x": 6,
@@ -511026,6 +511176,158 @@
         },
         "Size": {
           "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1671660936",
+        "QualityCode": "q_rare",
+        "Title": "Dread Eye",
+        "Tag": "Baleful Alcazar Relic",
+        "TextTag": "Baleful Alcazar Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "86",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Level 11 Redemption Aura When Equipped",
+          "+57% Increased Attack Speed",
+          "Adds 99-100 cold damage",
+          "10% Life stolen per hit",
+          "Fire Resist +50%"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1952232968",
+        "QualityCode": "q_rare",
+        "Title": "Grim Eye",
+        "Tag": "Decomposing Settlement Relic",
+        "TextTag": "Decomposing Settlement Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "86",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "10% Chance to cast level 5 Decrepify on striking",
+          "Level 9 Redemption Aura When Equipped",
+          "9% Deadly Strike",
+          "+22% Enhanced Defense",
+          "Fire Resist +50%",
+          "Cannot Be Frozen"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Super Healing Potion",
+        "Tag": "Super Healing Potion",
+        "TextTag": "Greater Healing Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "595308096",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "86",
+        "LevelReq": 37,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "234119948",
+        "QualityCode": "q_normal",
+        "Title": "\u00ffc;Orb of Alteration",
+        "Tag": "\u00ffc;Orb of Alteration",
+        "TextTag": "Map Orb",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "95",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "4099354591",
+        "QualityCode": "q_rare",
+        "Title": "Decomposing Settlement Relic",
+        "Tag": "Decomposing Settlement Relic",
+        "TextTag": "Decomposing Settlement Relic",
+        "Ethereal": "False",
+        "ItemLevel": "95",
+        "LevelReq": 80,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
