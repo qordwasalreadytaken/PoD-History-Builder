@@ -129,6 +129,23 @@ h1 {
     color: #ddd;
 }
 
+#eliteTable table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-left: 50px;
+    background: #1a1a1a;
+}
+
+#eliteTable th, #eliteTable td {
+    padding: 6px;
+    border-bottom: 1px solid #333;
+    text-align: left;
+}
+
+#eliteTable tr:nth-child(even) {
+    background: #181818;
+}
 </style>
 </head>
 
@@ -180,7 +197,7 @@ h1 {
 <div id="tableContainer"></div>
 <br>
 <div id="insights"></div>
-
+<div id="eliteTable"></div>
 </div>
 <script>
 let DATA = null;
@@ -321,7 +338,7 @@ function renderAll() {
     );
 
     renderInsights(insights);
-
+    renderEliteTable(DATA, mode, season, level);
     document.getElementById("levelDisplay").textContent = level + "+";
 }
 
@@ -520,6 +537,79 @@ function formatElitePhrase(name, delta) {
     }
 }
 
+function formatEliteInsight(clsName, eliteShare, generalShare) {
+    const diffPct = ((eliteShare - generalShare) * 100).toFixed(1);
+
+    if (eliteShare > generalShare) {
+        return `${clsName} performs better in Top 100 than in the broader ladder (elite share is +${diffPct} percentage points higher)`;
+    } else {
+        return `${clsName} performs worse in Top 100 than in the broader ladder (elite share is ${diffPct} percentage points lower)`;
+    }
+}
+
+function formatEliteVerbose(clsName, eliteShare, generalShare) {
+    const elitePct = eliteShare * 100;
+    const generalPct = generalShare * 100;
+
+    const diff = elitePct - generalPct;
+
+    const direction =
+        diff > 0
+            ? "more common in the top 100"
+            : "less common in the top 100";
+
+    return `${clsName} make up ${generalPct.toFixed(1)}% of the overall ladder and ${elitePct.toFixed(1)}% of the Top 100 — ${direction}.`;
+}
+
+function renderEliteTable(data, mode, season, level) {
+    const top100 = data[mode][season]?.["100"]?.[level];
+    const top1000 = data[mode][season]?.["1000"]?.[level];
+
+    if (!top100 || !top1000) return;
+
+    const rows = [];
+
+    for (const cls of Object.keys(top1000.counts)) {
+        const elite = top100.counts?.[cls] || 0;
+        const general = top1000.counts?.[cls] || 0;
+
+        const eliteShare = elite / (top100.total || 1);
+        const generalShare = general / (top1000.total || 1);
+
+        const diff = (eliteShare - generalShare) * 100;
+
+        rows.push({
+            cls,
+            name: data.classes[cls],
+            diff
+        });
+    }
+
+    rows.sort((a, b) => b.diff - a.diff);
+
+    let html = `
+        <table>
+            <tr>
+                <th>Class</th>
+                <th>Elite Bias</th>
+            </tr>
+    `;
+
+    for (const r of rows) {
+        const sign = r.diff > 0 ? "+" : "";
+        html += `
+            <tr>
+                <td>${r.name}</td>
+                <td>${sign}${r.diff.toFixed(2)}%</td>
+            </tr>
+        `;
+    }
+
+    html += "</table>";
+
+    document.getElementById("eliteTable").innerHTML = html;
+}
+
 function generateInsights(data, mode, season, cutoff, level, prevSeason) {
     const d = data[mode][season]?.[cutoff]?.[level];
     const prev = data[mode][prevSeason]?.[cutoff]?.[level];
@@ -542,34 +632,75 @@ function generateInsights(data, mode, season, cutoff, level, prevSeason) {
     // -----------------------------
     const sorted = Object.entries(d.counts)
         .sort((a, b) => b[1] - a[1]);
-
+    const [topClass, topCount] = sorted[0];
+    const topShare = topCount / d.total;
     if (sorted.length > 0) {
         const [topClass, topCount] = sorted[0];
         const total = d.total || 1;
         const pct = (topCount / total) * 100;
 
-        insights.push({
+/*        insights.push({
             text: `${DATA.classes[topClass]} is the most played class (${pct.toFixed(1)}% of Top ${cutoff}, Level ${level}+)`,
             type: "dominance",
             score: 4
-        });
+        }); */
     }
 
     // -----------------------------
     // 2. Meta concentration
     // -----------------------------
-    if (d.dominance != null) {
-        let label = "balanced";
+    let explanation;
 
-        if (d.dominance > 0.25) label = "highly concentrated";
-        else if (d.dominance > 0.18) label = "moderately concentrated";
-
-        insights.push({
-            text: `The meta is ${label} in this snapshot`,
-            type: "dominance",
-            score: 3
-        });
+    if (d.dominance > 0.25) {
+        explanation = "A small number of classes dominated the ladder, with limited diversity in high-level character distribution.";
     }
+    else if (d.dominance > 0.18) {
+        explanation = "A few classes were clearly more popular than others, but there is still meaningful class diversity in the meta.";
+    }
+    else {
+        explanation = "Class distribution was relatively even, with no single class dominating high-level play.";
+    }
+
+    let impact;
+
+    if (d.dominance > 0.25) {
+        impact = "This often indicates a meta where optimal builds were well-established and class diversity was reduced.";
+    }
+    else if (d.dominance > 0.18) {
+        impact = "This suggests a healthy but somewhat optimized meta, where some classes had a clear edge.";
+    }
+    else {
+        impact = "This usually reflects experimental or early-cycle metas where multiple classes remain viable.";
+    }
+
+    if (topShare >= 0.40) {
+        explanation = "Extremely concentrated meta dominated by a single class";
+    }
+    else if (topShare >= 0.30) {
+        explanation = "Highly concentrated meta with a clear dominant class";
+    }
+    else if (topShare >= 0.22) {
+        explanation = "Moderately concentrated meta where one class had a noticeable lead";
+    }
+    else {
+        explanation = "Relatively diverse meta with no overwhelming dominant class.";
+    }
+
+    let dominanceNote = "";
+
+    if (topShare >= 0.40) {
+        dominanceNote = "<br>This means nearly 1 in every 2 characters were the same class";
+    }
+    else if (topShare >= 0.30) {
+        dominanceNote = "<br>This means roughly 1 in 3 characters were the same class";
+    }
+
+    insights.push({
+        text: `${explanation} - top class: ${DATA.classes[topClass]} at ${(topShare * 100).toFixed(1)}% ${dominanceNote}`,
+        type: "dominance",
+        score: 3
+    });
+
 
     // -----------------------------
     // 3. Biggest shifts vs last season
@@ -587,25 +718,22 @@ function generateInsights(data, mode, season, cutoff, level, prevSeason) {
             });
         }
 
-        // Largest increase
-        const gainer = [...changes]
-            .sort((a, b) => b.diff - a.diff)[0];
+        const sorted = [...changes].sort((a, b) => b.diff - a.diff);
 
-        // Largest decrease
-        const loser = [...changes]
-            .sort((a, b) => a.diff - b.diff)[0];
+        const biggestGainer = sorted.find(c => c.diff > 0);
+        const biggestLoser = [...sorted].reverse().find(c => c.diff < 0);
 
-        if (gainer && gainer.diff > 0) {
+        if (biggestGainer) {
             insights.push({
-                text: `${DATA.classes[gainer.cls]} gained the most representation since last season (+${gainer.diff} characters).`,
+                text: `${DATA.classes[biggestGainer.cls]} gained the most representation since last season (+${biggestGainer.diff}).`,
                 type: "shift",
                 score: 5
             });
         }
 
-        if (loser && loser.diff < 0) {
+        if (biggestLoser) {
             insights.push({
-                text: `${DATA.classes[loser.cls]} lost the most representation since last season (${loser.diff} characters).`,
+                text: `${DATA.classes[biggestLoser.cls]} lost the most representation since last season (${biggestLoser.diff}).`,
                 type: "shift",
                 score: 5
             });
@@ -622,61 +750,78 @@ function generateInsights(data, mode, season, cutoff, level, prevSeason) {
 
     const divergences = [];
 
-    // compute per-class deltas
     for (const cls of Object.keys(top1000.counts)) {
         const elite = top100.counts?.[cls] || 0;
         const general = top1000.counts?.[cls] || 0;
 
+        const eliteShare = elite / (top100.total || 1);
+        const generalShare = general / (top1000.total || 1);
+
+        const shareDiff = eliteShare - generalShare;
+
         divergences.push({
             cls,
-            delta: elite - general
+            eliteShare,
+            generalShare,
+            shareDiff
         });
     }
 
-    // sort for gains (elite overrepresented)
     const gainers = [...divergences]
-        .sort((a, b) => b.delta - a.delta)
+        .sort((a, b) => b.shareDiff - a.shareDiff)
         .slice(0, 2);
 
-    // sort for losers (elite underrepresented)
     const losers = [...divergences]
-        .sort((a, b) => a.delta - b.delta)
+        .sort((a, b) => a.shareDiff - b.shareDiff)
         .slice(0, 2);
 
-    // -----------------------------
-    // Insight: elite gainers
-    // -----------------------------
-    if (gainers.length) {
-        const g0 = gainers[0];
-        insights.push({
-            text: formatElitePhrase(DATA.classes[g0.cls], g0.delta),
-            type: "elite",
-            score: 5
-        });    }
+    function formatElite(cls, eliteShare, generalShare) {
+        const diffPct = ((eliteShare - generalShare) * 100).toFixed(1);
 
-    // -----------------------------
-    // Insight: elite losers
-    // -----------------------------
-    if (losers.length) {
-        const l0 = losers[0];
+        if (eliteShare > generalShare) {
+            return `${cls} performs better in Top 100 than in the broader ladder (+${diffPct} percentage points)`;
+        } else {
+            return `${cls} performs worse in Top 100 than in the broader ladder (${diffPct} percentage points)`;
+        }
+    }
+
+    if (gainers[0]) {
+        const g0 = gainers[0];
+
         insights.push({
-            text: formatElitePhrase(DATA.classes[l0.cls], l0.delta),
+            text: formatEliteVerbose(
+                DATA.classes[g0.cls],
+                g0.eliteShare,
+                g0.generalShare
+            ),
             type: "elite",
             score: 5
         });
     }
 
-    // -----------------------------
-    // Optional: second gainer/loser for extra depth
-    // -----------------------------
-    if (gainers[1]) {
-        const name = DATA.classes[gainers[1].cls];
-        const delta = gainers[1].delta;
+    if (losers[0]) {
+        const l0 = losers[0];
 
+        insights.push({
+            text: formatEliteVerbose(
+                DATA.classes[l0.cls],
+                l0.eliteShare,
+                l0.generalShare
+            ),
+            type: "elite",
+            score: 5
+        });
+    }
+
+    if (gainers[1]) {
         const g1 = gainers[1];
 
         insights.push({
-            text: formatElitePhrase(DATA.classes[g1.cls], g1.delta),
+            text: formatEliteVerbose(
+                DATA.classes[g1.cls],
+                g1.eliteShare,
+                g1.generalShare
+            ),
             type: "elite",
             score: 4
         });
@@ -686,7 +831,11 @@ function generateInsights(data, mode, season, cutoff, level, prevSeason) {
         const l1 = losers[1];
 
         insights.push({
-            text: formatElitePhrase(DATA.classes[l1.cls], l1.delta),
+            text: formatEliteVerbose(
+                DATA.classes[l1.cls],
+                l1.eliteShare,
+                l1.generalShare
+            ),
             type: "elite",
             score: 4
         });
@@ -698,7 +847,7 @@ function generateInsights(data, mode, season, cutoff, level, prevSeason) {
     const seasonData = data[mode][season];
 
     if (seasonData) {
-        if (Number(level) >= 95){
+        if (Number(level) >= 97 && Number(cutoff) <= 250){
             if (rank === 1) {
                 insights.push({
                     text: `This season had the highest number of Level ${level}+ characters in the Top ${cutoff}.`,
@@ -810,14 +959,14 @@ function renderInsights(insights) {
         shift: {
             title: "Changes Since Last Season"
         },
-        elite: {
-            title: "Elite vs Overall Ladder"
-        },
         season: {
             title: "Season Context"
         },
         population: {
             title: "Population Context"
+        },
+        elite: {
+            title: "Top 100 vs Overall Ladder Representation (Elite Bias)"
         }
 
     };
