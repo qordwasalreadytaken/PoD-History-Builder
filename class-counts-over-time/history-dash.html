@@ -120,6 +120,15 @@ h1 {
     margin-bottom: 15px;
 }
 
+.insight {
+    background: #1e1e1e;
+    border-left: 3px solid #555;
+    padding: 6px 8px;
+    margin-bottom: 6px;
+    font-size: 13px;
+    color: #ddd;
+}
+
 </style>
 </head>
 
@@ -170,6 +179,8 @@ h1 {
 <h1>Raw counts of the top <span id="cutoffDisplay">1000</span> at Levels <span id="levelDisplay">95+</span></h1>
 <div id="tableContainer"></div>
 <br>
+<div id="insights"></div>
+
 </div>
 <script>
 let DATA = null;
@@ -185,6 +196,16 @@ const CLASS_COLORS = {
     "Necromancer": "rgb(179, 255, 253)",
     "Paladin": "rgb(255, 243, 112)",
     "Sorceress": "rgb(188, 107, 255)"
+};
+
+const INSIGHT_TYPES = {
+    DOMINANCE: "dominance",
+    SHIFT: "shift",
+    ELITE: "elite",
+    STABILITY: "stability",
+    DIVERSITY: "diversity",
+    TIME: "temporal",
+    OUTLIER: "outlier"
 };
 
 async function load() {
@@ -279,15 +300,29 @@ function renderSeason(season) {
 }
 
 function renderAll() {
+    const mode = document.getElementById("mode").value;
+    const cutoff = document.getElementById("cutoff").value;
+    const level = document.getElementById("level").value;
+
+    const prevSeason = season - 1;
+
     renderSeason(season);
+    renderTable();
     renderSeasonInfo();
     renderTrendChart();
-    renderTable();
 
-    document.getElementById("levelDisplay").textContent =
-        document.getElementById("level").value + "+";
-    document.getElementById("cutoffDisplay").textContent =
-        document.getElementById("cutoff").value;
+    const insights = generateInsights(
+        DATA,
+        mode,
+        season,
+        cutoff,
+        level,
+        prevSeason
+    );
+
+    renderInsights(insights);
+
+    document.getElementById("levelDisplay").textContent = level + "+";
 }
 
 function renderTable() {
@@ -476,6 +511,228 @@ function renderSeasonInfo() {
 
     document.getElementById("seasonInfo").innerHTML = html;
 }
+
+function formatElitePhrase(name, delta) {
+    if (delta > 0) {
+        return `${name} appears more frequently in Top 100 than expected from its overall ladder presence`;
+    } else {
+        return `${name} appears less frequently in Top 100 than expected from its overall ladder presence`;
+    }
+}
+
+function generateInsights(data, mode, season, cutoff, level, prevSeason) {
+    const d = data[mode][season]?.[cutoff]?.[level];
+    const prev = data[mode][prevSeason]?.[cutoff]?.[level];
+
+    if (!d) return [];
+
+    const insights = [];
+
+    // -----------------------------
+    // 1. Dominant class
+    // -----------------------------
+    const sorted = Object.entries(d.counts)
+        .sort((a, b) => b[1] - a[1]);
+
+    if (sorted.length > 0) {
+        const [topClass, topCount] = sorted[0];
+        const total = d.total || 1;
+        const pct = (topCount / total) * 100;
+
+        insights.push({
+            text: `${DATA.classes[topClass]} is the most played class (${pct.toFixed(1)}% of Top ${cutoff}, Level ${level}+)`,
+            type: "dominance",
+            score: 4
+        });
+    }
+
+    // -----------------------------
+    // 2. Meta concentration
+    // -----------------------------
+    if (d.dominance != null) {
+        let label = "balanced";
+
+        if (d.dominance > 0.25) label = "highly concentrated";
+        else if (d.dominance > 0.18) label = "moderately concentrated";
+
+        insights.push({
+            text: `The meta is ${label} in this snapshot`,
+            type: "dominance",
+            score: 3
+        });
+    }
+
+    // -----------------------------
+    // 3. Biggest shift vs last season
+    // -----------------------------
+    if (prev?.counts) {
+        let biggestChange = null;
+
+        for (const cls of Object.keys(d.counts)) {
+            const curr = d.counts[cls] || 0;
+            const last = prev.counts[cls] || 0;
+
+            const diff = curr - last;
+
+            if (!biggestChange || Math.abs(diff) > Math.abs(biggestChange.diff)) {
+                biggestChange = { cls, diff };
+            }
+        }
+
+        if (biggestChange) {
+            const name = DATA.classes[biggestChange.cls];
+            const arrow = biggestChange.diff > 0 ? "↑" : "↓";
+
+            insights.push({
+                text: `${name} changed the most from last season (${arrow}${Math.abs(biggestChange.diff)})`,
+                type: "shift",
+                score: 5
+            });
+        }
+    }
+
+    // -----------------------------
+    // 4. Elite vs general divergence
+    // -----------------------------
+    const top100 = data[mode][season]?.["100"]?.[level];
+    const top1000 = data[mode][season]?.["1000"]?.[level];
+
+    if (!top100 || !top1000) return insights;
+
+    const divergences = [];
+
+    // compute per-class deltas
+    for (const cls of Object.keys(top1000.counts)) {
+        const elite = top100.counts?.[cls] || 0;
+        const general = top1000.counts?.[cls] || 0;
+
+        divergences.push({
+            cls,
+            delta: elite - general
+        });
+    }
+
+    // sort for gains (elite overrepresented)
+    const gainers = [...divergences]
+        .sort((a, b) => b.delta - a.delta)
+        .slice(0, 2);
+
+    // sort for losers (elite underrepresented)
+    const losers = [...divergences]
+        .sort((a, b) => a.delta - b.delta)
+        .slice(0, 2);
+
+    // -----------------------------
+    // Insight: elite gainers
+    // -----------------------------
+    if (gainers.length) {
+        const g0 = gainers[0];
+        insights.push({
+            text: formatElitePhrase(DATA.classes[g0.cls], g0.delta),
+            type: "elite",
+            score: 5
+        });    }
+
+    // -----------------------------
+    // Insight: elite losers
+    // -----------------------------
+    if (losers.length) {
+        const l0 = losers[0];
+        insights.push({
+            text: formatElitePhrase(DATA.classes[l0.cls], l0.delta),
+            type: "elite",
+            score: 5
+        });
+    }
+
+    // -----------------------------
+    // Optional: second gainer/loser for extra depth
+    // -----------------------------
+    if (gainers[1]) {
+        const name = DATA.classes[gainers[1].cls];
+        const delta = gainers[1].delta;
+
+        const g1 = gainers[1];
+
+        insights.push({
+            text: formatElitePhrase(DATA.classes[g1.cls], g1.delta),
+            type: "elite",
+            score: 4
+        });
+    }
+
+    if (losers[1]) {
+        const l1 = losers[1];
+
+        insights.push({
+            text: formatElitePhrase(DATA.classes[l1.cls], l1.delta),
+            type: "elite",
+            score: 4
+        });
+    }
+
+    // -----------------------------
+    // 5. Population / activity level
+    // -----------------------------
+    const active = d.total;
+
+    if (active < 200) {
+        insights.push({
+            text: "Low number of high-level characters in this snapshot (tight elite pool)",
+            type: "population",
+            score: 3
+        });
+    } else if (active > 600) {
+        insights.push({
+            text: "Large high-level population compared to other seasons",
+            type: "population",
+            score: 3
+        });
+    }
+
+    // -----------------------------
+    // FINAL: sort by importance
+    // -----------------------------
+    return insights.sort((a, b) => b.score - a.score);
+}
+
+function renderInsights(insights) {
+    if (!insights || insights.length === 0) {
+        document.getElementById("insights").innerHTML =
+            `<h3>Key Insights</h3><div class="insight">No insights available</div>`;
+        return;
+    }
+
+    const top = insights.slice(0, 11);
+
+    document.getElementById("insights").innerHTML =
+        `<h3>Key Insights</h3>` +
+        top.map(i => {
+            const icon =
+                i.type === "dominance" ? "📊" :
+                i.type === "shift" ? "🔄" :
+                i.type === "elite" ? "⚔️" :
+                i.type === "population" ? "👥" :
+                "•";
+
+            return `<div class="insight">${icon} ${i.text}</div>`;
+        }).join("");
+}
+
+function scoreInsight(type, magnitude = 1) {
+    const base = {
+        dominance: 3,
+        shift: 5,
+        elite: 5,
+        stability: 4,
+        diversity: 3,
+        temporal: 4,
+        outlier: 5
+    };
+
+    return base[type] * magnitude;
+}
+
 
 let season = 13;
 
