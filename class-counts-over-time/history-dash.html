@@ -61,12 +61,33 @@ select, input {
     background: #2a2a2a;
 }
 
+.season-info {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.season-info table {
+    border-collapse: collapse;
+}
+
+.season-info td {
+    padding: 4px 12px 4px 0;
+}
+
+.season-info td:first-child {
+    color: #aaa;
+    font-weight: bold;
+}
+
 </style>
 </head>
 
 <body>
 
-<h1>PoD Class Counts of the Top 1K Over Time</h1>
+<h1>PoD Class Counts from the Top 1K Over Time</h1>
 
 <div class="controls">
     <label>Mode:</label>
@@ -86,16 +107,27 @@ select, input {
         <option value="99">99+</option>
     </select>
 
+    <label>Top:</label>
+
+    <select id="cutoff">
+        <option value="1000" selected>Top 1000</option>
+        <option value="500">Top 500</option>
+        <option value="250">Top 250</option>
+        <option value="100">Top 100</option>
+    </select>
+
 </div>
 
 <label>Season:</label>
 <input id="season" type="range" min="1" max="13" value="13">
 <span id="seasonLabel">13</span>
+<div id="seasonInfo" class="season-info"></div>
+<br>
 <div id="lines" class="chart"></div>
 <br>
 <div id="trends" class="chart"></div>
 <br>
-<h1>Raw counts at Levels <span id="levelDisplay">95+</span></h1>
+<h1>Raw counts of the top <span id="cutoffDisplay">1000</span> at Levels <span id="levelDisplay">95+</span></h1>
 <div id="tableContainer"></div>
 <br>
 <script>
@@ -118,7 +150,6 @@ async function load() {
     const res = await fetch("meta_analysis.json");
     DATA = await res.json();
 
-    // Make sure the UI reflects the selected season
     document.getElementById("season").value = season;
     document.getElementById("seasonLabel").textContent = season;
 
@@ -129,29 +160,32 @@ function seasons() {
     return Object.keys(DATA.sc).map(Number).sort((a,b)=>a-b);
 }
 
-function get(mode, season, level) {
-    return DATA[mode][season]?.[level] || {counts:{}, total:0, dominance:0};
+function get(mode, season, cutoff, level) {
+    return DATA?.[mode]?.[season]?.[cutoff]?.[level] || {
+        counts: {},
+        total: 0
+    };
 }
 
 function renderSeason(season) {
     const mode = document.getElementById("mode").value;
     const level = document.getElementById("level").value;
+    const cutoff = document.getElementById("cutoff").value;
 
-    const d = DATA[mode][season]?.[level];
-
-    const labels = DATA.classes;
+    const d = get(mode, season, cutoff, level);
 
     const x = [];
     const y = [];
     const colors = [];
 
     for (const cls of CLASSES) {
-        const name = labels[cls];
+        const name = DATA.classes[cls];
 
         x.push(name);
-        y.push(d?.counts?.[cls] || 0);
+        y.push(d.counts?.[cls] || 0);
         colors.push(CLASS_COLORS[name]);
     }
+
     Plotly.react("lines", [{
         type: "bar",
         x,
@@ -164,17 +198,15 @@ function renderSeason(season) {
             }
         }
     }], {
-        title: `Season ${season} (${mode.toUpperCase()} ${level}+)`,
+        title: `Season ${season} (${mode.toUpperCase()} Top ${cutoff} • ${level}+)`,
 
-        paper_bgcolor: "#1a1a1a",   // outside the plot area
-        plot_bgcolor: "#222222",    // inside the plot area
+        paper_bgcolor: "#1a1a1a",
+        plot_bgcolor: "#222222",
 
         hoverlabel: {
             bgcolor: "#2a2a2a",
             bordercolor: "#555",
-            font: {
-                color: "#dddddd"
-            }
+            font: { color: "#dddddd" }
         },
 
         font: {
@@ -184,15 +216,13 @@ function renderSeason(season) {
 
         xaxis: {
             color: "#dddddd",
-            gridcolor: "#333333",
-            zerolinecolor: "#444444"
+            gridcolor: "#333333"
         },
 
         yaxis: {
             title: "Characters",
             color: "#dddddd",
-            gridcolor: "#333333",
-            zerolinecolor: "#444444"
+            gridcolor: "#333333"
         },
 
         margin: {
@@ -200,28 +230,32 @@ function renderSeason(season) {
             l: 60,
             r: 30,
             b: 60
-        },
-        displaylogo: false,
-        responsive: true
-
+        }
+    }, {
+        responsive: true,
+        displaylogo: false
     });
 }
 
 function renderAll() {
     renderSeason(season);
-    renderTable();
+    renderSeasonInfo();
     renderTrendChart();
+    renderTable();
+
     document.getElementById("levelDisplay").textContent =
         document.getElementById("level").value + "+";
+    document.getElementById("cutoffDisplay").textContent =
+        document.getElementById("cutoff").value;
 }
 
 function renderTable() {
     const mode = document.getElementById("mode").value;
     const level = document.getElementById("level").value;
+    const cutoff = document.getElementById("cutoff").value;
 
     let html = "<table>";
 
-    // Header
     html += "<tr>";
     html += "<th>Season</th>";
 
@@ -232,28 +266,22 @@ function renderTable() {
     html += "<th>Total</th>";
     html += "</tr>";
 
-    // Seasons
     const seasons = Object.keys(DATA[mode])
         .map(Number)
         .sort((a, b) => a - b);
 
-    for (const season of seasons) {
-        const d = DATA[mode][season]?.[level];
+    for (const s of seasons) {
+        const d = get(mode, s, cutoff, level);
 
-        html += `<tr>`;
-        html += `<td>${season}</td>`;
-
-        let total = 0;
+        html += "<tr>";
+        html += `<td>${s}</td>`;
 
         for (const cls of CLASSES) {
-            const count = d?.counts?.[cls] || 0;
-            total += count;
-
-            html += `<td>${count}</td>`;
+            html += `<td>${d.counts?.[cls] || 0}</td>`;
         }
 
-        html += `<td><strong>${total}</strong></td>`;
-        html += `</tr>`;
+        html += `<td><strong>${d.total}</strong></td>`;
+        html += "</tr>";
     }
 
     html += "</table>";
@@ -264,6 +292,7 @@ function renderTable() {
 function renderTrendChart() {
     const mode = document.getElementById("mode").value;
     const level = document.getElementById("level").value;
+    const cutoff = document.getElementById("cutoff").value;
 
     const seasons = Object.keys(DATA[mode])
         .map(Number)
@@ -276,8 +305,8 @@ function renderTrendChart() {
 
         traces.push({
             x: seasons,
-            y: seasons.map(season =>
-                DATA[mode][season]?.[level]?.counts?.[cls] || 0
+            y: seasons.map(s =>
+                get(mode, s, cutoff, level).counts?.[cls] || 0
             ),
             mode: "lines+markers",
             name: label,
@@ -297,7 +326,8 @@ function renderTrendChart() {
     }
 
     Plotly.react("trends", traces, {
-        title: `${mode.toUpperCase()} Class Trends (${level}+)`,
+        title: `${mode.toUpperCase()} Class Trends (Top ${cutoff}, ${level}+)`,
+
         paper_bgcolor: "#1a1a1a",
         plot_bgcolor: "#222222",
 
@@ -333,6 +363,79 @@ function renderTrendChart() {
     });
 }
 
+function renderSeasonInfo() {
+    const mode = document.getElementById("mode").value;
+    const level = document.getElementById("level").value;
+    const cutoff = document.getElementById("cutoff").value;
+
+    const seasonData = DATA?.[mode]?.[season];
+    const d = get(mode, season, cutoff, level);
+
+    if (!seasonData) {
+        document.getElementById("seasonInfo").innerHTML =
+            "<p>No data available.</p>";
+        return;
+    }
+
+    let html = `
+        <h2>Season ${season}</h2>
+
+        <table>
+            <tr>
+                <td>Approx. Length</td>
+                <td>${seasonData.season_length ?? "Unknown"} months</td>
+            </tr>
+
+            <tr>
+                <td>Mode</td>
+                <td>${mode === "sc" ? "Softcore" : "Hardcore"}</td>
+            </tr>
+
+            <tr>
+                <td>Top Ladder Slice</td>
+                <td>Top ${cutoff}</td>
+            </tr>
+
+            <tr>
+                <td>Level Filter</td>
+                <td>${level}+</td>
+            </tr>
+
+            <tr>
+                <td>Characters Matching</td>
+                <td>${d.total}</td>
+            </tr>
+
+            <tr>
+                <td>Median Level</td>
+                <td>${d.median_level}</td>
+            </tr>
+
+            <tr>
+                <td>Average Level</td>
+                <td>${d.average_level}</td>
+            </tr>
+    `;
+
+    if (d.account_coverage >= 75) {
+        html += `
+            <tr>
+                <td>Unique Accounts Represented</td>
+                <td>${d.unique_accounts}</td>
+            </tr>
+
+            <tr>
+                <td>Account Coverage</td>
+                <td>${d.account_coverage}%</td>
+            </tr>
+        `;
+    }
+
+    html += "</table>";
+
+    document.getElementById("seasonInfo").innerHTML = html;
+}
+
 let season = 13;
 
 document.getElementById("season").addEventListener("input", (e) => {
@@ -341,18 +444,14 @@ document.getElementById("season").addEventListener("input", (e) => {
     renderAll();
 });
 
-document.getElementById("mode").addEventListener("change", () => {
-    renderAll();
-});
+document.getElementById("mode").addEventListener("change", renderAll);
 
-document.getElementById("level").addEventListener("change", () => {
-    renderAll();
-});
+document.getElementById("level").addEventListener("change", renderAll);
+
+document.getElementById("cutoff").addEventListener("change", renderAll);
 
 load();
-load().then(() => {
-    renderSeason(season);
-});
+
 </script>
 
 </body>

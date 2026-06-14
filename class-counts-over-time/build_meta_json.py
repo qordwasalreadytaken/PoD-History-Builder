@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 from collections import Counter
 import math
+from statistics import median
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 CACHE_DIR = SCRIPT_DIR / "season_cache"
@@ -19,6 +20,24 @@ CLASS_LABELS = {
     "sor": "Sorceress",
 }
 
+SEASON_LENGTH = {
+    1: 5,
+    2: 4,
+    3: 5,
+    4: 5,
+    5: 6,
+    6: 7,
+    7: 8,
+    8: 6,
+    9: 8,
+    10: 8,
+    11: 36,
+    12: 9,
+    13: 16
+}
+
+TOP_CUTOFFS = [1000, 500, 250, 100]
+LEVELS = [80, 90, 95, 96, 97, 98, 99]
 
 def dominance_index(counts):
     total = sum(counts.values())
@@ -63,20 +82,80 @@ def build():
             if not chars:
                 continue
 
-            out[mode][season] = {}
+            out[mode][season] = {
+                "season_length": SEASON_LENGTH.get(season)
+            }
 
-            for min_level in [80, 90, 95, 96, 97, 98, 99]:
-                total, counts = count(chars, min_level)
+            for cutoff in TOP_CUTOFFS:
+                out[mode][season][str(cutoff)] = {}
 
-                out[mode][season][min_level] = {
-                    "total": total,
-                    "counts": dict(counts)
-                }
-                out[mode][season][min_level]["dominance"] = dominance_index(counts)
+                # Top N by rank
+                subset = chars[:cutoff]
+
+                for min_level in LEVELS:
+                    out[mode][season][str(cutoff)][str(min_level)] = summarize(
+                        subset,
+                        min_level
+                    )
 
     OUT_FILE.write_text(json.dumps(out, indent=2))
     print(f"Saved {OUT_FILE}")
 
+def summarize(chars, min_level):
+    counts = Counter()
+    levels = []
+
+    accounts = set()
+    unknown_accounts = 0
+
+    for ch in chars:
+        level = ch.get("level", 0)
+
+        if level < min_level:
+            continue
+
+        levels.append(level)
+
+        cls = ch.get("charClass")
+        if cls:
+            counts[cls] += 1
+
+        account = ch.get("account")
+
+        if account:
+            accounts.add(account)
+        else:
+            unknown_accounts += 1
+
+    total = len(levels)
+
+    if total:
+        avg_level = round(sum(levels) / total, 1)
+        med_level = median(levels)
+    else:
+        avg_level = 0
+        med_level = 0
+
+    known_accounts = len(accounts)
+
+    if total:
+        coverage = round(
+            100 * (total - unknown_accounts) / total,
+            1
+        )
+    else:
+        coverage = 0
+
+    return {
+        "total": total,
+        "counts": dict(counts),
+        "dominance": dominance_index(counts),
+        "average_level": avg_level,
+        "median_level": med_level,
+        "unique_accounts": known_accounts,
+        "unknown_accounts": unknown_accounts,
+        "account_coverage": coverage,
+    }
 
 if __name__ == "__main__":
     build()
