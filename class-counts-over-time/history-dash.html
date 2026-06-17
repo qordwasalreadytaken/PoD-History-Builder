@@ -189,6 +189,7 @@ h1 {
 <div class="main">
 <h1>PoD Class Counts from the Top 1K Over Time</h1>
 <br>
+<div id="pie" class="chart"></div>
 <div id="lines" class="chart"></div>
 <br>
 <div id="trends" class="chart"></div>
@@ -327,6 +328,7 @@ function renderAll() {
     renderTable();
     renderSeasonInfo();
     renderTrendChart();
+    renderPieChart();
 
     const insights = generateInsights(
         DATA,
@@ -527,6 +529,95 @@ function renderSeasonInfo() {
     html += "</table>";
 
     document.getElementById("seasonInfo").innerHTML = html;
+}
+
+function renderPieChart() {
+    const mode = document.getElementById("mode").value;
+    const level = document.getElementById("level").value;
+    const cutoff = document.getElementById("cutoff").value;
+
+    const d = DATA[mode][season]?.[cutoff]?.[level];
+    const prev = DATA[mode]?.[season - 1]?.[cutoff]?.[level];
+
+    if (!d) return;
+
+    const labels = [];
+    const values = [];
+    const colors = [];
+    const customData = [];
+
+    for (const cls of CLASSES) {
+        const curr = d.counts?.[cls] || 0;
+        const prevCount = prev?.counts?.[cls] || 0;
+
+        labels.push(DATA.classes[cls]);
+        values.push(curr);
+        colors.push(CLASS_COLORS[DATA.classes[cls]]);
+
+        let changeText = "No previous season";
+
+        if (prevCount > 0) {
+            const pct = ((curr - prevCount) / prevCount) * 100;
+
+        changeText =
+            `${pct > 0 ? "+" : ""}${pct.toFixed(1)}% (${curr - prevCount > 0 ? "+" : ""}${curr - prevCount}) vs previous season`;
+        }
+
+        customData.push(changeText);
+    }
+
+    Plotly.react("pie", [{
+        type: "pie",
+
+        labels: labels,
+        values: values,
+
+        textinfo: "percent+label",
+        textposition: "inside",
+
+        customdata: customData,
+
+        marker: {
+            colors: colors,
+            line: {
+                color: "#333",
+                width: 1
+            }
+        },
+
+        hovertemplate:
+            "<b>%{label}</b><br>" +
+            "%{value} characters<br>" +
+            "%{percent}<br>" +
+            "%{customdata}<extra></extra>"
+    }], {
+        title: `Season ${season} Class Distribution (${mode.toUpperCase()} ${level}+ Top ${cutoff})`,
+
+        paper_bgcolor: "#1a1a1a",
+        plot_bgcolor: "#222222",
+
+        font: {
+            color: "#ddd"
+        },
+
+        legend: {
+            bgcolor: "#222",
+            font: {
+                color: "#ddd"
+            }
+        },
+
+        hoverlabel: {
+            bgcolor: "#2a2a2a",
+            bordercolor: "#555",
+            font: {
+                color: "#ddd"
+            }
+        }
+    }, {
+        responsive: true,
+        displaylogo: false
+    });
 }
 
 function formatElitePhrase(name, delta) {
