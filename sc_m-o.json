@@ -13792,7 +13792,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 98,
-      "Experience": 3415397947,
+      "Experience": 3415398472,
       "Strength": 30,
       "Dexterity": 99,
       "Vitality": 436,
@@ -13801,7 +13801,7 @@
       "Life": 2027,
       "BaseMana": 160,
       "Mana": 248,
-      "Gold": 0,
+      "Gold": 3790,
       "Stashed": 1768530
     },
     "Bonus": {
@@ -275201,7 +275201,7 @@
     "Class": "Assassin",
     "Stats": {
       "Level": 91,
-      "Experience": 1816604073,
+      "Experience": 1837704348,
       "Strength": 115,
       "Dexterity": 70,
       "Vitality": 340,
@@ -275210,11 +275210,11 @@
       "Life": 1678,
       "BaseMana": 160,
       "Mana": 226,
-      "Gold": 427086,
+      "Gold": 908416,
       "Stashed": 2500000
     },
     "Bonus": {
-      "Strength": 52,
+      "Strength": 53,
       "Dexterity": 34,
       "Vitality": 31,
       "Energy": 0,
@@ -275224,7 +275224,7 @@
       "MaximumColdResistance": 0,
       "LightningResistance": 187,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 227,
+      "PoisonResistance": 213,
       "MaximumPoisonResistance": 0,
       "MagicFind": 0,
       "GoldFind": 137,
@@ -275261,7 +275261,7 @@
         "CooldownReduction": 0
       },
       "WeaponSetOffhand": {
-        "Strength": 0,
+        "Strength": 10,
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
@@ -275277,10 +275277,10 @@
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 0,
+        "IncreasedAttackSpeed": 20,
         "CrushingBlow": 0,
-        "OpenWounds": 0,
-        "DeadlyStrike": 0,
+        "OpenWounds": 50,
+        "DeadlyStrike": 68,
         "DamageReduction": 0,
         "CooldownReduction": 0
       }
@@ -275469,41 +275469,6 @@
           "invwidth": 2
         },
         "Worn": "belt"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "819428818",
-        "QualityCode": "q_unique",
-        "Title": "Dracul's Grasp",
-        "Tag": "Vampirebone Gloves",
-        "TextTag": "Vampirebone Gloves",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "66",
-        "Durability": "14",
-        "DurabilityMaximum": "14",
-        "ItemLevel": "89",
-        "LevelReq": 76,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "5% Chance to cast level 10 Life Tap on striking",
-          "7% Life stolen per hit",
-          "25% Chance of Open Wounds",
-          "+116% Enhanced Defense",
-          "+14 to Strength",
-          "Poison Resist +14%",
-          "+7 Life after each Kill"
-        ],
-        "Position": {
-          "x": 10,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "gloves"
       },
       {
         "Quality": "Unique",
@@ -275868,6 +275833,281 @@
         "Worn": "amulet"
       },
       {
+        "Quality": "Unique",
+        "ID": "197755245",
+        "QualityCode": "q_unique",
+        "Title": "Dracul's Grasp",
+        "Tag": "Vampirebone Gloves",
+        "TextTag": "Vampirebone Gloves",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "66",
+        "Durability": "14",
+        "DurabilityMaximum": "14",
+        "ItemLevel": "87",
+        "LevelReq": 76,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "5% Chance to cast level 10 Life Tap on striking",
+          "8% Life stolen per hit",
+          "25% Chance of Open Wounds",
+          "+93% Enhanced Defense",
+          "+15 to Strength",
+          "+10 Life Gained on Ranged Hit",
+          "+9 Life Gained on Melee Hit",
+          "+5 Life after each Kill"
+        ],
+        "Position": {
+          "x": 10,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "gloves"
+      },
+      {
+        "Quality": "Normal",
+        "ID": "2753791590",
+        "QualityCode": "q_runeword",
+        "Title": "Plague",
+        "Tag": "Feral Claws",
+        "TextTag": "Feral Claws",
+        "RuneTag": "ChamFalUm",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "DamageMinimum": "22",
+        "DamageMaximum": "53",
+        "Durability": "215",
+        "DurabilityMaximum": "215",
+        "ItemLevel": "88",
+        "LevelReq": 67,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Cham Rune",
+            "Tag": "Cham Rune",
+            "TextTag": "Cham Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 67,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Freezes target +3"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Fal Rune",
+            "Tag": "Fal Rune",
+            "TextTag": "Fal Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 41,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Strength"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Um Rune",
+            "Tag": "Um Rune",
+            "TextTag": "Um Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 47,
+            "SocketCount": "0",
+            "PropertyList": [
+              "25% Chance of Open Wounds"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "3",
+        "PropertyList": [
+          "20% Chance to cast level 12 Lower Resist when struck",
+          "15% Chance to cast level 17 Poison Nova on striking",
+          "Level 17 Cleansing Aura When Equipped",
+          "+2 to All Skills",
+          "+373% Damage to Demons",
+          "-23% to Enemy Poison Resistance",
+          "34% Deadly Strike (Based on Character Level)",
+          "25% Chance of Open Wounds",
+          "+3 to Wake of Inferno (Assassin Only)",
+          "+3 to Shadow Master (Assassin Only)",
+          "Freezes target +3",
+          "+10 to Strength",
+          "Socketed (3)"
+        ],
+        "Position": {
+          "x": 11,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": "sweapon1"
+      },
+      {
+        "Quality": "Superior",
+        "ID": "1364526377",
+        "QualityCode": "q_runeword",
+        "Title": "Plague",
+        "Tag": "Feral Claws",
+        "TextTag": "Feral Claws",
+        "RuneTag": "ChamShaelUm",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "DamageMinimum": "22",
+        "DamageMaximum": "53",
+        "Durability": "215",
+        "DurabilityMaximum": "215",
+        "ItemLevel": "88",
+        "LevelReq": 67,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Cham Rune",
+            "Tag": "Cham Rune",
+            "TextTag": "Cham Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 67,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Freezes target +3"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Shael Rune",
+            "Tag": "Shael Rune",
+            "TextTag": "Shael Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 29,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+20% Increased Attack Speed"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Um Rune",
+            "Tag": "Um Rune",
+            "TextTag": "Um Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 47,
+            "SocketCount": "0",
+            "PropertyList": [
+              "25% Chance of Open Wounds"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "3",
+        "PropertyList": [
+          "20% Chance to cast level 12 Lower Resist when struck",
+          "15% Chance to cast level 17 Poison Nova on striking",
+          "Level 13 Cleansing Aura When Equipped",
+          "+2 to All Skills",
+          "+20% Increased Attack Speed",
+          "+91 to Attack Rating (Based on Character Level)",
+          "+294% Damage to Demons",
+          "-23% to Enemy Poison Resistance",
+          "34% Deadly Strike (Based on Character Level)",
+          "25% Chance of Open Wounds",
+          "+1 to Blade Shield (Assassin Only)",
+          "+3 to Shadow Master (Assassin Only)",
+          "Freezes target +3",
+          "Socketed (3)"
+        ],
+        "Position": {
+          "x": 12,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": "sweapon2"
+      },
+      {
         "Quality": "Set",
         "ID": "1723945258",
         "QualityCode": "q_set",
@@ -275879,7 +276119,7 @@
         "Enhanced": "True",
         "DamageMinimum": "120",
         "DamageMaximum": "153",
-        "Durability": "215",
+        "Durability": "211",
         "DurabilityMaximum": "215",
         "ItemLevel": "86",
         "LevelReq": 79,
@@ -276729,58 +276969,6 @@
         },
         "Size": {
           "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Antidote Potion",
-        "Tag": "Antidote Potion",
-        "TextTag": "Antidote Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
-        "ID": "1893908342",
-        "QualityCode": "q_rare",
-        "Title": "Raven Eye",
-        "Tag": "Baleful Alcazar Relic",
-        "TextTag": "Baleful Alcazar Relic",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "88",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "10% Chance to cast level 5 Amplify Damage on striking",
-          "Adds 99-100 Fire damage",
-          "Poison Absorb 9%",
-          "Physical Damage Taken Reduced by 60",
-          "Magic & Elemental Damage Taken Reduced by 53"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -394434,7 +394622,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 98,
-      "Experience": 3415397947,
+      "Experience": 3415398472,
       "Strength": 30,
       "Dexterity": 99,
       "Vitality": 436,
@@ -394443,7 +394631,7 @@
       "Life": 2027,
       "BaseMana": 160,
       "Mana": 248,
-      "Gold": 0,
+      "Gold": 3790,
       "Stashed": 1768530
     },
     "Bonus": {
@@ -605124,7 +605312,7 @@
     "Class": "Assassin",
     "Stats": {
       "Level": 91,
-      "Experience": 1816604073,
+      "Experience": 1837704348,
       "Strength": 115,
       "Dexterity": 70,
       "Vitality": 340,
@@ -605133,11 +605321,11 @@
       "Life": 1678,
       "BaseMana": 160,
       "Mana": 226,
-      "Gold": 427086,
+      "Gold": 908416,
       "Stashed": 2500000
     },
     "Bonus": {
-      "Strength": 52,
+      "Strength": 53,
       "Dexterity": 34,
       "Vitality": 31,
       "Energy": 0,
@@ -605147,7 +605335,7 @@
       "MaximumColdResistance": 0,
       "LightningResistance": 187,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 227,
+      "PoisonResistance": 213,
       "MaximumPoisonResistance": 0,
       "MagicFind": 0,
       "GoldFind": 137,
@@ -605184,7 +605372,7 @@
         "CooldownReduction": 0
       },
       "WeaponSetOffhand": {
-        "Strength": 0,
+        "Strength": 10,
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
@@ -605200,10 +605388,10 @@
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 0,
+        "IncreasedAttackSpeed": 20,
         "CrushingBlow": 0,
-        "OpenWounds": 0,
-        "DeadlyStrike": 0,
+        "OpenWounds": 50,
+        "DeadlyStrike": 68,
         "DamageReduction": 0,
         "CooldownReduction": 0
       }
@@ -605392,41 +605580,6 @@
           "invwidth": 2
         },
         "Worn": "belt"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "819428818",
-        "QualityCode": "q_unique",
-        "Title": "Dracul's Grasp",
-        "Tag": "Vampirebone Gloves",
-        "TextTag": "Vampirebone Gloves",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "66",
-        "Durability": "14",
-        "DurabilityMaximum": "14",
-        "ItemLevel": "89",
-        "LevelReq": 76,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "5% Chance to cast level 10 Life Tap on striking",
-          "7% Life stolen per hit",
-          "25% Chance of Open Wounds",
-          "+116% Enhanced Defense",
-          "+14 to Strength",
-          "Poison Resist +14%",
-          "+7 Life after each Kill"
-        ],
-        "Position": {
-          "x": 10,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "gloves"
       },
       {
         "Quality": "Unique",
@@ -605791,6 +605944,281 @@
         "Worn": "amulet"
       },
       {
+        "Quality": "Unique",
+        "ID": "197755245",
+        "QualityCode": "q_unique",
+        "Title": "Dracul's Grasp",
+        "Tag": "Vampirebone Gloves",
+        "TextTag": "Vampirebone Gloves",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "66",
+        "Durability": "14",
+        "DurabilityMaximum": "14",
+        "ItemLevel": "87",
+        "LevelReq": 76,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "5% Chance to cast level 10 Life Tap on striking",
+          "8% Life stolen per hit",
+          "25% Chance of Open Wounds",
+          "+93% Enhanced Defense",
+          "+15 to Strength",
+          "+10 Life Gained on Ranged Hit",
+          "+9 Life Gained on Melee Hit",
+          "+5 Life after each Kill"
+        ],
+        "Position": {
+          "x": 10,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "gloves"
+      },
+      {
+        "Quality": "Normal",
+        "ID": "2753791590",
+        "QualityCode": "q_runeword",
+        "Title": "Plague",
+        "Tag": "Feral Claws",
+        "TextTag": "Feral Claws",
+        "RuneTag": "ChamFalUm",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "DamageMinimum": "22",
+        "DamageMaximum": "53",
+        "Durability": "215",
+        "DurabilityMaximum": "215",
+        "ItemLevel": "88",
+        "LevelReq": 67,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Cham Rune",
+            "Tag": "Cham Rune",
+            "TextTag": "Cham Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 67,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Freezes target +3"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Fal Rune",
+            "Tag": "Fal Rune",
+            "TextTag": "Fal Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 41,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Strength"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Um Rune",
+            "Tag": "Um Rune",
+            "TextTag": "Um Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 47,
+            "SocketCount": "0",
+            "PropertyList": [
+              "25% Chance of Open Wounds"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "3",
+        "PropertyList": [
+          "20% Chance to cast level 12 Lower Resist when struck",
+          "15% Chance to cast level 17 Poison Nova on striking",
+          "Level 17 Cleansing Aura When Equipped",
+          "+2 to All Skills",
+          "+373% Damage to Demons",
+          "-23% to Enemy Poison Resistance",
+          "34% Deadly Strike (Based on Character Level)",
+          "25% Chance of Open Wounds",
+          "+3 to Wake of Inferno (Assassin Only)",
+          "+3 to Shadow Master (Assassin Only)",
+          "Freezes target +3",
+          "+10 to Strength",
+          "Socketed (3)"
+        ],
+        "Position": {
+          "x": 11,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": "sweapon1"
+      },
+      {
+        "Quality": "Superior",
+        "ID": "1364526377",
+        "QualityCode": "q_runeword",
+        "Title": "Plague",
+        "Tag": "Feral Claws",
+        "TextTag": "Feral Claws",
+        "RuneTag": "ChamShaelUm",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "DamageMinimum": "22",
+        "DamageMaximum": "53",
+        "Durability": "215",
+        "DurabilityMaximum": "215",
+        "ItemLevel": "88",
+        "LevelReq": 67,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Cham Rune",
+            "Tag": "Cham Rune",
+            "TextTag": "Cham Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 67,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Freezes target +3"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Shael Rune",
+            "Tag": "Shael Rune",
+            "TextTag": "Shael Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 29,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+20% Increased Attack Speed"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Um Rune",
+            "Tag": "Um Rune",
+            "TextTag": "Um Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 47,
+            "SocketCount": "0",
+            "PropertyList": [
+              "25% Chance of Open Wounds"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "3",
+        "PropertyList": [
+          "20% Chance to cast level 12 Lower Resist when struck",
+          "15% Chance to cast level 17 Poison Nova on striking",
+          "Level 13 Cleansing Aura When Equipped",
+          "+2 to All Skills",
+          "+20% Increased Attack Speed",
+          "+91 to Attack Rating (Based on Character Level)",
+          "+294% Damage to Demons",
+          "-23% to Enemy Poison Resistance",
+          "34% Deadly Strike (Based on Character Level)",
+          "25% Chance of Open Wounds",
+          "+1 to Blade Shield (Assassin Only)",
+          "+3 to Shadow Master (Assassin Only)",
+          "Freezes target +3",
+          "Socketed (3)"
+        ],
+        "Position": {
+          "x": 12,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": "sweapon2"
+      },
+      {
         "Quality": "Set",
         "ID": "1723945258",
         "QualityCode": "q_set",
@@ -605802,7 +606230,7 @@
         "Enhanced": "True",
         "DamageMinimum": "120",
         "DamageMaximum": "153",
-        "Durability": "215",
+        "Durability": "211",
         "DurabilityMaximum": "215",
         "ItemLevel": "86",
         "LevelReq": 79,
@@ -606652,58 +607080,6 @@
         },
         "Size": {
           "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Antidote Potion",
-        "Tag": "Antidote Potion",
-        "TextTag": "Antidote Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
-        "ID": "1893908342",
-        "QualityCode": "q_rare",
-        "Title": "Raven Eye",
-        "Tag": "Baleful Alcazar Relic",
-        "TextTag": "Baleful Alcazar Relic",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "88",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "10% Chance to cast level 5 Amplify Damage on striking",
-          "Adds 99-100 Fire damage",
-          "Poison Absorb 9%",
-          "Physical Damage Taken Reduced by 60",
-          "Magic & Elemental Damage Taken Reduced by 53"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
