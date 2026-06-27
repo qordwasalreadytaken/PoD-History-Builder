@@ -109693,7 +109693,7 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 96,
-      "Experience": 2812050991,
+      "Experience": 2815122683,
       "Strength": 15,
       "Dexterity": 163,
       "Vitality": 367,
@@ -109701,8 +109701,8 @@
       "BaseLife": 999,
       "Life": 1792,
       "BaseMana": 215,
-      "Mana": 1007,
-      "Gold": 171274,
+      "Mana": 1003,
+      "Gold": 447493,
       "Stashed": 318999
     },
     "Bonus": {
@@ -109730,21 +109730,21 @@
       "CooldownReduction": 10,
       "WeaponSetMain": {
         "Strength": 0,
-        "Dexterity": 2,
+        "Dexterity": 0,
         "Vitality": 0,
-        "Energy": 22,
+        "Energy": 20,
         "FireResistance": 115,
         "MaximumFireResistance": 0,
         "ColdResistance": 115,
         "MaximumColdResistance": 0,
-        "LightningResistance": 115,
+        "LightningResistance": 185,
         "MaximumLightningResistance": 0,
         "PoisonResistance": 115,
         "MaximumPoisonResistance": 0,
         "MagicFind": 30,
         "GoldFind": 0,
         "FasterCastRate": 50,
-        "FasterHitRecovery": 14,
+        "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
         "OpenWounds": 0,
@@ -110078,35 +110078,6 @@
         "Worn": "ring2"
       },
       {
-        "Quality": "Magic",
-        "ID": "1820097334",
-        "QualityCode": "q_magic",
-        "Title": "Venomous Amulet of the Squid",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 45,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+1 to All Skills",
-          "+3 to Poison and Bone Skills (Necromancer Only)",
-          "+71 to Life"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": "amulet"
-      },
-      {
         "Quality": "Unique",
         "ID": "3389824117",
         "QualityCode": "q_unique",
@@ -110295,6 +110266,35 @@
           "invwidth": 2
         },
         "Worn": "helmet"
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1820097334",
+        "QualityCode": "q_magic",
+        "Title": "Venomous Amulet of the Squid",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 45,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+1 to All Skills",
+          "+3 to Poison and Bone Skills (Necromancer Only)",
+          "+71 to Life"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "amulet"
       },
       {
         "Quality": "Normal",
@@ -110677,11 +110677,12 @@
       },
       {
         "Quality": "Unique",
-        "ID": "2173807144",
+        "ID": "3093046818",
         "QualityCode": "q_unique",
         "Title": "Homunculus",
         "Tag": "Hierophant Trophy",
         "TextTag": "Heirophant Trophy",
+        "RuneTag": "OrtOrt",
         "Ethereal": "False",
         "Enhanced": "True",
         "Block": "72",
@@ -110692,23 +110693,19 @@
         "LevelReq": 42,
         "Sockets": [
           {
-            "Quality": "Rare",
-            "ID": "3057449222",
-            "QualityCode": "q_rare",
-            "Title": "PlagueRI Whorl",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ort Rune",
+            "Tag": "Ort Rune",
+            "TextTag": "Ort Rune",
             "Ethereal": "False",
             "Enhanced": "False",
-            "AlternateGraphics": "4",
-            "ItemLevel": "87",
-            "LevelReq": 36,
+            "ItemLevel": "0",
+            "LevelReq": 21,
             "SocketCount": "0",
             "PropertyList": [
-              "+7% Faster Hit Recovery",
-              "+6% Enhanced Damage",
-              "+2 to Dexterity",
-              "+3 to Mana after each Kill"
+              "Lightning Resist +35%"
             ],
             "Position": {
               "x": 0,
@@ -110721,23 +110718,19 @@
             "Worn": ""
           },
           {
-            "Quality": "Rare",
-            "ID": "4136643768",
-            "QualityCode": "q_rare",
-            "Title": "Shadow Gyre",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ort Rune",
+            "Tag": "Ort Rune",
+            "TextTag": "Ort Rune",
             "Ethereal": "False",
             "Enhanced": "False",
-            "AlternateGraphics": "4",
-            "ItemLevel": "86",
-            "LevelReq": 36,
+            "ItemLevel": "0",
+            "LevelReq": 21,
             "SocketCount": "0",
             "PropertyList": [
-              "+7% Faster Hit Recovery",
-              "+9 to Maximum Damage",
-              "+2 to Energy",
-              "+3 to Mana after each Kill"
+              "Lightning Resist +35%"
             ],
             "Position": {
               "x": 1,
@@ -110755,17 +110748,16 @@
           "\u00ffc1Corrupted",
           "+2 to Curses (Necromancer Only)",
           "+2 to Necromancer Skill Levels",
-          "+14% Faster Hit Recovery",
           "+30% Faster Block Rate",
           "40% Increased Chance of Blocking",
-          "+6% Enhanced Damage",
-          "+9 to Maximum Damage",
-          "+175% Enhanced Defense",
-          "+2 to Dexterity",
-          "+22 to Energy",
+          "+161% Enhanced Defense",
+          "+20 to Energy",
           "Regenerate Mana 33%",
-          "All Resistances +40",
-          "+11 to Mana after each Kill",
+          "Cold Resist +40%",
+          "Lightning Resist +110%",
+          "Fire Resist +40%",
+          "Poison Resist +40%",
+          "+5 to Mana after each Kill",
           "Socketed (2)"
         ],
         "Position": {
@@ -302581,7 +302573,7 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 96,
-      "Experience": 2812050991,
+      "Experience": 2815122683,
       "Strength": 15,
       "Dexterity": 163,
       "Vitality": 367,
@@ -302589,8 +302581,8 @@
       "BaseLife": 999,
       "Life": 1792,
       "BaseMana": 215,
-      "Mana": 1007,
-      "Gold": 171274,
+      "Mana": 1003,
+      "Gold": 447493,
       "Stashed": 318999
     },
     "Bonus": {
@@ -302618,21 +302610,21 @@
       "CooldownReduction": 10,
       "WeaponSetMain": {
         "Strength": 0,
-        "Dexterity": 2,
+        "Dexterity": 0,
         "Vitality": 0,
-        "Energy": 22,
+        "Energy": 20,
         "FireResistance": 115,
         "MaximumFireResistance": 0,
         "ColdResistance": 115,
         "MaximumColdResistance": 0,
-        "LightningResistance": 115,
+        "LightningResistance": 185,
         "MaximumLightningResistance": 0,
         "PoisonResistance": 115,
         "MaximumPoisonResistance": 0,
         "MagicFind": 30,
         "GoldFind": 0,
         "FasterCastRate": 50,
-        "FasterHitRecovery": 14,
+        "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
         "OpenWounds": 0,
@@ -302966,35 +302958,6 @@
         "Worn": "ring2"
       },
       {
-        "Quality": "Magic",
-        "ID": "1820097334",
-        "QualityCode": "q_magic",
-        "Title": "Venomous Amulet of the Squid",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 45,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+1 to All Skills",
-          "+3 to Poison and Bone Skills (Necromancer Only)",
-          "+71 to Life"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": "amulet"
-      },
-      {
         "Quality": "Unique",
         "ID": "3389824117",
         "QualityCode": "q_unique",
@@ -303183,6 +303146,35 @@
           "invwidth": 2
         },
         "Worn": "helmet"
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1820097334",
+        "QualityCode": "q_magic",
+        "Title": "Venomous Amulet of the Squid",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 45,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+1 to All Skills",
+          "+3 to Poison and Bone Skills (Necromancer Only)",
+          "+71 to Life"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "amulet"
       },
       {
         "Quality": "Normal",
@@ -303565,11 +303557,12 @@
       },
       {
         "Quality": "Unique",
-        "ID": "2173807144",
+        "ID": "3093046818",
         "QualityCode": "q_unique",
         "Title": "Homunculus",
         "Tag": "Hierophant Trophy",
         "TextTag": "Heirophant Trophy",
+        "RuneTag": "OrtOrt",
         "Ethereal": "False",
         "Enhanced": "True",
         "Block": "72",
@@ -303580,23 +303573,19 @@
         "LevelReq": 42,
         "Sockets": [
           {
-            "Quality": "Rare",
-            "ID": "3057449222",
-            "QualityCode": "q_rare",
-            "Title": "PlagueRI Whorl",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ort Rune",
+            "Tag": "Ort Rune",
+            "TextTag": "Ort Rune",
             "Ethereal": "False",
             "Enhanced": "False",
-            "AlternateGraphics": "4",
-            "ItemLevel": "87",
-            "LevelReq": 36,
+            "ItemLevel": "0",
+            "LevelReq": 21,
             "SocketCount": "0",
             "PropertyList": [
-              "+7% Faster Hit Recovery",
-              "+6% Enhanced Damage",
-              "+2 to Dexterity",
-              "+3 to Mana after each Kill"
+              "Lightning Resist +35%"
             ],
             "Position": {
               "x": 0,
@@ -303609,23 +303598,19 @@
             "Worn": ""
           },
           {
-            "Quality": "Rare",
-            "ID": "4136643768",
-            "QualityCode": "q_rare",
-            "Title": "Shadow Gyre",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ort Rune",
+            "Tag": "Ort Rune",
+            "TextTag": "Ort Rune",
             "Ethereal": "False",
             "Enhanced": "False",
-            "AlternateGraphics": "4",
-            "ItemLevel": "86",
-            "LevelReq": 36,
+            "ItemLevel": "0",
+            "LevelReq": 21,
             "SocketCount": "0",
             "PropertyList": [
-              "+7% Faster Hit Recovery",
-              "+9 to Maximum Damage",
-              "+2 to Energy",
-              "+3 to Mana after each Kill"
+              "Lightning Resist +35%"
             ],
             "Position": {
               "x": 1,
@@ -303643,17 +303628,16 @@
           "\u00ffc1Corrupted",
           "+2 to Curses (Necromancer Only)",
           "+2 to Necromancer Skill Levels",
-          "+14% Faster Hit Recovery",
           "+30% Faster Block Rate",
           "40% Increased Chance of Blocking",
-          "+6% Enhanced Damage",
-          "+9 to Maximum Damage",
-          "+175% Enhanced Defense",
-          "+2 to Dexterity",
-          "+22 to Energy",
+          "+161% Enhanced Defense",
+          "+20 to Energy",
           "Regenerate Mana 33%",
-          "All Resistances +40",
-          "+11 to Mana after each Kill",
+          "Cold Resist +40%",
+          "Lightning Resist +110%",
+          "Fire Resist +40%",
+          "Poison Resist +40%",
+          "+5 to Mana after each Kill",
           "Socketed (2)"
         ],
         "Position": {
