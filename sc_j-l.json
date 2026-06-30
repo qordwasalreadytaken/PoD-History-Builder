@@ -20310,36 +20310,36 @@
     "Class": "Barbarian",
     "Stats": {
       "Level": 96,
-      "Experience": 2758557057,
+      "Experience": 2758643649,
       "Strength": 60,
       "Dexterity": 49,
       "Vitality": 456,
       "Energy": 10,
       "BaseLife": 2029,
-      "Life": 2851,
+      "Life": 3901,
       "BaseMana": 105,
-      "Mana": 298,
-      "Gold": 501,
-      "Stashed": 743971
+      "Mana": 408,
+      "Gold": 13716,
+      "Stashed": 647887
     },
     "Bonus": {
       "Strength": 80,
       "Dexterity": 50,
       "Vitality": 0,
       "Energy": 4,
-      "FireResistance": 142,
+      "FireResistance": 113,
       "MaximumFireResistance": 0,
-      "ColdResistance": 148,
+      "ColdResistance": 149,
       "MaximumColdResistance": 0,
-      "LightningResistance": 149,
-      "MaximumLightningResistance": 5,
-      "PoisonResistance": 142,
+      "LightningResistance": 120,
+      "MaximumLightningResistance": 0,
+      "PoisonResistance": 113,
       "MaximumPoisonResistance": 0,
       "MagicFind": 0,
-      "GoldFind": 0,
-      "FasterCastRate": 25,
-      "FasterHitRecovery": 52,
-      "IncreasedAttackSpeed": 0,
+      "GoldFind": 50,
+      "FasterCastRate": 0,
+      "FasterHitRecovery": 72,
+      "IncreasedAttackSpeed": 45,
       "CrushingBlow": 15,
       "OpenWounds": 35,
       "DeadlyStrike": 15,
@@ -20535,7 +20535,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "121",
-        "Durability": "54",
+        "Durability": "55",
         "DurabilityMaximum": "55",
         "ItemLevel": "88",
         "LevelReq": 49,
@@ -20846,35 +20846,35 @@
         "Worn": "gloves"
       },
       {
-        "Quality": "Superior",
-        "ID": "129725155",
+        "Quality": "Normal",
+        "ID": "403628157",
         "QualityCode": "q_runeword",
-        "Title": "Fortitude",
-        "Tag": "Dusk Shroud",
-        "TextTag": "Dusk Shroud",
-        "RuneTag": "ElSolDolLo",
+        "Title": "Treachery",
+        "Tag": "Wyrmhide",
+        "TextTag": "Wyrmhide",
+        "RuneTag": "ShaelThulLem",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "468",
-        "Durability": "19",
-        "DurabilityMaximum": "20",
-        "ItemLevel": "88",
-        "LevelReq": 59,
+        "Enhanced": "False",
+        "Defense": "463",
+        "Durability": "24",
+        "DurabilityMaximum": "24",
+        "ItemLevel": "85",
+        "LevelReq": 50,
         "Sockets": [
           {
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "El Rune",
-            "Tag": "El Rune",
-            "TextTag": "El Rune",
+            "Title": "Shael Rune",
+            "Tag": "Shael Rune",
+            "TextTag": "Shael Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 11,
+            "LevelReq": 29,
             "SocketCount": "0",
             "PropertyList": [
-              "+1 to Light Radius"
+              "+20% Faster Hit Recovery"
             ],
             "Position": {
               "x": 0,
@@ -20890,16 +20890,16 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Sol Rune",
-            "Tag": "Sol Rune",
-            "TextTag": "Sol Rune",
+            "Title": "Thul Rune",
+            "Tag": "Thul Rune",
+            "TextTag": "Thul Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 27,
+            "LevelReq": 23,
             "SocketCount": "0",
             "PropertyList": [
-              "Physical Damage Taken Reduced by 7"
+              "Cold Resist +30%"
             ],
             "Position": {
               "x": 1,
@@ -20915,16 +20915,16 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Dol Rune",
-            "Tag": "Dol Rune",
-            "TextTag": "Dol Rune",
+            "Title": "Lem Rune",
+            "Tag": "Lem Rune",
+            "TextTag": "Lem Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 31,
+            "LevelReq": 43,
             "SocketCount": "0",
             "PropertyList": [
-              "Replenish Life 7 per second"
+              "50% Extra Gold from Monsters"
             ],
             "Position": {
               "x": 2,
@@ -20935,47 +20935,19 @@
               "invwidth": 1
             },
             "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Lo Rune",
-            "Tag": "Lo Rune",
-            "TextTag": "Lo Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 59,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+5% to Maximum Lightning Resist"
-            ],
-            "Position": {
-              "x": 3,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
           }
         ],
-        "SocketCount": "4",
+        "SocketCount": "3",
         "PropertyList": [
-          "20% Chance to cast level 15 Chilling Armor when struck",
-          "+25% Faster Cast Rate",
-          "+260% Enhanced Damage",
-          "+214% Enhanced Defense",
-          "+132 to Life (Based on Character Level)",
-          "Replenish Life 7 per second",
-          "+5% to Maximum Lightning Resist",
-          "All Resistances +29",
-          "Physical Damage Taken Reduced by 7",
-          "12% Damage Taken Gained as Mana when Hit",
-          "+1 to Light Radius",
-          "Socketed (4)"
+          " Can Summon One Additional Shadow Warrior/Master",
+          "5% Chance to cast level 15 Fade when struck",
+          "25% Chance to cast level 15 Venom on striking",
+          "+2 to Assassin Skill Levels",
+          "+45% Increased Attack Speed",
+          "+20% Faster Hit Recovery",
+          "Cold Resist +30%",
+          "50% Extra Gold from Monsters",
+          "Socketed (3)"
         ],
         "Position": {
           "x": 3,
@@ -48303,7 +48275,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 95,
-      "Experience": 2688836156,
+      "Experience": 2703891462,
       "Strength": 37,
       "Dexterity": 91,
       "Vitality": 422,
@@ -48312,8 +48284,8 @@
       "Life": 1966,
       "BaseMana": 156,
       "Mana": 266,
-      "Gold": 260298,
-      "Stashed": 1067950
+      "Gold": 439450,
+      "Stashed": 2500000
     },
     "Bonus": {
       "Strength": 104,
@@ -49014,7 +48986,7 @@
         "DamageMaximum": "99",
         "ThrowDamageMinimum": "64",
         "ThrowDamageMaximum": "121",
-        "Durability": "93",
+        "Durability": "100",
         "DurabilityMaximum": "100",
         "ItemLevel": "88",
         "LevelReq": 69,
@@ -49678,33 +49650,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "4164341744",
-        "QualityCode": "q_magic",
-        "Title": "Amber Small Charm of Sustenance",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "88",
-        "LevelReq": 32,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+13 to Life",
-          "Lightning Resist +11%"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "394922079",
         "QualityCode": "q_magic",
         "Title": "Ruby Small Charm of Inertia",
@@ -49854,6 +49799,33 @@
         "Position": {
           "x": 1,
           "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "4164341744",
+        "QualityCode": "q_magic",
+        "Title": "Amber Small Charm of Sustenance",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 32,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+13 to Life",
+          "Lightning Resist +11%"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 5
         },
         "Size": {
           "invheight": 1,
@@ -297602,36 +297574,36 @@
     "Class": "Barbarian",
     "Stats": {
       "Level": 96,
-      "Experience": 2758557057,
+      "Experience": 2758643649,
       "Strength": 60,
       "Dexterity": 49,
       "Vitality": 456,
       "Energy": 10,
       "BaseLife": 2029,
-      "Life": 2851,
+      "Life": 3901,
       "BaseMana": 105,
-      "Mana": 298,
-      "Gold": 501,
-      "Stashed": 743971
+      "Mana": 408,
+      "Gold": 13716,
+      "Stashed": 647887
     },
     "Bonus": {
       "Strength": 80,
       "Dexterity": 50,
       "Vitality": 0,
       "Energy": 4,
-      "FireResistance": 142,
+      "FireResistance": 113,
       "MaximumFireResistance": 0,
-      "ColdResistance": 148,
+      "ColdResistance": 149,
       "MaximumColdResistance": 0,
-      "LightningResistance": 149,
-      "MaximumLightningResistance": 5,
-      "PoisonResistance": 142,
+      "LightningResistance": 120,
+      "MaximumLightningResistance": 0,
+      "PoisonResistance": 113,
       "MaximumPoisonResistance": 0,
       "MagicFind": 0,
-      "GoldFind": 0,
-      "FasterCastRate": 25,
-      "FasterHitRecovery": 52,
-      "IncreasedAttackSpeed": 0,
+      "GoldFind": 50,
+      "FasterCastRate": 0,
+      "FasterHitRecovery": 72,
+      "IncreasedAttackSpeed": 45,
       "CrushingBlow": 15,
       "OpenWounds": 35,
       "DeadlyStrike": 15,
@@ -297827,7 +297799,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "121",
-        "Durability": "54",
+        "Durability": "55",
         "DurabilityMaximum": "55",
         "ItemLevel": "88",
         "LevelReq": 49,
@@ -298138,35 +298110,35 @@
         "Worn": "gloves"
       },
       {
-        "Quality": "Superior",
-        "ID": "129725155",
+        "Quality": "Normal",
+        "ID": "403628157",
         "QualityCode": "q_runeword",
-        "Title": "Fortitude",
-        "Tag": "Dusk Shroud",
-        "TextTag": "Dusk Shroud",
-        "RuneTag": "ElSolDolLo",
+        "Title": "Treachery",
+        "Tag": "Wyrmhide",
+        "TextTag": "Wyrmhide",
+        "RuneTag": "ShaelThulLem",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "468",
-        "Durability": "19",
-        "DurabilityMaximum": "20",
-        "ItemLevel": "88",
-        "LevelReq": 59,
+        "Enhanced": "False",
+        "Defense": "463",
+        "Durability": "24",
+        "DurabilityMaximum": "24",
+        "ItemLevel": "85",
+        "LevelReq": 50,
         "Sockets": [
           {
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "El Rune",
-            "Tag": "El Rune",
-            "TextTag": "El Rune",
+            "Title": "Shael Rune",
+            "Tag": "Shael Rune",
+            "TextTag": "Shael Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 11,
+            "LevelReq": 29,
             "SocketCount": "0",
             "PropertyList": [
-              "+1 to Light Radius"
+              "+20% Faster Hit Recovery"
             ],
             "Position": {
               "x": 0,
@@ -298182,16 +298154,16 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Sol Rune",
-            "Tag": "Sol Rune",
-            "TextTag": "Sol Rune",
+            "Title": "Thul Rune",
+            "Tag": "Thul Rune",
+            "TextTag": "Thul Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 27,
+            "LevelReq": 23,
             "SocketCount": "0",
             "PropertyList": [
-              "Physical Damage Taken Reduced by 7"
+              "Cold Resist +30%"
             ],
             "Position": {
               "x": 1,
@@ -298207,16 +298179,16 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Dol Rune",
-            "Tag": "Dol Rune",
-            "TextTag": "Dol Rune",
+            "Title": "Lem Rune",
+            "Tag": "Lem Rune",
+            "TextTag": "Lem Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 31,
+            "LevelReq": 43,
             "SocketCount": "0",
             "PropertyList": [
-              "Replenish Life 7 per second"
+              "50% Extra Gold from Monsters"
             ],
             "Position": {
               "x": 2,
@@ -298227,47 +298199,19 @@
               "invwidth": 1
             },
             "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Lo Rune",
-            "Tag": "Lo Rune",
-            "TextTag": "Lo Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 59,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+5% to Maximum Lightning Resist"
-            ],
-            "Position": {
-              "x": 3,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
           }
         ],
-        "SocketCount": "4",
+        "SocketCount": "3",
         "PropertyList": [
-          "20% Chance to cast level 15 Chilling Armor when struck",
-          "+25% Faster Cast Rate",
-          "+260% Enhanced Damage",
-          "+214% Enhanced Defense",
-          "+132 to Life (Based on Character Level)",
-          "Replenish Life 7 per second",
-          "+5% to Maximum Lightning Resist",
-          "All Resistances +29",
-          "Physical Damage Taken Reduced by 7",
-          "12% Damage Taken Gained as Mana when Hit",
-          "+1 to Light Radius",
-          "Socketed (4)"
+          " Can Summon One Additional Shadow Warrior/Master",
+          "5% Chance to cast level 15 Fade when struck",
+          "25% Chance to cast level 15 Venom on striking",
+          "+2 to Assassin Skill Levels",
+          "+45% Increased Attack Speed",
+          "+20% Faster Hit Recovery",
+          "Cold Resist +30%",
+          "50% Extra Gold from Monsters",
+          "Socketed (3)"
         ],
         "Position": {
           "x": 3,
@@ -316862,7 +316806,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 95,
-      "Experience": 2688836156,
+      "Experience": 2703891462,
       "Strength": 37,
       "Dexterity": 91,
       "Vitality": 422,
@@ -316871,8 +316815,8 @@
       "Life": 1966,
       "BaseMana": 156,
       "Mana": 266,
-      "Gold": 260298,
-      "Stashed": 1067950
+      "Gold": 439450,
+      "Stashed": 2500000
     },
     "Bonus": {
       "Strength": 104,
@@ -317573,7 +317517,7 @@
         "DamageMaximum": "99",
         "ThrowDamageMinimum": "64",
         "ThrowDamageMaximum": "121",
-        "Durability": "93",
+        "Durability": "100",
         "DurabilityMaximum": "100",
         "ItemLevel": "88",
         "LevelReq": 69,
@@ -318237,33 +318181,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "4164341744",
-        "QualityCode": "q_magic",
-        "Title": "Amber Small Charm of Sustenance",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "88",
-        "LevelReq": 32,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+13 to Life",
-          "Lightning Resist +11%"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "394922079",
         "QualityCode": "q_magic",
         "Title": "Ruby Small Charm of Inertia",
@@ -318413,6 +318330,33 @@
         "Position": {
           "x": 1,
           "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "4164341744",
+        "QualityCode": "q_magic",
+        "Title": "Amber Small Charm of Sustenance",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 32,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+13 to Life",
+          "Lightning Resist +11%"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 5
         },
         "Size": {
           "invheight": 1,
