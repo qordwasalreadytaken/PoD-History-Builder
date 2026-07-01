@@ -13,15 +13,26 @@
     </div> -->
     <div id="app" class="full-height"></div>
 <!--    <button onclick="retrieveCharacterData()" >Click me!</button> -->
-    <div id="header" style="position: relative; min-height: 48px;">
-        <span style="float:left;">PoD Wayback Machine</span>
-<div id="recentlyChangedWrapper" style="position: absolute; top: 10px; right: 20px; z-index: 10; text-align: right; display: none;">
-    <label for="recentlyChangedDropdown" style="display: block; font-size: 0.9rem;">
-        Characters with recent changes:
-    </label>
-    <select id="recentlyChangedDropdown" style="padding: 4px 8px; font-size: 1rem; min-width: 160px;">
-        <option>Recently Changed...</option>
-    </select>
+<div id="header" style="display:flex; align-items:center; min-height:48px;">
+
+    <div style="padding-left:20px; font-size:1.4rem; font-weight:bold; color:#bbb; white-space:nowrap;">
+        PoD Wayback Machine
+    </div>
+
+    <div style="flex:1; text-align:center; font-size:.9rem; color:#bbb; padding:0 20px;">
+        Creeping on over <b>15,000</b> characters across <b>12,000+</b> accounts • Updated twice daily • Missing a character? Reach out to <b>Qord</b>.
+    </div>
+
+    <div id="recentlyChangedWrapper"
+         style="display:none; padding-right:20px; color:#bbb; text-align:right;">
+        <label for="recentlyChangedDropdown" style="display:block; font-size:.9rem;">
+            Characters with recent changes:
+        </label>
+        <select id="recentlyChangedDropdown" style="padding:4px 8px; min-width:160px;">
+            <option>Recently Changed...</option>
+        </select>
+    </div>
+
 </div>
         <div style="clear:both;"></div>
     </div>

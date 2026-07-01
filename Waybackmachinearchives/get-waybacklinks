@@ -1,0 +1,15 @@
+classes = ["amazon","assassin","barbarian","druid","necromancer","paladin","sorceress"]
+
+seasons = {
+    9: "20191114163730",
+    10: "20200806010333",
+    11: "20210301223208",
+    12: "20220124001325",
+}
+
+with open("links.html", "w") as f:
+    for s, ts in seasons.items():
+        f.write(f"<h2>Season {s}</h2>\n")
+        for c in classes:
+            url = f"https://web.archive.org/web/{ts}/https://pod-functions.azurewebsites.net/api/builds?mode=softcore&class={c}"
+            f.write(f'<a href="{url}" target="_blank">{c}</a><br>\n')
