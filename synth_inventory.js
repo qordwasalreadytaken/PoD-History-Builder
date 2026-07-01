@@ -11510,5 +11510,37 @@ const synthInventory = [
     "seen_date": "2026-06-08",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Warlord%27s+Trust%2C0%2Cnone%2Cias%3A30%2Cdamage_bonus%3A367%2Clife_leech%3A5%2Clife%3A93"
+  },
+  {
+    "id": "e078f05c8874da22edcdbca8c9a841de428450aa51f3d40ebc853f40b18b6a05",
+    "friendly_id": 191,
+    "owner": "KR_GRI",
+    "base_type": "Synthesized Matriarchal Javelin",
+    "title": "Thunderstroke",
+    "properties": [
+      "+4 to Javelin and Spear Skills (Amazon Only)",
+      "+35% Piercing Attack",
+      "+84% Enhanced Damage",
+      "-15% to Enemy Lightning Resistance",
+      "+3 to Lightning Bolt (Amazon Only)",
+      "-70 to Monster Defense Per Hit",
+      "240% Extra Gold from Monsters (Based on Character Level)"
+    ],
+    "synthesised_from": [
+      "Doomslinger",
+      "Blade of Ali Baba",
+      "Crainte Vomir"
+    ],
+    "location": "Equipped",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "55",
+    "DamageMaximum": "99",
+    "LevelReq": 69,
+    "SocketCount": "0",
+    "seen_date": "2026-07-01",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Thunderstroke%2C0%2Cnone%2Cdamage_bonus%3A84%2Cenemy_lRes%3A-15%2Cskill_Lightning_Bolt%3A3%2Cmonster_defense_per_hit%3A-70%2Cgf%3A240"
   }
 ];
