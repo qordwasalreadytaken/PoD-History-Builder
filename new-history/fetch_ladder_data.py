@@ -277,7 +277,9 @@ def process_characters(characters):
         if last_snapshot is None or character_changed(char_data, last_snapshot):
             history.append({
                 'timestamp': timestamp,
-                'data': char_data
+                'data': char_data,
+                'skill_change': character_changed(character_changed.skills_new, character_changed.skills_last),
+                'equipped_change': character_changed(character_changed.equipped_new, character_changed.equipped_last)
             })
             save_character_history(char_name, history)
             recently_changed.append(char_name)
