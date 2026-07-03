@@ -301,7 +301,8 @@ $(document).ready(function() {
                 const snapshotTime = params.get('t');
                 snapshots.forEach((snap, idx) => {
                     const active = snap.timestamp === snapshotTime ? ' active' : '';
-                    html += `<li><button class="snapshot-btn${active}" data-timestamp="${snap.timestamp}" data-name="${name}">${formatSnapshotLabel(snap)}</button></li>`;
+                    const olderSnap = snapshots[idx + 1] || null;
+                    html += `<li><button class="snapshot-btn${active}" data-timestamp="${snap.timestamp}" data-name="${name}">${formatSnapshotLabel(snap, olderSnap)}</button></li>`;
                 });
                 html += '</ul>';
                 $('#snapshotList').html(html);
@@ -320,7 +321,7 @@ $(document).ready(function() {
 
     // Format how each snapshot appears in the list without changing
     // the underlying timestamp value used for sorting and URLs.
-    function formatSnapshotLabel(snap) {
+    function formatSnapshotLabel(snap, olderSnap) {
         const rawTs = (snap && typeof snap.timestamp === 'string') ? snap.timestamp : '';
 
         // Shorten timestamp: keep date + minutes, swap 'T' for space.
@@ -335,7 +336,119 @@ $(document).ready(function() {
             levelPrefix = `Lv ${snap.data.Stats.Level} - `; // en dash
         }
 
-        return levelPrefix + displayTime;
+        const summary = getSnapshotChangeSummary(snap, olderSnap);
+        if (!summary) {
+            return levelPrefix + displayTime;
+        }
+
+        return `${levelPrefix}${displayTime}<br><span style="font-size:0.82em;color:#ddd;">${summary}</span>`;
+    }
+
+    function extractSkillsMap(data) {
+        const skills = {};
+        const tabs = data && Array.isArray(data.SkillTabs) ? data.SkillTabs : [];
+        tabs.forEach(tab => {
+            const tabSkills = tab && Array.isArray(tab.Skills) ? tab.Skills : [];
+            tabSkills.forEach(skill => {
+                if (!skill || typeof skill !== 'object') return;
+                const name = skill.Name;
+                const level = skill.Level;
+                if (typeof name === 'string' && typeof level !== 'undefined') {
+                    skills[name] = level;
+                }
+            });
+        });
+        return skills;
+    }
+
+    function extractEquippedTitles(data) {
+        const equipped = data && Array.isArray(data.Equipped) ? data.Equipped : [];
+        return equipped
+            .filter(item => item && typeof item === 'object' && typeof item.Title === 'string')
+            .map(item => item.Title)
+            .sort();
+    }
+
+    function countDiff(newList, oldList) {
+        const newCounts = {};
+        const oldCounts = {};
+        newList.forEach(v => { newCounts[v] = (newCounts[v] || 0) + 1; });
+        oldList.forEach(v => { oldCounts[v] = (oldCounts[v] || 0) + 1; });
+
+        let added = 0;
+        let removed = 0;
+        const keys = new Set([...Object.keys(newCounts), ...Object.keys(oldCounts)]);
+        keys.forEach(k => {
+            const delta = (newCounts[k] || 0) - (oldCounts[k] || 0);
+            if (delta > 0) added += delta;
+            if (delta < 0) removed += -delta;
+        });
+
+        return { added, removed };
+    }
+
+    function getSnapshotChangeSummary(snap, olderSnap) {
+        if (!snap || typeof snap !== 'object') return '';
+
+        const hasPrecomputed = (
+            Array.isArray(snap.skills_added) ||
+            Array.isArray(snap.skills_removed) ||
+            Array.isArray(snap.skills_updated) ||
+            Array.isArray(snap.equipped_added) ||
+            Array.isArray(snap.equipped_removed)
+        );
+
+        let skillsAdded = 0;
+        let skillsRemoved = 0;
+        let skillsUpdated = 0;
+        let equippedAdded = 0;
+        let equippedRemoved = 0;
+
+        if (hasPrecomputed) {
+            skillsAdded = Array.isArray(snap.skills_added) ? snap.skills_added.length : 0;
+            skillsRemoved = Array.isArray(snap.skills_removed) ? snap.skills_removed.length : 0;
+            skillsUpdated = Array.isArray(snap.skills_updated) ? snap.skills_updated.length : 0;
+            equippedAdded = Array.isArray(snap.equipped_added) ? snap.equipped_added.length : 0;
+            equippedRemoved = Array.isArray(snap.equipped_removed) ? snap.equipped_removed.length : 0;
+        } else if (olderSnap && snap.data && olderSnap.data) {
+            const newSkills = extractSkillsMap(snap.data);
+            const oldSkills = extractSkillsMap(olderSnap.data);
+
+            const newSkillNames = new Set(Object.keys(newSkills));
+            const oldSkillNames = new Set(Object.keys(oldSkills));
+            oldSkillNames.forEach(name => {
+                if (!newSkillNames.has(name)) skillsRemoved += 1;
+            });
+            newSkillNames.forEach(name => {
+                if (!oldSkillNames.has(name)) {
+                    skillsAdded += 1;
+                } else if (newSkills[name] !== oldSkills[name]) {
+                    skillsUpdated += 1;
+                }
+            });
+
+            const equipDiff = countDiff(
+                extractEquippedTitles(snap.data),
+                extractEquippedTitles(olderSnap.data)
+            );
+            equippedAdded = equipDiff.added;
+            equippedRemoved = equipDiff.removed;
+        }
+
+        const hasSkillDiff = skillsAdded || skillsRemoved || skillsUpdated;
+        const hasEquipDiff = equippedAdded || equippedRemoved;
+        if (!hasSkillDiff && !hasEquipDiff) {
+            return '';
+        }
+
+        const parts = [];
+        if (hasSkillDiff) {
+            parts.push(`Skills +${skillsAdded} -${skillsRemoved} Δ${skillsUpdated}`);
+        }
+        if (hasEquipDiff) {
+            parts.push(`Gear +${equippedAdded} -${equippedRemoved}`);
+        }
+        return parts.join(' | ');
     }
 
     // Handle snapshot selection
@@ -384,9 +497,10 @@ $(document).ready(function() {
                     if (!Array.isArray(history) || history.length === 0) return;
                     const snapshots = history.slice().sort((a, b) => b.timestamp.localeCompare(a.timestamp));
                     let html = '<div>Snapshots for <b>' + charName + '</b>:</div><ul style="margin-top:8px">';
-                    snapshots.forEach(snap => {
+                    snapshots.forEach((snap, idx) => {
                         const active = snap.timestamp === timestamp ? ' active' : '';
-                        html += `<li><button class="snapshot-btn${active}" data-timestamp="${snap.timestamp}" data-name="${charName}">${formatSnapshotLabel(snap)}</button></li>`;
+                        const olderSnap = snapshots[idx + 1] || null;
+                        html += `<li><button class="snapshot-btn${active}" data-timestamp="${snap.timestamp}" data-name="${charName}">${formatSnapshotLabel(snap, olderSnap)}</button></li>`;
                     });
                     html += '</ul>';
                     $('#snapshotList').html(html);

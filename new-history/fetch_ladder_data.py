@@ -218,8 +218,8 @@ def copy_ladders_to_dailies():
     create_character_index()
 
 
-def character_changed(new_data, last_data, return_flags=False):
-    # Only compare points in skills and names of equipped items
+def get_character_change_details(new_data, last_data):
+    # Compare only skill levels and equipped item titles so snapshots stay compact.
     new_data = new_data if isinstance(new_data, dict) else {}
     last_data = last_data if isinstance(last_data, dict) else {}
 
@@ -246,13 +246,54 @@ def character_changed(new_data, last_data, return_flags=False):
     equipped_new = extract_equipped_titles(new_data)
     equipped_last = extract_equipped_titles(last_data)
 
+    skills_new_keys = set(skills_new.keys())
+    skills_last_keys = set(skills_last.keys())
+    skills_added_names = sorted(skills_new_keys - skills_last_keys)
+    skills_removed_names = sorted(skills_last_keys - skills_new_keys)
+    skills_updated = []
+    for name in sorted(skills_new_keys & skills_last_keys):
+        old_level = skills_last.get(name)
+        new_level = skills_new.get(name)
+        if old_level != new_level:
+            skills_updated.append({
+                'name': name,
+                'from_level': old_level,
+                'to_level': new_level
+            })
+
+    equipped_new_counter = Counter(equipped_new)
+    equipped_last_counter = Counter(equipped_last)
+    equipped_added = []
+    equipped_removed = []
+    all_titles = sorted(set(equipped_new_counter.keys()) | set(equipped_last_counter.keys()))
+    for title in all_titles:
+        delta = equipped_new_counter[title] - equipped_last_counter[title]
+        if delta > 0:
+            equipped_added.extend([title] * delta)
+        elif delta < 0:
+            equipped_removed.extend([title] * (-delta))
+
     skill_change = skills_new != skills_last
     equipped_change = equipped_new != equipped_last
 
-    if return_flags:
-        return skill_change, equipped_change
+    return {
+        'skill_change': skill_change,
+        'equipped_change': equipped_change,
+        'skills_added': skills_added_names,
+        'skills_removed': skills_removed_names,
+        'skills_updated': skills_updated,
+        'equipped_added': equipped_added,
+        'equipped_removed': equipped_removed
+    }
 
-    return skill_change or equipped_change
+
+def character_changed(new_data, last_data, return_flags=False):
+    details = get_character_change_details(new_data, last_data)
+
+    if return_flags:
+        return details['skill_change'], details['equipped_change']
+
+    return details['skill_change'] or details['equipped_change']
 
 def load_character_history(char_name):
     path = os.path.join(SNAPSHOT_DIR, f'{char_name}.json')
@@ -284,11 +325,22 @@ def process_characters(characters):
         history = load_character_history(char_name)
         last_snapshot = history[-1]['data'] if history else None
         if last_snapshot is None:
-            skill_change = False
-            equipped_change = False
+            change_details = {
+                'skill_change': False,
+                'equipped_change': False,
+                'skills_added': [],
+                'skills_removed': [],
+                'skills_updated': [],
+                'equipped_added': [],
+                'equipped_removed': []
+            }
+            skill_change = change_details['skill_change']
+            equipped_change = change_details['equipped_change']
             has_change = True
         else:
-            skill_change, equipped_change = character_changed(char_data, last_snapshot, return_flags=True)
+            change_details = get_character_change_details(char_data, last_snapshot)
+            skill_change = change_details['skill_change']
+            equipped_change = change_details['equipped_change']
             has_change = skill_change or equipped_change
 
         if has_change:
@@ -296,7 +348,12 @@ def process_characters(characters):
                 'timestamp': timestamp,
                 'data': char_data,
                 'skill_change': skill_change,
-                'equipped_change': equipped_change
+                'equipped_change': equipped_change,
+                'skills_added': change_details['skills_added'],
+                'skills_removed': change_details['skills_removed'],
+                'skills_updated': change_details['skills_updated'],
+                'equipped_added': change_details['equipped_added'],
+                'equipped_removed': change_details['equipped_removed']
             })
             save_character_history(char_name, history)
             recently_changed.append(char_name)
