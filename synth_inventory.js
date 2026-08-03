@@ -11542,5 +11542,42 @@ const synthInventory = [
     "seen_date": "2026-07-01",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Thunderstroke%2C0%2Cnone%2Cdamage_bonus%3A84%2Cenemy_lRes%3A-15%2Cskill_Lightning_Bolt%3A3%2Cmonster_defense_per_hit%3A-70%2Cgf%3A240"
+  },
+  {
+    "id": "c774e75d2f20c2a40ea4803fcb8a43b0841cfc8a8a6abd1a8b0bb86c225d6e95",
+    "friendly_id": 192,
+    "owner": "Beartic",
+    "base_type": "Synthesized Cedar Bow",
+    "title": "Kuko Shakaku",
+    "properties": [
+      "ÿc1Corrupted",
+      "5% Chance to cast level 3 Frozen Orb on striking",
+      "+3 to Bow and Crossbow Skills (Amazon Only)",
+      "+20% Increased Attack Speed",
+      "+225% Enhanced Damage",
+      "+5 to Minimum Damage",
+      "-29% to Enemy Cold Resistance",
+      "25% Chance of Crushing Blow",
+      "+5 to Magic Arrow",
+      "+5 to Cold Mastery",
+      "Cold Resist +26%",
+      "+2 to Light Radius"
+    ],
+    "synthesised_from": [
+      "Wizendraw",
+      "Bing Sz Wang",
+      "Rixot's Keen"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "32",
+    "DamageMaximum": "94",
+    "LevelReq": 33,
+    "SocketCount": "0",
+    "seen_date": "2026-08-03",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Kuko+Shakaku%2C0%2Cnone%2Cias%3A20%2Cdamage_bonus%3A225%2Cenemy_cRes%3A-29%2Ccblow%3A25%2Coskill_Magic_Arrow%3A5%2Coskill_Cold_Mastery%3A5%2CcRes%3A26%2Clight_radius%3A2"
   }
 ];
