@@ -38307,7 +38307,7 @@
       "Vitality": 417,
       "Energy": 35,
       "BaseLife": 1056,
-      "Life": 1339,
+      "Life": 1355,
       "BaseMana": 225,
       "Mana": 463,
       "Gold": 960000,
@@ -38341,6 +38341,30 @@
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
+        "FireResistance": 15,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 15,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 15,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 25,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 0,
+        "GoldFind": 0,
+        "FasterCastRate": 0,
+        "FasterHitRecovery": 0,
+        "IncreasedAttackSpeed": 20,
+        "CrushingBlow": 0,
+        "OpenWounds": 0,
+        "DeadlyStrike": 0,
+        "DamageReduction": 0,
+        "CooldownReduction": 0
+      },
+      "WeaponSetOffhand": {
+        "Strength": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Energy": 0,
         "FireResistance": 0,
         "MaximumFireResistance": 0,
         "ColdResistance": 56,
@@ -38354,30 +38378,6 @@
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 40,
-        "CrushingBlow": 0,
-        "OpenWounds": 0,
-        "DeadlyStrike": 0,
-        "DamageReduction": 0,
-        "CooldownReduction": 0
-      },
-      "WeaponSetOffhand": {
-        "Strength": 0,
-        "Dexterity": 0,
-        "Vitality": 0,
-        "Energy": 0,
-        "FireResistance": 27,
-        "MaximumFireResistance": 0,
-        "ColdResistance": 15,
-        "MaximumColdResistance": 0,
-        "LightningResistance": 15,
-        "MaximumLightningResistance": 0,
-        "PoisonResistance": 15,
-        "MaximumPoisonResistance": 0,
-        "MagicFind": 0,
-        "GoldFind": 110,
-        "FasterCastRate": 0,
-        "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 20,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
@@ -38789,6 +38789,266 @@
         "Worn": "helmet"
       },
       {
+        "Quality": "Normal",
+        "ID": "2126999869",
+        "QualityCode": "q_runeword",
+        "Title": "Call to Arms",
+        "Tag": "Flail",
+        "TextTag": "Flail",
+        "RuneTag": "AmnRalMalIstOhm",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "3",
+        "DamageMaximum": "90",
+        "Durability": "135",
+        "DurabilityMaximum": "135",
+        "ItemLevel": "87",
+        "LevelReq": 57,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Amn Rune",
+            "Tag": "Amn Rune",
+            "TextTag": "Amn Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 25,
+            "SocketCount": "0",
+            "PropertyList": [
+              "7% Life stolen per hit"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ral Rune",
+            "Tag": "Ral Rune",
+            "TextTag": "Ral Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 19,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+5 Fire damage"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Mal Rune",
+            "Tag": "Mal Rune",
+            "TextTag": "Mal Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 49,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Prevent Monster Heal"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ist Rune",
+            "Tag": "Ist Rune",
+            "TextTag": "Ist Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 51,
+            "SocketCount": "0",
+            "PropertyList": [
+              "30% Better Chance of Getting Magic Items"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ohm Rune",
+            "Tag": "Ohm Rune",
+            "TextTag": "Ohm Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 57,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+50% Enhanced Damage"
+            ],
+            "Position": {
+              "x": 4,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "5",
+        "PropertyList": [
+          "100% Chance to cast level 31 War Cry when you Kill an Enemy",
+          "+1 to All Skills",
+          "+40% Increased Attack Speed",
+          "+279% Enhanced Damage",
+          "+50% Damage to Undead",
+          "+5 Fire damage",
+          "7% Life stolen per hit",
+          "Prevent Monster Heal",
+          "+2 to Battle Cry",
+          "+5 to Battle Orders",
+          "+5 to Battle Command",
+          "30% Better Chance of Getting Magic Items",
+          "Battle Order's life and mana bonuses are halved.",
+          "Socketed (5)"
+        ],
+        "Position": {
+          "x": 11,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": "sweapon1"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1974564934",
+        "QualityCode": "q_unique",
+        "Title": "Medusa's Gaze",
+        "Tag": "Aegis",
+        "TextTag": "Aegis",
+        "RuneTag": "HelHel",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Block": "44",
+        "Defense": "222",
+        "Durability": "92",
+        "DurabilityMaximum": "92",
+        "ItemLevel": "91",
+        "LevelReq": 76,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Hel Rune",
+            "Tag": "Hel Rune",
+            "TextTag": "Hel Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 0,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Requirements -15%"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Hel Rune",
+            "Tag": "Hel Rune",
+            "TextTag": "Hel Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 0,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Requirements -15%"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "2",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+2 to Cold Skills",
+          "-12% to Enemy Cold Resistance",
+          "+3 to Shiver Armor",
+          "+167% Enhanced Defense",
+          "+5% to Maximum Cold Resist",
+          "Cold Resist +56%",
+          "Requirements -80%",
+          "Socketed (2)"
+        ],
+        "Position": {
+          "x": 12,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": "sweapon2"
+      },
+      {
         "Quality": "Unique",
         "ID": "1156580205",
         "QualityCode": "q_unique",
@@ -38958,207 +39218,6 @@
           "Socketed (5)"
         ],
         "Position": {
-          "x": 11,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": "sweapon1"
-      },
-      {
-        "Quality": "Rare",
-        "ID": "2464210085",
-        "QualityCode": "q_rare",
-        "Title": "Stone Eye",
-        "Tag": "Bolts",
-        "TextTag": "Bolts",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "88",
-        "LevelReq": 58,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+1 to All Skills",
-          "+2 to Elemental & Poison Skills",
-          "+20% Piercing Attack",
-          "Adds 16-19 damage",
-          "Fire Resist +12%",
-          "110% Extra Gold from Monsters"
-        ],
-        "Position": {
-          "x": 12,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Normal",
-        "ID": "2126999869",
-        "QualityCode": "q_runeword",
-        "Title": "Call to Arms",
-        "Tag": "Flail",
-        "TextTag": "Flail",
-        "RuneTag": "AmnRalMalIstOhm",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "3",
-        "DamageMaximum": "90",
-        "Durability": "135",
-        "DurabilityMaximum": "135",
-        "ItemLevel": "87",
-        "LevelReq": 57,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Amn Rune",
-            "Tag": "Amn Rune",
-            "TextTag": "Amn Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 25,
-            "SocketCount": "0",
-            "PropertyList": [
-              "7% Life stolen per hit"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Ral Rune",
-            "Tag": "Ral Rune",
-            "TextTag": "Ral Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 19,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+5 Fire damage"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Mal Rune",
-            "Tag": "Mal Rune",
-            "TextTag": "Mal Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 49,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Prevent Monster Heal"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Ist Rune",
-            "Tag": "Ist Rune",
-            "TextTag": "Ist Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 51,
-            "SocketCount": "0",
-            "PropertyList": [
-              "30% Better Chance of Getting Magic Items"
-            ],
-            "Position": {
-              "x": 3,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Ohm Rune",
-            "Tag": "Ohm Rune",
-            "TextTag": "Ohm Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 57,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+50% Enhanced Damage"
-            ],
-            "Position": {
-              "x": 4,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "5",
-        "PropertyList": [
-          "100% Chance to cast level 31 War Cry when you Kill an Enemy",
-          "+1 to All Skills",
-          "+40% Increased Attack Speed",
-          "+279% Enhanced Damage",
-          "+50% Damage to Undead",
-          "+5 Fire damage",
-          "7% Life stolen per hit",
-          "Prevent Monster Heal",
-          "+2 to Battle Cry",
-          "+5 to Battle Orders",
-          "+5 to Battle Command",
-          "30% Better Chance of Getting Magic Items",
-          "Battle Order's life and mana bonuses are halved.",
-          "Socketed (5)"
-        ],
-        "Position": {
           "x": 4,
           "y": 0
         },
@@ -39169,84 +39228,25 @@
         "Worn": "weapon1"
       },
       {
-        "Quality": "Unique",
-        "ID": "1974564934",
-        "QualityCode": "q_unique",
-        "Title": "Medusa's Gaze",
-        "Tag": "Aegis",
-        "TextTag": "Aegis",
-        "RuneTag": "HelHel",
+        "Quality": "Rare",
+        "ID": "3589997984",
+        "QualityCode": "q_rare",
+        "Title": "Skull Eye",
+        "Tag": "Bolts",
+        "TextTag": "Bolts",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "Block": "44",
-        "Defense": "222",
-        "Durability": "92",
-        "DurabilityMaximum": "92",
-        "ItemLevel": "91",
-        "LevelReq": 76,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Hel Rune",
-            "Tag": "Hel Rune",
-            "TextTag": "Hel Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 0,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Requirements -15%"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Hel Rune",
-            "Tag": "Hel Rune",
-            "TextTag": "Hel Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 0,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Requirements -15%"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "2",
+        "Enhanced": "False",
+        "ItemLevel": "85",
+        "LevelReq": 65,
+        "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "+2 to Cold Skills",
-          "-12% to Enemy Cold Resistance",
-          "+3 to Shiver Armor",
-          "+167% Enhanced Defense",
-          "+5% to Maximum Cold Resist",
-          "Cold Resist +56%",
-          "Requirements -80%",
-          "Socketed (2)"
+          "+1 to All Skills",
+          "+2 to Elemental & Poison Skills",
+          "+25% Piercing Attack",
+          "+15 poison damage over 2 seconds",
+          "Poison Resist +10%",
+          "+5 Life Gained on Ranged Hit"
         ],
         "Position": {
           "x": 5,
@@ -39254,7 +39254,7 @@
         },
         "Size": {
           "invheight": 3,
-          "invwidth": 2
+          "invwidth": 1
         },
         "Worn": "weapon2"
       }
