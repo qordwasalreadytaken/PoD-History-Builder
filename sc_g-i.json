@@ -230937,16 +230937,16 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 91,
-      "Experience": 1766036267,
+      "Experience": 1766550343,
       "Strength": 95,
       "Dexterity": 215,
       "Vitality": 200,
       "Energy": 15,
       "BaseLife": 875,
-      "Life": 1063,
+      "Life": 1080,
       "BaseMana": 150,
-      "Mana": 243,
-      "Gold": 0,
+      "Mana": 236,
+      "Gold": 6770,
       "Stashed": 1353765
     },
     "Bonus": {
@@ -230977,19 +230977,19 @@
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 10,
-        "FireResistance": 48,
+        "FireResistance": 52,
         "MaximumFireResistance": 0,
-        "ColdResistance": 11,
+        "ColdResistance": 15,
         "MaximumColdResistance": 0,
-        "LightningResistance": 11,
+        "LightningResistance": 15,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 11,
+        "PoisonResistance": 15,
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 30,
+        "IncreasedAttackSpeed": 40,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
@@ -231105,7 +231105,7 @@
         "Skills": []
       }
     ],
-    "MercenaryExperience": 92187958,
+    "MercenaryExperience": 92834100,
     "MercenaryType": "Rogue Scout",
     "MercenaryName": "Sharyn",
     "MercenaryLevel": "59",
@@ -231668,24 +231668,27 @@
         "Worn": "weapon1"
       },
       {
-        "Quality": "Rare",
-        "ID": "1976375577",
-        "QualityCode": "q_rare",
-        "Title": "Death Eye",
+        "Quality": "Craft",
+        "ID": "842765982",
+        "QualityCode": "q_crafted",
+        "Title": "Skull Eye",
         "Tag": "Arrows",
         "TextTag": "Arrows",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "88",
-        "LevelReq": 68,
+        "ItemLevel": "98",
+        "LevelReq": 90,
         "SocketCount": "0",
         "PropertyList": [
-          "+3 to Bow and Crossbow Skills (Amazon Only)",
-          "Adds 23-29 damage",
-          "Adds 8-11 cold damage",
-          "+7 to Mana",
-          "All Resistances +11",
-          "19% Damage Taken Gained as Mana when Hit"
+          "\u00ffc1Corrupted",
+          "+1 to Elemental & Poison Skills",
+          "+10% Increased Attack Speed",
+          "Adds 25-27 damage",
+          "+56 to Maximum Damage (Based on Character Level)",
+          "1% Life stolen per hit",
+          "+17 to Life",
+          "All Resistances +15",
+          "Fire Arrow Fires 2 Additional Arrows"
         ],
         "Position": {
           "x": 5,
@@ -232663,34 +232666,116 @@
         "Worn": ""
       },
       {
-        "Quality": "Craft",
-        "ID": "842765982",
-        "QualityCode": "q_crafted",
-        "Title": "Skull Eye",
-        "Tag": "Arrows",
-        "TextTag": "Arrows",
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Topaz",
+        "Tag": "Flawless Topaz",
+        "TextTag": "Flawless Topaz",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "98",
-        "LevelReq": 90,
+        "ItemLevel": "0",
+        "LevelReq": 15,
         "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+1 to Elemental & Poison Skills",
-          "+10% Increased Attack Speed",
-          "Adds 25-27 damage",
-          "+56 to Maximum Damage (Based on Character Level)",
-          "1% Life stolen per hit",
-          "+17 to Life",
-          "All Resistances +15",
-          "Fire Arrow Fires 2 Additional Arrows"
-        ],
+        "PropertyList": [],
         "Position": {
-          "x": 3,
-          "y": 0
+          "x": 4,
+          "y": 4
         },
         "Size": {
-          "invheight": 3,
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Skull",
+        "Tag": "Flawless Skull",
+        "TextTag": "Flawless Skull",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 3,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Topaz",
+        "Tag": "Flawless Topaz",
+        "TextTag": "Flawless Topaz",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 2,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Ith Rune",
+        "Tag": "Ith Rune",
+        "TextTag": "Ith Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 3,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Topaz",
+        "Tag": "Flawless Topaz",
+        "TextTag": "Flawless Topaz",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 2,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -421856,16 +421941,16 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 91,
-      "Experience": 1766036267,
+      "Experience": 1766550343,
       "Strength": 95,
       "Dexterity": 215,
       "Vitality": 200,
       "Energy": 15,
       "BaseLife": 875,
-      "Life": 1063,
+      "Life": 1080,
       "BaseMana": 150,
-      "Mana": 243,
-      "Gold": 0,
+      "Mana": 236,
+      "Gold": 6770,
       "Stashed": 1353765
     },
     "Bonus": {
@@ -421896,19 +421981,19 @@
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 10,
-        "FireResistance": 48,
+        "FireResistance": 52,
         "MaximumFireResistance": 0,
-        "ColdResistance": 11,
+        "ColdResistance": 15,
         "MaximumColdResistance": 0,
-        "LightningResistance": 11,
+        "LightningResistance": 15,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 11,
+        "PoisonResistance": 15,
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 30,
+        "IncreasedAttackSpeed": 40,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
@@ -422024,7 +422109,7 @@
         "Skills": []
       }
     ],
-    "MercenaryExperience": 92187958,
+    "MercenaryExperience": 92834100,
     "MercenaryType": "Rogue Scout",
     "MercenaryName": "Sharyn",
     "MercenaryLevel": "59",
@@ -422587,24 +422672,27 @@
         "Worn": "weapon1"
       },
       {
-        "Quality": "Rare",
-        "ID": "1976375577",
-        "QualityCode": "q_rare",
-        "Title": "Death Eye",
+        "Quality": "Craft",
+        "ID": "842765982",
+        "QualityCode": "q_crafted",
+        "Title": "Skull Eye",
         "Tag": "Arrows",
         "TextTag": "Arrows",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "88",
-        "LevelReq": 68,
+        "ItemLevel": "98",
+        "LevelReq": 90,
         "SocketCount": "0",
         "PropertyList": [
-          "+3 to Bow and Crossbow Skills (Amazon Only)",
-          "Adds 23-29 damage",
-          "Adds 8-11 cold damage",
-          "+7 to Mana",
-          "All Resistances +11",
-          "19% Damage Taken Gained as Mana when Hit"
+          "\u00ffc1Corrupted",
+          "+1 to Elemental & Poison Skills",
+          "+10% Increased Attack Speed",
+          "Adds 25-27 damage",
+          "+56 to Maximum Damage (Based on Character Level)",
+          "1% Life stolen per hit",
+          "+17 to Life",
+          "All Resistances +15",
+          "Fire Arrow Fires 2 Additional Arrows"
         ],
         "Position": {
           "x": 5,
@@ -423582,34 +423670,116 @@
         "Worn": ""
       },
       {
-        "Quality": "Craft",
-        "ID": "842765982",
-        "QualityCode": "q_crafted",
-        "Title": "Skull Eye",
-        "Tag": "Arrows",
-        "TextTag": "Arrows",
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Topaz",
+        "Tag": "Flawless Topaz",
+        "TextTag": "Flawless Topaz",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "98",
-        "LevelReq": 90,
+        "ItemLevel": "0",
+        "LevelReq": 15,
         "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+1 to Elemental & Poison Skills",
-          "+10% Increased Attack Speed",
-          "Adds 25-27 damage",
-          "+56 to Maximum Damage (Based on Character Level)",
-          "1% Life stolen per hit",
-          "+17 to Life",
-          "All Resistances +15",
-          "Fire Arrow Fires 2 Additional Arrows"
-        ],
+        "PropertyList": [],
         "Position": {
-          "x": 3,
-          "y": 0
+          "x": 4,
+          "y": 4
         },
         "Size": {
-          "invheight": 3,
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Skull",
+        "Tag": "Flawless Skull",
+        "TextTag": "Flawless Skull",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 3,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Topaz",
+        "Tag": "Flawless Topaz",
+        "TextTag": "Flawless Topaz",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 2,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Ith Rune",
+        "Tag": "Ith Rune",
+        "TextTag": "Ith Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 3,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Topaz",
+        "Tag": "Flawless Topaz",
+        "TextTag": "Flawless Topaz",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 2,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
