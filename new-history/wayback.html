@@ -1005,10 +1005,30 @@ function createImageHTML(itemObject, hoverContainerId) {
     }
     console.log("Tooltip appended with content:", imageHTML);  // Debugging check
 
+    const itemId = String(itemObject["ID"] || "").trim();
+    if (itemId && itemId !== "0") {
+        imageHTML = imageHTML.replace(
+            "<img ",
+            `<img class="provenance-item" data-provenance-id="${itemId}" `
+        );
+    }
+
     return imageHTML;  
     //console.log("Tooltip appended with content:", imageHTML);  // Debugging check
 } 
     //console.log("Image url2:", imageHTML);  // Debugging check
+
+document.addEventListener("click", function(event) {
+    const itemImage = event.target.closest(".provenance-item");
+    if (!itemImage || !event.ctrlKey || !event.shiftKey) {
+        return;
+    }
+
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    const itemId = itemImage.dataset.provenanceId;
+    window.open(`item-provenance.html?id=${encodeURIComponent(itemId)}`, "_blank", "noopener");
+}, true);
 
 function renderCharms(inventoryItems) {
     // Clear any existing charms from all predefined slots
