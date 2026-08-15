@@ -16,9 +16,9 @@
       "BaseLife": 1187,
       "Life": 1197,
       "BaseMana": 221,
-      "Mana": 231,
-      "Gold": 38183,
-      "Stashed": 2500000
+      "Mana": 275,
+      "Gold": 0,
+      "Stashed": 1009923
     },
     "Bonus": {
       "Strength": 35,
@@ -34,7 +34,7 @@
       "PoisonResistance": 53,
       "MaximumPoisonResistance": 0,
       "MagicFind": 0,
-      "GoldFind": 0,
+      "GoldFind": 33,
       "FasterCastRate": 0,
       "FasterHitRecovery": 0,
       "IncreasedAttackSpeed": 0,
@@ -295,6 +295,37 @@
           "invwidth": 2
         },
         "Worn": "belt"
+      },
+      {
+        "Quality": "Rare",
+        "ID": "327330275",
+        "QualityCode": "q_rare",
+        "Title": "Eagle Heart",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "94",
+        "LevelReq": 30,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+1 to Summon Skills",
+          "+2 to Summoning Skills (Druid Only)",
+          "+44 to Mana",
+          "9% Damage Taken Gained as Mana when Hit",
+          "33% Extra Gold from Monsters"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "amulet"
       },
       {
         "Quality": "Normal",
@@ -13771,63 +13802,63 @@
     "Class": "Assassin",
     "Stats": {
       "Level": 96,
-      "Experience": 2750825026,
-      "Strength": 90,
-      "Dexterity": 60,
-      "Vitality": 400,
+      "Experience": 2750835806,
+      "Strength": 129,
+      "Dexterity": 67,
+      "Vitality": 354,
       "Energy": 25,
-      "BaseLife": 1440,
-      "Life": 1610,
+      "BaseLife": 1302,
+      "Life": 1617,
       "BaseMana": 167,
-      "Mana": 242,
-      "Gold": 113499,
+      "Mana": 337,
+      "Gold": 114763,
       "Stashed": 2500000
     },
     "Bonus": {
-      "Strength": 37,
-      "Dexterity": 41,
+      "Strength": 27,
+      "Dexterity": 46,
       "Vitality": 30,
       "Energy": 0,
-      "FireResistance": 116,
+      "FireResistance": 90,
       "MaximumFireResistance": 0,
-      "ColdResistance": 91,
+      "ColdResistance": 146,
       "MaximumColdResistance": 0,
-      "LightningResistance": 89,
+      "LightningResistance": 110,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 91,
+      "PoisonResistance": 116,
       "MaximumPoisonResistance": 0,
       "MagicFind": 120,
       "GoldFind": 0,
-      "FasterCastRate": 0,
+      "FasterCastRate": 20,
       "FasterHitRecovery": 10,
-      "IncreasedAttackSpeed": 20,
+      "IncreasedAttackSpeed": 0,
       "CrushingBlow": 0,
       "OpenWounds": 0,
       "DeadlyStrike": 0,
       "DamageReduction": 10,
       "CooldownReduction": 0,
       "WeaponSetMain": {
-        "Strength": 30,
+        "Strength": 0,
         "Dexterity": 0,
-        "Vitality": 0,
+        "Vitality": 22,
         "Energy": 0,
         "FireResistance": 0,
         "MaximumFireResistance": 0,
-        "ColdResistance": 60,
+        "ColdResistance": 35,
         "MaximumColdResistance": 0,
-        "LightningResistance": 25,
+        "LightningResistance": 35,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
+        "PoisonResistance": 35,
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 0,
-        "FasterCastRate": 0,
-        "FasterHitRecovery": 0,
+        "FasterCastRate": 35,
+        "FasterHitRecovery": 55,
         "IncreasedAttackSpeed": 40,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
-        "DamageReduction": 30,
+        "DamageReduction": 0,
         "CooldownReduction": 0
       },
       "WeaponSetOffhand": {
@@ -13858,43 +13889,58 @@
     "SkillTabs": [
       {
         "Name": "Traps",
-        "Total": 102,
+        "Total": 40,
         "Skills": [
           {
             "ID": 1,
             "Name": "Fire Blast",
-            "Level": 20
+            "Level": 13
+          },
+          {
+            "ID": 6,
+            "Name": "Shock Web",
+            "Level": 1
           },
           {
             "ID": 7,
             "Name": "Blade Throw",
-            "Level": 20
+            "Level": 1
+          },
+          {
+            "ID": 11,
+            "Name": "Charged Bolt Sentry",
+            "Level": 1
           },
           {
             "ID": 12,
             "Name": "Wake of Fire",
-            "Level": 20
+            "Level": 1
           },
           {
             "ID": 16,
             "Name": "Blade Fury",
-            "Level": 2
+            "Level": 1
           },
           {
-            "ID": 22,
-            "Name": "Wake of Inferno",
+            "ID": 21,
+            "Name": "Lightning Sentry",
+            "Level": 1
+          },
+          {
+            "ID": 26,
+            "Name": "Death Sentry",
             "Level": 20
           },
           {
             "ID": 27,
             "Name": "Blade Shield",
-            "Level": 20
+            "Level": 1
           }
         ]
       },
       {
         "Name": "Shadow Disciplines",
-        "Total": 2,
+        "Total": 67,
         "Skills": [
           {
             "ID": 2,
@@ -13902,35 +13948,59 @@
             "Level": 1
           },
           {
+            "ID": 3,
+            "Name": "Psychic Hammer",
+            "Level": 20
+          },
+          {
             "ID": 8,
             "Name": "Burst of Speed",
+            "Level": 1
+          },
+          {
+            "ID": 13,
+            "Name": "Weapon Block",
+            "Level": 1
+          },
+          {
+            "ID": 14,
+            "Name": "Cloak of Shadows",
+            "Level": 20
+          },
+          {
+            "ID": 17,
+            "Name": "Fade",
+            "Level": 1
+          },
+          {
+            "ID": 18,
+            "Name": "Shadow Warrior",
+            "Level": 1
+          },
+          {
+            "ID": 23,
+            "Name": "Mind Blast",
+            "Level": 20
+          },
+          {
+            "ID": 28,
+            "Name": "Venom",
+            "Level": 1
+          },
+          {
+            "ID": 29,
+            "Name": "Shadow Master",
             "Level": 1
           }
         ]
       },
       {
         "Name": "Martial Arts",
-        "Total": 3,
-        "Skills": [
-          {
-            "ID": 5,
-            "Name": "Dragon Talon",
-            "Level": 1
-          },
-          {
-            "ID": 10,
-            "Name": "Dragon Claw",
-            "Level": 1
-          },
-          {
-            "ID": 25,
-            "Name": "Dragon Flight",
-            "Level": 1
-          }
-        ]
+        "Total": 0,
+        "Skills": []
       }
     ],
-    "MercenaryExperience": 108306528,
+    "MercenaryExperience": 108320138,
     "MercenaryType": "Rogue Scout",
     "MercenaryName": "Annor",
     "MercenaryLevel": "62",
@@ -13998,36 +14068,6 @@
           "invwidth": 1
         },
         "Worn": "ring2"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "3360522645",
-        "QualityCode": "q_unique",
-        "Title": "The Mahim-Oak Curio",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "50",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "10% Bonus to Attack Rating",
-          "+10% Enhanced Defense",
-          "+10 Defense",
-          "+10 to all Attributes",
-          "All Resistances +10"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": "amulet"
       },
       {
         "Quality": "Unique",
@@ -14519,38 +14559,6 @@
         "Worn": "sweapon2"
       },
       {
-        "Quality": "Set",
-        "ID": "725833061",
-        "QualityCode": "q_set",
-        "Title": "Laying of Hands",
-        "Tag": "Bramble Mitts",
-        "TextTag": "Bramble Mitts",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "62",
-        "Durability": "7",
-        "DurabilityMaximum": "12",
-        "ItemLevel": "89",
-        "LevelReq": 63,
-        "SocketCount": "0",
-        "PropertyList": [
-          "10% Chance to cast level 3 Holy Bolt on striking",
-          "+20% Increased Attack Speed",
-          "+237% Damage to Demons",
-          "+25 Defense",
-          "Fire Resist +50%"
-        ],
-        "Position": {
-          "x": 10,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "gloves"
-      },
-      {
         "Quality": "Unique",
         "ID": "3279374971",
         "QualityCode": "q_unique",
@@ -14582,6 +14590,70 @@
           "invwidth": 2
         },
         "Worn": "belt"
+      },
+      {
+        "Quality": "Magic",
+        "ID": "212151919",
+        "QualityCode": "q_magic",
+        "Title": "Shadow Amulet of Skill",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "91",
+        "LevelReq": 45,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+3 to Shadow Disciplines (Assassin Only)",
+          "+5 to Dexterity",
+          "All Resistances +5"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "amulet"
+      },
+      {
+        "Quality": "Set",
+        "ID": "196772598",
+        "QualityCode": "q_set",
+        "Title": "Trang-Oul's Claws",
+        "Tag": "Heavy Bracers",
+        "TextTag": "Heavy Bracers",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "42",
+        "Durability": "8",
+        "DurabilityMaximum": "16",
+        "ItemLevel": "86",
+        "LevelReq": 45,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+2 to Curses (Necromancer Only)",
+          "+20% Faster Cast Rate",
+          "+25% Increased Poison Damage",
+          "+30 Defense",
+          "Cold Resist +30%",
+          "+5 Life Gained on Ranged Hit",
+          "+10 Life Gained on Melee Hit"
+        ],
+        "Position": {
+          "x": 10,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "gloves"
       },
       {
         "Quality": "Set",
@@ -14620,33 +14692,137 @@
         "Worn": "weapon1"
       },
       {
-        "Quality": "Unique",
-        "ID": "2919757236",
-        "QualityCode": "q_unique",
-        "Title": "Stormshield",
+        "Quality": "Normal",
+        "ID": "58604628",
+        "QualityCode": "q_runeword",
+        "Title": "Spirit",
         "Tag": "Monarch",
         "TextTag": "Monarch",
+        "RuneTag": "TalThulOrtAmn",
         "Ethereal": "False",
         "Enhanced": "False",
-        "Block": "72",
-        "Defense": "137",
-        "Durability": "80",
+        "Block": "47",
+        "Defense": "146",
+        "Durability": "85",
         "DurabilityMaximum": "86",
-        "ItemLevel": "87",
-        "LevelReq": 73,
-        "SocketCount": "2",
+        "ItemLevel": "89",
+        "LevelReq": 54,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Tal Rune",
+            "Tag": "Tal Rune",
+            "TextTag": "Tal Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 17,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Poison Resist +35%"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Thul Rune",
+            "Tag": "Thul Rune",
+            "TextTag": "Thul Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 23,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Cold Resist +35%"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ort Rune",
+            "Tag": "Ort Rune",
+            "TextTag": "Ort Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 21,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Lightning Resist +35%"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Amn Rune",
+            "Tag": "Amn Rune",
+            "TextTag": "Amn Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 25,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Attacker Takes Damage of 14"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "4",
         "PropertyList": [
-          "\u00ffc1Corrupted",
-          "Indestructible",
-          "+35% Faster Block Rate",
-          "25% Increased Chance of Blocking",
-          "+360 Defense (Based on Character Level)",
-          "+30 to Strength",
-          "Cold Resist +60%",
-          "Lightning Resist +25%",
-          "Physical Damage Taken Reduced by 30%",
-          "Attacker Takes Lightning Damage of 10",
-          "Socketed (2)"
+          "+2 to All Skills",
+          "+35% Faster Cast Rate",
+          "+55% Faster Hit Recovery",
+          "+250 Defense vs. Missile",
+          "+22 to Vitality",
+          "+112 to Mana",
+          "Cold Resist +35%",
+          "Lightning Resist +35%",
+          "Poison Resist +35%",
+          "+8 Magic Absorb",
+          "Attacker Takes Damage of 14",
+          "Socketed (4)"
         ],
         "Position": {
           "x": 5,
@@ -14660,32 +14836,6 @@
       }
     ],
     "Inventory": [
-      {
-        "Quality": "Magic",
-        "ID": "255265986",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
       {
         "Quality": "Normal",
         "ID": "3287183280",
@@ -14705,166 +14855,6 @@
         },
         "Size": {
           "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unique",
-        "ID": "2933905972",
-        "QualityCode": "q_unique",
-        "Title": "Hellfire Torch",
-        "Tag": "Large Charm",
-        "TextTag": "Charm Medium",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "99",
-        "LevelReq": 75,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+3 to Assassin Skill Levels",
-          "+10 to all Attributes",
-          "All Resistances +11",
-          "+8 to Light Radius"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 7
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1867849425",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Blight",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "77",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "+6 poison damage over 3 seconds"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2526748480",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "94",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "454576019",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "87",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)"
-        ],
-        "Position": {
-          "x": 3,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2229143303",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "86",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "3397962478",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "86",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)"
-        ],
-        "Position": {
-          "x": 5,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
           "invwidth": 1
         },
         "Worn": ""
@@ -14916,32 +14906,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "1024313300",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "79",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Unique",
         "ID": "3141222931",
         "QualityCode": "q_unique",
@@ -14980,59 +14944,263 @@
         "Worn": "weapon1"
       },
       {
-        "Quality": "Set",
-        "ID": "1388067794",
-        "QualityCode": "q_set",
-        "Title": "Naj's Puzzler",
-        "Tag": "Elder Staff",
-        "TextTag": "Elder Staff",
+        "Quality": "Unique",
+        "ID": "2933905972",
+        "QualityCode": "q_unique",
+        "Title": "Hellfire Torch",
+        "Tag": "Large Charm",
+        "TextTag": "Charm Medium",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "200",
-        "DamageMaximum": "232",
-        "Durability": "159",
-        "DurabilityMaximum": "159",
-        "ItemLevel": "89",
-        "LevelReq": 78,
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "99",
+        "LevelReq": 75,
         "SocketCount": "0",
         "PropertyList": [
-          "+1 to All Skills",
-          "+30% Faster Cast Rate",
-          "+150% Enhanced Damage",
-          "+50% Damage to Undead",
-          "Adds 6-45 Lightning damage",
-          "+35 to Energy",
-          "+70 to Mana",
-          "Level 11 Teleport (57/69 Charges)"
+          "+3 to Assassin Skill Levels",
+          "+10 to all Attributes",
+          "All Resistances +11",
+          "+8 to Light Radius"
         ],
         "Position": {
-          "x": 7,
-          "y": 0
+          "x": 0,
+          "y": 7
         },
         "Size": {
-          "invheight": 4,
+          "invheight": 2,
           "invwidth": 1
         },
         "Worn": ""
       },
       {
         "Quality": "Magic",
-        "ID": "2124831174",
+        "ID": "1418044949",
         "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm",
+        "Title": "Mentalist's Grand Charm",
         "Tag": "Grand Charm",
         "TextTag": "Charm Large",
         "Ethereal": "False",
         "Enhanced": "False",
         "AlternateGraphics": "0",
-        "ItemLevel": "85",
+        "ItemLevel": "88",
         "LevelReq": 42,
         "SocketCount": "0",
         "PropertyList": [
-          "+1 to Traps (Assassin Only)"
+          "+1 to Shadow Disciplines (Assassin Only)"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1879459172",
+        "QualityCode": "q_magic",
+        "Title": "Mentalist's Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Shadow Disciplines (Assassin Only)"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1858474051",
+        "QualityCode": "q_magic",
+        "Title": "Mentalist's Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "86",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Shadow Disciplines (Assassin Only)"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1729755647",
+        "QualityCode": "q_magic",
+        "Title": "Mentalist's Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Shadow Disciplines (Assassin Only)"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1300541317",
+        "QualityCode": "q_magic",
+        "Title": "Mentalist's Grand Charm of Life",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Shadow Disciplines (Assassin Only)",
+          "+13 to Life"
         ],
         "Position": {
           "x": 1,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3601832154",
+        "QualityCode": "q_magic",
+        "Title": "Sapphire Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "86",
+        "LevelReq": 22,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Cold Resist +30%"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1612972733",
+        "QualityCode": "q_magic",
+        "Title": "Emerald Grand Charm of Inertia",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "86",
+        "LevelReq": 22,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+7% Faster Run/Walk",
+          "Poison Resist +30%"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3915757440",
+        "QualityCode": "q_magic",
+        "Title": "Ruby Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 22,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Fire Resist +29%"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2382232864",
+        "QualityCode": "q_magic",
+        "Title": "Amber Grand Charm of Inertia",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "86",
+        "LevelReq": 22,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+7% Faster Run/Walk",
+          "Lightning Resist +26%"
+        ],
+        "Position": {
+          "x": 9,
           "y": 6
         },
         "Size": {
@@ -15055,8 +15223,8 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 9,
-          "y": 4
+          "x": 2,
+          "y": 3
         },
         "Size": {
           "invheight": 1,
@@ -15065,32 +15233,72 @@
         "Worn": ""
       },
       {
-        "Quality": "Set",
-        "ID": "1933335581",
-        "QualityCode": "q_set",
-        "Title": "Immortal King's Detail",
-        "Tag": "War Belt",
-        "TextTag": "War Belt",
+        "Quality": "Unique",
+        "ID": "2919757236",
+        "QualityCode": "q_unique",
+        "Title": "Stormshield",
+        "Tag": "Monarch",
+        "TextTag": "Monarch",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "53",
-        "Durability": "23",
-        "DurabilityMaximum": "24",
-        "ItemLevel": "89",
-        "LevelReq": 29,
-        "SocketCount": "0",
+        "Enhanced": "False",
+        "Block": "72",
+        "Defense": "137",
+        "Durability": "80",
+        "DurabilityMaximum": "86",
+        "ItemLevel": "87",
+        "LevelReq": 73,
+        "SocketCount": "2",
         "PropertyList": [
-          "+36 Defense",
-          "+25 to Strength",
-          "Lightning Resist +31%",
-          "Fire Resist +28%"
+          "\u00ffc1Corrupted",
+          "Indestructible",
+          "+35% Faster Block Rate",
+          "25% Increased Chance of Blocking",
+          "+360 Defense (Based on Character Level)",
+          "+30 to Strength",
+          "Cold Resist +60%",
+          "Lightning Resist +25%",
+          "Physical Damage Taken Reduced by 30%",
+          "Attacker Takes Lightning Damage of 10",
+          "Socketed (2)"
         ],
         "Position": {
-          "x": 8,
-          "y": 3
+          "x": 2,
+          "y": 0
         },
         "Size": {
-          "invheight": 1,
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Set",
+        "ID": "725833061",
+        "QualityCode": "q_set",
+        "Title": "Laying of Hands",
+        "Tag": "Bramble Mitts",
+        "TextTag": "Bramble Mitts",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "62",
+        "Durability": "7",
+        "DurabilityMaximum": "12",
+        "ItemLevel": "89",
+        "LevelReq": 63,
+        "SocketCount": "0",
+        "PropertyList": [
+          "10% Chance to cast level 3 Holy Bolt on striking",
+          "+20% Increased Attack Speed",
+          "+237% Damage to Demons",
+          "+25 Defense",
+          "Fire Resist +50%"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
           "invwidth": 2
         },
         "Worn": ""
@@ -214099,9 +214307,9 @@
       "BaseLife": 1187,
       "Life": 1197,
       "BaseMana": 221,
-      "Mana": 231,
-      "Gold": 38183,
-      "Stashed": 2500000
+      "Mana": 275,
+      "Gold": 0,
+      "Stashed": 1009923
     },
     "Bonus": {
       "Strength": 35,
@@ -214117,7 +214325,7 @@
       "PoisonResistance": 53,
       "MaximumPoisonResistance": 0,
       "MagicFind": 0,
-      "GoldFind": 0,
+      "GoldFind": 33,
       "FasterCastRate": 0,
       "FasterHitRecovery": 0,
       "IncreasedAttackSpeed": 0,
@@ -214378,6 +214586,37 @@
           "invwidth": 2
         },
         "Worn": "belt"
+      },
+      {
+        "Quality": "Rare",
+        "ID": "327330275",
+        "QualityCode": "q_rare",
+        "Title": "Eagle Heart",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "94",
+        "LevelReq": 30,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+1 to Summon Skills",
+          "+2 to Summoning Skills (Druid Only)",
+          "+44 to Mana",
+          "9% Damage Taken Gained as Mana when Hit",
+          "33% Extra Gold from Monsters"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "amulet"
       },
       {
         "Quality": "Normal",
@@ -225716,63 +225955,63 @@
     "Class": "Assassin",
     "Stats": {
       "Level": 96,
-      "Experience": 2750825026,
-      "Strength": 90,
-      "Dexterity": 60,
-      "Vitality": 400,
+      "Experience": 2750835806,
+      "Strength": 129,
+      "Dexterity": 67,
+      "Vitality": 354,
       "Energy": 25,
-      "BaseLife": 1440,
-      "Life": 1610,
+      "BaseLife": 1302,
+      "Life": 1617,
       "BaseMana": 167,
-      "Mana": 242,
-      "Gold": 113499,
+      "Mana": 337,
+      "Gold": 114763,
       "Stashed": 2500000
     },
     "Bonus": {
-      "Strength": 37,
-      "Dexterity": 41,
+      "Strength": 27,
+      "Dexterity": 46,
       "Vitality": 30,
       "Energy": 0,
-      "FireResistance": 116,
+      "FireResistance": 90,
       "MaximumFireResistance": 0,
-      "ColdResistance": 91,
+      "ColdResistance": 146,
       "MaximumColdResistance": 0,
-      "LightningResistance": 89,
+      "LightningResistance": 110,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 91,
+      "PoisonResistance": 116,
       "MaximumPoisonResistance": 0,
       "MagicFind": 120,
       "GoldFind": 0,
-      "FasterCastRate": 0,
+      "FasterCastRate": 20,
       "FasterHitRecovery": 10,
-      "IncreasedAttackSpeed": 20,
+      "IncreasedAttackSpeed": 0,
       "CrushingBlow": 0,
       "OpenWounds": 0,
       "DeadlyStrike": 0,
       "DamageReduction": 10,
       "CooldownReduction": 0,
       "WeaponSetMain": {
-        "Strength": 30,
+        "Strength": 0,
         "Dexterity": 0,
-        "Vitality": 0,
+        "Vitality": 22,
         "Energy": 0,
         "FireResistance": 0,
         "MaximumFireResistance": 0,
-        "ColdResistance": 60,
+        "ColdResistance": 35,
         "MaximumColdResistance": 0,
-        "LightningResistance": 25,
+        "LightningResistance": 35,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
+        "PoisonResistance": 35,
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 0,
-        "FasterCastRate": 0,
-        "FasterHitRecovery": 0,
+        "FasterCastRate": 35,
+        "FasterHitRecovery": 55,
         "IncreasedAttackSpeed": 40,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
-        "DamageReduction": 30,
+        "DamageReduction": 0,
         "CooldownReduction": 0
       },
       "WeaponSetOffhand": {
@@ -225803,43 +226042,58 @@
     "SkillTabs": [
       {
         "Name": "Traps",
-        "Total": 102,
+        "Total": 40,
         "Skills": [
           {
             "ID": 1,
             "Name": "Fire Blast",
-            "Level": 20
+            "Level": 13
+          },
+          {
+            "ID": 6,
+            "Name": "Shock Web",
+            "Level": 1
           },
           {
             "ID": 7,
             "Name": "Blade Throw",
-            "Level": 20
+            "Level": 1
+          },
+          {
+            "ID": 11,
+            "Name": "Charged Bolt Sentry",
+            "Level": 1
           },
           {
             "ID": 12,
             "Name": "Wake of Fire",
-            "Level": 20
+            "Level": 1
           },
           {
             "ID": 16,
             "Name": "Blade Fury",
-            "Level": 2
+            "Level": 1
           },
           {
-            "ID": 22,
-            "Name": "Wake of Inferno",
+            "ID": 21,
+            "Name": "Lightning Sentry",
+            "Level": 1
+          },
+          {
+            "ID": 26,
+            "Name": "Death Sentry",
             "Level": 20
           },
           {
             "ID": 27,
             "Name": "Blade Shield",
-            "Level": 20
+            "Level": 1
           }
         ]
       },
       {
         "Name": "Shadow Disciplines",
-        "Total": 2,
+        "Total": 67,
         "Skills": [
           {
             "ID": 2,
@@ -225847,35 +226101,59 @@
             "Level": 1
           },
           {
+            "ID": 3,
+            "Name": "Psychic Hammer",
+            "Level": 20
+          },
+          {
             "ID": 8,
             "Name": "Burst of Speed",
+            "Level": 1
+          },
+          {
+            "ID": 13,
+            "Name": "Weapon Block",
+            "Level": 1
+          },
+          {
+            "ID": 14,
+            "Name": "Cloak of Shadows",
+            "Level": 20
+          },
+          {
+            "ID": 17,
+            "Name": "Fade",
+            "Level": 1
+          },
+          {
+            "ID": 18,
+            "Name": "Shadow Warrior",
+            "Level": 1
+          },
+          {
+            "ID": 23,
+            "Name": "Mind Blast",
+            "Level": 20
+          },
+          {
+            "ID": 28,
+            "Name": "Venom",
+            "Level": 1
+          },
+          {
+            "ID": 29,
+            "Name": "Shadow Master",
             "Level": 1
           }
         ]
       },
       {
         "Name": "Martial Arts",
-        "Total": 3,
-        "Skills": [
-          {
-            "ID": 5,
-            "Name": "Dragon Talon",
-            "Level": 1
-          },
-          {
-            "ID": 10,
-            "Name": "Dragon Claw",
-            "Level": 1
-          },
-          {
-            "ID": 25,
-            "Name": "Dragon Flight",
-            "Level": 1
-          }
-        ]
+        "Total": 0,
+        "Skills": []
       }
     ],
-    "MercenaryExperience": 108306528,
+    "MercenaryExperience": 108320138,
     "MercenaryType": "Rogue Scout",
     "MercenaryName": "Annor",
     "MercenaryLevel": "62",
@@ -225943,36 +226221,6 @@
           "invwidth": 1
         },
         "Worn": "ring2"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "3360522645",
-        "QualityCode": "q_unique",
-        "Title": "The Mahim-Oak Curio",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "50",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "10% Bonus to Attack Rating",
-          "+10% Enhanced Defense",
-          "+10 Defense",
-          "+10 to all Attributes",
-          "All Resistances +10"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": "amulet"
       },
       {
         "Quality": "Unique",
@@ -226464,38 +226712,6 @@
         "Worn": "sweapon2"
       },
       {
-        "Quality": "Set",
-        "ID": "725833061",
-        "QualityCode": "q_set",
-        "Title": "Laying of Hands",
-        "Tag": "Bramble Mitts",
-        "TextTag": "Bramble Mitts",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "62",
-        "Durability": "7",
-        "DurabilityMaximum": "12",
-        "ItemLevel": "89",
-        "LevelReq": 63,
-        "SocketCount": "0",
-        "PropertyList": [
-          "10% Chance to cast level 3 Holy Bolt on striking",
-          "+20% Increased Attack Speed",
-          "+237% Damage to Demons",
-          "+25 Defense",
-          "Fire Resist +50%"
-        ],
-        "Position": {
-          "x": 10,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "gloves"
-      },
-      {
         "Quality": "Unique",
         "ID": "3279374971",
         "QualityCode": "q_unique",
@@ -226527,6 +226743,70 @@
           "invwidth": 2
         },
         "Worn": "belt"
+      },
+      {
+        "Quality": "Magic",
+        "ID": "212151919",
+        "QualityCode": "q_magic",
+        "Title": "Shadow Amulet of Skill",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "91",
+        "LevelReq": 45,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+3 to Shadow Disciplines (Assassin Only)",
+          "+5 to Dexterity",
+          "All Resistances +5"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "amulet"
+      },
+      {
+        "Quality": "Set",
+        "ID": "196772598",
+        "QualityCode": "q_set",
+        "Title": "Trang-Oul's Claws",
+        "Tag": "Heavy Bracers",
+        "TextTag": "Heavy Bracers",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "42",
+        "Durability": "8",
+        "DurabilityMaximum": "16",
+        "ItemLevel": "86",
+        "LevelReq": 45,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+2 to Curses (Necromancer Only)",
+          "+20% Faster Cast Rate",
+          "+25% Increased Poison Damage",
+          "+30 Defense",
+          "Cold Resist +30%",
+          "+5 Life Gained on Ranged Hit",
+          "+10 Life Gained on Melee Hit"
+        ],
+        "Position": {
+          "x": 10,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "gloves"
       },
       {
         "Quality": "Set",
@@ -226565,33 +226845,137 @@
         "Worn": "weapon1"
       },
       {
-        "Quality": "Unique",
-        "ID": "2919757236",
-        "QualityCode": "q_unique",
-        "Title": "Stormshield",
+        "Quality": "Normal",
+        "ID": "58604628",
+        "QualityCode": "q_runeword",
+        "Title": "Spirit",
         "Tag": "Monarch",
         "TextTag": "Monarch",
+        "RuneTag": "TalThulOrtAmn",
         "Ethereal": "False",
         "Enhanced": "False",
-        "Block": "72",
-        "Defense": "137",
-        "Durability": "80",
+        "Block": "47",
+        "Defense": "146",
+        "Durability": "85",
         "DurabilityMaximum": "86",
-        "ItemLevel": "87",
-        "LevelReq": 73,
-        "SocketCount": "2",
+        "ItemLevel": "89",
+        "LevelReq": 54,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Tal Rune",
+            "Tag": "Tal Rune",
+            "TextTag": "Tal Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 17,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Poison Resist +35%"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Thul Rune",
+            "Tag": "Thul Rune",
+            "TextTag": "Thul Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 23,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Cold Resist +35%"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ort Rune",
+            "Tag": "Ort Rune",
+            "TextTag": "Ort Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 21,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Lightning Resist +35%"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Amn Rune",
+            "Tag": "Amn Rune",
+            "TextTag": "Amn Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 25,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Attacker Takes Damage of 14"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "4",
         "PropertyList": [
-          "\u00ffc1Corrupted",
-          "Indestructible",
-          "+35% Faster Block Rate",
-          "25% Increased Chance of Blocking",
-          "+360 Defense (Based on Character Level)",
-          "+30 to Strength",
-          "Cold Resist +60%",
-          "Lightning Resist +25%",
-          "Physical Damage Taken Reduced by 30%",
-          "Attacker Takes Lightning Damage of 10",
-          "Socketed (2)"
+          "+2 to All Skills",
+          "+35% Faster Cast Rate",
+          "+55% Faster Hit Recovery",
+          "+250 Defense vs. Missile",
+          "+22 to Vitality",
+          "+112 to Mana",
+          "Cold Resist +35%",
+          "Lightning Resist +35%",
+          "Poison Resist +35%",
+          "+8 Magic Absorb",
+          "Attacker Takes Damage of 14",
+          "Socketed (4)"
         ],
         "Position": {
           "x": 5,
@@ -226605,32 +226989,6 @@
       }
     ],
     "Inventory": [
-      {
-        "Quality": "Magic",
-        "ID": "255265986",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "88",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
       {
         "Quality": "Normal",
         "ID": "3287183280",
@@ -226650,166 +227008,6 @@
         },
         "Size": {
           "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unique",
-        "ID": "2933905972",
-        "QualityCode": "q_unique",
-        "Title": "Hellfire Torch",
-        "Tag": "Large Charm",
-        "TextTag": "Charm Medium",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "99",
-        "LevelReq": 75,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+3 to Assassin Skill Levels",
-          "+10 to all Attributes",
-          "All Resistances +11",
-          "+8 to Light Radius"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 7
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1867849425",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Blight",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "77",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "+6 poison damage over 3 seconds"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2526748480",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "94",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "454576019",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "87",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)"
-        ],
-        "Position": {
-          "x": 3,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2229143303",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "86",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "3397962478",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "86",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)"
-        ],
-        "Position": {
-          "x": 5,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
           "invwidth": 1
         },
         "Worn": ""
@@ -226861,32 +227059,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "1024313300",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "79",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Unique",
         "ID": "3141222931",
         "QualityCode": "q_unique",
@@ -226925,59 +227097,263 @@
         "Worn": "weapon1"
       },
       {
-        "Quality": "Set",
-        "ID": "1388067794",
-        "QualityCode": "q_set",
-        "Title": "Naj's Puzzler",
-        "Tag": "Elder Staff",
-        "TextTag": "Elder Staff",
+        "Quality": "Unique",
+        "ID": "2933905972",
+        "QualityCode": "q_unique",
+        "Title": "Hellfire Torch",
+        "Tag": "Large Charm",
+        "TextTag": "Charm Medium",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "200",
-        "DamageMaximum": "232",
-        "Durability": "159",
-        "DurabilityMaximum": "159",
-        "ItemLevel": "89",
-        "LevelReq": 78,
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "99",
+        "LevelReq": 75,
         "SocketCount": "0",
         "PropertyList": [
-          "+1 to All Skills",
-          "+30% Faster Cast Rate",
-          "+150% Enhanced Damage",
-          "+50% Damage to Undead",
-          "Adds 6-45 Lightning damage",
-          "+35 to Energy",
-          "+70 to Mana",
-          "Level 11 Teleport (57/69 Charges)"
+          "+3 to Assassin Skill Levels",
+          "+10 to all Attributes",
+          "All Resistances +11",
+          "+8 to Light Radius"
         ],
         "Position": {
-          "x": 7,
-          "y": 0
+          "x": 0,
+          "y": 7
         },
         "Size": {
-          "invheight": 4,
+          "invheight": 2,
           "invwidth": 1
         },
         "Worn": ""
       },
       {
         "Quality": "Magic",
-        "ID": "2124831174",
+        "ID": "1418044949",
         "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm",
+        "Title": "Mentalist's Grand Charm",
         "Tag": "Grand Charm",
         "TextTag": "Charm Large",
         "Ethereal": "False",
         "Enhanced": "False",
         "AlternateGraphics": "0",
-        "ItemLevel": "85",
+        "ItemLevel": "88",
         "LevelReq": 42,
         "SocketCount": "0",
         "PropertyList": [
-          "+1 to Traps (Assassin Only)"
+          "+1 to Shadow Disciplines (Assassin Only)"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1879459172",
+        "QualityCode": "q_magic",
+        "Title": "Mentalist's Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Shadow Disciplines (Assassin Only)"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1858474051",
+        "QualityCode": "q_magic",
+        "Title": "Mentalist's Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "86",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Shadow Disciplines (Assassin Only)"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1729755647",
+        "QualityCode": "q_magic",
+        "Title": "Mentalist's Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Shadow Disciplines (Assassin Only)"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1300541317",
+        "QualityCode": "q_magic",
+        "Title": "Mentalist's Grand Charm of Life",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Shadow Disciplines (Assassin Only)",
+          "+13 to Life"
         ],
         "Position": {
           "x": 1,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3601832154",
+        "QualityCode": "q_magic",
+        "Title": "Sapphire Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "86",
+        "LevelReq": 22,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Cold Resist +30%"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1612972733",
+        "QualityCode": "q_magic",
+        "Title": "Emerald Grand Charm of Inertia",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "86",
+        "LevelReq": 22,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+7% Faster Run/Walk",
+          "Poison Resist +30%"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3915757440",
+        "QualityCode": "q_magic",
+        "Title": "Ruby Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 22,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Fire Resist +29%"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2382232864",
+        "QualityCode": "q_magic",
+        "Title": "Amber Grand Charm of Inertia",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "86",
+        "LevelReq": 22,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+7% Faster Run/Walk",
+          "Lightning Resist +26%"
+        ],
+        "Position": {
+          "x": 9,
           "y": 6
         },
         "Size": {
@@ -227000,8 +227376,8 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 9,
-          "y": 4
+          "x": 2,
+          "y": 3
         },
         "Size": {
           "invheight": 1,
@@ -227010,32 +227386,72 @@
         "Worn": ""
       },
       {
-        "Quality": "Set",
-        "ID": "1933335581",
-        "QualityCode": "q_set",
-        "Title": "Immortal King's Detail",
-        "Tag": "War Belt",
-        "TextTag": "War Belt",
+        "Quality": "Unique",
+        "ID": "2919757236",
+        "QualityCode": "q_unique",
+        "Title": "Stormshield",
+        "Tag": "Monarch",
+        "TextTag": "Monarch",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "53",
-        "Durability": "23",
-        "DurabilityMaximum": "24",
-        "ItemLevel": "89",
-        "LevelReq": 29,
-        "SocketCount": "0",
+        "Enhanced": "False",
+        "Block": "72",
+        "Defense": "137",
+        "Durability": "80",
+        "DurabilityMaximum": "86",
+        "ItemLevel": "87",
+        "LevelReq": 73,
+        "SocketCount": "2",
         "PropertyList": [
-          "+36 Defense",
-          "+25 to Strength",
-          "Lightning Resist +31%",
-          "Fire Resist +28%"
+          "\u00ffc1Corrupted",
+          "Indestructible",
+          "+35% Faster Block Rate",
+          "25% Increased Chance of Blocking",
+          "+360 Defense (Based on Character Level)",
+          "+30 to Strength",
+          "Cold Resist +60%",
+          "Lightning Resist +25%",
+          "Physical Damage Taken Reduced by 30%",
+          "Attacker Takes Lightning Damage of 10",
+          "Socketed (2)"
         ],
         "Position": {
-          "x": 8,
-          "y": 3
+          "x": 2,
+          "y": 0
         },
         "Size": {
-          "invheight": 1,
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Set",
+        "ID": "725833061",
+        "QualityCode": "q_set",
+        "Title": "Laying of Hands",
+        "Tag": "Bramble Mitts",
+        "TextTag": "Bramble Mitts",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "62",
+        "Durability": "7",
+        "DurabilityMaximum": "12",
+        "ItemLevel": "89",
+        "LevelReq": 63,
+        "SocketCount": "0",
+        "PropertyList": [
+          "10% Chance to cast level 3 Holy Bolt on striking",
+          "+20% Increased Attack Speed",
+          "+237% Damage to Demons",
+          "+25 Defense",
+          "Fire Resist +50%"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
           "invwidth": 2
         },
         "Worn": ""
