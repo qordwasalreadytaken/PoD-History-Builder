@@ -11611,5 +11611,71 @@ const synthInventory = [
     "seen_date": "2026-08-05",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Langer+Briser%2C0%2Cnone%2Cias%3A15%2Cdamage_bonus%3A192%2Clife_leech%3A8%2Cpmh%3A1%2Cknockback%3A1%2Clife%3A30%2Cmf%3A45"
+  },
+  {
+    "id": "0afb6fe605fd4e64746a3f1aad3d74b90d0f9731d4cad2e97b33e56b255e95a2",
+    "friendly_id": 194,
+    "owner": "Stabadon",
+    "base_type": "Synthesized Legend Spike",
+    "title": "Ghostflame",
+    "properties": [
+      "100% Chance to cast level 50 Holy Bolt when you Level-Up",
+      "Indestructible",
+      "+404% Enhanced Damage",
+      "Ignore Target's Defense",
+      "+28 to Attack Rating",
+      "Adds 118-123 Magic damage",
+      "Adds 3-5 cold damage",
+      "-4% to Enemy Magic Resistance",
+      "+5% Increased Magic Skill Damage",
+      "+15 to Dexterity",
+      "Ethereal (Cannot be Repaired), Socketed (1)"
+    ],
+    "synthesised_from": [
+      "Gleamscythe",
+      "Dimoak's Hew",
+      "Stormstrike"
+    ],
+    "location": "Equipped",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "True",
+    "DamageMinimum": "231",
+    "DamageMaximum": "352",
+    "LevelReq": 66,
+    "SocketCount": "1",
+    "seen_date": "2026-08-16",
+    "sockets": [
+      {
+        "Quality": "Unique",
+        "ID": "294782163",
+        "QualityCode": "q_unique",
+        "Title": "Rainbow Facet",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "89",
+        "LevelReq": 49,
+        "SocketCount": "0",
+        "PropertyList": [
+          "100% Chance to cast level 50 Holy Bolt when you Level-Up",
+          "Adds 10-15 Magic damage",
+          "-4% to Enemy Magic Resistance",
+          "+5% Increased Magic Skill Damage"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      }
+    ],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Ghostflame%2C0%2Cnone%2Cindestructible%3A1%2Cdamage_bonus%3A404%2Car%3A28%2Cdamage%3A123%2CcDamage_min%3A3%2CcDamage_max%3A5%2Cenemy_mRes%3A-4%2Cdexterity%3A15%2Cethereal%3A1%2Cctc%3A%5B100%2C+50%2C+%27Holy+Bolt%27%2C+%27when+you+Level-Up%27%5D"
   }
 ];
