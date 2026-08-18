@@ -11677,5 +11677,40 @@ const synthInventory = [
       }
     ],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Ghostflame%2C0%2Cnone%2Cindestructible%3A1%2Cdamage_bonus%3A404%2Car%3A28%2Cdamage%3A123%2CcDamage_min%3A3%2CcDamage_max%3A5%2Cenemy_mRes%3A-4%2Cdexterity%3A15%2Cethereal%3A1%2Cctc%3A%5B100%2C+50%2C+%27Holy+Bolt%27%2C+%27when+you+Level-Up%27%5D"
+  },
+  {
+    "id": "2d182707290159274985139fb60de6dd819634ae0866c19228aecc4fc534d503",
+    "friendly_id": 195,
+    "owner": "Bowjamin",
+    "base_type": "Synthesized Cleaver",
+    "title": "Butcher's Pupil",
+    "properties": [
+      "ÿc1Corrupted",
+      "+50% Increased Attack Speed",
+      "+50% Enhanced Damage",
+      "8% Life stolen per hit",
+      "25% Chance of Crushing Blow",
+      "+4 to Edged Weapon Mastery (Barbarian Only)",
+      "+3 to Whirlwind (Barbarian Only)",
+      "+17 to Strength",
+      "Poison Resist +20%",
+      "Half Freeze Duration"
+    ],
+    "synthesised_from": [
+      "Knell Striker",
+      "The Minotaur",
+      "Bloodletter"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "15",
+    "DamageMaximum": "49",
+    "LevelReq": 39,
+    "SocketCount": "0",
+    "seen_date": "2026-08-18",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Butcher%27s+Pupil%2C0%2Cnone%2Cias%3A50%2Cdamage_bonus%3A50%2Clife_leech%3A8%2Ccblow%3A25%2Coskill_Edged_Weapon_Mastery%3A4%2Cskill_Whirlwind%3A3%2Cstrength%3A17%2CpRes%3A20%2Chalf_freeze%3A1"
   }
 ];
