@@ -11712,5 +11712,39 @@ const synthInventory = [
     "seen_date": "2026-08-18",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Butcher%27s+Pupil%2C0%2Cnone%2Cias%3A50%2Cdamage_bonus%3A50%2Clife_leech%3A8%2Ccblow%3A25%2Coskill_Edged_Weapon_Mastery%3A4%2Cskill_Whirlwind%3A3%2Cstrength%3A17%2CpRes%3A20%2Chalf_freeze%3A1"
+  },
+  {
+    "id": "676b68787d376ac4afda3ec90f53cfc04843153a99eaf2b17f1388fe4575a3dc",
+    "friendly_id": 196,
+    "owner": "Bowjamin",
+    "base_type": "Synthesized Spiked Club",
+    "title": "Stoutnail",
+    "properties": [
+      "+20% Increased Attack Speed",
+      "+25% Piercing Attack",
+      "+56% Enhanced Damage",
+      "+50% Damage to Undead",
+      "Adds 4-0 cold damage",
+      "+8 to Strength",
+      "+7 to Vitality",
+      "Lightning Resist +25%",
+      "Magic & Elemental Damage Taken Reduced by 2"
+    ],
+    "synthesised_from": [
+      "Gravenspine",
+      "Bane Ash",
+      "Stormstrike"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "7",
+    "DamageMaximum": "12",
+    "LevelReq": 5,
+    "SocketCount": "0",
+    "seen_date": "2026-08-29",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Stoutnail%2C0%2Cnone%2Cias%3A20%2Cdamage_bonus%3A56%2Cdamage_vs_undead%3A50%2CcDamage_min%3A4%2CcDamage_max%3A0%2Cstrength%3A8%2Cvitality%3A7%2ClRes%3A25"
   }
 ];
