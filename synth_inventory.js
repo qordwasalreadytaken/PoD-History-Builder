@@ -11746,5 +11746,67 @@ const synthInventory = [
     "seen_date": "2026-08-29",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Stoutnail%2C0%2Cnone%2Cias%3A20%2Cdamage_bonus%3A56%2Cdamage_vs_undead%3A50%2CcDamage_min%3A4%2CcDamage_max%3A0%2Cstrength%3A8%2Cvitality%3A7%2ClRes%3A25"
+  },
+  {
+    "id": "3517e450f32c8ae30949caece1c8109832aee0be1ef9eab99e691922f317b981",
+    "friendly_id": 197,
+    "owner": "vi_vi",
+    "base_type": "Synthesized Feral Claws",
+    "title": "Firelizard's Talons",
+    "properties": [
+      "Melee attacks deal splash damage",
+      "33% Chance to cast level 3 Amplify Damage on striking",
+      "+2 to Martial Arts (Assassin Only)",
+      "+80% Increased Attack Speed",
+      "+511% Enhanced Damage",
+      "Ignore Target's Defense",
+      "+10 to Dexterity",
+      "+30 to Mana",
+      "Socketed (1)"
+    ],
+    "synthesised_from": [
+      "Bane Ash",
+      "Spineripper",
+      "Lacerator"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "134",
+    "DamageMaximum": "323",
+    "LevelReq": 67,
+    "SocketCount": "1",
+    "seen_date": "2026-08-31",
+    "sockets": [
+      {
+        "Quality": "Magic",
+        "ID": "1012467645",
+        "QualityCode": "q_magic",
+        "Title": "Brute's Jewel of Fervor",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "3",
+        "ItemLevel": "87",
+        "LevelReq": 31,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Melee attacks deal splash damage",
+          "+15% Increased Attack Speed"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      }
+    ],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Firelizard%27s+Talons%2C0%2Cnone%2Cmelee_splash%3A1%2Cskills_martial%3A2%2Cias%3A80%2Cdamage_bonus%3A511%2Cdexterity%3A10%2Cmana%3A30%2Csockets%3A1"
   }
 ];
