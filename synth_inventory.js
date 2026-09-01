@@ -11808,5 +11808,42 @@ const synthInventory = [
       }
     ],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Firelizard%27s+Talons%2C0%2Cnone%2Cmelee_splash%3A1%2Cskills_martial%3A2%2Cias%3A80%2Cdamage_bonus%3A511%2Cdexterity%3A10%2Cmana%3A30%2Csockets%3A1"
+  },
+  {
+    "id": "a3a4ae97736469d5bddb17678344aaf626bfe5f2229a03c36d16c4b0082d060c",
+    "friendly_id": 198,
+    "owner": "MasterKVS",
+    "base_type": "Synthesized Walking Stick",
+    "title": "Razorswitch",
+    "properties": [
+      "ÿc1Corrupted",
+      "+2 to Masteries (Barbarian Only)",
+      "+30% Faster Cast Rate",
+      "+467% Enhanced Damage",
+      "+242 to Maximum Damage (Based on Character Level)",
+      "50% Bonus to Attack Rating",
+      "+50% Damage to Undead",
+      "+3 to Blunt Weapon Mastery (Barbarian Only)",
+      "+3 to Sword Mastery",
+      "+20 to Vitality",
+      "+175 to Mana",
+      "Socketed (2)"
+    ],
+    "synthesised_from": [
+      "Bloodtree Stump",
+      "Dimoak's Hew",
+      "The Grandfather"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "391",
+    "DamageMaximum": "481",
+    "LevelReq": 50,
+    "SocketCount": "2",
+    "seen_date": "2026-09-01",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Razorswitch%2C0%2Cnone%2Cskills_masteries%3A2%2Cfcr%3A30%2Cdamage_bonus%3A467%2Car_bonus%3A50%2Cdamage_vs_undead%3A50%2Cskill_Blunt_Weapon_Mastery%3A3%2Cvitality%3A20%2Cmana%3A175%2Csockets%3A2"
   }
 ];
