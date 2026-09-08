@@ -105347,7 +105347,7 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 94,
-      "Experience": 2460571627,
+      "Experience": 2464868021,
       "Strength": 95,
       "Dexterity": 25,
       "Vitality": 395,
@@ -105356,8 +105356,8 @@
       "Life": 1636,
       "BaseMana": 221,
       "Mana": 566,
-      "Gold": 940000,
-      "Stashed": 2500000
+      "Gold": 0,
+      "Stashed": 2450000
     },
     "Bonus": {
       "Strength": 51,
@@ -105606,38 +105606,97 @@
         "Worn": "boots"
       },
       {
-        "Quality": "Unique",
-        "ID": "3072904082",
-        "QualityCode": "q_unique",
-        "Title": "Arachnid Mesh",
-        "Tag": "Spiderweb Sash",
-        "TextTag": "Spiderweb Sash",
+        "Quality": "Rare",
+        "ID": "2831217233",
+        "QualityCode": "q_rare",
+        "Title": "Doom Grip",
+        "Tag": "Ring",
+        "TextTag": "ring",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "63",
-        "Durability": "12",
-        "DurabilityMaximum": "12",
-        "ItemLevel": "87",
-        "LevelReq": 80,
+        "Enhanced": "False",
+        "AlternateGraphics": "3",
+        "ItemLevel": "80",
+        "LevelReq": 60,
         "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "+1 to All Skills",
-          "+20% Faster Cast Rate",
-          "Slows Target by 10%",
-          "+116% Enhanced Defense",
-          "Increase Maximum Mana 5%",
-          "Level 3 Venom (11/11 Charges)"
+          "+10% Faster Cast Rate",
+          "+15 to Strength",
+          "+35 to Life",
+          "+43 to Mana",
+          "Poison Resist +17%"
         ],
         "Position": {
-          "x": 8,
+          "x": 7,
           "y": 0
         },
         "Size": {
           "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "ring2"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "146687964",
+        "QualityCode": "q_unique",
+        "Title": "Harlequin Crest",
+        "Tag": "Shako",
+        "TextTag": "Shako",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "Defense": "106",
+        "Durability": "11",
+        "DurabilityMaximum": "12",
+        "ItemLevel": "87",
+        "LevelReq": 62,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Perfect Topaz",
+            "Tag": "Perfect Topaz",
+            "TextTag": "Perfect Topaz",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 18,
+            "SocketCount": "0",
+            "PropertyList": [
+              "24% Better Chance of Getting Magic Items"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "1",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+2 to All Skills",
+          "+2 to all Attributes",
+          "+141 to Life (Based on Character Level)",
+          "+141 to Mana (Based on Character Level)",
+          "Physical Damage Taken Reduced by 10%",
+          "74% Better Chance of Getting Magic Items",
+          "Socketed (1)"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
           "invwidth": 2
         },
-        "Worn": "belt"
+        "Worn": "helmet"
       },
       {
         "Quality": "Set",
@@ -105671,37 +105730,6 @@
         "Worn": "amulet"
       },
       {
-        "Quality": "Rare",
-        "ID": "2831217233",
-        "QualityCode": "q_rare",
-        "Title": "Doom Grip",
-        "Tag": "Ring",
-        "TextTag": "ring",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "3",
-        "ItemLevel": "80",
-        "LevelReq": 60,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+10% Faster Cast Rate",
-          "+15 to Strength",
-          "+35 to Life",
-          "+43 to Mana",
-          "Poison Resist +17%"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": "ring2"
-      },
-      {
         "Quality": "Unique",
         "ID": "2421187416",
         "QualityCode": "q_unique",
@@ -105712,7 +105740,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "406",
-        "Durability": "23",
+        "Durability": "22",
         "DurabilityMaximum": "24",
         "ItemLevel": "87",
         "LevelReq": 57,
@@ -105840,65 +105868,37 @@
       },
       {
         "Quality": "Unique",
-        "ID": "146687964",
+        "ID": "3072904082",
         "QualityCode": "q_unique",
-        "Title": "Harlequin Crest",
-        "Tag": "Shako",
-        "TextTag": "Shako",
+        "Title": "Arachnid Mesh",
+        "Tag": "Spiderweb Sash",
+        "TextTag": "Spiderweb Sash",
         "Ethereal": "False",
-        "Enhanced": "False",
-        "Defense": "106",
+        "Enhanced": "True",
+        "Defense": "63",
         "Durability": "12",
         "DurabilityMaximum": "12",
         "ItemLevel": "87",
-        "LevelReq": 62,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Perfect Topaz",
-            "Tag": "Perfect Topaz",
-            "TextTag": "Perfect Topaz",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 18,
-            "SocketCount": "0",
-            "PropertyList": [
-              "24% Better Chance of Getting Magic Items"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "1",
+        "LevelReq": 80,
+        "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "+2 to All Skills",
-          "+2 to all Attributes",
-          "+141 to Life (Based on Character Level)",
-          "+141 to Mana (Based on Character Level)",
-          "Physical Damage Taken Reduced by 10%",
-          "74% Better Chance of Getting Magic Items",
-          "Socketed (1)"
+          "+1 to All Skills",
+          "+20% Faster Cast Rate",
+          "Slows Target by 10%",
+          "+116% Enhanced Defense",
+          "Increase Maximum Mana 5%",
+          "Level 3 Venom (11/11 Charges)"
         ],
         "Position": {
-          "x": 1,
+          "x": 8,
           "y": 0
         },
         "Size": {
-          "invheight": 2,
+          "invheight": 1,
           "invwidth": 2
         },
-        "Worn": "helmet"
+        "Worn": "belt"
       },
       {
         "Quality": "Unique",
@@ -107218,35 +107218,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Rare",
-        "ID": "1241122275",
-        "QualityCode": "q_rare",
-        "Title": "Death Eye",
-        "Tag": "Decomposing Settlement Relic",
-        "TextTag": "Decomposing Settlement Relic",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "85",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "10% Chance to cast level 5 Decrepify on striking",
-          "+24% Piercing Attack",
-          "Adds 20-30 Magic damage",
-          "Cold Resist +50%",
-          "Lightning Absorb 2%"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Magic",
         "ID": "2425208958",
         "QualityCode": "q_magic",
@@ -107334,35 +107305,228 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "3528101452",
-        "QualityCode": "q_unique",
-        "Title": "Dracul's Grasp",
-        "Tag": "Vampirebone Gloves",
-        "TextTag": "Vampirebone Gloves",
+        "Quality": "Rare",
+        "ID": "1241122275",
+        "QualityCode": "q_rare",
+        "Title": "Death Eye",
+        "Tag": "Decomposing Settlement Relic",
+        "TextTag": "Decomposing Settlement Relic",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "66",
-        "Durability": "9",
-        "DurabilityMaximum": "14",
-        "ItemLevel": "87",
-        "LevelReq": 76,
+        "Enhanced": "False",
+        "ItemLevel": "85",
+        "LevelReq": 80,
         "SocketCount": "0",
         "PropertyList": [
-          "5% Chance to cast level 10 Life Tap on striking",
-          "10% Life stolen per hit",
-          "25% Chance of Open Wounds",
-          "+118% Enhanced Defense",
-          "+15 to Strength",
-          "+7 Life after each Kill"
+          "10% Chance to cast level 5 Decrepify on striking",
+          "+24% Piercing Attack",
+          "Adds 20-30 Magic damage",
+          "Cold Resist +50%",
+          "Lightning Absorb 2%"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1157692557",
+        "QualityCode": "q_rare",
+        "Title": "Rune Eye",
+        "Tag": "Ruined Citadel Relic",
+        "TextTag": "Ruined Citadel Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "87",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "30% Chance to cast level 13 Decrepify on striking",
+          "Adds 199-200 Fire damage"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "227505604",
+        "QualityCode": "q_rare",
+        "Title": "Havoc Eye",
+        "Tag": "Decomposing Settlement Relic",
+        "TextTag": "Decomposing Settlement Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "88",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "10% Chance to cast level 5 Amplify Damage on striking",
+          "10% Chance to cast level 5 Decrepify on striking",
+          "+23% Piercing Attack",
+          "Poison Resist +50%",
+          "Poison Absorb 15%"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1484138860",
+        "QualityCode": "q_magic",
+        "Title": "Brute's Jewel of Fervor",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "4",
+        "ItemLevel": "87",
+        "LevelReq": 31,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Melee attacks deal splash damage",
+          "+15% Increased Attack Speed"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1805646915",
+        "QualityCode": "q_magic",
+        "Title": "Jewel of Fervor",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "5",
+        "ItemLevel": "87",
+        "LevelReq": 31,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+15% Increased Attack Speed"
         ],
         "Position": {
           "x": 5,
           "y": 0
         },
         "Size": {
-          "invheight": 2,
-          "invwidth": 2
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "124887953",
+        "QualityCode": "q_magic",
+        "Title": "Brute's Jewel of Fervor",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 31,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Melee attacks deal splash damage",
+          "+15% Increased Attack Speed"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2568423952",
+        "QualityCode": "q_unique",
+        "Title": "Raven Frost",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 45,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+204 to Attack Rating",
+          "Adds 15-45 cold damage",
+          "+18 to Dexterity",
+          "+40 to Mana",
+          "Cold Absorb 20%",
+          "Cannot Be Frozen"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1144771785",
+        "QualityCode": "q_rare",
+        "Title": "Skull Eye",
+        "Tag": "Desecrated Temple Relic",
+        "TextTag": "Desecrated Temple Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "87",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "20% Chance to cast level 8 Amplify Damage on striking",
+          "Adds 30-40 Magic damage",
+          "Damage Absorb 20%",
+          "Poison Absorb 21%",
+          "Physical Damage Taken Reduced by 63",
+          "Magic & Elemental Damage Taken Reduced by 63",
+          "Cannot Be Frozen"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
         },
         "Worn": ""
       },
@@ -107393,6 +107557,68 @@
         "Size": {
           "invheight": 1,
           "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "4178502256",
+        "QualityCode": "q_rare",
+        "Title": "Beast Whorl",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "87",
+        "LevelReq": 19,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+12 to Attack Rating",
+          "+2 to Mana after each Kill",
+          "12% Extra Gold from Monsters",
+          "5% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1681941705",
+        "QualityCode": "q_rare",
+        "Title": "GhoulRI Casque",
+        "Tag": "Circlet",
+        "TextTag": "Circlet",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "Defense": "26",
+        "Durability": "24",
+        "DurabilityMaximum": "35",
+        "ItemLevel": "88",
+        "LevelReq": 67,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+2 to Amazon Skill Levels",
+          "7% Life stolen per hit",
+          "+11 Maximum Stamina",
+          "All Resistances +11",
+          "Physical Damage Taken Reduced by 2",
+          "Magic & Elemental Damage Taken Reduced by 3"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
         },
         "Worn": ""
       }
@@ -107716,9 +107942,6 @@
         },
         "Worn": "weapon1"
       }
-    ],
-    "ItemCodeFailedToParse": [
-      "ItemCode: ma16 | Properties:   [1] energy -> -10 [0]  [3] vitality -> -10 [0]  [153] item_cannotbefrozen -> 1 [0]  [156] item_pierce -> 42 [0]  [511] EOF -> 0 [0]"
     ]
   },
   {
