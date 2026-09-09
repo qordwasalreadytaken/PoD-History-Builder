@@ -37,7 +37,7 @@ SEASON_LENGTH = {
 }
 
 TOP_CUTOFFS = [1000, 500, 250, 100]
-LEVELS = [80, 90, 95, 96, 97, 98, 99]
+LEVELS = [80, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]
 
 def dominance_index(counts):
     total = sum(counts.values())
