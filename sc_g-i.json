@@ -171801,17 +171801,17 @@
     "Class": "Assassin",
     "Stats": {
       "Level": 96,
-      "Experience": 2738586805,
+      "Experience": 2741970952,
       "Strength": 65,
       "Dexterity": 45,
       "Vitality": 440,
       "Energy": 25,
       "BaseLife": 1560,
-      "Life": 2262,
+      "Life": 2245,
       "BaseMana": 167,
       "Mana": 477,
-      "Gold": 0,
-      "Stashed": 1797345
+      "Gold": 237092,
+      "Stashed": 2500000
     },
     "Bonus": {
       "Strength": 100,
@@ -171826,8 +171826,8 @@
       "MaximumLightningResistance": 0,
       "PoisonResistance": 91,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 146,
-      "GoldFind": 0,
+      "MagicFind": 184,
+      "GoldFind": 100,
       "FasterCastRate": 20,
       "FasterHitRecovery": 22,
       "IncreasedAttackSpeed": 20,
@@ -173498,33 +173498,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "2211559538",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Life",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "87",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "+16 to Life"
-        ],
-        "Position": {
-          "x": 5,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "2561204353",
         "QualityCode": "q_magic",
         "Title": "Entrapping Grand Charm of Inertia",
@@ -173606,33 +173579,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "1759179735",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Balance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "87",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "+12% Faster Hit Recovery"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "3612919635",
         "QualityCode": "q_magic",
         "Title": "Entrapping Grand Charm of Life",
@@ -173681,6 +173627,61 @@
         },
         "Size": {
           "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1762051633",
+        "QualityCode": "q_unique",
+        "Title": "Gheed's Fortune",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "87",
+        "LevelReq": 62,
+        "SocketCount": "0",
+        "PropertyList": [
+          "100% Extra Gold from Monsters",
+          "Reduces all Vendor Prices 14%",
+          "38% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1759179735",
+        "QualityCode": "q_magic",
+        "Title": "Entrapping Grand Charm of Balance",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Traps (Assassin Only)",
+          "+12% Faster Hit Recovery"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
           "invwidth": 1
         },
         "Worn": ""
@@ -181364,16 +181365,16 @@
     "Class": "Druid",
     "Stats": {
       "Level": 94,
-      "Experience": 2324964356,
+      "Experience": 2328507667,
       "Strength": 101,
       "Dexterity": 20,
       "Vitality": 174,
       "Energy": 265,
       "BaseLife": 552,
-      "Life": 1301,
+      "Life": 1422,
       "BaseMana": 696,
-      "Mana": 967,
-      "Gold": 24745,
+      "Mana": 1050,
+      "Gold": 452560,
       "Stashed": 1195919
     },
     "Bonus": {
@@ -182001,6 +182002,40 @@
         "Worn": "gloves"
       },
       {
+        "Quality": "Unique",
+        "ID": "217352510",
+        "QualityCode": "q_unique",
+        "Title": "Arachnid Mesh",
+        "Tag": "Spiderweb Sash",
+        "TextTag": "Spiderweb Sash",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "63",
+        "Durability": "5",
+        "DurabilityMaximum": "12",
+        "ItemLevel": "91",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+1 to All Skills",
+          "+20% Faster Cast Rate",
+          "Slows Target by 10%",
+          "+95% Enhanced Defense",
+          "Increase Maximum Mana 5%",
+          "Level 3 Venom (6/11 Charges)"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 2
+        },
+        "Worn": "belt"
+      },
+      {
         "Quality": "Normal",
         "ID": "140064806",
         "QualityCode": "q_runeword",
@@ -182205,40 +182240,6 @@
           "invwidth": 2
         },
         "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "217352510",
-        "QualityCode": "q_unique",
-        "Title": "Arachnid Mesh",
-        "Tag": "Spiderweb Sash",
-        "TextTag": "Spiderweb Sash",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "63",
-        "Durability": "5",
-        "DurabilityMaximum": "12",
-        "ItemLevel": "91",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+1 to All Skills",
-          "+20% Faster Cast Rate",
-          "Slows Target by 10%",
-          "+95% Enhanced Defense",
-          "Increase Maximum Mana 5%",
-          "Level 3 Venom (6/11 Charges)"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 2
-        },
-        "Worn": "belt"
       },
       {
         "Quality": "Superior",
@@ -183096,35 +183097,6 @@
         },
         "Size": {
           "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
-        "ID": "2794041782",
-        "QualityCode": "q_rare",
-        "Title": "Viper Eye",
-        "Tag": "Dim Cellar Relic",
-        "TextTag": "Dim Cellar Relic",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "95",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+107% Increased Attack Speed",
-          "52% Bonus to Attack Rating",
-          "+52% Enhanced Defense",
-          "Poison Absorb 28%",
-          "48% Reduced Curse Duration"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -362602,17 +362574,17 @@
     "Class": "Assassin",
     "Stats": {
       "Level": 96,
-      "Experience": 2738586805,
+      "Experience": 2741970952,
       "Strength": 65,
       "Dexterity": 45,
       "Vitality": 440,
       "Energy": 25,
       "BaseLife": 1560,
-      "Life": 2262,
+      "Life": 2245,
       "BaseMana": 167,
       "Mana": 477,
-      "Gold": 0,
-      "Stashed": 1797345
+      "Gold": 237092,
+      "Stashed": 2500000
     },
     "Bonus": {
       "Strength": 100,
@@ -362627,8 +362599,8 @@
       "MaximumLightningResistance": 0,
       "PoisonResistance": 91,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 146,
-      "GoldFind": 0,
+      "MagicFind": 184,
+      "GoldFind": 100,
       "FasterCastRate": 20,
       "FasterHitRecovery": 22,
       "IncreasedAttackSpeed": 20,
@@ -364299,33 +364271,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "2211559538",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Life",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "87",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "+16 to Life"
-        ],
-        "Position": {
-          "x": 5,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "2561204353",
         "QualityCode": "q_magic",
         "Title": "Entrapping Grand Charm of Inertia",
@@ -364407,33 +364352,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "1759179735",
-        "QualityCode": "q_magic",
-        "Title": "Entrapping Grand Charm of Balance",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "87",
-        "LevelReq": 42,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Traps (Assassin Only)",
-          "+12% Faster Hit Recovery"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "3612919635",
         "QualityCode": "q_magic",
         "Title": "Entrapping Grand Charm of Life",
@@ -364482,6 +364400,61 @@
         },
         "Size": {
           "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1762051633",
+        "QualityCode": "q_unique",
+        "Title": "Gheed's Fortune",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "87",
+        "LevelReq": 62,
+        "SocketCount": "0",
+        "PropertyList": [
+          "100% Extra Gold from Monsters",
+          "Reduces all Vendor Prices 14%",
+          "38% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1759179735",
+        "QualityCode": "q_magic",
+        "Title": "Entrapping Grand Charm of Balance",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Traps (Assassin Only)",
+          "+12% Faster Hit Recovery"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
           "invwidth": 1
         },
         "Worn": ""
@@ -372165,16 +372138,16 @@
     "Class": "Druid",
     "Stats": {
       "Level": 94,
-      "Experience": 2324964356,
+      "Experience": 2328507667,
       "Strength": 101,
       "Dexterity": 20,
       "Vitality": 174,
       "Energy": 265,
       "BaseLife": 552,
-      "Life": 1301,
+      "Life": 1422,
       "BaseMana": 696,
-      "Mana": 967,
-      "Gold": 24745,
+      "Mana": 1050,
+      "Gold": 452560,
       "Stashed": 1195919
     },
     "Bonus": {
@@ -372802,6 +372775,40 @@
         "Worn": "gloves"
       },
       {
+        "Quality": "Unique",
+        "ID": "217352510",
+        "QualityCode": "q_unique",
+        "Title": "Arachnid Mesh",
+        "Tag": "Spiderweb Sash",
+        "TextTag": "Spiderweb Sash",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "63",
+        "Durability": "5",
+        "DurabilityMaximum": "12",
+        "ItemLevel": "91",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+1 to All Skills",
+          "+20% Faster Cast Rate",
+          "Slows Target by 10%",
+          "+95% Enhanced Defense",
+          "Increase Maximum Mana 5%",
+          "Level 3 Venom (6/11 Charges)"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 2
+        },
+        "Worn": "belt"
+      },
+      {
         "Quality": "Normal",
         "ID": "140064806",
         "QualityCode": "q_runeword",
@@ -373006,40 +373013,6 @@
           "invwidth": 2
         },
         "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "217352510",
-        "QualityCode": "q_unique",
-        "Title": "Arachnid Mesh",
-        "Tag": "Spiderweb Sash",
-        "TextTag": "Spiderweb Sash",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "63",
-        "Durability": "5",
-        "DurabilityMaximum": "12",
-        "ItemLevel": "91",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+1 to All Skills",
-          "+20% Faster Cast Rate",
-          "Slows Target by 10%",
-          "+95% Enhanced Defense",
-          "Increase Maximum Mana 5%",
-          "Level 3 Venom (6/11 Charges)"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 2
-        },
-        "Worn": "belt"
       },
       {
         "Quality": "Superior",
@@ -373897,35 +373870,6 @@
         },
         "Size": {
           "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
-        "ID": "2794041782",
-        "QualityCode": "q_rare",
-        "Title": "Viper Eye",
-        "Tag": "Dim Cellar Relic",
-        "TextTag": "Dim Cellar Relic",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "95",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+107% Increased Attack Speed",
-          "52% Bonus to Attack Rating",
-          "+52% Enhanced Defense",
-          "Poison Absorb 28%",
-          "48% Reduced Curse Duration"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
