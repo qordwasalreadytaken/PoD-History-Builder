@@ -277210,22 +277210,22 @@
       "Stashed": 2500000
     },
     "Bonus": {
-      "Strength": 70,
+      "Strength": 68,
       "Dexterity": 33,
       "Vitality": 0,
       "Energy": 0,
       "FireResistance": 144,
       "MaximumFireResistance": 0,
-      "ColdResistance": 162,
+      "ColdResistance": 164,
       "MaximumColdResistance": 0,
       "LightningResistance": 181,
       "MaximumLightningResistance": 0,
       "PoisonResistance": 199,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 20,
+      "MagicFind": 33,
       "GoldFind": 25,
       "FasterCastRate": 0,
-      "FasterHitRecovery": 0,
+      "FasterHitRecovery": 5,
       "IncreasedAttackSpeed": 0,
       "CrushingBlow": 10,
       "OpenWounds": 0,
@@ -277812,6 +277812,36 @@
           "invwidth": 2
         },
         "Worn": "sweapon2"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2628133680",
+        "QualityCode": "q_unique",
+        "Title": "Wisp Projector",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "3",
+        "ItemLevel": "91",
+        "LevelReq": 76,
+        "SocketCount": "0",
+        "PropertyList": [
+          " Lifted Spirit Aura When Equipped",
+          "+6% Faster Run/Walk",
+          "Lightning Absorb 12%",
+          "13% Better Chance of Getting Magic Items",
+          "Level 9 Heart of Wolverine (17/17 Charges)"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "ring2"
       },
       {
         "Quality": "Unique",
@@ -278509,35 +278539,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "2571188130",
-        "QualityCode": "q_unique",
-        "Title": "Annihilus",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "99",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to All Skills",
-          "+13 to all Attributes",
-          "All Resistances +20",
-          "+6% to Experience Gained"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "234617397",
         "QualityCode": "q_normal",
@@ -278635,33 +278636,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "1309678137",
-        "QualityCode": "q_magic",
-        "Title": "Cobalt Small Charm of Strength",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 20,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+2 to Strength",
-          "Cold Resist +9%"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "1934785317",
         "QualityCode": "q_magic",
         "Title": "Shogukusha's Grand Charm of Strength",
@@ -278710,6 +278684,62 @@
         },
         "Size": {
           "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "744770528",
+        "QualityCode": "q_magic",
+        "Title": "Sapphire Small Charm of Balance",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 32,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+5% Faster Hit Recovery",
+          "Cold Resist +11%"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2571188130",
+        "QualityCode": "q_unique",
+        "Title": "Annihilus",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "99",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to All Skills",
+          "+13 to all Attributes",
+          "All Resistances +20",
+          "+6% to Experience Gained"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -375631,7 +375661,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 98,
-      "Experience": 3447100994,
+      "Experience": 3447101765,
       "Strength": 30,
       "Dexterity": 99,
       "Vitality": 436,
@@ -375640,8 +375670,8 @@
       "Life": 2027,
       "BaseMana": 160,
       "Mana": 248,
-      "Gold": 605,
-      "Stashed": 72564
+      "Gold": 0,
+      "Stashed": 73169
     },
     "Bonus": {
       "Strength": 125,
@@ -393329,7 +393359,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 98,
-      "Experience": 3447100994,
+      "Experience": 3447101765,
       "Strength": 30,
       "Dexterity": 99,
       "Vitality": 436,
@@ -393338,8 +393368,8 @@
       "Life": 2027,
       "BaseMana": 160,
       "Mana": 248,
-      "Gold": 605,
-      "Stashed": 72564
+      "Gold": 0,
+      "Stashed": 73169
     },
     "Bonus": {
       "Strength": 125,
@@ -611762,22 +611792,22 @@
       "Stashed": 2500000
     },
     "Bonus": {
-      "Strength": 70,
+      "Strength": 68,
       "Dexterity": 33,
       "Vitality": 0,
       "Energy": 0,
       "FireResistance": 144,
       "MaximumFireResistance": 0,
-      "ColdResistance": 162,
+      "ColdResistance": 164,
       "MaximumColdResistance": 0,
       "LightningResistance": 181,
       "MaximumLightningResistance": 0,
       "PoisonResistance": 199,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 20,
+      "MagicFind": 33,
       "GoldFind": 25,
       "FasterCastRate": 0,
-      "FasterHitRecovery": 0,
+      "FasterHitRecovery": 5,
       "IncreasedAttackSpeed": 0,
       "CrushingBlow": 10,
       "OpenWounds": 0,
@@ -612364,6 +612394,36 @@
           "invwidth": 2
         },
         "Worn": "sweapon2"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2628133680",
+        "QualityCode": "q_unique",
+        "Title": "Wisp Projector",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "3",
+        "ItemLevel": "91",
+        "LevelReq": 76,
+        "SocketCount": "0",
+        "PropertyList": [
+          " Lifted Spirit Aura When Equipped",
+          "+6% Faster Run/Walk",
+          "Lightning Absorb 12%",
+          "13% Better Chance of Getting Magic Items",
+          "Level 9 Heart of Wolverine (17/17 Charges)"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "ring2"
       },
       {
         "Quality": "Unique",
@@ -613061,35 +613121,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "2571188130",
-        "QualityCode": "q_unique",
-        "Title": "Annihilus",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "99",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to All Skills",
-          "+13 to all Attributes",
-          "All Resistances +20",
-          "+6% to Experience Gained"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "234617397",
         "QualityCode": "q_normal",
@@ -613187,33 +613218,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "1309678137",
-        "QualityCode": "q_magic",
-        "Title": "Cobalt Small Charm of Strength",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 20,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+2 to Strength",
-          "Cold Resist +9%"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "1934785317",
         "QualityCode": "q_magic",
         "Title": "Shogukusha's Grand Charm of Strength",
@@ -613262,6 +613266,62 @@
         },
         "Size": {
           "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "744770528",
+        "QualityCode": "q_magic",
+        "Title": "Sapphire Small Charm of Balance",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 32,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+5% Faster Hit Recovery",
+          "Cold Resist +11%"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2571188130",
+        "QualityCode": "q_unique",
+        "Title": "Annihilus",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "99",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to All Skills",
+          "+13 to all Attributes",
+          "All Resistances +20",
+          "+6% to Experience Gained"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
