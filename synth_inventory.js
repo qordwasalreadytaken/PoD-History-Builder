@@ -12056,5 +12056,35 @@ const synthInventory = [
     "seen_date": "2026-09-09",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Gleamscythe%2C0%2Cnone%2Cskills_fire_all%3A2%2Cias%3A80%2Cfcr%3A10%2Cdamage_bonus%3A364%2CcDamage_min%3A3%2CcDamage_max%3A5%2Coskill_Fire_Ball%3A2%2Coskill_Warmth%3A3%2Cmana%3A30%2CfRes%3A30%2Clight_radius%3A3%2Csockets%3A2%2Ccskill%3A%5B1%2C+%27Teleport%27%2C+16%5D"
+  },
+  {
+    "id": "044650d9f4abcaf64e8254a23b16325925abace1730260d5cd2d83e9643b87d9",
+    "friendly_id": 204,
+    "owner": "NANITA",
+    "base_type": "Synthesized Cleaver",
+    "title": "Butcher's Pupil",
+    "properties": [
+      "Indestructible",
+      "+55% Increased Attack Speed",
+      "+150% Enhanced Damage",
+      "+325 to Attack Rating",
+      "+11 Fire Absorb"
+    ],
+    "synthesised_from": [
+      "Butcher's Pupil",
+      "Plague Bearer",
+      "Ethereal Edge"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "25",
+    "DamageMaximum": "82",
+    "LevelReq": 39,
+    "SocketCount": "0",
+    "seen_date": "2026-09-16",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Butcher%27s+Pupil%2C0%2Cnone%2Cindestructible%3A1%2Cias%3A55%2Cdamage_bonus%3A150%2Car%3A325%2CfAbsorb_flat%3A11"
   }
 ];
