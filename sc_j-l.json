@@ -124693,17 +124693,17 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 94,
-      "Experience": 2352642234,
+      "Experience": 2342939473,
       "Strength": 155,
       "Dexterity": 25,
       "Vitality": 345,
       "Energy": 35,
       "BaseLife": 909,
-      "Life": 1659,
+      "Life": 1486,
       "BaseMana": 221,
-      "Mana": 923,
-      "Gold": 342699,
-      "Stashed": 514931
+      "Mana": 857,
+      "Gold": 3396,
+      "Stashed": 1730861
     },
     "Bonus": {
       "Strength": 1,
@@ -125792,7 +125792,7 @@
         "Enhanced": "False",
         "Block": "42",
         "Defense": "137",
-        "Durability": "85",
+        "Durability": "86",
         "DurabilityMaximum": "86",
         "ItemLevel": "86",
         "LevelReq": 54,
@@ -126620,26 +126620,105 @@
       },
       {
         "Quality": "Rare",
-        "ID": "2387196770",
+        "ID": "913062230",
         "QualityCode": "q_rare",
-        "Title": "Beast Eye",
-        "Tag": "Dim Cellar Relic",
-        "TextTag": "Dim Cellar Relic",
+        "Title": "Death Eye",
+        "Tag": "Abyssal Furnace Relic",
+        "TextTag": "Abyssal Furnace Relic",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "92",
         "LevelReq": 80,
         "SocketCount": "0",
         "PropertyList": [
-          "Level 10 Slow Nearby Enemies by 20%% Aura When Equipped",
-          "Damage +149",
+          "20% Chance to cast level 8 Decrepify on striking",
           "Adds 30-40 Magic damage",
-          "13% Deadly Strike",
-          "Cannot Be Frozen"
+          "-10 to Vitality",
+          "-10 to Energy",
+          "Replenish Life 32 per second",
+          "Fire Resist +50%",
+          "Poison Resist +50%",
+          "Cold Absorb 31%",
+          "Attacker Takes Damage of 22"
         ],
         "Position": {
           "x": 7,
           "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1678788877",
+        "QualityCode": "q_rare",
+        "Title": "Raven Eye",
+        "Tag": "Decomposing Settlement Relic",
+        "TextTag": "Decomposing Settlement Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "87",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "10% Chance to cast level 5 Amplify Damage on striking",
+          "Adds 99-100 Fire damage",
+          "+19% Increased Lightning Damage",
+          "Fire Resist +50%",
+          "Damage Absorb 3%"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Ral Rune",
+        "Tag": "Ral Rune",
+        "TextTag": "Ral Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 19,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 5,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Amn Rune",
+        "Tag": "Amn Rune",
+        "TextTag": "Amn Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 6,
+          "y": 0
         },
         "Size": {
           "invheight": 1,
@@ -126745,32 +126824,25 @@
       },
       {
         "Quality": "Unique",
-        "ID": "1139046036",
+        "ID": "1360084503",
         "QualityCode": "q_unique",
-        "Title": "Guardian Angel",
-        "Tag": "Hellforge Plate",
-        "TextTag": "Hellforged Plate",
-        "Ethereal": "False",
+        "Title": "Shaftstop",
+        "Tag": "Boneweave",
+        "TextTag": "Boneweave",
+        "Ethereal": "True",
         "Enhanced": "True",
-        "Defense": "466",
-        "Durability": "52",
-        "DurabilityMaximum": "60",
+        "Defense": "735",
+        "Durability": "31",
+        "DurabilityMaximum": "45",
         "ItemLevel": "87",
-        "LevelReq": 66,
+        "LevelReq": 54,
         "SocketCount": "0",
         "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+1 to Paladin Skill Levels",
-          "+30% Faster Block Rate",
-          "20% Increased Chance of Blocking",
-          "+235 to Attack Rating (Based on Character Level)",
-          "+182% Enhanced Defense",
-          "+7% to Maximum Poison Resist",
-          "+7% to Maximum Cold Resist",
-          "+7% to Maximum Lightning Resist",
-          "+7% to Maximum Fire Resist",
-          "All Resistances +13",
-          "+4 to Light Radius"
+          "+197% Enhanced Defense",
+          "+250 Defense vs. Missile",
+          "+60 to Life",
+          "Physical Damage Taken Reduced by 30%",
+          "Ethereal (Cannot be Repaired)"
         ],
         "Position": {
           "x": 3,
@@ -126929,8 +127001,7 @@
     ],
     "ItemCodeFailedToParse": [
       "ItemCode: ma16 | Properties:   [16] item_armor_percent -> 52 [0]  [142] item_absorbfire_percent -> 35 [0]  [151] item_aura -> 8 [758]  [197] item_skillondeath -> 15 [44431]  [329] passive_fire_mastery -> 25 [0]  [340] passive_evade -> 16 [0]  [511] EOF -> 0 [0]",
-      "ItemCode: ma16 | Properties:   [48] firemindam -> 149 [0]  [148] item_absorbcold_percent -> 32 [0]  [153] item_cannotbefrozen -> 1 [0]  [198] item_skillonhit -> 20 [4232]  [340] passive_evade -> 19 [0]  [398] item_absorbphys_percent -> 29 [0]  [511] EOF -> 0 [0]",
-      "ItemCode: ma22 | Properties:   [50] lightmindam -> 63 [0]  [111] item_normaldamage -> 149 [0]  [141] item_deadlystrike -> 11 [0]  [198] item_skillonhit -> 20 [4232]  [331] passive_cold_mastery -> 31 [0]  [511] EOF -> 0 [0]"
+      "ItemCode: ma16 | Properties:   [48] firemindam -> 149 [0]  [148] item_absorbcold_percent -> 32 [0]  [153] item_cannotbefrozen -> 1 [0]  [198] item_skillonhit -> 20 [4232]  [340] passive_evade -> 19 [0]  [398] item_absorbphys_percent -> 29 [0]  [511] EOF -> 0 [0]"
     ]
   },
   {
