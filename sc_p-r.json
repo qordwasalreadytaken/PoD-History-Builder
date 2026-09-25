@@ -14,11 +14,11 @@
       "Vitality": 458,
       "Energy": 25,
       "BaseLife": 1187,
-      "Life": 1187,
+      "Life": 1197,
       "BaseMana": 221,
-      "Mana": 221,
-      "Gold": 7190,
-      "Stashed": 4952
+      "Mana": 231,
+      "Gold": 0,
+      "Stashed": 158508
     },
     "Bonus": {
       "Strength": 48,
@@ -36,7 +36,7 @@
       "MagicFind": 26,
       "GoldFind": 137,
       "FasterCastRate": 0,
-      "FasterHitRecovery": 0,
+      "FasterHitRecovery": 20,
       "IncreasedAttackSpeed": 20,
       "CrushingBlow": 0,
       "OpenWounds": 25,
@@ -44,30 +44,6 @@
       "DamageReduction": 0,
       "CooldownReduction": 10,
       "WeaponSetMain": {
-        "Strength": 0,
-        "Dexterity": 0,
-        "Vitality": 0,
-        "Energy": 0,
-        "FireResistance": 0,
-        "MaximumFireResistance": 0,
-        "ColdResistance": 0,
-        "MaximumColdResistance": 0,
-        "LightningResistance": 0,
-        "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
-        "MaximumPoisonResistance": 0,
-        "MagicFind": 0,
-        "GoldFind": 0,
-        "FasterCastRate": 0,
-        "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 0,
-        "CrushingBlow": 0,
-        "OpenWounds": 0,
-        "DeadlyStrike": 0,
-        "DamageReduction": 0,
-        "CooldownReduction": 0
-      },
-      "WeaponSetOffhand": {
         "Strength": 5,
         "Dexterity": 0,
         "Vitality": 0,
@@ -85,6 +61,30 @@
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 35,
+        "CrushingBlow": 0,
+        "OpenWounds": 0,
+        "DeadlyStrike": 0,
+        "DamageReduction": 0,
+        "CooldownReduction": 0
+      },
+      "WeaponSetOffhand": {
+        "Strength": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Energy": 0,
+        "FireResistance": 0,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 0,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 0,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 0,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 0,
+        "GoldFind": 0,
+        "FasterCastRate": 0,
+        "FasterHitRecovery": 0,
+        "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
@@ -364,6 +364,40 @@
         "Worn": "belt"
       },
       {
+        "Quality": "Unique",
+        "ID": "3331464297",
+        "QualityCode": "q_unique",
+        "Title": "Valkyrie Wing",
+        "Tag": "Winged Helm",
+        "TextTag": "Winged Helm",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "99",
+        "Durability": "35",
+        "DurabilityMaximum": "40",
+        "ItemLevel": "88",
+        "LevelReq": 44,
+        "SocketCount": "3",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+2 to Amazon Skill Levels",
+          "+20% Faster Run/Walk",
+          "+20% Faster Hit Recovery",
+          "+174% Enhanced Defense",
+          "+2 to Mana after each Kill",
+          "Socketed (3)"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "helmet"
+      },
+      {
         "Quality": "Normal",
         "ID": "967745643",
         "QualityCode": "q_runeword",
@@ -469,14 +503,14 @@
           "Socketed (3)"
         ],
         "Position": {
-          "x": 11,
+          "x": 4,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
         },
-        "Worn": "sweapon1"
+        "Worn": "weapon1"
       }
     ],
     "Inventory": [
@@ -2334,7 +2368,7 @@
       "Life": 811,
       "BaseMana": 1149,
       "Mana": 1734,
-      "Gold": 0,
+      "Gold": 4170,
       "Stashed": 752863
     },
     "Bonus": {
@@ -3917,6 +3951,54 @@
         "Size": {
           "invheight": 2,
           "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2746614553",
+        "QualityCode": "q_magic",
+        "Title": "Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "10",
+        "LevelReq": 1,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1175500602",
+        "QualityCode": "q_magic",
+        "Title": "Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "10",
+        "LevelReq": 1,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
         },
         "Worn": ""
       }
@@ -214654,11 +214736,11 @@
       "Vitality": 458,
       "Energy": 25,
       "BaseLife": 1187,
-      "Life": 1187,
+      "Life": 1197,
       "BaseMana": 221,
-      "Mana": 221,
-      "Gold": 7190,
-      "Stashed": 4952
+      "Mana": 231,
+      "Gold": 0,
+      "Stashed": 158508
     },
     "Bonus": {
       "Strength": 48,
@@ -214676,7 +214758,7 @@
       "MagicFind": 26,
       "GoldFind": 137,
       "FasterCastRate": 0,
-      "FasterHitRecovery": 0,
+      "FasterHitRecovery": 20,
       "IncreasedAttackSpeed": 20,
       "CrushingBlow": 0,
       "OpenWounds": 25,
@@ -214684,30 +214766,6 @@
       "DamageReduction": 0,
       "CooldownReduction": 10,
       "WeaponSetMain": {
-        "Strength": 0,
-        "Dexterity": 0,
-        "Vitality": 0,
-        "Energy": 0,
-        "FireResistance": 0,
-        "MaximumFireResistance": 0,
-        "ColdResistance": 0,
-        "MaximumColdResistance": 0,
-        "LightningResistance": 0,
-        "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
-        "MaximumPoisonResistance": 0,
-        "MagicFind": 0,
-        "GoldFind": 0,
-        "FasterCastRate": 0,
-        "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 0,
-        "CrushingBlow": 0,
-        "OpenWounds": 0,
-        "DeadlyStrike": 0,
-        "DamageReduction": 0,
-        "CooldownReduction": 0
-      },
-      "WeaponSetOffhand": {
         "Strength": 5,
         "Dexterity": 0,
         "Vitality": 0,
@@ -214725,6 +214783,30 @@
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 35,
+        "CrushingBlow": 0,
+        "OpenWounds": 0,
+        "DeadlyStrike": 0,
+        "DamageReduction": 0,
+        "CooldownReduction": 0
+      },
+      "WeaponSetOffhand": {
+        "Strength": 0,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Energy": 0,
+        "FireResistance": 0,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 0,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 0,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 0,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 0,
+        "GoldFind": 0,
+        "FasterCastRate": 0,
+        "FasterHitRecovery": 0,
+        "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
@@ -215004,6 +215086,40 @@
         "Worn": "belt"
       },
       {
+        "Quality": "Unique",
+        "ID": "3331464297",
+        "QualityCode": "q_unique",
+        "Title": "Valkyrie Wing",
+        "Tag": "Winged Helm",
+        "TextTag": "Winged Helm",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "99",
+        "Durability": "35",
+        "DurabilityMaximum": "40",
+        "ItemLevel": "88",
+        "LevelReq": 44,
+        "SocketCount": "3",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+2 to Amazon Skill Levels",
+          "+20% Faster Run/Walk",
+          "+20% Faster Hit Recovery",
+          "+174% Enhanced Defense",
+          "+2 to Mana after each Kill",
+          "Socketed (3)"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "helmet"
+      },
+      {
         "Quality": "Normal",
         "ID": "967745643",
         "QualityCode": "q_runeword",
@@ -215109,14 +215225,14 @@
           "Socketed (3)"
         ],
         "Position": {
-          "x": 11,
+          "x": 4,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
         },
-        "Worn": "sweapon1"
+        "Worn": "weapon1"
       }
     ],
     "Inventory": [
@@ -216974,7 +217090,7 @@
       "Life": 811,
       "BaseMana": 1149,
       "Mana": 1734,
-      "Gold": 0,
+      "Gold": 4170,
       "Stashed": 752863
     },
     "Bonus": {
@@ -218557,6 +218673,54 @@
         "Size": {
           "invheight": 2,
           "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2746614553",
+        "QualityCode": "q_magic",
+        "Title": "Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "10",
+        "LevelReq": 1,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1175500602",
+        "QualityCode": "q_magic",
+        "Title": "Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "10",
+        "LevelReq": 1,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
         },
         "Worn": ""
       }
