@@ -12121,5 +12121,39 @@ const synthInventory = [
     "seen_date": "2026-09-25",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Bladebone%2C0%2Cnone%2Cias%3A20%2Cdamage_bonus%3A283%2Cdamage%3A75%2Car_bonus%3A100%2CfDamage_min%3A8%2CfDamage_max%3A0%2Cskill_Fist_of_the_Heavens%3A2%2Cdefense%3A20%2Cmana_regen%3A15%2Cctc%3A%5B5%2C+1%2C+%27Iron+Maiden%27%2C+%27when+struck%27%5D"
+  },
+  {
+    "id": "024a10cca81dc51cf60d0916669415c3e59e7f78bc6a61af1e2fbd66804a9de5",
+    "friendly_id": 206,
+    "owner": "yes_soso",
+    "base_type": "Synthesized Flanged Mace",
+    "title": "Sureshrill Frost",
+    "properties": [
+      "25% Chance to cast level 1 Teleport when struck",
+      "+170% Enhanced Damage",
+      "Adds 5-10 damage",
+      "+50% Damage to Undead",
+      "Freezes target +3",
+      "All Resistances +20",
+      "+7 to Mana after each Kill",
+      "Attacker Takes Damage of 8",
+      "50% Better Chance of Getting Magic Items"
+    ],
+    "synthesised_from": [
+      "Pluckeye",
+      "Grim's Burning Dead",
+      "The Oculus"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "45",
+    "DamageMaximum": "62",
+    "LevelReq": 39,
+    "SocketCount": "0",
+    "seen_date": "2026-09-26",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Sureshrill+Frost%2C0%2Cnone%2Cdamage_bonus%3A170%2Cdamage%3A10%2Cdamage_vs_undead%3A50%2Cfreezes_target%3A3%2Call_res%3A20%2Cmana_after_kill%3A7%2Cthorns%3A8%2Cmf%3A50%2Cctc%3A%5B25%2C+1%2C+%27Teleport%27%2C+%27when+struck%27%5D"
   }
 ];
