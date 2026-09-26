@@ -12155,5 +12155,39 @@ const synthInventory = [
     "seen_date": "2026-09-26",
     "sockets": [],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Sureshrill+Frost%2C0%2Cnone%2Cdamage_bonus%3A170%2Cdamage%3A10%2Cdamage_vs_undead%3A50%2Cfreezes_target%3A3%2Call_res%3A20%2Cmana_after_kill%3A7%2Cthorns%3A8%2Cmf%3A50%2Cctc%3A%5B25%2C+1%2C+%27Teleport%27%2C+%27when+struck%27%5D"
+  },
+  {
+    "id": "5e7f156097f9166b2debd12d05559cbb445e4da5de9b69cae8f0d1e1d02eae14",
+    "friendly_id": 207,
+    "owner": "imperialarx",
+    "base_type": "Synthesized Double Axe",
+    "title": "Bladebone",
+    "properties": [
+      "5% Chance to cast level 1 Iron Maiden when struck",
+      "5% Chance to cast level 1 Amplify Damage on striking",
+      "+20% Increased Attack Speed",
+      "+283% Enhanced Damage",
+      "Adds 32-75 damage",
+      "100% Bonus to Attack Rating",
+      "Adds 8-0 Fire damage",
+      "+2 to Fist of the Heavens (Paladin Only)",
+      "+20 Defense",
+      "Regenerate Mana 15%"
+    ],
+    "synthesised_from": [
+      "Hand of Blessed Light",
+      "The Gavel of Pain"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "51",
+    "DamageMaximum": "49",
+    "LevelReq": 15,
+    "SocketCount": "0",
+    "seen_date": "2026-09-26",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Bladebone%2C0%2Cnone%2Cias%3A20%2Cdamage_bonus%3A283%2Cdamage%3A75%2Car_bonus%3A100%2CfDamage_min%3A8%2CfDamage_max%3A0%2Cskill_Fist_of_the_Heavens%3A2%2Cdefense%3A20%2Cmana_regen%3A15%2Cctc%3A%5B5%2C+1%2C+%27Iron+Maiden%27%2C+%27when+struck%27%5D"
   }
 ];
