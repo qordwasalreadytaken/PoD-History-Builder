@@ -172287,8 +172287,8 @@
           "+4 Life after each Kill"
         ],
         "Position": {
-          "x": 5,
-          "y": 2
+          "x": 9,
+          "y": 0
         },
         "Size": {
           "invheight": 3,
@@ -172314,7 +172314,7 @@
           "Level 1 Grim Ward (22/22 Charges)"
         ],
         "Position": {
-          "x": 3,
+          "x": 2,
           "y": 0
         },
         "Size": {
@@ -233824,12 +233824,12 @@
     },
     "Bonus": {
       "Strength": 32,
-      "Dexterity": 56,
+      "Dexterity": 61,
       "Vitality": 0,
       "Energy": 0,
       "FireResistance": 123,
       "MaximumFireResistance": 0,
-      "ColdResistance": 114,
+      "ColdResistance": 135,
       "MaximumColdResistance": 0,
       "LightningResistance": 125,
       "MaximumLightningResistance": 0,
@@ -233839,15 +233839,15 @@
       "GoldFind": 0,
       "FasterCastRate": 25,
       "FasterHitRecovery": 0,
-      "IncreasedAttackSpeed": 20,
+      "IncreasedAttackSpeed": 40,
       "CrushingBlow": 0,
       "OpenWounds": 0,
       "DeadlyStrike": 0,
       "DamageReduction": 8,
       "CooldownReduction": 0,
       "WeaponSetMain": {
-        "Strength": 20,
-        "Dexterity": 20,
+        "Strength": 0,
+        "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
         "FireResistance": 0,
@@ -233862,7 +233862,7 @@
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 0,
+        "IncreasedAttackSpeed": 15,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
@@ -234344,35 +234344,66 @@
         "Worn": "helmet"
       },
       {
-        "Quality": "Unique",
-        "ID": "339325224",
-        "QualityCode": "q_unique",
-        "Title": "Titan's Revenge",
-        "Tag": "Ceremonial Javelin",
-        "TextTag": "Ceremonial Javelin",
+        "Quality": "Rare",
+        "ID": "3519075662",
+        "QualityCode": "q_rare",
+        "Title": "Grim Hold",
+        "Tag": "Light Gauntlets",
+        "TextTag": "Light Gauntlets",
         "Ethereal": "False",
         "Enhanced": "True",
-        "DamageMinimum": "76",
-        "DamageMaximum": "100",
-        "ThrowDamageMinimum": "76",
-        "ThrowDamageMaximum": "154",
-        "Durability": "100",
-        "DurabilityMaximum": "100",
-        "ItemLevel": "88",
-        "LevelReq": 42,
+        "Defense": "12",
+        "Durability": "11",
+        "DurabilityMaximum": "18",
+        "ItemLevel": "89",
+        "LevelReq": 35,
         "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
           "+2 to Javelin and Spear Skills (Amazon Only)",
-          "+2 to Amazon Skill Levels",
-          "+30% Faster Run/Walk",
-          "+186% Enhanced Damage",
-          "Adds 25-50 damage",
-          "9% Life stolen per hit",
-          "+20 to Strength",
-          "+20 to Dexterity",
-          "Increased Stack Size",
-          "Repairs 1 durability in 3 seconds"
+          "+20% Increased Attack Speed",
+          "+26% Enhanced Defense",
+          "+5 to Dexterity",
+          "Cold Resist +21%",
+          "Poison Length Reduced by 25%"
+        ],
+        "Position": {
+          "x": 10,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "gloves"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3083124741",
+        "QualityCode": "q_unique",
+        "Title": "Thunderstroke",
+        "Tag": "Matriarchal Javelin",
+        "TextTag": "MatriarchalJavelin",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "77",
+        "DamageMaximum": "138",
+        "ThrowDamageMinimum": "89",
+        "ThrowDamageMaximum": "169",
+        "Durability": "81",
+        "DurabilityMaximum": "100",
+        "ItemLevel": "91",
+        "LevelReq": 69,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "20% Chance to cast level 14 Lightning Surge on striking",
+          "+4 to Javelin and Spear Skills (Amazon Only)",
+          "+15% Increased Attack Speed",
+          "+157% Enhanced Damage",
+          "Adds 1-511 Lightning damage",
+          "-15% to Enemy Lightning Resistance",
+          "+3 to Lightning Bolt (Amazon Only)"
         ],
         "Position": {
           "x": 4,
@@ -234818,121 +234849,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Flawless Skull",
-        "Tag": "Flawless Skull",
-        "TextTag": "Flawless Skull",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 15,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Flawless Ruby",
-        "Tag": "Flawless Ruby",
-        "TextTag": "Flawless Ruby",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 15,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Tir Rune",
-        "Tag": "Tir Rune",
-        "TextTag": "Tir Rune",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 13,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Lum Rune",
-        "Tag": "Lum Rune",
-        "TextTag": "Lum Rune",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 37,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Amn Rune",
-        "Tag": "Amn Rune",
-        "TextTag": "Amn Rune",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 6,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Magic",
         "ID": "3562894898",
         "QualityCode": "q_magic",
@@ -234956,40 +234872,6 @@
         "Size": {
           "invheight": 3,
           "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
-        "ID": "3519075662",
-        "QualityCode": "q_rare",
-        "Title": "Grim Hold",
-        "Tag": "Light Gauntlets",
-        "TextTag": "Light Gauntlets",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "12",
-        "Durability": "11",
-        "DurabilityMaximum": "18",
-        "ItemLevel": "89",
-        "LevelReq": 35,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+2 to Javelin and Spear Skills (Amazon Only)",
-          "+20% Increased Attack Speed",
-          "+26% Enhanced Defense",
-          "+5 to Dexterity",
-          "Cold Resist +21%",
-          "Poison Length Reduced by 25%"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
         },
         "Worn": ""
       },
@@ -235060,44 +234942,6 @@
         "Position": {
           "x": 5,
           "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unique",
-        "ID": "3083124741",
-        "QualityCode": "q_unique",
-        "Title": "Thunderstroke",
-        "Tag": "Matriarchal Javelin",
-        "TextTag": "MatriarchalJavelin",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "77",
-        "DamageMaximum": "138",
-        "ThrowDamageMinimum": "89",
-        "ThrowDamageMaximum": "169",
-        "Durability": "81",
-        "DurabilityMaximum": "100",
-        "ItemLevel": "91",
-        "LevelReq": 69,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "20% Chance to cast level 14 Lightning Surge on striking",
-          "+4 to Javelin and Spear Skills (Amazon Only)",
-          "+15% Increased Attack Speed",
-          "+157% Enhanced Damage",
-          "Adds 1-511 Lightning damage",
-          "-15% to Enemy Lightning Resistance",
-          "+3 to Lightning Bolt (Amazon Only)"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 1
         },
         "Size": {
           "invheight": 3,
@@ -235211,6 +235055,47 @@
         "Position": {
           "x": 7,
           "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "339325224",
+        "QualityCode": "q_unique",
+        "Title": "Titan's Revenge",
+        "Tag": "Ceremonial Javelin",
+        "TextTag": "Ceremonial Javelin",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "76",
+        "DamageMaximum": "100",
+        "ThrowDamageMinimum": "76",
+        "ThrowDamageMaximum": "154",
+        "Durability": "100",
+        "DurabilityMaximum": "100",
+        "ItemLevel": "88",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+2 to Javelin and Spear Skills (Amazon Only)",
+          "+2 to Amazon Skill Levels",
+          "+30% Faster Run/Walk",
+          "+186% Enhanced Damage",
+          "Adds 25-50 damage",
+          "9% Life stolen per hit",
+          "+20 to Strength",
+          "+20 to Dexterity",
+          "Increased Stack Size",
+          "Repairs 1 durability in 3 seconds"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 2
         },
         "Size": {
           "invheight": 3,
@@ -360859,8 +360744,8 @@
           "+4 Life after each Kill"
         ],
         "Position": {
-          "x": 5,
-          "y": 2
+          "x": 9,
+          "y": 0
         },
         "Size": {
           "invheight": 3,
@@ -360886,7 +360771,7 @@
           "Level 1 Grim Ward (22/22 Charges)"
         ],
         "Position": {
-          "x": 3,
+          "x": 2,
           "y": 0
         },
         "Size": {
@@ -422396,12 +422281,12 @@
     },
     "Bonus": {
       "Strength": 32,
-      "Dexterity": 56,
+      "Dexterity": 61,
       "Vitality": 0,
       "Energy": 0,
       "FireResistance": 123,
       "MaximumFireResistance": 0,
-      "ColdResistance": 114,
+      "ColdResistance": 135,
       "MaximumColdResistance": 0,
       "LightningResistance": 125,
       "MaximumLightningResistance": 0,
@@ -422411,15 +422296,15 @@
       "GoldFind": 0,
       "FasterCastRate": 25,
       "FasterHitRecovery": 0,
-      "IncreasedAttackSpeed": 20,
+      "IncreasedAttackSpeed": 40,
       "CrushingBlow": 0,
       "OpenWounds": 0,
       "DeadlyStrike": 0,
       "DamageReduction": 8,
       "CooldownReduction": 0,
       "WeaponSetMain": {
-        "Strength": 20,
-        "Dexterity": 20,
+        "Strength": 0,
+        "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
         "FireResistance": 0,
@@ -422434,7 +422319,7 @@
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 0,
+        "IncreasedAttackSpeed": 15,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
@@ -422916,35 +422801,66 @@
         "Worn": "helmet"
       },
       {
-        "Quality": "Unique",
-        "ID": "339325224",
-        "QualityCode": "q_unique",
-        "Title": "Titan's Revenge",
-        "Tag": "Ceremonial Javelin",
-        "TextTag": "Ceremonial Javelin",
+        "Quality": "Rare",
+        "ID": "3519075662",
+        "QualityCode": "q_rare",
+        "Title": "Grim Hold",
+        "Tag": "Light Gauntlets",
+        "TextTag": "Light Gauntlets",
         "Ethereal": "False",
         "Enhanced": "True",
-        "DamageMinimum": "76",
-        "DamageMaximum": "100",
-        "ThrowDamageMinimum": "76",
-        "ThrowDamageMaximum": "154",
-        "Durability": "100",
-        "DurabilityMaximum": "100",
-        "ItemLevel": "88",
-        "LevelReq": 42,
+        "Defense": "12",
+        "Durability": "11",
+        "DurabilityMaximum": "18",
+        "ItemLevel": "89",
+        "LevelReq": 35,
         "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
           "+2 to Javelin and Spear Skills (Amazon Only)",
-          "+2 to Amazon Skill Levels",
-          "+30% Faster Run/Walk",
-          "+186% Enhanced Damage",
-          "Adds 25-50 damage",
-          "9% Life stolen per hit",
-          "+20 to Strength",
-          "+20 to Dexterity",
-          "Increased Stack Size",
-          "Repairs 1 durability in 3 seconds"
+          "+20% Increased Attack Speed",
+          "+26% Enhanced Defense",
+          "+5 to Dexterity",
+          "Cold Resist +21%",
+          "Poison Length Reduced by 25%"
+        ],
+        "Position": {
+          "x": 10,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "gloves"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3083124741",
+        "QualityCode": "q_unique",
+        "Title": "Thunderstroke",
+        "Tag": "Matriarchal Javelin",
+        "TextTag": "MatriarchalJavelin",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "77",
+        "DamageMaximum": "138",
+        "ThrowDamageMinimum": "89",
+        "ThrowDamageMaximum": "169",
+        "Durability": "81",
+        "DurabilityMaximum": "100",
+        "ItemLevel": "91",
+        "LevelReq": 69,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "20% Chance to cast level 14 Lightning Surge on striking",
+          "+4 to Javelin and Spear Skills (Amazon Only)",
+          "+15% Increased Attack Speed",
+          "+157% Enhanced Damage",
+          "Adds 1-511 Lightning damage",
+          "-15% to Enemy Lightning Resistance",
+          "+3 to Lightning Bolt (Amazon Only)"
         ],
         "Position": {
           "x": 4,
@@ -423390,121 +423306,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Flawless Skull",
-        "Tag": "Flawless Skull",
-        "TextTag": "Flawless Skull",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 15,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 9,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Flawless Ruby",
-        "Tag": "Flawless Ruby",
-        "TextTag": "Flawless Ruby",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 15,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Tir Rune",
-        "Tag": "Tir Rune",
-        "TextTag": "Tir Rune",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 13,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Lum Rune",
-        "Tag": "Lum Rune",
-        "TextTag": "Lum Rune",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 37,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Amn Rune",
-        "Tag": "Amn Rune",
-        "TextTag": "Amn Rune",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 6,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Magic",
         "ID": "3562894898",
         "QualityCode": "q_magic",
@@ -423528,40 +423329,6 @@
         "Size": {
           "invheight": 3,
           "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
-        "ID": "3519075662",
-        "QualityCode": "q_rare",
-        "Title": "Grim Hold",
-        "Tag": "Light Gauntlets",
-        "TextTag": "Light Gauntlets",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "12",
-        "Durability": "11",
-        "DurabilityMaximum": "18",
-        "ItemLevel": "89",
-        "LevelReq": 35,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+2 to Javelin and Spear Skills (Amazon Only)",
-          "+20% Increased Attack Speed",
-          "+26% Enhanced Defense",
-          "+5 to Dexterity",
-          "Cold Resist +21%",
-          "Poison Length Reduced by 25%"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
         },
         "Worn": ""
       },
@@ -423632,44 +423399,6 @@
         "Position": {
           "x": 5,
           "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unique",
-        "ID": "3083124741",
-        "QualityCode": "q_unique",
-        "Title": "Thunderstroke",
-        "Tag": "Matriarchal Javelin",
-        "TextTag": "MatriarchalJavelin",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "77",
-        "DamageMaximum": "138",
-        "ThrowDamageMinimum": "89",
-        "ThrowDamageMaximum": "169",
-        "Durability": "81",
-        "DurabilityMaximum": "100",
-        "ItemLevel": "91",
-        "LevelReq": 69,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "20% Chance to cast level 14 Lightning Surge on striking",
-          "+4 to Javelin and Spear Skills (Amazon Only)",
-          "+15% Increased Attack Speed",
-          "+157% Enhanced Damage",
-          "Adds 1-511 Lightning damage",
-          "-15% to Enemy Lightning Resistance",
-          "+3 to Lightning Bolt (Amazon Only)"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 1
         },
         "Size": {
           "invheight": 3,
@@ -423783,6 +423512,47 @@
         "Position": {
           "x": 7,
           "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "339325224",
+        "QualityCode": "q_unique",
+        "Title": "Titan's Revenge",
+        "Tag": "Ceremonial Javelin",
+        "TextTag": "Ceremonial Javelin",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "76",
+        "DamageMaximum": "100",
+        "ThrowDamageMinimum": "76",
+        "ThrowDamageMaximum": "154",
+        "Durability": "100",
+        "DurabilityMaximum": "100",
+        "ItemLevel": "88",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+2 to Javelin and Spear Skills (Amazon Only)",
+          "+2 to Amazon Skill Levels",
+          "+30% Faster Run/Walk",
+          "+186% Enhanced Damage",
+          "Adds 25-50 damage",
+          "9% Life stolen per hit",
+          "+20 to Strength",
+          "+20 to Dexterity",
+          "Increased Stack Size",
+          "Repairs 1 durability in 3 seconds"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 2
         },
         "Size": {
           "invheight": 3,
