@@ -128677,15 +128677,15 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 96,
-      "Experience": 2733842139,
+      "Experience": 2736809522,
       "Strength": 106,
       "Dexterity": 25,
       "Vitality": 403,
       "Energy": 36,
       "BaseLife": 1028,
-      "Life": 1776,
+      "Life": 1640,
       "BaseMana": 227,
-      "Mana": 701,
+      "Mana": 651,
       "Gold": 960000,
       "Stashed": 2500000
     },
@@ -129124,7 +129124,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "78",
-        "Durability": "16",
+        "Durability": "15",
         "DurabilityMaximum": "20",
         "ItemLevel": "88",
         "LevelReq": 66,
@@ -130672,59 +130672,29 @@
       },
       {
         "Quality": "Rare",
-        "ID": "3159235289",
+        "ID": "1653228896",
         "QualityCode": "q_rare",
-        "Title": "Grim Eye",
-        "Tag": "Desecrated Temple Relic",
-        "TextTag": "Desecrated Temple Relic",
+        "Title": "Skull Eye",
+        "Tag": "Forgotten Desert Relic",
+        "TextTag": "Forgotten Desert Relic",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "86",
+        "ItemLevel": "99",
         "LevelReq": 80,
         "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "20% Chance to cast level 8 Decrepify on striking",
-          "Adds 30-40 Magic damage",
-          "Adds 149-150 Fire damage",
-          "11% Life stolen per hit",
-          "Lightning Absorb 23%",
-          "Physical Damage Taken Reduced by 63",
-          "Magic & Elemental Damage Taken Reduced by 63",
+          "30% Chance to cast level 13 Decrepify on striking",
+          "15% Chance to cast level 25 Glacial Spike when you Die",
+          "Level 12 Redemption Aura When Equipped",
+          "Adds 199-200 Fire damage",
           "200% Extra Gold from Monsters",
-          "200% Better Chance of Getting Magic Items"
+          "200% Better Chance of Getting Magic Items",
+          "19% chance to Evade"
         ],
         "Position": {
           "x": 8,
           "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
-        "ID": "1806703449",
-        "QualityCode": "q_rare",
-        "Title": "Skull Eye",
-        "Tag": "Icy Cavern Relic",
-        "TextTag": "Icy Cavern Relic",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "92",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "Level 10 Slow Nearby Enemies by 20%% Aura When Equipped",
-          "Adds 63-150 Lightning damage",
-          "Fire Absorb 37%",
-          "Attacker Takes Damage of 22"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 1
         },
         "Size": {
           "invheight": 1,
@@ -131149,9 +131119,6 @@
         },
         "Worn": "weapon1"
       }
-    ],
-    "ItemCodeFailedToParse": [
-      "ItemCode: ma21 | Properties:   [34] normal_damage_reduction -> 63 [0]  [35] magic_damage_reduction -> 63 [0]  [151] item_aura -> 12 [124]  [151] item_aura -> 6 [758]  [197] item_skillondeath -> 15 [22297]  [339] passive_avoid -> 17 [0]  [511] EOF -> 0 [0]"
     ]
   },
   {
@@ -231855,7 +231822,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 96,
-      "Experience": 2809080066,
+      "Experience": 2809663890,
       "Strength": 67,
       "Dexterity": 240,
       "Vitality": 223,
@@ -231863,9 +231830,9 @@
       "BaseLife": 956,
       "Life": 1224,
       "BaseMana": 157,
-      "Mana": 244,
-      "Gold": 210600,
-      "Stashed": 1610396
+      "Mana": 215,
+      "Gold": 162280,
+      "Stashed": 1990636
     },
     "Bonus": {
       "Strength": 89,
@@ -232483,7 +232450,7 @@
         "DamageMaximum": "150",
         "ThrowDamageMinimum": "97",
         "ThrowDamageMaximum": "183",
-        "Durability": "55",
+        "Durability": "35",
         "DurabilityMaximum": "100",
         "ItemLevel": "86",
         "LevelReq": 69,
@@ -234168,112 +234135,113 @@
         "Worn": ""
       },
       {
+        "Quality": "Magic",
+        "ID": "231000136",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "86",
+        "LevelReq": 20,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "4289639401",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "86",
+        "LevelReq": 14,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2786342647",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "86",
+        "LevelReq": 10,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Scroll of Town Portal",
-        "Tag": "Scroll of Town Portal",
-        "TextTag": "Town Portal Scroll",
+        "Title": "Lum Rune",
+        "Tag": "Lum Rune",
+        "TextTag": "Lum Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 37,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 2,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "\u00ffc;Orb of Corruption",
+        "Tag": "\u00ffc;Orb of Corruption",
+        "TextTag": "Orb of Corruption",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "0",
         "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
-        "Position": {
-          "x": 3,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Um Rune",
-        "Tag": "Um Rune",
-        "TextTag": "Um Rune",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 47,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 3,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
-        "ID": "2280783282",
-        "QualityCode": "q_rare",
-        "Title": "Decomposing Settlement Relic",
-        "Tag": "Decomposing Settlement Relic",
-        "TextTag": "Decomposing Settlement Relic",
-        "Ethereal": "False",
-        "ItemLevel": "87",
-        "LevelReq": 80,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1354791628",
-        "QualityCode": "q_magic",
-        "Title": "Small Charm",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "90",
-        "LevelReq": 20,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "3394996962",
-        "QualityCode": "q_magic",
-        "Title": "Small Charm",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "87",
-        "LevelReq": 15,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
         "Position": {
           "x": 1,
           "y": 3
@@ -234285,91 +234253,19 @@
         "Worn": ""
       },
       {
-        "Quality": "Rare",
-        "ID": "610065096",
-        "QualityCode": "q_rare",
-        "Title": "Ring",
-        "Tag": "Ring",
-        "TextTag": "ring",
-        "Ethereal": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "87",
-        "LevelReq": 37,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1310485785",
-        "QualityCode": "q_magic",
-        "Title": "Jewel",
-        "Tag": "Jewel",
-        "TextTag": "Jewel",
-        "Ethereal": "False",
-        "AlternateGraphics": "5",
-        "ItemLevel": "87",
-        "LevelReq": 1,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
-          "x": 3,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Scroll of Identify",
-        "Tag": "Scroll of Identify",
-        "TextTag": "Identify Scroll",
+        "Quality": "Normal",
+        "ID": "2236436370",
+        "QualityCode": "q_normal",
+        "Title": "\u00ffc;Orb of Alteration",
+        "Tag": "\u00ffc;Orb of Alteration",
+        "TextTag": "Map Orb",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "0",
+        "ItemLevel": "95",
         "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 3,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "724105325",
-        "QualityCode": "q_magic",
-        "Title": "Small Charm",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "87",
-        "LevelReq": 9,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
           "x": 2,
           "y": 1
         },
@@ -234380,16 +234276,15 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "533606380",
-        "QualityCode": "q_magic",
-        "Title": "Small Charm",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
+        "Quality": "Rare",
+        "ID": "1522395913",
+        "QualityCode": "q_rare",
+        "Title": "Ruined Citadel Relic",
+        "Tag": "Ruined Citadel Relic",
+        "TextTag": "Ruined Citadel Relic",
         "Ethereal": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "87",
-        "LevelReq": 0,
+        "ItemLevel": "95",
+        "LevelReq": 80,
         "PropertyList": [
           "\u00ffc1Unidentified"
         ],
@@ -234405,15 +234300,15 @@
       },
       {
         "Quality": "Magic",
-        "ID": "933582622",
+        "ID": "3305959109",
         "QualityCode": "q_magic",
-        "Title": "Jewel",
-        "Tag": "Jewel",
-        "TextTag": "Jewel",
+        "Title": "Small Charm",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
         "Ethereal": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "87",
-        "LevelReq": 37,
+        "AlternateGraphics": "1",
+        "ItemLevel": "86",
+        "LevelReq": 5,
         "PropertyList": [
           "\u00ffc1Unidentified"
         ],
@@ -234431,15 +234326,86 @@
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Scroll of Identify",
-        "Tag": "Scroll of Identify",
-        "TextTag": "Identify Scroll",
+        "Title": "\u00ffc;Orb of Corruption",
+        "Tag": "\u00ffc;Orb of Corruption",
+        "TextTag": "Orb of Corruption",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "0",
         "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
+        "Position": {
+          "x": 2,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "\u00ffc;Orb of Corruption",
+        "Tag": "\u00ffc;Orb of Corruption",
+        "TextTag": "Orb of Corruption",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 3,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1426932279",
+        "QualityCode": "q_rare",
+        "Title": "Ring",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "86",
+        "LevelReq": 13,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "598503865",
+        "QualityCode": "q_magic",
+        "Title": "Jewel",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "AlternateGraphics": "3",
+        "ItemLevel": "86",
+        "LevelReq": 56,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
         "Position": {
           "x": 1,
           "y": 2
@@ -500866,15 +500832,15 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 96,
-      "Experience": 2733842139,
+      "Experience": 2736809522,
       "Strength": 106,
       "Dexterity": 25,
       "Vitality": 403,
       "Energy": 36,
       "BaseLife": 1028,
-      "Life": 1776,
+      "Life": 1640,
       "BaseMana": 227,
-      "Mana": 701,
+      "Mana": 651,
       "Gold": 960000,
       "Stashed": 2500000
     },
@@ -501313,7 +501279,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "78",
-        "Durability": "16",
+        "Durability": "15",
         "DurabilityMaximum": "20",
         "ItemLevel": "88",
         "LevelReq": 66,
@@ -502861,59 +502827,29 @@
       },
       {
         "Quality": "Rare",
-        "ID": "3159235289",
+        "ID": "1653228896",
         "QualityCode": "q_rare",
-        "Title": "Grim Eye",
-        "Tag": "Desecrated Temple Relic",
-        "TextTag": "Desecrated Temple Relic",
+        "Title": "Skull Eye",
+        "Tag": "Forgotten Desert Relic",
+        "TextTag": "Forgotten Desert Relic",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "86",
+        "ItemLevel": "99",
         "LevelReq": 80,
         "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "20% Chance to cast level 8 Decrepify on striking",
-          "Adds 30-40 Magic damage",
-          "Adds 149-150 Fire damage",
-          "11% Life stolen per hit",
-          "Lightning Absorb 23%",
-          "Physical Damage Taken Reduced by 63",
-          "Magic & Elemental Damage Taken Reduced by 63",
+          "30% Chance to cast level 13 Decrepify on striking",
+          "15% Chance to cast level 25 Glacial Spike when you Die",
+          "Level 12 Redemption Aura When Equipped",
+          "Adds 199-200 Fire damage",
           "200% Extra Gold from Monsters",
-          "200% Better Chance of Getting Magic Items"
+          "200% Better Chance of Getting Magic Items",
+          "19% chance to Evade"
         ],
         "Position": {
           "x": 8,
           "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
-        "ID": "1806703449",
-        "QualityCode": "q_rare",
-        "Title": "Skull Eye",
-        "Tag": "Icy Cavern Relic",
-        "TextTag": "Icy Cavern Relic",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "92",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "Level 10 Slow Nearby Enemies by 20%% Aura When Equipped",
-          "Adds 63-150 Lightning damage",
-          "Fire Absorb 37%",
-          "Attacker Takes Damage of 22"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 1
         },
         "Size": {
           "invheight": 1,
@@ -503338,9 +503274,6 @@
         },
         "Worn": "weapon1"
       }
-    ],
-    "ItemCodeFailedToParse": [
-      "ItemCode: ma21 | Properties:   [34] normal_damage_reduction -> 63 [0]  [35] magic_damage_reduction -> 63 [0]  [151] item_aura -> 12 [124]  [151] item_aura -> 6 [758]  [197] item_skillondeath -> 15 [22297]  [339] passive_avoid -> 17 [0]  [511] EOF -> 0 [0]"
     ]
   },
   {
@@ -577090,7 +577023,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 96,
-      "Experience": 2809080066,
+      "Experience": 2809663890,
       "Strength": 67,
       "Dexterity": 240,
       "Vitality": 223,
@@ -577098,9 +577031,9 @@
       "BaseLife": 956,
       "Life": 1224,
       "BaseMana": 157,
-      "Mana": 244,
-      "Gold": 210600,
-      "Stashed": 1610396
+      "Mana": 215,
+      "Gold": 162280,
+      "Stashed": 1990636
     },
     "Bonus": {
       "Strength": 89,
@@ -577718,7 +577651,7 @@
         "DamageMaximum": "150",
         "ThrowDamageMinimum": "97",
         "ThrowDamageMaximum": "183",
-        "Durability": "55",
+        "Durability": "35",
         "DurabilityMaximum": "100",
         "ItemLevel": "86",
         "LevelReq": 69,
@@ -579403,112 +579336,113 @@
         "Worn": ""
       },
       {
+        "Quality": "Magic",
+        "ID": "231000136",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "86",
+        "LevelReq": 20,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "4289639401",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "86",
+        "LevelReq": 14,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2786342647",
+        "QualityCode": "q_magic",
+        "Title": "Small Charm",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "86",
+        "LevelReq": 10,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Scroll of Town Portal",
-        "Tag": "Scroll of Town Portal",
-        "TextTag": "Town Portal Scroll",
+        "Title": "Lum Rune",
+        "Tag": "Lum Rune",
+        "TextTag": "Lum Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 37,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 2,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "\u00ffc;Orb of Corruption",
+        "Tag": "\u00ffc;Orb of Corruption",
+        "TextTag": "Orb of Corruption",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "0",
         "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
-        "Position": {
-          "x": 3,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Um Rune",
-        "Tag": "Um Rune",
-        "TextTag": "Um Rune",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 47,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 3,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
-        "ID": "2280783282",
-        "QualityCode": "q_rare",
-        "Title": "Decomposing Settlement Relic",
-        "Tag": "Decomposing Settlement Relic",
-        "TextTag": "Decomposing Settlement Relic",
-        "Ethereal": "False",
-        "ItemLevel": "87",
-        "LevelReq": 80,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1354791628",
-        "QualityCode": "q_magic",
-        "Title": "Small Charm",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "90",
-        "LevelReq": 20,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "3394996962",
-        "QualityCode": "q_magic",
-        "Title": "Small Charm",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "87",
-        "LevelReq": 15,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
         "Position": {
           "x": 1,
           "y": 3
@@ -579520,91 +579454,19 @@
         "Worn": ""
       },
       {
-        "Quality": "Rare",
-        "ID": "610065096",
-        "QualityCode": "q_rare",
-        "Title": "Ring",
-        "Tag": "Ring",
-        "TextTag": "ring",
-        "Ethereal": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "87",
-        "LevelReq": 37,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1310485785",
-        "QualityCode": "q_magic",
-        "Title": "Jewel",
-        "Tag": "Jewel",
-        "TextTag": "Jewel",
-        "Ethereal": "False",
-        "AlternateGraphics": "5",
-        "ItemLevel": "87",
-        "LevelReq": 1,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
-          "x": 3,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Scroll of Identify",
-        "Tag": "Scroll of Identify",
-        "TextTag": "Identify Scroll",
+        "Quality": "Normal",
+        "ID": "2236436370",
+        "QualityCode": "q_normal",
+        "Title": "\u00ffc;Orb of Alteration",
+        "Tag": "\u00ffc;Orb of Alteration",
+        "TextTag": "Map Orb",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "0",
+        "ItemLevel": "95",
         "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 3,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "724105325",
-        "QualityCode": "q_magic",
-        "Title": "Small Charm",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "87",
-        "LevelReq": 9,
-        "PropertyList": [
-          "\u00ffc1Unidentified"
-        ],
-        "Position": {
           "x": 2,
           "y": 1
         },
@@ -579615,16 +579477,15 @@
         "Worn": ""
       },
       {
-        "Quality": "Magic",
-        "ID": "533606380",
-        "QualityCode": "q_magic",
-        "Title": "Small Charm",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
+        "Quality": "Rare",
+        "ID": "1522395913",
+        "QualityCode": "q_rare",
+        "Title": "Ruined Citadel Relic",
+        "Tag": "Ruined Citadel Relic",
+        "TextTag": "Ruined Citadel Relic",
         "Ethereal": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "87",
-        "LevelReq": 0,
+        "ItemLevel": "95",
+        "LevelReq": 80,
         "PropertyList": [
           "\u00ffc1Unidentified"
         ],
@@ -579640,15 +579501,15 @@
       },
       {
         "Quality": "Magic",
-        "ID": "933582622",
+        "ID": "3305959109",
         "QualityCode": "q_magic",
-        "Title": "Jewel",
-        "Tag": "Jewel",
-        "TextTag": "Jewel",
+        "Title": "Small Charm",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
         "Ethereal": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "87",
-        "LevelReq": 37,
+        "AlternateGraphics": "1",
+        "ItemLevel": "86",
+        "LevelReq": 5,
         "PropertyList": [
           "\u00ffc1Unidentified"
         ],
@@ -579666,15 +579527,86 @@
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Scroll of Identify",
-        "Tag": "Scroll of Identify",
-        "TextTag": "Identify Scroll",
+        "Title": "\u00ffc;Orb of Corruption",
+        "Tag": "\u00ffc;Orb of Corruption",
+        "TextTag": "Orb of Corruption",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "0",
         "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
+        "Position": {
+          "x": 2,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "\u00ffc;Orb of Corruption",
+        "Tag": "\u00ffc;Orb of Corruption",
+        "TextTag": "Orb of Corruption",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 3,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1426932279",
+        "QualityCode": "q_rare",
+        "Title": "Ring",
+        "Tag": "Ring",
+        "TextTag": "ring",
+        "Ethereal": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "86",
+        "LevelReq": 13,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "598503865",
+        "QualityCode": "q_magic",
+        "Title": "Jewel",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "AlternateGraphics": "3",
+        "ItemLevel": "86",
+        "LevelReq": 56,
+        "PropertyList": [
+          "\u00ffc1Unidentified"
+        ],
         "Position": {
           "x": 1,
           "y": 2
