@@ -17,8 +17,8 @@
       "Life": 1197,
       "BaseMana": 221,
       "Mana": 231,
-      "Gold": 179888,
-      "Stashed": 105321
+      "Gold": 12009,
+      "Stashed": 2076
     },
     "Bonus": {
       "Strength": 48,
@@ -324,6 +324,39 @@
         "Worn": "helmet"
       },
       {
+        "Quality": "Set",
+        "ID": "3241389956",
+        "QualityCode": "q_set",
+        "Title": "M'avina's Tenet",
+        "Tag": "Sharkskin Belt",
+        "TextTag": "Sharkskin Belt",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "33",
+        "Durability": "14",
+        "DurabilityMaximum": "14",
+        "ItemLevel": "90",
+        "LevelReq": 45,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+20% Faster Run/Walk",
+          "+8% Piercing Attack",
+          "5% Mana stolen per hit",
+          "+50 Defense",
+          "+5 to Light Radius"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 2
+        },
+        "Worn": "belt"
+      },
+      {
         "Quality": "Unique",
         "ID": "556882192",
         "QualityCode": "q_unique",
@@ -362,39 +395,6 @@
           "invwidth": 2
         },
         "Worn": "body"
-      },
-      {
-        "Quality": "Set",
-        "ID": "3241389956",
-        "QualityCode": "q_set",
-        "Title": "M'avina's Tenet",
-        "Tag": "Sharkskin Belt",
-        "TextTag": "Sharkskin Belt",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "33",
-        "Durability": "14",
-        "DurabilityMaximum": "14",
-        "ItemLevel": "90",
-        "LevelReq": 45,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+20% Faster Run/Walk",
-          "+8% Piercing Attack",
-          "5% Mana stolen per hit",
-          "+50 Defense",
-          "+5 to Light Radius"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 2
-        },
-        "Worn": "belt"
       },
       {
         "Quality": "Normal",
@@ -514,34 +514,6 @@
     ],
     "Inventory": [
       {
-        "Quality": "Unique",
-        "ID": "3735572939",
-        "QualityCode": "q_unique",
-        "Title": "Gheed's Fortune",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 62,
-        "SocketCount": "0",
-        "PropertyList": [
-          "137% Extra Gold from Monsters",
-          "Reduces all Vendor Prices 15%",
-          "26% Better Chance of Getting Magic Items"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "2250722294",
         "QualityCode": "q_normal",
@@ -584,7 +556,7 @@
           "+4 Mana Gained on Ranged Hit"
         ],
         "Position": {
-          "x": 1,
+          "x": 0,
           "y": 6
         },
         "Size": {
@@ -592,9 +564,40 @@
           "invwidth": 1
         },
         "Worn": "weapon2"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3735572939",
+        "QualityCode": "q_unique",
+        "Title": "Gheed's Fortune",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 62,
+        "SocketCount": "0",
+        "PropertyList": [
+          "137% Extra Gold from Monsters",
+          "Reduces all Vendor Prices 15%",
+          "26% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
       }
     ],
-    "MercenaryEquipped": []
+    "MercenaryEquipped": [],
+    "ItemCodeFailedToParse": [
+      "ItemCode: aq2 | Properties:   [74] hpregen -> 125 [0]  [96] item_fastermovevelocity -> 14 [0]  [97] item_nonclassskill -> 6 [26]  [156] item_pierce -> 15 [0]  [377] item_manaonrangedhit -> 4 [0]  [511] EOF -> 0 [0]"
+    ]
   },
   {
     "Title": "Matriach",
@@ -89114,7 +89117,7 @@
       "MagicFind": 113,
       "GoldFind": 7,
       "FasterCastRate": 10,
-      "FasterHitRecovery": 44,
+      "FasterHitRecovery": 24,
       "IncreasedAttackSpeed": 50,
       "CrushingBlow": 0,
       "OpenWounds": 0,
@@ -89378,133 +89381,6 @@
           "invwidth": 2
         },
         "Worn": "boots"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "2856625432",
-        "QualityCode": "q_unique",
-        "Title": "Valkyrie Wing",
-        "Tag": "Winged Helm",
-        "TextTag": "Winged Helm",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "99",
-        "Durability": "40",
-        "DurabilityMaximum": "40",
-        "ItemLevel": "87",
-        "LevelReq": 44,
-        "Sockets": [
-          {
-            "Quality": "Unique",
-            "ID": "3100519756",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "AlternateGraphics": "0",
-            "ItemLevel": "87",
-            "LevelReq": 49,
-            "SocketCount": "0",
-            "PropertyList": [
-              "100% Chance to cast level 43 Frost Nova when you Level-Up",
-              "Adds 24-114 cold damage",
-              "-5% to Enemy Cold Resistance",
-              "+5% Increased Cold Damage"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unique",
-            "ID": "2002700568",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "AlternateGraphics": "2",
-            "ItemLevel": "87",
-            "LevelReq": 49,
-            "SocketCount": "0",
-            "PropertyList": [
-              "100% Chance to cast level 43 Frost Nova when you Level-Up",
-              "Adds 24-38 cold damage",
-              "-5% to Enemy Cold Resistance",
-              "+5% Increased Cold Damage"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unique",
-            "ID": "3482107927",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "AlternateGraphics": "1",
-            "ItemLevel": "87",
-            "LevelReq": 49,
-            "SocketCount": "0",
-            "PropertyList": [
-              "100% Chance to cast level 43 Frost Nova when you Level-Up",
-              "Adds 24-38 cold damage",
-              "-5% to Enemy Cold Resistance",
-              "+5% Increased Cold Damage"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "3",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "300% Chance to cast level 43 Frost Nova when you Level-Up",
-          "+2 to Amazon Skill Levels",
-          "+20% Faster Run/Walk",
-          "+20% Faster Hit Recovery",
-          "Adds 72-114 cold damage",
-          "-15% to Enemy Cold Resistance",
-          "+15% Increased Cold Damage",
-          "+154% Enhanced Defense",
-          "+3 to Mana after each Kill",
-          "Socketed (3)"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "helmet"
       },
       {
         "Quality": "Unique",
@@ -90839,6 +90715,133 @@
         "Size": {
           "invheight": 1,
           "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2856625432",
+        "QualityCode": "q_unique",
+        "Title": "Valkyrie Wing",
+        "Tag": "Winged Helm",
+        "TextTag": "Winged Helm",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "99",
+        "Durability": "40",
+        "DurabilityMaximum": "40",
+        "ItemLevel": "87",
+        "LevelReq": 44,
+        "Sockets": [
+          {
+            "Quality": "Unique",
+            "ID": "3100519756",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "0",
+            "ItemLevel": "87",
+            "LevelReq": 49,
+            "SocketCount": "0",
+            "PropertyList": [
+              "100% Chance to cast level 43 Frost Nova when you Level-Up",
+              "Adds 24-114 cold damage",
+              "-5% to Enemy Cold Resistance",
+              "+5% Increased Cold Damage"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unique",
+            "ID": "2002700568",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "2",
+            "ItemLevel": "87",
+            "LevelReq": 49,
+            "SocketCount": "0",
+            "PropertyList": [
+              "100% Chance to cast level 43 Frost Nova when you Level-Up",
+              "Adds 24-38 cold damage",
+              "-5% to Enemy Cold Resistance",
+              "+5% Increased Cold Damage"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unique",
+            "ID": "3482107927",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "1",
+            "ItemLevel": "87",
+            "LevelReq": 49,
+            "SocketCount": "0",
+            "PropertyList": [
+              "100% Chance to cast level 43 Frost Nova when you Level-Up",
+              "Adds 24-38 cold damage",
+              "-5% to Enemy Cold Resistance",
+              "+5% Increased Cold Damage"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "3",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "300% Chance to cast level 43 Frost Nova when you Level-Up",
+          "+2 to Amazon Skill Levels",
+          "+20% Faster Run/Walk",
+          "+20% Faster Hit Recovery",
+          "Adds 72-114 cold damage",
+          "-15% to Enemy Cold Resistance",
+          "+15% Increased Cold Damage",
+          "+154% Enhanced Defense",
+          "+3 to Mana after each Kill",
+          "Socketed (3)"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
         },
         "Worn": ""
       }
@@ -214564,8 +214567,8 @@
       "Life": 1197,
       "BaseMana": 221,
       "Mana": 231,
-      "Gold": 179888,
-      "Stashed": 105321
+      "Gold": 12009,
+      "Stashed": 2076
     },
     "Bonus": {
       "Strength": 48,
@@ -214871,6 +214874,39 @@
         "Worn": "helmet"
       },
       {
+        "Quality": "Set",
+        "ID": "3241389956",
+        "QualityCode": "q_set",
+        "Title": "M'avina's Tenet",
+        "Tag": "Sharkskin Belt",
+        "TextTag": "Sharkskin Belt",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "33",
+        "Durability": "14",
+        "DurabilityMaximum": "14",
+        "ItemLevel": "90",
+        "LevelReq": 45,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+20% Faster Run/Walk",
+          "+8% Piercing Attack",
+          "5% Mana stolen per hit",
+          "+50 Defense",
+          "+5 to Light Radius"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 2
+        },
+        "Worn": "belt"
+      },
+      {
         "Quality": "Unique",
         "ID": "556882192",
         "QualityCode": "q_unique",
@@ -214909,39 +214945,6 @@
           "invwidth": 2
         },
         "Worn": "body"
-      },
-      {
-        "Quality": "Set",
-        "ID": "3241389956",
-        "QualityCode": "q_set",
-        "Title": "M'avina's Tenet",
-        "Tag": "Sharkskin Belt",
-        "TextTag": "Sharkskin Belt",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "33",
-        "Durability": "14",
-        "DurabilityMaximum": "14",
-        "ItemLevel": "90",
-        "LevelReq": 45,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+20% Faster Run/Walk",
-          "+8% Piercing Attack",
-          "5% Mana stolen per hit",
-          "+50 Defense",
-          "+5 to Light Radius"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 2
-        },
-        "Worn": "belt"
       },
       {
         "Quality": "Normal",
@@ -215061,34 +215064,6 @@
     ],
     "Inventory": [
       {
-        "Quality": "Unique",
-        "ID": "3735572939",
-        "QualityCode": "q_unique",
-        "Title": "Gheed's Fortune",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 62,
-        "SocketCount": "0",
-        "PropertyList": [
-          "137% Extra Gold from Monsters",
-          "Reduces all Vendor Prices 15%",
-          "26% Better Chance of Getting Magic Items"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Normal",
         "ID": "2250722294",
         "QualityCode": "q_normal",
@@ -215131,7 +215106,7 @@
           "+4 Mana Gained on Ranged Hit"
         ],
         "Position": {
-          "x": 1,
+          "x": 0,
           "y": 6
         },
         "Size": {
@@ -215139,9 +215114,40 @@
           "invwidth": 1
         },
         "Worn": "weapon2"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3735572939",
+        "QualityCode": "q_unique",
+        "Title": "Gheed's Fortune",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 62,
+        "SocketCount": "0",
+        "PropertyList": [
+          "137% Extra Gold from Monsters",
+          "Reduces all Vendor Prices 15%",
+          "26% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
       }
     ],
-    "MercenaryEquipped": []
+    "MercenaryEquipped": [],
+    "ItemCodeFailedToParse": [
+      "ItemCode: aq2 | Properties:   [74] hpregen -> 125 [0]  [96] item_fastermovevelocity -> 14 [0]  [97] item_nonclassskill -> 6 [26]  [156] item_pierce -> 15 [0]  [377] item_manaonrangedhit -> 4 [0]  [511] EOF -> 0 [0]"
+    ]
   },
   {
     "Title": "Matriach",
@@ -288993,7 +288999,7 @@
       "MagicFind": 113,
       "GoldFind": 7,
       "FasterCastRate": 10,
-      "FasterHitRecovery": 44,
+      "FasterHitRecovery": 24,
       "IncreasedAttackSpeed": 50,
       "CrushingBlow": 0,
       "OpenWounds": 0,
@@ -289257,133 +289263,6 @@
           "invwidth": 2
         },
         "Worn": "boots"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "2856625432",
-        "QualityCode": "q_unique",
-        "Title": "Valkyrie Wing",
-        "Tag": "Winged Helm",
-        "TextTag": "Winged Helm",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "99",
-        "Durability": "40",
-        "DurabilityMaximum": "40",
-        "ItemLevel": "87",
-        "LevelReq": 44,
-        "Sockets": [
-          {
-            "Quality": "Unique",
-            "ID": "3100519756",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "AlternateGraphics": "0",
-            "ItemLevel": "87",
-            "LevelReq": 49,
-            "SocketCount": "0",
-            "PropertyList": [
-              "100% Chance to cast level 43 Frost Nova when you Level-Up",
-              "Adds 24-114 cold damage",
-              "-5% to Enemy Cold Resistance",
-              "+5% Increased Cold Damage"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unique",
-            "ID": "2002700568",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "AlternateGraphics": "2",
-            "ItemLevel": "87",
-            "LevelReq": 49,
-            "SocketCount": "0",
-            "PropertyList": [
-              "100% Chance to cast level 43 Frost Nova when you Level-Up",
-              "Adds 24-38 cold damage",
-              "-5% to Enemy Cold Resistance",
-              "+5% Increased Cold Damage"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unique",
-            "ID": "3482107927",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "AlternateGraphics": "1",
-            "ItemLevel": "87",
-            "LevelReq": 49,
-            "SocketCount": "0",
-            "PropertyList": [
-              "100% Chance to cast level 43 Frost Nova when you Level-Up",
-              "Adds 24-38 cold damage",
-              "-5% to Enemy Cold Resistance",
-              "+5% Increased Cold Damage"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "3",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "300% Chance to cast level 43 Frost Nova when you Level-Up",
-          "+2 to Amazon Skill Levels",
-          "+20% Faster Run/Walk",
-          "+20% Faster Hit Recovery",
-          "Adds 72-114 cold damage",
-          "-15% to Enemy Cold Resistance",
-          "+15% Increased Cold Damage",
-          "+154% Enhanced Defense",
-          "+3 to Mana after each Kill",
-          "Socketed (3)"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "helmet"
       },
       {
         "Quality": "Unique",
@@ -290718,6 +290597,133 @@
         "Size": {
           "invheight": 1,
           "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2856625432",
+        "QualityCode": "q_unique",
+        "Title": "Valkyrie Wing",
+        "Tag": "Winged Helm",
+        "TextTag": "Winged Helm",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "99",
+        "Durability": "40",
+        "DurabilityMaximum": "40",
+        "ItemLevel": "87",
+        "LevelReq": 44,
+        "Sockets": [
+          {
+            "Quality": "Unique",
+            "ID": "3100519756",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "0",
+            "ItemLevel": "87",
+            "LevelReq": 49,
+            "SocketCount": "0",
+            "PropertyList": [
+              "100% Chance to cast level 43 Frost Nova when you Level-Up",
+              "Adds 24-114 cold damage",
+              "-5% to Enemy Cold Resistance",
+              "+5% Increased Cold Damage"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unique",
+            "ID": "2002700568",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "2",
+            "ItemLevel": "87",
+            "LevelReq": 49,
+            "SocketCount": "0",
+            "PropertyList": [
+              "100% Chance to cast level 43 Frost Nova when you Level-Up",
+              "Adds 24-38 cold damage",
+              "-5% to Enemy Cold Resistance",
+              "+5% Increased Cold Damage"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unique",
+            "ID": "3482107927",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "1",
+            "ItemLevel": "87",
+            "LevelReq": 49,
+            "SocketCount": "0",
+            "PropertyList": [
+              "100% Chance to cast level 43 Frost Nova when you Level-Up",
+              "Adds 24-38 cold damage",
+              "-5% to Enemy Cold Resistance",
+              "+5% Increased Cold Damage"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "3",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "300% Chance to cast level 43 Frost Nova when you Level-Up",
+          "+2 to Amazon Skill Levels",
+          "+20% Faster Run/Walk",
+          "+20% Faster Hit Recovery",
+          "Adds 72-114 cold damage",
+          "-15% to Enemy Cold Resistance",
+          "+15% Increased Cold Damage",
+          "+154% Enhanced Defense",
+          "+3 to Mana after each Kill",
+          "Socketed (3)"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
         },
         "Worn": ""
       }
