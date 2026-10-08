@@ -89152,23 +89152,23 @@
         "Strength": 0,
         "Dexterity": 0,
         "Vitality": 0,
-        "Energy": 10,
-        "FireResistance": 19,
+        "Energy": 0,
+        "FireResistance": 0,
         "MaximumFireResistance": 0,
-        "ColdResistance": 19,
+        "ColdResistance": 6,
         "MaximumColdResistance": 0,
-        "LightningResistance": 19,
+        "LightningResistance": 0,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 19,
+        "PoisonResistance": 0,
         "MaximumPoisonResistance": 0,
-        "MagicFind": 30,
+        "MagicFind": 0,
         "GoldFind": 0,
-        "FasterCastRate": 20,
+        "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 40,
+        "IncreasedAttackSpeed": 43,
         "CrushingBlow": 0,
         "OpenWounds": 0,
-        "DeadlyStrike": 0,
+        "DeadlyStrike": 20,
         "DamageReduction": 0,
         "CooldownReduction": 0
       }
@@ -89416,36 +89416,162 @@
       },
       {
         "Quality": "Unique",
-        "ID": "1319403579",
+        "ID": "3611360687",
         "QualityCode": "q_unique",
-        "Title": "Raven Frost",
+        "Title": "Wisp Projector",
         "Tag": "Ring",
         "TextTag": "ring",
         "Ethereal": "False",
         "Enhanced": "False",
         "AlternateGraphics": "2",
-        "ItemLevel": "85",
-        "LevelReq": 45,
+        "ItemLevel": "87",
+        "LevelReq": 76,
         "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "+10% Faster Run/Walk",
-          "+165 to Attack Rating",
-          "Adds 15-45 cold damage",
-          "+20 to Dexterity",
-          "+40 to Mana",
-          "Cold Absorb 20%",
-          "Cannot Be Frozen"
+          " Lifted Spirit Aura When Equipped",
+          "+8% Faster Run/Walk",
+          "+10% Faster Cast Rate",
+          "Lightning Absorb 12%",
+          "20% Better Chance of Getting Magic Items",
+          "Level 9 Heart of Wolverine (17/17 Charges)"
         ],
         "Position": {
-          "x": 7,
+          "x": 6,
           "y": 0
         },
         "Size": {
           "invheight": 1,
           "invwidth": 1
         },
-        "Worn": "ring2"
+        "Worn": "ring1"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2856625432",
+        "QualityCode": "q_unique",
+        "Title": "Valkyrie Wing",
+        "Tag": "Winged Helm",
+        "TextTag": "Winged Helm",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "99",
+        "Durability": "40",
+        "DurabilityMaximum": "40",
+        "ItemLevel": "87",
+        "LevelReq": 44,
+        "Sockets": [
+          {
+            "Quality": "Unique",
+            "ID": "3100519756",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "0",
+            "ItemLevel": "87",
+            "LevelReq": 49,
+            "SocketCount": "0",
+            "PropertyList": [
+              "100% Chance to cast level 43 Frost Nova when you Level-Up",
+              "Adds 24-114 cold damage",
+              "-5% to Enemy Cold Resistance",
+              "+5% Increased Cold Damage"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unique",
+            "ID": "2002700568",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "2",
+            "ItemLevel": "87",
+            "LevelReq": 49,
+            "SocketCount": "0",
+            "PropertyList": [
+              "100% Chance to cast level 43 Frost Nova when you Level-Up",
+              "Adds 24-38 cold damage",
+              "-5% to Enemy Cold Resistance",
+              "+5% Increased Cold Damage"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unique",
+            "ID": "3482107927",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "1",
+            "ItemLevel": "87",
+            "LevelReq": 49,
+            "SocketCount": "0",
+            "PropertyList": [
+              "100% Chance to cast level 43 Frost Nova when you Level-Up",
+              "Adds 24-38 cold damage",
+              "-5% to Enemy Cold Resistance",
+              "+5% Increased Cold Damage"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "3",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "300% Chance to cast level 43 Frost Nova when you Level-Up",
+          "+2 to Amazon Skill Levels",
+          "+20% Faster Run/Walk",
+          "+20% Faster Hit Recovery",
+          "Adds 72-114 cold damage",
+          "-15% to Enemy Cold Resistance",
+          "+15% Increased Cold Damage",
+          "+154% Enhanced Defense",
+          "+3 to Mana after each Kill",
+          "Socketed (3)"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "helmet"
       },
       {
         "Quality": "Superior",
@@ -89567,85 +89693,102 @@
       },
       {
         "Quality": "Unique",
-        "ID": "3611360687",
+        "ID": "1319403579",
         "QualityCode": "q_unique",
-        "Title": "Wisp Projector",
+        "Title": "Raven Frost",
         "Tag": "Ring",
         "TextTag": "ring",
         "Ethereal": "False",
         "Enhanced": "False",
         "AlternateGraphics": "2",
-        "ItemLevel": "87",
-        "LevelReq": 76,
+        "ItemLevel": "85",
+        "LevelReq": 45,
         "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          " Lifted Spirit Aura When Equipped",
-          "+8% Faster Run/Walk",
-          "+10% Faster Cast Rate",
-          "Lightning Absorb 12%",
-          "20% Better Chance of Getting Magic Items",
-          "Level 9 Heart of Wolverine (17/17 Charges)"
+          "+10% Faster Run/Walk",
+          "+165 to Attack Rating",
+          "Adds 15-45 cold damage",
+          "+20 to Dexterity",
+          "+40 to Mana",
+          "Cold Absorb 20%",
+          "Cannot Be Frozen"
         ],
         "Position": {
-          "x": 6,
+          "x": 7,
           "y": 0
         },
         "Size": {
           "invheight": 1,
           "invwidth": 1
         },
-        "Worn": "ring1"
+        "Worn": "ring2"
       },
       {
-        "Quality": "Unique",
-        "ID": "3166640607",
-        "QualityCode": "q_unique",
-        "Title": "Valkyrie Wing",
-        "Tag": "Winged Helm",
-        "TextTag": "Winged Helm",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "99",
-        "Durability": "40",
-        "DurabilityMaximum": "40",
-        "ItemLevel": "87",
-        "LevelReq": 44,
-        "SocketCount": "3",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+2 to Amazon Skill Levels",
-          "+20% Faster Run/Walk",
-          "+20% Faster Hit Recovery",
-          "+198% Enhanced Defense",
-          "+4 to Mana after each Kill",
-          "Socketed (3)"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "helmet"
-      },
-      {
-        "Quality": "Normal",
-        "ID": "2643550130",
+        "Quality": "Superior",
+        "ID": "1618945126",
         "QualityCode": "q_runeword",
-        "Title": "Call to Arms",
-        "Tag": "Phase Blade",
-        "TextTag": "Phase Blade",
-        "RuneTag": "AmnRalMalIstOhm",
+        "Title": "Hand of Justice",
+        "Tag": "Matriarchal Bow",
+        "TextTag": "Matriarchal Bow",
+        "RuneTag": "SurChamAmnLo",
         "Ethereal": "False",
         "Enhanced": "True",
-        "DamageMinimum": "116",
-        "DamageMaximum": "131",
+        "DamageMinimum": "84",
+        "DamageMaximum": "197",
         "ItemLevel": "88",
-        "LevelReq": 57,
+        "LevelReq": 67,
         "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Sur Rune",
+            "Tag": "Sur Rune",
+            "TextTag": "Sur Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 61,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Hit Blinds Target +1"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Cham Rune",
+            "Tag": "Cham Rune",
+            "TextTag": "Cham Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 67,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Freezes target +3"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
           {
             "Quality": "Unknown",
             "ID": "0",
@@ -89662,56 +89805,6 @@
               "7% Life stolen per hit"
             ],
             "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Ral Rune",
-            "Tag": "Ral Rune",
-            "TextTag": "Ral Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 19,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+5 Fire damage"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Mal Rune",
-            "Tag": "Mal Rune",
-            "TextTag": "Mal Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 49,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Prevent Monster Heal"
-            ],
-            "Position": {
               "x": 2,
               "y": 0
             },
@@ -89725,16 +89818,16 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Ist Rune",
-            "Tag": "Ist Rune",
-            "TextTag": "Ist Rune",
+            "Title": "Lo Rune",
+            "Tag": "Lo Rune",
+            "TextTag": "Lo Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 51,
+            "LevelReq": 59,
             "SocketCount": "0",
             "PropertyList": [
-              "30% Better Chance of Getting Magic Items"
+              "20% Deadly Strike"
             ],
             "Position": {
               "x": 3,
@@ -89745,163 +89838,57 @@
               "invwidth": 1
             },
             "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Ohm Rune",
-            "Tag": "Ohm Rune",
-            "TextTag": "Ohm Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 57,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+50% Enhanced Damage"
-            ],
-            "Position": {
-              "x": 4,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
           }
         ],
-        "SocketCount": "5",
+        "SocketCount": "4",
         "PropertyList": [
-          "100% Chance to cast level 31 War Cry when you Kill an Enemy",
-          "+1 to All Skills",
-          "+40% Increased Attack Speed",
-          "+277% Enhanced Damage",
-          "+5 Fire damage",
+          "+3 to Bow and Crossbow Skills (Amazon Only)",
+          "+33% Increased Attack Speed",
+          "+321% Enhanced Damage",
+          "Ignore Target's Defense",
+          "+93 to Attack Rating (Based on Character Level)",
+          "-20% to Enemy Fire Resistance",
           "7% Life stolen per hit",
-          "Prevent Monster Heal",
-          "+2 to Battle Cry",
-          "+6 to Battle Orders",
-          "+5 to Battle Command",
-          "30% Better Chance of Getting Magic Items",
-          "Battle Order's life and mana bonuses are halved.",
-          "Socketed (5)"
+          "20% Deadly Strike",
+          "Hit Blinds Target +1",
+          "Freezes target +3",
+          "Level 16 Holy Fire Aura When Equipped",
+          "+50% Increased Holy Fire Area Damage Rate",
+          "Socketed (4)"
         ],
         "Position": {
           "x": 11,
           "y": 0
         },
         "Size": {
-          "invheight": 3,
+          "invheight": 4,
           "invwidth": 2
         },
         "Worn": "sweapon1"
       },
       {
-        "Quality": "Unique",
-        "ID": "813050596",
-        "QualityCode": "q_unique",
-        "Title": "Lidless Wall",
-        "Tag": "Troll Nest",
-        "TextTag": "Troll Nest",
-        "RuneTag": "Dol",
+        "Quality": "Craft",
+        "ID": "1255370659",
+        "QualityCode": "q_crafted",
+        "Title": "PlagueRI Eye",
+        "Tag": "Arrows",
+        "TextTag": "Arrows",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "Block": "45",
-        "Defense": "163",
-        "Durability": "74",
-        "DurabilityMaximum": "74",
-        "ItemLevel": "89",
-        "LevelReq": 64,
-        "Sockets": [
-          {
-            "Quality": "Normal",
-            "ID": "2603189345",
-            "QualityCode": "q_normal",
-            "Title": "\u00ffc4Standard of Heroes",
-            "Tag": "\u00ffc4Standard of Heroes",
-            "TextTag": "Standard",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "1",
-            "LevelReq": 0,
-            "SocketCount": "0",
-            "PropertyList": [],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Perfect Diamond",
-            "Tag": "Perfect Diamond",
-            "TextTag": "Perfect Diamond",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 18,
-            "SocketCount": "0",
-            "PropertyList": [
-              "All Resistances +19"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Dol Rune",
-            "Tag": "Dol Rune",
-            "TextTag": "Dol Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 31,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Replenish Life 7 per second"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "3",
+        "Enhanced": "False",
+        "ItemLevel": "83",
+        "LevelReq": 59,
+        "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "+1 to All Skills",
-          "+20% Faster Cast Rate",
-          "+115% Enhanced Defense",
-          "+10 to Energy",
-          "Replenish Life 7 per second",
-          "Increase Maximum Mana 10%",
-          "All Resistances +19",
+          "+10% Increased Attack Speed",
+          "+58 to Maximum Damage (Based on Character Level)",
+          "2% Mana stolen per hit",
+          "3% Life stolen per hit",
+          "+14 to Life",
+          "Cold Resist +6%",
           "+4 to Mana after each Kill",
-          "+1 to Light Radius",
-          "Socketed (3)"
+          "+4 Life after each Kill",
+          "Fire Arrow Fires 2 Additional Arrows"
         ],
         "Position": {
           "x": 12,
@@ -89909,7 +89896,7 @@
         },
         "Size": {
           "invheight": 3,
-          "invwidth": 2
+          "invwidth": 1
         },
         "Worn": "sweapon2"
       },
@@ -90593,33 +90580,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "1362372516",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Strength",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "87",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Strength",
-          "All Resistances +4"
-        ],
-        "Position": {
-          "x": 5,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "2224486284",
         "QualityCode": "q_magic",
         "Title": "Shimmering Small Charm of Dexterity",
@@ -90752,38 +90712,34 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "2856625432",
-        "QualityCode": "q_unique",
-        "Title": "Valkyrie Wing",
-        "Tag": "Winged Helm",
-        "TextTag": "Winged Helm",
+        "Quality": "Normal",
+        "ID": "2643550130",
+        "QualityCode": "q_runeword",
+        "Title": "Call to Arms",
+        "Tag": "Phase Blade",
+        "TextTag": "Phase Blade",
+        "RuneTag": "AmnRalMalIstOhm",
         "Ethereal": "False",
         "Enhanced": "True",
-        "Defense": "99",
-        "Durability": "40",
-        "DurabilityMaximum": "40",
-        "ItemLevel": "87",
-        "LevelReq": 44,
+        "DamageMinimum": "116",
+        "DamageMaximum": "131",
+        "ItemLevel": "88",
+        "LevelReq": 57,
         "Sockets": [
           {
-            "Quality": "Unique",
-            "ID": "3100519756",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Amn Rune",
+            "Tag": "Amn Rune",
+            "TextTag": "Amn Rune",
             "Ethereal": "False",
             "Enhanced": "False",
-            "AlternateGraphics": "0",
-            "ItemLevel": "87",
-            "LevelReq": 49,
+            "ItemLevel": "0",
+            "LevelReq": 25,
             "SocketCount": "0",
             "PropertyList": [
-              "100% Chance to cast level 43 Frost Nova when you Level-Up",
-              "Adds 24-114 cold damage",
-              "-5% to Enemy Cold Resistance",
-              "+5% Increased Cold Damage"
+              "7% Life stolen per hit"
             ],
             "Position": {
               "x": 0,
@@ -90796,23 +90752,19 @@
             "Worn": ""
           },
           {
-            "Quality": "Unique",
-            "ID": "2002700568",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ral Rune",
+            "Tag": "Ral Rune",
+            "TextTag": "Ral Rune",
             "Ethereal": "False",
             "Enhanced": "False",
-            "AlternateGraphics": "2",
-            "ItemLevel": "87",
-            "LevelReq": 49,
+            "ItemLevel": "0",
+            "LevelReq": 19,
             "SocketCount": "0",
             "PropertyList": [
-              "100% Chance to cast level 43 Frost Nova when you Level-Up",
-              "Adds 24-38 cold damage",
-              "-5% to Enemy Cold Resistance",
-              "+5% Increased Cold Damage"
+              "+5 Fire damage"
             ],
             "Position": {
               "x": 1,
@@ -90825,23 +90777,186 @@
             "Worn": ""
           },
           {
-            "Quality": "Unique",
-            "ID": "3482107927",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Mal Rune",
+            "Tag": "Mal Rune",
+            "TextTag": "Mal Rune",
             "Ethereal": "False",
             "Enhanced": "False",
-            "AlternateGraphics": "1",
-            "ItemLevel": "87",
+            "ItemLevel": "0",
             "LevelReq": 49,
             "SocketCount": "0",
             "PropertyList": [
-              "100% Chance to cast level 43 Frost Nova when you Level-Up",
-              "Adds 24-38 cold damage",
-              "-5% to Enemy Cold Resistance",
-              "+5% Increased Cold Damage"
+              "Prevent Monster Heal"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ist Rune",
+            "Tag": "Ist Rune",
+            "TextTag": "Ist Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 51,
+            "SocketCount": "0",
+            "PropertyList": [
+              "30% Better Chance of Getting Magic Items"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ohm Rune",
+            "Tag": "Ohm Rune",
+            "TextTag": "Ohm Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 57,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+50% Enhanced Damage"
+            ],
+            "Position": {
+              "x": 4,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "5",
+        "PropertyList": [
+          "100% Chance to cast level 31 War Cry when you Kill an Enemy",
+          "+1 to All Skills",
+          "+40% Increased Attack Speed",
+          "+277% Enhanced Damage",
+          "+5 Fire damage",
+          "7% Life stolen per hit",
+          "Prevent Monster Heal",
+          "+2 to Battle Cry",
+          "+6 to Battle Orders",
+          "+5 to Battle Command",
+          "30% Better Chance of Getting Magic Items",
+          "Battle Order's life and mana bonuses are halved.",
+          "Socketed (5)"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "813050596",
+        "QualityCode": "q_unique",
+        "Title": "Lidless Wall",
+        "Tag": "Troll Nest",
+        "TextTag": "Troll Nest",
+        "RuneTag": "Dol",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Block": "45",
+        "Defense": "163",
+        "Durability": "74",
+        "DurabilityMaximum": "74",
+        "ItemLevel": "89",
+        "LevelReq": 64,
+        "Sockets": [
+          {
+            "Quality": "Normal",
+            "ID": "2603189345",
+            "QualityCode": "q_normal",
+            "Title": "\u00ffc4Standard of Heroes",
+            "Tag": "\u00ffc4Standard of Heroes",
+            "TextTag": "Standard",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "1",
+            "LevelReq": 0,
+            "SocketCount": "0",
+            "PropertyList": [],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Perfect Diamond",
+            "Tag": "Perfect Diamond",
+            "TextTag": "Perfect Diamond",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 18,
+            "SocketCount": "0",
+            "PropertyList": [
+              "All Resistances +19"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Dol Rune",
+            "Tag": "Dol Rune",
+            "TextTag": "Dol Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 31,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Replenish Life 7 per second"
             ],
             "Position": {
               "x": 2,
@@ -90857,24 +90972,51 @@
         "SocketCount": "3",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "300% Chance to cast level 43 Frost Nova when you Level-Up",
-          "+2 to Amazon Skill Levels",
-          "+20% Faster Run/Walk",
-          "+20% Faster Hit Recovery",
-          "Adds 72-114 cold damage",
-          "-15% to Enemy Cold Resistance",
-          "+15% Increased Cold Damage",
-          "+154% Enhanced Defense",
-          "+3 to Mana after each Kill",
+          "+1 to All Skills",
+          "+20% Faster Cast Rate",
+          "+115% Enhanced Defense",
+          "+10 to Energy",
+          "Replenish Life 7 per second",
+          "Increase Maximum Mana 10%",
+          "All Resistances +19",
+          "+4 to Mana after each Kill",
+          "+1 to Light Radius",
           "Socketed (3)"
         ],
         "Position": {
-          "x": 8,
+          "x": 6,
           "y": 0
         },
         "Size": {
-          "invheight": 2,
+          "invheight": 3,
           "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1362372516",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Strength",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Strength",
+          "All Resistances +4"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
         },
         "Worn": ""
       }
@@ -289171,23 +289313,23 @@
         "Strength": 0,
         "Dexterity": 0,
         "Vitality": 0,
-        "Energy": 10,
-        "FireResistance": 19,
+        "Energy": 0,
+        "FireResistance": 0,
         "MaximumFireResistance": 0,
-        "ColdResistance": 19,
+        "ColdResistance": 6,
         "MaximumColdResistance": 0,
-        "LightningResistance": 19,
+        "LightningResistance": 0,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 19,
+        "PoisonResistance": 0,
         "MaximumPoisonResistance": 0,
-        "MagicFind": 30,
+        "MagicFind": 0,
         "GoldFind": 0,
-        "FasterCastRate": 20,
+        "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 40,
+        "IncreasedAttackSpeed": 43,
         "CrushingBlow": 0,
         "OpenWounds": 0,
-        "DeadlyStrike": 0,
+        "DeadlyStrike": 20,
         "DamageReduction": 0,
         "CooldownReduction": 0
       }
@@ -289435,36 +289577,162 @@
       },
       {
         "Quality": "Unique",
-        "ID": "1319403579",
+        "ID": "3611360687",
         "QualityCode": "q_unique",
-        "Title": "Raven Frost",
+        "Title": "Wisp Projector",
         "Tag": "Ring",
         "TextTag": "ring",
         "Ethereal": "False",
         "Enhanced": "False",
         "AlternateGraphics": "2",
-        "ItemLevel": "85",
-        "LevelReq": 45,
+        "ItemLevel": "87",
+        "LevelReq": 76,
         "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "+10% Faster Run/Walk",
-          "+165 to Attack Rating",
-          "Adds 15-45 cold damage",
-          "+20 to Dexterity",
-          "+40 to Mana",
-          "Cold Absorb 20%",
-          "Cannot Be Frozen"
+          " Lifted Spirit Aura When Equipped",
+          "+8% Faster Run/Walk",
+          "+10% Faster Cast Rate",
+          "Lightning Absorb 12%",
+          "20% Better Chance of Getting Magic Items",
+          "Level 9 Heart of Wolverine (17/17 Charges)"
         ],
         "Position": {
-          "x": 7,
+          "x": 6,
           "y": 0
         },
         "Size": {
           "invheight": 1,
           "invwidth": 1
         },
-        "Worn": "ring2"
+        "Worn": "ring1"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "2856625432",
+        "QualityCode": "q_unique",
+        "Title": "Valkyrie Wing",
+        "Tag": "Winged Helm",
+        "TextTag": "Winged Helm",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Defense": "99",
+        "Durability": "40",
+        "DurabilityMaximum": "40",
+        "ItemLevel": "87",
+        "LevelReq": 44,
+        "Sockets": [
+          {
+            "Quality": "Unique",
+            "ID": "3100519756",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "0",
+            "ItemLevel": "87",
+            "LevelReq": 49,
+            "SocketCount": "0",
+            "PropertyList": [
+              "100% Chance to cast level 43 Frost Nova when you Level-Up",
+              "Adds 24-114 cold damage",
+              "-5% to Enemy Cold Resistance",
+              "+5% Increased Cold Damage"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unique",
+            "ID": "2002700568",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "2",
+            "ItemLevel": "87",
+            "LevelReq": 49,
+            "SocketCount": "0",
+            "PropertyList": [
+              "100% Chance to cast level 43 Frost Nova when you Level-Up",
+              "Adds 24-38 cold damage",
+              "-5% to Enemy Cold Resistance",
+              "+5% Increased Cold Damage"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unique",
+            "ID": "3482107927",
+            "QualityCode": "q_unique",
+            "Title": "Rainbow Facet",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "1",
+            "ItemLevel": "87",
+            "LevelReq": 49,
+            "SocketCount": "0",
+            "PropertyList": [
+              "100% Chance to cast level 43 Frost Nova when you Level-Up",
+              "Adds 24-38 cold damage",
+              "-5% to Enemy Cold Resistance",
+              "+5% Increased Cold Damage"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "3",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "300% Chance to cast level 43 Frost Nova when you Level-Up",
+          "+2 to Amazon Skill Levels",
+          "+20% Faster Run/Walk",
+          "+20% Faster Hit Recovery",
+          "Adds 72-114 cold damage",
+          "-15% to Enemy Cold Resistance",
+          "+15% Increased Cold Damage",
+          "+154% Enhanced Defense",
+          "+3 to Mana after each Kill",
+          "Socketed (3)"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "helmet"
       },
       {
         "Quality": "Superior",
@@ -289586,85 +289854,102 @@
       },
       {
         "Quality": "Unique",
-        "ID": "3611360687",
+        "ID": "1319403579",
         "QualityCode": "q_unique",
-        "Title": "Wisp Projector",
+        "Title": "Raven Frost",
         "Tag": "Ring",
         "TextTag": "ring",
         "Ethereal": "False",
         "Enhanced": "False",
         "AlternateGraphics": "2",
-        "ItemLevel": "87",
-        "LevelReq": 76,
+        "ItemLevel": "85",
+        "LevelReq": 45,
         "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          " Lifted Spirit Aura When Equipped",
-          "+8% Faster Run/Walk",
-          "+10% Faster Cast Rate",
-          "Lightning Absorb 12%",
-          "20% Better Chance of Getting Magic Items",
-          "Level 9 Heart of Wolverine (17/17 Charges)"
+          "+10% Faster Run/Walk",
+          "+165 to Attack Rating",
+          "Adds 15-45 cold damage",
+          "+20 to Dexterity",
+          "+40 to Mana",
+          "Cold Absorb 20%",
+          "Cannot Be Frozen"
         ],
         "Position": {
-          "x": 6,
+          "x": 7,
           "y": 0
         },
         "Size": {
           "invheight": 1,
           "invwidth": 1
         },
-        "Worn": "ring1"
+        "Worn": "ring2"
       },
       {
-        "Quality": "Unique",
-        "ID": "3166640607",
-        "QualityCode": "q_unique",
-        "Title": "Valkyrie Wing",
-        "Tag": "Winged Helm",
-        "TextTag": "Winged Helm",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "99",
-        "Durability": "40",
-        "DurabilityMaximum": "40",
-        "ItemLevel": "87",
-        "LevelReq": 44,
-        "SocketCount": "3",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+2 to Amazon Skill Levels",
-          "+20% Faster Run/Walk",
-          "+20% Faster Hit Recovery",
-          "+198% Enhanced Defense",
-          "+4 to Mana after each Kill",
-          "Socketed (3)"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "helmet"
-      },
-      {
-        "Quality": "Normal",
-        "ID": "2643550130",
+        "Quality": "Superior",
+        "ID": "1618945126",
         "QualityCode": "q_runeword",
-        "Title": "Call to Arms",
-        "Tag": "Phase Blade",
-        "TextTag": "Phase Blade",
-        "RuneTag": "AmnRalMalIstOhm",
+        "Title": "Hand of Justice",
+        "Tag": "Matriarchal Bow",
+        "TextTag": "Matriarchal Bow",
+        "RuneTag": "SurChamAmnLo",
         "Ethereal": "False",
         "Enhanced": "True",
-        "DamageMinimum": "116",
-        "DamageMaximum": "131",
+        "DamageMinimum": "84",
+        "DamageMaximum": "197",
         "ItemLevel": "88",
-        "LevelReq": 57,
+        "LevelReq": 67,
         "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Sur Rune",
+            "Tag": "Sur Rune",
+            "TextTag": "Sur Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 61,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Hit Blinds Target +1"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Cham Rune",
+            "Tag": "Cham Rune",
+            "TextTag": "Cham Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 67,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Freezes target +3"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
           {
             "Quality": "Unknown",
             "ID": "0",
@@ -289681,56 +289966,6 @@
               "7% Life stolen per hit"
             ],
             "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Ral Rune",
-            "Tag": "Ral Rune",
-            "TextTag": "Ral Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 19,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+5 Fire damage"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Mal Rune",
-            "Tag": "Mal Rune",
-            "TextTag": "Mal Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 49,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Prevent Monster Heal"
-            ],
-            "Position": {
               "x": 2,
               "y": 0
             },
@@ -289744,16 +289979,16 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "Ist Rune",
-            "Tag": "Ist Rune",
-            "TextTag": "Ist Rune",
+            "Title": "Lo Rune",
+            "Tag": "Lo Rune",
+            "TextTag": "Lo Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 51,
+            "LevelReq": 59,
             "SocketCount": "0",
             "PropertyList": [
-              "30% Better Chance of Getting Magic Items"
+              "20% Deadly Strike"
             ],
             "Position": {
               "x": 3,
@@ -289764,163 +289999,57 @@
               "invwidth": 1
             },
             "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Ohm Rune",
-            "Tag": "Ohm Rune",
-            "TextTag": "Ohm Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 57,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+50% Enhanced Damage"
-            ],
-            "Position": {
-              "x": 4,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
           }
         ],
-        "SocketCount": "5",
+        "SocketCount": "4",
         "PropertyList": [
-          "100% Chance to cast level 31 War Cry when you Kill an Enemy",
-          "+1 to All Skills",
-          "+40% Increased Attack Speed",
-          "+277% Enhanced Damage",
-          "+5 Fire damage",
+          "+3 to Bow and Crossbow Skills (Amazon Only)",
+          "+33% Increased Attack Speed",
+          "+321% Enhanced Damage",
+          "Ignore Target's Defense",
+          "+93 to Attack Rating (Based on Character Level)",
+          "-20% to Enemy Fire Resistance",
           "7% Life stolen per hit",
-          "Prevent Monster Heal",
-          "+2 to Battle Cry",
-          "+6 to Battle Orders",
-          "+5 to Battle Command",
-          "30% Better Chance of Getting Magic Items",
-          "Battle Order's life and mana bonuses are halved.",
-          "Socketed (5)"
+          "20% Deadly Strike",
+          "Hit Blinds Target +1",
+          "Freezes target +3",
+          "Level 16 Holy Fire Aura When Equipped",
+          "+50% Increased Holy Fire Area Damage Rate",
+          "Socketed (4)"
         ],
         "Position": {
           "x": 11,
           "y": 0
         },
         "Size": {
-          "invheight": 3,
+          "invheight": 4,
           "invwidth": 2
         },
         "Worn": "sweapon1"
       },
       {
-        "Quality": "Unique",
-        "ID": "813050596",
-        "QualityCode": "q_unique",
-        "Title": "Lidless Wall",
-        "Tag": "Troll Nest",
-        "TextTag": "Troll Nest",
-        "RuneTag": "Dol",
+        "Quality": "Craft",
+        "ID": "1255370659",
+        "QualityCode": "q_crafted",
+        "Title": "PlagueRI Eye",
+        "Tag": "Arrows",
+        "TextTag": "Arrows",
         "Ethereal": "False",
-        "Enhanced": "True",
-        "Block": "45",
-        "Defense": "163",
-        "Durability": "74",
-        "DurabilityMaximum": "74",
-        "ItemLevel": "89",
-        "LevelReq": 64,
-        "Sockets": [
-          {
-            "Quality": "Normal",
-            "ID": "2603189345",
-            "QualityCode": "q_normal",
-            "Title": "\u00ffc4Standard of Heroes",
-            "Tag": "\u00ffc4Standard of Heroes",
-            "TextTag": "Standard",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "1",
-            "LevelReq": 0,
-            "SocketCount": "0",
-            "PropertyList": [],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Perfect Diamond",
-            "Tag": "Perfect Diamond",
-            "TextTag": "Perfect Diamond",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 18,
-            "SocketCount": "0",
-            "PropertyList": [
-              "All Resistances +19"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Dol Rune",
-            "Tag": "Dol Rune",
-            "TextTag": "Dol Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 31,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Replenish Life 7 per second"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "3",
+        "Enhanced": "False",
+        "ItemLevel": "83",
+        "LevelReq": 59,
+        "SocketCount": "0",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "+1 to All Skills",
-          "+20% Faster Cast Rate",
-          "+115% Enhanced Defense",
-          "+10 to Energy",
-          "Replenish Life 7 per second",
-          "Increase Maximum Mana 10%",
-          "All Resistances +19",
+          "+10% Increased Attack Speed",
+          "+58 to Maximum Damage (Based on Character Level)",
+          "2% Mana stolen per hit",
+          "3% Life stolen per hit",
+          "+14 to Life",
+          "Cold Resist +6%",
           "+4 to Mana after each Kill",
-          "+1 to Light Radius",
-          "Socketed (3)"
+          "+4 Life after each Kill",
+          "Fire Arrow Fires 2 Additional Arrows"
         ],
         "Position": {
           "x": 12,
@@ -289928,7 +290057,7 @@
         },
         "Size": {
           "invheight": 3,
-          "invwidth": 2
+          "invwidth": 1
         },
         "Worn": "sweapon2"
       },
@@ -290612,33 +290741,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "1362372516",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Strength",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "87",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Strength",
-          "All Resistances +4"
-        ],
-        "Position": {
-          "x": 5,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "2224486284",
         "QualityCode": "q_magic",
         "Title": "Shimmering Small Charm of Dexterity",
@@ -290771,38 +290873,34 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "2856625432",
-        "QualityCode": "q_unique",
-        "Title": "Valkyrie Wing",
-        "Tag": "Winged Helm",
-        "TextTag": "Winged Helm",
+        "Quality": "Normal",
+        "ID": "2643550130",
+        "QualityCode": "q_runeword",
+        "Title": "Call to Arms",
+        "Tag": "Phase Blade",
+        "TextTag": "Phase Blade",
+        "RuneTag": "AmnRalMalIstOhm",
         "Ethereal": "False",
         "Enhanced": "True",
-        "Defense": "99",
-        "Durability": "40",
-        "DurabilityMaximum": "40",
-        "ItemLevel": "87",
-        "LevelReq": 44,
+        "DamageMinimum": "116",
+        "DamageMaximum": "131",
+        "ItemLevel": "88",
+        "LevelReq": 57,
         "Sockets": [
           {
-            "Quality": "Unique",
-            "ID": "3100519756",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Amn Rune",
+            "Tag": "Amn Rune",
+            "TextTag": "Amn Rune",
             "Ethereal": "False",
             "Enhanced": "False",
-            "AlternateGraphics": "0",
-            "ItemLevel": "87",
-            "LevelReq": 49,
+            "ItemLevel": "0",
+            "LevelReq": 25,
             "SocketCount": "0",
             "PropertyList": [
-              "100% Chance to cast level 43 Frost Nova when you Level-Up",
-              "Adds 24-114 cold damage",
-              "-5% to Enemy Cold Resistance",
-              "+5% Increased Cold Damage"
+              "7% Life stolen per hit"
             ],
             "Position": {
               "x": 0,
@@ -290815,23 +290913,19 @@
             "Worn": ""
           },
           {
-            "Quality": "Unique",
-            "ID": "2002700568",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ral Rune",
+            "Tag": "Ral Rune",
+            "TextTag": "Ral Rune",
             "Ethereal": "False",
             "Enhanced": "False",
-            "AlternateGraphics": "2",
-            "ItemLevel": "87",
-            "LevelReq": 49,
+            "ItemLevel": "0",
+            "LevelReq": 19,
             "SocketCount": "0",
             "PropertyList": [
-              "100% Chance to cast level 43 Frost Nova when you Level-Up",
-              "Adds 24-38 cold damage",
-              "-5% to Enemy Cold Resistance",
-              "+5% Increased Cold Damage"
+              "+5 Fire damage"
             ],
             "Position": {
               "x": 1,
@@ -290844,23 +290938,186 @@
             "Worn": ""
           },
           {
-            "Quality": "Unique",
-            "ID": "3482107927",
-            "QualityCode": "q_unique",
-            "Title": "Rainbow Facet",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Mal Rune",
+            "Tag": "Mal Rune",
+            "TextTag": "Mal Rune",
             "Ethereal": "False",
             "Enhanced": "False",
-            "AlternateGraphics": "1",
-            "ItemLevel": "87",
+            "ItemLevel": "0",
             "LevelReq": 49,
             "SocketCount": "0",
             "PropertyList": [
-              "100% Chance to cast level 43 Frost Nova when you Level-Up",
-              "Adds 24-38 cold damage",
-              "-5% to Enemy Cold Resistance",
-              "+5% Increased Cold Damage"
+              "Prevent Monster Heal"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ist Rune",
+            "Tag": "Ist Rune",
+            "TextTag": "Ist Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 51,
+            "SocketCount": "0",
+            "PropertyList": [
+              "30% Better Chance of Getting Magic Items"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ohm Rune",
+            "Tag": "Ohm Rune",
+            "TextTag": "Ohm Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 57,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+50% Enhanced Damage"
+            ],
+            "Position": {
+              "x": 4,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "5",
+        "PropertyList": [
+          "100% Chance to cast level 31 War Cry when you Kill an Enemy",
+          "+1 to All Skills",
+          "+40% Increased Attack Speed",
+          "+277% Enhanced Damage",
+          "+5 Fire damage",
+          "7% Life stolen per hit",
+          "Prevent Monster Heal",
+          "+2 to Battle Cry",
+          "+6 to Battle Orders",
+          "+5 to Battle Command",
+          "30% Better Chance of Getting Magic Items",
+          "Battle Order's life and mana bonuses are halved.",
+          "Socketed (5)"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "813050596",
+        "QualityCode": "q_unique",
+        "Title": "Lidless Wall",
+        "Tag": "Troll Nest",
+        "TextTag": "Troll Nest",
+        "RuneTag": "Dol",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "Block": "45",
+        "Defense": "163",
+        "Durability": "74",
+        "DurabilityMaximum": "74",
+        "ItemLevel": "89",
+        "LevelReq": 64,
+        "Sockets": [
+          {
+            "Quality": "Normal",
+            "ID": "2603189345",
+            "QualityCode": "q_normal",
+            "Title": "\u00ffc4Standard of Heroes",
+            "Tag": "\u00ffc4Standard of Heroes",
+            "TextTag": "Standard",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "1",
+            "LevelReq": 0,
+            "SocketCount": "0",
+            "PropertyList": [],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Perfect Diamond",
+            "Tag": "Perfect Diamond",
+            "TextTag": "Perfect Diamond",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 18,
+            "SocketCount": "0",
+            "PropertyList": [
+              "All Resistances +19"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Dol Rune",
+            "Tag": "Dol Rune",
+            "TextTag": "Dol Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 31,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Replenish Life 7 per second"
             ],
             "Position": {
               "x": 2,
@@ -290876,24 +291133,51 @@
         "SocketCount": "3",
         "PropertyList": [
           "\u00ffc1Corrupted",
-          "300% Chance to cast level 43 Frost Nova when you Level-Up",
-          "+2 to Amazon Skill Levels",
-          "+20% Faster Run/Walk",
-          "+20% Faster Hit Recovery",
-          "Adds 72-114 cold damage",
-          "-15% to Enemy Cold Resistance",
-          "+15% Increased Cold Damage",
-          "+154% Enhanced Defense",
-          "+3 to Mana after each Kill",
+          "+1 to All Skills",
+          "+20% Faster Cast Rate",
+          "+115% Enhanced Defense",
+          "+10 to Energy",
+          "Replenish Life 7 per second",
+          "Increase Maximum Mana 10%",
+          "All Resistances +19",
+          "+4 to Mana after each Kill",
+          "+1 to Light Radius",
           "Socketed (3)"
         ],
         "Position": {
-          "x": 8,
+          "x": 6,
           "y": 0
         },
         "Size": {
-          "invheight": 2,
+          "invheight": 3,
           "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1362372516",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Strength",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Strength",
+          "All Resistances +4"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
         },
         "Worn": ""
       }
