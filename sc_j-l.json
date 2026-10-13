@@ -45551,7 +45551,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 96,
-      "Experience": 2842284340,
+      "Experience": 2850635172,
       "Strength": 37,
       "Dexterity": 91,
       "Vitality": 422,
@@ -45560,8 +45560,8 @@
       "Life": 1968,
       "BaseMana": 157,
       "Mana": 268,
-      "Gold": 84967,
-      "Stashed": 2145199
+      "Gold": 91821,
+      "Stashed": 1830
     },
     "Bonus": {
       "Strength": 105,
@@ -46253,7 +46253,7 @@
         "DamageMaximum": "99",
         "ThrowDamageMinimum": "64",
         "ThrowDamageMaximum": "121",
-        "Durability": "100",
+        "Durability": "79",
         "DurabilityMaximum": "100",
         "ItemLevel": "88",
         "LevelReq": 69,
@@ -275419,8 +275419,8 @@
       "BaseLife": 1056,
       "Life": 1442,
       "BaseMana": 172,
-      "Mana": 359,
-      "Gold": 179398,
+      "Mana": 329,
+      "Gold": 91390,
       "Stashed": 2500000
     },
     "Bonus": {
@@ -275451,7 +275451,7 @@
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
-        "FireResistance": 30,
+        "FireResistance": 0,
         "MaximumFireResistance": 10,
         "ColdResistance": 0,
         "MaximumColdResistance": 0,
@@ -275461,12 +275461,12 @@
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 0,
-        "FasterCastRate": 10,
+        "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 80,
+        "IncreasedAttackSpeed": 33,
         "CrushingBlow": 0,
         "OpenWounds": 0,
-        "DeadlyStrike": 0,
+        "DeadlyStrike": 20,
         "DamageReduction": 0,
         "CooldownReduction": 0
       },
@@ -275613,7 +275613,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "468",
-        "Durability": "20",
+        "Durability": "22",
         "DurabilityMaximum": "20",
         "ItemLevel": "87",
         "LevelReq": 59,
@@ -275790,7 +275790,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "35",
-        "Durability": "21",
+        "Durability": "22",
         "DurabilityMaximum": "12",
         "ItemLevel": "88",
         "LevelReq": 29,
@@ -275915,19 +275915,19 @@
       },
       {
         "Quality": "Set",
-        "ID": "2300385207",
+        "ID": "1620098693",
         "QualityCode": "q_set",
         "Title": "Naj's Circlet",
         "Tag": "Tiara",
         "TextTag": "Tiara",
         "Ethereal": "False",
         "Enhanced": "True",
-        "Defense": "48",
-        "Durability": "13",
+        "Defense": "50",
+        "Durability": "25",
         "DurabilityMaximum": "25",
-        "ItemLevel": "91",
+        "ItemLevel": "88",
         "LevelReq": 33,
-        "SocketCount": "1",
+        "SocketCount": "2",
         "PropertyList": [
           "\u00ffc1Corrupted",
           "12% Chance to cast level 5 Chain Lightning when struck",
@@ -275936,7 +275936,7 @@
           "+15 to Strength",
           "+5 to Light Radius",
           "28% Chance to Reset Cooldowns When You Kill an Enemy",
-          "Socketed (1)"
+          "Socketed (2)"
         ],
         "Position": {
           "x": 1,
@@ -276189,42 +276189,137 @@
         "Worn": "sweapon2"
       },
       {
-        "Quality": "Unique",
-        "ID": "1038834447",
-        "QualityCode": "q_unique",
-        "Title": "Gleamscythe",
-        "Tag": "Synthesized Tulwar",
-        "TextTag": "Synthesized Tulwar",
+        "Quality": "Superior",
+        "ID": "636417944",
+        "QualityCode": "q_runeword",
+        "Title": "Hand of Justice",
+        "Tag": "Berserker Axe",
+        "TextTag": "Berserker Axe",
+        "RuneTag": "SurChamAmnLo",
         "Ethereal": "False",
         "Enhanced": "True",
-        "DamageMinimum": "74",
-        "DamageMaximum": "162",
-        "Durability": "96",
-        "DurabilityMaximum": "144",
+        "DamageMinimum": "94",
+        "DamageMaximum": "280",
+        "Durability": "98",
+        "DurabilityMaximum": "117",
         "ItemLevel": "88",
-        "LevelReq": 30,
-        "SocketCount": "2",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+2 to fire skills",
-          "+80% Increased Attack Speed",
-          "+10% Faster Cast Rate",
-          "+364% Enhanced Damage",
-          "+247 to Maximum Damage (Based on Character Level)",
-          "Adds 3-5 cold damage",
-          "+2 to Fire Ball (Sorceress Only)",
-          "+3 to Warmth (Sorceress Only)",
-          "+30 to Mana",
-          "Fire Resist +30%",
-          "Magic & Elemental Damage Taken Reduced by 14",
-          "+3 to Light Radius",
-          "Level 1 Teleport (16/20 Charges)",
-          "Socketed (2)"
+        "LevelReq": 67,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Sur Rune",
+            "Tag": "Sur Rune",
+            "TextTag": "Sur Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 61,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Hit Blinds Target +1"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Cham Rune",
+            "Tag": "Cham Rune",
+            "TextTag": "Cham Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 67,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Freezes target +3"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Amn Rune",
+            "Tag": "Amn Rune",
+            "TextTag": "Amn Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 25,
+            "SocketCount": "0",
+            "PropertyList": [
+              "7% Life stolen per hit"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Lo Rune",
+            "Tag": "Lo Rune",
+            "TextTag": "Lo Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 59,
+            "SocketCount": "0",
+            "PropertyList": [
+              "20% Deadly Strike"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
         ],
-        "SynthesisedFrom": [
-          "The Salamander",
-          "Spellsteel",
-          "Buriza-Do Kyanon"
+        "SocketCount": "4",
+        "PropertyList": [
+          "+33% Increased Attack Speed",
+          "+295% Enhanced Damage",
+          "Ignore Target's Defense",
+          "+99 to Attack Rating (Based on Character Level)",
+          "-20% to Enemy Fire Resistance",
+          "7% Life stolen per hit",
+          "20% Deadly Strike",
+          "Hit Blinds Target +1",
+          "Freezes target +3",
+          "Level 16 Holy Fire Aura When Equipped",
+          "+50% Increased Holy Fire Area Damage Rate",
+          "Socketed (4)"
         ],
         "Position": {
           "x": 4,
@@ -276232,7 +276327,7 @@
         },
         "Size": {
           "invheight": 3,
-          "invwidth": 1
+          "invwidth": 2
         },
         "Worn": "weapon1"
       },
@@ -285648,8 +285743,8 @@
       "BaseLife": 1056,
       "Life": 1442,
       "BaseMana": 172,
-      "Mana": 359,
-      "Gold": 179398,
+      "Mana": 329,
+      "Gold": 91390,
       "Stashed": 2500000
     },
     "Bonus": {
@@ -285680,7 +285775,7 @@
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
-        "FireResistance": 30,
+        "FireResistance": 0,
         "MaximumFireResistance": 10,
         "ColdResistance": 0,
         "MaximumColdResistance": 0,
@@ -285690,12 +285785,12 @@
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 0,
-        "FasterCastRate": 10,
+        "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 80,
+        "IncreasedAttackSpeed": 33,
         "CrushingBlow": 0,
         "OpenWounds": 0,
-        "DeadlyStrike": 0,
+        "DeadlyStrike": 20,
         "DamageReduction": 0,
         "CooldownReduction": 0
       },
@@ -285842,7 +285937,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "468",
-        "Durability": "20",
+        "Durability": "22",
         "DurabilityMaximum": "20",
         "ItemLevel": "87",
         "LevelReq": 59,
@@ -286019,7 +286114,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "35",
-        "Durability": "21",
+        "Durability": "22",
         "DurabilityMaximum": "12",
         "ItemLevel": "88",
         "LevelReq": 29,
@@ -286144,19 +286239,19 @@
       },
       {
         "Quality": "Set",
-        "ID": "2300385207",
+        "ID": "1620098693",
         "QualityCode": "q_set",
         "Title": "Naj's Circlet",
         "Tag": "Tiara",
         "TextTag": "Tiara",
         "Ethereal": "False",
         "Enhanced": "True",
-        "Defense": "48",
-        "Durability": "13",
+        "Defense": "50",
+        "Durability": "25",
         "DurabilityMaximum": "25",
-        "ItemLevel": "91",
+        "ItemLevel": "88",
         "LevelReq": 33,
-        "SocketCount": "1",
+        "SocketCount": "2",
         "PropertyList": [
           "\u00ffc1Corrupted",
           "12% Chance to cast level 5 Chain Lightning when struck",
@@ -286165,7 +286260,7 @@
           "+15 to Strength",
           "+5 to Light Radius",
           "28% Chance to Reset Cooldowns When You Kill an Enemy",
-          "Socketed (1)"
+          "Socketed (2)"
         ],
         "Position": {
           "x": 1,
@@ -286418,42 +286513,137 @@
         "Worn": "sweapon2"
       },
       {
-        "Quality": "Unique",
-        "ID": "1038834447",
-        "QualityCode": "q_unique",
-        "Title": "Gleamscythe",
-        "Tag": "Synthesized Tulwar",
-        "TextTag": "Synthesized Tulwar",
+        "Quality": "Superior",
+        "ID": "636417944",
+        "QualityCode": "q_runeword",
+        "Title": "Hand of Justice",
+        "Tag": "Berserker Axe",
+        "TextTag": "Berserker Axe",
+        "RuneTag": "SurChamAmnLo",
         "Ethereal": "False",
         "Enhanced": "True",
-        "DamageMinimum": "74",
-        "DamageMaximum": "162",
-        "Durability": "96",
-        "DurabilityMaximum": "144",
+        "DamageMinimum": "94",
+        "DamageMaximum": "280",
+        "Durability": "98",
+        "DurabilityMaximum": "117",
         "ItemLevel": "88",
-        "LevelReq": 30,
-        "SocketCount": "2",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+2 to fire skills",
-          "+80% Increased Attack Speed",
-          "+10% Faster Cast Rate",
-          "+364% Enhanced Damage",
-          "+247 to Maximum Damage (Based on Character Level)",
-          "Adds 3-5 cold damage",
-          "+2 to Fire Ball (Sorceress Only)",
-          "+3 to Warmth (Sorceress Only)",
-          "+30 to Mana",
-          "Fire Resist +30%",
-          "Magic & Elemental Damage Taken Reduced by 14",
-          "+3 to Light Radius",
-          "Level 1 Teleport (16/20 Charges)",
-          "Socketed (2)"
+        "LevelReq": 67,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Sur Rune",
+            "Tag": "Sur Rune",
+            "TextTag": "Sur Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 61,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Hit Blinds Target +1"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Cham Rune",
+            "Tag": "Cham Rune",
+            "TextTag": "Cham Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 67,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Freezes target +3"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Amn Rune",
+            "Tag": "Amn Rune",
+            "TextTag": "Amn Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 25,
+            "SocketCount": "0",
+            "PropertyList": [
+              "7% Life stolen per hit"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Lo Rune",
+            "Tag": "Lo Rune",
+            "TextTag": "Lo Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 59,
+            "SocketCount": "0",
+            "PropertyList": [
+              "20% Deadly Strike"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
         ],
-        "SynthesisedFrom": [
-          "The Salamander",
-          "Spellsteel",
-          "Buriza-Do Kyanon"
+        "SocketCount": "4",
+        "PropertyList": [
+          "+33% Increased Attack Speed",
+          "+295% Enhanced Damage",
+          "Ignore Target's Defense",
+          "+99 to Attack Rating (Based on Character Level)",
+          "-20% to Enemy Fire Resistance",
+          "7% Life stolen per hit",
+          "20% Deadly Strike",
+          "Hit Blinds Target +1",
+          "Freezes target +3",
+          "Level 16 Holy Fire Aura When Equipped",
+          "+50% Increased Holy Fire Area Damage Rate",
+          "Socketed (4)"
         ],
         "Position": {
           "x": 4,
@@ -286461,7 +286651,7 @@
         },
         "Size": {
           "invheight": 3,
-          "invwidth": 1
+          "invwidth": 2
         },
         "Worn": "weapon1"
       },
@@ -319880,7 +320070,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 96,
-      "Experience": 2842284340,
+      "Experience": 2850635172,
       "Strength": 37,
       "Dexterity": 91,
       "Vitality": 422,
@@ -319889,8 +320079,8 @@
       "Life": 1968,
       "BaseMana": 157,
       "Mana": 268,
-      "Gold": 84967,
-      "Stashed": 2145199
+      "Gold": 91821,
+      "Stashed": 1830
     },
     "Bonus": {
       "Strength": 105,
@@ -320582,7 +320772,7 @@
         "DamageMaximum": "99",
         "ThrowDamageMinimum": "64",
         "ThrowDamageMaximum": "121",
-        "Durability": "100",
+        "Durability": "79",
         "DurabilityMaximum": "100",
         "ItemLevel": "88",
         "LevelReq": 69,
