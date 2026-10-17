@@ -17,8 +17,8 @@
       "Life": 1197,
       "BaseMana": 221,
       "Mana": 231,
-      "Gold": 2494,
-      "Stashed": 28237
+      "Gold": 15212,
+      "Stashed": 17453
     },
     "Bonus": {
       "Strength": 48,
@@ -514,29 +514,6 @@
     ],
     "Inventory": [
       {
-        "Quality": "Normal",
-        "ID": "2250722294",
-        "QualityCode": "q_normal",
-        "Title": "Horadric Cube",
-        "Tag": "Horadric Cube",
-        "TextTag": "Horadric Cube",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "13",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 0,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Unique",
         "ID": "822349526",
         "QualityCode": "q_unique",
@@ -564,6 +541,29 @@
           "invwidth": 1
         },
         "Worn": "weapon2"
+      },
+      {
+        "Quality": "Normal",
+        "ID": "2250722294",
+        "QualityCode": "q_normal",
+        "Title": "Horadric Cube",
+        "Tag": "Horadric Cube",
+        "TextTag": "Horadric Cube",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "13",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": ""
       },
       {
         "Quality": "Unique",
@@ -89215,20 +89215,20 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 93,
-      "Experience": 2215900007,
-      "Strength": 23,
-      "Dexterity": 87,
-      "Vitality": 425,
+      "Experience": 2215956645,
+      "Strength": 20,
+      "Dexterity": 86,
+      "Vitality": 335,
       "Energy": 15,
-      "BaseLife": 1555,
-      "Life": 1884,
+      "BaseLife": 1285,
+      "Life": 1635,
       "BaseMana": 153,
-      "Mana": 219,
-      "Gold": 21146,
-      "Stashed": 106900
+      "Mana": 269,
+      "Gold": 0,
+      "Stashed": 229465
     },
     "Bonus": {
-      "Strength": 103,
+      "Strength": 104,
       "Dexterity": 71,
       "Vitality": 0,
       "Energy": 0,
@@ -89279,19 +89279,19 @@
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
-        "FireResistance": 8,
+        "FireResistance": 10,
         "MaximumFireResistance": 0,
-        "ColdResistance": 8,
+        "ColdResistance": 0,
         "MaximumColdResistance": 0,
-        "LightningResistance": 8,
+        "LightningResistance": 0,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 8,
+        "PoisonResistance": 0,
         "MaximumPoisonResistance": 0,
-        "MagicFind": 30,
+        "MagicFind": 0,
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 40,
+        "IncreasedAttackSpeed": 33,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 20,
@@ -89312,7 +89312,7 @@
           {
             "ID": 2,
             "Name": "Fire Arrow",
-            "Level": 12
+            "Level": 15
           },
           {
             "ID": 6,
@@ -89320,28 +89320,13 @@
             "Level": 20
           },
           {
-            "ID": 7,
-            "Name": "Multiple Shot",
-            "Level": 1
-          },
-          {
             "ID": 11,
             "Name": "Exploding Arrow",
-            "Level": 1
+            "Level": 20
           },
           {
             "ID": 16,
             "Name": "Ice Arrow",
-            "Level": 20
-          },
-          {
-            "ID": 17,
-            "Name": "Guided Arrow",
-            "Level": 1
-          },
-          {
-            "ID": 22,
-            "Name": "Immolation Arrow",
             "Level": 20
           },
           {
@@ -89993,24 +89978,27 @@
         "Worn": "sweapon1"
       },
       {
-        "Quality": "Rare",
-        "ID": "3057761672",
-        "QualityCode": "q_rare",
-        "Title": "Grim Eye",
+        "Quality": "Craft",
+        "ID": "4263304684",
+        "QualityCode": "q_crafted",
+        "Title": "Shadow Eye",
         "Tag": "Arrows",
         "TextTag": "Arrows",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "88",
-        "LevelReq": 47,
+        "ItemLevel": "83",
+        "LevelReq": 74,
         "SocketCount": "0",
         "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+1 to All Skills",
           "+1 to Bow and Crossbow Skills (Amazon Only)",
-          "+9% Faster Run/Walk",
-          "+7% Increased Attack Speed",
-          "Adds 20-24 Fire damage",
-          "All Resistances +8",
-          "30% Better Chance of Getting Magic Items"
+          "+25 poison damage over 2 seconds",
+          "3% Life stolen per hit",
+          "+11 to Life",
+          "Replenish Life 13 per second",
+          "Fire Resist +10%",
+          "Fire Arrow Fires 2 Additional Arrows"
         ],
         "Position": {
           "x": 12,
@@ -90463,320 +90451,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "3000688703",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Dexterity",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "85",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+2 to Dexterity",
-          "All Resistances +5"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "1085158655",
-        "QualityCode": "q_normal",
-        "Title": "Key",
-        "Tag": "Key",
-        "TextTag": "Skeleton Key",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "98",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 0,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1120599771",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Strength",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "87",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Strength",
-          "All Resistances +4"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1871951499",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Strength",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "88",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Strength",
-          "All Resistances +4"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "141339406",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Greed",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "88",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "All Resistances +5",
-          "7% Extra Gold from Monsters"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2224486284",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Dexterity",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+2 to Dexterity",
-          "All Resistances +4"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "776714440",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Storms",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 37,
-        "SocketCount": "0",
-        "PropertyList": [
-          "Adds 1-20 Lightning damage",
-          "All Resistances +4"
-        ],
-        "Position": {
-          "x": 3,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1656342888",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "89",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "All Resistances +5"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1020709626",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Dexterity",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "88",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+2 to Dexterity",
-          "All Resistances +4"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2571540578",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "87",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "All Resistances +4"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1362372516",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Strength",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "87",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Strength",
-          "All Resistances +4"
-        ],
-        "Position": {
-          "x": 5,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "1555066962",
-        "QualityCode": "q_normal",
-        "Title": "Horadric Cube",
-        "Tag": "Horadric Cube",
-        "TextTag": "Horadric Cube",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "28",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 0,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "2156335258",
         "QualityCode": "q_magic",
         "Title": "Fletcher's Grand Charm of Vita",
@@ -90798,35 +90472,6 @@
         },
         "Size": {
           "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unique",
-        "ID": "1431753502",
-        "QualityCode": "q_unique",
-        "Title": "Annihilus",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "99",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to All Skills",
-          "+17 to all Attributes",
-          "All Resistances +18",
-          "+7% to Experience Gained"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 7
-        },
-        "Size": {
-          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -90861,25 +90506,402 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Flawless Diamond",
-        "Tag": "Flawless Diamond",
-        "TextTag": "Flawless Diamond",
+        "Quality": "Normal",
+        "ID": "1555066962",
+        "QualityCode": "q_normal",
+        "Title": "Horadric Cube",
+        "Tag": "Horadric Cube",
+        "TextTag": "Horadric Cube",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 15,
+        "ItemLevel": "28",
+        "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 1,
+          "x": 0,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "1085158655",
+        "QualityCode": "q_normal",
+        "Title": "Key",
+        "Tag": "Key",
+        "TextTag": "Skeleton Key",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "98",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
           "y": 4
         },
         "Size": {
           "invheight": 1,
           "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1020709626",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Dexterity",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+2 to Dexterity",
+          "All Resistances +4"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1276900029",
+        "QualityCode": "q_unique",
+        "Title": "Annihilus",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "99",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to All Skills",
+          "+16 to all Attributes",
+          "All Resistances +18",
+          "+9% to Experience Gained"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 7
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "825026812",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Strength",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "90",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+2 to Strength",
+          "All Resistances +5"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3000688703",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Dexterity",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "85",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+2 to Dexterity",
+          "All Resistances +5"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1120599771",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Strength",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "87",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Strength",
+          "All Resistances +4"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1871951499",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Strength",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Strength",
+          "All Resistances +4"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "141339406",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Greed",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "All Resistances +5",
+          "7% Extra Gold from Monsters"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2228005368",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Inertia",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 27,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+3% Faster Run/Walk",
+          "All Resistances +4"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1362372516",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Strength",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Strength",
+          "All Resistances +4"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2224486284",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Dexterity",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+2 to Dexterity",
+          "All Resistances +4"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "776714440",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Storms",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 37,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Adds 1-20 Lightning damage",
+          "All Resistances +4"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2017826888",
+        "QualityCode": "q_magic",
+        "Title": "Spiritual Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "80",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Shape Shifting Skills (Druid Only)"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Set",
+        "ID": "3307254431",
+        "QualityCode": "q_set",
+        "Title": "Sigon's Sabot",
+        "Tag": "Greaves",
+        "TextTag": "Plate Boots",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "Defense": "15",
+        "Durability": "17",
+        "DurabilityMaximum": "24",
+        "ItemLevel": "80",
+        "LevelReq": 6,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20% Faster Run/Walk",
+          "Cold Resist +40%"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
         },
         "Worn": ""
       }
@@ -215150,8 +215172,8 @@
       "Life": 1197,
       "BaseMana": 221,
       "Mana": 231,
-      "Gold": 2494,
-      "Stashed": 28237
+      "Gold": 15212,
+      "Stashed": 17453
     },
     "Bonus": {
       "Strength": 48,
@@ -215647,29 +215669,6 @@
     ],
     "Inventory": [
       {
-        "Quality": "Normal",
-        "ID": "2250722294",
-        "QualityCode": "q_normal",
-        "Title": "Horadric Cube",
-        "Tag": "Horadric Cube",
-        "TextTag": "Horadric Cube",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "13",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 0,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Unique",
         "ID": "822349526",
         "QualityCode": "q_unique",
@@ -215697,6 +215696,29 @@
           "invwidth": 1
         },
         "Worn": "weapon2"
+      },
+      {
+        "Quality": "Normal",
+        "ID": "2250722294",
+        "QualityCode": "q_normal",
+        "Title": "Horadric Cube",
+        "Tag": "Horadric Cube",
+        "TextTag": "Horadric Cube",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "13",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": ""
       },
       {
         "Quality": "Unique",
@@ -289675,20 +289697,20 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 93,
-      "Experience": 2215900007,
-      "Strength": 23,
-      "Dexterity": 87,
-      "Vitality": 425,
+      "Experience": 2215956645,
+      "Strength": 20,
+      "Dexterity": 86,
+      "Vitality": 335,
       "Energy": 15,
-      "BaseLife": 1555,
-      "Life": 1884,
+      "BaseLife": 1285,
+      "Life": 1635,
       "BaseMana": 153,
-      "Mana": 219,
-      "Gold": 21146,
-      "Stashed": 106900
+      "Mana": 269,
+      "Gold": 0,
+      "Stashed": 229465
     },
     "Bonus": {
-      "Strength": 103,
+      "Strength": 104,
       "Dexterity": 71,
       "Vitality": 0,
       "Energy": 0,
@@ -289739,19 +289761,19 @@
         "Dexterity": 0,
         "Vitality": 0,
         "Energy": 0,
-        "FireResistance": 8,
+        "FireResistance": 10,
         "MaximumFireResistance": 0,
-        "ColdResistance": 8,
+        "ColdResistance": 0,
         "MaximumColdResistance": 0,
-        "LightningResistance": 8,
+        "LightningResistance": 0,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 8,
+        "PoisonResistance": 0,
         "MaximumPoisonResistance": 0,
-        "MagicFind": 30,
+        "MagicFind": 0,
         "GoldFind": 0,
         "FasterCastRate": 0,
         "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 40,
+        "IncreasedAttackSpeed": 33,
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 20,
@@ -289772,7 +289794,7 @@
           {
             "ID": 2,
             "Name": "Fire Arrow",
-            "Level": 12
+            "Level": 15
           },
           {
             "ID": 6,
@@ -289780,28 +289802,13 @@
             "Level": 20
           },
           {
-            "ID": 7,
-            "Name": "Multiple Shot",
-            "Level": 1
-          },
-          {
             "ID": 11,
             "Name": "Exploding Arrow",
-            "Level": 1
+            "Level": 20
           },
           {
             "ID": 16,
             "Name": "Ice Arrow",
-            "Level": 20
-          },
-          {
-            "ID": 17,
-            "Name": "Guided Arrow",
-            "Level": 1
-          },
-          {
-            "ID": 22,
-            "Name": "Immolation Arrow",
             "Level": 20
           },
           {
@@ -290453,24 +290460,27 @@
         "Worn": "sweapon1"
       },
       {
-        "Quality": "Rare",
-        "ID": "3057761672",
-        "QualityCode": "q_rare",
-        "Title": "Grim Eye",
+        "Quality": "Craft",
+        "ID": "4263304684",
+        "QualityCode": "q_crafted",
+        "Title": "Shadow Eye",
         "Tag": "Arrows",
         "TextTag": "Arrows",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "88",
-        "LevelReq": 47,
+        "ItemLevel": "83",
+        "LevelReq": 74,
         "SocketCount": "0",
         "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+1 to All Skills",
           "+1 to Bow and Crossbow Skills (Amazon Only)",
-          "+9% Faster Run/Walk",
-          "+7% Increased Attack Speed",
-          "Adds 20-24 Fire damage",
-          "All Resistances +8",
-          "30% Better Chance of Getting Magic Items"
+          "+25 poison damage over 2 seconds",
+          "3% Life stolen per hit",
+          "+11 to Life",
+          "Replenish Life 13 per second",
+          "Fire Resist +10%",
+          "Fire Arrow Fires 2 Additional Arrows"
         ],
         "Position": {
           "x": 12,
@@ -290923,320 +290933,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "3000688703",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Dexterity",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "85",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+2 to Dexterity",
-          "All Resistances +5"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "1085158655",
-        "QualityCode": "q_normal",
-        "Title": "Key",
-        "Tag": "Key",
-        "TextTag": "Skeleton Key",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "98",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 0,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1120599771",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Strength",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "87",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Strength",
-          "All Resistances +4"
-        ],
-        "Position": {
-          "x": 8,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1871951499",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Strength",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "88",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Strength",
-          "All Resistances +4"
-        ],
-        "Position": {
-          "x": 7,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "141339406",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Greed",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "88",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "All Resistances +5",
-          "7% Extra Gold from Monsters"
-        ],
-        "Position": {
-          "x": 6,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2224486284",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Dexterity",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+2 to Dexterity",
-          "All Resistances +4"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "776714440",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Storms",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "88",
-        "LevelReq": 37,
-        "SocketCount": "0",
-        "PropertyList": [
-          "Adds 1-20 Lightning damage",
-          "All Resistances +4"
-        ],
-        "Position": {
-          "x": 3,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1656342888",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "89",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "All Resistances +5"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1020709626",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Dexterity",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "88",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+2 to Dexterity",
-          "All Resistances +4"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "2571540578",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "87",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "All Resistances +4"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "1362372516",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Strength",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "87",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Strength",
-          "All Resistances +4"
-        ],
-        "Position": {
-          "x": 5,
-          "y": 8
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "1555066962",
-        "QualityCode": "q_normal",
-        "Title": "Horadric Cube",
-        "Tag": "Horadric Cube",
-        "TextTag": "Horadric Cube",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "28",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 0,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "2156335258",
         "QualityCode": "q_magic",
         "Title": "Fletcher's Grand Charm of Vita",
@@ -291258,35 +290954,6 @@
         },
         "Size": {
           "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unique",
-        "ID": "1431753502",
-        "QualityCode": "q_unique",
-        "Title": "Annihilus",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "99",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to All Skills",
-          "+17 to all Attributes",
-          "All Resistances +18",
-          "+7% to Experience Gained"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 7
-        },
-        "Size": {
-          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -291321,25 +290988,402 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Flawless Diamond",
-        "Tag": "Flawless Diamond",
-        "TextTag": "Flawless Diamond",
+        "Quality": "Normal",
+        "ID": "1555066962",
+        "QualityCode": "q_normal",
+        "Title": "Horadric Cube",
+        "Tag": "Horadric Cube",
+        "TextTag": "Horadric Cube",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 15,
+        "ItemLevel": "28",
+        "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 1,
+          "x": 0,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "1085158655",
+        "QualityCode": "q_normal",
+        "Title": "Key",
+        "Tag": "Key",
+        "TextTag": "Skeleton Key",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "98",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
           "y": 4
         },
         "Size": {
           "invheight": 1,
           "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1020709626",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Dexterity",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+2 to Dexterity",
+          "All Resistances +4"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "1276900029",
+        "QualityCode": "q_unique",
+        "Title": "Annihilus",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "99",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to All Skills",
+          "+16 to all Attributes",
+          "All Resistances +18",
+          "+9% to Experience Gained"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 7
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "825026812",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Strength",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "90",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+2 to Strength",
+          "All Resistances +5"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "3000688703",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Dexterity",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "85",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+2 to Dexterity",
+          "All Resistances +5"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1120599771",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Strength",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "87",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Strength",
+          "All Resistances +4"
+        ],
+        "Position": {
+          "x": 7,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1871951499",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Strength",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Strength",
+          "All Resistances +4"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "141339406",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Greed",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "88",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "All Resistances +5",
+          "7% Extra Gold from Monsters"
+        ],
+        "Position": {
+          "x": 5,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2228005368",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Inertia",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 27,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+3% Faster Run/Walk",
+          "All Resistances +4"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "1362372516",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Strength",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "87",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Strength",
+          "All Resistances +4"
+        ],
+        "Position": {
+          "x": 3,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2224486284",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Dexterity",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 25,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+2 to Dexterity",
+          "All Resistances +4"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "776714440",
+        "QualityCode": "q_magic",
+        "Title": "Shimmering Small Charm of Storms",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "88",
+        "LevelReq": 37,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Adds 1-20 Lightning damage",
+          "All Resistances +4"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 8
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
+        "ID": "2017826888",
+        "QualityCode": "q_magic",
+        "Title": "Spiritual Grand Charm",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "80",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Shape Shifting Skills (Druid Only)"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Set",
+        "ID": "3307254431",
+        "QualityCode": "q_set",
+        "Title": "Sigon's Sabot",
+        "Tag": "Greaves",
+        "TextTag": "Plate Boots",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "Defense": "15",
+        "Durability": "17",
+        "DurabilityMaximum": "24",
+        "ItemLevel": "80",
+        "LevelReq": 6,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+20% Faster Run/Walk",
+          "Cold Resist +40%"
+        ],
+        "Position": {
+          "x": 8,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
         },
         "Worn": ""
       }
