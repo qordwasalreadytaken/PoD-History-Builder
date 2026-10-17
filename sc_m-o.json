@@ -119455,7 +119455,7 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 93,
-      "Experience": 2176914314,
+      "Experience": 2196910693,
       "Strength": 165,
       "Dexterity": 35,
       "Vitality": 300,
@@ -119465,7 +119465,7 @@
       "BaseMana": 269,
       "Mana": 657,
       "Gold": 0,
-      "Stashed": 1768546
+      "Stashed": 2210488
     },
     "Bonus": {
       "Strength": 86,
@@ -128642,7 +128642,7 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 96,
-      "Experience": 2717423163,
+      "Experience": 2721371888,
       "Strength": 106,
       "Dexterity": 25,
       "Vitality": 403,
@@ -128651,8 +128651,8 @@
       "Life": 1640,
       "BaseMana": 227,
       "Mana": 651,
-      "Gold": 0,
-      "Stashed": 2450000
+      "Gold": 720881,
+      "Stashed": 2400000
     },
     "Bonus": {
       "Strength": 50,
@@ -130637,39 +130637,9 @@
       },
       {
         "Quality": "Rare",
-        "ID": "2316148541",
+        "ID": "3285718096",
         "QualityCode": "q_rare",
-        "Title": "Grim Eye",
-        "Tag": "Baleful Alcazar Relic",
-        "TextTag": "Baleful Alcazar Relic",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "86",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "10% Chance to cast level 13 Weaken on striking",
-          "Adds 20-30 Magic damage",
-          "+17% Increased Poison Damage",
-          "Poison Resist +50%",
-          "Lightning Absorb 13%",
-          "Cannot Be Frozen"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
-        "ID": "120773382",
-        "QualityCode": "q_rare",
-        "Title": "GhoulRI Eye",
+        "Title": "Shadow Eye",
         "Tag": "Dim Cellar Relic",
         "TextTag": "Dim Cellar Relic",
         "Ethereal": "False",
@@ -130678,14 +130648,15 @@
         "LevelReq": 80,
         "SocketCount": "0",
         "PropertyList": [
-          "15% Chance to cast level 15 Meteor when you Die",
+          "Level 11 Redemption Aura When Equipped",
+          "+107% Increased Attack Speed",
           "Adds 30-40 Magic damage",
-          "+65% Enhanced Defense",
-          "Poison Absorb 37%"
+          "Adds 149-150 Fire damage",
+          "Magic Absorb 38%"
         ],
         "Position": {
-          "x": 1,
-          "y": 3
+          "x": 9,
+          "y": 4
         },
         "Size": {
           "invheight": 1,
@@ -131110,6 +131081,9 @@
         },
         "Worn": "weapon1"
       }
+    ],
+    "ItemCodeFailedToParse": [
+      "ItemCode: ma16 | Properties:   [78] item_attackertakesdamage -> 18 [0]  [111] item_normaldamage -> 150 [0]  [142] item_absorbfire_percent -> 34 [0]  [198] item_skillonhit -> 13 [5828]  [330] passive_ltng_mastery -> 45 [0]  [339] passive_avoid -> 20 [0]  [511] EOF -> 0 [0]"
     ]
   },
   {
@@ -375284,7 +375258,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 98,
-      "Experience": 3477060767,
+      "Experience": 3477682929,
       "Strength": 30,
       "Dexterity": 99,
       "Vitality": 436,
@@ -375293,8 +375267,8 @@
       "Life": 2027,
       "BaseMana": 160,
       "Mana": 248,
-      "Gold": 1549,
-      "Stashed": 330300
+      "Gold": 0,
+      "Stashed": 1891680
     },
     "Bonus": {
       "Strength": 125,
@@ -375700,7 +375674,7 @@
         "Ethereal": "False",
         "Enhanced": "False",
         "Defense": "15",
-        "Durability": "24",
+        "Durability": "23",
         "DurabilityMaximum": "24",
         "ItemLevel": "99",
         "LevelReq": 45,
@@ -376046,7 +376020,7 @@
         "DamageMaximum": "162",
         "ThrowDamageMinimum": "105",
         "ThrowDamageMaximum": "198",
-        "Durability": "100",
+        "Durability": "74",
         "DurabilityMaximum": "100",
         "ItemLevel": "85",
         "LevelReq": 69,
@@ -376697,29 +376671,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Normal",
-        "ID": "2938210538",
-        "QualityCode": "q_normal",
-        "Title": "Horadric Cube",
-        "Tag": "Horadric Cube",
-        "TextTag": "Horadric Cube",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "28",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Magic",
         "ID": "2796854498",
         "QualityCode": "q_magic",
@@ -376905,209 +376856,25 @@
         "Worn": ""
       },
       {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Perfect Ruby",
-        "Tag": "Perfect Ruby",
-        "TextTag": "Perfect Ruby",
+        "Quality": "Normal",
+        "ID": "2938210538",
+        "QualityCode": "q_normal",
+        "Title": "Horadric Cube",
+        "Tag": "Horadric Cube",
+        "TextTag": "Horadric Cube",
         "Ethereal": "False",
         "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 18,
+        "ItemLevel": "28",
+        "LevelReq": 0,
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 7,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Perfect Ruby",
-        "Tag": "Perfect Ruby",
-        "TextTag": "Perfect Ruby",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 18,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
+          "x": 8,
           "y": 3
         },
         "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Perfect Ruby",
-        "Tag": "Perfect Ruby",
-        "TextTag": "Perfect Ruby",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 18,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Perfect Ruby",
-        "Tag": "Perfect Ruby",
-        "TextTag": "Perfect Ruby",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 18,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Perfect Ruby",
-        "Tag": "Perfect Ruby",
-        "TextTag": "Perfect Ruby",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 18,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Perfect Ruby",
-        "Tag": "Perfect Ruby",
-        "TextTag": "Perfect Ruby",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 18,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 6,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Perfect Ruby",
-        "Tag": "Perfect Ruby",
-        "TextTag": "Perfect Ruby",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 18,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 6,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Perfect Ruby",
-        "Tag": "Perfect Ruby",
-        "TextTag": "Perfect Ruby",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 18,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 6,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Perfect Ruby",
-        "Tag": "Perfect Ruby",
-        "TextTag": "Perfect Ruby",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 18,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 6,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
+          "invheight": 2,
+          "invwidth": 2
         },
         "Worn": ""
       }
@@ -393189,7 +392956,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 98,
-      "Experience": 3477060767,
+      "Experience": 3477682929,
       "Strength": 30,
       "Dexterity": 99,
       "Vitality": 436,
@@ -393198,8 +392965,8 @@
       "Life": 2027,
       "BaseMana": 160,
       "Mana": 248,
-      "Gold": 1549,
-      "Stashed": 330300
+      "Gold": 0,
+      "Stashed": 1891680
     },
     "Bonus": {
       "Strength": 125,
@@ -393605,7 +393372,7 @@
         "Ethereal": "False",
         "Enhanced": "False",
         "Defense": "15",
-        "Durability": "24",
+        "Durability": "23",
         "DurabilityMaximum": "24",
         "ItemLevel": "99",
         "LevelReq": 45,
@@ -393951,7 +393718,7 @@
         "DamageMaximum": "162",
         "ThrowDamageMinimum": "105",
         "ThrowDamageMaximum": "198",
-        "Durability": "100",
+        "Durability": "74",
         "DurabilityMaximum": "100",
         "ItemLevel": "85",
         "LevelReq": 69,
@@ -394602,29 +394369,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Normal",
-        "ID": "2938210538",
-        "QualityCode": "q_normal",
-        "Title": "Horadric Cube",
-        "Tag": "Horadric Cube",
-        "TextTag": "Horadric Cube",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "28",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 8,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Magic",
         "ID": "2796854498",
         "QualityCode": "q_magic",
@@ -394806,6 +394550,29 @@
         "Size": {
           "invheight": 3,
           "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "2938210538",
+        "QualityCode": "q_normal",
+        "Title": "Horadric Cube",
+        "Tag": "Horadric Cube",
+        "TextTag": "Horadric Cube",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "28",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 8,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
         },
         "Worn": ""
       }
@@ -490831,7 +490598,7 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 93,
-      "Experience": 2176914314,
+      "Experience": 2196910693,
       "Strength": 165,
       "Dexterity": 35,
       "Vitality": 300,
@@ -490841,7 +490608,7 @@
       "BaseMana": 269,
       "Mana": 657,
       "Gold": 0,
-      "Stashed": 1768546
+      "Stashed": 2210488
     },
     "Bonus": {
       "Strength": 86,
@@ -500477,7 +500244,7 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 96,
-      "Experience": 2717423163,
+      "Experience": 2721371888,
       "Strength": 106,
       "Dexterity": 25,
       "Vitality": 403,
@@ -500486,8 +500253,8 @@
       "Life": 1640,
       "BaseMana": 227,
       "Mana": 651,
-      "Gold": 0,
-      "Stashed": 2450000
+      "Gold": 720881,
+      "Stashed": 2400000
     },
     "Bonus": {
       "Strength": 50,
@@ -502472,39 +502239,9 @@
       },
       {
         "Quality": "Rare",
-        "ID": "2316148541",
+        "ID": "3285718096",
         "QualityCode": "q_rare",
-        "Title": "Grim Eye",
-        "Tag": "Baleful Alcazar Relic",
-        "TextTag": "Baleful Alcazar Relic",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "86",
-        "LevelReq": 80,
-        "SocketCount": "0",
-        "PropertyList": [
-          "10% Chance to cast level 13 Weaken on striking",
-          "Adds 20-30 Magic damage",
-          "+17% Increased Poison Damage",
-          "Poison Resist +50%",
-          "Lightning Absorb 13%",
-          "Cannot Be Frozen"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Rare",
-        "ID": "120773382",
-        "QualityCode": "q_rare",
-        "Title": "GhoulRI Eye",
+        "Title": "Shadow Eye",
         "Tag": "Dim Cellar Relic",
         "TextTag": "Dim Cellar Relic",
         "Ethereal": "False",
@@ -502513,14 +502250,15 @@
         "LevelReq": 80,
         "SocketCount": "0",
         "PropertyList": [
-          "15% Chance to cast level 15 Meteor when you Die",
+          "Level 11 Redemption Aura When Equipped",
+          "+107% Increased Attack Speed",
           "Adds 30-40 Magic damage",
-          "+65% Enhanced Defense",
-          "Poison Absorb 37%"
+          "Adds 149-150 Fire damage",
+          "Magic Absorb 38%"
         ],
         "Position": {
-          "x": 1,
-          "y": 3
+          "x": 9,
+          "y": 4
         },
         "Size": {
           "invheight": 1,
@@ -502945,6 +502683,9 @@
         },
         "Worn": "weapon1"
       }
+    ],
+    "ItemCodeFailedToParse": [
+      "ItemCode: ma16 | Properties:   [78] item_attackertakesdamage -> 18 [0]  [111] item_normaldamage -> 150 [0]  [142] item_absorbfire_percent -> 34 [0]  [198] item_skillonhit -> 13 [5828]  [330] passive_ltng_mastery -> 45 [0]  [339] passive_avoid -> 20 [0]  [511] EOF -> 0 [0]"
     ]
   },
   {
