@@ -12525,5 +12525,122 @@ const synthInventory = [
       }
     ],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Lance+of+Yaggai%2C0%2Cnone%2Cias%3A120%2Cfcr%3A50%2Cdamage_bonus%3A140%2Car%3A940%2Cdamage_vs_undead%3A705%2ClDamage_min%3A1%2ClDamage_max%3A60%2Clife_leech%3A7%2Cskill_Whirlwind%3A2%2Cslower_stam_drain%3A10%2CcRes%3A15%2ClRes%3A15%2CfRes%3A15%2CpRes%3A65%2Csockets%3A5"
+  },
+  {
+    "id": "9c913f4fa901da84c30084c744aab8de32deee73d6107a7486a9d8c19a5938f2",
+    "friendly_id": 213,
+    "owner": "Stabadon",
+    "base_type": "Synthesized Hyperion Spear",
+    "title": "The Impaler",
+    "properties": [
+      "ÿc1Corrupted",
+      "Melee attacks deal splash damage",
+      "+100% Increased Attack Speed",
+      "+100% Piercing Attack",
+      "+417% Enhanced Damage",
+      "Ignore Target's Defense",
+      "7% Life stolen per hit",
+      "20% Chance of Crushing Blow",
+      "+83 Defense",
+      "+8 to Strength",
+      "10% Damage Taken Gained as Mana when Hit",
+      "Jab & Fend Attacks Cast Molten Strike",
+      "Socketed (3)"
+    ],
+    "synthesised_from": [
+      "Soulfeast Tine",
+      "Buriza-Do Kyanon"
+    ],
+    "location": "Equipped",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "180",
+    "DamageMaximum": "615",
+    "LevelReq": 70,
+    "SocketCount": "3",
+    "seen_date": "2026-10-25",
+    "sockets": [
+      {
+        "Quality": "Rare",
+        "ID": "439245765",
+        "QualityCode": "q_rare",
+        "Title": "Viper Heart",
+        "Tag": "Jewel",
+        "TextTag": "Jewel",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "5",
+        "ItemLevel": "91",
+        "LevelReq": 42,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Melee attacks deal splash damage",
+          "+30% Enhanced Damage",
+          "+8 to Strength",
+          "10% Damage Taken Gained as Mana when Hit"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Ber Rune",
+        "Tag": "Ber Rune",
+        "TextTag": "Ber Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 63,
+        "SocketCount": "0",
+        "PropertyList": [
+          "20% Chance of Crushing Blow"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Ohm Rune",
+        "Tag": "Ohm Rune",
+        "TextTag": "Ohm Rune",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 57,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+50% Enhanced Damage"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      }
+    ],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=The+Impaler%2C0%2Cnone%2Cmelee_splash%3A1%2Cias%3A100%2Cdamage_bonus%3A417%2Clife_leech%3A7%2Ccblow%3A20%2Cdefense%3A83%2Cstrength%3A8%2Cdamage_to_mana%3A10%2Csockets%3A3"
   }
 ];
