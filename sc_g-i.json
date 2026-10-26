@@ -43217,9 +43217,9 @@
       "Vitality": 213,
       "Energy": 10,
       "BaseLife": 1041,
-      "Life": 1767,
+      "Life": 1705,
       "BaseMana": 97,
-      "Mana": 102,
+      "Mana": 210,
       "Gold": 44778,
       "Stashed": 1743691
     },
@@ -43248,30 +43248,6 @@
       "CooldownReduction": 0,
       "WeaponSetMain": {
         "Strength": 0,
-        "Dexterity": 9,
-        "Vitality": 0,
-        "Energy": 0,
-        "FireResistance": 0,
-        "MaximumFireResistance": 0,
-        "ColdResistance": 0,
-        "MaximumColdResistance": 0,
-        "LightningResistance": 0,
-        "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
-        "MaximumPoisonResistance": 0,
-        "MagicFind": 0,
-        "GoldFind": 0,
-        "FasterCastRate": 0,
-        "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 60,
-        "CrushingBlow": 38,
-        "OpenWounds": 0,
-        "DeadlyStrike": 0,
-        "DamageReduction": 0,
-        "CooldownReduction": 0
-      },
-      "WeaponSetOffhand": {
-        "Strength": 0,
         "Dexterity": 6,
         "Vitality": 22,
         "Energy": 0,
@@ -43289,6 +43265,30 @@
         "FasterHitRecovery": 55,
         "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
+        "OpenWounds": 0,
+        "DeadlyStrike": 0,
+        "DamageReduction": 0,
+        "CooldownReduction": 0
+      },
+      "WeaponSetOffhand": {
+        "Strength": 0,
+        "Dexterity": 9,
+        "Vitality": 0,
+        "Energy": 0,
+        "FireResistance": 0,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 0,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 0,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 0,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 0,
+        "GoldFind": 0,
+        "FasterCastRate": 0,
+        "FasterHitRecovery": 0,
+        "IncreasedAttackSpeed": 60,
+        "CrushingBlow": 38,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
         "DamageReduction": 0,
@@ -43715,6 +43715,101 @@
         "Worn": "amulet"
       },
       {
+        "Quality": "Set",
+        "ID": "1306449505",
+        "QualityCode": "q_set",
+        "Title": "Immortal King's Stone Crusher",
+        "Tag": "Ogre Maul",
+        "TextTag": "Ogre Maul",
+        "RuneTag": "Shael",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "251",
+        "DamageMaximum": "345",
+        "Durability": "195",
+        "DurabilityMaximum": "215",
+        "ItemLevel": "86",
+        "LevelReq": 76,
+        "Sockets": [
+          {
+            "Quality": "Rare",
+            "ID": "3419500024",
+            "QualityCode": "q_rare",
+            "Title": "Viper Scarab",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "4",
+            "ItemLevel": "76",
+            "LevelReq": 37,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Melee attacks deal splash damage",
+              "+26% Enhanced Damage",
+              "+9 to Dexterity",
+              "+16 Maximum Stamina"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Shael Rune",
+            "Tag": "Shael Rune",
+            "TextTag": "Shael Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 29,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+20% Increased Attack Speed"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "2",
+        "PropertyList": [
+          "Melee attacks deal splash damage",
+          "Indestructible",
+          "+60% Increased Attack Speed",
+          "+226% Enhanced Damage",
+          "+200% Damage to Demons",
+          "+250% Damage to Undead",
+          "38% Chance of Crushing Blow",
+          "+9 to Dexterity",
+          "+16 Maximum Stamina",
+          "Socketed (2)"
+        ],
+        "Position": {
+          "x": 11,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 4,
+          "invwidth": 2
+        },
+        "Worn": "sweapon1"
+      },
+      {
         "Quality": "Unique",
         "ID": "2261238748",
         "QualityCode": "q_unique",
@@ -43739,14 +43834,14 @@
           "Socketed (2)"
         ],
         "Position": {
-          "x": 11,
+          "x": 4,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 1
         },
-        "Worn": "sweapon1"
+        "Worn": "weapon1"
       },
       {
         "Quality": "Normal",
@@ -43882,109 +43977,14 @@
           "Socketed (4)"
         ],
         "Position": {
-          "x": 12,
+          "x": 5,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
         },
-        "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Set",
-        "ID": "1306449505",
-        "QualityCode": "q_set",
-        "Title": "Immortal King's Stone Crusher",
-        "Tag": "Ogre Maul",
-        "TextTag": "Ogre Maul",
-        "RuneTag": "Shael",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "251",
-        "DamageMaximum": "345",
-        "Durability": "195",
-        "DurabilityMaximum": "215",
-        "ItemLevel": "86",
-        "LevelReq": 76,
-        "Sockets": [
-          {
-            "Quality": "Rare",
-            "ID": "3419500024",
-            "QualityCode": "q_rare",
-            "Title": "Viper Scarab",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "AlternateGraphics": "4",
-            "ItemLevel": "76",
-            "LevelReq": 37,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Melee attacks deal splash damage",
-              "+26% Enhanced Damage",
-              "+9 to Dexterity",
-              "+16 Maximum Stamina"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Shael Rune",
-            "Tag": "Shael Rune",
-            "TextTag": "Shael Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 29,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+20% Increased Attack Speed"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "2",
-        "PropertyList": [
-          "Melee attacks deal splash damage",
-          "Indestructible",
-          "+60% Increased Attack Speed",
-          "+226% Enhanced Damage",
-          "+200% Damage to Demons",
-          "+250% Damage to Undead",
-          "38% Chance of Crushing Blow",
-          "+9 to Dexterity",
-          "+16 Maximum Stamina",
-          "Socketed (2)"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 4,
-          "invwidth": 2
-        },
-        "Worn": "weapon1"
+        "Worn": "weapon2"
       }
     ],
     "Inventory": [
@@ -452942,9 +452942,9 @@
       "Vitality": 213,
       "Energy": 10,
       "BaseLife": 1041,
-      "Life": 1767,
+      "Life": 1705,
       "BaseMana": 97,
-      "Mana": 102,
+      "Mana": 210,
       "Gold": 44778,
       "Stashed": 1743691
     },
@@ -452973,30 +452973,6 @@
       "CooldownReduction": 0,
       "WeaponSetMain": {
         "Strength": 0,
-        "Dexterity": 9,
-        "Vitality": 0,
-        "Energy": 0,
-        "FireResistance": 0,
-        "MaximumFireResistance": 0,
-        "ColdResistance": 0,
-        "MaximumColdResistance": 0,
-        "LightningResistance": 0,
-        "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
-        "MaximumPoisonResistance": 0,
-        "MagicFind": 0,
-        "GoldFind": 0,
-        "FasterCastRate": 0,
-        "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 60,
-        "CrushingBlow": 38,
-        "OpenWounds": 0,
-        "DeadlyStrike": 0,
-        "DamageReduction": 0,
-        "CooldownReduction": 0
-      },
-      "WeaponSetOffhand": {
-        "Strength": 0,
         "Dexterity": 6,
         "Vitality": 22,
         "Energy": 0,
@@ -453014,6 +452990,30 @@
         "FasterHitRecovery": 55,
         "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
+        "OpenWounds": 0,
+        "DeadlyStrike": 0,
+        "DamageReduction": 0,
+        "CooldownReduction": 0
+      },
+      "WeaponSetOffhand": {
+        "Strength": 0,
+        "Dexterity": 9,
+        "Vitality": 0,
+        "Energy": 0,
+        "FireResistance": 0,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 0,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 0,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 0,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 0,
+        "GoldFind": 0,
+        "FasterCastRate": 0,
+        "FasterHitRecovery": 0,
+        "IncreasedAttackSpeed": 60,
+        "CrushingBlow": 38,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
         "DamageReduction": 0,
@@ -453440,6 +453440,101 @@
         "Worn": "amulet"
       },
       {
+        "Quality": "Set",
+        "ID": "1306449505",
+        "QualityCode": "q_set",
+        "Title": "Immortal King's Stone Crusher",
+        "Tag": "Ogre Maul",
+        "TextTag": "Ogre Maul",
+        "RuneTag": "Shael",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "251",
+        "DamageMaximum": "345",
+        "Durability": "195",
+        "DurabilityMaximum": "215",
+        "ItemLevel": "86",
+        "LevelReq": 76,
+        "Sockets": [
+          {
+            "Quality": "Rare",
+            "ID": "3419500024",
+            "QualityCode": "q_rare",
+            "Title": "Viper Scarab",
+            "Tag": "Jewel",
+            "TextTag": "Jewel",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "AlternateGraphics": "4",
+            "ItemLevel": "76",
+            "LevelReq": 37,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Melee attacks deal splash damage",
+              "+26% Enhanced Damage",
+              "+9 to Dexterity",
+              "+16 Maximum Stamina"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Shael Rune",
+            "Tag": "Shael Rune",
+            "TextTag": "Shael Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 29,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+20% Increased Attack Speed"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "2",
+        "PropertyList": [
+          "Melee attacks deal splash damage",
+          "Indestructible",
+          "+60% Increased Attack Speed",
+          "+226% Enhanced Damage",
+          "+200% Damage to Demons",
+          "+250% Damage to Undead",
+          "38% Chance of Crushing Blow",
+          "+9 to Dexterity",
+          "+16 Maximum Stamina",
+          "Socketed (2)"
+        ],
+        "Position": {
+          "x": 11,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 4,
+          "invwidth": 2
+        },
+        "Worn": "sweapon1"
+      },
+      {
         "Quality": "Unique",
         "ID": "2261238748",
         "QualityCode": "q_unique",
@@ -453464,14 +453559,14 @@
           "Socketed (2)"
         ],
         "Position": {
-          "x": 11,
+          "x": 4,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 1
         },
-        "Worn": "sweapon1"
+        "Worn": "weapon1"
       },
       {
         "Quality": "Normal",
@@ -453607,109 +453702,14 @@
           "Socketed (4)"
         ],
         "Position": {
-          "x": 12,
+          "x": 5,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
         },
-        "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Set",
-        "ID": "1306449505",
-        "QualityCode": "q_set",
-        "Title": "Immortal King's Stone Crusher",
-        "Tag": "Ogre Maul",
-        "TextTag": "Ogre Maul",
-        "RuneTag": "Shael",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "251",
-        "DamageMaximum": "345",
-        "Durability": "195",
-        "DurabilityMaximum": "215",
-        "ItemLevel": "86",
-        "LevelReq": 76,
-        "Sockets": [
-          {
-            "Quality": "Rare",
-            "ID": "3419500024",
-            "QualityCode": "q_rare",
-            "Title": "Viper Scarab",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "AlternateGraphics": "4",
-            "ItemLevel": "76",
-            "LevelReq": 37,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Melee attacks deal splash damage",
-              "+26% Enhanced Damage",
-              "+9 to Dexterity",
-              "+16 Maximum Stamina"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Shael Rune",
-            "Tag": "Shael Rune",
-            "TextTag": "Shael Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 29,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+20% Increased Attack Speed"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "2",
-        "PropertyList": [
-          "Melee attacks deal splash damage",
-          "Indestructible",
-          "+60% Increased Attack Speed",
-          "+226% Enhanced Damage",
-          "+200% Damage to Demons",
-          "+250% Damage to Undead",
-          "38% Chance of Crushing Blow",
-          "+9 to Dexterity",
-          "+16 Maximum Stamina",
-          "Socketed (2)"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 4,
-          "invwidth": 2
-        },
-        "Worn": "weapon1"
+        "Worn": "weapon2"
       }
     ],
     "Inventory": [
