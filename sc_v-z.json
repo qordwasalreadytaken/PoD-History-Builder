@@ -40680,18 +40680,18 @@
     "IsDead": true,
     "Class": "Sorceress",
     "Stats": {
-      "Level": 96,
-      "Experience": 2941085344,
+      "Level": 97,
+      "Experience": 2963068067,
       "Strength": 40,
       "Dexterity": 60,
       "Vitality": 420,
       "Energy": 35,
-      "BaseLife": 1062,
-      "Life": 1568,
-      "BaseMana": 225,
-      "Mana": 444,
+      "BaseLife": 1064,
+      "Life": 1572,
+      "BaseMana": 227,
+      "Mana": 447,
       "Gold": 0,
-      "Stashed": 959789
+      "Stashed": 1243822
     },
     "Bonus": {
       "Strength": 104,
@@ -40706,7 +40706,7 @@
       "MaximumLightningResistance": 0,
       "PoisonResistance": 120,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 357,
+      "MagicFind": 358,
       "GoldFind": 143,
       "FasterCastRate": 40,
       "FasterHitRecovery": 0,
@@ -40799,8 +40799,13 @@
       },
       {
         "Name": "Lightning Skills",
-        "Total": 2,
+        "Total": 3,
         "Skills": [
+          {
+            "ID": 7,
+            "Name": "Static Field",
+            "Level": 1
+          },
           {
             "ID": 8,
             "Name": "Telekinesis",
@@ -40845,7 +40850,7 @@
         ]
       }
     ],
-    "MercenaryExperience": 116213932,
+    "MercenaryExperience": 117300850,
     "MercenaryType": "Desert Mercenary",
     "MercenaryName": "Vikhyat",
     "MercenaryLevel": "54",
@@ -41051,7 +41056,7 @@
           "Physical Damage Taken Reduced by 8%",
           "+14 Life after each Kill",
           "15% Damage Taken Gained as Mana when Hit",
-          "96% Better Chance of Getting Magic Items (Based on Character Level)",
+          "97% Better Chance of Getting Magic Items (Based on Character Level)",
           "Increase Maximum Durability 12%",
           "Socketed (3)"
         ],
@@ -41149,8 +41154,8 @@
           "+2 to All Skills",
           "+20% Piercing Attack",
           "+2 to all Attributes",
-          "+144 to Life (Based on Character Level)",
-          "+144 to Mana (Based on Character Level)",
+          "+145 to Life (Based on Character Level)",
+          "+145 to Mana (Based on Character Level)",
           "Physical Damage Taken Reduced by 10%",
           "75% Better Chance of Getting Magic Items",
           "Socketed (1)"
@@ -41807,33 +41812,6 @@
       },
       {
         "Quality": "Magic",
-        "ID": "3387580401",
-        "QualityCode": "q_magic",
-        "Title": "Ruby Small Charm of Good Luck",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "88",
-        "LevelReq": 33,
-        "SocketCount": "0",
-        "PropertyList": [
-          "Fire Resist +11%",
-          "7% Better Chance of Getting Magic Items"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
         "ID": "248799612",
         "QualityCode": "q_magic",
         "Title": "Tangerine Small Charm of Good Luck",
@@ -42214,29 +42192,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Normal",
-        "ID": "119644655",
-        "QualityCode": "q_normal",
-        "Title": "Tome of Town Portal",
-        "Tag": "Tome of Town Portal",
-        "TextTag": "Town Portal Book",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "6",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 2,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Magic",
         "ID": "3700389181",
         "QualityCode": "q_magic",
@@ -42509,6 +42464,33 @@
         "Worn": ""
       },
       {
+        "Quality": "Magic",
+        "ID": "3387580401",
+        "QualityCode": "q_magic",
+        "Title": "Ruby Small Charm of Good Luck",
+        "Tag": "Small Charm",
+        "TextTag": "Charm Small",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "2",
+        "ItemLevel": "88",
+        "LevelReq": 33,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Fire Resist +11%",
+          "7% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 1,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
         "Quality": "Normal",
         "ID": "1465324804",
         "QualityCode": "q_normal",
@@ -42533,6 +42515,29 @@
       },
       {
         "Quality": "Normal",
+        "ID": "119644655",
+        "QualityCode": "q_normal",
+        "Title": "Tome of Town Portal",
+        "Tag": "Tome of Town Portal",
+        "TextTag": "Town Portal Book",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "6",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
         "ID": "567215428",
         "QualityCode": "q_normal",
         "Title": "Tome of Identify",
@@ -42545,8 +42550,8 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 3,
-          "y": 3
+          "x": 1,
+          "y": 1
         },
         "Size": {
           "invheight": 2,
@@ -75310,7 +75315,7 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 97,
-      "Experience": 3133166388,
+      "Experience": 3135133483,
       "Strength": 42,
       "Dexterity": 25,
       "Vitality": 483,
@@ -75319,8 +75324,8 @@
       "Life": 1790,
       "BaseMana": 217,
       "Mana": 581,
-      "Gold": 0,
-      "Stashed": 2050014
+      "Gold": 231065,
+      "Stashed": 2500000
     },
     "Bonus": {
       "Strength": 115,
@@ -77005,6 +77010,33 @@
         "Size": {
           "invheight": 2,
           "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1371658960",
+        "QualityCode": "q_rare",
+        "Title": "Storm Eye",
+        "Tag": "Forgotten Desert Relic",
+        "TextTag": "Forgotten Desert Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "99",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Damage +200",
+          "50% Deadly Strike",
+          "+91% Enhanced Defense"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
         },
         "Worn": ""
       }
@@ -108404,276 +108436,7 @@
         "Worn": ""
       }
     ],
-    "MercenaryEquipped": [
-      {
-        "Quality": "Unique",
-        "ID": "1087839760",
-        "QualityCode": "q_unique",
-        "Title": "Vampire Gaze",
-        "Tag": "Bone Visage",
-        "TextTag": "Bone Visage",
-        "RuneTag": "UmBer",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "122",
-        "Durability": "39",
-        "DurabilityMaximum": "40",
-        "ItemLevel": "88",
-        "LevelReq": 70,
-        "Sockets": [
-          {
-            "Quality": "Rare",
-            "ID": "2668562223",
-            "QualityCode": "q_rare",
-            "Title": "Death Whorl",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "AlternateGraphics": "3",
-            "ItemLevel": "87",
-            "LevelReq": 18,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Melee attacks deal splash damage",
-              "+6 to Energy",
-              "Cold Resist +9%",
-              "Lightning Resist +9%",
-              "Fire Resist +32%",
-              "Poison Resist +9%"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Um Rune",
-            "Tag": "Um Rune",
-            "TextTag": "Um Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 47,
-            "SocketCount": "0",
-            "PropertyList": [
-              "All Resistances +15"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Ber Rune",
-            "Tag": "Ber Rune",
-            "TextTag": "Ber Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 63,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Physical Damage Taken Reduced by 8%"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "3",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "Melee attacks deal splash damage",
-          "Adds 6-22 cold damage",
-          "8% Mana stolen per hit",
-          "7% Life stolen per hit",
-          "+100% Enhanced Defense",
-          "+6 to Energy",
-          "15% Slower Stamina Drain",
-          "Cold Resist +24%",
-          "Lightning Resist +24%",
-          "Fire Resist +47%",
-          "Poison Resist +24%",
-          "Physical Damage Taken Reduced by 26%",
-          "Magic & Elemental Damage Taken Reduced by 12",
-          "Socketed (3)"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "helmet"
-      },
-      {
-        "Quality": "Normal",
-        "ID": "3524904600",
-        "QualityCode": "q_runeword",
-        "Title": "Fortitude",
-        "Tag": "Great Hauberk",
-        "TextTag": "Great Hauberk",
-        "RuneTag": "ElSolDolLo",
-        "Ethereal": "True",
-        "Enhanced": "True",
-        "Defense": "685",
-        "Durability": "26",
-        "DurabilityMaximum": "26",
-        "ItemLevel": "87",
-        "LevelReq": 59,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "El Rune",
-            "Tag": "El Rune",
-            "TextTag": "El Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 11,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+1 to Light Radius"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Sol Rune",
-            "Tag": "Sol Rune",
-            "TextTag": "Sol Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 27,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Physical Damage Taken Reduced by 7"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Dol Rune",
-            "Tag": "Dol Rune",
-            "TextTag": "Dol Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 31,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Replenish Life 7 per second"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Lo Rune",
-            "Tag": "Lo Rune",
-            "TextTag": "Lo Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 59,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+5% to Maximum Lightning Resist"
-            ],
-            "Position": {
-              "x": 3,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "4",
-        "PropertyList": [
-          "20% Chance to cast level 15 Chilling Armor when struck",
-          "+25% Faster Cast Rate",
-          "+272% Enhanced Damage",
-          "+200% Enhanced Defense",
-          "+141 to Life (Based on Character Level)",
-          "Replenish Life 7 per second",
-          "+5% to Maximum Lightning Resist",
-          "All Resistances +26",
-          "Physical Damage Taken Reduced by 7",
-          "12% Damage Taken Gained as Mana when Hit",
-          "+1 to Light Radius",
-          "Ethereal (Cannot be Repaired), Socketed (4)"
-        ],
-        "Position": {
-          "x": 3,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": "body"
-      }
-    ]
+    "MercenaryEquipped": []
   },
   {
     "Title": "Matriach",
@@ -308156,7 +307919,7 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 97,
-      "Experience": 3133166388,
+      "Experience": 3135133483,
       "Strength": 42,
       "Dexterity": 25,
       "Vitality": 483,
@@ -308165,8 +307928,8 @@
       "Life": 1790,
       "BaseMana": 217,
       "Mana": 581,
-      "Gold": 0,
-      "Stashed": 2050014
+      "Gold": 231065,
+      "Stashed": 2500000
     },
     "Bonus": {
       "Strength": 115,
@@ -309851,6 +309614,33 @@
         "Size": {
           "invheight": 2,
           "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Rare",
+        "ID": "1371658960",
+        "QualityCode": "q_rare",
+        "Title": "Storm Eye",
+        "Tag": "Forgotten Desert Relic",
+        "TextTag": "Forgotten Desert Relic",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "99",
+        "LevelReq": 80,
+        "SocketCount": "0",
+        "PropertyList": [
+          "Damage +200",
+          "50% Deadly Strike",
+          "+91% Enhanced Defense"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
         },
         "Worn": ""
       }
@@ -336580,276 +336370,7 @@
         "Worn": ""
       }
     ],
-    "MercenaryEquipped": [
-      {
-        "Quality": "Unique",
-        "ID": "1087839760",
-        "QualityCode": "q_unique",
-        "Title": "Vampire Gaze",
-        "Tag": "Bone Visage",
-        "TextTag": "Bone Visage",
-        "RuneTag": "UmBer",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "122",
-        "Durability": "39",
-        "DurabilityMaximum": "40",
-        "ItemLevel": "88",
-        "LevelReq": 70,
-        "Sockets": [
-          {
-            "Quality": "Rare",
-            "ID": "2668562223",
-            "QualityCode": "q_rare",
-            "Title": "Death Whorl",
-            "Tag": "Jewel",
-            "TextTag": "Jewel",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "AlternateGraphics": "3",
-            "ItemLevel": "87",
-            "LevelReq": 18,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Melee attacks deal splash damage",
-              "+6 to Energy",
-              "Cold Resist +9%",
-              "Lightning Resist +9%",
-              "Fire Resist +32%",
-              "Poison Resist +9%"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Um Rune",
-            "Tag": "Um Rune",
-            "TextTag": "Um Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 47,
-            "SocketCount": "0",
-            "PropertyList": [
-              "All Resistances +15"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Ber Rune",
-            "Tag": "Ber Rune",
-            "TextTag": "Ber Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 63,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Physical Damage Taken Reduced by 8%"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "3",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "Melee attacks deal splash damage",
-          "Adds 6-22 cold damage",
-          "8% Mana stolen per hit",
-          "7% Life stolen per hit",
-          "+100% Enhanced Defense",
-          "+6 to Energy",
-          "15% Slower Stamina Drain",
-          "Cold Resist +24%",
-          "Lightning Resist +24%",
-          "Fire Resist +47%",
-          "Poison Resist +24%",
-          "Physical Damage Taken Reduced by 26%",
-          "Magic & Elemental Damage Taken Reduced by 12",
-          "Socketed (3)"
-        ],
-        "Position": {
-          "x": 1,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "helmet"
-      },
-      {
-        "Quality": "Normal",
-        "ID": "3524904600",
-        "QualityCode": "q_runeword",
-        "Title": "Fortitude",
-        "Tag": "Great Hauberk",
-        "TextTag": "Great Hauberk",
-        "RuneTag": "ElSolDolLo",
-        "Ethereal": "True",
-        "Enhanced": "True",
-        "Defense": "685",
-        "Durability": "26",
-        "DurabilityMaximum": "26",
-        "ItemLevel": "87",
-        "LevelReq": 59,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "El Rune",
-            "Tag": "El Rune",
-            "TextTag": "El Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 11,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+1 to Light Radius"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Sol Rune",
-            "Tag": "Sol Rune",
-            "TextTag": "Sol Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 27,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Physical Damage Taken Reduced by 7"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Dol Rune",
-            "Tag": "Dol Rune",
-            "TextTag": "Dol Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 31,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Replenish Life 7 per second"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Lo Rune",
-            "Tag": "Lo Rune",
-            "TextTag": "Lo Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 59,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+5% to Maximum Lightning Resist"
-            ],
-            "Position": {
-              "x": 3,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "4",
-        "PropertyList": [
-          "20% Chance to cast level 15 Chilling Armor when struck",
-          "+25% Faster Cast Rate",
-          "+272% Enhanced Damage",
-          "+200% Enhanced Defense",
-          "+141 to Life (Based on Character Level)",
-          "Replenish Life 7 per second",
-          "+5% to Maximum Lightning Resist",
-          "All Resistances +26",
-          "Physical Damage Taken Reduced by 7",
-          "12% Damage Taken Gained as Mana when Hit",
-          "+1 to Light Radius",
-          "Ethereal (Cannot be Repaired), Socketed (4)"
-        ],
-        "Position": {
-          "x": 3,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": "body"
-      }
-    ]
+    "MercenaryEquipped": []
   },
   {
     "Title": "Matriach",

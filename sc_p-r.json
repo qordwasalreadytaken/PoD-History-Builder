@@ -17,8 +17,8 @@
       "Life": 1197,
       "BaseMana": 221,
       "Mana": 231,
-      "Gold": 0,
-      "Stashed": 1061149
+      "Gold": 20707,
+      "Stashed": 6100
     },
     "Bonus": {
       "Strength": 48,
@@ -160501,9 +160501,9 @@
       "Vitality": 95,
       "Energy": 10,
       "BaseLife": 515,
-      "Life": 903,
+      "Life": 778,
       "BaseMana": 100,
-      "Mana": 131,
+      "Mana": 126,
       "Gold": 318164,
       "Stashed": 2498650
     },
@@ -160531,30 +160531,6 @@
       "DamageReduction": 20,
       "CooldownReduction": 0,
       "WeaponSetMain": {
-        "Strength": 20,
-        "Dexterity": 0,
-        "Vitality": 0,
-        "Energy": 0,
-        "FireResistance": 0,
-        "MaximumFireResistance": 0,
-        "ColdResistance": 0,
-        "MaximumColdResistance": 0,
-        "LightningResistance": 0,
-        "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
-        "MaximumPoisonResistance": 0,
-        "MagicFind": 0,
-        "GoldFind": 0,
-        "FasterCastRate": 0,
-        "FasterHitRecovery": 20,
-        "IncreasedAttackSpeed": 0,
-        "CrushingBlow": 0,
-        "OpenWounds": 0,
-        "DeadlyStrike": 86,
-        "DamageReduction": 0,
-        "CooldownReduction": 0
-      },
-      "WeaponSetOffhand": {
         "Strength": 7,
         "Dexterity": 10,
         "Vitality": 0,
@@ -160575,6 +160551,30 @@
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
+        "DamageReduction": 0,
+        "CooldownReduction": 0
+      },
+      "WeaponSetOffhand": {
+        "Strength": 20,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Energy": 0,
+        "FireResistance": 0,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 0,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 0,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 0,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 0,
+        "GoldFind": 0,
+        "FasterCastRate": 0,
+        "FasterHitRecovery": 20,
+        "IncreasedAttackSpeed": 0,
+        "CrushingBlow": 0,
+        "OpenWounds": 0,
+        "DeadlyStrike": 86,
         "DamageReduction": 0,
         "CooldownReduction": 0
       }
@@ -161184,6 +161184,223 @@
         "Worn": "belt"
       },
       {
+        "Quality": "Unique",
+        "ID": "2034398846",
+        "QualityCode": "q_unique",
+        "Title": "The Grandfather",
+        "Tag": "Colossus Blade",
+        "TextTag": "Colossus Blade",
+        "RuneTag": "VexLoJahOhm",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "185",
+        "DamageMaximum": "368",
+        "Durability": "150",
+        "DurabilityMaximum": "215",
+        "ItemLevel": "91",
+        "LevelReq": 81,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Vex Rune",
+            "Tag": "Vex Rune",
+            "TextTag": "Vex Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 55,
+            "SocketCount": "0",
+            "PropertyList": [
+              "7% Mana stolen per hit"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Lo Rune",
+            "Tag": "Lo Rune",
+            "TextTag": "Lo Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 59,
+            "SocketCount": "0",
+            "PropertyList": [
+              "20% Deadly Strike"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Jah Rune",
+            "Tag": "Jah Rune",
+            "TextTag": "Jah Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 65,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Ignore Target's Defense"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ohm Rune",
+            "Tag": "Ohm Rune",
+            "TextTag": "Ohm Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 57,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+50% Enhanced Damage"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "4",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "Indestructible",
+          "+220% Enhanced Damage",
+          "+227 to Maximum Damage (Based on Character Level)",
+          "Ignore Target's Defense",
+          "50% Bonus to Attack Rating",
+          "7% Mana stolen per hit",
+          "20% Deadly Strike",
+          "+3 to Sword Mastery",
+          "+20 to all Attributes",
+          "+80 to Life",
+          "2% of Life Regenerated per second",
+          "Socketed (4)"
+        ],
+        "Position": {
+          "x": 11,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 4,
+          "invwidth": 2
+        },
+        "Worn": "sweapon1"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3728209630",
+        "QualityCode": "q_unique",
+        "Title": "Bladebone",
+        "Tag": "Synthesized Ettin Axe",
+        "TextTag": "Synthesized Ettin Axe",
+        "RuneTag": "Jah",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "231",
+        "DamageMaximum": "392",
+        "ThrowDamageMinimum": "35",
+        "Durability": "27",
+        "DurabilityMaximum": "108",
+        "ItemLevel": "88",
+        "LevelReq": 77,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Jah Rune",
+            "Tag": "Jah Rune",
+            "TextTag": "Jah Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 65,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Ignore Target's Defense"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "1",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+20% Faster Hit Recovery",
+          "+495% Enhanced Damage",
+          "Adds 35-75 damage",
+          "Ignore Target's Defense",
+          "+136% Damage to Demons (Based on Character Level)",
+          "66% Deadly Strike",
+          "+4 to Find Potion (Barbarian Only)",
+          "+4 to Grim Ward (Barbarian Only)",
+          "+6 Life after each Kill",
+          "Socketed (1)"
+        ],
+        "SynthesisedFrom": [
+          "Heart Carver",
+          "Spire of Honor",
+          "Death Cleaver"
+        ],
+        "Position": {
+          "x": 12,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": "sweapon2"
+      },
+      {
         "Quality": "Normal",
         "ID": "133869472",
         "QualityCode": "q_runeword",
@@ -161319,14 +161536,14 @@
           "Socketed (4)"
         ],
         "Position": {
-          "x": 11,
+          "x": 4,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
         },
-        "Worn": "sweapon1"
+        "Worn": "weapon1"
       },
       {
         "Quality": "Magic",
@@ -161351,79 +161568,6 @@
           "+7 to Strength"
         ],
         "Position": {
-          "x": 12,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "3728209630",
-        "QualityCode": "q_unique",
-        "Title": "Bladebone",
-        "Tag": "Synthesized Ettin Axe",
-        "TextTag": "Synthesized Ettin Axe",
-        "RuneTag": "Jah",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "231",
-        "DamageMaximum": "392",
-        "ThrowDamageMinimum": "35",
-        "Durability": "27",
-        "DurabilityMaximum": "108",
-        "ItemLevel": "88",
-        "LevelReq": 77,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Jah Rune",
-            "Tag": "Jah Rune",
-            "TextTag": "Jah Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 65,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Ignore Target's Defense"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "1",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+20% Faster Hit Recovery",
-          "+495% Enhanced Damage",
-          "Adds 35-75 damage",
-          "Ignore Target's Defense",
-          "+136% Damage to Demons (Based on Character Level)",
-          "66% Deadly Strike",
-          "+4 to Find Potion (Barbarian Only)",
-          "+4 to Grim Ward (Barbarian Only)",
-          "+6 Life after each Kill",
-          "Socketed (1)"
-        ],
-        "SynthesisedFrom": [
-          "Heart Carver",
-          "Spire of Honor",
-          "Death Cleaver"
-        ],
-        "Position": {
           "x": 5,
           "y": 0
         },
@@ -161432,150 +161576,6 @@
           "invwidth": 2
         },
         "Worn": "weapon2"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "2034398846",
-        "QualityCode": "q_unique",
-        "Title": "The Grandfather",
-        "Tag": "Colossus Blade",
-        "TextTag": "Colossus Blade",
-        "RuneTag": "VexLoJahOhm",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "185",
-        "DamageMaximum": "368",
-        "Durability": "150",
-        "DurabilityMaximum": "215",
-        "ItemLevel": "91",
-        "LevelReq": 81,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Vex Rune",
-            "Tag": "Vex Rune",
-            "TextTag": "Vex Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 55,
-            "SocketCount": "0",
-            "PropertyList": [
-              "7% Mana stolen per hit"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Lo Rune",
-            "Tag": "Lo Rune",
-            "TextTag": "Lo Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 59,
-            "SocketCount": "0",
-            "PropertyList": [
-              "20% Deadly Strike"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Jah Rune",
-            "Tag": "Jah Rune",
-            "TextTag": "Jah Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 65,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Ignore Target's Defense"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Ohm Rune",
-            "Tag": "Ohm Rune",
-            "TextTag": "Ohm Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 57,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+50% Enhanced Damage"
-            ],
-            "Position": {
-              "x": 3,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "4",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "Indestructible",
-          "+220% Enhanced Damage",
-          "+227 to Maximum Damage (Based on Character Level)",
-          "Ignore Target's Defense",
-          "50% Bonus to Attack Rating",
-          "7% Mana stolen per hit",
-          "20% Deadly Strike",
-          "+3 to Sword Mastery",
-          "+20 to all Attributes",
-          "+80 to Life",
-          "2% of Life Regenerated per second",
-          "Socketed (4)"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 4,
-          "invwidth": 2
-        },
-        "Worn": "weapon1"
       }
     ],
     "Inventory": [
@@ -216639,8 +216639,8 @@
       "Life": 1197,
       "BaseMana": 221,
       "Mana": 231,
-      "Gold": 0,
-      "Stashed": 1061149
+      "Gold": 20707,
+      "Stashed": 6100
     },
     "Bonus": {
       "Strength": 48,
@@ -345216,9 +345216,9 @@
       "Vitality": 95,
       "Energy": 10,
       "BaseLife": 515,
-      "Life": 903,
+      "Life": 778,
       "BaseMana": 100,
-      "Mana": 131,
+      "Mana": 126,
       "Gold": 318164,
       "Stashed": 2498650
     },
@@ -345246,30 +345246,6 @@
       "DamageReduction": 20,
       "CooldownReduction": 0,
       "WeaponSetMain": {
-        "Strength": 20,
-        "Dexterity": 0,
-        "Vitality": 0,
-        "Energy": 0,
-        "FireResistance": 0,
-        "MaximumFireResistance": 0,
-        "ColdResistance": 0,
-        "MaximumColdResistance": 0,
-        "LightningResistance": 0,
-        "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
-        "MaximumPoisonResistance": 0,
-        "MagicFind": 0,
-        "GoldFind": 0,
-        "FasterCastRate": 0,
-        "FasterHitRecovery": 20,
-        "IncreasedAttackSpeed": 0,
-        "CrushingBlow": 0,
-        "OpenWounds": 0,
-        "DeadlyStrike": 86,
-        "DamageReduction": 0,
-        "CooldownReduction": 0
-      },
-      "WeaponSetOffhand": {
         "Strength": 7,
         "Dexterity": 10,
         "Vitality": 0,
@@ -345290,6 +345266,30 @@
         "CrushingBlow": 0,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
+        "DamageReduction": 0,
+        "CooldownReduction": 0
+      },
+      "WeaponSetOffhand": {
+        "Strength": 20,
+        "Dexterity": 0,
+        "Vitality": 0,
+        "Energy": 0,
+        "FireResistance": 0,
+        "MaximumFireResistance": 0,
+        "ColdResistance": 0,
+        "MaximumColdResistance": 0,
+        "LightningResistance": 0,
+        "MaximumLightningResistance": 0,
+        "PoisonResistance": 0,
+        "MaximumPoisonResistance": 0,
+        "MagicFind": 0,
+        "GoldFind": 0,
+        "FasterCastRate": 0,
+        "FasterHitRecovery": 20,
+        "IncreasedAttackSpeed": 0,
+        "CrushingBlow": 0,
+        "OpenWounds": 0,
+        "DeadlyStrike": 86,
         "DamageReduction": 0,
         "CooldownReduction": 0
       }
@@ -345899,6 +345899,223 @@
         "Worn": "belt"
       },
       {
+        "Quality": "Unique",
+        "ID": "2034398846",
+        "QualityCode": "q_unique",
+        "Title": "The Grandfather",
+        "Tag": "Colossus Blade",
+        "TextTag": "Colossus Blade",
+        "RuneTag": "VexLoJahOhm",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "185",
+        "DamageMaximum": "368",
+        "Durability": "150",
+        "DurabilityMaximum": "215",
+        "ItemLevel": "91",
+        "LevelReq": 81,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Vex Rune",
+            "Tag": "Vex Rune",
+            "TextTag": "Vex Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 55,
+            "SocketCount": "0",
+            "PropertyList": [
+              "7% Mana stolen per hit"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Lo Rune",
+            "Tag": "Lo Rune",
+            "TextTag": "Lo Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 59,
+            "SocketCount": "0",
+            "PropertyList": [
+              "20% Deadly Strike"
+            ],
+            "Position": {
+              "x": 1,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Jah Rune",
+            "Tag": "Jah Rune",
+            "TextTag": "Jah Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 65,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Ignore Target's Defense"
+            ],
+            "Position": {
+              "x": 2,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ohm Rune",
+            "Tag": "Ohm Rune",
+            "TextTag": "Ohm Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 57,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+50% Enhanced Damage"
+            ],
+            "Position": {
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "4",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "Indestructible",
+          "+220% Enhanced Damage",
+          "+227 to Maximum Damage (Based on Character Level)",
+          "Ignore Target's Defense",
+          "50% Bonus to Attack Rating",
+          "7% Mana stolen per hit",
+          "20% Deadly Strike",
+          "+3 to Sword Mastery",
+          "+20 to all Attributes",
+          "+80 to Life",
+          "2% of Life Regenerated per second",
+          "Socketed (4)"
+        ],
+        "Position": {
+          "x": 11,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 4,
+          "invwidth": 2
+        },
+        "Worn": "sweapon1"
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3728209630",
+        "QualityCode": "q_unique",
+        "Title": "Bladebone",
+        "Tag": "Synthesized Ettin Axe",
+        "TextTag": "Synthesized Ettin Axe",
+        "RuneTag": "Jah",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "231",
+        "DamageMaximum": "392",
+        "ThrowDamageMinimum": "35",
+        "Durability": "27",
+        "DurabilityMaximum": "108",
+        "ItemLevel": "88",
+        "LevelReq": 77,
+        "Sockets": [
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Jah Rune",
+            "Tag": "Jah Rune",
+            "TextTag": "Jah Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 65,
+            "SocketCount": "0",
+            "PropertyList": [
+              "Ignore Target's Defense"
+            ],
+            "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          }
+        ],
+        "SocketCount": "1",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+20% Faster Hit Recovery",
+          "+495% Enhanced Damage",
+          "Adds 35-75 damage",
+          "Ignore Target's Defense",
+          "+136% Damage to Demons (Based on Character Level)",
+          "66% Deadly Strike",
+          "+4 to Find Potion (Barbarian Only)",
+          "+4 to Grim Ward (Barbarian Only)",
+          "+6 Life after each Kill",
+          "Socketed (1)"
+        ],
+        "SynthesisedFrom": [
+          "Heart Carver",
+          "Spire of Honor",
+          "Death Cleaver"
+        ],
+        "Position": {
+          "x": 12,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 2
+        },
+        "Worn": "sweapon2"
+      },
+      {
         "Quality": "Normal",
         "ID": "133869472",
         "QualityCode": "q_runeword",
@@ -346034,14 +346251,14 @@
           "Socketed (4)"
         ],
         "Position": {
-          "x": 11,
+          "x": 4,
           "y": 0
         },
         "Size": {
           "invheight": 3,
           "invwidth": 2
         },
-        "Worn": "sweapon1"
+        "Worn": "weapon1"
       },
       {
         "Quality": "Magic",
@@ -346066,79 +346283,6 @@
           "+7 to Strength"
         ],
         "Position": {
-          "x": 12,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "3728209630",
-        "QualityCode": "q_unique",
-        "Title": "Bladebone",
-        "Tag": "Synthesized Ettin Axe",
-        "TextTag": "Synthesized Ettin Axe",
-        "RuneTag": "Jah",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "231",
-        "DamageMaximum": "392",
-        "ThrowDamageMinimum": "35",
-        "Durability": "27",
-        "DurabilityMaximum": "108",
-        "ItemLevel": "88",
-        "LevelReq": 77,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Jah Rune",
-            "Tag": "Jah Rune",
-            "TextTag": "Jah Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 65,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Ignore Target's Defense"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "1",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+20% Faster Hit Recovery",
-          "+495% Enhanced Damage",
-          "Adds 35-75 damage",
-          "Ignore Target's Defense",
-          "+136% Damage to Demons (Based on Character Level)",
-          "66% Deadly Strike",
-          "+4 to Find Potion (Barbarian Only)",
-          "+4 to Grim Ward (Barbarian Only)",
-          "+6 Life after each Kill",
-          "Socketed (1)"
-        ],
-        "SynthesisedFrom": [
-          "Heart Carver",
-          "Spire of Honor",
-          "Death Cleaver"
-        ],
-        "Position": {
           "x": 5,
           "y": 0
         },
@@ -346147,150 +346291,6 @@
           "invwidth": 2
         },
         "Worn": "weapon2"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "2034398846",
-        "QualityCode": "q_unique",
-        "Title": "The Grandfather",
-        "Tag": "Colossus Blade",
-        "TextTag": "Colossus Blade",
-        "RuneTag": "VexLoJahOhm",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "DamageMinimum": "185",
-        "DamageMaximum": "368",
-        "Durability": "150",
-        "DurabilityMaximum": "215",
-        "ItemLevel": "91",
-        "LevelReq": 81,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Vex Rune",
-            "Tag": "Vex Rune",
-            "TextTag": "Vex Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 55,
-            "SocketCount": "0",
-            "PropertyList": [
-              "7% Mana stolen per hit"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Lo Rune",
-            "Tag": "Lo Rune",
-            "TextTag": "Lo Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 59,
-            "SocketCount": "0",
-            "PropertyList": [
-              "20% Deadly Strike"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Jah Rune",
-            "Tag": "Jah Rune",
-            "TextTag": "Jah Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 65,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Ignore Target's Defense"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Ohm Rune",
-            "Tag": "Ohm Rune",
-            "TextTag": "Ohm Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 57,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+50% Enhanced Damage"
-            ],
-            "Position": {
-              "x": 3,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "4",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "Indestructible",
-          "+220% Enhanced Damage",
-          "+227 to Maximum Damage (Based on Character Level)",
-          "Ignore Target's Defense",
-          "50% Bonus to Attack Rating",
-          "7% Mana stolen per hit",
-          "20% Deadly Strike",
-          "+3 to Sword Mastery",
-          "+20 to all Attributes",
-          "+80 to Life",
-          "2% of Life Regenerated per second",
-          "Socketed (4)"
-        ],
-        "Position": {
-          "x": 4,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 4,
-          "invwidth": 2
-        },
-        "Worn": "weapon1"
       }
     ],
     "Inventory": [
