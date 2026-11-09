@@ -12642,5 +12642,43 @@ const synthInventory = [
       }
     ],
     "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=The+Impaler%2C0%2Cnone%2Cmelee_splash%3A1%2Cias%3A100%2Cdamage_bonus%3A417%2Clife_leech%3A7%2Ccblow%3A20%2Cdefense%3A83%2Cstrength%3A8%2Cdamage_to_mana%3A10%2Csockets%3A3"
+  },
+  {
+    "id": "f00eb7672085c16f0ddd0d93b677a5063a6a7663c9950d7234a287eb9288709e",
+    "friendly_id": 214,
+    "owner": "asssses",
+    "base_type": "Synthesized Rune Sword",
+    "title": "Plague Bearer",
+    "properties": [
+      "+20% Faster Cast Rate",
+      "+200% Enhanced Damage",
+      "+242% Enhanced Maximum Damage (Based on Character Level)",
+      "Adds 10-45 damage",
+      "Adds 20-240 Fire damage",
+      "+2 to Nova (Sorceress Only)",
+      "+30 Defense",
+      "+15 to Strength",
+      "+15 to Dexterity",
+      "Cold Resist +25%",
+      "Fire Resist +25%",
+      "Poison Resist +45%"
+    ],
+    "synthesised_from": [
+      "The Diggler",
+      "The Iron Jang Bong",
+      "Plague Bearer",
+      "Messerschmidt's Reaver"
+    ],
+    "location": "Inventory",
+    "Quality": "Unique",
+    "QualityCode": "q_unique",
+    "Ethereal": "False",
+    "DamageMinimum": "40",
+    "DamageMaximum": "126",
+    "LevelReq": 41,
+    "SocketCount": "0",
+    "seen_date": "2026-11-09",
+    "sockets": [],
+    "planner_url": "https://qordwasalreadytaken.github.io/path-of-diablo-planner/index.html?imported=Plague+Bearer%2C0%2Cnone%2Cfcr%3A20%2Cdamage_bonus%3A200%2Cdamage%3A45%2CfDamage_min%3A20%2CfDamage_max%3A240%2Cskill_Nova%3A2%2Cdefense%3A30%2Cstrength%3A15%2Cdexterity%3A15%2CcRes%3A25%2CfRes%3A25%2CpRes%3A45"
   }
 ];
