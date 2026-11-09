@@ -197301,7 +197301,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 90,
-      "Experience": 1694493511,
+      "Experience": 1696277567,
       "Strength": 119,
       "Dexterity": 65,
       "Vitality": 341,
@@ -197310,17 +197310,17 @@
       "Life": 1760,
       "BaseMana": 148,
       "Mana": 244,
-      "Gold": 28616,
+      "Gold": 73925,
       "Stashed": 2432509
     },
     "Bonus": {
       "Strength": 129,
-      "Dexterity": 30,
+      "Dexterity": 45,
       "Vitality": 34,
       "Energy": 0,
-      "FireResistance": 170,
+      "FireResistance": 160,
       "MaximumFireResistance": 0,
-      "ColdResistance": 176,
+      "ColdResistance": 139,
       "MaximumColdResistance": 0,
       "LightningResistance": 179,
       "MaximumLightningResistance": 0,
@@ -197329,11 +197329,11 @@
       "MagicFind": 129,
       "GoldFind": 187,
       "FasterCastRate": 0,
-      "FasterHitRecovery": 30,
+      "FasterHitRecovery": 20,
       "IncreasedAttackSpeed": 75,
-      "CrushingBlow": 0,
-      "OpenWounds": 0,
-      "DeadlyStrike": 0,
+      "CrushingBlow": 15,
+      "OpenWounds": 10,
+      "DeadlyStrike": 15,
       "DamageReduction": 26,
       "CooldownReduction": 0,
       "WeaponSetMain": {
@@ -197361,24 +197361,24 @@
         "CooldownReduction": 0
       },
       "WeaponSetOffhand": {
-        "Strength": 30,
-        "Dexterity": 0,
+        "Strength": 10,
+        "Dexterity": 10,
         "Vitality": 0,
         "Energy": 0,
-        "FireResistance": 0,
+        "FireResistance": 25,
         "MaximumFireResistance": 0,
-        "ColdResistance": 0,
+        "ColdResistance": 25,
         "MaximumColdResistance": 0,
-        "LightningResistance": 0,
+        "LightningResistance": 25,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
+        "PoisonResistance": 25,
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 0,
         "FasterCastRate": 0,
-        "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 60,
-        "CrushingBlow": 0,
+        "FasterHitRecovery": 40,
+        "IncreasedAttackSpeed": 0,
+        "CrushingBlow": 40,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
         "DamageReduction": 0,
@@ -197658,40 +197658,6 @@
         "Worn": "helmet"
       },
       {
-        "Quality": "Rare",
-        "ID": "934247562",
-        "QualityCode": "q_rare",
-        "Title": "Shadow Slippers",
-        "Tag": "Greaves",
-        "TextTag": "Plate Boots",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "16",
-        "Durability": "24",
-        "DurabilityMaximum": "24",
-        "ItemLevel": "87",
-        "LevelReq": 52,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+30% Faster Run/Walk",
-          "+10% Faster Hit Recovery",
-          "+76% Enhanced Defense",
-          "Replenish Life 5 per second",
-          "Cold Resist +37%",
-          "Fire Resist +10%"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "boots"
-      },
-      {
         "Quality": "Unique",
         "ID": "1378554555",
         "QualityCode": "q_unique",
@@ -197901,47 +197867,58 @@
         "Worn": "body"
       },
       {
-        "Quality": "Superior",
-        "ID": "1523964557",
-        "QualityCode": "q_runeword",
-        "Title": "Breath of the Dying",
-        "Tag": "Matriarchal Spear",
-        "TextTag": "Matriarchal Spear",
-        "RuneTag": "VexHelElEldZodEth",
-        "Ethereal": "True",
+        "Quality": "Unique",
+        "ID": "1144047410",
+        "QualityCode": "q_unique",
+        "Title": "Gore Rider",
+        "Tag": "War Boots",
+        "TextTag": "War Boots",
+        "Ethereal": "False",
         "Enhanced": "True",
-        "DamageMinimum": "478",
-        "DamageMaximum": "700",
-        "Durability": "64",
-        "DurabilityMaximum": "64",
+        "Defense": "54",
+        "Durability": "34",
+        "DurabilityMaximum": "24",
+        "ItemLevel": "87",
+        "LevelReq": 47,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+30% Faster Run/Walk",
+          "15% Chance of Crushing Blow",
+          "15% Deadly Strike",
+          "10% Chance of Open Wounds",
+          "+195% Enhanced Defense",
+          "+15 to Dexterity",
+          "+20 Maximum Stamina",
+          "Requirements -25%"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "boots"
+      },
+      {
+        "Quality": "Superior",
+        "ID": "982271554",
+        "QualityCode": "q_runeword",
+        "Title": "Obedience",
+        "Tag": "Matriarchal Pike",
+        "TextTag": "Matriarchal Pike",
+        "RuneTag": "HelKoThulEthFal",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "175",
+        "DamageMaximum": "726",
+        "Durability": "123",
+        "DurabilityMaximum": "114",
         "ItemLevel": "88",
-        "LevelReq": 69,
+        "LevelReq": 60,
         "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Vex Rune",
-            "Tag": "Vex Rune",
-            "TextTag": "Vex Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 55,
-            "SocketCount": "0",
-            "PropertyList": [
-              "7% Mana stolen per hit"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
           {
             "Quality": "Unknown",
             "ID": "0",
@@ -197958,6 +197935,31 @@
               "Requirements -20%"
             ],
             "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ko Rune",
+            "Tag": "Ko Rune",
+            "TextTag": "Ko Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 39,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Dexterity"
+            ],
+            "Position": {
               "x": 1,
               "y": 0
             },
@@ -197971,69 +197973,19 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "El Rune",
-            "Tag": "El Rune",
-            "TextTag": "El Rune",
+            "Title": "Thul Rune",
+            "Tag": "Thul Rune",
+            "TextTag": "Thul Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 11,
+            "LevelReq": 23,
             "SocketCount": "0",
             "PropertyList": [
-              "+50 to Attack Rating",
-              "+1 to Light Radius"
+              "+3 cold damage"
             ],
             "Position": {
               "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Eld Rune",
-            "Tag": "Eld Rune",
-            "TextTag": "Eld Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 11,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+75% Damage to Undead",
-              "+50 to Attack Rating against Undead"
-            ],
-            "Position": {
-              "x": 3,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Zod Rune",
-            "Tag": "Zod Rune",
-            "TextTag": "Zod Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 69,
-            "SocketCount": "0",
-            "PropertyList": [],
-            "Position": {
-              "x": 4,
               "y": 0
             },
             "Size": {
@@ -198058,7 +198010,32 @@
               "-25% Target Defense"
             ],
             "Position": {
-              "x": 5,
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Fal Rune",
+            "Tag": "Fal Rune",
+            "TextTag": "Fal Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 41,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Strength"
+            ],
+            "Position": {
+              "x": 4,
               "y": 0
             },
             "Size": {
@@ -198068,24 +198045,23 @@
             "Worn": ""
           }
         ],
-        "SocketCount": "6",
+        "SocketCount": "5",
         "PropertyList": [
-          "50% Chance to cast level 20 Poison Nova when you Kill an Enemy",
+          "30% Chance to cast level 21 Enflame when you Kill an Enemy",
           "+3 to Javelin and Spear Skills (Amazon Only)",
-          "+60% Increased Attack Speed",
-          "+393% Enhanced Damage",
+          "+40% Faster Hit Recovery",
+          "+375% Enhanced Damage",
           "-25% Target Defense",
-          "+50 to Attack Rating",
-          "+90 to Attack Rating (Based on Character Level)",
-          "+200% Damage to Undead",
-          "+50 to Attack Rating against Undead",
-          "7% Mana stolen per hit",
-          "14% Life stolen per hit",
-          "Prevent Monster Heal",
-          "+30 to all Attributes",
-          "+1 to Light Radius",
+          "+3 cold damage",
+          "-25% to Enemy Fire Resistance",
+          "40% Chance of Crushing Blow",
+          "+260 Defense",
+          "+10 to Strength",
+          "+10 to Dexterity",
+          "All Resistances +25",
+          "Increase Maximum Durability 15%",
           "Requirements -20%",
-          "Ethereal (Cannot be Repaired), Socketed (6)"
+          "Socketed (5)"
         ],
         "Position": {
           "x": 11,
@@ -199419,6 +199395,52 @@
         "Position": {
           "x": 8,
           "y": 6
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Full Rejuvenation Potion",
+        "Tag": "Full Rejuvenation Potion",
+        "TextTag": "Full Rejuv Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 3,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Full Rejuvenation Potion",
+        "Tag": "Full Rejuvenation Potion",
+        "TextTag": "Full Rejuv Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 3,
+          "y": 2
         },
         "Size": {
           "invheight": 1,
@@ -437711,7 +437733,7 @@
     "Class": "Amazon",
     "Stats": {
       "Level": 90,
-      "Experience": 1694493511,
+      "Experience": 1696277567,
       "Strength": 119,
       "Dexterity": 65,
       "Vitality": 341,
@@ -437720,17 +437742,17 @@
       "Life": 1760,
       "BaseMana": 148,
       "Mana": 244,
-      "Gold": 28616,
+      "Gold": 73925,
       "Stashed": 2432509
     },
     "Bonus": {
       "Strength": 129,
-      "Dexterity": 30,
+      "Dexterity": 45,
       "Vitality": 34,
       "Energy": 0,
-      "FireResistance": 170,
+      "FireResistance": 160,
       "MaximumFireResistance": 0,
-      "ColdResistance": 176,
+      "ColdResistance": 139,
       "MaximumColdResistance": 0,
       "LightningResistance": 179,
       "MaximumLightningResistance": 0,
@@ -437739,11 +437761,11 @@
       "MagicFind": 129,
       "GoldFind": 187,
       "FasterCastRate": 0,
-      "FasterHitRecovery": 30,
+      "FasterHitRecovery": 20,
       "IncreasedAttackSpeed": 75,
-      "CrushingBlow": 0,
-      "OpenWounds": 0,
-      "DeadlyStrike": 0,
+      "CrushingBlow": 15,
+      "OpenWounds": 10,
+      "DeadlyStrike": 15,
       "DamageReduction": 26,
       "CooldownReduction": 0,
       "WeaponSetMain": {
@@ -437771,24 +437793,24 @@
         "CooldownReduction": 0
       },
       "WeaponSetOffhand": {
-        "Strength": 30,
-        "Dexterity": 0,
+        "Strength": 10,
+        "Dexterity": 10,
         "Vitality": 0,
         "Energy": 0,
-        "FireResistance": 0,
+        "FireResistance": 25,
         "MaximumFireResistance": 0,
-        "ColdResistance": 0,
+        "ColdResistance": 25,
         "MaximumColdResistance": 0,
-        "LightningResistance": 0,
+        "LightningResistance": 25,
         "MaximumLightningResistance": 0,
-        "PoisonResistance": 0,
+        "PoisonResistance": 25,
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 0,
         "FasterCastRate": 0,
-        "FasterHitRecovery": 0,
-        "IncreasedAttackSpeed": 60,
-        "CrushingBlow": 0,
+        "FasterHitRecovery": 40,
+        "IncreasedAttackSpeed": 0,
+        "CrushingBlow": 40,
         "OpenWounds": 0,
         "DeadlyStrike": 0,
         "DamageReduction": 0,
@@ -438068,40 +438090,6 @@
         "Worn": "helmet"
       },
       {
-        "Quality": "Rare",
-        "ID": "934247562",
-        "QualityCode": "q_rare",
-        "Title": "Shadow Slippers",
-        "Tag": "Greaves",
-        "TextTag": "Plate Boots",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Defense": "16",
-        "Durability": "24",
-        "DurabilityMaximum": "24",
-        "ItemLevel": "87",
-        "LevelReq": 52,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+30% Faster Run/Walk",
-          "+10% Faster Hit Recovery",
-          "+76% Enhanced Defense",
-          "Replenish Life 5 per second",
-          "Cold Resist +37%",
-          "Fire Resist +10%"
-        ],
-        "Position": {
-          "x": 9,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
-        },
-        "Worn": "boots"
-      },
-      {
         "Quality": "Unique",
         "ID": "1378554555",
         "QualityCode": "q_unique",
@@ -438311,47 +438299,58 @@
         "Worn": "body"
       },
       {
-        "Quality": "Superior",
-        "ID": "1523964557",
-        "QualityCode": "q_runeword",
-        "Title": "Breath of the Dying",
-        "Tag": "Matriarchal Spear",
-        "TextTag": "Matriarchal Spear",
-        "RuneTag": "VexHelElEldZodEth",
-        "Ethereal": "True",
+        "Quality": "Unique",
+        "ID": "1144047410",
+        "QualityCode": "q_unique",
+        "Title": "Gore Rider",
+        "Tag": "War Boots",
+        "TextTag": "War Boots",
+        "Ethereal": "False",
         "Enhanced": "True",
-        "DamageMinimum": "478",
-        "DamageMaximum": "700",
-        "Durability": "64",
-        "DurabilityMaximum": "64",
+        "Defense": "54",
+        "Durability": "34",
+        "DurabilityMaximum": "24",
+        "ItemLevel": "87",
+        "LevelReq": 47,
+        "SocketCount": "0",
+        "PropertyList": [
+          "\u00ffc1Corrupted",
+          "+30% Faster Run/Walk",
+          "15% Chance of Crushing Blow",
+          "15% Deadly Strike",
+          "10% Chance of Open Wounds",
+          "+195% Enhanced Defense",
+          "+15 to Dexterity",
+          "+20 Maximum Stamina",
+          "Requirements -25%"
+        ],
+        "Position": {
+          "x": 9,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": "boots"
+      },
+      {
+        "Quality": "Superior",
+        "ID": "982271554",
+        "QualityCode": "q_runeword",
+        "Title": "Obedience",
+        "Tag": "Matriarchal Pike",
+        "TextTag": "Matriarchal Pike",
+        "RuneTag": "HelKoThulEthFal",
+        "Ethereal": "False",
+        "Enhanced": "True",
+        "DamageMinimum": "175",
+        "DamageMaximum": "726",
+        "Durability": "123",
+        "DurabilityMaximum": "114",
         "ItemLevel": "88",
-        "LevelReq": 69,
+        "LevelReq": 60,
         "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Vex Rune",
-            "Tag": "Vex Rune",
-            "TextTag": "Vex Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 55,
-            "SocketCount": "0",
-            "PropertyList": [
-              "7% Mana stolen per hit"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
           {
             "Quality": "Unknown",
             "ID": "0",
@@ -438368,6 +438367,31 @@
               "Requirements -20%"
             ],
             "Position": {
+              "x": 0,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Ko Rune",
+            "Tag": "Ko Rune",
+            "TextTag": "Ko Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 39,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Dexterity"
+            ],
+            "Position": {
               "x": 1,
               "y": 0
             },
@@ -438381,69 +438405,19 @@
             "Quality": "Unknown",
             "ID": "0",
             "QualityCode": "",
-            "Title": "El Rune",
-            "Tag": "El Rune",
-            "TextTag": "El Rune",
+            "Title": "Thul Rune",
+            "Tag": "Thul Rune",
+            "TextTag": "Thul Rune",
             "Ethereal": "False",
             "Enhanced": "False",
             "ItemLevel": "0",
-            "LevelReq": 11,
+            "LevelReq": 23,
             "SocketCount": "0",
             "PropertyList": [
-              "+50 to Attack Rating",
-              "+1 to Light Radius"
+              "+3 cold damage"
             ],
             "Position": {
               "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Eld Rune",
-            "Tag": "Eld Rune",
-            "TextTag": "Eld Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 11,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+75% Damage to Undead",
-              "+50 to Attack Rating against Undead"
-            ],
-            "Position": {
-              "x": 3,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Zod Rune",
-            "Tag": "Zod Rune",
-            "TextTag": "Zod Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 69,
-            "SocketCount": "0",
-            "PropertyList": [],
-            "Position": {
-              "x": 4,
               "y": 0
             },
             "Size": {
@@ -438468,7 +438442,32 @@
               "-25% Target Defense"
             ],
             "Position": {
-              "x": 5,
+              "x": 3,
+              "y": 0
+            },
+            "Size": {
+              "invheight": 1,
+              "invwidth": 1
+            },
+            "Worn": ""
+          },
+          {
+            "Quality": "Unknown",
+            "ID": "0",
+            "QualityCode": "",
+            "Title": "Fal Rune",
+            "Tag": "Fal Rune",
+            "TextTag": "Fal Rune",
+            "Ethereal": "False",
+            "Enhanced": "False",
+            "ItemLevel": "0",
+            "LevelReq": 41,
+            "SocketCount": "0",
+            "PropertyList": [
+              "+10 to Strength"
+            ],
+            "Position": {
+              "x": 4,
               "y": 0
             },
             "Size": {
@@ -438478,24 +438477,23 @@
             "Worn": ""
           }
         ],
-        "SocketCount": "6",
+        "SocketCount": "5",
         "PropertyList": [
-          "50% Chance to cast level 20 Poison Nova when you Kill an Enemy",
+          "30% Chance to cast level 21 Enflame when you Kill an Enemy",
           "+3 to Javelin and Spear Skills (Amazon Only)",
-          "+60% Increased Attack Speed",
-          "+393% Enhanced Damage",
+          "+40% Faster Hit Recovery",
+          "+375% Enhanced Damage",
           "-25% Target Defense",
-          "+50 to Attack Rating",
-          "+90 to Attack Rating (Based on Character Level)",
-          "+200% Damage to Undead",
-          "+50 to Attack Rating against Undead",
-          "7% Mana stolen per hit",
-          "14% Life stolen per hit",
-          "Prevent Monster Heal",
-          "+30 to all Attributes",
-          "+1 to Light Radius",
+          "+3 cold damage",
+          "-25% to Enemy Fire Resistance",
+          "40% Chance of Crushing Blow",
+          "+260 Defense",
+          "+10 to Strength",
+          "+10 to Dexterity",
+          "All Resistances +25",
+          "Increase Maximum Durability 15%",
           "Requirements -20%",
-          "Ethereal (Cannot be Repaired), Socketed (6)"
+          "Socketed (5)"
         ],
         "Position": {
           "x": 11,
@@ -439829,6 +439827,52 @@
         "Position": {
           "x": 8,
           "y": 6
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Full Rejuvenation Potion",
+        "Tag": "Full Rejuvenation Potion",
+        "TextTag": "Full Rejuv Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 3,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Full Rejuvenation Potion",
+        "Tag": "Full Rejuvenation Potion",
+        "TextTag": "Full Rejuv Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 3,
+          "y": 2
         },
         "Size": {
           "invheight": 1,

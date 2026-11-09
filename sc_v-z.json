@@ -2270,11 +2270,11 @@
       "Vitality": 463,
       "Energy": 15,
       "BaseLife": 1684,
-      "Life": 2142,
+      "Life": 2144,
       "BaseMana": 162,
       "Mana": 333,
       "Gold": 0,
-      "Stashed": 259959
+      "Stashed": 455530
     },
     "Bonus": {
       "Strength": 114,
@@ -3870,6 +3870,33 @@
       },
       {
         "Quality": "Magic",
+        "ID": "941192771",
+        "QualityCode": "q_magic",
+        "Title": "Fletcher's Grand Charm of Vita",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "91",
+        "LevelReq": 83,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Bow and Crossbow Skills (Amazon Only)",
+          "+43 to Life"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
         "ID": "2325350074",
         "QualityCode": "q_magic",
         "Title": "Shimmering Grand Charm of Life",
@@ -3887,33 +3914,6 @@
         ],
         "Position": {
           "x": 7,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "3027011730",
-        "QualityCode": "q_magic",
-        "Title": "Fletcher's Grand Charm of Vita",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "91",
-        "LevelReq": 83,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Bow and Crossbow Skills (Amazon Only)",
-          "+41 to Life"
-        ],
-        "Position": {
-          "x": 6,
           "y": 5
         },
         "Size": {
@@ -40343,7 +40343,7 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 97,
-      "Experience": 2963068067,
+      "Experience": 2963503981,
       "Strength": 42,
       "Dexterity": 63,
       "Vitality": 420,
@@ -40353,7 +40353,7 @@
       "BaseMana": 227,
       "Mana": 437,
       "Gold": 0,
-      "Stashed": 1243822
+      "Stashed": 1983093
     },
     "Bonus": {
       "Strength": 99,
@@ -40512,7 +40512,7 @@
         ]
       }
     ],
-    "MercenaryExperience": 117300850,
+    "MercenaryExperience": 118320514,
     "MercenaryType": "Desert Mercenary",
     "MercenaryName": "Vikhyat",
     "MercenaryLevel": "54",
@@ -40871,7 +40871,7 @@
         "Ethereal": "False",
         "Enhanced": "True",
         "Defense": "68",
-        "Durability": "14",
+        "Durability": "16",
         "DurabilityMaximum": "16",
         "ItemLevel": "87",
         "LevelReq": 74,
@@ -40885,7 +40885,7 @@
           "-50 to Monster Defense Per Hit",
           "+114% Enhanced Defense",
           "+8 to Dexterity",
-          "Level 8 Weaken (27/34 Charges)"
+          "Level 8 Weaken (34/34 Charges)"
         ],
         "Position": {
           "x": 10,
@@ -42147,52 +42147,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Normal",
-        "ID": "119644655",
-        "QualityCode": "q_normal",
-        "Title": "Tome of Town Portal",
-        "Tag": "Tome of Town Portal",
-        "TextTag": "Town Portal Book",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "6",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 0,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "567215428",
-        "QualityCode": "q_normal",
-        "Title": "Tome of Identify",
-        "Tag": "Tome of Identify",
-        "TextTag": "Identify Book",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "6",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 1,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Unique",
         "ID": "2379122385",
         "QualityCode": "q_unique",
@@ -42217,6 +42171,52 @@
         },
         "Size": {
           "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "119644655",
+        "QualityCode": "q_normal",
+        "Title": "Tome of Town Portal",
+        "Tag": "Tome of Town Portal",
+        "TextTag": "Town Portal Book",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "6",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 2,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "567215428",
+        "QualityCode": "q_normal",
+        "Title": "Tome of Identify",
+        "Tag": "Tome of Identify",
+        "TextTag": "Identify Book",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "6",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 3,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 2,
           "invwidth": 1
         },
         "Worn": ""
@@ -258522,11 +258522,11 @@
       "Vitality": 463,
       "Energy": 15,
       "BaseLife": 1684,
-      "Life": 2142,
+      "Life": 2144,
       "BaseMana": 162,
       "Mana": 333,
       "Gold": 0,
-      "Stashed": 259959
+      "Stashed": 455530
     },
     "Bonus": {
       "Strength": 114,
@@ -260122,6 +260122,33 @@
       },
       {
         "Quality": "Magic",
+        "ID": "941192771",
+        "QualityCode": "q_magic",
+        "Title": "Fletcher's Grand Charm of Vita",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "91",
+        "LevelReq": 83,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+1 to Bow and Crossbow Skills (Amazon Only)",
+          "+43 to Life"
+        ],
+        "Position": {
+          "x": 6,
+          "y": 5
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Magic",
         "ID": "2325350074",
         "QualityCode": "q_magic",
         "Title": "Shimmering Grand Charm of Life",
@@ -260139,33 +260166,6 @@
         ],
         "Position": {
           "x": 7,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "3027011730",
-        "QualityCode": "q_magic",
-        "Title": "Fletcher's Grand Charm of Vita",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "91",
-        "LevelReq": 83,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+1 to Bow and Crossbow Skills (Amazon Only)",
-          "+41 to Life"
-        ],
-        "Position": {
-          "x": 6,
           "y": 5
         },
         "Size": {
