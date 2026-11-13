@@ -302980,7 +302980,7 @@
       "Vitality": 10,
       "Energy": 430,
       "BaseLife": 239,
-      "Life": 376,
+      "Life": 401,
       "BaseMana": 1011,
       "Mana": 1532,
       "Gold": 271296,
@@ -302991,13 +302991,13 @@
       "Dexterity": 0,
       "Vitality": 0,
       "Energy": 4,
-      "FireResistance": 80,
+      "FireResistance": 75,
       "MaximumFireResistance": 0,
-      "ColdResistance": 89,
+      "ColdResistance": 84,
       "MaximumColdResistance": 0,
-      "LightningResistance": 85,
+      "LightningResistance": 80,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 52,
+      "PoisonResistance": 47,
       "MaximumPoisonResistance": 0,
       "MagicFind": 20,
       "GoldFind": 0,
@@ -303024,7 +303024,7 @@
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 0,
-        "FasterCastRate": 20,
+        "FasterCastRate": 0,
         "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
@@ -303040,15 +303040,15 @@
         "Energy": 0,
         "FireResistance": 0,
         "MaximumFireResistance": 0,
-        "ColdResistance": 57,
-        "MaximumColdResistance": 5,
+        "ColdResistance": 0,
+        "MaximumColdResistance": 0,
         "LightningResistance": 0,
         "MaximumLightningResistance": 0,
         "PoisonResistance": 0,
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 0,
-        "FasterCastRate": 0,
+        "FasterCastRate": 20,
         "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
@@ -303365,77 +303365,6 @@
         "Worn": "belt"
       },
       {
-        "Quality": "Rare",
-        "ID": "773930372",
-        "QualityCode": "q_rare",
-        "Title": "Raven Gyre",
-        "Tag": "Crystalline Globe",
-        "TextTag": "Crystalline Globe",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "DamageMinimum": "10",
-        "DamageMaximum": "26",
-        "Durability": "255",
-        "DurabilityMaximum": "255",
-        "ItemLevel": "86",
-        "LevelReq": 51,
-        "SocketCount": "0",
-        "PropertyList": [
-          "5% Chance to cast level 3 Chain Lightning on attack",
-          "+2 to Cold Skills (Sorceress Only)",
-          "Adds 91-138 Fire damage",
-          "+3 to Shiver Armor (Sorceress Only)",
-          "+25 to Life",
-          "Magic & Elemental Damage Taken Reduced by 3"
-        ],
-        "Position": {
-          "x": 11,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": "sweapon1"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "1537051978",
-        "QualityCode": "q_unique",
-        "Title": "Medusa's Gaze",
-        "Tag": "Aegis",
-        "TextTag": "Aegis",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Block": "44",
-        "Defense": "222",
-        "Durability": "92",
-        "DurabilityMaximum": "92",
-        "ItemLevel": "94",
-        "LevelReq": 76,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+2 to Cold Skills",
-          "-16% to Enemy Cold Resistance",
-          "+10% Increased Fire Damage",
-          "+2 to Shiver Armor",
-          "+186% Enhanced Defense",
-          "+5% to Maximum Cold Resist",
-          "Cold Resist +57%",
-          "Requirements -50%"
-        ],
-        "Position": {
-          "x": 12,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": "sweapon2"
-      },
-      {
         "Quality": "Unique",
         "ID": "3404863838",
         "QualityCode": "q_unique",
@@ -303464,12 +303393,46 @@
           "Casting Frost Nova also Casts Nova"
         ],
         "Position": {
-          "x": 4,
+          "x": 11,
           "y": 0
         },
         "Size": {
           "invheight": 4,
           "invwidth": 2
+        },
+        "Worn": "sweapon1"
+      },
+      {
+        "Quality": "Rare",
+        "ID": "773930372",
+        "QualityCode": "q_rare",
+        "Title": "Raven Gyre",
+        "Tag": "Crystalline Globe",
+        "TextTag": "Crystalline Globe",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "DamageMinimum": "10",
+        "DamageMaximum": "26",
+        "Durability": "255",
+        "DurabilityMaximum": "255",
+        "ItemLevel": "86",
+        "LevelReq": 51,
+        "SocketCount": "0",
+        "PropertyList": [
+          "5% Chance to cast level 3 Chain Lightning on attack",
+          "+2 to Cold Skills (Sorceress Only)",
+          "Adds 91-138 Fire damage",
+          "+3 to Shiver Armor (Sorceress Only)",
+          "+25 to Life",
+          "Magic & Elemental Damage Taken Reduced by 3"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 1
         },
         "Worn": "weapon1"
       }
@@ -303586,33 +303549,6 @@
         },
         "Size": {
           "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "687686603",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Burning",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "86",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "Adds 3-6 Fire damage",
-          "All Resistances +5"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
@@ -705318,7 +705254,7 @@
       "Vitality": 10,
       "Energy": 430,
       "BaseLife": 239,
-      "Life": 376,
+      "Life": 401,
       "BaseMana": 1011,
       "Mana": 1532,
       "Gold": 271296,
@@ -705329,13 +705265,13 @@
       "Dexterity": 0,
       "Vitality": 0,
       "Energy": 4,
-      "FireResistance": 80,
+      "FireResistance": 75,
       "MaximumFireResistance": 0,
-      "ColdResistance": 89,
+      "ColdResistance": 84,
       "MaximumColdResistance": 0,
-      "LightningResistance": 85,
+      "LightningResistance": 80,
       "MaximumLightningResistance": 0,
-      "PoisonResistance": 52,
+      "PoisonResistance": 47,
       "MaximumPoisonResistance": 0,
       "MagicFind": 20,
       "GoldFind": 0,
@@ -705362,7 +705298,7 @@
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 0,
-        "FasterCastRate": 20,
+        "FasterCastRate": 0,
         "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
@@ -705378,15 +705314,15 @@
         "Energy": 0,
         "FireResistance": 0,
         "MaximumFireResistance": 0,
-        "ColdResistance": 57,
-        "MaximumColdResistance": 5,
+        "ColdResistance": 0,
+        "MaximumColdResistance": 0,
         "LightningResistance": 0,
         "MaximumLightningResistance": 0,
         "PoisonResistance": 0,
         "MaximumPoisonResistance": 0,
         "MagicFind": 0,
         "GoldFind": 0,
-        "FasterCastRate": 0,
+        "FasterCastRate": 20,
         "FasterHitRecovery": 0,
         "IncreasedAttackSpeed": 0,
         "CrushingBlow": 0,
@@ -705703,77 +705639,6 @@
         "Worn": "belt"
       },
       {
-        "Quality": "Rare",
-        "ID": "773930372",
-        "QualityCode": "q_rare",
-        "Title": "Raven Gyre",
-        "Tag": "Crystalline Globe",
-        "TextTag": "Crystalline Globe",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "DamageMinimum": "10",
-        "DamageMaximum": "26",
-        "Durability": "255",
-        "DurabilityMaximum": "255",
-        "ItemLevel": "86",
-        "LevelReq": 51,
-        "SocketCount": "0",
-        "PropertyList": [
-          "5% Chance to cast level 3 Chain Lightning on attack",
-          "+2 to Cold Skills (Sorceress Only)",
-          "Adds 91-138 Fire damage",
-          "+3 to Shiver Armor (Sorceress Only)",
-          "+25 to Life",
-          "Magic & Elemental Damage Taken Reduced by 3"
-        ],
-        "Position": {
-          "x": 11,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": "sweapon1"
-      },
-      {
-        "Quality": "Unique",
-        "ID": "1537051978",
-        "QualityCode": "q_unique",
-        "Title": "Medusa's Gaze",
-        "Tag": "Aegis",
-        "TextTag": "Aegis",
-        "Ethereal": "False",
-        "Enhanced": "True",
-        "Block": "44",
-        "Defense": "222",
-        "Durability": "92",
-        "DurabilityMaximum": "92",
-        "ItemLevel": "94",
-        "LevelReq": 76,
-        "SocketCount": "0",
-        "PropertyList": [
-          "\u00ffc1Corrupted",
-          "+2 to Cold Skills",
-          "-16% to Enemy Cold Resistance",
-          "+10% Increased Fire Damage",
-          "+2 to Shiver Armor",
-          "+186% Enhanced Defense",
-          "+5% to Maximum Cold Resist",
-          "Cold Resist +57%",
-          "Requirements -50%"
-        ],
-        "Position": {
-          "x": 12,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
-        },
-        "Worn": "sweapon2"
-      },
-      {
         "Quality": "Unique",
         "ID": "3404863838",
         "QualityCode": "q_unique",
@@ -705802,12 +705667,46 @@
           "Casting Frost Nova also Casts Nova"
         ],
         "Position": {
-          "x": 4,
+          "x": 11,
           "y": 0
         },
         "Size": {
           "invheight": 4,
           "invwidth": 2
+        },
+        "Worn": "sweapon1"
+      },
+      {
+        "Quality": "Rare",
+        "ID": "773930372",
+        "QualityCode": "q_rare",
+        "Title": "Raven Gyre",
+        "Tag": "Crystalline Globe",
+        "TextTag": "Crystalline Globe",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "DamageMinimum": "10",
+        "DamageMaximum": "26",
+        "Durability": "255",
+        "DurabilityMaximum": "255",
+        "ItemLevel": "86",
+        "LevelReq": 51,
+        "SocketCount": "0",
+        "PropertyList": [
+          "5% Chance to cast level 3 Chain Lightning on attack",
+          "+2 to Cold Skills (Sorceress Only)",
+          "Adds 91-138 Fire damage",
+          "+3 to Shiver Armor (Sorceress Only)",
+          "+25 to Life",
+          "Magic & Elemental Damage Taken Reduced by 3"
+        ],
+        "Position": {
+          "x": 4,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 1
         },
         "Worn": "weapon1"
       }
@@ -705924,33 +705823,6 @@
         },
         "Size": {
           "invheight": 2,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Magic",
-        "ID": "687686603",
-        "QualityCode": "q_magic",
-        "Title": "Shimmering Small Charm of Burning",
-        "Tag": "Small Charm",
-        "TextTag": "Charm Small",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "2",
-        "ItemLevel": "86",
-        "LevelReq": 25,
-        "SocketCount": "0",
-        "PropertyList": [
-          "Adds 3-6 Fire damage",
-          "All Resistances +5"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 5
-        },
-        "Size": {
-          "invheight": 1,
           "invwidth": 1
         },
         "Worn": ""
