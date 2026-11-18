@@ -27837,7 +27837,7 @@
       "BaseLife": 1015,
       "Life": 1333,
       "BaseMana": 215,
-      "Mana": 758,
+      "Mana": 789,
       "Gold": 0,
       "Stashed": 1677157
     },
@@ -77474,7 +77474,7 @@
     "Class": "Necromancer",
     "Stats": {
       "Level": 95,
-      "Experience": 2508086629,
+      "Experience": 2508094031,
       "Strength": 115,
       "Dexterity": 128,
       "Vitality": 297,
@@ -77483,7 +77483,7 @@
       "Life": 1190,
       "BaseMana": 213,
       "Mana": 460,
-      "Gold": 0,
+      "Gold": 31072,
       "Stashed": 55382
     },
     "Bonus": {
@@ -77616,9 +77616,14 @@
             "Level": 20
           },
           {
+            "ID": 10,
+            "Name": "Clay Golem",
+            "Level": 1
+          },
+          {
             "ID": 14,
             "Name": "Convocation",
-            "Level": 14
+            "Level": 9
           },
           {
             "ID": 15,
@@ -77626,9 +77631,24 @@
             "Level": 20
           },
           {
+            "ID": 20,
+            "Name": "Blood Golem",
+            "Level": 1
+          },
+          {
+            "ID": 25,
+            "Name": "Iron Golem",
+            "Level": 1
+          },
+          {
+            "ID": 29,
+            "Name": "Fire Golem",
+            "Level": 1
+          },
+          {
             "ID": 30,
             "Name": "Revive",
-            "Level": 7
+            "Level": 8
           }
         ]
       }
@@ -77722,7 +77742,7 @@
           "+7% Faster Run/Walk",
           "Lightning Absorb 10%",
           "12% Better Chance of Getting Magic Items",
-          "Level 9 Heart of Wolverine (16/17 Charges)"
+          "Level 9 Heart of Wolverine (14/17 Charges)"
         ],
         "Position": {
           "x": 7,
@@ -78035,6 +78055,37 @@
         "Worn": "boots"
       },
       {
+        "Quality": "Rare",
+        "ID": "1250387351",
+        "QualityCode": "q_rare",
+        "Title": "Havoc Noose",
+        "Tag": "Amulet",
+        "TextTag": "amulet",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "1",
+        "ItemLevel": "91",
+        "LevelReq": 67,
+        "SocketCount": "0",
+        "PropertyList": [
+          "+2 to Summon Skills",
+          "+2 to Necromancer Skill Levels",
+          "5% Life stolen per hit",
+          "Cold Resist +21%",
+          "Lightning Resist +19%",
+          "16% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 2,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": "amulet"
+      },
+      {
         "Quality": "Unique",
         "ID": "2820892122",
         "QualityCode": "q_unique",
@@ -78164,37 +78215,6 @@
           "invwidth": 2
         },
         "Worn": "sweapon2"
-      },
-      {
-        "Quality": "Rare",
-        "ID": "1250387351",
-        "QualityCode": "q_rare",
-        "Title": "Havoc Noose",
-        "Tag": "Amulet",
-        "TextTag": "amulet",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "1",
-        "ItemLevel": "91",
-        "LevelReq": 67,
-        "SocketCount": "0",
-        "PropertyList": [
-          "+2 to Summon Skills",
-          "+2 to Necromancer Skill Levels",
-          "5% Life stolen per hit",
-          "Cold Resist +21%",
-          "Lightning Resist +19%",
-          "16% Better Chance of Getting Magic Items"
-        ],
-        "Position": {
-          "x": 2,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": "amulet"
       },
       {
         "Quality": "Superior",
@@ -79059,176 +79079,6 @@
         "Size": {
           "invheight": 1,
           "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "2991511620",
-        "QualityCode": "q_runeword",
-        "Title": "Beast",
-        "Tag": "Thunder Maul",
-        "TextTag": "Thunder Maul",
-        "RuneTag": "BerTirUmMalLum",
-        "Ethereal": "True",
-        "Enhanced": "True",
-        "DamageMinimum": "167",
-        "DamageMaximum": "923",
-        "Durability": "108",
-        "DurabilityMaximum": "108",
-        "ItemLevel": "88",
-        "LevelReq": 65,
-        "Sockets": [
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Ber Rune",
-            "Tag": "Ber Rune",
-            "TextTag": "Ber Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 63,
-            "SocketCount": "0",
-            "PropertyList": [
-              "20% Chance of Crushing Blow"
-            ],
-            "Position": {
-              "x": 0,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Tir Rune",
-            "Tag": "Tir Rune",
-            "TextTag": "Tir Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 13,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+2 to Mana after each Kill"
-            ],
-            "Position": {
-              "x": 1,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Um Rune",
-            "Tag": "Um Rune",
-            "TextTag": "Um Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 47,
-            "SocketCount": "0",
-            "PropertyList": [
-              "25% Chance of Open Wounds"
-            ],
-            "Position": {
-              "x": 2,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Mal Rune",
-            "Tag": "Mal Rune",
-            "TextTag": "Mal Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 49,
-            "SocketCount": "0",
-            "PropertyList": [
-              "Prevent Monster Heal"
-            ],
-            "Position": {
-              "x": 3,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          },
-          {
-            "Quality": "Unknown",
-            "ID": "0",
-            "QualityCode": "",
-            "Title": "Lum Rune",
-            "Tag": "Lum Rune",
-            "TextTag": "Lum Rune",
-            "Ethereal": "False",
-            "Enhanced": "False",
-            "ItemLevel": "0",
-            "LevelReq": 37,
-            "SocketCount": "0",
-            "PropertyList": [
-              "+10 to Energy"
-            ],
-            "Position": {
-              "x": 4,
-              "y": 0
-            },
-            "Size": {
-              "invheight": 1,
-              "invwidth": 1
-            },
-            "Worn": ""
-          }
-        ],
-        "SocketCount": "5",
-        "PropertyList": [
-          "Level 9 Fanaticism Aura When Equipped",
-          "+40% Increased Attack Speed",
-          "+242% Enhanced Damage",
-          "+50% Damage to Undead",
-          "20% Chance of Crushing Blow",
-          "25% Chance of Open Wounds",
-          "Prevent Monster Heal",
-          "+3 to Shape Shifting",
-          "+3 to Wearbear",
-          "+35 to Strength",
-          "+10 to Energy",
-          "+2 to Mana after each Kill",
-          "Level 13 Summon Grizzly (5/5 Charges)",
-          "Ethereal (Cannot be Repaired), Socketed (5)"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 2
         },
         "Worn": ""
       }
@@ -86145,17 +85995,17 @@
     "IsDead": true,
     "Class": "Sorceress",
     "Stats": {
-      "Level": 86,
-      "Experience": 1214835983,
+      "Level": 87,
+      "Experience": 1254874418,
       "Strength": 156,
       "Dexterity": 25,
       "Vitality": 274,
       "Energy": 35,
-      "BaseLife": 755,
-      "Life": 871,
-      "BaseMana": 205,
-      "Mana": 387,
-      "Gold": 10748,
+      "BaseLife": 757,
+      "Life": 873,
+      "BaseMana": 207,
+      "Mana": 389,
+      "Gold": 219278,
       "Stashed": 2500000
     },
     "Bonus": {
@@ -86171,8 +86021,8 @@
       "MaximumLightningResistance": 0,
       "PoisonResistance": 94,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 96,
-      "GoldFind": 136,
+      "MagicFind": 99,
+      "GoldFind": 156,
       "FasterCastRate": 70,
       "FasterHitRecovery": 0,
       "IncreasedAttackSpeed": 0,
@@ -86233,12 +86083,12 @@
     "SkillTabs": [
       {
         "Name": "Fire Skills",
-        "Total": 8,
+        "Total": 9,
         "Skills": [
           {
             "ID": 2,
             "Name": "Warmth",
-            "Level": 8
+            "Level": 9
           }
         ]
       },
@@ -86315,10 +86165,10 @@
         ]
       }
     ],
-    "MercenaryExperience": 70784012,
+    "MercenaryExperience": 73269740,
     "MercenaryType": "Desert Mercenary",
     "MercenaryName": "Jemali",
-    "MercenaryLevel": "83",
+    "MercenaryLevel": "84",
     "Equipped": [
       {
         "Quality": "Superior",
@@ -86954,29 +86804,6 @@
         "Size": {
           "invheight": 1,
           "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "894324989",
-        "QualityCode": "q_normal",
-        "Title": "Horadric Cube",
-        "Tag": "Horadric Cube",
-        "TextTag": "Horadric Cube",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "13",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 0,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
         },
         "Worn": ""
       },
@@ -87621,34 +87448,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "1234165817",
-        "QualityCode": "q_unique",
-        "Title": "Gheed's Fortune",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "87",
-        "LevelReq": 62,
-        "SocketCount": "0",
-        "PropertyList": [
-          "123% Extra Gold from Monsters",
-          "Reduces all Vendor Prices 11%",
-          "25% Better Chance of Getting Magic Items"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Magic",
         "ID": "36606904",
         "QualityCode": "q_magic",
@@ -87863,75 +87662,6 @@
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Full Rejuvenation Potion",
-        "Tag": "Full Rejuvenation Potion",
-        "TextTag": "Full Rejuv Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 6,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
         "Title": "Super Healing Potion",
         "Tag": "Super Healing Potion",
         "TextTag": "Greater Healing Potion",
@@ -87944,75 +87674,6 @@
         "Position": {
           "x": 6,
           "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 6,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 6,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Full Rejuvenation Potion",
-        "Tag": "Full Rejuvenation Potion",
-        "TextTag": "Full Rejuv Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 6,
-          "y": 0
         },
         "Size": {
           "invheight": 1,
@@ -88057,8 +87718,54 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 5,
-          "y": 3
+          "x": 6,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "894324989",
+        "QualityCode": "q_normal",
+        "Title": "Horadric Cube",
+        "Tag": "Horadric Cube",
+        "TextTag": "Horadric Cube",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "13",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Greater Healing Potion",
+        "Tag": "Greater Healing Potion",
+        "TextTag": "Strong Healing Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 6,
+          "y": 2
         },
         "Size": {
           "invheight": 1,
@@ -88080,8 +87787,8 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 5,
-          "y": 2
+          "x": 7,
+          "y": 0
         },
         "Size": {
           "invheight": 1,
@@ -88093,9 +87800,9 @@
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Full Rejuvenation Potion",
-        "Tag": "Full Rejuvenation Potion",
-        "TextTag": "Full Rejuv Potion",
+        "Title": "Super Mana Potion",
+        "Tag": "Super Mana Potion",
+        "TextTag": "Greater Mana Potion",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "0",
@@ -88103,7 +87810,30 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 5,
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Greater Healing Potion",
+        "Tag": "Greater Healing Potion",
+        "TextTag": "Strong Healing Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 7,
           "y": 1
         },
         "Size": {
@@ -88126,6 +87856,80 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
+          "x": 6,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Super Mana Potion",
+        "Tag": "Super Mana Potion",
+        "TextTag": "Greater Mana Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 5,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3991937787",
+        "QualityCode": "q_unique",
+        "Title": "Gheed's Fortune",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "85",
+        "LevelReq": 62,
+        "SocketCount": "0",
+        "PropertyList": [
+          "143% Extra Gold from Monsters",
+          "Reduces all Vendor Prices 12%",
+          "28% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Super Mana Potion",
+        "Tag": "Super Mana Potion",
+        "TextTag": "Greater Mana Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
           "x": 5,
           "y": 0
         },
@@ -88150,98 +87954,6 @@
         "PropertyList": [],
         "Position": {
           "x": 4,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 4,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 4,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 4,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 4,
           "y": 0
         },
         "Size": {
@@ -88264,54 +87976,123 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 3,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 2,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 3,
+          "x": 5,
           "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Super Mana Potion",
+        "Tag": "Super Mana Potion",
+        "TextTag": "Greater Mana Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 4,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Sapphire",
+        "Tag": "Sapphire",
+        "TextTag": "Saphire",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 12,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 4,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Rejuvenation Potion",
+        "Tag": "Rejuvenation Potion",
+        "TextTag": "Rejuv Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 4,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Full Rejuvenation Potion",
+        "Tag": "Full Rejuvenation Potion",
+        "TextTag": "Full Rejuv Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 4,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Sapphire",
+        "Tag": "Flawless Sapphire",
+        "TextTag": "Flawless Saphire",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 3,
+          "y": 4
         },
         "Size": {
           "invheight": 1,
@@ -88339,7 +88120,7 @@
         "PropertyList": [
           "+30% Faster Hit Recovery",
           "+155% Enhanced Defense",
-          "+172 Defense (Based on Character Level)",
+          "+174 Defense (Based on Character Level)",
           "+15 to Dexterity",
           "Replenish Life 10 per second",
           "Increase Maximum Mana 15%",
@@ -119573,16 +119354,16 @@
     "Class": "Sorceress",
     "Stats": {
       "Level": 94,
-      "Experience": 2362395598,
+      "Experience": 2362437580,
       "Strength": 155,
       "Dexterity": 25,
       "Vitality": 345,
       "Energy": 35,
       "BaseLife": 909,
-      "Life": 1426,
+      "Life": 1564,
       "BaseMana": 221,
-      "Mana": 357,
-      "Gold": 8547,
+      "Mana": 891,
+      "Gold": 16347,
       "Stashed": 182466
     },
     "Bonus": {
@@ -303980,7 +303761,7 @@
       "BaseLife": 1015,
       "Life": 1333,
       "BaseMana": 215,
-      "Mana": 758,
+      "Mana": 789,
       "Gold": 0,
       "Stashed": 1677157
     },
@@ -357872,17 +357653,17 @@
     "IsDead": true,
     "Class": "Sorceress",
     "Stats": {
-      "Level": 86,
-      "Experience": 1214835983,
+      "Level": 87,
+      "Experience": 1254874418,
       "Strength": 156,
       "Dexterity": 25,
       "Vitality": 274,
       "Energy": 35,
-      "BaseLife": 755,
-      "Life": 871,
-      "BaseMana": 205,
-      "Mana": 387,
-      "Gold": 10748,
+      "BaseLife": 757,
+      "Life": 873,
+      "BaseMana": 207,
+      "Mana": 389,
+      "Gold": 219278,
       "Stashed": 2500000
     },
     "Bonus": {
@@ -357898,8 +357679,8 @@
       "MaximumLightningResistance": 0,
       "PoisonResistance": 94,
       "MaximumPoisonResistance": 0,
-      "MagicFind": 96,
-      "GoldFind": 136,
+      "MagicFind": 99,
+      "GoldFind": 156,
       "FasterCastRate": 70,
       "FasterHitRecovery": 0,
       "IncreasedAttackSpeed": 0,
@@ -357960,12 +357741,12 @@
     "SkillTabs": [
       {
         "Name": "Fire Skills",
-        "Total": 8,
+        "Total": 9,
         "Skills": [
           {
             "ID": 2,
             "Name": "Warmth",
-            "Level": 8
+            "Level": 9
           }
         ]
       },
@@ -358042,10 +357823,10 @@
         ]
       }
     ],
-    "MercenaryExperience": 70784012,
+    "MercenaryExperience": 73269740,
     "MercenaryType": "Desert Mercenary",
     "MercenaryName": "Jemali",
-    "MercenaryLevel": "83",
+    "MercenaryLevel": "84",
     "Equipped": [
       {
         "Quality": "Superior",
@@ -358681,29 +358462,6 @@
         "Size": {
           "invheight": 1,
           "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Normal",
-        "ID": "894324989",
-        "QualityCode": "q_normal",
-        "Title": "Horadric Cube",
-        "Tag": "Horadric Cube",
-        "TextTag": "Horadric Cube",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "13",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 0,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 2,
-          "invwidth": 2
         },
         "Worn": ""
       },
@@ -359348,34 +359106,6 @@
         "Worn": ""
       },
       {
-        "Quality": "Unique",
-        "ID": "1234165817",
-        "QualityCode": "q_unique",
-        "Title": "Gheed's Fortune",
-        "Tag": "Grand Charm",
-        "TextTag": "Charm Large",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "AlternateGraphics": "0",
-        "ItemLevel": "87",
-        "LevelReq": 62,
-        "SocketCount": "0",
-        "PropertyList": [
-          "123% Extra Gold from Monsters",
-          "Reduces all Vendor Prices 11%",
-          "25% Better Chance of Getting Magic Items"
-        ],
-        "Position": {
-          "x": 0,
-          "y": 6
-        },
-        "Size": {
-          "invheight": 3,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
         "Quality": "Magic",
         "ID": "36606904",
         "QualityCode": "q_magic",
@@ -359590,75 +359320,6 @@
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 7,
-          "y": 0
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Full Rejuvenation Potion",
-        "Tag": "Full Rejuvenation Potion",
-        "TextTag": "Full Rejuv Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 6,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
         "Title": "Super Healing Potion",
         "Tag": "Super Healing Potion",
         "TextTag": "Greater Healing Potion",
@@ -359671,75 +359332,6 @@
         "Position": {
           "x": 6,
           "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 6,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 6,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Full Rejuvenation Potion",
-        "Tag": "Full Rejuvenation Potion",
-        "TextTag": "Full Rejuv Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 6,
-          "y": 0
         },
         "Size": {
           "invheight": 1,
@@ -359784,8 +359376,54 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 5,
-          "y": 3
+          "x": 6,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Normal",
+        "ID": "894324989",
+        "QualityCode": "q_normal",
+        "Title": "Horadric Cube",
+        "Tag": "Horadric Cube",
+        "TextTag": "Horadric Cube",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "13",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 0,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 2,
+          "invwidth": 2
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Greater Healing Potion",
+        "Tag": "Greater Healing Potion",
+        "TextTag": "Strong Healing Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 6,
+          "y": 2
         },
         "Size": {
           "invheight": 1,
@@ -359807,8 +359445,8 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 5,
-          "y": 2
+          "x": 7,
+          "y": 0
         },
         "Size": {
           "invheight": 1,
@@ -359820,9 +359458,9 @@
         "Quality": "Unknown",
         "ID": "0",
         "QualityCode": "",
-        "Title": "Full Rejuvenation Potion",
-        "Tag": "Full Rejuvenation Potion",
-        "TextTag": "Full Rejuv Potion",
+        "Title": "Super Mana Potion",
+        "Tag": "Super Mana Potion",
+        "TextTag": "Greater Mana Potion",
         "Ethereal": "False",
         "Enhanced": "False",
         "ItemLevel": "0",
@@ -359830,7 +359468,30 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 5,
+          "x": 6,
+          "y": 0
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Greater Healing Potion",
+        "Tag": "Greater Healing Potion",
+        "TextTag": "Strong Healing Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 7,
           "y": 1
         },
         "Size": {
@@ -359853,6 +359514,80 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
+          "x": 6,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Super Mana Potion",
+        "Tag": "Super Mana Potion",
+        "TextTag": "Greater Mana Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 5,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unique",
+        "ID": "3991937787",
+        "QualityCode": "q_unique",
+        "Title": "Gheed's Fortune",
+        "Tag": "Grand Charm",
+        "TextTag": "Charm Large",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "AlternateGraphics": "0",
+        "ItemLevel": "85",
+        "LevelReq": 62,
+        "SocketCount": "0",
+        "PropertyList": [
+          "143% Extra Gold from Monsters",
+          "Reduces all Vendor Prices 12%",
+          "28% Better Chance of Getting Magic Items"
+        ],
+        "Position": {
+          "x": 0,
+          "y": 6
+        },
+        "Size": {
+          "invheight": 3,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Super Mana Potion",
+        "Tag": "Super Mana Potion",
+        "TextTag": "Greater Mana Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
           "x": 5,
           "y": 0
         },
@@ -359877,98 +359612,6 @@
         "PropertyList": [],
         "Position": {
           "x": 4,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 4,
-          "y": 3
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 4,
-          "y": 2
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 4,
-          "y": 1
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 4,
           "y": 0
         },
         "Size": {
@@ -359991,54 +359634,123 @@
         "SocketCount": "0",
         "PropertyList": [],
         "Position": {
-          "x": 3,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 2,
-          "y": 4
-        },
-        "Size": {
-          "invheight": 1,
-          "invwidth": 1
-        },
-        "Worn": ""
-      },
-      {
-        "Quality": "Unknown",
-        "ID": "0",
-        "QualityCode": "",
-        "Title": "Super Mana Potion",
-        "Tag": "Super Mana Potion",
-        "TextTag": "Greater Mana Potion",
-        "Ethereal": "False",
-        "Enhanced": "False",
-        "ItemLevel": "0",
-        "LevelReq": 0,
-        "SocketCount": "0",
-        "PropertyList": [],
-        "Position": {
-          "x": 3,
+          "x": 5,
           "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Super Mana Potion",
+        "Tag": "Super Mana Potion",
+        "TextTag": "Greater Mana Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 4,
+          "y": 4
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Sapphire",
+        "Tag": "Sapphire",
+        "TextTag": "Saphire",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 12,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 4,
+          "y": 3
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Rejuvenation Potion",
+        "Tag": "Rejuvenation Potion",
+        "TextTag": "Rejuv Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 4,
+          "y": 2
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Full Rejuvenation Potion",
+        "Tag": "Full Rejuvenation Potion",
+        "TextTag": "Full Rejuv Potion",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 0,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 4,
+          "y": 1
+        },
+        "Size": {
+          "invheight": 1,
+          "invwidth": 1
+        },
+        "Worn": ""
+      },
+      {
+        "Quality": "Unknown",
+        "ID": "0",
+        "QualityCode": "",
+        "Title": "Flawless Sapphire",
+        "Tag": "Flawless Sapphire",
+        "TextTag": "Flawless Saphire",
+        "Ethereal": "False",
+        "Enhanced": "False",
+        "ItemLevel": "0",
+        "LevelReq": 15,
+        "SocketCount": "0",
+        "PropertyList": [],
+        "Position": {
+          "x": 3,
+          "y": 4
         },
         "Size": {
           "invheight": 1,
@@ -360066,7 +359778,7 @@
         "PropertyList": [
           "+30% Faster Hit Recovery",
           "+155% Enhanced Defense",
-          "+172 Defense (Based on Character Level)",
+          "+174 Defense (Based on Character Level)",
           "+15 to Dexterity",
           "Replenish Life 10 per second",
           "Increase Maximum Mana 15%",
